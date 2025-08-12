@@ -1,3 +1,4 @@
+@import "./index.css";
 .App {
   text-align: center;
 }
@@ -12,7 +13,12 @@
     animation: App-logo-spin infinite 20s linear;
   }
 }
-
+html, body, #root {
+  margin: 0;
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -35,4 +41,496 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.target-cursor-wrapper,
+.target-cursor-dot,
+.target-cursor-corner{
+  pointer-events: none;
+}
+
+.target-cursor-wrapper {
+  position: fixed;
+  inset: 0; /* usamos transform para posicionar el centro */
+  width: 0; height: 0;
+  pointer-events: none;
+  z-index: 999999; /* por encima de todo */
+  will-change: transform;
+}
+
+.target-cursor-dot {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: 4px;
+  height: 4px;
+  background: #3be9c9;
+  border-radius: 50%;
+  transform: translate(-50%, -50%);
+  will-change: transform;
+}
+
+.target-cursor-corner {
+  position: absolute;
+  left: 0; top: 0;
+  width: 12px; height: 12px;
+  transform: translate(-50%, -50%);
+  border: 3px solid #3be9c9;
+  will-change: transform;
+  background: transparent;
+}
+
+.corner-tl {
+  transform: translate(-150%, -150%);
+  border-right: none;
+  border-bottom: none;
+}
+
+.corner-tr {
+  transform: translate(50%, -150%);
+  border-left: none;
+  border-bottom: none;
+}
+
+.corner-br {
+  transform: translate(50%, 50%);
+  border-left: none;
+  border-top: none;
+}
+
+.corner-bl {
+  transform: translate(-150%, 50%);
+  border-right: none;
+  border-top: none;
+}
+.faulty-terminal-container {
+  width: 100%;
+    height: 100%;
+    position: absolute;
+    overflow: hidden;
+    z-index: -1;
+}
+
+.pixel-button {
+  position: relative;
+  overflow: hidden;
+  border: 2px solid #A1E6F6;
+  background-color: #00031E;
+  color: #A1E6F6;
+  font-size: 14px;
+  padding: 12px 24px;
+  cursor: none; /* oculta cursor normal si quieres usar TargetCursor */
+  text-transform: uppercase;
+}
+
+.pixel-button:focus {
+  outline: none;
+  border-color: #3be9c9;
+}
+
+.pixel-canvas {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+}
+
+.pixel-text {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  flex-direction: row;
+}
+
+
+.explore-page{
+  position:relative;
+  min-height:100dvh;
+  background:var(--bg);
+  color:var(--text);
+  overflow:hidden;
+}
+
+/* izquierda */
+.left-rail{
+  position:absolute; left:48px; top:72px; display:flex; flex-direction:column; gap:28px;
+}
+.pill{
+  background:var(--panel);
+  color:var(--white);
+  border:none;
+  border-radius:12px;
+  padding:14px 16px;
+  display:flex; align-items:center; gap:12px;
+  font-size:18px; line-height:1.2; text-align:left;
+  cursor:pointer;
+  box-shadow:0 1px 0 rgba(255,255,255,0.06) inset, 0 8px 24px rgba(0,0,0,.35);
+  transition:transform .15s ease, background .15s ease;
+}
+.pill:hover{ transform: translateY(-2px); background:var(--panel2); }
+.pill .icon{ background:#5ccad5; color:#0b2832; width:40px; height:40px; display:grid; place-items:center; border-radius:50%; font-weight:700; }
+
+/* derecha */
+.levels-vertical {
+  position: absolute;
+  top: 96px;
+  right: 56px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 28px;
+  color: #9bb3bb;
+}
+
+/* conector vertical */
+.track-vertical {
+  width: 2px;
+  height: 64px;
+  background: #7aa0a6;
+  opacity: 0.5;
+}
+
+/* cada “node” ahora es botón vertical: caja + caption */
+.level-item {
+  background: transparent;
+  border: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+  cursor: pointer;
+  color: inherit;
+}
+
+
+/* base */
+.box {
+  width: 56px;
+  height: 56px;
+  border-radius: 0px;             
+  display: grid;
+  place-items: center;
+  position: relative;
+  box-shadow: 0 0 0 2px rgba(0,0,0,.35);
+}
+
+/* activo: simulamos el anillo interior con un inset grande */
+.box--active {
+  background: #9be5ef;
+  color: #0b2832;
+  box-shadow:
+    0 0 0 8px #3c8f9b inset,        /* “anillo” interior */
+    0 0 0 2px rgba(0,0,0,.35);      /* borde externo */
+  transform: translateZ(0);          /* evita artefactos en algunos navegadores */
+}
+
+/* inactivo: cuadrado más pequeño y oscuro */
+.box--inactive {
+  width: 36px;
+  height: 36px;
+  background: #5e7a87;
+  color: #cfeeed;
+}
+
+/* número centrado (opcional; comenta si no quieres número) */
+.box-num {
+  font-weight: 700;
+  font-size: 14px;
+}
+
+/* caption como en tu timeline */
+.level-item .caption {
+  font-size: 12px;
+  letter-spacing: 1px;
+}
+
+/* hover/active sutiles */
+.level-item:hover .box--inactive { filter: brightness(1.08);   background: #9be5ef;  color: #0b2832;}
+.level-item.is-active .caption { color: #cfeeed;   font-weight: 700;  }
+
+/* responsive suave */
+@media (max-width: 900px) {
+  .levels-vertical { right: 24px; }
+}
+
+
+/* timeline */
+/* Contenedor principal, centrado abajo */
+.timeline {
+  position: absolute;
+  bottom: 72px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  align-items: center;
+  gap: 28px;                 /* separación entre segmentos (card/texto y la línea) */
+  color: #9bb3bb;
+}
+
+/* Cada par: botón + la línea que le sigue */
+.timeline-segment {
+  display: flex;
+  align-items: center;
+  gap: 28px;                 /* hueco entre el botón y su track */
+}
+
+/* ===== Botón de tiempo ===== */
+.time-item {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  display: grid;
+  place-items: center;
+  color: inherit;            /* hereda el color del contenedor */
+}
+
+/* Texto por defecto (inactivo) */
+.time-label {
+  font-size: 12px;
+  letter-spacing: 1px;
+  font-weight: 700;          
+  color: #bfe7f0;            /* azulado claro para contraste */
+  white-space: nowrap;
+  padding: 14px 18px;
+}
+
+
+
+/* Rectángulo del activo (oculto por defecto) */
+.time-card {
+  display: none;
+  padding: 14px 18px;
+  background:#9be5ef;       /* celeste del ejemplo */
+  color: #0b2933;            /* texto oscuro */
+    box-shadow:
+    0 0 0 8px #3c8f9b inset,        /* “anillo” interior */
+    0 0 0 2px rgba(0,0,0,.35);      /* borde externo */
+  transform: translateZ(0);    
+  font-weight: 700;
+  font-size: 12px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  white-space: nowrap;
+  border-radius: 0;          /* esquinas rectas como en la imagen */
+
+}
+
+/* Estado activo: muestra card y oculta label */
+.time-item.is-active .time-card { display: block; }
+.time-item.is-active .time-label { display: none; }
+
+/* Línea entre elementos */
+.timeline .track {
+  width: 240px;
+  height: 2px;
+  background: #7aa0a6;
+  opacity: 0.5;
+}
+
+/* Interacciones sutiles */
+.time-item:not(.is-active):hover .time-label { color: #e1fbff; }
+.time-item.is-active:hover .time-card { filter: brightness(1.03); }
+
+/* Responsivo: acorta las líneas si hay poco ancho */
+@media (max-width: 900px) {
+  .timeline { gap: 20px; }
+  .timeline-segment { gap: 20px; }
+  .timeline .track { width: 160px; }
+}
+
+
+
+/* Coachmarks */
+.coach-overlay{
+  position:fixed; inset:0; background:rgba(0,0,0,.45);
+  z-index:10000;
+}
+.coach-bubble{
+  position:fixed; z-index:10001; background:#1d4e55; color:var(--white);
+  border-radius:12px; padding:14px 16px 12px; box-shadow:0 16px 48px rgba(0,0,0,.5);
+}
+.coach-body{ font-size:16px; line-height:1.35; }
+.coach-actions{ display:flex; justify-content:flex-end; gap:10px; margin-top:10px; }
+.btn{ background:var(--accent); color:#003833; border:none; border-radius:8px; padding:8px 12px; font-weight:700; cursor:pointer; scale: 70%; }
+.btn.ghost{ background:transparent; color:#cfeeed; border:1px solid #6ddac0; scale: 70%; }
+.coach-steps{ position:absolute; bottom:-26px; right:8px; font-size:12px; opacity:.8; }
+
+/* flechitas */
+.coach-bubble::after{
+  content:""; position:absolute; width:0; height:0; border:8px solid transparent;
+}
+.coach-arrow-top::after{ bottom:100%; left:32px; border-bottom-color:#1d4e55; }
+.coach-arrow-bottom::after{ top:100%; left:32px; border-top-color:#1d4e55; }
+.coach-arrow-left::after{ right:100%; top:24px; border-right-color:#1d4e55; }
+.coach-arrow-right::after{ left:100%; top:24px; border-left-color:#1d4e55; }
+
+/* botón ayuda */
+.help-fab{
+  position:fixed; right:18px; bottom:18px; width:44px; height:44px; border-radius:50%;
+  background:var(--panel2); color:var(--white); border:1px solid rgba(255,255,255,.15);
+  box-shadow:0 10px 25px rgba(0,0,0,.35);
+  cursor:pointer; font-weight:900; font-size:18px;
+}
+/* Overlay + spotlight (agujero) */
+.coach-overlay{
+  position:fixed; inset:0; z-index:10000;
+  /* fondo realmente lo pone la sombra del spot; mantenlo transparente aquí */
+  background: transparent;
+}
+.coach-spot{
+  position:absolute; border-radius:9999px; pointer-events:none;
+  /* truco: gran box-shadow oscurece todo menos el círculo */
+  box-shadow: 0 0 0 9999px rgba(0,0,0,.55);
+}
+
+/* Burbuja única */
+.coach-bubble{
+  position:fixed; z-index:10001; background:#1d4e55; color:#e6fbf7;
+  border-radius:12px; padding:14px 16px 12px;
+  box-shadow:0 16px 48px rgba(0,0,0,.5);
+}
+.coach-bubble::after{ content:""; position:absolute; width:0;height:0;border:8px solid transparent; }
+.coach-arrow-top::after{ bottom:100%; left:32px; border-bottom-color:#1d4e55; }
+.coach-arrow-bottom::after{ top:100%; left:32px; border-top-color:#1d4e55; }
+.coach-arrow-left::after{ right:100%; top:24px; border-right-color:#1d4e55; }
+.coach-arrow-right::after{ left:100%; top:24px; border-left-color:#1d4e55; }
+
+.coach-body{ font-size:16px; line-height:1.35; }
+.coach-actions{ display:flex; justify-content:flex-end; gap:10px; margin-top:10px; }
+.btn{ background:#2ef2c2; color:#003833; border:none; border-radius:0px; padding:8px 12px; font-weight:700; cursor:pointer; }
+.btn.ghost{ background:transparent; color:#cfeeed; border:1px solid #6ddac0; }
+.coach-steps{ position:absolute; bottom:-26px; right:8px; font-size:12px; opacity:.8; }
+
+/* Iconos redondos de la izquierda (sin mensajes fijos) */
+.left-rail{ position:absolute; left:48px; top:72px; display:flex; flex-direction:column; gap:28px; }
+.round-cta {
+  width: 44px;
+  height: 44px;
+  border: none;
+  border-radius: 0px;
+  background: #2c4755;      /* fondo oscuro */
+  color: #9be5ef;           /* color del icono */
+  display: grid;
+  place-items: center;
+  box-shadow: 0 8px 24px rgba(0,0,0,.35);
+}
+.round-cta:hover {
+  background: #A1E6F6;      /* fondo oscuro */
+  color: #00031E;           /* color del icono */
+ 
+}
+.round-cta.has-badge { 
+  position: relative; }
+.cta-badge{
+  position:absolute; 
+  top:-6px; 
+  right:-6px;
+  min-width:22px; 
+  height:22px; 
+  padding:0 6px; 
+  border-radius:999px;
+  display:inline-flex; 
+  align-items:center; justify-content:center;
+  font-size:12px; 
+  font-weight:800; 
+  line-height:1;
+  background:#3be9c9; 
+  color:#0B0F1A;
+   box-shadow:0 0 0 2px #0B0F1A;
+}
+
+
+.round-cta svg {
+  display: block;
+}
+.help-fab {
+  width: 36px;
+  height: 36px;
+  border: none;
+  border-radius: 0px;
+  background: #2c4755;      /* fondo oscuro */
+  color: #9be5ef;           /* color del icono */
+ 
+  box-shadow: 0 8px 24px rgba(0,0,0,.35);
+}
+.help-fab:hover {
+  background: #A1E6F6;      /* fondo oscuro */
+  color: #00031E;           /* color del icono */
+ 
+}
+
+
+.faulty-terminal-fullscreen{
+  position: fixed;
+  inset: 0;           /* top/right/bottom/left: 0 */
+  width: 100vw;
+  height: 100vh;
+  pointer-events: none;
+  z-index: 0;         
+}
+
+.target-cursor-wrapper,
+.target-cursor-dot,
+.target-cursor-corner{
+  pointer-events: none;
+}
+.text-type {
+  display: inline-block;
+  white-space: pre-wrap;
+}
+
+.text-type__cursor {
+  margin-left: 0.25rem;
+  display: inline-block;
+  opacity: 1;
+}
+
+.text-type__cursor--hidden {
+  display: none;
+}
+
+/* PIXEL IMG */
+.pixelated-image-card {
+  background-color: transparent;
+  color: var(--color-primary, #fff);
+  
+  width: auto;
+  max-width: 100%;
+  position: relative;
+  overflow: hidden;
+}
+
+.pixelated-image-card__default,
+.pixelated-image-card__active,
+.pixelated-image-card__pixels {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 3rem;
+}
+
+.pixelated-image-card__active {
+  z-index: 2;
+}
+
+.pixelated-image-card__active {
+  display: none;
+}
+
+.pixelated-image-card__pixels {
+  pointer-events: none;
+  position: absolute;
+  z-index: 3;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.pixelated-image-card__pixel {
+  display: none;
+  position: absolute;
 }

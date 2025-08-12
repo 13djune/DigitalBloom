@@ -1,16 +1,23 @@
-import logo from './logo.svg';
-import './App.css';
-import Header from './components/Header';
+import { Routes, Route } from "react-router-dom";
+import Index from "./pages/Index";
+import About from "./pages/About";
+import Explore from "./pages/Explore";
+import NotFound from "./pages/NotFound";
+import TargetCursor from "./components/TargetCursor";
 
 export default function App() {
   return (
     <>
-    <Header />
-    <main className="bg-background text-text min-h-screen p-8">
-      {/* tus secciones aquí */}
-    </main>
-  </>
-  
+      <TargetCursor />
+    <div>
+
+      <Routes>
+        <Route path="/" element={<Index />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/explore" element={<Explore />} />
+        <Route path="*" element={<NotFound />} />
+      </Routes>
+    </div>
+    </>
   );
 }
-

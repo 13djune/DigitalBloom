@@ -11,19 +11,32 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        yellow: {
-          50: '#FFFAE5',
-          100: '#FFF5CC',
-          200: '#FFEB99',
-          300: '#FFE066',
-          400: '#FFD633',
-          500: '#FFCC00',
-          600: '#CCA300',
-          700: '#997A00',
-          800: '#665200',
-          900: '#332900',
-          950: '#1A1400',
-        },
+      primary: {
+      50: "#F6FDFE",
+      100: "#ECFAFD",
+      200: "#DAF5FB",
+      300: "#C7F0FA",
+      400: "#B5EBF8",
+      500: "#A1E6F6",
+      600: "#57D2EF",
+      700: "#15B9DF",
+      800: "#0E7C95",
+      900: "#073E4A",
+      950: "#041F25"
+    },
+  secondary: {
+      50: "#E6E7FC",
+      100: "#CDCEF9",
+      200: "#9DA1F3",
+      300: "#6A72EC",
+      400: "#2E40DF",
+      500: "#19258D",
+      600: "#131D75",
+      700: "#0E1761",
+      800: "#09104F",
+      900: "#040834",
+      950: "#020423"
+    },
         black: {
           50: '#E6E6E6',
           100: '#CCCCCC',
@@ -33,7 +46,7 @@ module.exports = {
           500: '#000000',
         },
         white: '#F5F5F5',
-
+        accent: '#3be9c9',
         neutral: {
           0: '#0000001a',
           200: '#E5E5E5',
@@ -53,9 +66,9 @@ module.exports = {
           300: '#A21919',
         },
 
-        // 🎯 Aquí está la magia: con funciones CSS
+        
         primary: 'var(--primary-color)',
-        background: 'var(--bg-color)',
+        background: '#00031E',
         text: {
           DEFAULT: 'var(--text-color)',
           inverse: 'var(--text-inverse-color)',

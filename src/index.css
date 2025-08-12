@@ -2,32 +2,40 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face{
+  font-family: "PixelFont";
+  src: url("./assets/fonts/PixelatedEleganceRegular-ovyAA.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
 :root {
-  --primary-color: #FFCC00;
-  --text-color: #000000;
-  --text-inverse-color: #ffffff;
-  --bg-color: #ffffff;
+  --primary-color: #A1E6F6;
+  --secondary-color: #19258D; 
+  --text-color: #e8e8e8;
+  --text-inverse-color: #000000;
+  --bg-color: #00031E;
+  --font-sans: "PixelFont", system-ui, -apple-system, "Segoe UI", Roboto, Arial, sans-serif;
+
 }
 
-.dark {
+/* .dark {
   --primary-color: #FED636;
   --text-color: #ffffff;
   --text-inverse-color: #000000;
   --bg-color: #000000;
-}
+} */
 
 
 
-body {
+html, body, #root {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: var(--font-sans);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: "PixelFont", source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
