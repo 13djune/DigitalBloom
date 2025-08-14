@@ -1,0 +1,64 @@
+.data-panel {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 360px;
+    height: 100%;
+    background: #0C1020;
+    color: #D8E1FF;
+    padding: 24px;
+    z-index: 99;
+    box-shadow: -6px 0 20px rgba(0,0,0,0.35);
+    display: flex;
+    flex-direction: column;
+    overflow-y: auto;
+  }
+  
+  .btn-close {
+    position: absolute;
+    top: 12px;
+    right: 12px;
+    background: none;
+    border: none;
+    color: #D8E1FF;
+    font-size: 24px;
+    cursor: pointer;
+  }
+  
+  .platform {
+    font-size: 12px;
+    opacity: 0.7;
+  }
+  
+  .title {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 6px 0;
+  }
+  
+  .artists {
+    font-size: 14px;
+    opacity: 0.85;
+  }
+  
+  .rank {
+    margin-top: 10px;
+    color: #9AE6B4;
+    font-size: 14px;
+  }
+  
+  .tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+    margin-top: 10px;
+  }
+  
+  .tag {
+    font-size: 11px;
+    background: rgba(82,39,255,0.15);
+    border: 1px solid rgba(82,39,255,0.4);
+    padding: 3px 6px;
+    border-radius: 999px;
+  }
+  

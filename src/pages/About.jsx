@@ -120,9 +120,9 @@ export default function About() {
       <p style={{ fontWeight: 900, fontSize: "3rem", color: "#ffffff" }}>Meow!</p>
     </div>
   }
-  gridSize={50}
-  pixelColor='#A1E6F6'
-  animationStepDuration={0.6}
+  gridSize={20}
+  pixelColor='#00031E'
+  animationStepDuration={1}
   className="custom-pixel-card"
 />
             </div>

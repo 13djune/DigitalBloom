@@ -5,7 +5,7 @@ export default function Header() {
     <header className="w-full flex justify-between items-center px-6 py-4 border-b border-neutral-200 dark:border-neutral-800 bg-background text-text">
       {/* 1. Logo */}
       <div className="text-xl font-bold tracking-tight">
-        <a href="#home">ChariLi</a>
+        <a href="#home">EvolvingSelf</a>
       </div>
 
       {/* 2. Nav links */}

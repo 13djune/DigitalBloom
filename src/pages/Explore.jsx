@@ -5,6 +5,8 @@ import { Icon } from "@iconify/react";
 import Filters from "../components/Filters";
 import "../App.css";
 import { Link, useLocation } from "react-router-dom";
+import DataDotGrid from "../components/DataDotGrid";
+import DataPanel from "../components/DataPanel"; 
 
 /* ---------------------------------- */
 /* Flag primera visita (tutorial)     */
@@ -22,6 +24,7 @@ const useFirstVisitFlag = (key = "explore_tutorial_seen") => {
 
   return { shouldShow, markSeen };
 };
+
 
 /* ---------------------------------- */
 /* Walkthrough                        */
@@ -218,13 +221,46 @@ export default function Explore() {
     setActiveLevel(level);          // UI niveles
     setActiveTime(time);            // UI tiempo
   }, [location.search]);
+  const dummyData = [
+    {
+      id: 1,
+      title: "Track 1",
+      artists: "Artista 1",
+      awareness: 1,
+      timeBucket: "4w",
+      platformId: 1,
+      rank: 1,
+      tags: ["Pop", "Inglés"]
+    },
+    {
+      id: 2,
+      title: "Track 2",
+      artists: "Artista 2",
+      awareness: 2,
+      timeBucket: "6m",
+      platformId: 2,
+      rank: 3,
+      tags: ["Rock", "Español"]
+    },
+    {
+      id: 3,
+      title: "Track 3",
+      artists: "Artista 3",
+      awareness: 3,
+      timeBucket: "1y",
+      platformId: 3,
+      rank: 2,
+      tags: ["Electroclash"]
+    }
+  ];
+  const [selectedItem, setSelectedItem] = useState(null);
 
   return (
     <div className="explore-page bg-background">
       <TargetCursor targetSelector=".cursor-target" />
 
       {/* Izquierda: botones de filtro e info */}
-      <div className="left-rail">
+      <div className="left-rail z-40">
         <button
           id="btn-filter"
           className="round-cta cursor-target has-badge"
@@ -264,7 +300,7 @@ export default function Explore() {
       />
 
       {/* Derecha: niveles estilo timeline vertical */}
-      <div className="levels-vertical">
+      <div className="levels-vertical z-40">
         {levels.map((lv, i) => (
           <React.Fragment key={lv.id}>
             <button
@@ -285,7 +321,7 @@ export default function Explore() {
       </div>
 
       {/* Abajo: timeline */}
-      <div id="timeline" className="timeline">
+      <div id="timeline" className="timeline z-40">
         {times.map((t, i) => (
           <div key={t.id} className="timeline-segment">
             <button
@@ -303,7 +339,7 @@ export default function Explore() {
 
       {/* Re-abrir tutorial si ya fue visto */}
       <button
-        className="help-fab cursor-target"
+        className="help-fab cursor-target z-40"
         onClick={() => { setStep(0); setOpen(true); }}
         aria-label="Ver tutorial"
         title="Ver tutorial"
@@ -319,6 +355,22 @@ export default function Explore() {
         onNext={handleNext}
         onSkip={handleSkip}
       />
+   <DataDotGrid
+  data={dummyData}
+  filters={appliedFilters || { level: 1, time: 1, platforms: [], tags: [] }}
+  onSelect={(item) => {
+    setSelectedItem(item);
+  }}
+/>
+<DataPanel
+  item={selectedItem}
+  onClose={() => {
+    setSelectedItem(null);
+    window.dispatchEvent(new CustomEvent('datadotgrid', { detail: 'DATADOTGRID_CLEAR_ACTIVE' }));
+  }}
+/>
+
+
     </div>
   );
 }

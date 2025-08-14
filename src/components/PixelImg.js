@@ -5,9 +5,9 @@ import "../App.css";
 function PixelTransition({
   firstContent,
   secondContent,
-  gridSize = 50,
+  gridSize = 15,
   pixelColor = 'currentColor',
-  animationStepDuration = 0.6,
+  animationStepDuration = 1,
   className = '',
   style = {},
   aspectRatio = '100%',
