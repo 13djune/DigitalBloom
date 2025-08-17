@@ -62,6 +62,8 @@ export default function Filters({ open, onClose, onApply, onReset, initialState 
       { name: "Japones", type: "lang" }, { name: "Coreano", type: "lang" }, { name: "Otro", type: "lang" },
       // meta
       { name: "@email", type: "meta" }, { name: "#tlf", type: "meta" },
+      // dispositivo
+      { name: "Movil", type: "dispositivo" }, { name: "Ordenador", type: "dispositivo" }, { name: "Television", type: "dispositivo" }, { name: "iPad", type: "dispositivo" },
       // state
       { name: "Liked", type: "state" }, { name: "Saved", type: "state" },
       { name: "Commented", type: "state" },
