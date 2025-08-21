@@ -54,22 +54,27 @@ export default function Filters({ open, onClose, onApply, onReset, initialState 
       // topic
       { name: "Humor", type: "topic" }, { name: "Horror", type: "topic" },
       { name: "Drama", type: "topic" }, { name: "Accion", type: "topic" },
+      { name: "Tranquilo", type: "topic" },   { name: "Educativo", type: "topic" },
       { name: "Ficcion", type: "topic" }, { name: "Animacion", type: "topic" },
       { name: "Videojuegos", type: "topic" }, { name: "Juegos", type: "topic" },
-      { name: "Romance", type: "topic" }, { name: "Ocio", type: "topic" },
+      { name: "Romance", type: "topic" }, { name: "Entretenimiento", type: "topic" },
+      { name: "Música", type: "topic" },   { name: "Arte", type: "topic" },   { name: "Tecnología", type: "topic" },
       // lang
       { name: "Español", type: "lang" }, { name: "Ingles", type: "lang" },
       { name: "Japones", type: "lang" }, { name: "Coreano", type: "lang" }, { name: "Otro", type: "lang" },
       // meta
       { name: "@email", type: "meta" }, { name: "#tlf", type: "meta" },
       // dispositivo
-      { name: "Movil", type: "dispositivo" }, { name: "Ordenador", type: "dispositivo" }, { name: "Television", type: "dispositivo" }, { name: "iPad", type: "dispositivo" },
+      { name: "Teléfono", type: "dispositivo" }, { name: "Ordenador", type: "dispositivo" }, { name: "Television", type: "dispositivo" }, { name: "iPad", type: "dispositivo" },
       // state
       { name: "Liked", type: "state" }, { name: "Saved", type: "state" },
       { name: "Commented", type: "state" },
       // Consciencia
       { name: "Inconsciente", type: "consciencia" },
-      { name: "Propio", type: "consciencia" }, { name: "Contaminado", type: "consciencia" },
+      { name: "Propio", type: "consciencia" }, 
+      { name: "Contaminado", type: "consciencia" },
+      { name: "Consciente", type: "consciencia" }, 
+      { name: "Compartido", type: "consciencia" },
       // genre
       { name: "Hip Hop", type: "genre" },
       { name: "R&B", type: "genre" }, { name: "Latin Trap", type: "genre" },

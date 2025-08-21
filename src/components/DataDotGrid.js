@@ -5,7 +5,7 @@ import { InertiaPlugin } from 'gsap/InertiaPlugin';
 
 gsap.registerPlugin(InertiaPlugin);
 
-// --- UTILIDADES (sin cambios) ---
+// --- UTILIDADES ---
 const hexToRgb = hex => {
   const m = hex?.match(/^#?([a-f\d]{2})([a-f\d]{2})([a-f\d]{2})$/i);
   return m ? { r: parseInt(m[1], 16), g: parseInt(m[2], 16), b: parseInt(m[3], 16) } : { r: 0, g: 0, b: 0 };
@@ -18,8 +18,23 @@ const throttle = (fn, ms) => {
   };
 };
 
-const DEFAULT_PLATFORM_ID_TO_KEY = { 1: 'SPOTIFY', 2: 'YOUTUBE', 3: 'TIKTOK', 4: 'INSTAGRAM', 5: 'TWITTER', 6: 'REELS', 7: 'SHORTS', 8: 'TWITCH' };
-const DEFAULT_PLATFORM_KEY_TO_ID = Object.fromEntries(Object.entries(DEFAULT_PLATFORM_ID_TO_KEY).map(([id, k]) => [k, Number(id)]));
+// Mapeo actualizado para nivel de conciencia 2 (CUERPO)
+const DEFAULT_PLATFORM_ID_TO_KEY = { 
+    1: 'SPOTIFY', 
+    2: 'YOUTUBE',   
+    3: 'TIKTOK',      
+    4: 'INSTAGRAM',    
+    5: 'IPHONE',   
+    6: 'WHATSAPP',     
+    7: 'STREAMING',      
+    8: 'GOOGLEMAPS',  
+    9: '',
+    10: '',
+    11: '',
+    12: '',
+    13: '',    
+  };
+  const DEFAULT_PLATFORM_KEY_TO_ID = Object.fromEntries(Object.entries(DEFAULT_PLATFORM_ID_TO_KEY).map(([id, k]) => [k, Number(id)]));
 const TIME_ID_TO_BUCKET = { 1: '4w', 2: '6m', 3: '1y' };
 
 const pseudoRandom = (seed) => {
@@ -39,25 +54,30 @@ export default function DataDotGrid({
   dotSize = 12,
   gap = 16,
   baseColor = '#1B1F3A',
-  activeColor = '#4A67FF',
+  activeColor = '#19258D',
   proximity = 120,
   speedTrigger = 120,
   resistance = 700,
   returnDuration = 1.25,
   hitTestPadding = 15,
-  colorMapping = { SPOTIFY: '#39D353', YOUTUBE: '#FF5353', TIKTOK: '#A78BFA', INSTAGRAM: '#FF9AE6', TWITCH: '#8B5CF6', TWITTER: '#1DA1F2', REELS: '#FF7EB6', SHORTS: '#FFB347' },
+  colorMapping = { 
+    SPOTIFY: '#39D353', 
+    YOUTUBE: '#FF5353', 
+    TIKTOK: '#A78BFA', 
+    INSTAGRAM: '#FF9AE6', 
+    TWITCH: '#8B5CF6', 
+    TWITTER: '#1DA1F2', 
+    REELS: '#FF7EB6', 
+    SHORTS: '#FFB347' },
   sizeBy = 'rank',
   sizeRange = [10, 22],
   hoverScale = 1.2,
-  // ==========================================================
-  //  CAMBIO 1: Aumentamos la distancia del tooltip.
-  //  Cambiamos el offset en 'x' y ponemos 'y' a 0 para centrarlo verticalmente con el punto.
-  // ==========================================================
   tooltipOffset = { x: 30, y: 0 },
   onSelect
 }) {
   const wrapRef = useRef(null);
   const canvasRef = useRef(null);
+  const tooltipRef = useRef(null);
   const dotsRef = useRef([]);
   const nodesRef = useRef([]);
   const [hover, setHover] = useState(null);
@@ -295,108 +315,178 @@ export default function DataDotGrid({
         const sourceY = dot.cy + dot.yOffset;
         setTooltip({
             item: hover.item,
-            x: sourceX + tooltipOffset.x,
-            y: sourceY + tooltipOffset.y,
             sourceX,
             sourceY,
         });
     }
-  }, [hover, active, tooltipOffset]);
+  }, [hover, active]);
+  
+  // ==========================================================
+  //  LÓGICA DE POSICIONAMIENTO HORIZONTAL Y VERTICAL
+  // ==========================================================
+  useEffect(() => {
+    if (tooltip && tooltipRef.current && !tooltip.style) {
+      const tipRect = tooltipRef.current.getBoundingClientRect();
+      const winWidth = window.innerWidth;
+      const winHeight = window.innerHeight;
+      const verticalMargin = 15; // Margen vertical para que no quede pegado
+
+      // --- CÁLCULO HORIZONTAL ---
+      let finalX, lineEndX;
+      if (tooltip.sourceX > winWidth / 2) {
+          finalX = tooltip.sourceX - tipRect.width - tooltipOffset.x;
+          lineEndX = finalX + tipRect.width;
+          if (finalX < 0) {
+              finalX = tooltip.sourceX + tooltipOffset.x;
+              lineEndX = finalX;
+          }
+      } else {
+          finalX = tooltip.sourceX + tooltipOffset.x;
+          lineEndX = finalX;
+          if (finalX + tipRect.width > winWidth) {
+              finalX = tooltip.sourceX - tipRect.width - tooltipOffset.x;
+              lineEndX = finalX + tipRect.width;
+          }
+      }
+
+      // --- CÁLCULO VERTICAL ---
+      let finalY, lineEndY;
+      // El transform CSS es 'translateY(-50%)', por lo que `finalY` es el centro del tooltip.
+      if (tooltip.sourceY > winHeight / 2) {
+          // Si el punto está abajo, PREFERIMOS poner el tooltip ARRIBA
+          finalY = tooltip.sourceY - (tipRect.height / 2) - verticalMargin;
+          lineEndY = finalY + tipRect.height / 2; // La línea conecta con el borde inferior del tooltip
+
+          // Comprobación de seguridad: si se sale por arriba, lo forzamos abajo
+          if (finalY - tipRect.height / 2 < 0) {
+              finalY = tooltip.sourceY + (tipRect.height / 2) + verticalMargin;
+              lineEndY = finalY - tipRect.height / 2;
+          }
+      } else {
+          // Si el punto está arriba, PREFERIMOS poner el tooltip ABAJO
+          finalY = tooltip.sourceY + (tipRect.height / 2) + verticalMargin;
+          lineEndY = finalY - tipRect.height / 2; // La línea conecta con el borde superior del tooltip
+
+          // Comprobación de seguridad: si se sale por abajo, lo forzamos arriba
+          if (finalY + tipRect.height / 2 > winHeight) {
+              finalY = tooltip.sourceY - (tipRect.height / 2) - verticalMargin;
+              lineEndY = finalY + tipRect.height / 2;
+          }
+      }
+      
+      setTooltip(prev => ({
+        ...prev,
+        style: {
+          opacity: 1,
+          left: `${finalX}px`,
+          top: `${finalY}px`,
+        },
+        lineEndX,
+        lineEndY,
+      }));
+    }
+  }, [tooltip, tooltipOffset]);
 
   return (
-<div style={{ position: 'absolute', inset: 0 }}>
-  <div ref={wrapRef} style={{ position: 'absolute', width: '100%', height: '100%' }}>
-    <canvas ref={canvasRef} style={{ position: 'absolute', inset: 0, cursor: 'crosshair' }} />
-    
-    {tooltip && (
-      <>
-        {/* --- La línea conectora --- */}
-        <svg style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%', pointerEvents: 'none', zIndex: 0 }}>
-          <line
-            x1={tooltip.sourceX}
-            y1={tooltip.sourceY}
-            x2={tooltip.x}
-            y2={tooltip.y}
-            stroke="#19258D"
-            strokeWidth="4"
-          />
-        </svg>
-
-        {/* --- El tooltip (sin cambios en su contenido) --- */}
-        <div style={{
-          position: 'absolute', left: tooltip.x, top: tooltip.y, transform: 'translateY(-50%)',
-          background: '#0e1861cf',
-          border: '10px solid #19258D',
-          padding: '20px',
-          color: '#cfe8ff',
-          pointerEvents: 'none',
-          maxWidth: 280,
-          zIndex: 2, // zIndex mayor que la línea para que esté por encima
-          boxShadow: '0 6px 20px rgba(0,0,0,0.35)',
-          display: 'flex',
-          flexDirection: 'column',
-          gap: '16px'
-        }}>
-          <div style={{
-            color: '#cfe8ff',
-            fontSize: '11px',
-            fontWeight: 'bold',
-            textTransform: 'uppercase',
-            letterSpacing: '1px'
-          }}>
-            {tooltip.item.platformKey}
-          </div>
-          <div style={{ display: 'flex', alignItems: 'center', gap: '12px' }}>
-            {typeof tooltip.item.rank === 'number' && (
-              <div style={{
-                background: '#a9fdee',
-                color: 'rgb(17, 20, 35)',
-                padding: '8px',
-              
-                fontWeight: 'bold',
-                fontSize: '16px',
-                lineHeight: 1
-              }}>
-                #{tooltip.item.rank}
-              </div>
+    <div style={{ position: 'absolute', inset: 0 }}>
+      <div ref={wrapRef} style={{ position: 'absolute', width: '100%', height: '100%' }}>
+        <canvas ref={canvasRef} style={{ position: 'absolute', inset: 0, cursor: 'crosshair' }} />
+        
+        {tooltip && (
+          <>
+            {tooltip.style && (
+              <svg style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%', pointerEvents: 'none', zIndex: 0 }}>
+                <line
+                  x1={tooltip.sourceX}
+                  y1={tooltip.sourceY}
+                  x2={tooltip.lineEndX}
+                  y2={tooltip.lineEndY}
+                  stroke="#19258D"
+                  strokeWidth="4"
+                />
+              </svg>
             )}
-            <div style={{ display: 'flex', flexDirection: 'column', gap: '4px' }}>
+
+            <div
+              ref={tooltipRef}
+              style={{
+                position: 'absolute',
+                transform: 'translateY(-50%)',
+                background: '#0e1861cf',
+                border: '10px solid #19258D',
+                padding: '20px',
+                color: '#cfe8ff',
+                pointerEvents: 'none',
+                maxWidth: 280,
+                zIndex: 2,
+                boxShadow: '0 6px 20px rgba(0,0,0,0.35)',
+                display: 'flex',
+                flexDirection: 'column',
+                gap: '16px',
+                transition: 'opacity 0.2s ease-in-out',
+                ...tooltip.style,
+                opacity: tooltip.style?.opacity ?? 0,
+              }}
+            >
               <div style={{
-                color: '#FFFFFF',
+                color: '#cfe8ff',
+                fontSize: '11px',
                 fontWeight: 'bold',
-                fontSize: '16px'
+                textTransform: 'uppercase',
+                letterSpacing: '1px'
               }}>
-                "{tooltip.item.title}"
+                {tooltip.item.platformKey}
               </div>
-              {tooltip.item.artists && (
-                <div style={{
-                  color: 'rgba(216, 225, 255, 0.7)',
-                  fontSize: '14px'
-                }}>
-                  {tooltip.item.artists}
+              <div style={{ display: 'flex', alignItems: 'center', gap: '12px' }}>
+                {typeof tooltip.item.rank === 'number' && (
+                  <div style={{
+                    background: '#a9fdee',
+                    color: 'rgb(17, 20, 35)',
+                    padding: '8px',
+                    fontWeight: 'bold',
+                    fontSize: '16px',
+                    lineHeight: 1
+                  }}>
+                    #{tooltip.item.rank}
+                  </div>
+                )}
+                <div style={{ display: 'flex', flexDirection: 'column', gap: '4px' }}>
+                  <div style={{
+                    color: '#FFFFFF',
+                    fontWeight: 'bold',
+                    fontSize: '16px'
+                  }}>
+                    "{tooltip.item.title}"
+                  </div>
+                  {tooltip.item.artists && (
+                    <div style={{
+                      color: 'rgba(216, 225, 255, 0.7)',
+                      fontSize: '14px'
+                    }}>
+                      {tooltip.item.artists}
+                    </div>
+                  )}
+                </div>
+              </div>
+              {tooltip.item.tags?.length && (
+                <div style={{ display: 'flex', gap: 6, flexWrap: 'wrap' }}>
+                  {tooltip.item.tags.slice(0, 5).map((t, i) => (
+                    <span key={i} style={{
+                      fontSize: 11,
+                      background: 'rgba(82,39,255,0.15)',
+                      border: '1px solid rgba(82,39,255,0.4)',
+                      padding: '2px 6px',
+                      borderRadius: 999
+                    }}>
+                      {t}
+                    </span>
+                  ))}
                 </div>
               )}
             </div>
-          </div>
-          {tooltip.item.tags?.length && (
-            <div style={{ display: 'flex', gap: 6, flexWrap: 'wrap' }}>
-              {tooltip.item.tags.slice(0, 5).map((t, i) => (
-                <span key={i} style={{
-                  fontSize: 11,
-                  background: 'rgba(82,39,255,0.15)',
-                  border: '1px solid rgba(82,39,255,0.4)',
-                  padding: '2px 6px',
-                  borderRadius: 999
-                }}>
-                  {t}
-                </span>
-              ))}
-            </div>
-          )}
-        </div>
-      </>
-    )}
-  </div>
-</div>
+          </>
+        )}
+      </div>
+    </div>
   );
 }

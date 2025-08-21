@@ -1,0 +1,248 @@
+[
+    {
+      "id": "whatsapp-1y-account-registration",
+      "title": "Registro de la cuenta de WhatsApp",
+      "artists": "WhatsApp",
+      "awareness": 3,
+      "timeBucket": "1y",
+      "platformId": 6,
+      "rank": 1,
+      "date": "2025-01-13",
+      "tags": ["Ajustes de Cuenta", "#tlf", "Teléfono", "Propio"],
+      "details": {
+        "sourceFile": "Capturas de pantalla WhatsApp",
+        "dataType": "Ajustes de Cuenta",
+        "name": "Hora de registro de cuenta: ene 13, 2025 4:01 am",
+        "subjective_notes": "Añadir anotación aquí..."
+      }
+    },
+    {
+      "id": "whatsapp-1y-tos-2016",
+      "title": "Aceptación de Términos de Servicio 2016",
+      "artists": "WhatsApp",
+      "awareness": 3,
+      "timeBucket": "1y",
+      "platformId": 6,
+      "rank": 2,
+      "date": "2016-08-26",
+      "tags": ["Ajustes de Cuenta", "Términos y Condiciones", "Legal", "#tlf", "Teléfono", "Propio"],
+      "details": {
+        "sourceFile": "Capturas de pantalla WhatsApp",
+        "dataType": "Ajustes de Cuenta",
+        "name": "Condiciones del servicio 2016 aceptadas: Sí",
+        "value": "Fecha de aceptación: ago 26, 2016 1:03 pm"
+      }
+    },
+    {
+      "id": "whatsapp-1y-tos-2018",
+      "title": "Aceptación de Términos de Servicio 2018",
+      "artists": "WhatsApp",
+      "awareness": 3,
+      "timeBucket": "1y",
+      "platformId": 6,
+      "rank": 3,
+      "date": "2018-05-10",
+      "tags": ["Ajustes de Cuenta", "Términos y Condiciones", "Legal", "#tlf", "Teléfono", "Propio"],
+      "details": {
+        "sourceFile": "Capturas de pantalla WhatsApp",
+        "dataType": "Ajustes de Cuenta",
+        "name": "Condiciones del servicio 2018 aceptadas: Sí",
+        "value": "Fecha de aceptación: may 10, 2018 12:15 pm"
+      }
+    },
+    {
+      "id": "whatsapp-1y-tos-2021",
+      "title": "Aceptación de Términos de Servicio 2021",
+      "artists": "WhatsApp",
+      "awareness": 3,
+      "timeBucket": "1y",
+      "platformId": 6,
+      "rank": 4,
+      "date": "2021-01-06",
+      "tags": ["Ajustes de Cuenta", "Términos y Condiciones", "Legal", "#tlf", "Teléfono", "Propio"],
+      "details": {
+        "sourceFile": "Capturas de pantalla WhatsApp",
+        "dataType": "Ajustes de Cuenta",
+        "name": "Condiciones del servicio 2021 aceptadas: Sí",
+        "value": "Fecha de aceptación: ene 06, 2021 3:01 pm"
+      }
+    },
+    {
+      "id": "whatsapp-1y-privacy-lastseen",
+      "title": "Ajuste de Privacidad: Hora de últ. vez",
+      "artists": "Configuración de Usuario",
+      "awareness": 3,
+      "timeBucket": "1y",
+      "platformId": 6,
+      "rank": 5,
+      "tags": ["Ajustes de Cuenta", "Privacidad", "#tlf", "Teléfono", "Propio"],
+      "details": {
+        "sourceFile": "Capturas de pantalla WhatsApp",
+        "dataType": "Ajustes de Privacidad",
+        "name": "Privacidad de hora últ. vez: Nadie",
+        "subjective_notes": "Añadir anotación aquí..."
+      }
+    },
+    {
+      "id": "whatsapp-1y-privacy-profilephoto",
+      "title": "Ajuste de Privacidad: Foto del perfil",
+      "artists": "Configuración de Usuario",
+      "awareness": 3,
+      "timeBucket": "1y",
+      "platformId": 6,
+      "rank": 6,
+      "tags": ["Ajustes de Cuenta", "Privacidad", "#tlf", "Teléfono", "Propio"],
+      "details": {
+        "sourceFile": "Capturas de pantalla WhatsApp",
+        "dataType": "Ajustes de Privacidad",
+        "name": "Privacidad de foto del perfil: Todos",
+        "subjective_notes": "Añadir anotación aquí..."
+      }
+    },
+      {
+      "id": "whatsapp-1y-privacy-info",
+      "title": "Ajuste de Privacidad: Información",
+      "artists": "Configuración de Usuario",
+      "awareness": 3,
+      "timeBucket": "1y",
+      "platformId": 6,
+      "rank": 7,
+      "tags": ["Ajustes de Cuenta", "Privacidad", "#tlf", "Teléfono", "Propio"],
+      "details": {
+        "sourceFile": "Capturas de pantalla WhatsApp",
+        "dataType": "Ajustes de Privacidad",
+        "name": "Privacidad de Información: Mis contactos",
+        "subjective_notes": "Añadir anotación aquí..."
+      }
+    },
+    {
+      "id": "whatsapp-1y-privacy-readreceipts",
+      "title": "Ajuste de Privacidad: Confirmaciones de lectura",
+      "artists": "Configuración de Usuario",
+      "awareness": 3,
+      "timeBucket": "1y",
+      "platformId": 6,
+      "rank": 8,
+      "tags": ["Ajustes de Cuenta", "Privacidad", "#tlf", "Teléfono", "Propio"],
+      "details": {
+        "sourceFile": "Capturas de pantalla WhatsApp",
+        "dataType": "Ajustes de Privacidad",
+        "name": "Confirmaciones de lectura: No",
+        "subjective_notes": "Añadir anotación aquí..."
+      }
+    },
+    {
+      "id": "whatsapp-1y-device-iphone-12-mini",
+      "title": "Dispositivo Sincronizado: iPhone 12 mini",
+      "artists": "Apple",
+      "awareness": 3,
+      "timeBucket": "1y",
+      "platformId": 6,
+      "rank": 9,
+      "tags": ["Dispositivos", "Ajustes de Cuenta", "#tlf", "Teléfono", "Propio"],
+      "details": {
+        "sourceFile": "Capturas de pantalla WhatsApp",
+        "dataType": "Información de Dispositivo",
+        "name": "Modelo del dispositivo: iPhone 12 mini",
+        "value": "Versión de la aplicación: iPhone-2.25.21.80"
+      }
+    },
+    {
+      "id": "whatsapp-1y-device-desktop-1",
+      "title": "Dispositivo Sincronizado: Escritorio",
+      "artists": "Navegador Web",
+      "awareness": 3,
+      "timeBucket": "1y",
+      "platformId": 6,
+      "rank": 10,
+      "tags": ["Dispositivos", "Ajustes de Cuenta", "Escritorio", "#tlf", "Teléfono", "Propio"],
+      "details": {
+        "sourceFile": "Capturas de pantalla WhatsApp",
+        "dataType": "Información de Dispositivo",
+        "name": "Modelo del dispositivo: Desktop",
+        "value": "Versión de la aplicación: Web-2.3000.1025464452.WEB_BROWSER"
+      }
+    },
+    {
+      "id": "whatsapp-1y-blocked-numbers",
+      "title": "Números Bloqueados",
+      "artists": "Configuración de Usuario",
+      "awareness": 3,
+      "timeBucket": "1y",
+      "platformId": 6,
+      "rank": 11,
+      "date": "2024-06-04",
+      "tags": ["Ajustes de Cuenta", "Privacidad", "Bloqueos", "#tlf", "Teléfono", "Propio"],
+      "details": {
+        "sourceFile": "Capturas de pantalla WhatsApp",
+        "dataType": "Ajustes de Privacidad",
+        "name": "Total de números bloqueados: 4",
+        "value": ["+34717113563", "+34642757891", "+916295214221", "+963947151048"]
+      }
+    },
+    {
+      "id": "whatsapp-1y-groups-membership",
+      "title": "Pertenencia a Grupos de WhatsApp",
+      "artists": "Comunidades de Usuario",
+      "awareness": 3,
+      "timeBucket": "1y",
+      "platformId": 6,
+      "rank": 12,
+      "date": "2025-08-20",
+      "tags": ["Grupos", "Social", "Comunidad", "#tlf", "Teléfono", "Propio"],
+      "details": {
+        "sourceFile": "Lista de Grupos",
+        "dataType": "Pertenencia a Grupos",
+        "name": "Número de grupos: 279",
+        "value": [
+          "1 de mayo 🐬", "1.12 VIERNES sirenas", "10 en audiovisual", "12 abril fiestuki", "18", "18 2.0", "18 lux y clau", "2 A", "21 se supone", "22 JUNIO 20:00", "24 diciembre🎅🏻🎉⛄", "2dinner", "3 shooots of caos ;)", "4°A 🐝", "50 CUMPLE BELENNN❤🏥", "5€ TODOS ESTA SEMANA ❤", "6 diciembre - mi cum…", "9 junio bitch", "_*Inserte nombre_*", "____MARKETING", "A - A&T", "aceitunas", "Activar mamaluma", "agua de valencia", "ahshdgsnxkennsidkwbrbensm", "Alcohol", "Alumbres casa pistaxi", "Aluuum 2018", "Amigo invisible 26 dic", "Amigo invisible Día 26", "Anark🔞", "Animación Feelmotion 2023", "Ankalapaka", "Arenal", "Arenal sound", "Asuntillo", "ASUNTO🐱", "audio", "Audiovisual 🎥", "ayayayay", "Baile", "Barcelona 18-19 Febrero", "BAUHAUS 29-33", "bcn", "bea regalo", "Benchmarking", "Benita is coming", "biLbaO", "bitches", "bollicaos", "bullyin", "BunKer⚰️🕯", "Bus BILBAO", "Cabopaleras/ l'm💙", "Cala bonita", "calas", "Caliéntate, XOXO!", "Cambio cumple", "Camisetas fiestas alum", "CAMPING", "Camping", "captuss+1🐢❤", "Carnaval", "Carpeta", "Cartagineses en cartagena", "Cartas Monopoli", "casa", "cebolla frita", "cena", "CHAT-GPT", "chavalada", "chiqueeeees", "Chupachupsnsq🤸🏼‍♂️", "club de ajedrez", "club de herbología", "ClubLos porretas muertos", "Coche Bilbao", "Coche sábado", "Colablanca", "combo cumple deivid", "comida familiar", "comidiki 17🥑", "consultorio matrimonial", "Copa sorpresa a Jordi por", "copazos", "corto", "corto", "Corto N2", "cp plans", "crais", "Creatividad", "CRUZONAS", "ct", "Cual es el plan nenas🕘", "CUM 5 DE ABRIL", "Cum feliz luli", "cum june", "cuMariwa", "Cumple", "CUMPLE 9 FEB INMA Y JP", "Cumple abuelo Pedro", "Cumple amoróss y migueel", "Cumple de ire", "cumple en granada lol", "Cumple Isabelg y Auro", "CUMPLE LARA!!!!", "Cumple trizz 🎁", "cumple Vicenta🫦💋", "cumple vicente", "CUMPLEAÑOS SOLER 8 MARZO", "Cumpleañito🥹❤️", "cumpleeeee", "D", "D.T. PODEMOS", "DEEP TACKY OCEAN", "Despacho Vida & Feel", "despedida isabel g", "Despedida viernes 30", "dia universitarios", "dibujo", "Dick", "dinero antes del juevesss", "Discordia", "Diseño gráfico 4", "Diseño Gráfico ✨", "Diseño proyectos", "Disney+", "DNI, LAPIZ 2HB Y 2 BOLIS", "Domingo iglesia Vic", "domingueros", "donu", "Dreambeach 2023", "Dreamteam", "Drinking", "duditas xupa", "ebilizados", "Educación física", "EFESE", "ei pekk", "El Mendrugo", "EN LISBON", "Er trio d'ashes♠♦♣", "ESD Rediseño web", "Esne", "ESNE", "ESNE 2021/2022", "ESNE 4.2", "Esnegros 2.0", "esta noche", "estamosdLUTO", "estudi grup", "exam", "exlibris", "Familia Fresquito 🍝🍾 (ex cena y disco bollera)", "Family :D", "Festejo", "fiestttaaaa", "fiestuki", "Fiestuki", "finde robledo", "focus group", "focus group <3", "folleteo", "foto rulet", "Fotografía 2.3 jueves", "FOTOS DE GRADUCION", "francés/inglés", "Frikis🤓", "Fuck dibujito", "G", "G1 el grupo de los lloros", "Gente maravillosa", "gradu", "GRADUACIÓN 2025", "GRUPIIIIII", "grupo 3 diseño gráfico", "Gráfico 3.3", "Guias noruegos", "gym bitches", "Halloween Malaika", "halloweennnnn", "Halls y tu que respiras!!", "Herpes genital", "hola", "holi", "Houseparty", "Hoy", "hoy", "info arenal", "informes", "Ingles", "Instigadoras🔥💥💜", "Intercambio 18", "J 18:45 GUARIDA", "Jaguelin", "jawelin", "jawelin", "Jelou", "Jm es un dictador :(", "jsjdjdjdjd", "Jsjsj", "juntadelesbuanas", "Karaoke 🎤🎶⭐", "kazzze", "kaZzze", "kiakia", "Kk 's", "Kojak🍭", "La gran familia", "la mafia del tipex🔫", "LA TORRE AURORA", "La trixie cum", "Las andaluzas™", "las cumpleañeras", "Las nennnnnas", "LCRS", "LEAN PARA CINE", "Leer foto jimenez/isaac", "lisboa", "lo d legislación", "Locos ViernesMartes", "Lol", "lol", "Loros", "Los 65 de Miguel 🎉", "Los sobrevivientes", "luciagimenez_23", "Luli loli luliana el apodo que + te guste FC", "m de metidos", "macrocumpleaños LEER BIO", "mad", "madeira", "Madrid", "Madriles", "madrileños", "Mamas e hija", "MARA_COMUNA ENTREVISTA_revista", "Marina Cumple", "marktinGggGGG", "Marrajos😈", "marujah bruja", "mates", "mañana", "MDI 🌐😵‍💫📱", "Meraki😎", "mi cum", "mi cum el 2 oct", "MI CUMPLE escondite Ikea", "micumple chavales 💋", "Minorites", "Mis putas👯‍♀️❣️", "miticas5😈🍻✌🏽🔜🚬", "moni's 24| chipi's 21", "muebles", "Mujeresss", "no debería salir a la luz", "No os paseis", "Nochevieja ⁉️⁉️", "Nochevieja🎊🎉", "Norway squad :) ♥", "nosferatu", "nse wtf pasa", "Nv remolinosss", "Olimpiadas de Matemáticas", "Olimpiadas fisica", "Olimpiadas Matemáticas", "Operacion g", "ORTI", "Orticarro", "ortiiiii hippilandia", "ORTImadafukinGUEIRA", "Our cumm💦🫶🏻", "packaa", "Pandilla Madrileña", "Pantano", "Partywinenses cucuu", "pastel", "Patatas con ketchup🍟", "PAULATKEREMOSVER", "Pensemos", "Pensiones Celdrán", "Pepe El Corto", "percepción", "Perro cíclope", "Photo roulette", "Pim Juventudes Jimenez", "PISAZO", "Pisos 2", "Plaia oula", "Planes verano ct😒🙃", "Playa", "Playa miguel", "Playa Miguel ofi* cumple", "Playa Miguel oficial -25", "Playa🌅", "Pool party!!🎉🎉", "postproduccion GRÁFICAS CRÉDITOS CORTO WINNIE", "primicos", "Primos Cartagenaaa", "PRIMOS CHACON! +1", "Primos “No Babosos”", "propuesta!!!", "puma", "putits", "Que mail ni que mail?", "Quedada", "Quedadas con Cristina", "Quedate con la culpa", "ratas d biblio", "Raxets", "regAlo", "regalo ale", "Regalo boda", "regalo chari", "regalo chipi", "regalo cumple", "Regalo cumple inma", "Regalo de la alba", "regalo loli", "Regalo lux y clau", "Regalo Pablo y Miguel", "Regalo V", "Regalo V", "Regalo vic", "Religion", "retrati", "REVISTA_EN STOCK", "robledo", "ropa graduuu", "roto y copias", "Sabado jowke", "san junipero", "Sangria", "sculpture today", "SELECTED_BILBAO-ESNE", "SERVER", "SPAM", "SsOf bdåY", "Stickers", "StockholmTrip 🇸🇪Julio", "Sudadera + 1€", "Sudaderas intercambio🇳🇴", "Surf", "Taller de servicios", "Taller 💕💘💓", "Tango para tres", "tantalaso?", "TARDEO DEL AÑO", "Tartas", "TECNOLOGIA", "Terramiticaaaa🎢🎡", "Terror Antidoto", "The magazine🫀", "Tinderosos y piso", "TRABAJO EXPO", "tripitris", "vamo a ver", "Vaya 4 patas pa un 🏦 🤔✨📛", "vde 2018🇮🇹🇪🇸", "VIAJE 2017", "viajesote😎😎😻😻🫣🫣🫣", "Viernes trips o maná", "Vloger", "WALLY", "web team 👜", "Web vitavibes", "WEBSITO", "Whaaaaat", "Xampi", "xno.es👉🏾👌🏾", "xoxos", "Y9+blanca 👿💗🎣💋👭", "yo", "Zoco loco", "ˢᴹᴼᴷᴱᴿˢ", "ᴮᴰᴬᵞˢ ᶜᴸ", "ᴿᵀˢ ᴰᴵᴬᴿᵞ", "⛺", "✈️🥳 fin carrera/curso | 8-11jun", "❓", "🍻!", "🏖🏔💆🏽", "🐢👸🏽🐟🥐🌳🦐🍄", "🐫", "🐫", "👩🏼‍💼 d vd", "💕", "💟💟💟", "💥 Diseño Gráfico ESNE 💥", "🔞❌⛔⚜", "🤙🏿"
+        ]
+      }
+    },
+    [
+        {
+          "id": "whatsapp-1y-data-usage-summary",
+          "title": "Resumen de Uso de Datos de WhatsApp",
+          "artists": "Estadísticas de la Cuenta",
+          "awareness": 3,
+          "timeBucket": "1y",
+          "platformId": 6,
+          "rank": 13,
+          "date": "2025-08-20",
+          "tags": ["Estadísticas", "Uso de Datos", "Resumen de Cuenta", "#tlf", "Teléfono", "Propio", "Inconsciente"],
+          "details": {
+            "sourceFile": "Capturas de pantalla WhatsApp (Uso de Datos)",
+            "dataType": "Estadísticas de Uso",
+            "name": "Uso total de datos desde el último reinicio (Nunca)",
+            "statistics": {
+              "totalBytes": {
+                "sent": "72,12 GB",
+                "received": "98,72 GB"
+              },
+              "messages": {
+                "sent_count": 361176,
+                "received_count": 900178,
+                "sent_bytes": "627,1 MB",
+                "received_bytes": "1,08 GB"
+              },
+              "chatMedia": {
+                "sent_bytes": "8,83 GB",
+                "received_bytes": "30,18 GB"
+              },
+              "statusMedia": {
+                "sent_bytes": "324 KB",
+                "received_bytes": "669,2 MB"
+              },
+              "calls": {
+                "outgoing_count": 746,
+                "incoming_count": 1058,
+                "total_duration": "9 días y 4 horas",
+                "sent_bytes": "62,66 GB",
+                "received_bytes": "66,8 GB"
+              },
+              "lastReset": "Nunca"
+            }
+          }
+        }
+      ]
+  ]

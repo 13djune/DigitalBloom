@@ -1,0 +1,2342 @@
+[
+    {
+      "id": "phone-usage-4w-instagram",
+      "title": "Uso de Instagram",
+      "artists": "46h 48m",
+      "awareness": 2,
+      "timeBucket": "4w",
+      "platformId": 4,
+      "rank": 1,
+      "tags": [
+        "Teléfono",
+        "Social",
+        "Inconsciente"
+      ],
+      "details": {
+        "sourceFile": "phoneUsage.json",
+        "dataType": "Uso de Aplicación",
+        "name": "Instagram",
+        "timeSpent": "46h 48m",
+        "subjective_notes": "Añadir anotación aquí..."
+      }
+    },
+    {
+      "id": "phone-usage-4w-safari",
+      "title": "Uso de Safari",
+      "artists": "26h 09m",
+      "awareness": 2,
+      "timeBucket": "4w",
+      "platformId": 5,
+      "rank": 2,
+      "tags": [
+        "Teléfono",
+        "Utilidades",
+        "Inconsciente"
+      ],
+      "details": {
+        "sourceFile": "phoneUsage.json",
+        "dataType": "Uso de Aplicación",
+        "name": "Safari",
+        "timeSpent": "26h 09m",
+        "subjective_notes": "Añadir anotación aquí..."
+      }
+    },
+    {
+      "id": "phone-usage-4w-whatsapp",
+      "title": "Uso de WhatsApp",
+      "artists": "20h 06m",
+      "awareness": 2,
+      "timeBucket": "4w",
+      "platformId": 6,
+      "rank": 3,
+      "tags": [
+        "Teléfono",
+        "Social",
+        "Inconsciente"
+      ],
+      "details": {
+        "sourceFile": "phoneUsage.json",
+        "dataType": "Uso de Aplicación",
+        "name": "WhatsApp",
+        "timeSpent": "20h 06m",
+        "subjective_notes": "Añadir anotación aquí..."
+      }
+    },
+    {
+      "id": "phone-usage-4w-fire-tv",
+      "title": "Uso de Fire TV",
+      "artists": "7h 10m",
+      "awareness": 2,
+      "timeBucket": "4w",
+      "platformId": 5,
+      "rank": 4,
+      "tags": [
+        "Teléfono",
+        "Entretenimiento",
+        "Inconsciente"
+      ],
+      "details": {
+        "sourceFile": "phoneUsage.json",
+        "dataType": "Uso de Aplicación",
+        "name": "Fire TV",
+        "timeSpent": "7h 10m",
+        "subjective_notes": "Añadir anotación aquí..."
+      }
+    },
+    {
+      "id": "phone-usage-4w-google-maps",
+      "title": "Uso de Google Maps",
+      "artists": "5h 45m",
+      "awareness": 2,
+      "timeBucket": "4w",
+      "platformId": 8,
+      "rank": 5,
+      "tags": [
+        "Teléfono",
+        "Viajes",
+        "Propio"
+      ],
+      "details": {
+        "sourceFile": "phoneUsage.json",
+        "dataType": "Uso de Aplicación",
+        "name": "Google Maps",
+        "timeSpent": "5h 45m",
+        "subjective_notes": "Añadir anotación aquí..."
+      }
+    },
+    {
+      "id": "phone-usage-4w-plato",
+      "title": "Uso de Plato",
+      "artists": "4h 30m",
+      "awareness": 2,
+      "timeBucket": "4w",
+      "platformId": 5,
+      "rank": 6,
+      "tags": [
+        "Teléfono",
+        "Social",
+        "Inconsciente"
+      ],
+      "details": {
+        "sourceFile": "phoneUsage.json",
+        "dataType": "Uso de Aplicación",
+        "name": "Plato",
+        "timeSpent": "4h 30m",
+        "subjective_notes": "Añadir anotación aquí..."
+      }
+    },
+    {
+      "id": "phone-usage-4w-webtoon",
+      "title": "Uso de WEBTOON",
+      "artists": "2h 21m",
+      "awareness": 2,
+      "timeBucket": "4w",
+      "platformId": 5,
+      "rank": 7,
+      "tags": [
+        "Teléfono",
+        "Entretenimiento",
+        "Inconsciente"
+      ],
+      "details": {
+        "sourceFile": "phoneUsage.json",
+        "dataType": "Uso de Aplicación",
+        "name": "WEBTOON",
+        "timeSpent": "2h 21m",
+        "subjective_notes": "Añadir anotación aquí..."
+      }
+    },
+    {
+      "id": "phone-usage-4w-tinder",
+      "title": "Uso de Tinder",
+      "artists": "1h 54m",
+      "awareness": 2,
+      "timeBucket": "4w",
+      "platformId": 5,
+      "rank": 8,
+      "tags": [
+        "Teléfono",
+        "Social",
+        "Inconsciente"
+      ],
+      "details": {
+        "sourceFile": "phoneUsage.json",
+        "dataType": "Uso de Aplicación",
+        "name": "Tinder",
+        "timeSpent": "1h 54m",
+        "subjective_notes": "Añadir anotación aquí..."
+      }
+    },
+    {
+      "id": "phone-usage-4w-spotify",
+      "title": "Uso de Spotify",
+      "artists": "1h 32m",
+      "awareness": 2,
+      "timeBucket": "4w",
+      "platformId": 1,
+      "rank": 9,
+      "tags": [
+        "Teléfono",
+        "Entretenimiento",
+        "Inconsciente"
+      ],
+      "details": {
+        "sourceFile": "phoneUsage.json",
+        "dataType": "Uso de Aplicación",
+        "name": "Spotify",
+        "timeSpent": "1h 32m",
+        "subjective_notes": "Añadir anotación aquí..."
+      }
+    },
+    {
+      "id": "phone-usage-4w-gmail",
+      "title": "Uso de Gmail",
+      "artists": "1h 14m",
+      "awareness": 2,
+      "timeBucket": "4w",
+      "platformId": 5,
+      "rank": 10,
+      "tags": [
+        "Teléfono",
+        "Utilidades",
+        "Inconsciente"
+      ],
+      "details": {
+        "sourceFile": "phoneUsage.json",
+        "dataType": "Uso de Aplicación",
+        "name": "Gmail",
+        "timeSpent": "1h 14m",
+        "subjective_notes": "Añadir anotación aquí..."
+      }
+    },
+    {
+      "id": "phone-usage-6m-instagram",
+      "title": "Uso de Instagram",
+      "artists": "284h 10m",
+      "awareness": 2,
+      "timeBucket": "6m",
+      "platformId": 4,
+      "rank": 1,
+      "tags": [
+        "Teléfono",
+        "Social",
+        "Inconsciente"
+      ],
+      "details": {
+        "sourceFile": "phoneUsage.json",
+        "dataType": "Uso de Aplicación",
+        "name": "Instagram",
+        "timeSpent": "284h 10m",
+        "subjective_notes": "Añadir anotación aquí..."
+      }
+    },
+    {
+      "id": "phone-usage-6m-safari",
+      "title": "Uso de Safari",
+      "artists": "132h 40m",
+      "awareness": 2,
+      "timeBucket": "6m",
+      "platformId": 5,
+      "rank": 2,
+      "tags": [
+        "Teléfono",
+        "Utilidades",
+        "Inconsciente"
+      ],
+      "details": {
+        "sourceFile": "phoneUsage.json",
+        "dataType": "Uso de Aplicación",
+        "name": "Safari",
+        "timeSpent": "132h 40m",
+        "subjective_notes": "Añadir anotación aquí..."
+      }
+    },
+    {
+      "id": "phone-usage-6m-whatsapp",
+      "title": "Uso de WhatsApp",
+      "artists": "112h 00m",
+      "awareness": 2,
+      "timeBucket": "6m",
+      "platformId": 6,
+      "rank": 3,
+      "tags": [
+        "Teléfono",
+        "Social",
+        "Inconsciente"
+      ],
+      "details": {
+        "sourceFile": "phoneUsage.json",
+        "dataType": "Uso de Aplicación",
+        "name": "WhatsApp",
+        "timeSpent": "112h 00m",
+        "subjective_notes": "Añadir anotación aquí..."
+      }
+    },
+    {
+      "id": "phone-usage-6m-google-maps",
+      "title": "Uso de Google Maps",
+      "artists": "42h 30m",
+      "awareness": 2,
+      "timeBucket": "6m",
+      "platformId": 8,
+      "rank": 4,
+      "tags": [
+        "Teléfono",
+        "Viajes",
+        "Propio"
+      ],
+      "details": {
+        "sourceFile": "phoneUsage.json",
+        "dataType": "Uso de Aplicación",
+        "name": "Google Maps",
+        "timeSpent": "42h 30m",
+        "subjective_notes": "Añadir anotación aquí..."
+      }
+    },
+    {
+      "id": "phone-usage-6m-tiktok",
+      "title": "Uso de TikTok",
+      "artists": "38h 30m",
+      "awareness": 2,
+      "timeBucket": "6m",
+      "platformId": 3,
+      "rank": 5,
+      "tags": [
+        "Teléfono",
+        "Social",
+        "Inconsciente"
+      ],
+      "details": {
+        "sourceFile": "phoneUsage.json",
+        "dataType": "Uso de Aplicación",
+        "name": "TikTok",
+        "timeSpent": "38h 30m",
+        "subjective_notes": "Añadir anotación aquí..."
+      }
+    },
+    {
+      "id": "phone-usage-6m-plato",
+      "title": "Uso de Plato",
+      "artists": "35h 20m",
+      "awareness": 2,
+      "timeBucket": "6m",
+      "platformId": 5,
+      "rank": 6,
+      "tags": [
+        "Teléfono",
+        "Social",
+        "Inconsciente"
+      ],
+      "details": {
+        "sourceFile": "phoneUsage.json",
+        "dataType": "Uso de Aplicación",
+        "name": "Plato",
+        "timeSpent": "35h 20m",
+        "subjective_notes": "Añadir anotación aquí..."
+      }
+    },
+    {
+      "id": "phone-usage-6m-spotify",
+      "title": "Uso de Spotify",
+      "artists": "28h 50m",
+      "awareness": 2,
+      "timeBucket": "6m",
+      "platformId": 1,
+      "rank": 7,
+      "tags": [
+        "Teléfono",
+        "Entretenimiento",
+        "Inconsciente"
+      ],
+      "details": {
+        "sourceFile": "phoneUsage.json",
+        "dataType": "Uso de Aplicación",
+        "name": "Spotify",
+        "timeSpent": "28h 50m",
+        "subjective_notes": "Añadir anotación aquí..."
+      }
+    },
+    {
+      "id": "phone-usage-6m-gmail",
+      "title": "Uso de Gmail",
+      "artists": "22h 10m",
+      "awareness": 2,
+      "timeBucket": "6m",
+      "platformId": 5,
+      "rank": 8,
+      "tags": [
+        "Teléfono",
+        "Utilidades",
+        "Inconsciente"
+      ],
+      "details": {
+        "sourceFile": "phoneUsage.json",
+        "dataType": "Uso de Aplicación",
+        "name": "Gmail",
+        "timeSpent": "22h 10m",
+        "subjective_notes": "Añadir anotación aquí..."
+      }
+    },
+    {
+      "id": "phone-usage-6m-fire-tv",
+      "title": "Uso de Fire TV",
+      "artists": "20h 40m",
+      "awareness": 2,
+      "timeBucket": "6m",
+      "platformId": 5,
+      "rank": 9,
+      "tags": [
+        "Teléfono",
+        "Entretenimiento",
+        "Inconsciente"
+      ],
+      "details": {
+        "sourceFile": "phoneUsage.json",
+        "dataType": "Uso de Aplicación",
+        "name": "Fire TV",
+        "timeSpent": "20h 40m",
+        "subjective_notes": "Añadir anotación aquí..."
+      }
+    },
+    {
+      "id": "phone-usage-6m-webtoon",
+      "title": "Uso de WEBTOON",
+      "artists": "19h 15m",
+      "awareness": 2,
+      "timeBucket": "6m",
+      "platformId": 5,
+      "rank": 10,
+      "tags": [
+        "Teléfono",
+        "Entretenimiento",
+        "Inconsciente"
+      ],
+      "details": {
+        "sourceFile": "phoneUsage.json",
+        "dataType": "Uso de Aplicación",
+        "name": "WEBTOON",
+        "timeSpent": "19h 15m",
+        "subjective_notes": "Añadir anotación aquí..."
+      }
+    },
+    {
+      "id": "phone-usage-1y-instagram",
+      "title": "Uso de Instagram",
+      "artists": "524h 20m",
+      "awareness": 2,
+      "timeBucket": "1y",
+      "platformId": 4,
+      "rank": 1,
+      "tags": [
+        "Teléfono",
+        "Social",
+        "Inconsciente"
+      ],
+      "details": {
+        "sourceFile": "phoneUsage.json",
+        "dataType": "Uso de Aplicación",
+        "name": "Instagram",
+        "timeSpent": "524h 20m",
+        "subjective_notes": "Añadir anotación aquí..."
+      }
+    },
+    {
+      "id": "phone-usage-1y-safari",
+      "title": "Uso de Safari",
+      "artists": "248h 45m",
+      "awareness": 2,
+      "timeBucket": "1y",
+      "platformId": 5,
+      "rank": 2,
+      "tags": [
+        "Teléfono",
+        "Utilidades",
+        "Inconsciente"
+      ],
+      "details": {
+        "sourceFile": "phoneUsage.json",
+        "dataType": "Uso de Aplicación",
+        "name": "Safari",
+        "timeSpent": "248h 45m",
+        "subjective_notes": "Añadir anotación aquí..."
+      }
+    },
+    {
+      "id": "phone-usage-1y-whatsapp",
+      "title": "Uso de WhatsApp",
+      "artists": "197h 10m",
+      "awareness": 2,
+      "timeBucket": "1y",
+      "platformId": 6,
+      "rank": 3,
+      "tags": [
+        "Teléfono",
+        "Social",
+        "Inconsciente"
+      ],
+      "details": {
+        "sourceFile": "phoneUsage.json",
+        "dataType": "Uso de Aplicación",
+        "name": "WhatsApp",
+        "timeSpent": "197h 10m",
+        "subjective_notes": "Añadir anotación aquí..."
+      }
+    },
+    {
+      "id": "phone-usage-1y-google-maps",
+      "title": "Uso de Google Maps",
+      "artists": "88h 30m",
+      "awareness": 2,
+      "timeBucket": "1y",
+      "platformId": 8,
+      "rank": 4,
+      "tags": [
+        "Teléfono",
+        "Viajes",
+        "Propio"
+      ],
+      "details": {
+        "sourceFile": "phoneUsage.json",
+        "dataType": "Uso de Aplicación",
+        "name": "Google Maps",
+        "timeSpent": "88h 30m",
+        "subjective_notes": "Añadir anotación aquí..."
+      }
+    },
+    {
+      "id": "phone-usage-1y-tiktok",
+      "title": "Uso de TikTok",
+      "artists": "76h 35m",
+      "awareness": 2,
+      "timeBucket": "1y",
+      "platformId": 3,
+      "rank": 5,
+      "tags": [
+        "Teléfono",
+        "Social",
+        "Inconsciente"
+      ],
+      "details": {
+        "sourceFile": "phoneUsage.json",
+        "dataType": "Uso de Aplicación",
+        "name": "TikTok",
+        "timeSpent": "76h 35m",
+        "subjective_notes": "Añadir anotación aquí..."
+      }
+    },
+    {
+      "id": "phone-usage-1y-spotify",
+      "title": "Uso de Spotify",
+      "artists": "65h 10m",
+      "awareness": 2,
+      "timeBucket": "1y",
+      "platformId": 1,
+      "rank": 6,
+      "tags": [
+        "Teléfono",
+        "Entretenimiento",
+        "Inconsciente"
+      ],
+      "details": {
+        "sourceFile": "phoneUsage.json",
+        "dataType": "Uso de Aplicación",
+        "name": "Spotify",
+        "timeSpent": "65h 10m",
+        "subjective_notes": "Añadir anotación aquí..."
+      }
+    },
+    {
+      "id": "phone-usage-1y-plato",
+      "title": "Uso de Plato",
+      "artists": "58h 20m",
+      "awareness": 2,
+      "timeBucket": "1y",
+      "platformId": 5,
+      "rank": 7,
+      "tags": [
+        "Teléfono",
+        "Social",
+        "Inconsciente"
+      ],
+      "details": {
+        "sourceFile": "phoneUsage.json",
+        "dataType": "Uso de Aplicación",
+        "name": "Plato",
+        "timeSpent": "58h 20m",
+        "subjective_notes": "Añadir anotación aquí..."
+      }
+    },
+    {
+      "id": "phone-usage-1y-fire-tv",
+      "title": "Uso de Fire TV",
+      "artists": "46h 55m",
+      "awareness": 2,
+      "timeBucket": "1y",
+      "platformId": 5,
+      "rank": 8,
+      "tags": [
+        "Teléfono",
+        "Entretenimiento",
+        "Inconsciente"
+      ],
+      "details": {
+        "sourceFile": "phoneUsage.json",
+        "dataType": "Uso de Aplicación",
+        "name": "Fire TV",
+        "timeSpent": "46h 55m",
+        "subjective_notes": "Añadir anotación aquí..."
+      }
+    },
+    {
+      "id": "phone-usage-1y-webtoon",
+      "title": "Uso de WEBTOON",
+      "artists": "40h 30m",
+      "awareness": 2,
+      "timeBucket": "1y",
+      "platformId": 5,
+      "rank": 9,
+      "tags": [
+        "Teléfono",
+        "Entretenimiento",
+        "Inconsciente"
+      ],
+      "details": {
+        "sourceFile": "phoneUsage.json",
+        "dataType": "Uso de Aplicación",
+        "name": "WEBTOON",
+        "timeSpent": "40h 30m",
+        "subjective_notes": "Añadir anotación aquí..."
+      }
+    },
+    {
+      "id": "phone-usage-1y-gmail",
+      "title": "Uso de Gmail",
+      "artists": "34h 25m",
+      "awareness": 2,
+      "timeBucket": "1y",
+      "platformId": 5,
+      "rank": 10,
+      "tags": [
+        "Teléfono",
+        "Utilidades",
+        "Inconsciente"
+      ],
+      "details": {
+        "sourceFile": "phoneUsage.json",
+        "dataType": "Uso de Aplicación",
+        "name": "Gmail",
+        "timeSpent": "34h 25m",
+        "subjective_notes": "Añadir anotación aquí..."
+      }
+    },
+    {
+      "id": "steps-4w",
+      "title": "Pasos — 4w",
+      "artists": "2 327/día • 65 156 totales",
+      "awareness": 2,
+      "timeBucket": "4w",
+      "platformId": 5,
+      "rank": 1,
+      "tags": [
+        "Salud",
+        "Movimiento",
+        "Propio"
+      ],
+      "details": {
+        "sourceFile": "steps_data.json",
+        "dataType": "Actividad Física",
+        "startDate": "2025-07-14",
+        "endDate": "2025-08-10",
+        "averageDailySteps": 2327,
+        "totalSteps": 65156,
+        "subjective_notes": "Añadir anotación aquí..."
+      }
+    },
+    {
+      "id": "steps-6m",
+      "title": "Pasos — 6m",
+      "artists": "4 917/día • 894 494 totales",
+      "awareness": 2,
+      "timeBucket": "6m",
+      "platformId": 5,
+      "rank": 2,
+      "tags": [
+        "Salud",
+        "Movimiento",
+        "Propio"
+      ],
+      "details": {
+        "sourceFile": "steps_data.json",
+        "dataType": "Actividad Física",
+        "startDate": "2025-02-10",
+        "endDate": "2025-08-10",
+        "averageDailySteps": 4917,
+        "totalSteps": 894494,
+        "subjective_notes": "Añadir anotación aquí..."
+      }
+    },
+    {
+      "id": "steps-12m",
+      "title": "Pasos — 12m",
+      "artists": "4 762/día • 1 738 130 totales",
+      "awareness": 2,
+      "timeBucket": "1y",
+      "platformId": 5,
+      "rank": 3,
+      "tags": [
+        "Salud",
+        "Movimiento",
+        "Propio"
+      ],
+      "details": {
+        "sourceFile": "steps_data.json",
+        "dataType": "Actividad Física",
+        "startDate": "2024-07-11",
+        "endDate": "2025-07-10",
+        "averageDailySteps": 4762,
+        "totalSteps": 1738130,
+        "subjective_notes": "Añadir anotación aquí..."
+      }
+    },
+    {
+      "id": "geo-4w-pattern-visitas-a-casa-de-mi-novia",
+      "title": "Ubicación frecuente — Visitas a casa de mi novia",
+      "artists": "Un fin de semana sí, uno no • Último mes",
+      "awareness": 2,
+      "timeBucket": "4w",
+      "platformId": 8,
+      "rank": 1,
+      "tags": [
+        "Movilidad",
+        "Ubicaciones",
+        "Propio"
+      ],
+      "details": {
+        "sourceFile": "geolocation.json",
+        "dataType": "Patrones de viaje",
+        "from": "Calle Pez Austral 3, Madrid",
+        "to": "Calle de las Delicias 25, Madrid",
+        "schedule": "Un fin de semana sí, uno no",
+        "period": "Último mes",
+        "subjective_notes": "Añadir anotación aquí..."
+      }
+    },
+    {
+      "id": "geo-4w-pattern-compra-semanal-en-alcampo-moratalaz",
+      "title": "Ubicación frecuente — Compra semanal en ALCAMPO Moratalaz",
+      "artists": "1 vez por semana • Último mes",
+      "awareness": 2,
+      "timeBucket": "4w",
+      "platformId": 8,
+      "rank": 2,
+      "tags": [
+        "Movilidad",
+        "Ubicaciones",
+        "Propio"
+      ],
+      "details": {
+        "sourceFile": "geolocation.json",
+        "dataType": "Patrones de viaje",
+        "from": "Calle Pez Austral 3, Madrid",
+        "to": "ALCAMPO Moratalaz",
+        "schedule": "1 vez por semana",
+        "period": "Último mes",
+        "subjective_notes": "Añadir anotación aquí..."
+      }
+    },
+    {
+      "id": "geo-4w-pattern-cerveza-con-compañeros-de-piso",
+      "title": "Ubicación frecuente — Cerveza con compañeros de piso",
+      "artists": "1 vez por semana • Último mes",
+      "awareness": 2,
+      "timeBucket": "4w",
+      "platformId": 8,
+      "rank": 3,
+      "tags": [
+        "Movilidad",
+        "Ubicaciones",
+        "Propio"
+      ],
+      "details": {
+        "sourceFile": "geolocation.json",
+        "dataType": "Patrones de viaje",
+        "from": "Calle Pez Austral 3, Madrid",
+        "to": "100Montadtos Moratalaz",
+        "schedule": "1 vez por semana",
+        "period": "Último mes",
+        "subjective_notes": "Añadir anotación aquí..."
+      }
+    },
+    {
+      "id": "geo-4w-highlighted-cinesa-méndez-álvaro-isense",
+      "title": "Lugar destacado — CINESA MÉNDEZ ÁLVARO - ISENSE",
+      "artists": "40.3615, -3.7454",
+      "awareness": 2,
+      "timeBucket": "4w",
+      "platformId": 8,
+      "rank": 0,
+      "tags": [
+        "Movilidad",
+        "Ubicaciones",
+        "Propio"
+      ],
+      "details": {
+        "sourceFile": "geolocation.json",
+        "dataType": "Lugar destacado",
+        "name": "CINESA MÉNDEZ ÁLVARO - ISENSE",
+        "coordinates": [
+          40.3615,
+          -3.7454
+        ],
+        "date": "2025-08-23"
+      }
+    },
+    {
+      "id": "gmaps-topplace-1",
+      "title": "Lugar más visitado — Mi casa",
+      "artists": "32 visitas",
+      "awareness": 2,
+      "timeBucket": "6m",
+      "platformId": 8,
+      "rank": 1,
+      "tags": [
+        "Movilidad",
+        "Lugares",
+        "Propio"
+      ],
+      "details": {
+        "sourceFile": "GMAPS_location-history.json",
+        "dataType": "Historial de ubicaciones",
+        "place": "geo:40.413538,-3.665820",
+        "placeID": "ChIJZVSc3AEmQg0Ri3e4rRio16o",
+        "visitCount": 32,
+        "subjective_notes": "Añadir anotación aquí..."
+      }
+    },
+    {
+        "id": "geo-6m-pattern-practicas-etsit",
+        "title": "Ubicación frecuente — Prácticas en ETSIT-UPM",
+        "artists": "L-V, 08:00–14:00 • Abr-Jun 2025",
+        "awareness": 2,
+        "timeBucket": "6m",
+        "platformId": 8,
+        "rank": 4,
+        "tags": [
+          "Movilidad",
+          "Ubicaciones",
+          "Propio"
+        ],
+        "details": {
+          "sourceFile": "geolocation.json",
+          "dataType": "Patrones de viaje",
+          "from": "Calle Pez Austral 3, Madrid",
+          "to": "Escuela Técnica Superior de Ingenieros de Telecomunicación, UPM",
+          "schedule": "Lunes a viernes, 08:00–14:00",
+          "period": "Abr 22 – Jun 6, 2025",
+          "subjective_notes": "Durante un mes y medio oestuve yendo a prácticas en la ETSIT de la UPM, donde trabajaba en un proyecto de investigación sobre IAs."
+        }
+      },
+      {
+        "id": "geo-6m-pattern-tutorias-esd",
+        "title": "Ubicación frecuente — Tutorías Escuela Superior de Diseño",
+        "artists": "Miércoles, 16:30–19:00 • May-Jun 2025",
+        "awareness": 2,
+        "timeBucket": "6m",
+        "platformId": 8,
+        "rank": 5,
+        "tags": [
+          "Movilidad",
+          "Ubicaciones",
+          "Propio"
+        ],
+        "details": {
+          "sourceFile": "geolocation.json",
+          "dataType": "Patrones de viaje",
+          "from": "Calle Pez Austral 3, Madrid",
+          "to": "C. del Camino de los Vinateros, 106, Moratalaz, 28030 Madrid",
+          "schedule": "Miércoles, 16:30–19:00",
+          "period": "May – Jun 2025",
+          "subjective_notes": "A veces iba a tutorias presenciales en la escuela para el TFM, pero en su mayoria eran online ya que no tenia mas clases."
+        }
+      },
+      {
+        "id": "geo-6m-highlighted-palacio-hielo",
+        "title": "Lugar destacado — Palacio de Hielo Arcade",
+        "artists": "40.4592, -3.6386",
+        "awareness": 2,
+        "timeBucket": "6m",
+        "platformId": 8,
+        "rank": 0,
+        "tags": [
+          "Movilidad",
+          "Ubicaciones",
+          "Propio"
+        ],
+        "details": {
+          "sourceFile": "geolocation.json",
+          "dataType": "Lugar destacado",
+          "name": "Palacio de Hielo Arcade",
+          "coordinates": [
+            40.4592,
+            -3.6386
+          ],
+          "note": "Partida esporádica en recreativos, bolos y mini-golf con el hermano de mi compañero de piso."
+        }
+      },
+      {
+        "id": "geo-1y-pattern-asistencia-esd",
+        "title": "Ubicación frecuente — Asistencia a Escuela Superior de Diseño",
+        "artists": "L-J, 15:30–21:00 • Sep 2024–Mar 2025",
+        "awareness": 2,
+        "timeBucket": "1y",
+        "platformId": 8,
+        "rank": 4,
+        "tags": [
+          "Movilidad",
+          "Ubicaciones",
+          "Propio"
+        ],
+        "details": {
+          "sourceFile": "geolocation.json",
+          "dataType": "Patrones de viaje",
+          "from": "Calle Pez Austral 3, Madrid",
+          "to": "C. del Camino de los Vinateros, 106, Moratalaz, 28030 Madrid",
+          "schedule": "Lunes a jueves, 15:30–21:00",
+          "period": "Sep 2024 – Mar 2025",
+          "subjective_notes": "Mi horario de clases del master era de lunes a jueves de 15:30 a 21:00 (con algun cambio a veces), y los viernes no tenía clase. Durante este periodo asisti a clases presenciales en la escuela de diseño."
+        }
+      },
+      {
+        "id": "geo-1y-highlighted-matadero",
+        "title": "Lugar destacado — Matadero Madrid",
+        "artists": "40.3917, -3.6983",
+        "awareness": 2,
+        "timeBucket": "1y",
+        "platformId": 8,
+        "rank": 0,
+        "tags": [
+          "Movilidad",
+          "Ubicaciones",
+          "Propio"
+        ],
+        "details": {
+          "sourceFile": "geolocation.json",
+          "dataType": "Lugar destacado",
+          "name": "Matadero Madrid",
+          "coordinates": [
+            40.3917,
+            -3.6983
+          ],
+          "note": "Visita única a exposición de arte contemporáneo en Matadero Madrid."
+        }
+    },  
+    {
+      "id": "gmaps-topplace-2",
+      "title": "Lugar más visitado — Casa de mi novia",
+      "artists": "10 visitas",
+      "awareness": 2,
+      "timeBucket": "6m",
+      "platformId": 8,
+      "rank": 2,
+      "tags": [
+        "Movilidad",
+        "Lugares",
+        "Propio"
+      ],
+      "details": {
+        "sourceFile": "GMAPS_location-history.json",
+        "dataType": "Historial de ubicaciones",
+        "place": "geo:40.404150,-3.692399",
+        "placeID": "ChIJPWYtXCUmQg0RVe-a0Fd7IT4",
+        "visitCount": 10,
+        "subjective_notes": "Añadir anotación aquí..."
+      }
+    },
+    {
+      "id": "gmaps-topplace-3",
+      "title": "Lugar más visitado — Estación de autobuses Mendez Álvaro",
+      "artists": "4 visitas",
+      "awareness": 2,
+      "timeBucket": "6m",
+      "platformId": 8,
+      "rank": 3,
+      "tags": [
+        "Movilidad",
+        "Lugares",
+        "Propio"
+      ],
+      "details": {
+        "sourceFile": "GMAPS_location-history.json",
+        "dataType": "Historial de ubicaciones",
+        "place": "geo:40.395740,-3.677840",
+        "placeID": "ChIJaQ2CjxQmQg0RtI6VRGNCR-s",
+        "visitCount": 4,
+        "subjective_notes": "Aqui es donde solemos coger los autobuses mi novia y yo, para ir a casa de mi madre, a la playa o a Granda. Suele ser un lugar de paso habitual, para ir a recoger a alguien o para viajar."
+      }
+    },
+
+    {
+      "id": "gmaps-topplace-4",
+      "title": "Lugar más visitado — Facultad de Ciencias Quimicas UCM",
+      "artists": "3 visitas",
+      "awareness": 2,
+      "timeBucket": "6m",
+      "platformId": 8,
+      "rank": 4,
+      "tags": [
+        "Movilidad",
+        "Lugares",
+        "Propio"
+      ],
+      "details": {
+        "sourceFile": "GMAPS_location-history.json",
+        "dataType": "Historial de ubicaciones",
+        "place": "geo:40.450590,-3.725442",
+        "placeID": "ChIJ69dvqDUoQg0RLafI3plaBYk",
+        "visitCount": 3,
+        "subjective_notes": "Mi compañero de piso estudia en la facultad de Ciencias Químicas de la UCM, y solemos ir a tomar algo por allí. También es un lugar habitual para mi durante los ultimos meses porque estaba de practicas cerca."
+      }
+    },
+    {
+        "id": "gmaps-topplace-4w-1",
+        "title": "Lugar más visitado (4w) — Mi casa",
+        "artists": "11 visitas",
+        "awareness": 2,
+        "timeBucket": "4w",
+        "platformId": 8,
+        "rank": 1,
+        "tags": [
+            "Movilidad",
+            "Lugares",
+            "Propio"
+        ],
+        "details": {
+            "sourceFile": "GMAPS_location-history.json",
+            "dataType": "Historial de ubicaciones",
+            "place": "geo:40.413538,-3.665820",
+            "placeID": "ChIJZVSc3AEmQg0Ri3e4rRio16o",
+            "visitCount": 11,
+            "subjective_notes": "Añadir anotación aquí..."
+
+        }
+    },
+    {
+        "id": "gmaps-topplace-4w-2",
+        "title": "Lugar más visitado (4w) — Casa de mi novia",
+        "artists": "3 visitas",
+        "awareness": 2,
+        "timeBucket": "4w",
+        "platformId": 8,
+        "rank": 2,
+        "tags": [
+            "Movilidad",
+            "Lugares",
+            "Propio"
+        ],
+        "details": {
+            "sourceFile": "GMAPS_location-history.json",
+            "dataType": "Historial de ubicaciones",
+            "place": "geo:40.404150,-3.692399",
+            "placeID": "ChIJPWYtXCUmQg0RVe-a0Fd7IT4",
+            "visitCount": 3,
+            "subjective_notes": "Añadir anotación aquí..."
+
+        }
+    },
+    {
+        "id": "gmaps-topplace-1y-1",
+        "title": "Lugar más visitado (1y) — Mi casa",
+        "artists": "112 visitas",
+        "awareness": 2,
+        "timeBucket": "1y",
+        "platformId": 8,
+        "rank": 1,
+        "tags": [
+            "Movilidad",
+            "Lugares",
+            "Propio"
+        ],
+        "details": {
+            "sourceFile": "GMAPS_location-history.json",
+            "dataType": "Historial de ubicaciones",
+            "place": "geo:40.413538,-3.665820",
+            "placeID": "ChIJZVSc3AEmQg0Ri3e4rRio16o",
+            "visitCount": 112,
+            "subjective_notes": "Añadir anotación aquí..."
+
+        }
+    },
+    {
+        "id": "gmaps-topplace-1y-2",
+        "title": "Lugar más visitado (1y) — Casa de mi novia",
+        "artists": "45 visitas",
+        "awareness": 2,
+        "timeBucket": "1y",
+        "platformId": 8,
+        "rank": 2,
+        "tags": [
+            "Movilidad",
+            "Lugares",
+            "Propio"
+        ],
+        "details": {
+            "sourceFile": "GMAPS_location-history.json",
+            "dataType": "Historial de ubicaciones",
+            "place": "geo:40.404150,-3.692399",
+            "placeID": "ChIJPWYtXCUmQg0RVe-a0Fd7IT4",
+            "visitCount": 45,
+            "subjective_notes": "Añadir anotación aquí..."
+
+        }
+    },
+    {
+      "id": "insta-topic-crafts",
+      "title": "Tema recomendado — Crafts",
+      "artists": "",
+      "awareness": 2,
+      "timeBucket": "4w",
+      "platformId": 4,
+      "rank": 1,
+      "tags": [
+        "Instagram",
+        "Sugerencias",
+        "Inconsciente"
+      ],
+      "details": {
+        "sourceFile": "INSTA_recommended_topics.json",
+        "dataType": "Temas recomendados",
+        "name": "Crafts",
+        "subjective_notes": "Añadir anotación aquí..."
+      }
+    },
+    {
+      "id": "insta-topic-fish",
+      "title": "Tema recomendado — Fish",
+      "artists": "",
+      "awareness": 2,
+      "timeBucket": "4w",
+      "platformId": 4,
+      "rank": 2,
+      "tags": [
+        "Instagram",
+        "Sugerencias",
+        "Inconsciente"
+      ],
+      "details": {
+        "sourceFile": "INSTA_recommended_topics.json",
+        "dataType": "Temas recomendados",
+        "name": "Fish",
+        "subjective_notes": "Añadir anotación aquí..."
+      }
+    },
+    {
+      "id": "insta-topic-woodworking",
+      "title": "Tema recomendado — Woodworking",
+      "artists": "",
+      "awareness": 2,
+      "timeBucket": "4w",
+      "platformId": 4,
+      "rank": 3,
+      "tags": [
+        "Instagram",
+        "Sugerencias",
+        "Inconsciente"
+      ],
+      "details": {
+        "sourceFile": "INSTA_recommended_topics.json",
+        "dataType": "Temas recomendados",
+        "name": "Woodworking",
+        "subjective_notes": "Añadir anotación aquí..."
+      }
+    },
+    {
+      "id": "insta-topic-meat-seafood",
+      "title": "Tema recomendado — Meat & Seafood",
+      "artists": "",
+      "awareness": 2,
+      "timeBucket": "4w",
+      "platformId": 4,
+      "rank": 4,
+      "tags": [
+        "Instagram",
+        "Sugerencias",
+        "Inconsciente"
+      ],
+      "details": {
+        "sourceFile": "INSTA_recommended_topics.json",
+        "dataType": "Temas recomendados",
+        "name": "Meat & Seafood",
+        "subjective_notes": "Añadir anotación aquí..."
+      }
+    },
+    {
+      "id": "insta-topic-video-games",
+      "title": "Tema recomendado — Video Games",
+      "artists": "",
+      "awareness": 2,
+      "timeBucket": "4w",
+      "platformId": 4,
+      "rank": 5,
+      "tags": [
+        "Instagram",
+        "Sugerencias",
+        "Inconsciente"
+      ],
+      "details": {
+        "sourceFile": "INSTA_recommended_topics.json",
+        "dataType": "Temas recomendados",
+        "name": "Video Games",
+        "subjective_notes": "Añadir anotación aquí..."
+      }
+    },
+    {
+      "id": "insta-topic-fashion-products",
+      "title": "Tema recomendado — Fashion Products",
+      "artists": "",
+      "awareness": 2,
+      "timeBucket": "4w",
+      "platformId": 4,
+      "rank": 6,
+      "tags": [
+        "Instagram",
+        "Sugerencias",
+        "Inconsciente"
+      ],
+      "details": {
+        "sourceFile": "INSTA_recommended_topics.json",
+        "dataType": "Temas recomendados",
+        "name": "Fashion Products",
+        "subjective_notes": "Añadir anotación aquí..."
+      }
+    },
+    {
+      "id": "insta-topic-lip-makeup",
+      "title": "Tema recomendado — Lip Makeup",
+      "artists": "",
+      "awareness": 2,
+      "timeBucket": "4w",
+      "platformId": 4,
+      "rank": 7,
+      "tags": [
+        "Instagram",
+        "Sugerencias",
+        "Inconsciente"
+      ],
+      "details": {
+        "sourceFile": "INSTA_recommended_topics.json",
+        "dataType": "Temas recomendados",
+        "name": "Lip Makeup",
+        "subjective_notes": "Añadir anotación aquí..."
+      }
+    },
+    {
+      "id": "insta-topic-tabletop-sports",
+      "title": "Tema recomendado — Tabletop Sports",
+      "artists": "",
+      "awareness": 2,
+      "timeBucket": "4w",
+      "platformId": 4,
+      "rank": 8,
+      "tags": [
+        "Instagram",
+        "Sugerencias",
+        "Inconsciente"
+      ],
+      "details": {
+        "sourceFile": "INSTA_recommended_topics.json",
+        "dataType": "Temas recomendados",
+        "name": "Tabletop Sports",
+        "subjective_notes": "Añadir anotación aquí..."
+      }
+    },
+    {
+      "id": "insta-topic-board-games",
+      "title": "Tema recomendado — Board Games",
+      "artists": "",
+      "awareness": 2,
+      "timeBucket": "4w",
+      "platformId": 4,
+      "rank": 9,
+      "tags": [
+        "Instagram",
+        "Sugerencias",
+        "Inconsciente"
+      ],
+      "details": {
+        "sourceFile": "INSTA_recommended_topics.json",
+        "dataType": "Temas recomendados",
+        "name": "Board Games",
+        "subjective_notes": "Añadir anotación aquí..."
+      }
+    },
+    {
+      "id": "insta-topic-nail-care-product-types",
+      "title": "Tema recomendado — Nail Care Product Types",
+      "artists": "",
+      "awareness": 2,
+      "timeBucket": "6m",
+      "platformId": 4,
+      "rank": 10,
+      "tags": [
+        "Instagram",
+        "Sugerencias",
+        "Inconsciente"
+      ],
+      "details": {
+        "sourceFile": "INSTA_recommended_topics.json",
+        "dataType": "Temas recomendados",
+        "name": "Nail Care Product Types",
+        "subjective_notes": "Añadir anotación aquí..."
+      }
+    },
+    {
+      "id": "insta-topic-gym-workouts",
+      "title": "Tema recomendado — Gym Workouts",
+      "artists": "",
+      "awareness": 2,
+      "timeBucket": "6m",
+      "platformId": 4,
+      "rank": 11,
+      "tags": [
+        "Instagram",
+        "Sugerencias",
+        "Inconsciente"
+      ],
+      "details": {
+        "sourceFile": "INSTA_recommended_topics.json",
+        "dataType": "Temas recomendados",
+        "name": "Gym Workouts",
+        "subjective_notes": "Añadir anotación aquí..."
+      }
+    },
+    {
+      "id": "insta-topic-trading-card-games",
+      "title": "Tema recomendado — Trading Card Games",
+      "artists": "",
+      "awareness": 2,
+      "timeBucket": "6m",
+      "platformId": 4,
+      "rank": 12,
+      "tags": [
+        "Instagram",
+        "Sugerencias",
+        "Inconsciente"
+      ],
+      "details": {
+        "sourceFile": "INSTA_recommended_topics.json",
+        "dataType": "Temas recomendados",
+        "name": "Trading Card Games",
+        "subjective_notes": "Añadir anotación aquí..."
+      }
+    },
+    {
+      "id": "insta-topic-body-modification",
+      "title": "Tema recomendado — Body Modification",
+      "artists": "",
+      "awareness": 2,
+      "timeBucket": "6m",
+      "platformId": 4,
+      "rank": 13,
+      "tags": [
+        "Instagram",
+        "Sugerencias",
+        "Inconsciente"
+      ],
+      "details": {
+        "sourceFile": "INSTA_recommended_topics.json",
+        "dataType": "Temas recomendados",
+        "name": "Body Modification",
+        "subjective_notes": "Añadir anotación aquí..."
+      }
+    },
+    {
+      "id": "insta-topic-birds",
+      "title": "Tema recomendado — Birds",
+      "artists": "",
+      "awareness": 2,
+      "timeBucket": "1y",
+      "platformId": 4,
+      "rank": 14,
+      "tags": [
+        "Instagram",
+        "Sugerencias",
+        "Inconsciente"
+      ],
+      "details": {
+        "sourceFile": "INSTA_recommended_topics.json",
+        "dataType": "Temas recomendados",
+        "name": "Birds",
+        "subjective_notes": "Añadir anotación aquí..."
+      }
+    },
+    {
+      "id": "insta-topic-video-game-consoles-hardware",
+      "title": "Tema recomendado — Video Game Consoles & Hardware",
+      "artists": "",
+      "awareness": 2,
+      "timeBucket": "1y",
+      "platformId": 4,
+      "rank": 15,
+      "tags": [
+        "Instagram",
+        "Sugerencias",
+        "Inconsciente"
+      ],
+      "details": {
+        "sourceFile": "INSTA_recommended_topics.json",
+        "dataType": "Temas recomendados",
+        "name": "Video Game Consoles & Hardware",
+        "subjective_notes": "Añadir anotación aquí..."
+      }
+    },
+    {
+      "id": "insta-topic-ar-vr-games",
+      "title": "Tema recomendado — AR/VR Games",
+      "artists": "",
+      "awareness": 2,
+      "timeBucket": "1y",
+      "platformId": 4,
+      "rank": 16,
+      "tags": [
+        "Instagram",
+        "Sugerencias",
+        "Inconsciente"
+      ],
+      "details": {
+        "sourceFile": "INSTA_recommended_topics.json",
+        "dataType": "Temas recomendados",
+        "name": "AR/VR Games",
+        "subjective_notes": "Añadir anotación aquí..."
+      }
+    },
+    {
+      "id": "insta-topic-turtles",
+      "title": "Tema recomendado — Turtles",
+      "artists": "",
+      "awareness": 2,
+      "timeBucket": "1y",
+      "platformId": 4,
+      "rank": 17,
+      "tags": [
+        "Instagram",
+        "Sugerencias",
+        "Inconsciente"
+      ],
+      "details": {
+        "sourceFile": "INSTA_recommended_topics.json",
+        "dataType": "Temas recomendados",
+        "name": "Turtles",
+        "subjective_notes": "Añadir anotación aquí..."
+      }
+    },
+    {
+      "id": "insta-topic-frogs-toads",
+      "title": "Tema recomendado — Frogs & Toads",
+      "artists": "",
+      "awareness": 2,
+      "timeBucket": "1y",
+      "platformId": 4,
+      "rank": 18,
+      "tags": [
+        "Instagram",
+        "Sugerencias",
+        "Inconsciente"
+      ],
+      "details": {
+        "sourceFile": "INSTA_recommended_topics.json",
+        "dataType": "Temas recomendados",
+        "name": "Frogs & Toads",
+        "subjective_notes": "Añadir anotación aquí..."
+      }
+    },
+    {
+      "id": "insta-topic-snakes",
+      "title": "Tema recomendado — Snakes",
+      "artists": "",
+      "awareness": 2,
+      "timeBucket": "1y",
+      "platformId": 4,
+      "rank": 19,
+      "tags": [
+        "Instagram",
+        "Sugerencias",
+        "Inconsciente"
+      ],
+      "details": {
+        "sourceFile": "INSTA_recommended_topics.json",
+        "dataType": "Temas recomendados",
+        "name": "Snakes",
+        "subjective_notes": "Añadir anotación aquí..."
+      }
+    },
+    {
+      "id": "insta-topic-southeast-asia-travel-tourism",
+      "title": "Tema recomendado — Southeast Asia Travel & Tourism",
+      "artists": "",
+      "awareness": 2,
+      "timeBucket": "1y",
+      "platformId": 4,
+      "rank": 20,
+      "tags": [
+        "Instagram",
+        "Sugerencias",
+        "Inconsciente"
+      ],
+      "details": {
+        "sourceFile": "INSTA_recommended_topics.json",
+        "dataType": "Temas recomendados",
+        "name": "Southeast Asia Travel & Tourism",
+        "subjective_notes": "Añadir anotación aquí..."
+      }
+    },
+    {
+        "id": "insta-watched-6m-tso.vj",
+        "title": "Videos vistos de: tso.vj",
+        "artists": "Visto 10 veces",
+        "awareness": 2,
+        "timeBucket": "6m",
+        "platformId": 4,
+        "rank": 1,
+        "tags": [
+          "Instagram","Video",
+          "Inconsciente"
+        ],
+        "details": {
+          "sourceFile": "INSTA_videos_watched.json",
+          "dataType": "Videos de Instagram Vistos",
+          "author": "tso.vj",
+          "viewCount": 10,
+          "subjective_notes": "Añadir anotación aquí..."
+        }
+      },
+      {
+        "id": "insta-watched-6m-catherine_mccaff",
+        "title": "Videos vistos de: catherine_mccaff",
+        "artists": "Visto 10 veces",
+        "awareness": 2,
+        "timeBucket": "6m",
+        "platformId": 4,
+        "rank": 2,
+        "tags": [
+          "Instagram","Video",
+          "Inconsciente"
+        ],
+        "details": {
+          "sourceFile": "INSTA_videos_watched.json",
+          "dataType": "Videos de Instagram Vistos",
+          "author": "catherine_mccaff",
+          "viewCount": 10,
+          "subjective_notes": "Añadir anotación aquí..."
+        }
+      },
+      {
+        "id": "insta-watched-6m-rita_maestre_",
+        "title": "Videos vistos de: rita_maestre_",
+        "artists": "Visto 8 veces",
+        "awareness": 2,
+        "timeBucket": "6m",
+        "platformId": 4,
+        "rank": 3,
+        "tags": [
+          "Instagram","Video",
+          "Inconsciente"
+        ],
+        "details": {
+          "sourceFile": "INSTA_videos_watched.json",
+          "dataType": "Videos de Instagram Vistos",
+          "author": "rita_maestre_",
+          "viewCount": 8,
+          "subjective_notes": "Añadir anotación aquí..."
+        }
+      },
+      {
+        "id": "insta-watched-6m-monicagarciag_",
+        "title": "Videos vistos de: monicagarciag_",
+        "artists": "Visto 8 veces",
+        "awareness": 2,
+        "timeBucket": "6m",
+        "platformId": 4,
+        "rank": 4,
+        "tags": [
+          "Instagram","Video",
+          "Inconsciente"
+        ],
+        "details": {
+          "sourceFile": "INSTA_videos_watched.json",
+          "dataType": "Videos de Instagram Vistos",
+          "author": "monicagarciag_",
+          "viewCount": 8,
+          "subjective_notes": "Añadir anotación aquí..."
+        }
+      },
+      {
+        "id": "insta-watched-6m-udit.es",
+        "title": "Videos vistos de: udit.es",
+        "artists": "Visto 8 veces",
+        "awareness": 2,
+        "timeBucket": "6m",
+        "platformId": 4,
+        "rank": 5,
+        "tags": [
+          "Instagram","Video",
+          "Inconsciente"
+        ],
+        "details": {
+          "sourceFile": "INSTA_videos_watched.json",
+          "dataType": "Videos de Instagram Vistos",
+          "author": "udit.es",
+          "viewCount": 8,
+          "subjective_notes": "Añadir anotación aquí..."
+        }
+      },
+      {
+        "id": "insta-watched-6m-chnge",
+        "title": "Videos vistos de: chnge",
+        "artists": "Visto 8 veces",
+        "awareness": 2,
+        "timeBucket": "6m",
+        "platformId": 4,
+        "rank": 6,
+        "tags": [
+          "Instagram","Video",
+          "Inconsciente"
+        ],
+        "details": {
+          "sourceFile": "INSTA_videos_watched.json",
+          "dataType": "Videos de Instagram Vistos",
+          "author": "chnge",
+          "viewCount": 8,
+          "subjective_notes": "Añadir anotación aquí..."
+        }
+      },
+      {
+        "id": "insta-watched-6m-u_tad",
+        "title": "Videos vistos de: u_tad",
+        "artists": "Visto 6 veces",
+        "awareness": 2,
+        "timeBucket": "6m",
+        "platformId": 4,
+        "rank": 7,
+        "tags": [
+          "Instagram","Video",
+          "Inconsciente"
+        ],
+        "details": {
+          "sourceFile": "INSTA_videos_watched.json",
+          "dataType": "Videos de Instagram Vistos",
+          "author": "u_tad",
+          "viewCount": 6,
+          "subjective_notes": "Añadir anotación aquí..."
+        }
+      },
+      {
+        "id": "insta-watched-6m-shityoushouldcareabout",
+        "title": "Videos vistos de: shityoushouldcareabout",
+        "artists": "Visto 6 veces",
+        "awareness": 2,
+        "timeBucket": "6m",
+        "platformId": 4,
+        "rank": 8,
+        "tags": [
+          "Instagram","Video",
+          "Inconsciente"
+        ],
+        "details": {
+          "sourceFile": "INSTA_videos_watched.json",
+          "dataType": "Videos de Instagram Vistos",
+          "author": "shityoushouldcareabout",
+          "viewCount": 6,
+          "subjective_notes": "Añadir anotación aquí..."
+        }
+      },
+      {
+        "id": "insta-watched-6m-mujerdebuenapastaa",
+        "title": "Videos vistos de: mujerdebuenapastaa",
+        "artists": "Visto 6 veces",
+        "awareness": 2,
+        "timeBucket": "6m",
+        "platformId": 4,
+        "rank": 9,
+        "tags": [
+          "Instagram","Video",
+          "Inconsciente"
+        ],
+        "details": {
+          "sourceFile": "INSTA_videos_watched.json",
+          "dataType": "Videos de Instagram Vistos",
+          "author": "mujerdebuenapastaa",
+          "viewCount": 6,
+          "subjective_notes": "Añadir anotación aquí..."
+        }
+      },
+      {
+        "id": "insta-watched-6m-sara_ardi5",
+        "title": "Videos vistos de: sara_ardi5",
+        "artists": "Visto 6 veces",
+        "awareness": 2,
+        "timeBucket": "6m",
+        "platformId": 4,
+        "rank": 10,
+        "tags": [
+          "Instagram","Video",
+          "Inconsciente"
+        ],
+        "details": {
+          "sourceFile": "INSTA_videos_watched.json",
+          "dataType": "Videos de Instagram Vistos",
+          "author": "sara_ardi5",
+          "viewCount": 6,
+          "subjective_notes": "Añadir anotación aquí..."
+        }
+      },
+      {
+        "id": "insta-watched-6m-popi.pupas",
+        "title": "Videos vistos de: popi.pupas",
+        "artists": "Visto 5 veces",
+        "awareness": 2,
+        "timeBucket": "6m",
+        "platformId": 4,
+        "rank": 11,
+        "tags": [
+          "Instagram","Video",
+          "Inconsciente"
+        ],
+        "details": {
+          "sourceFile": "INSTA_videos_watched.json",
+          "dataType": "Videos de Instagram Vistos",
+          "author": "popi.pupas",
+          "viewCount": 5,
+          "subjective_notes": "Añadir anotación aquí..."
+        }
+      },
+      {
+        "id": "insta-watched-6m-netflixes",
+        "title": "Videos vistos de: netflixes",
+        "artists": "Visto 4 veces",
+        "awareness": 2,
+        "timeBucket": "6m",
+        "platformId": 4,
+        "rank": 12,
+        "tags": [
+          "Instagram","Video",
+          "Inconsciente"
+        ],
+        "details": {
+          "sourceFile": "INSTA_videos_watched.json",
+          "dataType": "Videos de Instagram Vistos",
+          "author": "netflixes",
+          "viewCount": 4,
+          "subjective_notes": "Añadir anotación aquí..."
+        }
+      },
+      {
+        "id": "insta-watched-6m-yatekomo",
+        "title": "Videos vistos de: yatekomo",
+        "artists": "Visto 4 veces",
+        "awareness": 2,
+        "timeBucket": "6m",
+        "platformId": 4,
+        "rank": 13,
+        "tags": [
+          "Instagram","Video",
+          "Inconsciente"
+        ],
+        "details": {
+          "sourceFile": "INSTA_videos_watched.json",
+          "dataType": "Videos de Instagram Vistos",
+          "author": "yatekomo",
+          "viewCount": 4,
+          "subjective_notes": "Añadir anotación aquí..."
+        }
+      },
+      {
+        "id": "insta-watched-6m-manuela_bergerot",
+        "title": "Videos vistos de: manuela_bergerot",
+        "artists": "Visto 4 veces",
+        "awareness": 2,
+        "timeBucket": "6m",
+        "platformId": 4,
+        "rank": 14,
+        "tags": [
+         "Instagram", "Video",
+          "Inconsciente"
+        ],
+        "details": {
+          "sourceFile": "INSTA_videos_watched.json",
+          "dataType": "Videos de Instagram Vistos",
+          "author": "manuela_bergerot",
+          "viewCount": 4,
+          "subjective_notes": "Añadir anotación aquí..."
+        }
+      },
+      {
+        "id": "insta-watched-6m-dev_lemons",
+        "title": "Videos vistos de: dev_lemons",
+        "artists": "Visto 4 veces",
+        "awareness": 2,
+        "timeBucket": "6m",
+        "platformId": 4,
+        "rank": 15,
+        "tags": [
+          "Instagram","Video",
+          "Inconsciente"
+        ],
+        "details": {
+          "sourceFile": "INSTA_videos_watched.json",
+          "dataType": "Videos de Instagram Vistos",
+          "author": "dev_lemons",
+          "viewCount": 4,
+          "subjective_notes": "Añadir anotación aquí..."
+        }
+      },
+      {
+        "id": "insta-watched-6m-gamechangershow",
+        "title": "Videos vistos de: gamechangershow",
+        "artists": "Visto 4 veces",
+        "awareness": 2,
+        "timeBucket": "6m",
+        "platformId": 4,
+        "rank": 16,
+        "tags": [
+          "Instagram","Video",
+          "Inconsciente"
+        ],
+        "details": {
+          "sourceFile": "INSTA_videos_watched.json",
+          "dataType": "Videos de Instagram Vistos",
+          "author": "gamechangershow",
+          "viewCount": 4,
+          "subjective_notes": "Añadir anotación aquí..."
+        }
+      },
+      {
+        "id": "insta-watched-6m-cleoabram",
+        "title": "Videos vistos de: cleoabram",
+        "artists": "Visto 4 veces",
+        "awareness": 2,
+        "timeBucket": "6m",
+        "platformId": 4,
+        "rank": 17,
+        "tags": [
+          "Instagram","Video",
+          "Inconsciente"
+        ],
+        "details": {
+          "sourceFile": "INSTA_videos_watched.json",
+          "dataType": "Videos de Instagram Vistos",
+          "author": "cleoabram",
+          "viewCount": 4,
+          "subjective_notes": "Añadir anotación aquí..."
+        }
+      },
+      {
+        "id": "insta-watched-6m-ellmari.e",
+        "title": "Videos vistos de: ellmari.e",
+        "artists": "Visto 4 veces",
+        "awareness": 2,
+        "timeBucket": "6m",
+        "platformId": 4,
+        "rank": 18,
+        "tags": [
+          "Instagram","Video",
+          "Inconsciente"
+        ],
+        "details": {
+          "sourceFile": "INSTA_videos_watched.json",
+          "dataType": "Videos de Instagram Vistos",
+          "author": "ellmari.e",
+          "viewCount": 4,
+          "subjective_notes": "Añadir anotación aquí..."
+        }
+      },
+      {
+        "id": "insta-watched-6m-labasad_design",
+        "title": "Videos vistos de: labasad_design",
+        "artists": "Visto 4 veces",
+        "awareness": 2,
+        "timeBucket": "6m",
+        "platformId": 4,
+        "rank": 19,
+        "tags": [
+          "Instagram","Video",
+          "Inconsciente"
+        ],
+        "details": {
+          "sourceFile": "INSTA_videos_watched.json",
+          "dataType": "Videos de Instagram Vistos",
+          "author": "labasad_design",
+          "viewCount": 4,
+          "subjective_notes": "Añadir anotación aquí..."
+        }
+      },
+      {
+        "id": "insta-watched-6m-bethmaymccarthy",
+        "title": "Videos vistos de: bethmaymccarthy",
+        "artists": "Visto 4 veces",
+        "awareness": 2,
+        "timeBucket": "6m",
+        "platformId": 4,
+        "rank": 20,
+        "tags": [
+          "Instagram","Video",
+          "Inconsciente"
+        ],
+        "details": {
+          "sourceFile": "INSTA_videos_watched.json",
+          "dataType": "Videos de Instagram Vistos",
+          "author": "bethmaymccarthy",
+          "viewCount": 4,
+          "subjective_notes": "Añadir anotación aquí..."
+        }
+      },
+      
+        {
+            "id": "insta-watched-4w-popi.pupas",
+            "title": "Videos vistos de: popi.pupas",
+            "artists": "Visto 4 veces",
+            "awareness": 2,
+            "timeBucket": "4w",
+            "platformId": 4,
+            "rank": 1,
+            "tags": ["Instagram","Video", "Inconsciente"],
+            "details": { "sourceFile": "INSTA_videos_watched.json", "dataType": "Videos de Instagram Vistos", "author": "popi.pupas", "viewCount": 4 }
+        },
+        {
+            "id": "insta-watched-4w-manuela_bergerot",
+            "title": "Videos vistos de: manuela_bergerot",
+            "artists": "Visto 3 veces",
+            "awareness": 2,
+            "timeBucket": "4w",
+            "platformId": 4,
+            "rank": 2,
+            "tags": ["Instagram","Video", "Inconsciente"],
+            "details": { "sourceFile": "INSTA_videos_watched.json", "dataType": "Videos de Instagram Vistos", "author": "manuela_bergerot", "viewCount": 3 }
+        },
+        {
+            "id": "insta-watched-4w-dev_lemons",
+            "title": "Videos vistos de: dev_lemons",
+            "artists": "Visto 3 veces",
+            "awareness": 2,
+            "timeBucket": "4w",
+            "platformId": 4,
+            "rank": 3,
+            "tags": ["Instagram","Video", "Inconsciente"],
+            "details": { "sourceFile": "INSTA_videos_watched.json", "dataType": "Videos de Instagram Vistos", "author": "dev_lemons", "viewCount": 3 }
+        },
+        {
+            "id": "insta-watched-4w-gamechangershow",
+            "title": "Videos vistos de: gamechangershow",
+            "artists": "Visto 3 veces",
+            "awareness": 2,
+            "timeBucket": "4w",
+            "platformId": 4,
+            "rank": 4,
+            "tags": ["Instagram","Video", "Inconsciente"],
+            "details": { "sourceFile": "INSTA_videos_watched.json", "dataType": "Videos de Instagram Vistos", "author": "gamechangershow", "viewCount": 3 }
+        },
+        {
+            "id": "insta-watched-4w-cleoabram",
+            "title": "Videos vistos de: cleoabram",
+            "artists": "Visto 3 veces",
+            "awareness": 2,
+            "timeBucket": "4w",
+            "platformId": 4,
+            "rank": 5,
+            "tags": ["Instagram","Video", "Inconsciente"],
+            "details": { "sourceFile": "INSTA_videos_watched.json", "dataType": "Videos de Instagram Vistos", "author": "cleoabram", "viewCount": 3 }
+        },
+        {
+            "id": "insta-watched-4w-netflixes",
+            "title": "Videos vistos de: netflixes",
+            "artists": "Visto 3 veces",
+            "awareness": 2,
+            "timeBucket": "4w",
+            "platformId": 4,
+            "rank": 6,
+            "tags": ["Instagram","Video", "Inconsciente"],
+            "details": { "sourceFile": "INSTA_videos_watched.json", "dataType": "Videos de Instagram Vistos", "author": "netflixes", "viewCount": 3 }
+        },
+        {
+            "id": "insta-watched-4w-yatekomo",
+            "title": "Videos vistos de: yatekomo",
+            "artists": "Visto 3 veces",
+            "awareness": 2,
+            "timeBucket": "4w",
+            "platformId": 4,
+            "rank": 7,
+            "tags": ["Instagram","Video", "Inconsciente"],
+            "details": { "sourceFile": "INSTA_videos_watched.json", "dataType": "Videos de Instagram Vistos", "author": "yatekomo", "viewCount": 3 }
+        },
+        {
+            "id": "insta-watched-4w-ellmari.e",
+            "title": "Videos vistos de: ellmari.e",
+            "artists": "Visto 3 veces",
+            "awareness": 2,
+            "timeBucket": "4w",
+            "platformId": 4,
+            "rank": 8,
+            "tags": ["Instagram","Video", "Inconsciente"],
+            "details": { "sourceFile": "INSTA_videos_watched.json", "dataType": "Videos de Instagram Vistos", "author": "ellmari.e", "viewCount": 3 }
+        },
+        {
+            "id": "insta-watched-4w-labasad_design",
+            "title": "Videos vistos de: labasad_design",
+            "artists": "Visto 3 veces",
+            "awareness": 2,
+            "timeBucket": "4w",
+            "platformId": 4,
+            "rank": 9,
+            "tags": ["Instagram","Video", "Inconsciente"],
+            "details": { "sourceFile": "INSTA_videos_watched.json", "dataType": "Videos de Instagram Vistos", "author": "labasad_design", "viewCount": 3 }
+        },
+        {
+            "id": "insta-watched-4w-bethmaymccarthy",
+            "title": "Videos vistos de: bethmaymccarthy",
+            "artists": "Visto 3 veces",
+            "awareness": 2,
+            "timeBucket": "4w",
+            "platformId": 4,
+            "rank": 10,
+            "tags": ["Instagram","Video", "Inconsciente"],
+            "details": { "sourceFile": "INSTA_videos_watched.json", "dataType": "Videos de Instagram Vistos", "author": "bethmaymccarthy", "viewCount": 3 }
+        },
+        {
+            "id": "insta-watched-1y-popi.pupas",
+            "title": "Videos vistos de: popi.pupas",
+            "artists": "Visto 5 veces",
+            "awareness": 2,
+            "timeBucket": "1y",
+            "platformId": 4,
+            "rank": 1,
+            "tags": ["Instagram","Video", "Inconsciente"],
+            "details": { "sourceFile": "INSTA_videos_watched.json", "dataType": "Videos de Instagram Vistos", "author": "popi.pupas", "viewCount": 5 }
+        },
+        {
+            "id": "insta-watched-1y-netflixes",
+            "title": "Videos vistos de: netflixes",
+            "artists": "Visto 4 veces",
+            "awareness": 2,
+            "timeBucket": "1y",
+            "platformId": 4,
+            "rank": 2,
+            "tags": ["Instagram","Video", "Inconsciente"],
+            "details": { "sourceFile": "INSTA_videos_watched.json", "dataType": "Videos de Instagram Vistos", "author": "netflixes", "viewCount": 4 }
+        },
+        {
+            "id": "insta-watched-1y-yatekomo",
+            "title": "Videos vistos de: yatekomo",
+            "artists": "Visto 4 veces",
+            "awareness": 2,
+            "timeBucket": "1y",
+            "platformId": 4,
+            "rank": 3,
+            "tags": ["Instagram","Video", "Inconsciente"],
+            "details": { "sourceFile": "INSTA_videos_watched.json", "dataType": "Videos de Instagram Vistos", "author": "yatekomo", "viewCount": 4 }
+        },
+        {
+            "id": "insta-watched-1y-manuela_bergerot",
+            "title": "Videos vistos de: manuela_bergerot",
+            "artists": "Visto 4 veces",
+            "awareness": 2,
+            "timeBucket": "1y",
+            "platformId": 4,
+            "rank": 4,
+            "tags": ["Instagram","Video", "Inconsciente"],
+            "details": { "sourceFile": "INSTA_videos_watched.json", "dataType": "Videos de Instagram Vistos", "author": "manuela_bergerot", "viewCount": 4 }
+        },
+        {
+            "id": "insta-watched-1y-dev_lemons",
+            "title": "Videos vistos de: dev_lemons",
+            "artists": "Visto 4 veces",
+            "awareness": 2,
+            "timeBucket": "1y",
+            "platformId": 4,
+            "rank": 5,
+            "tags": ["Instagram","Video", "Inconsciente"],
+            "details": { "sourceFile": "INSTA_videos_watched.json", "dataType": "Videos de Instagram Vistos", "author": "dev_lemons", "viewCount": 4 }
+        },
+        {
+            "id": "insta-watched-1y-gamechangershow",
+            "title": "Videos vistos de: gamechangershow",
+            "artists": "Visto 4 veces",
+            "awareness": 2,
+            "timeBucket": "1y",
+            "platformId": 4,
+            "rank": 6,
+            "tags": ["Instagram","Video", "Inconsciente"],
+            "details": { "sourceFile": "INSTA_videos_watched.json", "dataType": "Videos de Instagram Vistos", "author": "gamechangershow", "viewCount": 4 }
+        },
+        {
+            "id": "insta-watched-1y-cleoabram",
+            "title": "Videos vistos de: cleoabram",
+            "artists": "Visto 4 veces",
+            "awareness": 2,
+            "timeBucket": "1y",
+            "platformId": 4,
+            "rank": 7,
+            "tags": ["Instagram","Video", "Inconsciente"],
+            "details": { "sourceFile": "INSTA_videos_watched.json", "dataType": "Videos de Instagram Vistos", "author": "cleoabram", "viewCount": 4 }
+        },
+        {
+            "id": "insta-watched-1y-ellmari.e",
+            "title": "Videos vistos de: ellmari.e",
+            "artists": "Visto 4 veces",
+            "awareness": 2,
+            "timeBucket": "1y",
+            "platformId": 4,
+            "rank": 8,
+            "tags": ["Instagram","Video", "Inconsciente"],
+            "details": { "sourceFile": "INSTA_videos_watched.json", "dataType": "Videos de Instagram Vistos", "author": "ellmari.e", "viewCount": 4 }
+        },
+        {
+            "id": "insta-watched-1y-labasad_design",
+            "title": "Videos vistos de: labasad_design",
+            "artists": "Visto 4 veces",
+            "awareness": 2,
+            "timeBucket": "1y",
+            "platformId": 4,
+            "rank": 9,
+            "tags": ["Instagram","Video", "Inconsciente"],
+            "details": { "sourceFile": "INSTA_videos_watched.json", "dataType": "Videos de Instagram Vistos", "author": "labasad_design", "viewCount": 4 }
+        },
+        {
+            "id": "insta-watched-1y-bethmaymccarthy",
+            "title": "Videos vistos de: bethmaymccarthy",
+            "artists": "Visto 4 veces",
+            "awareness": 2,
+            "timeBucket": "1y",
+            "platformId": 4,
+            "rank": 10,
+            "tags": ["Instagram","Video", "Inconsciente"],
+            "details": { "sourceFile": "INSTA_videos_watched.json", "dataType": "Videos de Instagram Vistos", "author": "bethmaymccarthy", "viewCount": 4 }
+        },
+    
+            {
+                "id": "calendar-avg-4w",
+                "title": "Promedio mensual de eventos (4w)",
+                "artists": "5 eventos en el último mes",
+                "awareness": 2,
+                "timeBucket": "4w",
+                "platformId": 5,
+                "rank": 1,
+                "tags": ["Calendario", "Frecuencia", "Propio"],
+                "details": {
+                    "sourceFile": "Calendar.sqlitedb",
+                    "dataType": "Análisis de Frecuencia",
+                    "period": "Últimas 4 semanas",
+                    "eventCount": 5
+                }
+            },
+            {
+                "id": "calendar-event-4w-1",
+                "title": "Evento: Entrega Final TFM - Memoria",
+                "artists": "8 de Septiembre, 2025",
+                "awareness": 2,
+                "timeBucket": "4w",
+                "platformId": 5,
+                "rank": 2,
+                "tags": ["Calendario", "Eventos", "Propio"],
+                "details": { "name": "Entrega Final TFM", "date": "2025-09-08" }
+            },
+            {
+                "id": "calendar-event-4w-2",
+                "title": "Evento: Tutoría TFM",
+                "artists": "11 de Agosto, 2025",
+                "awareness": 2,
+                "timeBucket": "4w",
+                "platformId": 5,
+                "rank": 3,
+                "tags": ["Calendario", "Eventos", "Propio"],
+                "details": { "name": "Tutoría TFM", "date": "2025-08-11" }
+            },
+            {
+                "id": "calendar-event-4w-3",
+                "title": "Evento: FASE 02",
+                "artists": "21 de Julio, 2025",
+                "awareness": 2,
+                "timeBucket": "4w",
+                "platformId": 5,
+                "rank": 4,
+                "tags": ["Calendario", "Eventos", "Propio"],
+                "details": { "name": "ENTREGA FASE 02", "date": "2025-07-21",
+                "subjective_notes": "Me he ido poniendo tiempos para completar el TFM."
+            }
+            },
+            {
+                "id": "calendar-event-4w-5",
+                "title": "Evento: Viaje a Granada",
+                "artists": "13 de Agosto, 2025",
+                "awareness": 2,
+                "timeBucket": "4w",
+                "platformId": 5,
+                "rank": 6,
+                "tags": ["Calendario", "Eventos", "Propio"],
+                "details": { "name": "Viaje a Granada", "date": "2025-08-13",
+                "subjective_notes": "Hice un viaje corto para ir a la playa y descansar un poco de Madrid con mi novia. Nos quedamos en la casa de su familia en la playa de Granada (La herradura) y estuvimos alli 7 dias."
+            }
+            },
+            {
+                "id": "calendar-avg-6m",
+                "title": "Promedio mensual de eventos (6m)",
+                "artists": "4.3 eventos/mes",
+                "awareness": 2,
+                "timeBucket": "6m",
+                "platformId": 5,
+                "rank": 1,
+                "tags": ["Calendario", "Frecuencia", "Propio"],
+                "details": {
+                    "sourceFile": "Calendar.sqlitedb",
+                    "dataType": "Análisis de Frecuencia",
+                    "period": "Últimos 6 meses",
+                    "averagePerMonth": 4.3
+                }
+            },
+            {
+                "id": "calendar-event-6m-1",
+                "title": "Evento: Quinta de los Molinos",
+                "artists": "19 de Febrero, 2025",
+                "awareness": 2,
+                "timeBucket": "6m",
+                "platformId": 5,
+                "rank": 2,
+                "tags": ["Calendario", "Eventos", "Propio"],
+                "details": { "name": "Quinta de los Molinos", "date": "2025-08-18",
+                "subjective_notes": "Para un proyecto del Master, fuimos a ver el centro cultural de la Quinta de los Molinos en Madrid. Nunca habia ido y fue precioso ver los arboles en flor."
+            }
+            },
+            {
+                "id": "calendar-event-6m-2",
+                "title": "Evento: Tattoo",
+                "artists": "23 de Mayo, 2025",
+                "awareness": 2,
+                "timeBucket": "6m",
+                "platformId": 5,
+                "rank": 3,
+                "tags": ["Calendario", "Eventos", "Propio"],
+                "details": { "name": "Tattoo", "date": "2025-05-23",
+                "subjective_notes": "Me tatue el hombro con un amigo, hacia mucho que queria ir a tatuarme con el pero nunca encontrabamos hueco."
+            }
+            },
+            {
+                "id": "calendar-event-6m-3",
+                "title": "Evento: Empiezan las practicas",
+                "artists": "22 de Abril, 2025",
+                "awareness": 2,
+                "timeBucket": "6m",
+                "platformId": 5,
+                "rank": 4,
+                "tags": ["Calendario", "Eventos", "Propio"],
+                "details": { "name": "Empiezan las practicas", "date": "2025-04-22",
+                "subjective_notes": "Justo despues de Semana Santa empece las practicas en la facultad de Telecomunicaciones de la UPM."
+            }
+            },
+            {
+                "id": "calendar-event-6m-4",
+                "title": "Evento: Viaje a Granada",
+                "artists": "16 de Julio, 2025",
+                "awareness": 2,
+                "timeBucket": "6m",
+                "platformId": 5,
+                "rank": 5,
+                "tags": ["Calendario", "Eventos", "Propio"],
+                "details": { "name": "Viaje a Granada", "date": "2025-07-16",
+                "subjective_notes": "Fuimos a la boda del padre de mi novia en Granada. Nos quedamos a pasar la semana con su familia y luego volvimos a Madrid."
+            }
+            },
+            {
+                "id": "calendar-event-6m-5",
+                "title": "Evento: Grabacion de un corto",
+                "artists": "23 de Marzo, 2025",
+                "awareness": 2,
+                "timeBucket": "6m",
+                "platformId": 5,
+                "rank": 6,
+                "tags": ["Calendario", "Eventos", "Propio"],
+                "details": { "name": "Grabacion de un corto", "date": "2025-03-23",
+                "subjective_notes": "Ayude a hacer los creditos de un corto que grabo mi amiga."
+            }
+            },
+            {
+                "id": "calendar-avg-1y",
+                "title": "Promedio mensual de eventos (1y)",
+                "artists": "6.2 eventos/mes",
+                "awareness": 2,
+                "timeBucket": "1y",
+                "platformId": 5,
+                "rank": 1,
+                "tags": ["Calendario", "Frecuencia", "Propio"],
+                "details": {
+                    "sourceFile": "Calendar.sqlitedb",
+                    "dataType": "Análisis de Frecuencia",
+                    "period": "Último año",
+                    "averagePerMonth": 6.2
+                }
+            },
+            {
+                "id": "calendar-event-1y-1",
+                "title": "Evento: Revision Neurologo",
+                "artists": "16 de Octubre, 2024",
+                "awareness": 2,
+                "timeBucket": "1y",
+                "platformId": 5,
+                "rank": 2,
+                "tags": ["Calendario", "Eventos", "Propio"],
+                "details": { "name": "Revision Neurologo", "date": "2024-10-16",
+                "subjective_notes": "Tengo una enfermedad rara que me afecta al rendimiento muscular y tengo que ir al neurologo cada 6 meses para ver como va. En esta revision me dijo que estaba mejorando."
+            }
+            },
+            {
+                "id": "calendar-event-1y-2",
+                "title": "Evento: Cena Pronombres",
+                "artists": "29 de Noviembre, 2024",
+                "awareness": 2,
+                "timeBucket": "1y",
+                "platformId": 5,
+                "rank": 3,
+                "tags": ["Calendario", "Eventos", "Propio"],
+                "details": { "name": "Cena Pronombres", "date": "2024-11-29",
+                "subjective_notes": "Una cena antes de irnos por Navidad con algunos amigos de Madrid. Lo llamaron asi porque la mayoria somos del colectivo y era gracioso."
+            }
+            },
+            {
+                "id": "calendar-event-1y-3",
+                "title": "Evento: Excursion Parque Warner",
+                "artists": "07 de Diciembre, 2024",
+                "awareness": 2,
+                "timeBucket": "1y",
+                "platformId": 5,
+                "rank": 4,
+                "tags": ["Calendario", "Eventos", "Propio"],
+                "details": { "name": "Excursion Parque Warner", "date": "2024-12-07",
+                "subjective_notes": "Mi madre nos invito a mi y a algunos amigos a pasar el dia en el parque de atracciones de la Warner Bros. por mi cumpleaños."
+            }
+            },
+            {
+                "id": "calendar-event-1y-4",
+                "title": "Evento: Viaje a Granada",
+                "artists": "28 de Diciembre, 2024",
+                "awareness": 2,
+                "timeBucket": "6m",
+                "platformId": 5,
+                "rank": 5,
+                "tags": ["Calendario", "Eventos", "Propio"],
+                "details": { "name": "Viaje a Granada", "date": "2024-12-28",
+                "subjective_notes": "Fui a pasar Nochevieja con la familia de mi novia"
+            }
+            },
+            {
+                "id": "calendar-event-1y-5",
+                "title": "Evento: Sesión Psicologa",
+                "artists": "09 de Diciembre, 2024",
+                "awareness": 2,
+                "timeBucket": "1y",
+                "platformId": 5,
+                "rank": 6,
+                "tags": ["Calendario", "Eventos", "Propio"],
+                "details": { "name": "Sesión Psicologa", "date": "2024-12-09",
+                "subjective_notes": "Suelo tener una sesion psicologica por mes o dos cada mes desde hace 6 años."
+            }
+            }
+        
+    
+  ]
