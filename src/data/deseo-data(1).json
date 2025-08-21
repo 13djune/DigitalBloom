@@ -12,7 +12,7 @@
         "Soul",
         "Funk",
         "Inglés",
-        "Teléfono", "@email", "Consciente", "Propio", "Música",
+        "Teléfono", "@email", "Consciente", "Propio", "Música"
       ],
       "details": {
         "sourceFile": "spotify2_enriched.json",
@@ -34,7 +34,7 @@
         "French House",
         "Hyperpop",
         "Inglés",
-        "Teléfono", "@email", "Consciente", "Propio", "Música",
+        "Teléfono", "@email", "Consciente", "Propio", "Música"
       ],
       "details": {
         "sourceFile": "spotify2_enriched.json",
@@ -55,7 +55,7 @@
         "Hip Hop",
         "Rap",
         "Inglés",
-        "Teléfono", "@email", "Consciente", "Propio", "Música",
+        "Teléfono", "@email", "Consciente", "Propio", "Música"
       ],
       "details": {
         "sourceFile": "spotify2_enriched.json",
@@ -74,8 +74,8 @@
       "rank": 4,
       "tags": [
         "Pop",
-        "Español",
-        "Teléfono", "@email", "Consciente", "Propio", "Música",
+        "Español", 
+        "Teléfono", "@email", "Consciente", "Propio", "Música"
       ],
       "details": {
         "sourceFile": "spotify2_enriched.json",
@@ -98,7 +98,7 @@
         "Electronic",
         "Electropop",
         "Inglés",
-        "Teléfono", "@email", "Consciente", "Propio", "Música",
+        "Teléfono", "@email", "Consciente", "Propio", "Música"
       ],
       "details": {
         "sourceFile": "spotify2_enriched.json",
@@ -119,7 +119,7 @@
         "Boom Bap",
         "Hip Hop",
         "Inglés",
-        "Teléfono", "@email", "Consciente", "Propio", "Música",
+        "Teléfono", "@email", "Consciente", "Propio", "Música"
       ],
       "details": {
         "sourceFile": "spotify2_enriched.json",
@@ -141,7 +141,7 @@
         "Pop",
         "Indie Pop",
         "Español",
-        "Teléfono", "@email", "Consciente", "Propio", "Música",
+        "Teléfono", "@email", "Consciente", "Propio", "Música"
       ],
       "details": {
         "sourceFile": "spotify2_enriched.json",
@@ -162,7 +162,7 @@
         "Electronic",
         "Techno",
         "Español",
-        "Teléfono", "@email", "Consciente", "Propio", "Música",
+        "Teléfono", "@email", "Consciente", "Propio", "Música"
       ],
       "details": {
         "sourceFile": "spotify2_enriched.json",
@@ -183,7 +183,7 @@
         "Electronic",
         "Techno",
         "Español",
-        "Teléfono", "@email", "Consciente", "Propio", "Música",
+        "Teléfono", "@email", "Consciente", "Propio", "Música"
       ],
       "details": {
         "sourceFile": "spotify2_enriched.json",
@@ -204,7 +204,7 @@
         "Alternative R&B",
         "Alt-Pop",
         "Español",
-        "Teléfono", "@email", "Consciente", "Propio", "Música",
+        "Teléfono", "@email", "Consciente", "Propio", "Música"
       ],
       "details": {
         "sourceFile": "spotify2_enriched.json",
@@ -227,7 +227,7 @@
         "Synth-pop",
         "Post-punk",
         "Inglés",
-        "Teléfono", "@email", "Consciente", "Propio", "Música",
+        "Teléfono", "@email", "Consciente", "Propio", "Música"
       ],
       "details": {
         "sourceFile": "spotify2_enriched.json",
@@ -249,7 +249,7 @@
         "R&B",
         "Salsa",
         "Español",
-        "Teléfono", "@email", "Consciente", "Propio", "Música",
+        "Teléfono", "@email", "Consciente", "Propio", "Música"
       ],
       "details": {
         "sourceFile": "spotify2_enriched.json",
@@ -271,7 +271,7 @@
         "Rap",
         "Hip Hop",
         "Español",
-        "Teléfono", "@email", "Consciente", "Propio", "Música",
+        "Teléfono", "@email", "Consciente", "Propio", "Música"
       ],
       "details": {
         "sourceFile": "spotify2_enriched.json",
@@ -292,7 +292,7 @@
         "Electronic",
         "Techno",
         "Español",
-        "Teléfono", "@email", "Consciente", "Propio", "Música",
+        "Teléfono", "@email", "Consciente", "Propio", "Música"
       ],
       "details": {
         "sourceFile": "spotify2_enriched.json",
@@ -313,7 +313,7 @@
         "Hip Hop",
         "Rap",
         "Español",
-        "Teléfono", "@email", "Consciente", "Propio", "Música",
+        "Teléfono", "@email", "Consciente", "Propio", "Música"
       ],
       "details": {
         "sourceFile": "spotify2_enriched.json",
@@ -334,7 +334,7 @@
         "Pop",
         "Soul",
         "Inglés",
-        "Teléfono", "@email", "Consciente", "Propio", "Música",
+        "Teléfono", "@email", "Consciente", "Propio", "Música"
       ],
       "details": {
         "sourceFile": "spotify2_enriched.json",
@@ -355,7 +355,7 @@
         "Hip Hop",
         "Rap",
         "Español",
-        "Teléfono", "@email", "Consciente", "Propio", "Música",
+        "Teléfono", "@email", "Consciente", "Propio", "Música"
       ],
       "details": {
         "sourceFile": "spotify2_enriched.json",
@@ -375,7 +375,7 @@
       "tags": [
         "Pop",
         "Inglés",
-        "Teléfono", "@email", "Consciente", "Propio", "Música",
+        "Teléfono", "@email", "Consciente", "Propio", "Música"
       ],
       "details": {
         "sourceFile": "spotify2_enriched.json",
@@ -396,7 +396,7 @@
         "Hip Hop",
         "Rap",
         "Inglés",
-        "Teléfono", "@email", "Consciente", "Propio", "Música",
+        "Teléfono", "@email", "Consciente", "Propio", "Música"
       ],
       "details": {
         "sourceFile": "spotify2_enriched.json",
@@ -417,7 +417,7 @@
         "Hip Hop",
         "Rap",
         "Inglés",
-        "Teléfono", "@email", "Consciente", "Propio", "Música",
+        "Teléfono", "@email", "Consciente", "Propio", "Música"
       ],
       "details": {
         "sourceFile": "spotify2_enriched.json",
@@ -437,7 +437,7 @@
       "tags": [
         "Pop",
         "Español",
-        "Teléfono", "@email", "Consciente", "Propio", "Música",
+        "Teléfono", "@email", "Consciente", "Propio", "Música"
       ],
       "details": {
         "sourceFile": "spotify2_enriched.json",
@@ -458,7 +458,7 @@
         "Alternative R&B",
         "Pop",
         "Inglés",
-        "Teléfono", "@email", "Consciente", "Propio", "Música",
+        "Teléfono", "@email", "Consciente", "Propio", "Música"
       ],
       "details": {
         "sourceFile": "spotify2_enriched.json",
@@ -478,7 +478,7 @@
       "tags": [
         "Pop",
         "Inglés",
-        "Teléfono", "@email", "Consciente", "Propio", "Música",
+        "Teléfono", "@email", "Consciente", "Propio", "Música"
       ],
       "details": {
         "sourceFile": "spotify2_enriched.json",
@@ -499,7 +499,7 @@
         "Hip Hop",
         "Rap",
         "Español",
-        "Teléfono", "@email", "Consciente", "Propio", "Música",
+        "Teléfono", "@email", "Consciente", "Propio", "Música"
       ],
       "details": {
         "sourceFile": "spotify2_enriched.json",
@@ -520,7 +520,7 @@
         "Electronic",
         "Techno",
         "Español",
-        "Teléfono", "@email", "Consciente", "Propio", "Música",
+        "Teléfono", "@email", "Consciente", "Propio", "Música"
       ],
       "details": {
         "sourceFile": "spotify2_enriched.json",
@@ -541,7 +541,7 @@
         "Flamenco Urbano",
         "Hip Hop",
         "Español",
-        "Teléfono", "@email", "Consciente", "Propio", "Música",
+        "Teléfono", "@email", "Consciente", "Propio", "Música"
       ],
       "details": {
         "sourceFile": "spotify2_enriched.json",
@@ -562,7 +562,7 @@
         "Electronic",
         "Techno",
         "Español",
-        "Teléfono", "@email", "Consciente", "Propio", "Música",
+        "Teléfono", "@email", "Consciente", "Propio", "Música"
       ],
       "details": {
         "sourceFile": "spotify2_enriched.json",
@@ -583,7 +583,7 @@
         "Hip Hop",
         "Rap",
         "Español",
-        "Teléfono", "@email", "Consciente", "Propio", "Música",
+        "Teléfono", "@email", "Consciente", "Propio", "Música"
       ],
       "details": {
         "sourceFile": "spotify2_enriched.json",
@@ -602,7 +602,7 @@
       "rank": 29,
       "tags": [
         "Techno",
-        "Español", "@email", "Consciente", "Propio",, "Música",
+        "Español", "@email", "Consciente", "Propio", "Música",
         "Teléfono"
       ],
       "details": {
@@ -623,7 +623,7 @@
       "tags": [
         "Pop",
         "Inglés",
-        "Teléfono", "@email", "Consciente", "Propio", "Música",
+        "Teléfono", "@email", "Consciente", "Propio", "Música"
       ],
       "details": {
         "sourceFile": "spotify2_enriched.json",
@@ -644,7 +644,7 @@
         "Electronic",
         "Techno",
         "Español",
-        "Teléfono", "@email", "Consciente", "Propio", "Música",
+        "Teléfono", "@email", "Consciente", "Propio", "Música"
       ],
       "details": {
         "sourceFile": "spotify2_enriched.json",
@@ -665,7 +665,7 @@
         "Hip Hop",
         "Rap",
         "Inglés",
-        "Teléfono", "@email", "Consciente", "Propio", "Música",
+        "Teléfono", "@email", "Consciente", "Propio", "Música"
       ],
       "details": {
         "sourceFile": "spotify2_enriched.json",
@@ -686,7 +686,7 @@
         "Flamenco Urbano",
         "Hip Hop",
         "Español",
-        "Teléfono", "@email", "Consciente", "Propio", "Música",
+        "Teléfono", "@email", "Consciente", "Propio", "Música"
       ],
       "details": {
         "sourceFile": "spotify2_enriched.json",
@@ -707,7 +707,7 @@
         "R&B",
         "Pop",
         "Inglés",
-        "Teléfono", "@email", "Consciente", "Propio", "Música",
+        "Teléfono", "@email", "Consciente", "Propio", "Música"
       ],
       "details": {
         "sourceFile": "spotify2_enriched.json",
@@ -728,7 +728,7 @@
         "Art Pop",
         "Indie Pop",
         "Inglés",
-        "Teléfono", "@email", "Consciente", "Propio", "Música",
+        "Teléfono", "@email", "Consciente", "Propio", "Música"
       ],
       "details": {
         "sourceFile": "spotify2_enriched.json",
@@ -748,7 +748,7 @@
       "tags": [
         "Hip Hop",
         "Rap",
-        "Español",, "Música",
+        "Español", "Música",
         "Teléfono", "@email", "Consciente", "Propio"
       ],
       "details": {
@@ -769,7 +769,7 @@
       "tags": [
         "Pop",
         "Inglés",
-        "Teléfono", "@email", "Consciente", "Propio", "Música",
+        "Teléfono", "@email", "Consciente", "Propio", "Música"
       ],
       "details": {
         "sourceFile": "spotify2_enriched.json",
@@ -790,7 +790,7 @@
         "Hip Hop",
         "Rap",
         "Inglés",
-        "Teléfono", "@email", "Consciente", "Propio", "Música",
+        "Teléfono", "@email", "Consciente", "Propio", "Música"
       ],
       "details": {
         "sourceFile": "spotify2_enriched.json",
@@ -810,7 +810,7 @@
       "tags": [
         "Pop",
         "Inglés",
-        "Teléfono", "@email", "Consciente", "Propio", "Música",
+        "Teléfono", "@email", "Consciente", "Propio", "Música"
       ],
       "details": {
         "sourceFile": "spotify2_enriched.json",
@@ -831,7 +831,7 @@
         "Alternative R&B",
         "Alt-Pop",
         "Español",
-        "Teléfono", "@email", "Consciente", "Propio", "Música",
+        "Teléfono", "@email", "Consciente", "Propio", "Música"
       ],
       "details": {
         "sourceFile": "spotify2_enriched.json",
@@ -851,7 +851,7 @@
       "tags": [
         "Pop",
         "Español",
-        "Teléfono", "@email", "Consciente", "Propio", "Música",
+        "Teléfono", "@email", "Consciente", "Propio", "Música"
       ],
       "details": {
         "sourceFile": "spotify2_enriched.json",
@@ -871,7 +871,7 @@
       "tags": [
         "Pop",
         "Español",
-        "Teléfono", "@email", "Consciente", "Propio", "Música",
+        "Teléfono", "@email", "Consciente", "Propio", "Música"
       ],
       "details": {
         "sourceFile": "spotify2_enriched.json",
@@ -892,7 +892,7 @@
         "Folk",
         "Indie Pop",
         "Inglés",
-        "Teléfono", "@email", "Consciente", "Propio", "Música",
+        "Teléfono", "@email", "Consciente", "Propio", "Música"
       ],
       "details": {
         "sourceFile": "spotify2_enriched.json",
@@ -913,7 +913,7 @@
         "Pop",
         "Soul",
         "Inglés",
-        "Teléfono", "@email", "Consciente", "Propio", "Música",
+        "Teléfono", "@email", "Consciente", "Propio", "Música"
       ],
       "details": {
         "sourceFile": "spotify2_enriched.json",
@@ -933,7 +933,7 @@
       "tags": [
         "Pop",
         "Inglés",
-        "Teléfono", "@email", "Consciente", "Propio", "Música",
+        "Teléfono", "@email", "Consciente", "Propio", "Música"
       ],
       "details": {
         "sourceFile": "spotify2_enriched.json",
@@ -953,7 +953,7 @@
       "tags": [
         "Pop",
         "Español",
-        "Teléfono", "@email", "Consciente", "Propio", "Música",
+        "Teléfono", "@email", "Consciente", "Propio", "Música"
       ],
       "details": {
         "sourceFile": "spotify2_enriched.json",
@@ -974,7 +974,7 @@
         "Neo Soul",
         "R&B",
         "Inglés",
-        "Teléfono", "@email", "Consciente", "Propio", "Música",
+        "Teléfono", "@email", "Consciente", "Propio", "Música"
       ],
       "details": {
         "sourceFile": "spotify2_enriched.json",
@@ -994,7 +994,7 @@
       "tags": [
         "Pop",
         "Español",
-        "Teléfono", "@email", "Consciente", "Propio", "Música",
+        "Teléfono", "@email", "Consciente", "Propio", "Música"
       ],
       "details": {
         "sourceFile": "spotify2_enriched.json",
@@ -1014,7 +1014,7 @@
       "tags": [
         "Pop",
         "Español",
-        "Teléfono", "@email", "Consciente", "Propio", "Música",
+        "Teléfono", "@email", "Consciente", "Propio", "Música"
       ],
       "details": {
         "sourceFile": "spotify2_enriched.json",
@@ -1035,7 +1035,7 @@
         "Pop",
         "Soul",
         "Inglés",
-        "Teléfono", "@email", "Consciente", "Propio", "Música",
+        "Teléfono", "@email", "Consciente", "Propio", "Música"
       ],
       "details": {
         "sourceFile": "spotify2_enriched.json",
@@ -1056,7 +1056,7 @@
         "R&B",
         "Dance-Pop",
         "Inglés",
-        "Teléfono", "@email", "Consciente", "Propio", "Música",
+        "Teléfono", "@email", "Consciente", "Propio", "Música"
       ],
       "details": {
         "sourceFile": "spotify2_enriched.json",
@@ -1077,7 +1077,7 @@
         "Indie Pop",
         "Latin Pop",
         "Español",
-        "Teléfono", "@email", "Consciente", "Propio", "Música",
+        "Teléfono", "@email", "Consciente", "Propio", "Música"
       ],
       "details": {
         "sourceFile": "spotify2_enriched.json",
@@ -1098,7 +1098,7 @@
         "Alternative Rap",
         "Flamenco Urbano",
         "Español",
-        "Teléfono", "@email", "Consciente", "Propio", "Música",
+        "Teléfono", "@email", "Consciente", "Propio", "Música"
       ],
       "details": {
         "sourceFile": "spotify2_enriched.json",
@@ -1119,7 +1119,7 @@
         "Electronic",
         "Techno",
         "Español",
-        "Teléfono", "@email", "Consciente", "Propio", "Música",
+        "Teléfono", "@email", "Consciente", "Propio", "Música"
       ],
       "details": {
         "sourceFile": "spotify2_enriched.json",
@@ -1140,7 +1140,7 @@
         "Latin Pop",
         "Hip Hop",
         "Español",
-        "Teléfono", "@email", "Consciente", "Propio", "Música",
+        "Teléfono", "@email", "Consciente", "Propio", "Música"
       ],
       "details": {
         "sourceFile": "spotify2_enriched.json",
@@ -1161,7 +1161,7 @@
         "Indie Pop",
         "Alternative R&B",
         "Español",
-        "Teléfono", "@email", "Consciente", "Propio", "Música",
+        "Teléfono", "@email", "Consciente", "Propio", "Música"
       ],
       "details": {
         "sourceFile": "spotify2_enriched.json",
@@ -1182,7 +1182,7 @@
         "Hip Hop",
         "Rap",
         "Español",
-        "Teléfono", "@email", "Consciente", "Propio", "Música",
+        "Teléfono", "@email", "Consciente", "Propio", "Música"
       ],
       "details": {
         "sourceFile": "spotify2_enriched.json",
@@ -1203,7 +1203,7 @@
         "Flamenco Urbano",
         "Trap",
         "Español",
-        "Teléfono", "@email", "Consciente", "Propio", "Música",
+        "Teléfono", "@email", "Consciente", "Propio", "Música"
       ],
       "details": {
         "sourceFile": "spotify2_enriched.json",
@@ -1225,7 +1225,7 @@
         "French House",
         "Hyperpop",
         "Inglés",
-        "Teléfono", "@email", "Consciente", "Propio", "Música",
+        "Teléfono", "@email", "Consciente", "Propio", "Música"
       ],
       "details": {
         "sourceFile": "spotify2_enriched.json",
@@ -1247,7 +1247,7 @@
         "Latin Rap",
         "Reggaeton",
         "Español",
-        "Teléfono", "@email", "Consciente", "Propio", "Música",
+        "Teléfono", "@email", "Consciente", "Propio", "Música"
       ],
       "details": {
         "sourceFile": "spotify2_enriched.json",
@@ -1269,7 +1269,7 @@
         "Rap",
         "Hip Hop",
         "Español",
-        "Teléfono", "@email", "Consciente", "Propio", "Música",
+        "Teléfono", "@email", "Consciente", "Propio", "Música"
       ],
       "details": {
         "sourceFile": "spotify2_enriched.json",
@@ -1291,7 +1291,7 @@
         "Synth-Pop",
         "R&B",
         "Inglés",
-        "Teléfono", "@email", "Consciente", "Propio", "Música",
+        "Teléfono", "@email", "Consciente", "Propio", "Música"
       ],
       "details": {
         "sourceFile": "spotify2_enriched.json",
@@ -1310,8 +1310,8 @@
       "rank": 13,
       "tags": [
         "Bedroom Pop",
-        "Inglés",
-        "Teléfono", "@email", "Consciente", "Propio", "Música",
+        "Inglés", "Series",
+        "Teléfono", "@email", "Consciente", "Propio", "Música"
       ],
       "details": {
         "sourceFile": "spotify2_enriched.json",
@@ -1331,7 +1331,7 @@
       "tags": [
         "Pop",
         "Español",
-        "Teléfono", "@email", "Consciente", "Propio", "Música",
+        "Teléfono", "@email", "Consciente", "Propio", "Música"
       ],
       "details": {
         "sourceFile": "spotify2_enriched.json",
@@ -1351,7 +1351,7 @@
       "tags": [
         "Pop",
         "Español",
-        "Teléfono", "@email", "Consciente", "Propio", "Música",
+        "Teléfono", "@email", "Consciente", "Propio", "Música"
       ],
       "details": {
         "sourceFile": "spotify2_enriched.json",
@@ -1372,7 +1372,7 @@
         "Electronic",
         "Techno",
         "Español",
-        "Teléfono", "@email", "Consciente", "Propio", "Música",
+        "Teléfono", "@email", "Consciente", "Propio", "Música"
       ],
       "details": {
         "sourceFile": "spotify2_enriched.json",
@@ -1393,7 +1393,7 @@
         "Indie Pop",
         "Alternative R&B",
         "Inglés",
-        "Teléfono", "@email", "Consciente", "Propio", "Música",
+        "Teléfono", "@email", "Consciente", "Propio", "Música"
       ],
       "details": {
         "sourceFile": "spotify2_enriched.json",
@@ -1414,7 +1414,7 @@
         "Indie Pop",
         "Alternative R&B",
         "Inglés",
-        "Teléfono", "@email", "Consciente", "Propio", "Música",
+        "Teléfono", "@email", "Consciente", "Propio", "Música"
       ],
       "details": {
         "sourceFile": "spotify2_enriched.json",
@@ -1435,9 +1435,9 @@
         "K-Pop",
         "Latin Trap",
         "Rock",
-        "Español",
+        "Español", "Series",
         "Inglés",
-        "Teléfono", "@email", "Consciente", "Propio", "Música",
+        "Teléfono", "@email", "Consciente", "Propio", "Música"
       ],
       "details": {
         "sourceFile": "spotify2_enriched.json",
@@ -1457,7 +1457,7 @@
       "tags": [
         "Indie Pop",
         "Inglés",
-        "Teléfono", "@email", "Consciente", "Propio", "Música",
+        "Teléfono", "@email", "Consciente", "Propio", "Música"
       ],
       "details": {
         "sourceFile": "spotify2_enriched.json",
@@ -1478,7 +1478,7 @@
         "Hip Hop",
         "Neo-Soul",
         "Inglés",
-        "Teléfono", "@email", "Consciente", "Propio", "Música",
+        "Teléfono", "@email", "Consciente", "Propio", "Música"
       ],
       "details": {
         "sourceFile": "spotify2_enriched.json",
@@ -1499,7 +1499,7 @@
         "Pop",
         "Trap",
         "Español",
-        "Teléfono", "@email", "Consciente", "Propio", "Música",
+        "Teléfono", "@email", "Consciente", "Propio", "Música"
       ],
       "details": {
         "sourceFile": "spotify2_enriched.json",
@@ -1520,7 +1520,7 @@
         "Flamenco Urbano",
         "Trap",
         "Español",
-        "Teléfono", "@email", "Consciente", "Propio", "Música",
+        "Teléfono", "@email", "Consciente", "Propio", "Música"
       ],
       "details": {
         "sourceFile": "spotify2_enriched.json",
@@ -1540,7 +1540,7 @@
       "tags": [
         "Indie Pop",
         "Español",
-        "Teléfono", "@email", "Consciente", "Propio", "Música",
+        "Teléfono", "@email", "Consciente", "Propio", "Música"
       ],
       "details": {
         "sourceFile": "spotify2_enriched.json",
@@ -1561,7 +1561,7 @@
         "Electronic",
         "Techno",
         "Español",
-        "Teléfono", "@email", "Consciente", "Propio", "Música",
+        "Teléfono", "@email", "Consciente", "Propio", "Música"
       ],
       "details": {
         "sourceFile": "spotify2_enriched.json",
@@ -1582,7 +1582,7 @@
         "Pop",
         "R&B",
         "Inglés",
-        "Teléfono", "@email", "Consciente", "Propio", "Música",
+        "Teléfono", "@email", "Consciente", "Propio", "Música"
       ],
       "details": {
         "sourceFile": "spotify2_enriched.json",
@@ -1602,7 +1602,7 @@
       "tags": [
         "Pop",
         "Español",
-        "Teléfono", "@email", "Consciente", "Propio", "Música",
+        "Teléfono", "@email", "Consciente", "Propio", "Música"
       ],
       "details": {
         "sourceFile": "spotify2_enriched.json",
@@ -1623,7 +1623,7 @@
         "Tech House",
         "Electronic",
         "Español",
-        "Teléfono", "@email", "Consciente", "Propio", "Música",
+        "Teléfono", "@email", "Consciente", "Propio", "Música"
       ],
       "details": {
         "sourceFile": "spotify2_enriched.json",
@@ -1643,7 +1643,7 @@
       "tags": [
         "Pop",
         "Inglés",
-        "Teléfono", "@email", "Consciente", "Propio", "Música",
+        "Teléfono", "@email", "Consciente", "Propio", "Música"
       ],
       "details": {
         "sourceFile": "spotify2_enriched.json",
@@ -1663,7 +1663,7 @@
       "tags": [
         "Pop",
         "Español",
-        "Teléfono", "@email", "Consciente", "Propio", "Música",
+        "Teléfono", "@email", "Consciente", "Propio", "Música"
       ],
       "details": {
         "sourceFile": "spotify2_enriched.json",
@@ -1683,7 +1683,7 @@
       "tags": [
         "Indie Pop",
         "Inglés",
-        "Teléfono", "@email", "Consciente", "Propio", "Música",
+        "Teléfono", "@email", "Consciente", "Propio", "Música"
       ],
       "details": {
         "sourceFile": "spotify2_enriched.json",
@@ -1705,7 +1705,7 @@
         "Rap",
         "Hip Hop",
         "Español",
-        "Teléfono", "@email", "Consciente", "Propio", "Música",
+        "Teléfono", "@email", "Consciente", "Propio", "Música"
       ],
       "details": {
         "sourceFile": "spotify2_enriched.json",
@@ -1725,7 +1725,7 @@
       "tags": [
         "Pop",
         "Español",
-        "Teléfono", "@email", "Consciente", "Propio", "Música",
+        "Teléfono", "@email", "Consciente", "Propio", "Música"
       ],
       "details": {
         "sourceFile": "spotify2_enriched.json",
@@ -1746,7 +1746,7 @@
         "Electronic",
         "Techno",
         "Español",
-        "Teléfono", "@email", "Consciente", "Propio", "Música",
+        "Teléfono", "@email", "Consciente", "Propio", "Música"
       ],
       "details": {
         "sourceFile": "spotify2_enriched.json",
@@ -1767,7 +1767,7 @@
         "Indie Pop",
         "Alternative R&B",
         "Español",
-        "Teléfono", "@email", "Consciente", "Propio", "Música",
+        "Teléfono", "@email", "Consciente", "Propio", "Música"
       ],
       "details": {
         "sourceFile": "spotify2_enriched.json",
@@ -1788,7 +1788,7 @@
         "Electronic",
         "Techno",
         "Español",
-        "Teléfono", "@email", "Consciente", "Propio", "Música",
+        "Teléfono", "@email", "Consciente", "Propio", "Música"
       ],
       "details": {
         "sourceFile": "spotify2_enriched.json",
@@ -1808,7 +1808,7 @@
       "tags": [
         "Indie Pop",
         "Español",
-        "Teléfono", "@email", "Consciente", "Propio", "Música",
+        "Teléfono", "@email", "Consciente", "Propio", "Música"
       ],
       "details": {
         "sourceFile": "spotify2_enriched.json",
@@ -1828,7 +1828,7 @@
       "tags": [
         "Pop",
         "Español",
-        "Teléfono", "@email", "Consciente", "Propio", "Música",
+        "Teléfono", "@email", "Consciente", "Propio", "Música"
       ],
       "details": {
         "sourceFile": "spotify2_enriched.json",
@@ -1849,7 +1849,7 @@
         "Electronic",
         "Techno",
         "Español",
-        "Teléfono", "@email", "Consciente", "Propio", "Música",
+        "Teléfono", "@email", "Consciente", "Propio", "Música"
       ],
       "details": {
         "sourceFile": "spotify2_enriched.json",
@@ -1870,7 +1870,7 @@
         "Neo-Soul",
         "R&B",
         "Inglés",
-        "Teléfono", "@email", "Consciente", "Propio", "Música",
+        "Teléfono", "@email", "Consciente", "Propio", "Música"
       ],
       "details": {
         "sourceFile": "spotify2_enriched.json",
@@ -1890,7 +1890,7 @@
       "tags": [
         "Pop",
         "Español",
-        "Teléfono", "@email", "Consciente", "Propio", "Música",
+        "Teléfono", "@email", "Consciente", "Propio", "Música"
       ],
       "details": {
         "sourceFile": "spotify2_enriched.json",
@@ -1912,7 +1912,7 @@
         "Rap",
         "Hip Hop",
         "Español",
-        "Teléfono", "@email", "Consciente", "Propio", "Música",
+        "Teléfono", "@email", "Consciente", "Propio", "Música"
       ],
       "details": {
         "sourceFile": "spotify2_enriched.json",
@@ -1933,7 +1933,7 @@
         "Hip Hop",
         "Rap",
         "Español",
-        "Teléfono", "@email", "Consciente", "Propio", "Música",
+        "Teléfono", "@email", "Consciente", "Propio", "Música"
       ],
       "details": {
         "sourceFile": "spotify2_enriched.json",
@@ -1954,7 +1954,7 @@
         "Indie Pop",
         "Alternative R&B",
         "Español",
-        "Teléfono", "@email", "Consciente", "Propio", "Música",
+        "Teléfono", "@email", "Consciente", "Propio", "Música"
       ],
       "details": {
         "sourceFile": "spotify2_enriched.json",
@@ -1975,7 +1975,7 @@
         "Art Pop",
         "Indie Pop",
         "Inglés",
-        "Teléfono", "@email", "Consciente", "Propio", "Música",
+        "Teléfono", "@email", "Consciente", "Propio", "Música"
       ],
       "details": {
         "sourceFile": "spotify2_enriched.json",
@@ -1995,7 +1995,7 @@
       "tags": [
         "Pop",
         "Español",
-        "Teléfono", "@email", "Consciente", "Propio", "Música",
+        "Teléfono", "@email", "Consciente", "Propio", "Música"
       ],
       "details": {
         "sourceFile": "spotify2_enriched.json",
@@ -2016,7 +2016,7 @@
         "Hip Hop",
         "Rap",
         "Inglés",
-        "Teléfono", "@email", "Consciente", "Propio", "Música",
+        "Teléfono", "@email", "Consciente", "Propio", "Música"
       ],
       "details": {
         "sourceFile": "spotify2_enriched.json",
@@ -2037,7 +2037,7 @@
         "Electronic",
         "Techno",
         "Español",
-        "Teléfono", "@email", "Consciente", "Propio", "Música",
+        "Teléfono", "@email", "Consciente", "Propio", "Música"
       ],
       "details": {
         "sourceFile": "spotify2_enriched.json",
@@ -2057,7 +2057,7 @@
       "tags": [
         "Pop",
         "Español",
-        "Teléfono", "@email", "Consciente", "Propio", "Música",
+        "Teléfono", "@email", "Consciente", "Propio", "Música"
       ],
       "details": {
         "sourceFile": "spotify2_enriched.json",
@@ -2077,7 +2077,7 @@
       "tags": [
         "Pop",
         "Español", "Música",
-        "Teléfono", "@email", "Consciente", "Propio"
+        "Teléfono", "@email", "Consciente", "Propio", "Música"
       ],
       "details": {
         "sourceFile": "spotify2_enriched.json",
@@ -2098,7 +2098,7 @@
         "Hip Hop",
         "Rap",
         "Español",
-        "Teléfono", "@email", "Consciente", "Propio", "Música",
+        "Teléfono", "@email", "Consciente", "Propio", "Música"
       ],
       "details": {
         "sourceFile": "spotify2_enriched.json",
@@ -2119,7 +2119,7 @@
         "Indie Pop",
         "Alternative",
         "Español",
-        "Teléfono", "@email", "Consciente", "Propio", "Música",
+        "Teléfono", "@email", "Consciente", "Propio", "Música"
       ],
       "details": {
         "sourceFile": "spotify2_enriched.json",
@@ -3150,7 +3150,7 @@
           "Inglés",
           "Estados Unidos",
           "Gameplay narrativo",
-          "Television","Videojuegos", "@email", "Consciente", "Propio"
+          "Televisión","Videojuegos", "@email", "Consciente", "Propio"
         ],
         "details": {
           "sourceFile": "history_YT_enriched_no_duration.json",
@@ -3174,7 +3174,7 @@
           "Minecraft",
           "Inglés",
           "Estados Unidos",
-          "Gameplay narrativo" ,"Television","Videojuegos", "@email", "Consciente", "Propio"
+          "Gameplay narrativo" ,"Televisión","Videojuegos", "@email", "Consciente", "Propio"
         ],
         "details": {
           "sourceFile": "history_YT_enriched_no_duration.json",
@@ -3198,7 +3198,7 @@
           "Minecraft",
           "Inglés",
           "Estados Unidos",
-          "Gameplay narrativo" ,"Television","Videojuegos", "@email", "Consciente", "Propio"
+          "Gameplay narrativo" ,"Televisión","Videojuegos", "@email", "Consciente", "Propio"
         ],
         "details": {
           "sourceFile": "history_YT_enriched_no_duration.json",
@@ -3222,7 +3222,7 @@
           "Minecraft",
           "Inglés",
           "Estados Unidos",
-          "Gameplay narrativo" ,"Television","Videojuegos", "@email", "Consciente", "Propio"
+          "Gameplay narrativo" ,"Televisión","Videojuegos", "@email", "Consciente", "Propio"
         ],
         "details": {
           "sourceFile": "history_YT_enriched_no_duration.json",
@@ -3246,7 +3246,7 @@
           "Minecraft",
           "Inglés",
           "Estados Unidos",
-          "Gameplay narrativo" ,"Television","Videojuegos", "@email", "Consciente", "Propio"
+          "Gameplay narrativo" ,"Televisión","Videojuegos", "@email", "Consciente", "Propio"
         ],
         "details": {
           "sourceFile": "history_YT_enriched_no_duration.json",
@@ -3295,7 +3295,7 @@
           "España",
          
           "Humor",
-          "Videojuegos" ,"Television","Videojuegos", "@email", "Consciente", "Propio"
+          "Videojuegos" ,"Televisión","Videojuegos", "@email", "Consciente", "Propio"
         ],
         "details": {
           "sourceFile": "history_YT_enriched_no_duration.json",
@@ -3319,7 +3319,7 @@
           "Entretenimiento",
           "Español",
           "España",
-          "Gameplay y reacciones" ,"Television","Videojuegos", "@email", "Consciente", "Propio"
+          "Gameplay y reacciones" ,"Televisión","Videojuegos", "@email", "Consciente", "Propio"
         ],
         "details": {
           "sourceFile": "history_YT_enriched_no_duration.json",
@@ -3345,7 +3345,7 @@
           "España",
         
            "Humor",
-          "Videojuegos" ,"Television","Videojuegos", "@email", "Consciente", "Propio"
+          "Videojuegos" ,"Televisión","Videojuegos", "@email", "Consciente", "Propio"
         ],
         "details": {
           "sourceFile": "history_YT_enriched_no_duration.json",
@@ -3370,7 +3370,7 @@
           "Español",
           "Perú",
           "Música en vivo",
-            "Contaminado" ,"Television", "@email", "Consciente", "Propio"
+            "Contaminado" ,"Televisión", "@email", "Consciente", "Propio"
         ],
         "details": {
           "sourceFile": "history_YT_enriched_no_duration.json",
@@ -3395,7 +3395,7 @@
           "Español",
           "Perú",
           "Música en vivo",
-            "Contaminado" ,"Television", "@email", "Consciente", "Propio"
+            "Contaminado" ,"Televisión", "@email", "Consciente", "Propio"
         ],
         "details": {
           "sourceFile": "history_YT_enriched_no_duration.json",
@@ -3420,7 +3420,7 @@
           "Español",
           "Perú",
           "Música en vivo",
-            "Contaminado" ,"Television", "@email", "Consciente", "Propio"
+            "Contaminado" ,"Televisión", "@email", "Consciente", "Propio"
         ],
         "details": {
           "sourceFile": "history_YT_enriched_no_duration.json",
@@ -3444,7 +3444,7 @@
           "Español",
           "Perú",
           "Música en vivo",
-              "Contaminado" ,"Television", "@email", "Consciente", "Propio"],
+              "Contaminado" ,"Televisión", "@email", "Consciente", "Propio"],
         "details": {
           "sourceFile": "history_YT_enriched_no_duration.json",
           "dataType": "Historial de YouTube",
@@ -3468,7 +3468,7 @@
           "Español",
           "Perú",
           "Música en vivo",
-              "Contaminado" ,"Television", "@email", "Consciente", "Propio"
+              "Contaminado" ,"Televisión", "@email", "Consciente", "Propio"
         ],
         "details": {
           "sourceFile": "history_YT_enriched_no_duration.json",
@@ -3493,7 +3493,7 @@
           "Español",
           "Perú",
           "Música en vivo",
-              "Contaminado" ,"Television", "@email", "Consciente", "Propio"
+              "Contaminado" ,"Televisión", "@email", "Consciente", "Propio"
         ],
         "details": {
           "sourceFile": "history_YT_enriched_no_duration.json",
@@ -3518,7 +3518,7 @@
           "Español",
           "Perú",
           "Música en vivo",
-              "Contaminado" ,"Television", "@email", "Consciente", "Propio"
+              "Contaminado" ,"Televisión", "@email", "Consciente", "Propio"
         ],
         "details": {
           "sourceFile": "history_YT_enriched_no_duration.json",
@@ -3543,7 +3543,7 @@
           "Español",
           "Perú",
           "Música en vivo",
-              "Contaminado" ,"Television", "@email", "Consciente", "Propio"
+              "Contaminado" ,"Televisión", "@email", "Consciente", "Propio"
         ],
         "details": {
           "sourceFile": "history_YT_enriched_no_duration.json",
@@ -3568,7 +3568,7 @@
             "Español",
             "Perú",
             "Videoclip musical",
-            "Contaminado" ,"Television", "@email", "Consciente", "Propio"
+            "Contaminado" ,"Televisión", "@email", "Consciente", "Propio"
         ],
         "details": {
           "sourceFile": "history_YT_enriched_no_duration.json",
@@ -3593,7 +3593,7 @@
           "Español",
           "Perú",
           "Videoclip musical",
-          "Contaminado" ,"Television", "@email", "Consciente", "Propio"
+          "Contaminado" ,"Televisión", "@email", "Consciente", "Propio"
         ],
         "details": {
           "sourceFile": "history_YT_enriched_no_duration.json",
@@ -3618,7 +3618,7 @@
         "Español",
         "Perú",
         "Videoclip musical",
-        "Contaminado" ,"Television", "@email", "Consciente", "Propio"
+        "Contaminado" ,"Televisión", "@email", "Consciente", "Propio"
     ],
         "details": {
           "sourceFile": "history_YT_enriched_no_duration.json",
@@ -3642,7 +3642,7 @@
           "Indie Pop",
           "Español",
           "España",
-          "Videoclip musical" ,"Television", "@email", "Consciente", "Propio"
+          "Videoclip musical" ,"Televisión", "@email", "Consciente", "Propio"
         ],
         "details": {
           "sourceFile": "history_YT_enriched_no_duration.json",
@@ -3666,7 +3666,7 @@
           "Indie Pop",
           "Español",
           "España",
-          "Videoclip musical" ,"Television", "@email", "Consciente", "Propio"
+          "Videoclip musical" ,"Televisión", "@email", "Consciente", "Propio"
         ],
         "details": {
           "sourceFile": "history_YT_enriched_no_duration.json",
@@ -3690,7 +3690,7 @@
           "Indie Pop",
           "Español",
           "España",
-          "Videoclip musical" ,"Television", "@email", "Consciente", "Propio"
+          "Videoclip musical" ,"Televisión", "@email", "Consciente", "Propio"
         ],
         "details": {
           "sourceFile": "history_YT_enriched_no_duration.json",
@@ -3714,7 +3714,7 @@
             "Acústico",
             "Español",
             "España",
-            "Sesión musical en vivo" ,"Television", "@email", "Consciente", "Propio"
+            "Sesión musical en vivo" ,"Televisión", "@email", "Consciente", "Propio"
         ],
         "details": {
           "sourceFile": "history_YT_enriched_no_duration.json",
@@ -3738,7 +3738,7 @@
           "Experimental",
           "Español",
           "España",
-          "Videoclip musical" ,"Television", "@email", "Consciente", "Propio", "Contaminado"
+          "Videoclip musical" ,"Televisión", "@email", "Consciente", "Propio", "Contaminado"
         ],
         "details": {
           "sourceFile": "history_YT_enriched_no_duration.json",
@@ -3762,7 +3762,7 @@
             "Acústico",
             "Español",
             "España",
-            "Sesión musical en vivo" ,"Television", "@email", "Consciente", "Propio"
+            "Sesión musical en vivo" ,"Televisión", "@email", "Consciente", "Propio"
         ],
         "details": {
           "sourceFile": "history_YT_enriched_no_duration.json",
@@ -3786,7 +3786,7 @@
           "Acústico",
           "Inglés",
           "Alemania",
-          "Sesión musical en vivo" ,"Television", "@email", "Consciente", "Propio"
+          "Sesión musical en vivo" ,"Televisión", "@email", "Consciente", "Propio"
         ],
         "details": {
           "sourceFile": "history_YT_enriched_no_duration.json",
@@ -3810,7 +3810,7 @@
           "Indie Pop",
           "Español",
           "España",
-          "Videoclip musical" ,"Television", "@email", "Consciente", "Propio"
+          "Videoclip musical" ,"Televisión", "@email", "Consciente", "Propio"
         ],
         "details": {
           "sourceFile": "history_YT_enriched_no_duration.json",
@@ -3834,7 +3834,7 @@
           "Reguetón",
           "Español",
           "Puerto Rico",
-          "Videoclip musical" ,"Television", "@email", "Consciente", "Propio"
+          "Videoclip musical" ,"Televisión", "@email", "Consciente", "Propio"
         ],
         "details": {
           "sourceFile": "history_YT_enriched_no_duration.json",
@@ -3858,7 +3858,7 @@
           "Indie Pop",
           "Español",
           "España",
-          "Videoclip musical" ,"Television", "@email", "Consciente", "Propio"
+          "Videoclip musical" ,"Televisión", "@email", "Consciente", "Propio"
         ],
         "details": {
           "sourceFile": "history_YT_enriched_no_duration.json",
@@ -3882,7 +3882,7 @@
             "Acústico", "Contaminado",
             "Español",
             "España",
-            "Sesión musical en vivo" ,"Television", "@email", "Consciente", "Propio"
+            "Sesión musical en vivo" ,"Televisión", "@email", "Consciente", "Propio"
         ],
         "details": {
           "sourceFile": "history_YT_enriched_no_duration.json",
@@ -3906,7 +3906,7 @@
           "Acústico",
           "Español",
           "España",
-          "Sesión musical en vivo" ,"Television", "@email", "Consciente", "Propio"
+          "Sesión musical en vivo" ,"Televisión", "@email", "Consciente", "Propio"
         ],
         "details": {
           "sourceFile": "history_YT_enriched_no_duration.json",
@@ -3931,7 +3931,7 @@
           "Español",
           "España",
           "Humor",
-          "Videojuegos" ,"Television","Videojuegos", "@email", "Consciente", "Propio"
+          "Videojuegos" ,"Televisión","Videojuegos", "@email", "Consciente", "Propio"
         ],
         "details": {
           "sourceFile": "history_YT_enriched_no_duration.json",
@@ -3955,7 +3955,7 @@
           "Anuncio",
           "Inglés",
           "Reino Unido",
-          "Trailer oficial" ,"Television","Videojuegos", "@email", "Consciente", "Propio"
+          "Trailer oficial" ,"Televisión","Videojuegos", "@email", "Consciente", "Propio"
         ],
         "details": {
           "sourceFile": "history_YT_enriched_no_duration.json",
@@ -3979,7 +3979,7 @@
           "Análisis",
           "Español",
           "España",
-          "Análisis de videojuegos" ,"Television","Videojuegos", "@email", "Consciente", "Propio"
+          "Análisis de videojuegos" ,"Televisión","Videojuegos", "@email", "Consciente", "Propio"
         ],
         "details": {
           "sourceFile": "history_YT_enriched_no_duration.json",
@@ -4027,7 +4027,7 @@
           "Vlog",
           "Inglés",
           "Estados Unidos",
-          "Vlog" ,"Television", "@email", "Consciente", "Propio"
+          "Vlog" ,"Televisión", "@email", "Consciente", "Propio"
         ],
         "details": {
           "sourceFile": "history_YT_enriched_no_duration.json",
@@ -4051,7 +4051,7 @@
           "Vlog",
           "Inglés",
           "Estados Unidos",
-          "Vlog" ,"Television", "@email", "Consciente", "Propio"
+          "Vlog" ,"Televisión", "@email", "Consciente", "Propio"
         ],
         "details": {
           "sourceFile": "history_YT_enriched_no_duration.json",
@@ -4076,7 +4076,7 @@
           "Español",
           "España",
           "Humor",
-          "Videojuegos" ,"Television", "@email", "Consciente", "Propio"
+          "Videojuegos" ,"Televisión", "@email", "Consciente", "Propio"
         ],
         "details": {
           "sourceFile": "history_YT_enriched_no_duration.json",
@@ -4101,7 +4101,7 @@
           "Español",
           "España",
            "Humor",
-          "Videojuegos" ,"Television", "@email", "Consciente", "Propio"
+          "Videojuegos" ,"Televisión", "@email", "Consciente", "Propio"
         ],
         "details": {
           "sourceFile": "history_YT_enriched_no_duration.json",
@@ -4127,7 +4127,7 @@
             "España",
              "Humor",
           "Videojuegos",
-            "Clips y reacciones" ,"Television", "@email", "Consciente", "Propio"
+            "Clips y reacciones" ,"Televisión", "@email", "Consciente", "Propio"
         ],
         "details": {
           "sourceFile": "history_YT_enriched_no_duration.json",
@@ -4153,7 +4153,7 @@
             "España",
              "Humor",
           "Videojuegos",
-            "Clips y reacciones" ,"Television", "@email", "Consciente", "Propio"
+            "Clips y reacciones" ,"Televisión", "@email", "Consciente", "Propio"
         ],
         "details": {
           "sourceFile": "history_YT_enriched_no_duration.json",
@@ -4178,7 +4178,7 @@
           "Español",
           "España",
            "Humor",
-          "Videojuegos" ,"Television", "@email", "Consciente", "Propio"
+          "Videojuegos" ,"Televisión", "@email", "Consciente", "Propio"
         ],
         "details": {
           "sourceFile": "history_YT_enriched_no_duration.json",
@@ -4202,7 +4202,7 @@
           "Pop",
           "Inglés",
           "Estados Unidos",
-          "Actuación en vivo" ,"Television", "@email", "Consciente", "Propio"
+          "Actuación en vivo" ,"Televisión", "@email", "Consciente", "Propio"
         ],
         "details": {
           "sourceFile": "history_YT_enriched_no_duration.json",
@@ -4227,7 +4227,7 @@
           "Español",
           "España",
            "Humor",
-          "Videojuegos" ,"Television", "@email", "Consciente", "Propio"
+          "Videojuegos" ,"Televisión", "@email", "Consciente", "Propio"
         ],
         "details": {
           "sourceFile": "history_YT_enriched_no_duration.json",
@@ -4251,7 +4251,7 @@
           "Entretenimiento",
           "Español",
           "España",
-          "Clips y reacciones" ,"Television","Videojuegos", "@email", "Consciente", "Propio"
+          "Clips y reacciones" ,"Televisión","Videojuegos", "@email", "Consciente", "Propio"
         ],
         "details": {
           "sourceFile": "history_YT_enriched_no_duration.json",
@@ -4275,7 +4275,7 @@
           "Entretenimiento",
           "Español",
           "España",
-          "Gameplay y reacciones" ,"Television","Videojuegos", "@email", "Consciente", "Propio"
+          "Gameplay y reacciones" ,"Televisión","Videojuegos", "@email", "Consciente", "Propio"
         ],
         "details": {
           "sourceFile": "history_YT_enriched_no_duration.json",
@@ -4299,7 +4299,7 @@
           "Entretenimiento",
           "Español",
           "España",
-          "Gameplay y reacciones" ,"Television","Videojuegos", "@email", "Consciente", "Propio"
+          "Gameplay y reacciones" ,"Televisión","Videojuegos", "@email", "Consciente", "Propio"
         ],
         "details": {
           "sourceFile": "history_YT_enriched_no_duration.json",
@@ -4324,7 +4324,7 @@
           "Español",
           "España",
           "Clips y reacciones" ,
-          "Horror","Television","Videojuegos", "@email", "Consciente", "Propio"
+          "Horror","Televisión","Videojuegos", "@email", "Consciente", "Propio"
         ],
         "details": {
           "sourceFile": "history_YT_enriched_no_duration.json",
@@ -4349,7 +4349,7 @@
           "Español",
           "España",
           "Clips y reacciones",
-          "Gameplay narrativo" ,"Television","Videojuegos", "@email", "Consciente", "Propio"
+          "Gameplay narrativo" ,"Televisión","Videojuegos", "@email", "Consciente", "Propio"
         ],
         "details": {
           "sourceFile": "history_YT_enriched_no_duration.json",
@@ -4375,7 +4375,7 @@
           "España",
            "Humor",
           "Videojuegos",
-          "Horror" ,"Television", "@email", "Consciente", "Propio"
+          "Horror" ,"Televisión", "@email", "Consciente", "Propio"
         ],
         "details": {
           "sourceFile": "history_YT_enriched_no_duration.json",
@@ -4399,7 +4399,7 @@
           "Minecraft",
           "Inglés",
           "Estados Unidos",
-          "Gameplay narrativo" ,"Television","Videojuegos", "@email", "Consciente", "Propio"
+          "Gameplay narrativo" ,"Televisión","Videojuegos", "@email", "Consciente", "Propio"
         ],
         "details": {
           "sourceFile": "history_YT_enriched_no_duration.json",
@@ -4423,7 +4423,7 @@
           "Minecraft",
           "Inglés",
           "Estados Unidos",
-          "Gameplay narrativo" ,"Television","Videojuegos", "@email", "Consciente", "Propio"
+          "Gameplay narrativo" ,"Televisión","Videojuegos", "@email", "Consciente", "Propio"
         ],
         "details": {
           "sourceFile": "history_YT_enriched_no_duration.json",
@@ -4447,7 +4447,7 @@
           "Minecraft",
           "Inglés",
           "Estados Unidos",
-          "Gameplay narrativo" ,"Television","Videojuegos", "@email", "Consciente", "Propio"
+          "Gameplay narrativo" ,"Televisión","Videojuegos", "@email", "Consciente", "Propio"
         ],
         "details": {
           "sourceFile": "history_YT_enriched_no_duration.json",
@@ -4471,7 +4471,7 @@
           "Minecraft",
           "Inglés",
           "Estados Unidos",
-          "Gameplay narrativo" ,"Television","Videojuegos", "@email", "Consciente", "Propio"
+          "Gameplay narrativo" ,"Televisión","Videojuegos", "@email", "Consciente", "Propio"
         ],
         "details": {
           "sourceFile": "history_YT_enriched_no_duration.json",
@@ -4495,7 +4495,7 @@
           "Minecraft",
           "Inglés",
           "Estados Unidos",
-          "Gameplay narrativo" ,"Television","Videojuegos", "@email", "Consciente", "Propio"
+          "Gameplay narrativo" ,"Televisión","Videojuegos", "@email", "Consciente", "Propio"
         ],
         "details": {
           "sourceFile": "history_YT_enriched_no_duration.json",
@@ -4521,7 +4521,7 @@
           "España",
           "Humor",
           "Videojuegos",
-          "Horror" ,"Television", "@email", "Consciente", "Propio"
+          "Horror" ,"Televisión", "@email", "Consciente", "Propio"
         ],
         "details": {
           "sourceFile": "history_YT_enriched_no_duration.json",
@@ -4548,7 +4548,7 @@
             "Humor",
           "Videojuegos",
           "Horror",
-            "Clips y reacciones" ,"Television", "@email", "Consciente", "Propio"
+            "Clips y reacciones" ,"Televisión", "@email", "Consciente", "Propio"
         ],
         "details": {
           "sourceFile": "history_YT_enriched_no_duration.json",
@@ -4572,7 +4572,7 @@
           "Minecraft",
           "Inglés",
           "Estados Unidos",
-          "Gameplay narrativo" ,"Television","Videojuegos", "@email", "Consciente", "Propio"
+          "Gameplay narrativo" ,"Televisión","Videojuegos", "@email", "Consciente", "Propio"
         ],
         "details": {
           "sourceFile": "history_YT_enriched_no_duration.json",
@@ -4596,7 +4596,7 @@
           "Minecraft",
           "Inglés",
           "Estados Unidos",
-          "Gameplay narrativo" ,"Television","Videojuegos", "@email", "Consciente", "Propio"
+          "Gameplay narrativo" ,"Televisión","Videojuegos", "@email", "Consciente", "Propio"
         ],
         "details": {
           "sourceFile": "history_YT_enriched_no_duration.json",
@@ -4620,7 +4620,7 @@
           "Minecraft",
           "Inglés",
           "Estados Unidos",
-          "Gameplay narrativo", "Television","Videojuegos", "@email", "Consciente", "Propio"
+          "Gameplay narrativo", "Televisión","Videojuegos", "@email", "Consciente", "Propio"
         ],
         "details": {
           "sourceFile": "history_YT_enriched_no_duration.json",
@@ -4644,7 +4644,7 @@
           "Minecraft",
           "Inglés",
           "Estados Unidos",
-          "Gameplay narrativo", "Television","Videojuegos", "@email", "Consciente", "Propio"
+          "Gameplay narrativo", "Televisión","Videojuegos", "@email", "Consciente", "Propio"
         ],
         "details": {
           "sourceFile": "history_YT_enriched_no_duration.json",
@@ -4668,7 +4668,7 @@
           "Minecraft",
           "Inglés",
           "Estados Unidos",
-          "Gameplay narrativo", "Television","Videojuegos", "@email", "Consciente", "Propio"
+          "Gameplay narrativo", "Televisión","Videojuegos", "@email", "Consciente", "Propio"
         ],
         "details": {
           "sourceFile": "history_YT_enriched_no_duration.json",
@@ -4694,7 +4694,7 @@
             "España",
              "Humor",
           "Videojuegos",
-            "Clips y reacciones", "Television", "@email", "Consciente", "Propio"
+            "Clips y reacciones", "Televisión", "@email", "Consciente", "Propio"
         ],
         "details": {
           "sourceFile": "history_YT_enriched_no_duration.json",
@@ -4720,7 +4720,7 @@
           "España",
         "Humor",
           "Videojuegos",
-          "Horror", "Television", "@email", "Consciente", "Propio"
+          "Horror", "Televisión", "@email", "Consciente", "Propio"
         ],
         "details": {
           "sourceFile": "history_YT_enriched_no_duration.json",
@@ -4745,7 +4745,7 @@
           "Español",
           "España",
          "Humor",
-          "Videojuegos", "Television", "@email", "Consciente", "Propio"
+          "Videojuegos", "Televisión", "@email", "Consciente", "Propio"
         ],
         "details": {
           "sourceFile": "history_YT_enriched_no_duration.json",
@@ -4771,7 +4771,7 @@
           "España",
            "Humor",
            "Horror",
-          "Videojuegos", "Television", "@email", "Consciente", "Propio"
+          "Videojuegos", "Televisión", "@email", "Consciente", "Propio"
         ],
         "details": {
           "sourceFile": "history_YT_enriched_no_duration.json",
@@ -5131,7 +5131,7 @@
           "Minecraft",
           "Español",
           "España",
-          "Gameplay narrativo" , "Television", "@email", "Consciente", "Propio"
+          "Gameplay narrativo" , "Televisión", "@email", "Consciente", "Propio"
         ],
         "details": {
           "sourceFile": "history_YT_enriched_no_duration.json",
@@ -5153,7 +5153,7 @@
         "tags": ["Música",
         "España",
         "Español",
-        "Television",
+        "Televisión",
     "Contaminado", "@email", "Consciente", "Propio"],
         "details": {
           "sourceFile": "history_YT_enriched_no_duration.json",
@@ -5177,7 +5177,7 @@
           "Minecraft",
           "Español",
           "España",
-          "Gameplay narrativo", "Television","Videojuegos", "@email", "Consciente", "Propio"
+          "Gameplay narrativo", "Televisión","Videojuegos", "@email", "Consciente", "Propio"
         ],
         "details": {
           "sourceFile": "history_YT_enriched_no_duration.json",
@@ -5202,7 +5202,7 @@
           "Español",
           "España",
           "Humor",
-          "Videojuegos", "Television", "@email", "Consciente", "Propio"
+          "Videojuegos", "Televisión", "@email", "Consciente", "Propio"
         ],
         "details": {
           "sourceFile": "history_YT_enriched_no_duration.json",
@@ -5227,7 +5227,7 @@
           "Español",
           "España",
            "Humor",
-          "Videojuegos", "Television", "@email", "Consciente", "Propio"
+          "Videojuegos", "Televisión", "@email", "Consciente", "Propio"
         ],
         "details": {
           "sourceFile": "history_YT_enriched_no_duration.json",
@@ -5252,7 +5252,7 @@
           "Español",
           "España",
            "Humor",
-          "Videojuegos", "Television", "@email", "Consciente", "Propio"
+          "Videojuegos", "Televisión", "@email", "Consciente", "Propio"
         ],
         "details": {
           "sourceFile": "history_YT_enriched_no_duration.json",
@@ -5276,7 +5276,7 @@
             "Minecraft",
             "Inglés",
             "Estados Unidos",
-            "Gameplay narrativo", "Television","Videojuegos", "@email", "Consciente", "Propio"
+            "Gameplay narrativo", "Televisión","Videojuegos", "@email", "Consciente", "Propio"
         ],
         "details": {
           "sourceFile": "history_YT_enriched_no_duration.json",
@@ -5300,7 +5300,7 @@
           "Minecraft",
           "Inglés",
           "Estados Unidos",
-          "Gameplay narrativo", "Television","Videojuegos", "@email", "Consciente", "Propio"
+          "Gameplay narrativo", "Televisión","Videojuegos", "@email", "Consciente", "Propio"
         ],
         "details": {
           "sourceFile": "history_YT_enriched_no_duration.json",
@@ -5840,7 +5840,7 @@
           "España",
            "Humor",
           "Videojuegos",
-            "Horror", "Television", "@email", "Consciente", "Propio"
+            "Horror", "Televisión", "@email", "Consciente", "Propio"
         ],
         "details": {
           "sourceFile": "history_YT_enriched_no_duration.json",
@@ -6263,7 +6263,7 @@
             "Español",
             "España",
             "Reacción",
-            "Cultura pop", "Television", "@email", "Consciente", "Propio"
+            "Cultura pop", "Televisión", "@email", "Consciente", "Propio"
           
         ],
         "details": {
@@ -6339,7 +6339,7 @@
             "Entretenimiento",
             "Cultura pop",
             "Drag Queens",
-        "Humor", "Television", "@email", "Consciente", "Propio"
+        "Humor", "Televisión", "@email", "Consciente", "Propio"
     ],
         "details": {
           "sourceFile": "history_YT_enriched_no_duration.json",
@@ -6364,7 +6364,7 @@
             "Entretenimiento",
             "Cultura pop",
             "Drag Queens",
-        "Humor", "Television", "@email", "Consciente", "Propio"],
+        "Humor", "Televisión", "@email", "Consciente", "Propio"],
         "details": {
           "sourceFile": "history_YT_enriched_no_duration.json",
           "dataType": "Historial de YouTube",
@@ -6610,7 +6610,7 @@
             "Español",
             "España",
             "Humor",
-            "Television", "@email", "Consciente", "Propio"
+            "Televisión", "@email", "Consciente", "Propio"
         ],
         "details": {
           "sourceFile": "history_YT_enriched_no_duration.json",
@@ -9100,7 +9100,7 @@
           "sourceFile": "whatsapp_account_information/user_information.html",
           "dataType": "Información de Perfil",
           "name": "Número de teléfono",
-          "value": "+34654399037"
+          "value": "+34654******"
         }
       },
       {
@@ -9218,7 +9218,7 @@
           "tags": [
             "Humor",
             "Inglés", 
-            "Television",
+            "Televisión",
             "@email", "Series", "Compartido", "Consciente"
           ],
           "details": {
@@ -9240,7 +9240,7 @@
           "tags": [
             "Humor",
             "Inglés", 
-            "Television",
+            "Televisión",
             "@email", "Series", "Compartido", "Consciente"
           ],
           "details": {
@@ -9262,7 +9262,7 @@
           "tags": [
             "Humor",
             "Inglés", 
-            "Television",
+            "Televisión",
             "@email", "Series", "Compartido", "Consciente"
           ],
           "details": {
@@ -9285,7 +9285,7 @@
             "Animación",
             "Humor",
             "Español", 
-            "Television",
+            "Televisión",
             "@email", "Series", "Compartido", "Consciente"
           ],
           "details": {
@@ -9308,7 +9308,7 @@
            "Animación",
             "Humor",
             "Español", 
-            "Television",
+            "Televisión",
             "@email", "Series", "Compartido", "Consciente"
           ],
           "details": {
@@ -9331,7 +9331,7 @@
           "Animación",
             "Humor",
             "Español", 
-            "Television",
+            "Televisión",
             "@email", "Series", "Compartido", "Consciente"
           ],
           "details": {
@@ -9353,7 +9353,7 @@
           "tags": [
             "Humor",
             "Inglés", 
-            "Television",
+            "Televisión",
             "@email", "Series", "Compartido", "Consciente"
           ],
           "details": {
@@ -9375,7 +9375,7 @@
           "tags": [
             "Humor",
             "Inglés", 
-            "Television",
+            "Televisión",
             "@email", "Series", "Compartido", "Consciente"
           ],
           "details": {
@@ -9397,7 +9397,7 @@
           "tags": [
             "Humor",
             "Inglés", 
-            "Television",
+            "Televisión",
             "@email", "Series", "Compartido", "Consciente"
           ],
           "details": {
@@ -9419,7 +9419,7 @@
           "tags": [
             "Humor",
             "Inglés", 
-            "Television",
+            "Televisión",
             "@email", "Series", "Compartido", "Consciente"
           ],
           "details": {
@@ -9441,7 +9441,7 @@
           "tags": [
             "Humor",
             "Inglés", 
-            "Television",
+            "Televisión",
             "@email", "Series", "Compartido", "Consciente"
           ],
           "details": {
@@ -9463,7 +9463,7 @@
           "tags": [
             "Humor",
             "Inglés", 
-            "Television",
+            "Televisión",
             "@email", "Series", "Compartido", "Consciente"
           ],
           "details": {
@@ -9485,7 +9485,7 @@
           "tags": [
             "Humor",
             "Inglés", 
-            "Television",
+            "Televisión",
             "@email", "Series", "Compartido", "Consciente"
           ],
           "details": {
@@ -9507,7 +9507,7 @@
           "tags": [
             "Humor",
             "Español", 
-            "Television",
+            "Televisión",
             "@email", "Series", "Compartido", "Consciente"
           ],
           "details": {
@@ -9529,7 +9529,7 @@
           "tags": [
             "Humor",
             "Español", 
-            "Television",
+            "Televisión",
             "@email", "Series", "Compartido", "Consciente"
           ],
           "details": {
@@ -9553,7 +9553,7 @@
             "Ficción",
             "Acción",
             "Español", 
-            "Television",
+            "Televisión",
             "@email", "Series", "Propio", "Inconsciente", "Contaminado"
           ],
           "details": {
@@ -9575,7 +9575,7 @@
           "tags": [
            "Humor", "Animación",
             "Inglés", 
-            "Television",
+            "Televisión",
             "@email", "Series", "Propio", "Consciente"
           ],
           "details": {
@@ -9597,7 +9597,7 @@
           "tags": [
            "Humor", "Animación",
             "Inglés", 
-            "Television",
+            "Televisión",
             "@email", "Series", "Propio", "Consciente"
           ],
           "details": {
@@ -9619,7 +9619,7 @@
           "tags": [
             "Humor", "Animación",
             "Inglés", 
-            "Television",
+            "Televisión",
             "@email", "Series", "Propio", "Consciente"
           ],
           "details": {
@@ -9641,7 +9641,7 @@
           "tags": [
           "Humor", "Animación",
             "Inglés", 
-            "Television",
+            "Televisión",
             "@email", "Series", "Propio", "Consciente"
           ],
           "details": {
@@ -9663,7 +9663,7 @@
           "tags": [
          "Humor", "Animación",
             "Inglés", 
-            "Television",
+            "Televisión",
             "@email", "Series", "Propio", "Consciente"
           ],
           "details": {
@@ -9685,7 +9685,7 @@
           "tags": [
           "Humor", "Animación",
             "Inglés", 
-            "Television",
+            "Televisión",
             "@email", "Series","Propio", "Consciente"
           ],
           "details": {
@@ -9707,7 +9707,7 @@
           "tags": [
           "Humor", "Animación",
             "Inglés", 
-            "Television",
+            "Televisión",
             "@email", "Series", "Propio", "Consciente"
           ],
           "details": {
@@ -9729,7 +9729,7 @@
           "tags": [
            "Humor", "Animación",
             "Inglés", 
-            "Television",
+            "Televisión",
             "@email", "Series", "Propio", "Consciente"
           ],
           "details": {
@@ -9751,7 +9751,7 @@
           "tags": [
            "Humor", "Animación",
             "Inglés", 
-            "Television",
+            "Televisión",
             "@email", "Series", "Propio", "Consciente"
           ],
           "details": {
@@ -9773,7 +9773,7 @@
           "tags": [
            "Humor", "Animación",
             "Inglés", 
-            "Television",
+            "Televisión",
             "@email", "Series", "Propio", "Consciente"
           ],
           "details": {
@@ -9797,7 +9797,7 @@
             "Fantasía",
             "Japonés", "Animación",
             "Inglés", 
-            "Television",
+            "Televisión",
             "@email", "Cine", "Compartido", "Consciente"
           ],
           "details": {
@@ -9818,7 +9818,7 @@
           "date": "2025-08-09",
           "tags": [
             "Humor",
-            "Television",
+            "Televisión",
             "@email", "Series", "Compartido", "Consciente", "Español"
           ],
           "details": {
@@ -9840,7 +9840,7 @@
           "tags": [
             "Anime",
             "Acción",
-            "Series", "@email","Television",
+            "Series", "@email","Televisión",
             "Español", "Contaminado", "Inconsciente"
           ],
           "details": {
@@ -9862,7 +9862,7 @@
           "tags": [
             "Anime",
             "Acción",
-            "Series", "@email","Television",
+            "Series", "@email","Televisión",
             "Español", "Contaminado", "Inconsciente"
           ],
           "details": {
@@ -9884,7 +9884,7 @@
           "tags": [
             "Anime",
             "Acción",
-            "Series", "@email","Television",
+            "Series", "@email","Televisión",
             "Español", "Contaminado", "Inconsciente"
           ],
           "details": {
@@ -9906,7 +9906,7 @@
           "tags": [
             "Humor",
             "Inglés", 
-            "Television",
+            "Televisión",
             "@email", "Series", "Compartido", "Consciente"
           ],
           "details": {
@@ -9928,7 +9928,7 @@
           "tags": [
             "Humor",
             "Inglés", 
-            "Television",
+            "Televisión",
             "@email", "Series", "Compartido", "Consciente"
           ],
           "details": {
@@ -9950,7 +9950,7 @@
           "tags": [
             "Humor",
             "Inglés", 
-            "Television",
+            "Televisión",
             "@email", "Series", "Compartido", "Consciente"
           ],
           "details": {
@@ -9972,7 +9972,7 @@
           "tags": [
             "Humor",
             "Inglés", 
-            "Television",
+            "Televisión",
             "@email", "Series", "Compartido", "Consciente"
           ],
           "details": {
@@ -9994,7 +9994,7 @@
           "tags": [
             "Humor",
             "Inglés", 
-            "Television",
+            "Televisión",
             "@email", "Series", "Compartido", "Consciente"
           ],
           "details": {
@@ -10015,7 +10015,7 @@
           "date": "2025-01-17",
           "tags": [
             "Humor",
-            "Television",
+            "Televisión",
             "@email", "Series", "Compartido", "Consciente", "Español"
           ],
           "details": {
@@ -10036,7 +10036,7 @@
           "date": "2025-07-06",
           "tags": [
             "Humor",
-            "Television",
+            "Televisión",
             "@email", "Series", "Compartido", "Consciente", "Español"
           ],
           "details": {
@@ -10057,7 +10057,7 @@
           "date": "2025-01-23",
           "tags": [
             "Humor",
-            "Television",
+            "Televisión",
             "@email", "Series", "Compartido", "Consciente", "Español"
           ],
           "details": {
@@ -10078,7 +10078,7 @@
           "date": "2025-01-26",
           "tags": [
             "Humor",
-            "Television",
+            "Televisión",
             "@email", "Series", "Compartido", "Consciente", "Español"
           ],
           "details": {
@@ -10099,7 +10099,7 @@
           "date": "2025-03-03",
           "tags": [
             "Humor",
-            "Television",
+            "Televisión",
             "@email", "Series", "Compartido", "Consciente", "Español"
           ],
           "details": {
@@ -10120,7 +10120,7 @@
           "date": "2025-05-26",
           "tags": [
          "Humor",
-            "Television",
+            "Televisión",
             "@email", "Cine", "Compartido", "Consciente", "Español"
           ],
           "details": {
@@ -10141,7 +10141,7 @@
           "date": "2025-02-21",
           "tags": [
             "Drama",
-            "Cine", "Television",
+            "Cine", "Televisión",
             "Inglés", "@email", "Series", "Propio", "Consciente"
           ],
           "details": {
@@ -10162,7 +10162,7 @@
           "date": "2025-01-30",
           "tags": [
             "Horror",
-            "Television",
+            "Televisión",
             "Inglés", "@email", "Cine", "Compartido", "Consciente"
           ],
           "details": {
@@ -10185,7 +10185,7 @@
             "Horror",
             "Drama",
            "Murder",
-            "Inglés", "@email", "Television", "Compartido", "Consciente"
+            "Inglés", "@email", "Televisión", "Compartido", "Consciente"
           ],
           "details": {
             "sourceFile": "netflix_history_completed (1).json",
@@ -10205,7 +10205,7 @@
           "date": "2025-02-11",
           "tags": [
             "Horror",
-            "Television",
+            "Televisión",
             "Español", "Consciente", "Compartido", "@email", "Cine"
           ],
           "details": {
@@ -10229,7 +10229,7 @@
             "Horror",
             "Drama",
             "Murder",
-            "Inglés", "@email", "Television", "Compartido", "Consciente"
+            "Inglés", "@email", "Televisión", "Compartido", "Consciente"
           ],
           "details": {
             "sourceFile": "netflix_history_completed (1).json",
@@ -10251,7 +10251,7 @@
             "Horror",
             "Drama",
            "Murder",
-            "Inglés", "@email", "Television", "Compartido", "Consciente"
+            "Inglés", "@email", "Televisión", "Compartido", "Consciente"
           ],
           "details": {
             "sourceFile": "netflix_history_completed (1).json",
@@ -10273,7 +10273,7 @@
           "Horror",
             "Drama",
            "Murder",
-            "Inglés", "@email", "Television", "Compartido", "Consciente"
+            "Inglés", "@email", "Televisión", "Compartido", "Consciente"
           ],
           "details": {
             "sourceFile": "netflix_history_completed (1).json",
@@ -10294,7 +10294,7 @@
           "tags": [
             "Humor",
             "Inglés", 
-            "Television",
+            "Televisión",
             "@email", "Series", "Compartido", "Consciente"
           ],
           "details": {
@@ -10316,7 +10316,7 @@
           "tags": [
             "Humor",
             "Inglés", 
-            "Television",
+            "Televisión",
             "@email", "Series", "Compartido", "Consciente"
           ],
           "details": {
@@ -10338,7 +10338,7 @@
           "tags": [
             "Humor",
             "Inglés", 
-            "Television",
+            "Televisión",
             "@email", "Series", "Compartido", "Consciente"
           ],
           "details": {
@@ -10360,7 +10360,7 @@
           "tags": [
             "Humor",
             "Inglés", 
-            "Television",
+            "Televisión",
             "@email", "Series", "Compartido", "Consciente"
           ],
           "details": {
@@ -10382,7 +10382,7 @@
           "tags": [
            "Horror",
             "Fantasía",
-            "Inglés", "@email", "Television", "Compartido", "Consciente"
+            "Inglés", "@email", "Televisión", "Compartido", "Consciente"
           ],
           "details": {
             "sourceFile": "netflix_history_completed (1).json",
@@ -10403,7 +10403,7 @@
           "tags": [
             "Anime",
             "Fantasía",
-            "Cine", "@email","Television",
+            "Cine", "@email","Televisión",
            "Animación", "2D",
             "Japonés", "Consciente", "Compartido"
           ],
@@ -10426,7 +10426,7 @@
           "tags": [
             "Anime",
             "Fantasía",
-            "Cine", "@email","Television",
+            "Cine", "@email","Televisión",
            "Animación", "2D",
             "Japonés", "Consciente", "Compartido"
           ],
@@ -10451,7 +10451,7 @@
             "Fantasía",
             "Animación", "2D",
             "Español", 
-            "Television",
+            "Televisión",
             "@email", "Series", "Compartido", "Consciente"
           ],
           "details": {
@@ -10472,7 +10472,7 @@
           "date": "2025-03-15",
           "tags": [
             "Drama",
-            "Cine", "Television",
+            "Cine", "Televisión",
             "Inglés", "@email", "Series", "Propio", "Consciente"
           ],
           "details": {
@@ -10493,7 +10493,7 @@
           "date": "2025-02-23",
           "tags": [
             "Drama",
-            "Cine", "Television",
+            "Cine", "Televisión",
             "Inglés", "@email", "Series", "Propio", "Consciente"
           ],
           "details": {
@@ -10517,7 +10517,7 @@
             "Fantasía",
             "Animación", "2D",
             "Español", 
-            "Television",
+            "Televisión",
             "@email", "Series", "Compartido", "Consciente"
           ],
           "details": {
@@ -10541,7 +10541,7 @@
             "Fantasía",
             "Animación", "2D",
             "Español", 
-            "Television",
+            "Televisión",
             "@email", "Series", "Compartido", "Consciente"
           ],
           "details": {
@@ -10565,7 +10565,7 @@
             "Fantasía",
             "Animación", "2D",
             "Español", 
-            "Television",
+            "Televisión",
             "@email", "Series", "Compartido", "Consciente"
           ],
           "details": {
@@ -10589,7 +10589,7 @@
             "Fantasía",
             "Animación", "2D",
             "Español", 
-            "Television",
+            "Televisión",
             "@email", "Series", "Compartido", "Consciente"
           ],
           "details": {
@@ -10613,7 +10613,7 @@
             "Fantasía",
             "Animación", "2D",
             "Español", 
-            "Television",
+            "Televisión",
             "@email", "Series", "Compartido", "Consciente"
           ],
           "details": {
@@ -10637,7 +10637,7 @@
             "Fantasía",
             "Animación", "2D",
             "Español", 
-            "Television",
+            "Televisión",
             "@email", "Series", "Compartido", "Consciente"
           ],
           "details": {
@@ -10661,7 +10661,7 @@
             "Fantasía",
             "Animación", "2D",
             "Español", 
-            "Television",
+            "Televisión",
             "@email", "Series", "Compartido", "Consciente"
           ],
           "details": {
@@ -10685,7 +10685,7 @@
             "Fantasía",
             "Animación", "2D",
             "Español", 
-            "Television",
+            "Televisión",
             "@email", "Series", "Compartido", "Consciente"
           ],
           "details": {
@@ -10709,7 +10709,7 @@
             "Fantasía",
             "Animación", "2D",
             "Español", 
-            "Television",
+            "Televisión",
             "@email", "Series", "Compartido", "Consciente"
           ],
           "details": {
@@ -10733,7 +10733,7 @@
             "Fantasía",
             "Animación", "2D",
             "Español", 
-            "Television",
+            "Televisión",
             "@email", "Series", "Compartido", "Consciente"
           ],
           "details": {
@@ -10757,7 +10757,7 @@
             "Fantasía",
             "Animación", "2D",
             "Español", 
-            "Television",
+            "Televisión",
             "@email", "Series", "Compartido", "Consciente"
           ],
           "details": {
@@ -10781,7 +10781,7 @@
             "Fantasía",
             "Animación", "2D",
             "Español", 
-            "Television",
+            "Televisión",
             "@email", "Series", "Compartido", "Consciente"
           ],
           "details": {
@@ -10805,7 +10805,7 @@
             "Fantasía",
             "Animación", "2D",
             "Español", 
-            "Television",
+            "Televisión",
             "@email", "Series", "Compartido", "Consciente"
           ],
           "details": {
@@ -10826,7 +10826,7 @@
           "date": "2024-08-14",
           "tags": [
             "Humor",
-            "Television",
+            "Televisión",
             "@email", "Series", "Compartido", "Consciente", "Español"
           ],
           "details": {
@@ -10847,7 +10847,7 @@
           "date": "2024-12-27",
           "tags": [
             "Humor",
-            "Television",
+            "Televisión",
             "@email", "Series", "Compartido", "Consciente", "Español"
           ],
           "details": {
@@ -10869,7 +10869,7 @@
           "tags": [
             "Humor", "Sit-com",
         
-            "Television",
+            "Televisión",
             "Inglés", "@email", "Consciente", "Propio"
           ],
           "details": {
@@ -10891,7 +10891,7 @@
           "tags": [
             "Humor", "Sit-com",
         
-            "Television",
+            "Televisión",
             "Inglés", "@email", "Consciente", "Propio"
           ],
           "details": {
@@ -10913,7 +10913,7 @@
           "tags": [
             "Humor", "Sit-com",
         
-            "Television",
+            "Televisión",
             "Inglés", "@email", "Consciente", "Propio"
           ],
           "details": {
@@ -10937,7 +10937,7 @@
             "Fantasía",
             "Animación", "2D",
             "Español", 
-            "Television",
+            "Televisión",
             "@email", "Series", "Compartido", "Consciente"
           ],
           "details": {
@@ -10961,7 +10961,7 @@
             "Fantasía",
             "Animación", "2D",
             "Español", 
-            "Television",
+            "Televisión",
             "@email", "Series", "Compartido", "Consciente"
           ],
           "details": {
@@ -10983,7 +10983,7 @@
           "tags": [
             "Humor", "Sit-com",
         
-            "Television",
+            "Televisión",
             "Inglés", "@email", "Consciente", "Propio"
           ],
           "details": {
@@ -11005,7 +11005,7 @@
           "tags": [
             "Humor", "Sit-com",
         
-            "Television",
+            "Televisión",
             "Inglés", "@email", "Consciente", "Propio"
           ],
           "details": {
@@ -11027,7 +11027,7 @@
           "tags": [
             "Humor", "Sit-com",
         
-            "Television",
+            "Televisión",
             "Inglés", "@email", "Consciente", "Propio"
           ],
           "details": {
@@ -11049,7 +11049,7 @@
           "tags": [
             "Humor", "Sit-com",
         
-            "Television",
+            "Televisión",
             "Inglés", "@email", "Consciente", "Propio"
           ],
           "details": {
@@ -11070,7 +11070,7 @@
           "date": "2025-01-10",
           "tags": [
             "Drama",
-            "Cine", "Television",
+            "Cine", "Televisión",
             "Inglés", "@email", "Series", "Propio", "Consciente"
           ],
           "details": {
@@ -11091,7 +11091,7 @@
           "date": "2024-08-06",
           "tags": [
             "Drama",
-            "Cine", "Television",
+            "Cine", "Televisión",
             "Inglés", "@email", "Series", "Propio", "Consciente"
           ],
           "details": {
@@ -11112,7 +11112,7 @@
           "date": "2024-08-11",
           "tags": [
             "Drama",
-            "Cine", "Television",
+            "Cine", "Televisión",
             "Inglés", "@email", "Series", "Propio", "Consciente"
           ],
           "details": {
@@ -11136,7 +11136,7 @@
             "Fantasía",
             "Animación", "2D",
             "Español", 
-            "Television",
+            "Televisión",
             "@email", "Series", "Compartido", "Consciente"
           ],
           "details": {
@@ -11160,7 +11160,7 @@
             "Fantasía",
             "Animación", "2D",
             "Español", 
-            "Television",
+            "Televisión",
             "@email", "Series", "Compartido", "Consciente"
           ],
           "details": {
@@ -11182,7 +11182,7 @@
           "tags": [
            
             "Acción", "Videojuegos",
-            "Series", "@email","Television",
+            "Series", "@email","Televisión",
            "Animación", "3D",
             "Inglés", "Consciente", "Compartido"
           ],
@@ -11204,7 +11204,7 @@
           "date": "2024-12-26",
           "tags": [
             "Acción", "Videojuegos",
-            "Series", "@email","Television",
+            "Series", "@email","Televisión",
            "Animación", "3D",
             "Inglés", "Consciente", "Compartido"
           ],
@@ -11226,7 +11226,7 @@
           "date": "2024-09-24",
           "tags": [
             "Acción", "Videojuegos",
-            "Series", "@email","Television",
+            "Series", "@email","Televisión",
            "Animación", "3D",
             "Inglés", "Consciente", "Compartido"
           ],
@@ -11248,7 +11248,7 @@
           "date": "2024-07-22",
           "tags": [
             "Acción", "Videojuegos",
-            "Series", "@email","Television",
+            "Series", "@email","Televisión",
            "Animación", "3D",
             "Inglés", "Consciente", "Compartido"
           ],
@@ -11270,7 +11270,7 @@
           "date": "2024-10-10",
           "tags": [
             "Acción", "Videojuegos",
-            "Series", "@email","Television",
+            "Series", "@email","Televisión",
            "Animación", "3D",
             "Inglés", "Consciente", "Compartido"
           ],
@@ -11292,7 +11292,7 @@
           "date": "2024-09-07",
           "tags": [
             "Acción", "Videojuegos",
-            "Series", "@email","Television",
+            "Series", "@email","Televisión",
            "Animación", "3D",
             "Inglés", "Consciente", "Compartido"
           ],
@@ -11314,7 +11314,7 @@
           "date": "2024-07-23",
           "tags": [
             "Acción", "Videojuegos",
-            "Series", "@email","Television",
+            "Series", "@email","Televisión",
            "Animación", "3D",
             "Inglés", "Consciente", "Compartido"
           ],
@@ -11336,7 +11336,7 @@
           "date": "2024-08-23",
           "tags": [
             "Acción", "Videojuegos",
-            "Series", "@email","Television",
+            "Series", "@email","Televisión",
            "Animación", "3D",
             "Inglés", "Consciente", "Compartido"
           ],
@@ -11358,7 +11358,7 @@
           "date": "2024-10-06",
           "tags": [
             "Acción", "Videojuegos",
-            "Series", "@email","Television",
+            "Series", "@email","Televisión",
            "Animación", "3D",
             "Inglés", "Consciente", "Compartido"
           ],
@@ -11380,7 +11380,7 @@
           "date": "2024-09-21",
           "tags": [
             "Humor",
-            "Television",
+            "Televisión",
             "Inglés", "Consciente", "Propio", "@email", "Series"
           ],
           "details": {
@@ -11401,7 +11401,7 @@
           "date": "2025-08-05",
           "tags": [
             "Acción", "Humor",
-            "Series", "@email","Television",
+            "Series", "@email","Televisión",
            "Animación", "2D",
             "Español", "Consciente", "Compartido"
           ],
@@ -11424,7 +11424,7 @@
           "tags": [
             "Acción",
             "Superhéroes", "Ficción",
-            "Television",
+            "Televisión",
             "Español", "Consciente", "Compartido", "@email"
           ],
           "details": {
@@ -11446,7 +11446,7 @@
           "tags": [
             "Acción",
             "Superhéroes", "Ficción",
-            "Television",
+            "Televisión",
             "Español", "Consciente", "Compartido", "@email"
           ],
           "details": {
@@ -11470,7 +11470,7 @@
             "Fantasía",
             "Animación", "2D",
             "Español", 
-            "Television",
+            "Televisión",
             "@email", "Series", "Compartido", "Consciente"
           ],
           "details": {
@@ -11494,7 +11494,7 @@
             "Fantasía",
             "Animación", "2D",
             "Español", 
-            "Television",
+            "Televisión",
             "@email", "Series", "Compartido", "Consciente"
           ],
           "details": {
@@ -11516,7 +11516,7 @@
           "tags": [
             "Infantil",
             "Animación", "2D",
-            "Television",
+            "Televisión",
             "Español", "Consciente", "Compartido", "@email", "Contaminado"
           ],
           "details": {
@@ -11538,7 +11538,7 @@
           "tags": [
             "Fantasía",
             "Acción",
-            "Television", "@email",
+            "Televisión", "@email",
             "Inglés", "Inconsciente", "Contaminado", "Cine"
           ],
           "details": {
@@ -11560,7 +11560,7 @@
           "tags": [
             "Humor", "Sit-com",
         
-            "Television",
+            "Televisión",
             "Inglés", "@email", "Consciente", "Propio"
           ],
           "details": {
@@ -11582,7 +11582,7 @@
           "date": "2025-02-09",
           "tags": [
             "Humor", 
-            "Television",
+            "Televisión",
             "Español", "@email", "Consciente", "Compartido"
           ],
           "details": {
@@ -11604,7 +11604,7 @@
           "tags": [
             "Humor", "Competición",
             "Celebrities",
-            "Television",
+            "Televisión",
             "Español", "@email", "Consciente", "Compartido"
           ],
           "details": {
@@ -11626,7 +11626,7 @@
           "tags": [
             "Ficción",
             "Tecnología",
-            "Inglés", "Television", "@email", "Consciente", "Propio"
+            "Inglés", "Televisión", "@email", "Consciente", "Propio"
           ],
           "details": {
             "sourceFile": "prime_video_history.json",
@@ -11648,7 +11648,7 @@
             "Humor",
             "Drama",
             "Series",
-            "Inglés",  "@email", "Consciente", "Propio", "Television"
+            "Inglés",  "@email", "Consciente", "Propio", "Televisión"
           ],
           "details": {
             "sourceFile": "prime_video_history.json",
@@ -11670,7 +11670,7 @@
             "Humor",
             "Drama",
             "Series",
-            "Inglés",  "@email", "Consciente", "Propio", "Television"
+            "Inglés",  "@email", "Consciente", "Propio", "Televisión"
           ],
           "details": {
             "sourceFile": "prime_video_history.json",
@@ -11692,7 +11692,7 @@
           "tags": [
             "Competición", "Celebrities",
             "Cocina",
-            "Television",
+            "Televisión",
             "Español", "@email", "Consciente", "Compartido"
           ],
           "details": {

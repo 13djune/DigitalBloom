@@ -117,7 +117,7 @@ html, body, #root {
   border: 2px solid #A1E6F6;
   background-color: #00031E;
   color: #A1E6F6;
-  font-size: 14px;
+  font-size: 20px;
   padding: 12px 24px;
   cursor: none; /* oculta cursor normal si quieres usar TargetCursor */
   text-transform: uppercase;
@@ -141,6 +141,11 @@ html, body, #root {
   z-index: 1;
   display: flex;
   flex-direction: row;
+  align-items: center;
+}
+.pixel-text> svg  {
+margin: 0 0 0 8px;
+ 
 }
 
 
@@ -163,7 +168,7 @@ html, body, #root {
   border-radius:12px;
   padding:14px 16px;
   display:flex; align-items:center; gap:12px;
-  font-size:18px; line-height:1.2; text-align:left;
+  font-size:20px; line-height:1.2; text-align:left;
   cursor:pointer;
   box-shadow:0 1px 0 rgba(255,255,255,0.06) inset, 0 8px 24px rgba(0,0,0,.35);
   transition:transform .15s ease, background .15s ease;
@@ -236,12 +241,12 @@ html, body, #root {
 /* número centrado (opcional; comenta si no quieres número) */
 .box-num {
   font-weight: 700;
-  font-size: 14px;
+  font-size: 18px;
 }
 
 /* caption como en tu timeline */
 .level-item .caption {
-  font-size: 12px;
+  font-size: 18px;
   letter-spacing: 1px;
 }
 
@@ -287,7 +292,7 @@ html, body, #root {
 
 /* Texto por defecto (inactivo) */
 .time-label {
-  font-size: 12px;
+  font-size: 18px;
   letter-spacing: 1px;
   font-weight: 700;          
   color: #bfe7f0;            /* azulado claro para contraste */
@@ -308,7 +313,7 @@ html, body, #root {
     0 0 0 2px rgba(0,0,0,.35);      /* borde externo */
   transform: translateZ(0);    
   font-weight: 700;
-  font-size: 12px;
+  font-size: 18px;
   letter-spacing: 1px;
   text-transform: uppercase;
   white-space: nowrap;
@@ -350,11 +355,11 @@ html, body, #root {
   position:fixed; z-index:10001; background:#1d4e55; color:var(--white);
   border-radius:12px; padding:14px 16px 12px; box-shadow:0 16px 48px rgba(0,0,0,.5);
 }
-.coach-body{ font-size:16px; line-height:1.35; }
+.coach-body{ font-size:18px; line-height:1.35; }
 .coach-actions{ display:flex; justify-content:flex-end; gap:10px; margin-top:10px; }
 .btn{ background:var(--accent); color:#003833; border:none; border-radius:8px; padding:8px 12px; font-weight:700; cursor:pointer; scale: 70%; }
 .btn.ghost{ background:transparent; color:#cfeeed; border:1px solid #6ddac0; scale: 70%; }
-.coach-steps{ position:absolute; bottom:-26px; right:8px; font-size:12px; opacity:.8; }
+.coach-steps{ position:absolute; bottom:-26px; right:8px; font-size:18px; opacity:.8; }
 
 /* flechitas */
 .coach-bubble::after{
@@ -370,7 +375,7 @@ html, body, #root {
   position:fixed; right:18px; bottom:18px; width:44px; height:44px; border-radius:50%;
   background:var(--panel2); color:var(--white); border:1px solid rgba(255,255,255,.15);
   box-shadow:0 10px 25px rgba(0,0,0,.35);
-  cursor:pointer; font-weight:900; font-size:18px;
+  cursor:pointer; font-weight:900; font-size:24px;
 }
 /* Overlay + spotlight (agujero) */
 .coach-overlay{
@@ -396,11 +401,11 @@ html, body, #root {
 .coach-arrow-left::after{ right:100%; top:24px; border-right-color:#1d4e55; }
 .coach-arrow-right::after{ left:100%; top:24px; border-left-color:#1d4e55; }
 
-.coach-body{ font-size:16px; line-height:1.35; }
+.coach-body{ font-size:18px; line-height:1.35; }
 .coach-actions{ display:flex; justify-content:flex-end; gap:10px; margin-top:10px; }
 .btn{ background:#2ef2c2; color:#003833; border:none; border-radius:0px; padding:8px 12px; font-weight:700; cursor:pointer; }
 .btn.ghost{ background:transparent; color:#cfeeed; border:1px solid #6ddac0; }
-.coach-steps{ position:absolute; bottom:-26px; right:8px; font-size:12px; opacity:.8; }
+.coach-steps{ position:absolute; bottom:-26px; right:8px; font-size:18px; opacity:.8; }
 
 /* Iconos redondos de la izquierda (sin mensajes fijos) */
 .left-rail{ position:absolute; left:48px; top:72px; display:flex; flex-direction:column; gap:28px; }
@@ -432,7 +437,7 @@ html, body, #root {
   border-radius:999px;
   display:inline-flex; 
   align-items:center; justify-content:center;
-  font-size:12px; 
+  font-size:18px; 
   font-weight:800; 
   line-height:1;
   background:#3be9c9; 

@@ -4,7 +4,14 @@
 
 @font-face{
   font-family: "PixelFont";
-  src: url("./assets/fonts/PixelatedEleganceRegular-ovyAA.ttf") format("truetype");
+  src: url("./assets/fonts/CyborgSister.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face{
+  font-family: "Subjetivo";
+  src: url("./assets/fonts/Notepen.ttf") format("truetype");
   font-weight: 400;
   font-style: normal;
   font-display: swap;
@@ -16,7 +23,7 @@
   --text-inverse-color: #000000;
   --bg-color: #00031E;
   --font-sans: "PixelFont", system-ui, -apple-system, "Segoe UI", Roboto, Arial, sans-serif;
-
+  --font-subj: "Subjetivo";
 }
 
 /* .dark {
@@ -33,6 +40,9 @@ html, body, #root {
   font-family: var(--font-sans);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+.subjetivo-font {
+  font-family: var(--font-subj);
 }
 
 code {

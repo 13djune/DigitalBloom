@@ -8,6 +8,8 @@ import { Icon } from "@iconify/react";
 import PixelImg from "../components/PixelImg";
 import Avatar from "../assets/img/avatar.png";
 import "../styles/about.css";
+import "../index.css";
+
 
 export default function About() {
     const navigate = useNavigate();
@@ -44,7 +46,7 @@ export default function About() {
         <button
           type="button"
           onClick={goBack}
-          className="inline-flex items-center gap-2 text-primary cursor-target"
+          className="inline-flex items-center gap-2 text-primary cursor-target fixed top-10 left-8 scale-[135%]"
           aria-label="Volver"
         >
           <Icon icon="pixelarticons:arrow-left" width={18} height={18} />
@@ -56,7 +58,7 @@ export default function About() {
           <section className="grid md:grid-cols-2 gap-10 md:gap-14 items-center">
             <div>
               <h1 className="text-3xl md:text-4xl font-extrabold tracking-wide mb-6">
-                TITULO DEL PROYECTO
+                Digital Bloom
               </h1>
 
               <div className="space-y-6 leading-relaxed opacity-90">
@@ -129,8 +131,8 @@ export default function About() {
 
             {/* Detalles derecha */}
             <div>
-              <h2 className="text-2xl md:text-3xl font-extrabold tracking-wide mb-4 flex flex-row items-center">
-                Belen (June) {" "}
+              <h2 className="text-3xl md:text-4xl font-extrabold tracking-wide mb-4 flex flex-row items-center subjetivo-font">
+                Belén (June) {" "}
                 <span className="text-sm opacity-70 align-super text-primary p-2">23 años</span>
               </h2>
 
@@ -206,8 +208,8 @@ export default function About() {
           {/* CTA final opcional */}
           <div className="mt-12 flex justify-end">
             <PixelButton className="cursor-target">
-              <Icon icon="pixelarticons:external-link" width={16} height={16} />
               Ver portfolio
+              <Icon icon="pixelarticons:external-link" width={16} height={16} />
             </PixelButton>
           </div>
         </div>

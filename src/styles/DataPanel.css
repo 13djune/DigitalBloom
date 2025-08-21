@@ -64,7 +64,7 @@
   .tag[data-type="consciencia"]{ --tag-bg: rgba(255,159,90,.18); --tag-fg:#ffe9d8; --tag-border: rgba(255,159,90,.5); --tag-bg-active:#ff9f5a; --tag-fg-active:#3a1602; }
 
   .tag {
-    font-size: 11px;
+    font-size: 18px;
     background: rgba(82,39,255,0.15);
     border: 1px solid rgba(82,39,255,0.4);
     padding: 3px 6px;
