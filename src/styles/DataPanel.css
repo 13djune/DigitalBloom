@@ -27,23 +27,23 @@
   }
   
   .platform {
-    font-size: 12px;
-    opacity: 0.7;
+    font-size: 28px;
+    opacity: 0.8;
   }
   
   .title {
-    font-size: 20px;
+    font-size: 24px;
     font-weight: bold;
     margin: 6px 0;
   }
   
   .artists {
-    font-size: 14px;
+    font-size: 20px;
     opacity: 0.85;
   }
   
   .rank {
-    margin-top: 10px;
+    margin-top: 12px;
     color: #9AE6B4;
     font-size: 18px;
   }

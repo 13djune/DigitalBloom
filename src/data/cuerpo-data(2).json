@@ -94,7 +94,7 @@
       "tags": [
         "Teléfono",
         "Viajes",
-        "Propio"
+        "Propio", "Consciente"
       ],
       "details": {
         "sourceFile": "phoneUsage.json",
@@ -283,7 +283,7 @@
       "tags": [
         "Teléfono",
         "Viajes",
-        "Propio"
+        "Propio", "Consciente"
       ],
       "details": {
         "sourceFile": "phoneUsage.json",
@@ -493,7 +493,7 @@
       "tags": [
         "Teléfono",
         "Viajes",
-        "Propio"
+        "Propio", "Consciente"
       ],
       "details": {
         "sourceFile": "phoneUsage.json",
@@ -676,8 +676,8 @@
       }
     },
     {
-      "id": "steps-12m",
-      "title": "Pasos — 12m",
+      "id": "steps-1y",
+      "title": "Pasos — 1y",
       "artists": "4 762/día • 1 738 130 totales",
       "awareness": 2,
       "timeBucket": "1y",
@@ -709,7 +709,7 @@
       "tags": [
         "Movilidad",
         "Ubicaciones",
-        "Propio"
+        "Propio", "Consciente"
       ],
       "details": {
         "sourceFile": "geolocation.json",
@@ -732,7 +732,7 @@
       "tags": [
         "Movilidad",
         "Ubicaciones",
-        "Propio"
+        "Propio", "Consciente"
       ],
       "details": {
         "sourceFile": "geolocation.json",
@@ -755,7 +755,7 @@
       "tags": [
         "Movilidad",
         "Ubicaciones",
-        "Propio"
+        "Propio", "Consciente"
       ],
       "details": {
         "sourceFile": "geolocation.json",
@@ -778,7 +778,7 @@
       "tags": [
         "Movilidad",
         "Ubicaciones",
-        "Propio"
+        "Propio", "Consciente"
       ],
       "details": {
         "sourceFile": "geolocation.json",
@@ -802,7 +802,7 @@
       "tags": [
         "Movilidad",
         "Lugares",
-        "Propio"
+        "Propio", "Consciente"
       ],
       "details": {
         "sourceFile": "GMAPS_location-history.json",
@@ -824,7 +824,7 @@
         "tags": [
           "Movilidad",
           "Ubicaciones",
-          "Propio"
+          "Propio", "Consciente"
         ],
         "details": {
           "sourceFile": "geolocation.json",
@@ -847,7 +847,7 @@
         "tags": [
           "Movilidad",
           "Ubicaciones",
-          "Propio"
+          "Propio", "Consciente"
         ],
         "details": {
           "sourceFile": "geolocation.json",
@@ -870,7 +870,7 @@
         "tags": [
           "Movilidad",
           "Ubicaciones",
-          "Propio"
+          "Propio", "Consciente"
         ],
         "details": {
           "sourceFile": "geolocation.json",
@@ -894,7 +894,7 @@
         "tags": [
           "Movilidad",
           "Ubicaciones",
-          "Propio"
+          "Propio", "Consciente"
         ],
         "details": {
           "sourceFile": "geolocation.json",
@@ -917,7 +917,7 @@
         "tags": [
           "Movilidad",
           "Ubicaciones",
-          "Propio"
+          "Propio", "Consciente"
         ],
         "details": {
           "sourceFile": "geolocation.json",
@@ -941,7 +941,7 @@
       "tags": [
         "Movilidad",
         "Lugares",
-        "Propio"
+        "Propio", "Consciente"
       ],
       "details": {
         "sourceFile": "GMAPS_location-history.json",
@@ -963,7 +963,7 @@
       "tags": [
         "Movilidad",
         "Lugares",
-        "Propio"
+        "Propio", "Consciente"
       ],
       "details": {
         "sourceFile": "GMAPS_location-history.json",
@@ -986,7 +986,7 @@
       "tags": [
         "Movilidad",
         "Lugares",
-        "Propio"
+        "Propio", "Consciente"
       ],
       "details": {
         "sourceFile": "GMAPS_location-history.json",
@@ -1008,7 +1008,7 @@
         "tags": [
             "Movilidad",
             "Lugares",
-            "Propio"
+            "Propio", "Consciente"
         ],
         "details": {
             "sourceFile": "GMAPS_location-history.json",
@@ -1031,7 +1031,7 @@
         "tags": [
             "Movilidad",
             "Lugares",
-            "Propio"
+            "Propio", "Consciente"
         ],
         "details": {
             "sourceFile": "GMAPS_location-history.json",
@@ -1054,7 +1054,7 @@
         "tags": [
             "Movilidad",
             "Lugares",
-            "Propio"
+            "Propio", "Consciente"
         ],
         "details": {
             "sourceFile": "GMAPS_location-history.json",
@@ -1077,7 +1077,7 @@
         "tags": [
             "Movilidad",
             "Lugares",
-            "Propio"
+            "Propio", "Consciente"
         ],
         "details": {
             "sourceFile": "GMAPS_location-history.json",
@@ -1098,9 +1098,7 @@
       "platformId": 4,
       "rank": 1,
       "tags": [
-        "Instagram",
-        "Sugerencias",
-        "Inconsciente"
+      "Redes Sociales", "Propio", "Sugerencias","Inconsciente", "Teléfono", "#tlf", "@email"
       ],
       "details": {
         "sourceFile": "INSTA_recommended_topics.json",
@@ -1118,9 +1116,7 @@
       "platformId": 4,
       "rank": 2,
       "tags": [
-        "Instagram",
-        "Sugerencias",
-        "Inconsciente"
+      "Redes Sociales", "Propio", "Sugerencias","Inconsciente", "Teléfono", "#tlf", "@email"
       ],
       "details": {
         "sourceFile": "INSTA_recommended_topics.json",
@@ -1138,9 +1134,7 @@
       "platformId": 4,
       "rank": 3,
       "tags": [
-        "Instagram",
-        "Sugerencias",
-        "Inconsciente"
+      "Redes Sociales", "Propio", "Sugerencias","Inconsciente", "Teléfono", "#tlf", "@email"
       ],
       "details": {
         "sourceFile": "INSTA_recommended_topics.json",
@@ -1158,9 +1152,7 @@
       "platformId": 4,
       "rank": 4,
       "tags": [
-        "Instagram",
-        "Sugerencias",
-        "Inconsciente"
+      "Redes Sociales", "Propio", "Sugerencias","Inconsciente", "Teléfono", "#tlf", "@email"
       ],
       "details": {
         "sourceFile": "INSTA_recommended_topics.json",
@@ -1178,9 +1170,7 @@
       "platformId": 4,
       "rank": 5,
       "tags": [
-        "Instagram",
-        "Sugerencias",
-        "Inconsciente"
+      "Redes Sociales", "Propio", "Sugerencias","Inconsciente", "Teléfono", "#tlf", "@email"
       ],
       "details": {
         "sourceFile": "INSTA_recommended_topics.json",
@@ -1198,9 +1188,7 @@
       "platformId": 4,
       "rank": 6,
       "tags": [
-        "Instagram",
-        "Sugerencias",
-        "Inconsciente"
+      "Redes Sociales", "Propio", "Sugerencias","Inconsciente", "Teléfono", "#tlf", "@email"
       ],
       "details": {
         "sourceFile": "INSTA_recommended_topics.json",
@@ -1218,9 +1206,7 @@
       "platformId": 4,
       "rank": 7,
       "tags": [
-        "Instagram",
-        "Sugerencias",
-        "Inconsciente"
+      "Redes Sociales", "Propio", "Sugerencias","Inconsciente", "Teléfono", "#tlf", "@email"
       ],
       "details": {
         "sourceFile": "INSTA_recommended_topics.json",
@@ -1238,9 +1224,7 @@
       "platformId": 4,
       "rank": 8,
       "tags": [
-        "Instagram",
-        "Sugerencias",
-        "Inconsciente"
+      "Redes Sociales", "Propio", "Sugerencias","Inconsciente", "Teléfono", "#tlf", "@email"
       ],
       "details": {
         "sourceFile": "INSTA_recommended_topics.json",
@@ -1258,9 +1242,7 @@
       "platformId": 4,
       "rank": 9,
       "tags": [
-        "Instagram",
-        "Sugerencias",
-        "Inconsciente"
+      "Redes Sociales", "Propio", "Sugerencias","Inconsciente", "Teléfono", "#tlf", "@email"
       ],
       "details": {
         "sourceFile": "INSTA_recommended_topics.json",
@@ -1278,9 +1260,7 @@
       "platformId": 4,
       "rank": 10,
       "tags": [
-        "Instagram",
-        "Sugerencias",
-        "Inconsciente"
+      "Redes Sociales", "Propio", "Sugerencias","Inconsciente", "Teléfono", "#tlf", "@email"
       ],
       "details": {
         "sourceFile": "INSTA_recommended_topics.json",
@@ -1298,9 +1278,7 @@
       "platformId": 4,
       "rank": 11,
       "tags": [
-        "Instagram",
-        "Sugerencias",
-        "Inconsciente"
+      "Redes Sociales", "Propio", "Sugerencias","Inconsciente", "Teléfono", "#tlf", "@email"
       ],
       "details": {
         "sourceFile": "INSTA_recommended_topics.json",
@@ -1318,9 +1296,7 @@
       "platformId": 4,
       "rank": 12,
       "tags": [
-        "Instagram",
-        "Sugerencias",
-        "Inconsciente"
+      "Redes Sociales", "Propio", "Sugerencias","Inconsciente", "Teléfono", "#tlf", "@email"
       ],
       "details": {
         "sourceFile": "INSTA_recommended_topics.json",
@@ -1338,9 +1314,7 @@
       "platformId": 4,
       "rank": 13,
       "tags": [
-        "Instagram",
-        "Sugerencias",
-        "Inconsciente"
+      "Redes Sociales", "Propio", "Sugerencias","Inconsciente", "Teléfono", "#tlf", "@email"
       ],
       "details": {
         "sourceFile": "INSTA_recommended_topics.json",
@@ -1358,9 +1332,7 @@
       "platformId": 4,
       "rank": 14,
       "tags": [
-        "Instagram",
-        "Sugerencias",
-        "Inconsciente"
+      "Redes Sociales", "Propio", "Sugerencias","Inconsciente", "Teléfono", "#tlf", "@email"
       ],
       "details": {
         "sourceFile": "INSTA_recommended_topics.json",
@@ -1378,9 +1350,7 @@
       "platformId": 4,
       "rank": 15,
       "tags": [
-        "Instagram",
-        "Sugerencias",
-        "Inconsciente"
+      "Redes Sociales", "Propio", "Sugerencias","Inconsciente", "Teléfono", "#tlf", "@email"
       ],
       "details": {
         "sourceFile": "INSTA_recommended_topics.json",
@@ -1398,9 +1368,7 @@
       "platformId": 4,
       "rank": 16,
       "tags": [
-        "Instagram",
-        "Sugerencias",
-        "Inconsciente"
+      "Redes Sociales", "Propio", "Sugerencias","Inconsciente", "Teléfono", "#tlf", "@email"
       ],
       "details": {
         "sourceFile": "INSTA_recommended_topics.json",
@@ -1418,9 +1386,7 @@
       "platformId": 4,
       "rank": 17,
       "tags": [
-        "Instagram",
-        "Sugerencias",
-        "Inconsciente"
+      "Redes Sociales", "Propio", "Sugerencias","Inconsciente", "Teléfono", "#tlf", "@email"
       ],
       "details": {
         "sourceFile": "INSTA_recommended_topics.json",
@@ -1438,9 +1404,7 @@
       "platformId": 4,
       "rank": 18,
       "tags": [
-        "Instagram",
-        "Sugerencias",
-        "Inconsciente"
+      "Redes Sociales", "Propio", "Sugerencias","Inconsciente", "Teléfono", "#tlf", "@email"
       ],
       "details": {
         "sourceFile": "INSTA_recommended_topics.json",
@@ -1458,9 +1422,7 @@
       "platformId": 4,
       "rank": 19,
       "tags": [
-        "Instagram",
-        "Sugerencias",
-        "Inconsciente"
+      "Redes Sociales", "Propio", "Sugerencias","Inconsciente", "Teléfono", "#tlf", "@email"
       ],
       "details": {
         "sourceFile": "INSTA_recommended_topics.json",
@@ -1478,9 +1440,7 @@
       "platformId": 4,
       "rank": 20,
       "tags": [
-        "Instagram",
-        "Sugerencias",
-        "Inconsciente"
+      "Redes Sociales", "Propio", "Sugerencias","Inconsciente", "Teléfono", "#tlf", "@email"
       ],
       "details": {
         "sourceFile": "INSTA_recommended_topics.json",
@@ -2119,7 +2079,7 @@
                 "timeBucket": "4w",
                 "platformId": 5,
                 "rank": 1,
-                "tags": ["Calendario", "Frecuencia", "Propio"],
+                "tags": ["Calendario", "Frecuencia", "Propio", "Consciente"],
                 "details": {
                     "sourceFile": "Calendar.sqlitedb",
                     "dataType": "Análisis de Frecuencia",
@@ -2135,7 +2095,7 @@
                 "timeBucket": "4w",
                 "platformId": 5,
                 "rank": 2,
-                "tags": ["Calendario", "Eventos", "Propio"],
+                "tags": ["Calendario", "Eventos", "Propio", "Consciente"],
                 "details": { "name": "Entrega Final TFM", "date": "2025-09-08" }
             },
             {
@@ -2146,7 +2106,7 @@
                 "timeBucket": "4w",
                 "platformId": 5,
                 "rank": 3,
-                "tags": ["Calendario", "Eventos", "Propio"],
+                "tags": ["Calendario", "Eventos", "Propio", "Consciente"],
                 "details": { "name": "Tutoría TFM", "date": "2025-08-11" }
             },
             {
@@ -2157,7 +2117,7 @@
                 "timeBucket": "4w",
                 "platformId": 5,
                 "rank": 4,
-                "tags": ["Calendario", "Eventos", "Propio"],
+                "tags": ["Calendario", "Eventos", "Propio", "Consciente", "Consciente"],
                 "details": { "name": "ENTREGA FASE 02", "date": "2025-07-21",
                 "subjective_notes": "Me he ido poniendo tiempos para completar el TFM."
             }
@@ -2170,7 +2130,7 @@
                 "timeBucket": "4w",
                 "platformId": 5,
                 "rank": 6,
-                "tags": ["Calendario", "Eventos", "Propio"],
+                "tags": ["Calendario", "Eventos", "Propio", "Consciente"],
                 "details": { "name": "Viaje a Granada", "date": "2025-08-13",
                 "subjective_notes": "Hice un viaje corto para ir a la playa y descansar un poco de Madrid con mi novia. Nos quedamos en la casa de su familia en la playa de Granada (La herradura) y estuvimos alli 7 dias."
             }
@@ -2183,7 +2143,7 @@
                 "timeBucket": "6m",
                 "platformId": 5,
                 "rank": 1,
-                "tags": ["Calendario", "Frecuencia", "Propio"],
+                "tags": ["Calendario", "Frecuencia", "Propio", "Consciente"],
                 "details": {
                     "sourceFile": "Calendar.sqlitedb",
                     "dataType": "Análisis de Frecuencia",
@@ -2199,7 +2159,7 @@
                 "timeBucket": "6m",
                 "platformId": 5,
                 "rank": 2,
-                "tags": ["Calendario", "Eventos", "Propio"],
+                "tags": ["Calendario", "Eventos", "Propio", "Consciente"],
                 "details": { "name": "Quinta de los Molinos", "date": "2025-08-18",
                 "subjective_notes": "Para un proyecto del Master, fuimos a ver el centro cultural de la Quinta de los Molinos en Madrid. Nunca habia ido y fue precioso ver los arboles en flor."
             }
@@ -2212,7 +2172,7 @@
                 "timeBucket": "6m",
                 "platformId": 5,
                 "rank": 3,
-                "tags": ["Calendario", "Eventos", "Propio"],
+                "tags": ["Calendario", "Eventos", "Propio", "Consciente"],
                 "details": { "name": "Tattoo", "date": "2025-05-23",
                 "subjective_notes": "Me tatue el hombro con un amigo, hacia mucho que queria ir a tatuarme con el pero nunca encontrabamos hueco."
             }
@@ -2225,7 +2185,7 @@
                 "timeBucket": "6m",
                 "platformId": 5,
                 "rank": 4,
-                "tags": ["Calendario", "Eventos", "Propio"],
+                "tags": ["Calendario", "Eventos", "Propio", "Consciente"],
                 "details": { "name": "Empiezan las practicas", "date": "2025-04-22",
                 "subjective_notes": "Justo despues de Semana Santa empece las practicas en la facultad de Telecomunicaciones de la UPM."
             }
@@ -2238,7 +2198,7 @@
                 "timeBucket": "6m",
                 "platformId": 5,
                 "rank": 5,
-                "tags": ["Calendario", "Eventos", "Propio"],
+                "tags": ["Calendario", "Eventos", "Propio", "Consciente"],
                 "details": { "name": "Viaje a Granada", "date": "2025-07-16",
                 "subjective_notes": "Fuimos a la boda del padre de mi novia en Granada. Nos quedamos a pasar la semana con su familia y luego volvimos a Madrid."
             }
@@ -2251,7 +2211,7 @@
                 "timeBucket": "6m",
                 "platformId": 5,
                 "rank": 6,
-                "tags": ["Calendario", "Eventos", "Propio"],
+                "tags": ["Calendario", "Eventos", "Propio", "Consciente"],
                 "details": { "name": "Grabacion de un corto", "date": "2025-03-23",
                 "subjective_notes": "Ayude a hacer los creditos de un corto que grabo mi amiga."
             }
@@ -2264,7 +2224,7 @@
                 "timeBucket": "1y",
                 "platformId": 5,
                 "rank": 1,
-                "tags": ["Calendario", "Frecuencia", "Propio"],
+                "tags": ["Calendario", "Frecuencia", "Propio", "Consciente"],
                 "details": {
                     "sourceFile": "Calendar.sqlitedb",
                     "dataType": "Análisis de Frecuencia",
@@ -2280,7 +2240,7 @@
                 "timeBucket": "1y",
                 "platformId": 5,
                 "rank": 2,
-                "tags": ["Calendario", "Eventos", "Propio"],
+                "tags": ["Calendario", "Eventos", "Propio", "Consciente"],
                 "details": { "name": "Revision Neurologo", "date": "2024-10-16",
                 "subjective_notes": "Tengo una enfermedad rara que me afecta al rendimiento muscular y tengo que ir al neurologo cada 6 meses para ver como va. En esta revision me dijo que estaba mejorando."
             }
@@ -2293,7 +2253,7 @@
                 "timeBucket": "1y",
                 "platformId": 5,
                 "rank": 3,
-                "tags": ["Calendario", "Eventos", "Propio"],
+                "tags": ["Calendario", "Eventos", "Propio", "Consciente"],
                 "details": { "name": "Cena Pronombres", "date": "2024-11-29",
                 "subjective_notes": "Una cena antes de irnos por Navidad con algunos amigos de Madrid. Lo llamaron asi porque la mayoria somos del colectivo y era gracioso."
             }
@@ -2306,7 +2266,7 @@
                 "timeBucket": "1y",
                 "platformId": 5,
                 "rank": 4,
-                "tags": ["Calendario", "Eventos", "Propio"],
+                "tags": ["Calendario", "Eventos", "Propio", "Consciente"],
                 "details": { "name": "Excursion Parque Warner", "date": "2024-12-07",
                 "subjective_notes": "Mi madre nos invito a mi y a algunos amigos a pasar el dia en el parque de atracciones de la Warner Bros. por mi cumpleaños."
             }
@@ -2319,7 +2279,7 @@
                 "timeBucket": "6m",
                 "platformId": 5,
                 "rank": 5,
-                "tags": ["Calendario", "Eventos", "Propio"],
+                "tags": ["Calendario", "Eventos", "Propio", "Consciente"],
                 "details": { "name": "Viaje a Granada", "date": "2024-12-28",
                 "subjective_notes": "Fui a pasar Nochevieja con la familia de mi novia"
             }
@@ -2332,11 +2292,625 @@
                 "timeBucket": "1y",
                 "platformId": 5,
                 "rank": 6,
-                "tags": ["Calendario", "Eventos", "Propio"],
+                "tags": ["Calendario", "Eventos", "Propio", "Consciente"],
                 "details": { "name": "Sesión Psicologa", "date": "2024-12-09",
                 "subjective_notes": "Suelo tener una sesion psicologica por mes o dos cada mes desde hace 6 años."
             }
-            }
+            },
+            
+              {
+                "id": "insta-follow-request-lilyyoffside",
+                "title": "Solicitud de seguimiento enviada — lilyyoffside",
+                "artists": "lilyyoffside",
+                "awareness": 2,
+                "timeBucket": "1y",
+                "platformId": 4,
+                "rank": 1,
+                "tags": [
+             "Amigos", "Redes Sociales", "Solicitud", "Propio", "Consciente", "Teléfono", "#tlf", "@email"
+                ],
+                "details": {
+                  "sourceFile": "recent_follow_requests.json",
+                  "dataType": "Solicitudes de seguimiento enviadas",
+                  "name": "lilyyoffside",
+                  "date": "2025-06-10"
+                }
+              },
+              {
+                "id": "insta-follow-request-airamrque",
+                "title": "Solicitud de seguimiento enviada — airamrque",
+                "artists": "airamrque",
+                "awareness": 2,
+                "timeBucket": "6m",
+                "platformId": 4,
+                "rank": 2,
+                "tags": [
+             "Amigos", "Redes Sociales", "Solicitud", "Propio", "Consciente", "Teléfono", "#tlf", "@email"
+                ],
+                "details": {
+                  "sourceFile": "recent_follow_requests.json",
+                  "dataType": "Solicitudes de seguimiento enviadas",
+                  "name": "airamrque",
+                  "date": "2025-07-23"
+                }
+              },
+              {
+                "id": "insta-follow-request-aandreamms",
+                "title": "Solicitud de seguimiento enviada — aandreamms",
+                "artists": "aandreamms",
+                "awareness": 2,
+                "timeBucket": "6m",
+                "platformId": 4,
+                "rank": 3,
+                "tags": [
+             "Amigos", "Redes Sociales", "Solicitud", "Propio", "Consciente", "Teléfono", "#tlf", "@email"
+                ],
+                "details": {
+                  "sourceFile": "recent_follow_requests.json",
+                  "dataType": "Solicitudes de seguimiento enviadas",
+                  "name": "aandreamms",
+                  "date": "2025-07-24"
+                }
+              },
+              {
+                "id": "insta-follow-request-londii.vondue",
+                "title": "Solicitud de seguimiento enviada — londii.vondue",
+                "artists": "londii.vondue",
+                "awareness": 2,
+                "timeBucket": "6m",
+                "platformId": 4,
+                "rank": 4,
+                "tags": [
+             "Amigos", "Redes Sociales", "Solicitud", "Propio", "Consciente", "Teléfono", "#tlf", "@email"
+                ],
+                "details": {
+                  "sourceFile": "recent_follow_requests.json",
+                  "dataType": "Solicitudes de seguimiento enviadas",
+                  "name": "londii.vondue",
+                  "date": "2025-08-06"
+                }
+              },
+              {
+                "id": "insta-follow-request-04_sergiio",
+                "title": "Solicitud de seguimiento enviada — 04_sergiio",
+                "artists": "04_sergiio",
+                "awareness": 2,
+                "timeBucket": "4w",
+                "platformId": 4,
+                "rank": 5,
+                "tags": [
+             "Amigos", "Redes Sociales", "Solicitud", "Propio", "Consciente", "Teléfono", "#tlf", "@email"
+                ],
+                "details": {
+                  "sourceFile": "recent_follow_requests.json",
+                  "dataType": "Solicitudes de seguimiento enviadas",
+                  "name": "04_sergiio",
+                  "date": "2025-08-07"
+                }
+              },
+              {
+                "id": "insta-follow-request-j999.02",
+                "title": "Solicitud de seguimiento enviada — j999.02",
+                "artists": "j999.02",
+                "awareness": 2,
+                "timeBucket": "4w",
+                "platformId": 4,
+                "rank": 6,
+                "tags": [
+             "Amigos", "Redes Sociales", "Solicitud", "Propio", "Consciente", "Teléfono", "#tlf", "@email"
+                ],
+                "details": {
+                  "sourceFile": "recent_follow_requests.json",
+                  "dataType": "Solicitudes de seguimiento enviadas",
+                  "name": "j999.02",
+                  "date": "2025-08-08"
+                }
+              },
+              {
+                "id": "insta-follow-request-onthepotato75",
+                "title": "Solicitud de seguimiento enviada — onthepotato75",
+                "artists": "onthepotato75",
+                "awareness": 2,
+                "timeBucket": "4w",
+                "platformId": 4,
+                "rank": 7,
+                "tags": [
+             "Amigos", "Redes Sociales", "Solicitud", "Propio", "Consciente", "Teléfono", "#tlf", "@email"
+                ],
+                "details": {
+                  "sourceFile": "recent_follow_requests.json",
+                  "dataType": "Solicitudes de seguimiento enviadas",
+                  "name": "onthepotato75",
+                  "date": "2025-08-18"
+                }
+              },
+              {
+                "id": "insta-unfollowed-eko_carabanchel",
+                "title": "Dejado de seguir — eko_carabanchel",
+                "artists": "eko_carabanchel",
+                "awareness": 2,
+                "timeBucket": "4w",
+                "platformId": 4,
+                "rank": 8,
+                "tags": [
+               "Influencers", "Redes Sociales", "Solicitud", "Propio", "Consciente", "Teléfono", "#tlf", "@email"
+                ],
+                "details": {
+                  "sourceFile": "recently_unfollowed_profiles.json",
+                  "dataType": "Perfiles dejados de seguir",
+                  "name": "eko_carabanchel",
+                  "date": "2025-08-17"
+                }
+              },
+              {
+                "id": "insta-follow-request-annamuraa",
+                "title": "Solicitud de seguimiento enviada — annamuraa",
+                "artists": "annamuraa",
+                "awareness": 2,
+                "timeBucket": "4w",
+                "platformId": 4,
+                "rank": 9,
+                "tags": [
+             "Amigos", "Redes Sociales", "Solicitud", "Propio", "Consciente", "Teléfono", "#tlf", "@email"
+                ],
+                "details": {
+                  "sourceFile": "recent_follow_requests.json",
+                  "dataType": "Solicitudes de seguimiento enviadas",
+                  "name": "annamuraa",
+                  "date": "2025-08-19"
+                }
+              },
+              {
+                "id": "insta-unfollowed-luciamecaa",
+                "title": "Dejado de seguir — luciamecaa",
+                "artists": "luciamecaa",
+                "awareness": 2,
+                "timeBucket": "4w",
+                "platformId": 4,
+                "rank": 10,
+                "tags": [
+               "Amigos", "Redes Sociales", "Solicitud", "Propio", "Consciente", "Teléfono", "#tlf", "@email"
+                ],
+                "details": {
+                  "sourceFile": "recently_unfollowed_profiles.json",
+                  "dataType": "Perfiles dejados de seguir",
+                  "name": "luciamecaa",
+                  "date": "2025-08-18"
+                }
+              },
+              {
+                "id": "insta-unfollowed-lolalolita",
+                "title": "Dejado de seguir — lolalolita",
+                "artists": "lolalolita",
+                "awareness": 2,
+                "timeBucket": "4w",
+                "platformId": 4,
+                "rank": 11,
+                "tags": [
+               "Influencers", "Redes Sociales", "Solicitud", "Propio", "Consciente", "Teléfono", "#tlf", "@email"
+                ],
+                "details": {
+                  "sourceFile": "recently_unfollowed_profiles.json",
+                  "dataType": "Perfiles dejados de seguir",
+                  "name": "lolalolita",
+                  "date": "2025-08-20"
+                }
+              },
+              {
+                "id": "insta-follow-request-sofia_montoya01",
+                "title": "Solicitud de seguimiento enviada — sofia_montoya01",
+                "artists": "sofia_montoya01",
+                "awareness": 2,
+                "timeBucket": "4w",
+                "platformId": 4,
+                "rank": 12,
+                "tags": [
+             "Amigos", "Redes Sociales", "Solicitud", "Propio", "Consciente", "Teléfono", "#tlf", "@email"
+                ],
+                "details": {
+                  "sourceFile": "recent_follow_requests.json",
+                  "dataType": "Solicitudes de seguimiento enviadas",
+                  "name": "sofia_montoya01",
+                  "date": "2025-08-20"
+                }
+              },
+              {
+                "id": "insta-follow-request-blancacarrilloo",
+                "title": "Solicitud de seguimiento enviada — blancacarrilloo",
+                "artists": "blancacarrilloo",
+                "awareness": 2,
+                "timeBucket": "4w",
+                "platformId": 4,
+                "rank": 13,
+                "tags": [
+             "Amigos", "Redes Sociales", "Solicitud", "Propio", "Consciente", "Teléfono", "#tlf", "@email"
+                ],
+                "details": {
+                  "sourceFile": "recent_follow_requests.json",
+                  "dataType": "Solicitudes de seguimiento enviadas",
+                  "name": "blancacarrilloo",
+                  "date": "2025-08-20"
+                }
+              },
+              {
+                "id": "insta-follow-request-mariapzrza_",
+                "title": "Solicitud de seguimiento enviada — mariapzrza_",
+                "artists": "mariapzrza_",
+                "awareness": 2,
+                "timeBucket": "4w",
+                "platformId": 4,
+                "rank": 14,
+                "tags": [
+             "Amigos", "Redes Sociales", "Solicitud", "Propio", "Consciente", "Teléfono", "#tlf", "@email"
+                ],
+                "details": {
+                  "sourceFile": "recent_follow_requests.json",
+                  "dataType": "Solicitudes de seguimiento enviadas",
+                  "name": "mariapzrza_",
+                  "date": "2025-08-20"
+                }
+              },
+              {
+                "id": "insta-unfollowed-ibaillanos",
+                "title": "Dejado de seguir — ibaillanos",
+                "artists": "ibaillanos",
+                "awareness": 2,
+                "timeBucket": "4w",
+                "platformId": 4,
+                "rank": 15,
+                "tags": [
+               "Influencers", "Redes Sociales", "Solicitud", "Propio", "Consciente", "Teléfono", "#tlf", "@email"
+                ],
+                "details": {
+                  "sourceFile": "recently_unfollowed_profiles.json",
+                  "dataType": "Perfiles dejados de seguir",
+                  "name": "ibaillanos",
+                  "date": "2025-08-20"
+                }
+              },
+              {
+                "id": "insta-unfollowed-__estels",
+                "title": "Dejado de seguir — __estels",
+                "artists": "__estels",
+                "awareness": 2,
+                "timeBucket": "4w",
+                "platformId": 4,
+                "rank": 16,
+                "tags": [
+               "Influencers", "Redes Sociales", "Solicitud", "Propio", "Consciente", "Teléfono", "#tlf", "@email"
+                ],
+                "details": {
+                  "sourceFile": "recently_unfollowed_profiles.json",
+                  "dataType": "Perfiles dejados de seguir",
+                  "name": "__estels",
+                  "date": "2025-08-20"
+                }
+              },
+              {
+                "id": "insta-unfollowed-claudiabielsaa",
+                "title": "Dejado de seguir — claudiabielsaa",
+                "artists": "claudiabielsaa",
+                "awareness": 2,
+                "timeBucket": "4w",
+                "platformId": 4,
+                "rank": 17,
+                "tags": [
+                "Redes Sociales", "Solicitud", "Propio", "Consciente", "Teléfono", "#tlf", "@email"
+                ],
+                "details": {
+                  "sourceFile": "recently_unfollowed_profiles.json",
+                  "dataType": "Perfiles dejados de seguir",
+                  "name": "claudiabielsaa",
+                  "date": "2025-08-20"
+                }
+              },
+              {
+                "id": "insta-follow-request-indahoods",
+                "title": "Solicitud de seguimiento enviada — indahoods",
+                "artists": "indahoods",
+                "awareness": 2,
+                "timeBucket": "4w",
+                "platformId": 4,
+                "rank": 18,
+                "tags": [
+             "Amigos", "Redes Sociales", "Solicitud", "Propio", "Consciente", "Teléfono", "#tlf", "@email"
+                ],
+                "details": {
+                  "sourceFile": "recent_follow_requests.json",
+                  "dataType": "Solicitudes de seguimiento enviadas",
+                  "name": "indahoods",
+                  "date": "2025-08-20"
+                }
+              },
+              {
+                "id": "insta-unfollowed-adely.n",
+                "title": "Dejado de seguir — adely.n",
+                "artists": "adely.n",
+                "awareness": 2,
+                "timeBucket": "4w",
+                "platformId": 4,
+                "rank": 19,
+                "tags": [
+                "Redes Sociales", "Solicitud", "Propio", "Consciente", "Teléfono", "#tlf", "@email"
+                ],
+                "details": {
+                  "sourceFile": "recently_unfollowed_profiles.json",
+                  "dataType": "Perfiles dejados de seguir",
+                  "name": "adely.n",
+                  "date": "2025-08-20"
+                }
+              },
+              {
+                "id": "insta-unfollowed-claudia_lachispa",
+                "title": "Dejado de seguir — claudia_lachispa",
+                "artists": "claudia_lachispa",
+                "awareness": 2,
+                "timeBucket": "4w",
+                "platformId": 4,
+                "rank": 20,
+                "tags": [
+                "Influencers","Redes Sociales", "Solicitud", "Propio", "Consciente", "Teléfono", "#tlf", "@email"
+                ],
+                "details": {
+                  "sourceFile": "recently_unfollowed_profiles.json",
+                  "dataType": "Perfiles dejados de seguir",
+                  "name": "claudia_lachispa",
+                  "date": "2025-08-20"
+                }
+              },
+              {
+                "id": "insta-unfollowed-zuzusilk",
+                "title": "Dejado de seguir — zuzusilk",
+                "artists": "zuzusilk",
+                "awareness": 2,
+                "timeBucket": "4w",
+                "platformId": 4,
+                "rank": 21,
+                "tags": [
+                "Influencers","Redes Sociales", "Solicitud", "Propio", "Consciente", "Teléfono", "#tlf", "@email"
+                ],
+                "details": {
+                  "sourceFile": "recently_unfollowed_profiles.json",
+                  "dataType": "Perfiles dejados de seguir",
+                  "name": "zuzusilk",
+                  "date": "2025-08-20"
+                }
+              },
+              {
+                "id": "insta-unfollowed-iamnuriia",
+                "title": "Dejado de seguir — iamnuriia",
+                "artists": "iamnuriia",
+                "awareness": 2,
+                "timeBucket": "4w",
+                "platformId": 4,
+                "rank": 22,
+                "tags": [
+               "Redes Sociales", "Solicitud", "Propio", "Consciente", "Teléfono", "#tlf", "@email"
+                ],
+                "details": {
+                  "sourceFile": "recently_unfollowed_profiles.json",
+                  "dataType": "Perfiles dejados de seguir",
+                  "name": "iamnuriia",
+                  "date": "2025-08-20"
+                }
+              },
+              {
+                "id": "insta-follow-request-luciamecaa",
+                "title": "Solicitud de seguimiento enviada — luciamecaa",
+                "artists": "luciamecaa",
+                "awareness": 2,
+                "timeBucket": "4w",
+                "platformId": 4,
+                "rank": 23,
+                "tags": [
+             "Amigos", "Redes Sociales", "Solicitud", "Propio", "Consciente", "Teléfono", "#tlf", "@email"
+                ],
+                "details": {
+                  "sourceFile": "recent_follow_requests.json",
+                  "dataType": "Solicitudes de seguimiento enviadas",
+                  "name": "luciamecaa",
+                  "date": "2025-08-20"
+                }
+              },
+              {
+                "id": "insta-follow-request-milagros_alvarezz_",
+                "title": "Solicitud de seguimiento enviada — milagros_alvarezz_",
+                "artists": "milagros_alvarezz_",
+                "awareness": 2,
+                "timeBucket": "4w",
+                "platformId": 4,
+                "rank": 24,
+                "tags": [
+             "Amigos", "Redes Sociales", "Solicitud", "Propio", "Consciente", "Teléfono", "#tlf", "@email"
+                ],
+                "details": {
+                  "sourceFile": "recent_follow_requests.json",
+                  "dataType": "Solicitudes de seguimiento enviadas",
+                  "name": "milagros_alvarezz_",
+                  "date": "2025-08-20"
+                }
+              },
+              {
+                "id": "insta-follow-request-mariaasotos_",
+                "title": "Solicitud de seguimiento enviada — mariaasotos_",
+                "artists": "mariaasotos_",
+                "awareness": 2,
+                "timeBucket": "4w",
+                "platformId": 4,
+                "rank": 25,
+                "tags": [
+             "Amigos", "Redes Sociales", "Solicitud", "Propio", "Consciente", "Teléfono", "#tlf", "@email"
+                ],
+                "details": {
+                  "sourceFile": "recent_follow_requests.json",
+                  "dataType": "Solicitudes de seguimiento enviadas",
+                  "name": "mariaasotos_",
+                  "date": "2025-08-20"
+                }
+              },
+              {
+                "id": "insta-follow-request-andreafloress__",
+                "title": "Solicitud de seguimiento enviada — andreafloress__",
+                "artists": "andreafloress__",
+                "awareness": 2,
+                "timeBucket": "4w",
+                "platformId": 4,
+                "rank": 26,
+                "tags": [
+             "Amigos", "Redes Sociales", "Solicitud", "Propio", "Consciente", "Teléfono", "#tlf", "@email"
+                ],
+                "details": {
+                  "sourceFile": "recent_follow_requests.json",
+                  "dataType": "Solicitudes de seguimiento enviadas",
+                  "name": "andreafloress__",
+                  "date": "2025-08-20"
+                }
+              },
+              {
+                "id": "insta-follow-request-ireneesolano",
+                "title": "Solicitud de seguimiento enviada — ireneesolano",
+                "artists": "ireneesolano",
+                "awareness": 2,
+                "timeBucket": "4w",
+                "platformId": 4,
+                "rank": 27,
+                "tags": [
+             "Amigos", "Redes Sociales", "Solicitud", "Propio", "Consciente", "Teléfono", "#tlf", "@email"
+                ],
+                "details": {
+                  "sourceFile": "recent_follow_requests.json",
+                  "dataType": "Solicitudes de seguimiento enviadas",
+                  "name": "ireneesolano",
+                  "date": "2025-08-20"
+                }
+              },
+              {
+                "id": "insta-follow-request-jorgemartinez_4",
+                "title": "Solicitud de seguimiento enviada — jorgemartinez_4",
+                "artists": "jorgemartinez_4",
+                "awareness": 2,
+                "timeBucket": "4w",
+                "platformId": 4,
+                "rank": 28,
+                "tags": [
+             "Amigos", "Redes Sociales", "Solicitud", "Propio", "Consciente", "Teléfono", "#tlf", "@email"
+                ],
+                "details": {
+                  "sourceFile": "recent_follow_requests.json",
+                  "dataType": "Solicitudes de seguimiento enviadas",
+                  "name": "jorgemartinez_4",
+                  "date": "2025-08-20"
+                }
+              },
+              {
+                "id": "insta-unfollowed-juliahdz_",
+                "title": "Dejado de seguir — juliahdz_",
+                "artists": "juliahdz_",
+                "awareness": 2,
+                "timeBucket": "4w",
+                "platformId": 4,
+                "rank": 29,
+                "tags": [
+               "Redes Sociales", "Solicitud", "Propio", "Consciente", "Teléfono", "#tlf", "@email"
+                ],
+                "details": {
+                  "sourceFile": "recently_unfollowed_profiles.json",
+                  "dataType": "Perfiles dejados de seguir",
+                  "name": "juliahdz_",
+                  "date": "2025-08-20"
+                }
+              },
+              {
+                "id": "insta-follow-request-marinaaleoon",
+                "title": "Solicitud de seguimiento enviada — marinaaleoon",
+                "artists": "marinaaleoon",
+                "awareness": 2,
+                "timeBucket": "4w",
+                "platformId": 4,
+                "rank": 30,
+                "tags": [
+             "Amigos", "Redes Sociales", "Solicitud", "Propio", "Consciente", "Teléfono", "#tlf", "@email"
+                ],
+                "details": {
+                  "sourceFile": "recent_follow_requests.json",
+                  "dataType": "Solicitudes de seguimiento enviadas",
+                  "name": "marinaaleoon",
+                  "date": "2025-08-20"
+                }
+              },
+              {
+                "id": "insta-follow-request-saramcgreevy",
+                "title": "Solicitud de seguimiento enviada — saramcgreevy",
+                "artists": "saramcgreevy",
+                "awareness": 2,
+                "timeBucket": "4w",
+                "platformId": 4,
+                "rank": 31,
+                "tags": [
+             "Amigos", "Redes Sociales", "Solicitud", "Propio", "Consciente", "Teléfono", "#tlf", "@email"
+                ],
+                "details": {
+                  "sourceFile": "recent_follow_requests.json",
+                  "dataType": "Solicitudes de seguimiento enviadas",
+                  "name": "saramcgreevy",
+                  "date": "2025-08-20"
+                }
+              },
+              {
+                "id": "insta-unfollowed-sixtinerouyre",
+                "title": "Dejado de seguir — sixtinerouyre",
+                "artists": "sixtinerouyre",
+                "awareness": 2,
+                "timeBucket": "4w",
+                "platformId": 4,
+                "rank": 32,
+                "tags": [
+               "Redes Sociales", "Solicitud", "Propio", "Consciente", "Teléfono", "#tlf", "@email"
+                ],
+                "details": {
+                  "sourceFile": "recently_unfollowed_profiles.json",
+                  "dataType": "Perfiles dejados de seguir",
+                  "name": "sixtinerouyre",
+                  "date": "2025-08-22"
+                }
+              },
+              {
+                "id": "insta-follow-request-deivid_oj",
+                "title": "Solicitud de seguimiento enviada — deivid_oj",
+                "artists": "deivid_oj",
+                "awareness": 2,
+                "timeBucket": "4w",
+                "platformId": 4,
+                "rank": 33,
+                "tags": [
+             "Amigos", "Redes Sociales", "Solicitud", "Propio", "Consciente", "Teléfono", "#tlf", "@email"
+                ],
+                "details": {
+                  "sourceFile": "recent_follow_requests.json",
+                  "dataType": "Solicitudes de seguimiento enviadas",
+                  "name": "deivid_oj",
+                  "date": "2025-08-22"
+                }
+              },
+              {
+                "id": "insta-unfollowed-londii.vondue",
+                "title": "Dejado de seguir — londii.vondue",
+                "artists": "londii.vondue",
+                "awareness": 2,
+                "timeBucket": "4w",
+                "platformId": 4,
+                "rank": 34,
+                "tags": [
+               "Redes Sociales", "Solicitud", "Propio", "Consciente", "Teléfono", "#tlf", "@email"
+                ],
+                "details": {
+                  "sourceFile": "recently_unfollowed_profiles.json",
+                  "dataType": "Perfiles dejados de seguir",
+                  "name": "londii.vondue",
+                  "date": "2025-08-26"
+                }
+              }
+            
         
     
   ]

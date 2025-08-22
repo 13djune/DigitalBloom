@@ -199,7 +199,7 @@
         ]
       }
     },
-    [
+    
         {
           "id": "whatsapp-1y-data-usage-summary",
           "title": "Resumen de Uso de Datos de WhatsApp",
@@ -243,6 +243,3847 @@
               "lastReset": "Nunca"
             }
           }
-        }
+        },
+        
+          {
+            "id": "summary-google-history-takeoutgooglecom",
+            "title": "Resumen de actividad en takeout.google.com",
+            "artists": "takeout.google.com",
+            "awareness": 3,
+            "platformId": 6,
+            "rank": 1,
+            "date": "2025-07-28",
+            "timeBucket": "4w",
+            "tags": [
+              "Historial", "Propio", "Inconsciente", "@email", "Ordenador"
+            ],
+            "details": {
+              "sourceFile": "google_history_transformed.json",
+              "dataType": "Resumen de Historial por Dominio",
+              "visitCount": 1,
+              "firstVisit": "2025-05-18",
+              "lastVisit": "2025-07-28",
+              "pageExamples": [
+                {
+                  "title": "Google Takeout",
+                  "url": "https://takeout.google.com/?pli=1"
+                }
+              ]
+            }
+          },
+          {
+            "id": "summary-google-history-googlecom",
+            "title": "Resumen de actividad en google.com",
+            "artists": "google.com",
+            "awareness": 3,
+            "platformId": 6,
+            "rank": 2,
+            "date": "2025-08-15",
+            "timeBucket": "4w",
+            "tags": [
+              "Búsqueda de Google",
+                           "Historial", "Propio", "Inconsciente", "@email", "Ordenador"
+
+            ],
+            "details": {
+              "sourceFile": "google_history_transformed.json",
+              "dataType": "Resumen de Historial por Dominio",
+              "visitCount": 11,
+              "firstVisit": "2024-11-21",
+              "lastVisit": "2025-08-15",
+              "pageExamples": [
+                {
+                  "title": "google takeout - Google Search",
+                  "url": "https://www.google.com/search?q=google+takeout&rlz=1C5CHFA_enES997ES1030&oq=google+take&gs_lcrp=EgZjaHJvbWUqBwgAEAAYgAQyBwgAEAAYgAQyBggBEEUYOTIHCAIQABiABDIHCAMQABiABDIHCAQQABiABDIHCAUQABiABDIGCAYQRRg8MgYIBxBFGDzSAQgyMzIyajBqN6gCALACAA&sourceid=chrome&ie=UTF-8"
+                }
+           
+              ]
+            }
+          },
+          {
+            "id": "summary-google-history-nngroupcom",
+            "title": "Resumen de actividad en nngroup.com",
+            "artists": "nngroup.com",
+            "awareness": 3,
+            "platformId": 6,
+            "rank": 3,
+            "date": "2025-02-14",
+            "timeBucket": "6m",
+            "tags": [
+                           "Historial", "Propio", "Inconsciente", "@email", "Ordenador"
+, "Educativo", "Diseño", "Design Thinking"
+            ],
+            "details": {
+              "sourceFile": "google_history_transformed.json",
+              "dataType": "Resumen de Historial por Dominio",
+              "visitCount": 1,
+              "firstVisit": "2025-01-22",
+              "lastVisit": "2025-02-14",
+              "pageExamples": [
+                {
+                  "title": "Design Thinking 101 - NN/g",
+                  "url": "https://www.nngroup.com/articles/design-thinking/"
+                }
+              ]
+            }
+          },
+          {
+            "id": "summary-google-history-drivegooglecom",
+            "title": "Resumen de actividad en drive.google.com",
+            "artists": "drive.google.com",
+            "awareness": 3,
+            "platformId": 6,
+            "rank": 4,
+            "date": "2025-04-01",
+            "timeBucket": "6m",
+            "tags": [
+                           "Historial", "Propio", "Inconsciente", "@email", "Ordenador"
+
+            ],
+            "details": {
+              "sourceFile": "google_history_transformed.json",
+              "dataType": "Resumen de Historial por Dominio",
+              "visitCount": 2,
+              "firstVisit": "2024-10-14",
+              "lastVisit": "2025-04-01",
+              "pageExamples": [
+                {
+                  "title": "Referencia TFM cursos anteriores_ - Google Drive",
+                  "url": "https://drive.google.com/drive/folders/1C0Z-J0nUEGRblsrB5ussYiBeV_PtoYpy"
+                },
+                {
+                  "title": "COMPUTACION_FISICA - Google Drive",
+                  "url": "https://drive.google.com/drive/folders/1CBNctRannjBbA1_Jsei_n9867ihQnEyY"
+                }
+              ]
+            }
+          },
+          {
+            "id": "summary-google-history-tacticaltechorg",
+            "title": "Resumen de actividad en tacticaltech.org",
+            "artists": "tacticaltech.org",
+            "awareness": 3,
+            "platformId": 6,
+            "rank": 5,
+            "date": "2024-12-10",
+            "timeBucket": "1y",
+            "tags": [
+                           "Historial", "Propio", "Inconsciente", "@email", "Ordenador"
+,"Diseño", "Educativo", "Inspiración", "Tecnología"
+            ],
+            "details": {
+              "sourceFile": "google_history_transformed.json",
+              "dataType": "Resumen de Historial por Dominio",
+              "visitCount": 1,
+              "firstVisit": "2024-09-02",
+              "lastVisit": "2024-12-10",
+              "pageExamples": [
+                {
+                  "title": "Data Detox Kit",
+                  "url": "https://tacticaltech.org/projects/data-detox-kit/"
+                }
+              ]
+            }
+          },
+          {
+            "id": "summary-google-history-lozano-hemmercom",
+            "title": "Resumen de actividad en lozano-hemmer.com",
+            "artists": "lozano-hemmer.com",
+            "awareness": 3,
+            "platformId": 6,
+            "rank": 6,
+            "date": "2025-06-25",
+            "timeBucket": "4w",
+            "tags": [
+                           "Historial", "Propio", "Inconsciente", "@email", "Ordenador"
+                           ,"Diseño", "Educativo", "Inspiración", "Tecnología", "Exposición", "Arte"
+
+            ],
+            "details": {
+              "sourceFile": "google_history_transformed.json",
+              "dataType": "Resumen de Historial por Dominio",
+              "visitCount": 5,
+              "firstVisit": "2024-08-25",
+              "lastVisit": "2025-06-25",
+              "pageExamples": [
+                {
+                  "title": "thermal_drift_density_map_montreal_2022_rlh_02.jpg (525×293)",
+                  "url": "https://www.lozano-hemmer.com/image_sets/thermal_drift_density_map/montreal_2022/thermal_drift_density_map_montreal_2022_rlh_02.jpg"
+                },
+                {
+                  "title": "Rafael Lozano-Hemmer - Image",
+                  "url": "https://www.lozano-hemmer.com/showimage_emb.php?proj=thermal_drift_density_map&img=montreal_2022&idproj=389&type=artwork&id=2"
+                },
+                {
+                  "title": "Rafael Lozano-Hemmer - Pulse Room",
+                  "url": "https://www.lozano-hemmer.com/pulse_room.php"
+                },
+                {
+                  "title": "Atelier Lozano-Hemmer",
+                  "url": "https://www.lozano-hemmer.com/"
+                },
+                {
+                  "title": "Rafael Lozano-Hemmer - Thermal Drift Density Map",
+                  "url": "https://www.lozano-hemmer.com/thermal_drift_density_map.php"
+                }
+              ]
+            }
+          },
+          {
+            "id": "summary-google-history-refikanadolcom",
+            "title": "Resumen de actividad en refikanadol.com",
+            "artists": "refikanadol.com",
+            "awareness": 3,
+            "platformId": 6,
+            "rank": 7,
+            "date": "2025-01-20",
+            "timeBucket": "1y",
+            "tags": [
+                           "Historial", "Propio", "Inconsciente", "@email", "Ordenador"
+                           ,"Diseño", "Educativo", "Inspiración", "Tecnología", "Arte", "Exposición"
+
+            ],
+            "details": {
+              "sourceFile": "google_history_transformed.json",
+              "dataType": "Resumen de Historial por Dominio",
+              "visitCount": 2,
+              "firstVisit": "2025-01-09",
+              "lastVisit": "2025-01-20",
+              "pageExamples": [
+                {
+                  "title": "Machine Hallucination — NYC - Refik Anadol",
+                  "url": "https://refikanadol.com/works/machine-hallucination-nyc/"
+                },
+                {
+                  "title": "Machine Hallucinations — Nature Dreams - Refik Anadol",
+                  "url": "https://refikanadol.com/works/machine-hallucinations-nature-dreams/"
+                }
+              ]
+            }
+          },
+          {
+            "id": "summary-google-history-mashablecom",
+            "title": "Resumen de actividad en mashable.com",
+            "artists": "mashable.com",
+            "awareness": 3,
+            "platformId": 6,
+            "rank": 8,
+            "date": "2024-10-09",
+            "timeBucket": "1y",
+            "tags": [
+                           "Historial", "Propio", "Inconsciente", "@email", "Ordenador"
+                           ,"Diseño", "Educativo", "Inspiración", "Tecnología", "Arte", "Exposición", "Privacidad"
+
+            ],
+            "details": {
+              "sourceFile": "google_history_transformed.json",
+              "dataType": "Resumen de Historial por Dominio",
+              "visitCount": 1,
+              "firstVisit": "2024-09-02",
+              "lastVisit": "2024-10-09",
+              "pageExamples": [
+                {
+                  "title": "Worried about your Facebook data? You might want to try these tools | Mashable",
+                  "url": "https://mashable.com/article/facebook-data-tracking-tools"
+                }
+              ]
+            }
+          },
+          {
+            "id": "summary-google-history-dataselfieit",
+            "title": "Resumen de actividad en dataselfie.it",
+            "artists": "dataselfie.it",
+            "awareness": 3,
+            "platformId": 6,
+            "rank": 9,
+            "date": "2025-06-03",
+            "timeBucket": "6m",
+            "tags": [
+                           "Historial", "Propio", "Inconsciente", "@email", "Ordenador"
+                            ,"Educativo", "Tecnología", "Privacidad" 
+            ],
+            "details": {
+              "sourceFile": "google_history_transformed.json",
+              "dataType": "Resumen de Historial por Dominio",
+              "visitCount": 1,
+              "firstVisit": "2025-02-12",
+              "lastVisit": "2025-06-03",
+              "pageExamples": [
+                {
+                  "title": "Data Selfie _ About",
+                  "url": "https://dataselfie.it/#/about"
+                }
+              ]
+            }
+          },
+          {
+            "id": "summary-google-history-sueddeutschede",
+            "title": "Resumen de actividad en sueddeutsche.de",
+            "artists": "sueddeutsche.de",
+            "awareness": 3,
+            "platformId": 6,
+            "rank": 10,
+            "date": "2025-08-01",
+            "timeBucket": "4w",
+            "tags": [
+                           "Historial", "Propio", "Inconsciente", "@email", "Ordenador"
+,                          "Educativo", "Tecnología", "Privacidad", "Arte", "Exposición"
+            ],
+            "details": {
+              "sourceFile": "google_history_transformed.json",
+              "dataType": "Resumen de Historial por Dominio",
+              "visitCount": 1,
+              "firstVisit": "2024-12-10",
+              "lastVisit": "2025-08-01",
+              "pageExamples": [
+                {
+                  "title": "Dieses Programm zeigt, wie Facebook Sie einschätzt - Wirtschaft - SZ.de",
+                  "url": "https://www.sueddeutsche.de/wirtschaft/data-selfie-dieses-programm-zeigt-ihnen-was-facebook-ueber-sie-weiss-1.3375669"
+                }
+              ]
+            }
+          },
+          {
+            "id": "summary-google-history-producthuntcom",
+            "title": "Resumen de actividad en producthunt.com",
+            "artists": "producthunt.com",
+            "awareness": 3,
+            "platformId": 6,
+            "rank": 11,
+            "date": "2024-09-24",
+            "timeBucket": "1y",
+            "tags": [
+                           "Historial", "Propio", "Inconsciente", "@email", "Ordenador"
+,                          "Educativo", "Tecnología", "Privacidad", "Arte", "Exposición", "Inspiración"
+            ],
+            "details": {
+              "sourceFile": "google_history_transformed.json",
+              "dataType": "Resumen de Historial por Dominio",
+              "visitCount": 1,
+              "firstVisit": "2024-08-09",
+              "lastVisit": "2024-09-24",
+              "pageExamples": [
+                {
+                  "title": "Data Selfie: See how much Facebook really knows about you | Product Hunt",
+                  "url": "https://www.producthunt.com/products/data-selfie?launch=dataselfie"
+                }
+              ]
+            }
+          },
+          {
+            "id": "summary-google-history-fastcompanycom",
+            "title": "Resumen de actividad en fastcompany.com",
+            "artists": "fastcompany.com",
+            "awareness": 3,
+            "platformId": 6,
+            "rank": 12,
+            "date": "2025-05-11",
+            "timeBucket": "6m",
+            "tags": [
+                           "Historial", "Propio", "Inconsciente", "@email", "Ordenador"
+,                           "Tecnología",  "Arte", "Diseño", "Inspiración"
+            ],
+            "details": {
+              "sourceFile": "google_history_transformed.json",
+              "dataType": "Resumen de Historial por Dominio",
+              "visitCount": 1,
+              "firstVisit": "2024-11-20",
+              "lastVisit": "2025-05-11",
+              "pageExamples": [
+                {
+                  "title": "Business Design News & Trends - Fast Company",
+                  "url": "https://www.fastcompany.com/section/business-design"
+                }
+              ]
+            }
+          },
+          {
+            "id": "summary-google-history-myaccountgooglecom",
+            "title": "Resumen de actividad en myaccount.google.com",
+            "artists": "myaccount.google.com",
+            "awareness": 3,
+            "platformId": 6,
+            "rank": 13,
+            "date": "2025-03-22",
+            "timeBucket": "6m",
+            "tags": [
+                           "Historial", "Propio", "Inconsciente", "@email", "Ordenador"
+
+            ],
+            "details": {
+              "sourceFile": "google_history_transformed.json",
+              "dataType": "Resumen de Historial por Dominio",
+              "visitCount": 1,
+              "firstVisit": "2025-03-11",
+              "lastVisit": "2025-03-22",
+              "pageExamples": [
+                {
+                  "title": "Google Account",
+                  "url": "https://myaccount.google.com/?utm_source=chrome-profile-chooser&pli=1"
+                }
+              ]
+            }
+          },
+          {
+            "id": "summary-google-history-chatopenaicom",
+            "title": "Resumen de actividad en chat.openai.com",
+            "artists": "chat.openai.com",
+            "awareness": 3,
+            "platformId": 6,
+            "rank": 14,
+            "date": "2024-12-07",
+            "timeBucket": "1y",
+            "tags": [
+                           "Historial", "Propio", "Inconsciente", "@email", "Ordenador"
+
+            ],
+            "details": {
+              "sourceFile": "google_history_transformed.json",
+              "dataType": "Resumen de Historial por Dominio",
+              "visitCount": 1,
+              "firstVisit": "2024-11-13",
+              "lastVisit": "2024-12-07",
+              "pageExamples": [
+                {
+                  "title": "Welcome to ChatGPT",
+                  "url": "https://chat.openai.com/"
+                }
+              ]
+            }
+          },
+          {
+            "id": "summary-google-history-medialab-mataderoes",
+            "title": "Resumen de actividad en medialab-matadero.es",
+            "artists": "medialab-matadero.es",
+            "awareness": 3,
+            "platformId": 6,
+            "rank": 15,
+            "date": "2025-02-23",
+            "timeBucket": "6m",
+            "tags": [
+                           "Historial", "Propio", "Inconsciente", "@email", "Ordenador"
+,                          "Educativo", "Tecnología", "Arte", "Exposición", "Inspiración"
+            ],
+            "details": {
+              "sourceFile": "google_history_transformed.json",
+              "dataType": "Resumen de Historial por Dominio",
+              "visitCount": 2,
+              "firstVisit": "2025-01-26",
+              "lastVisit": "2025-02-23",
+              "pageExamples": [
+                {
+                  "title": "Visualizar'18: Datos Personales | Medialab-Matadero Madrid",
+                  "url": "https://medialab-matadero.es/programas/visualizar18-datos-personales"
+                }
+              ]
+            }
+          },
+          {
+            "id": "summary-google-history-githubcom",
+            "title": "Resumen de actividad en github.com",
+            "artists": "github.com",
+            "awareness": 3,
+            "platformId": 6,
+            "rank": 16,
+            "date": "2024-10-09",
+            "timeBucket": "1y",
+            "tags": [
+                           "Historial", "Propio", "Inconsciente", "@email", "Ordenador"
+, "Programación", "Tecnología",  "Desarrollo"
+            ],
+            "details": {
+              "sourceFile": "google_history_transformed.json",
+              "dataType": "Resumen de Historial por Dominio",
+              "visitCount": 2,
+              "firstVisit": "2024-09-08",
+              "lastVisit": "2024-10-09",
+              "pageExamples": [
+                {
+                  "title": "GitHub - Beléln - Overview",
+                  "url": "https://github.com/BelenCast"
+                },
+                {
+                  "title": "GitHub",
+                  "url": "https://github.com/"
+                }
+              ]
+            }
+          },
+          {
+            "id": "summary-google-history-openprocessingorg",
+            "title": "Resumen de actividad en openprocessing.org",
+            "artists": "openprocessing.org",
+            "awareness": 3,
+            "platformId": 6,
+            "rank": 17,
+            "date": "2025-08-01",
+            "timeBucket": "4w",
+            "tags": [
+                           "Historial", "Propio", "Inconsciente", "@email", "Ordenador"
+,                          "Educativo", "Tecnología", "Arte", "Programación"
+            ],
+            "details": {
+              "sourceFile": "google_history_transformed.json",
+              "dataType": "Resumen de Historial por Dominio",
+              "visitCount": 1,
+              "firstVisit": "2025-06-03",
+              "lastVisit": "2025-08-01",
+              "pageExamples": [
+                {
+                  "title": "OpenProcessing - Creative Coding for the Curious Mind",
+                  "url": "https://openprocessing.org/"
+                }
+              ]
+            }
+          },
+          {
+            "id": "summary-google-history-youtubecom",
+            "title": "Resumen de actividad en youtube.com",
+            "artists": "youtube.com",
+            "awareness": 3,
+            "platformId": 6,
+            "rank": 18,
+            "date": "2025-08-05",
+            "timeBucket": "4w",
+            "tags": [
+              "YouTube",
+                           "Historial", "Propio", "Inconsciente", "@email", "Ordenador"
+, "Educativo", "Tecnología", "Inspiración"
+            ],
+            "details": {
+              "sourceFile": "google_history_transformed.json",
+              "dataType": "Resumen de Historial por Dominio",
+              "visitCount": 11,
+              "firstVisit": "2024-08-16",
+              "lastVisit": "2025-08-05",
+              "pageExamples": [
+                {
+                  "title": "The artist making his entire digital footprint public for us… | Huck - YouTube",
+                  "url": "https://www.youtube.com/watch?v=NpN9NzO4Mo8"
+                },
+                {
+                  "title": "The Power of Privacy – documentary film - YouTube",
+                  "url": "https://www.youtube.com/watch?v=KGX-c5BJNFk"
+                },
+                {
+                  "title": "Do Not Track - Doc - YouTube",
+                  "url": "https://www.youtube.com/watch?v=65VrjlD_UNM"
+                },
+                {
+                  "title": "YouTube",
+                  "url": "https://www.youtube.com/"
+                },
+                {
+                  "title": "Introduction to the p5.js Web Editor - YouTube",
+                  "url": "https://www.youtube.com/watch?v=HerQXqOtF_4"
+                }
+              ]
+            }
+          },
+          {
+            "id": "summary-google-history-isidisi-notionsite",
+            "title": "Resumen de actividad en isidisi-notion.site",
+            "artists": "isidisi-notion.site",
+            "awareness": 3,
+            "platformId": 6,
+            "rank": 19,
+            "date": "2025-04-12",
+            "timeBucket": "6m",
+            "tags": [
+                           "Historial", "Propio", "Inconsciente", "@email", "Ordenador"
+,                          "Educativo", "Tecnología", "Apuntes", "Programación"
+            ],
+            "details": {
+              "sourceFile": "google_history_transformed.json",
+              "dataType": "Resumen de Historial por Dominio",
+              "visitCount": 1,
+              "firstVisit": "2025-03-24",
+              "lastVisit": "2025-04-12",
+              "pageExamples": [
+                {
+                  "title": "React – MOOC React",
+                  "url": "https://isidisi-notion.site/React-a868b8159b964352b212f451f28e2095"
+                }
+              ]
+            }
+          },
+          {
+            "id": "summary-google-history-esnees",
+            "title": "Resumen de actividad en esne.es",
+            "artists": "esne.es",
+            "awareness": 3,
+            "platformId": 6,
+            "rank": 20,
+            "date": "2025-01-26",
+            "timeBucket": "1y",
+            "tags": [
+                           "Historial", "Propio", "Inconsciente", "@email", "Ordenador"
+,                          "Educativo"
+            ],
+            "details": {
+              "sourceFile": "google_history_transformed.json",
+              "dataType": "Resumen de Historial por Dominio",
+              "visitCount": 1,
+              "firstVisit": "2024-11-20",
+              "lastVisit": "2025-01-26",
+              "pageExamples": [
+                {
+                  "title": "ESNE - Escuela Universitaria de Diseño y Tecnología",
+                  "url": "https://www.esne.es/"
+                }
+              ]
+            }
+          },
+          {
+            "id": "summary-google-history-u-tadcom",
+            "title": "Resumen de actividad en u-tad.com",
+            "artists": "u-tad.com",
+            "awareness": 3,
+            "platformId": 6,
+            "rank": 21,
+            "date": "2025-03-12",
+            "timeBucket": "6m",
+            "tags": [
+                           "Historial", "Propio", "Inconsciente", "@email", "Ordenador"
+, "Educativo"
+            ],
+            "details": {
+              "sourceFile": "google_history_transformed.json",
+              "dataType": "Resumen de Historial por Dominio",
+              "visitCount": 1,
+              "firstVisit": "2025-02-18",
+              "lastVisit": "2025-03-12",
+              "pageExamples": [
+                {
+                  "title": "U-tad | Centro Universitario de Tecnología y Arte Digital",
+                  "url": "https://www.u-tad.com/"
+                }
+              ]
+            }
+          },
+          {
+            "id": "summary-google-history-aulavirtual38educamadridorg",
+            "title": "Resumen de actividad en aulavirtual38.educa.madrid.org",
+            "artists": "aulavirtual38.educa.madrid.org",
+            "awareness": 3,
+            "platformId": 6,
+            "rank": 22,
+            "date": "2025-03-14",
+            "timeBucket": "6m",
+            "tags": [
+                           "Historial", "Propio", "Inconsciente", "@email", "Ordenador"
+, "Educativo"
+            ],
+            "details": {
+              "sourceFile": "google_history_transformed.json",
+              "dataType": "Resumen de Historial por Dominio",
+              "visitCount": 1,
+              "firstVisit": "2025-02-23",
+              "lastVisit": "2025-03-14",
+              "pageExamples": [
+                {
+                  "title": "AulaVirtual",
+                  "url": "https://aulavirtual38.educa.madrid.org/esd.madrid/"
+                }
+              ]
+            }
+          },
+          {
+            "id": "summary-google-history-barbapapaxgithubio",
+            "title": "Resumen de actividad en barbapapax.github.io",
+            "artists": "barbapapax.github.io",
+            "awareness": 3,
+            "platformId": 6,
+            "rank": 23,
+            "date": "2025-04-18",
+            "timeBucket": "6m",
+            "tags": [
+                           "Historial", "Propio", "Inconsciente", "@email", "Ordenador"
+,                          "Educativo", "Tecnología", "Programación"
+            ],
+            "details": {
+              "sourceFile": "google_history_transformed.json",
+              "dataType": "Resumen de Historial por Dominio",
+              "visitCount": 1,
+              "firstVisit": "2025-03-08",
+              "lastVisit": "2025-04-18",
+              "pageExamples": [
+                {
+                  "title": "Vue P5",
+                  "url": "https://barbapapax.github.io/vue-p5-documentation/"
+                }
+              ]
+            }
+          },
+          {
+            "id": "summary-google-history-mozillaorg",
+            "title": "Resumen de actividad en mozilla.org",
+            "artists": "mozilla.org",
+            "awareness": 3,
+            "platformId": 6,
+            "rank": 24,
+            "date": "2024-09-11",
+            "timeBucket": "1y",
+            "tags": [
+                           "Historial", "Propio", "Inconsciente", "@email", "Ordenador"
+,                          "Educativo", "Tecnología", "Programación"
+            ],
+            "details": {
+              "sourceFile": "google_history_transformed.json",
+              "dataType": "Resumen de Historial por Dominio",
+              "visitCount": 1,
+              "firstVisit": "2024-08-09",
+              "lastVisit": "2024-09-11",
+              "pageExamples": [
+                {
+                  "title": "p5.js | MDN",
+                  "url": "https://developer.mozilla.org/en-US/docs/Glossary/p5.js"
+                }
+              ]
+            }
+          },
+          {
+            "id": "summary-google-history-p5jsorg",
+            "title": "Resumen de actividad en p5js.org",
+            "artists": "p5js.org",
+            "awareness": 3,
+            "platformId": 6,
+            "rank": 25,
+            "date": "2025-01-09",
+            "timeBucket": "1y",
+            "tags": [
+                           "Historial", "Propio", "Inconsciente", "@email", "Ordenador"
+,                          "Educativo", "Tecnología", "Programación"
+            ],
+            "details": {
+              "sourceFile": "google_history_transformed.json",
+              "dataType": "Resumen de Historial por Dominio",
+              "visitCount": 1,
+              "firstVisit": "2024-10-25",
+              "lastVisit": "2025-01-09",
+              "pageExamples": [
+                {
+                  "title": "p5.js | home",
+                  "url": "https://p5js.org/"
+                }
+              ]
+            }
+          },
+          {
+            "id": "summary-google-history-thecodingtraincom",
+            "title": "Resumen de actividad en thecodingtrain.com",
+            "artists": "thecodingtrain.com",
+            "awareness": 3,
+            "platformId": 6,
+            "rank": 26,
+            "date": "2025-03-05",
+            "timeBucket": "6m",
+            "tags": [
+                           "Historial", "Propio", "Inconsciente", "@email", "Ordenador"
+,                          "Educativo", "Tecnología", "Programación"
+            ],
+            "details": {
+              "sourceFile": "google_history_transformed.json",
+              "dataType": "Resumen de Historial por Dominio",
+              "visitCount": 2,
+              "firstVisit": "2025-01-09",
+              "lastVisit": "2025-03-05",
+              "pageExamples": [
+                {
+                  "title": "The Coding Train",
+                  "url": "https://thecodingtrain.com/"
+                },
+                {
+                  "title": "p5.js Web Editor",
+                  "url": "https://thecodingtrain.com/tracks/code-programming-with-p5-js/p5-js/1-1-p5-js-web-editor"
+                }
+              ]
+            }
+          },
+          {
+            "id": "summary-google-history-codepenio",
+            "title": "Resumen de actividad en codepen.io",
+            "artists": "codepen.io",
+            "awareness": 3,
+            "platformId": 6,
+            "rank": 27,
+            "date": "2025-04-10",
+            "timeBucket": "6m",
+            "tags": [
+                           "Historial", "Propio", "Inconsciente", "@email", "Ordenador"
+,                          "Educativo", "Tecnología", "Programación", "Inspiración"
+            ],
+            "details": {
+              "sourceFile": "google_history_transformed.json",
+              "dataType": "Resumen de Historial por Dominio",
+              "visitCount": 1,
+              "firstVisit": "2025-01-26",
+              "lastVisit": "2025-04-10",
+              "pageExamples": [
+                {
+                  "title": "Pure CSS Responsive Accordion",
+                  "url": "https://codepen.io/raubaca/pen/PZgKGE"
+                }
+              ]
+            }
+          },
+          {
+            "id": "summary-google-history-notionsite",
+            "title": "Resumen de actividad en notion.site",
+            "artists": "notion.site",
+            "awareness": 3,
+            "platformId": 6,
+            "rank": 28,
+            "date": "2025-05-18",
+            "timeBucket": "6m",
+            "tags": [
+                           "Historial", "Propio", "Inconsciente", "@email", "Ordenador"
+,                          "Educativo", "Tecnología", "Programación", "Apuntes"
+            ],
+            "details": {
+              "sourceFile": "google_history_transformed.json",
+              "dataType": "Resumen de Historial por Dominio",
+              "visitCount": 1,
+              "firstVisit": "2025-03-24",
+              "lastVisit": "2025-05-18",
+              "pageExamples": [
+                {
+                  "title": "MOOC React",
+                  "url": "https://isidisi.notion.site/trash-mammal/MOOC-React-1916eec909f240b5b983e77c324c0d84"
+                }
+              ]
+            }
+          },
+          {
+            "id": "summary-google-history-notionso",
+            "title": "Resumen de actividad en notion.so",
+            "artists": "notion.so",
+            "awareness": 3,
+            "platformId": 6,
+            "rank": 29,
+            "date": "2025-07-20",
+            "timeBucket": "4w",
+            "tags": [
+                           "Historial", "Propio", "Inconsciente", "@email", "Ordenador"
+,                          "Educativo", "Tecnología", "Programación", "Apuntes"
+            ],
+            "details": {
+              "sourceFile": "google_history_transformed.json",
+              "dataType": "Resumen de Historial por Dominio",
+              "visitCount": 1,
+              "firstVisit": "2025-02-17",
+              "lastVisit": "2025-07-20",
+              "pageExamples": [
+                {
+                  "title": "Notion – The all-in-one workspace for your notes, tasks, wikis, and databases.",
+                  "url": "https://www.notion.so/product"
+                }
+              ]
+            }
+          },
+          {
+            "id": "summary-google-history-webflowcom",
+            "title": "Resumen de actividad en webflow.com",
+            "artists": "webflow.com",
+            "awareness": 3,
+            "platformId": 6,
+            "rank": 30,
+            "date": "2025-03-20",
+            "timeBucket": "6m",
+            "tags": [
+                           "Historial", "Propio", "Inconsciente", "@email", "Ordenador"
+,                          "Educativo", "Tecnología", "Programación", "Diseño", "Inspiración", "Web"
+            ],
+            "details": {
+              "sourceFile": "google_history_transformed.json",
+              "dataType": "Resumen de Historial por Dominio",
+              "visitCount": 1,
+              "firstVisit": "2024-10-18",
+              "lastVisit": "2025-03-20",
+              "pageExamples": [
+                {
+                  "title": "Webflow: The no-code platform for web design and development",
+                  "url": "https://webflow.com/"
+                }
+              ]
+            }
+          },
+          {
+            "id": "summary-google-history-figmacom",
+            "title": "Resumen de actividad en figma.com",
+            "artists": "figma.com",
+            "awareness": 3,
+            "platformId": 6,
+            "rank": 31,
+            "date": "2025-07-02",
+            "timeBucket": "4w",
+            "tags": [
+                           "Historial", "Propio", "Inconsciente", "@email", "Ordenador"
+,                          "Diseño", "Tecnología", "Web"
+            ],
+            "details": {
+              "sourceFile": "google_history_transformed.json",
+              "dataType": "Resumen de Historial por Dominio",
+              "visitCount": 1,
+              "firstVisit": "2025-01-21",
+              "lastVisit": "2025-07-02",
+              "pageExamples": [
+                {
+                  "title": "Figma: the collaborative interface design tool.",
+                  "url": "https://www.figma.com/"
+                }
+              ]
+            }
+          },
+          {
+            "id": "summary-google-history-canvacom",
+            "title": "Resumen de actividad en canva.com",
+            "artists": "canva.com",
+            "awareness": 3,
+            "platformId": 6,
+            "rank": 32,
+            "date": "2025-01-14",
+            "timeBucket": "1y",
+            "tags": [
+                           "Historial", "Propio", "Inconsciente", "@email", "Ordenador"
+,"Diseño"
+            ],
+            "details": {
+              "sourceFile": "google_history_transformed.json",
+              "dataType": "Resumen de Historial por Dominio",
+              "visitCount": 1,
+              "firstVisit": "2024-11-20",
+              "lastVisit": "2025-01-14",
+              "pageExamples": [
+                {
+                  "title": "Canva",
+                  "url": "https://www.canva.com/"
+                }
+              ]
+            }
+          },
+  
+          {
+            "id": "summary-google-history-eswikipediaorg",
+            "title": "Resumen de actividad en es.wikipedia.org",
+            "artists": "es.wikipedia.org",
+            "awareness": 3,
+            "platformId": 6,
+            "rank": 35,
+            "date": "2024-10-18",
+            "timeBucket": "1y",
+            "tags": [
+                           "Historial", "Propio", "Inconsciente", "@email", "Ordenador"
+,                          "Educativo"
+            ],
+            "details": {
+              "sourceFile": "google_history_transformed.json",
+              "dataType": "Resumen de Historial por Dominio",
+              "visitCount": 1,
+              "firstVisit": "2024-10-10",
+              "lastVisit": "2024-10-18",
+              "pageExamples": [
+                {
+                  "title": "Wikipedia, la enciclopedia libre",
+                  "url": "https://es.wikipedia.org/wiki/Wikipedia:Portada"
+                }
+              ]
+            }
+          },
+          {
+            "id": "summary-google-history-pinterestes",
+            "title": "Resumen de actividad en pinterest.es",
+            "artists": "pinterest.es",
+            "awareness": 3,
+            "platformId": 6,
+            "rank": 36,
+            "date": "2025-08-01",
+            "timeBucket": "4w",
+            "tags": [
+                           "Historial", "Propio", "Inconsciente", "@email", "Ordenador"
+,"Inspiración", "Arte", "Diseño"
+            ],
+            "details": {
+              "sourceFile": "google_history_transformed.json",
+              "dataType": "Resumen de Historial por Dominio",
+              "visitCount": 1,
+              "firstVisit": "2024-09-21",
+              "lastVisit": "2025-08-01",
+              "pageExamples": [
+                {
+                  "title": "España | Pinterest",
+                  "url": "https://www.pinterest.es/"
+                }
+              ]
+            }
+          },
+  
+          {
+            "id": "summary-google-history-campusfpcom",
+            "title": "Resumen de actividad en campusfp.com",
+            "artists": "campusfp.com",
+            "awareness": 3,
+            "platformId": 6,
+            "rank": 39,
+            "date": "2025-03-01",
+            "timeBucket": "6m",
+            "tags": [
+                           "Historial", "Propio", "Inconsciente", "@email", "Ordenador"
+, "Educativo"
+            ],
+            "details": {
+              "sourceFile": "google_history_transformed.json",
+              "dataType": "Resumen de Historial por Dominio",
+              "visitCount": 1,
+              "firstVisit": "2025-02-05",
+              "lastVisit": "2025-03-01",
+              "pageExamples": [
+                {
+                  "title": "CampusFP | Formación Profesional, Grados y Másteres",
+                  "url": "https://www.campusfp.com/"
+                }
+              ]
+            }
+          },
+          {
+            "id": "summary-google-history-tiktokcom",
+            "title": "Resumen de actividad en tiktok.com",
+            "artists": "tiktok.com",
+            "awareness": 3,
+            "platformId": 6,
+            "rank": 40,
+            "date": "2024-11-23",
+            "timeBucket": "1y",
+            "tags": [
+                           "Historial", "Propio", "Inconsciente", "@email", "Ordenador"
+, "Entretenimiento"
+            ],
+            "details": {
+              "sourceFile": "google_history_transformed.json",
+              "dataType": "Resumen de Historial por Dominio",
+              "visitCount": 1,
+              "firstVisit": "2024-09-08",
+              "lastVisit": "2024-11-23",
+              "pageExamples": [
+                {
+                  "title": "TikTok - Make Your Day",
+                  "url": "https://www.tiktok.com/en/"
+                }
+              ]
+            }
+          },
+          {
+            "id": "summary-google-history-twitchtv",
+            "title": "Resumen de actividad en twitch.tv",
+            "artists": "twitch.tv",
+            "awareness": 3,
+            "platformId": 6,
+            "rank": 41,
+            "date": "2024-11-09",
+            "timeBucket": "1y",
+            "tags": [
+                           "Historial", "Propio", "Inconsciente", "@email", "Ordenador"
+, "Entretenimiento"
+            ],
+            "details": {
+              "sourceFile": "google_history_transformed.json",
+              "dataType": "Resumen de Historial por Dominio",
+              "visitCount": 1,
+              "firstVisit": "2024-10-18",
+              "lastVisit": "2024-11-09",
+              "pageExamples": [
+                {
+                  "title": "Twitch",
+                  "url": "https://www.twitch.tv/"
+                }
+              ]
+            }
+          },
+          {
+            "id": "summary-google-history-filmaffinitycom",
+            "title": "Resumen de actividad en filmaffinity.com",
+            "artists": "filmaffinity.com",
+            "awareness": 3,
+            "platformId": 6,
+            "rank": 42,
+            "date": "2025-06-25",
+            "timeBucket": "4w",
+            "tags": [
+                           "Historial", "Propio", "Inconsciente", "@email", "Ordenador"
+, "Cine", "Series", "Entretenimiento"
+            ],
+            "details": {
+              "sourceFile": "google_history_transformed.json",
+              "dataType": "Resumen de Historial por Dominio",
+              "visitCount": 1,
+              "firstVisit": "2025-01-20",
+              "lastVisit": "2025-06-25",
+              "pageExamples": [
+                {
+                  "title": "FilmAffinity",
+                  "url": "https://www.filmaffinity.com/es/main.html"
+                }
+              ]
+            }
+          },
+          {
+            "id": "summary-google-history-raees",
+            "title": "Resumen de actividad en rae.es",
+            "artists": "rae.es",
+            "awareness": 3,
+            "platformId": 6,
+            "rank": 43,
+            "date": "2025-05-19",
+            "timeBucket": "6m",
+            "tags": [
+                           "Historial", "Propio", "Inconsciente", "@email", "Ordenador"
+, "Educativo", "Lenguaje", "Diccionario"
+            ],
+            "details": {
+              "sourceFile": "google_history_transformed.json",
+              "dataType": "Resumen de Historial por Dominio",
+              "visitCount": 1,
+              "firstVisit": "2024-11-19",
+              "lastVisit": "2025-05-19",
+              "pageExamples": [
+                {
+                  "title": "Real Academia Española",
+                  "url": "https://www.rae.es/"
+                }
+              ]
+            }
+          },
+          {
+            "id": "summary-google-history-linkedincom",
+            "title": "Resumen de actividad en linkedin.com",
+            "artists": "linkedin.com",
+            "awareness": 3,
+            "platformId": 6,
+            "rank": 44,
+            "date": "2025-04-12",
+            "timeBucket": "6m",
+            "tags": [
+                           "Historial", "Propio", "Inconsciente", "@email", "Ordenador"
+, "Profesional", "Networking"
+            ],
+            "details": {
+              "sourceFile": "google_history_transformed.json",
+              "dataType": "Resumen de Historial por Dominio",
+              "visitCount": 1,
+              "firstVisit": "2024-09-02",
+              "lastVisit": "2025-04-12",
+              "pageExamples": [
+                {
+                  "title": "LinkedIn: Log In or Sign Up",
+                  "url": "https://www.linkedin.com/login"
+                }
+              ]
+            }
+          },
+          {
+            "id": "summary-google-history-imdbcom",
+            "title": "Resumen de actividad en imdb.com",
+            "artists": "imdb.com",
+            "awareness": 3,
+            "platformId": 6,
+            "rank": 45,
+            "date": "2025-01-09",
+            "timeBucket": "1y",
+            "tags": [
+                           "Historial", "Propio", "Inconsciente", "@email", "Ordenador"
+, "Cine", "Series", "Entretenimiento"
+            ],
+            "details": {
+              "sourceFile": "google_history_transformed.json",
+              "dataType": "Resumen de Historial por Dominio",
+              "visitCount": 1,
+              "firstVisit": "2024-09-08",
+              "lastVisit": "2025-01-09",
+              "pageExamples": [
+                {
+                  "title": "IMDb: Ratings, Reviews, and Where to Watch the Best Movies & TV Shows",
+                  "url": "https://www.imdb.com/"
+                }
+              ]
+            }
+          },
+          {
+            "id": "summary-google-history-justwatchcom",
+            "title": "Resumen de actividad en justwatch.com",
+            "artists": "justwatch.com",
+            "awareness": 3,
+            "platformId": 6,
+            "rank": 46,
+            "date": "2025-01-20",
+            "timeBucket": "1y",
+            "tags": [
+                           "Historial", "Propio", "Inconsciente", "@email", "Ordenador"
+, "Cine", "Series", "Entretenimiento"
+            ],
+            "details": {
+              "sourceFile": "google_history_transformed.json",
+              "dataType": "Resumen de Historial por Dominio",
+              "visitCount": 1,
+              "firstVisit": "2024-11-20",
+              "lastVisit": "2025-01-20",
+              "pageExamples": [
+                {
+                  "title": "JustWatch",
+                  "url": "https://www.justwatch.com/"
+                }
+              ]
+            }
+          },
+          {
+            "id": "summary-google-history-idealistaes",
+            "title": "Resumen de actividad en idealista.es",
+            "artists": "idealista.es",
+            "awareness": 3,
+            "platformId": 6,
+            "rank": 47,
+            "date": "2025-07-28",
+            "timeBucket": "4w",
+            "tags": [
+                           "Historial", "Propio", "Inconsciente", "@email", "Ordenador"
+, "Vivienda", "Inmobiliaria"
+            ],
+            "details": {
+              "sourceFile": "google_history_transformed.json",
+              "dataType": "Resumen de Historial por Dominio",
+              "visitCount": 1,
+              "firstVisit": "2025-02-23",
+              "lastVisit": "2025-07-28",
+              "pageExamples": [
+                {
+                  "title": "idealista",
+                  "url": "https://www.idealista.es/"
+                }
+              ]
+            }
+          },
+          {
+            "id": "summary-google-history-amazoncom",
+            "title": "Resumen de actividad en amazon.com",
+            "artists": "amazon.com",
+            "awareness": 3,
+            "platformId": 6,
+            "rank": 48,
+            "date": "2025-01-11",
+            "timeBucket": "1y",
+            "tags": [
+                           "Historial", "Propio", "Inconsciente", "@email", "Ordenador"
+,                         "Compras"
+            ],
+            "details": {
+              "sourceFile": "google_history_transformed.json",
+              "dataType": "Resumen de Historial por Dominio",
+              "visitCount": 1,
+              "firstVisit": "2024-11-17",
+              "lastVisit": "2025-01-11",
+              "pageExamples": [
+                {
+                  "title": "Amazon.com. Spend less. Smile more.",
+                  "url": "https://www.amazon.com/"
+                }
+              ]
+            }
+          },
+          {
+            "id": "summary-google-history-redditcom",
+            "title": "Resumen de actividad en reddit.com",
+            "artists": "reddit.com",
+            "awareness": 3,
+            "platformId": 6,
+            "rank": 49,
+            "date": "2025-02-27",
+            "timeBucket": "6m",
+            "tags": [
+                           "Historial", "Propio", "Inconsciente", "@email", "Ordenador"
+, "Entretenimiento", "Foros", "Comunidad"
+            ],
+            "details": {
+              "sourceFile": "google_history_transformed.json",
+              "dataType": "Resumen de Historial por Dominio",
+              "visitCount": 1,
+              "firstVisit": "2024-09-01",
+              "lastVisit": "2025-02-27",
+              "pageExamples": [
+                {
+                  "title": "Reddit - Dive into anything",
+                  "url": "https://www.reddit.com/"
+                }
+              ]
+            }
+          },
+          {
+            "id": "summary-google-history-netflixcom",
+            "title": "Resumen de actividad en netflix.com",
+            "artists": "netflix.com",
+            "awareness": 3,
+            "platformId": 6,
+            "rank": 50,
+            "date": "2025-04-19",
+            "timeBucket": "6m",
+            "tags": [
+                           "Historial", "Propio", "Inconsciente", "@email", "Ordenador"
+,                         "Cine", "Series", "Entretenimiento"
+            ],
+            "details": {
+              "sourceFile": "google_history_transformed.json",
+              "dataType": "Resumen de Historial por Dominio",
+              "visitCount": 1,
+              "firstVisit": "2025-01-18",
+              "lastVisit": "2025-04-19",
+              "pageExamples": [
+                {
+                  "title": "Netflix",
+                  "url": "https://www.netflix.com/browse"
+                }
+              ]
+            }
+          },
+          {
+            "id": "summary-google-history-twittercom",
+            "title": "Resumen de actividad en twitter.com",
+            "artists": "twitter.com",
+            "awareness": 3,
+            "platformId": 6,
+            "rank": 51,
+            "date": "2024-08-30",
+            "timeBucket": "1y",
+            "tags": [
+                           "Historial", "Propio", "Inconsciente", "@email", "Ordenador"
+,                        "Redes Sociales", "Entretenimiento"
+            ],
+            "details": {
+              "sourceFile": "google_history_transformed.json",
+              "dataType": "Resumen de Historial por Dominio",
+              "visitCount": 1,
+              "firstVisit": "2024-08-25",
+              "lastVisit": "2024-08-30",
+              "pageExamples": [
+                {
+                  "title": "Twitter. It's what's happening / Twitter",
+                  "url": "https://twitter.com/home"
+                }
+              ]
+            }
+          },
+          {
+            "id": "summary-google-history-wikipediaorg",
+            "title": "Resumen de actividad en wikipedia.org",
+            "artists": "wikipedia.org",
+            "awareness": 3,
+            "platformId": 6,
+            "rank": 52,
+            "date": "2025-06-25",
+            "timeBucket": "4w",
+            "tags": [
+                           "Historial", "Propio", "Inconsciente", "@email", "Ordenador"
+, "Educativo", "Cultura"
+            ],
+            "details": {
+              "sourceFile": "google_history_transformed.json",
+              "dataType": "Resumen de Historial por Dominio",
+              "visitCount": 1,
+              "firstVisit": "2025-03-24",
+              "lastVisit": "2025-06-25",
+              "pageExamples": [
+                {
+                  "title": "Wikipedia",
+                  "url": "https://www.wikipedia.org/"
+                }
+              ]
+            }
+          },
+          {
+            "id": "summary-google-history-w3schoolscom",
+            "title": "Resumen de actividad en w3schools.com",
+            "artists": "w3schools.com",
+            "awareness": 3,
+            "platformId": 6,
+            "rank": 53,
+            "date": "2024-11-20",
+            "timeBucket": "1y",
+            "tags": [
+                           "Historial", "Propio", "Inconsciente", "@email", "Ordenador"
+,                         "Educativo", "Tecnología", "Programación"
+            ],
+            "details": {
+              "sourceFile": "google_history_transformed.json",
+              "dataType": "Resumen de Historial por Dominio",
+              "visitCount": 1,
+              "firstVisit": "2024-11-08",
+              "lastVisit": "2024-11-20",
+              "pageExamples": [
+                {
+                  "title": "W3Schools Online Web Tutorials",
+                  "url": "https://www.w3schools.com/"
+                }
+              ]
+            }
+          },
+          {
+            "id": "summary-google-history-educacionyfpgoes",
+            "title": "Resumen de actividad en educacionyfp.gob.es",
+            "artists": "educacionyfp.gob.es",
+            "awareness": 3,
+            "platformId": 6,
+            "rank": 54,
+            "date": "2025-07-27",
+            "timeBucket": "4w",
+            "tags": [
+                           "Historial", "Propio", "Inconsciente", "@email", "Ordenador"
+,                         "Educativo"
+            ],
+            "details": {
+              "sourceFile": "google_history_transformed.json",
+              "dataType": "Resumen de Historial por Dominio",
+              "visitCount": 1,
+              "firstVisit": "2024-12-06",
+              "lastVisit": "2025-07-27",
+              "pageExamples": [
+                {
+                  "title": "Inicio - Ministerio de Educación, Formación Profesional y Deportes",
+                  "url": "https://www.educacionyfp.gob.es/portada.html"
+                }
+              ]
+            }
+          },
+          {
+            "id": "summary-google-history-discordcom",
+            "title": "Resumen de actividad en discord.com",
+            "artists": "discord.com",
+            "awareness": 3,
+            "platformId": 6,
+            "rank": 55,
+            "date": "2025-06-29",
+            "timeBucket": "4w",
+            "tags": [
+                           "Historial", "Propio", "Inconsciente", "@email", "Ordenador"
+,                        "Redes Sociales", "Comunidad"
+            ],
+            "details": {
+              "sourceFile": "google_history_transformed.json",
+              "dataType": "Resumen de Historial por Dominio",
+              "visitCount": 1,
+              "firstVisit": "2025-05-18",
+              "lastVisit": "2025-06-29",
+              "pageExamples": [
+                {
+                  "title": "Discord | Your Place to Talk and Hang Out",
+                  "url": "https://discord.com/"
+                }
+              ]
+            }
+          },
+          {
+            "id": "summary-google-history-vimeocom",
+            "title": "Resumen de actividad en vimeo.com",
+            "artists": "vimeo.com",
+            "awareness": 3,
+            "platformId": 6,
+            "rank": 56,
+            "date": "2024-12-09",
+            "timeBucket": "1y",
+            "tags": [
+                           "Historial", "Propio", "Inconsciente", "@email", "Ordenador"
+,                        "Videos", "Entretenimiento"
+            ],
+            "details": {
+              "sourceFile": "google_history_transformed.json",
+              "dataType": "Resumen de Historial por Dominio",
+              "visitCount": 1,
+              "firstVisit": "2024-09-04",
+              "lastVisit": "2024-12-09",
+              "pageExamples": [
+                {
+                  "title": "The world's leading professional video platform",
+                  "url": "https://vimeo.com/"
+                }
+              ]
+            }
+          },
+          {
+            "id": "summary-google-history-developerchromecom",
+            "title": "Resumen de actividad en developer.chrome.com",
+            "artists": "developer.chrome.com",
+            "awareness": 3,
+            "platformId": 6,
+            "rank": 57,
+            "date": "2025-07-16",
+            "timeBucket": "6m",
+            "tags": [
+                           "Historial", "Propio", "Inconsciente", "@email", "Ordenador"
+,                         "Educativo", "Tecnología", "Programación"
+            ],
+            "details": {
+              "sourceFile": "google_history_transformed.json",
+              "dataType": "Resumen de Historial por Dominio",
+              "visitCount": 1,
+              "firstVisit": "2025-03-24",
+              "lastVisit": "2025-07-16",
+              "pageExamples": [
+                {
+                  "title": "Chrome for Developers",
+                  "url": "https://developer.chrome.com/docs/extensions/mv3/getstarted/"
+                }
+              ]
+            }
+          },
+          
+          {
+            "id": "summary-google-history-marcaes",
+            "title": "Resumen de actividad en marca.es",
+            "artists": "marca.es",
+            "awareness": 3,
+            "platformId": 6,
+            "rank": 59,
+            "date": "2024-12-14",
+            "timeBucket": "1y",
+            "tags": [
+                           "Historial", "Propio", "Inconsciente", "@email", "Ordenador"
+,                         "Deportes", "Noticias", "Revista"
+            ],
+            "details": {
+              "sourceFile": "google_history_transformed.json",
+              "dataType": "Resumen de Historial por Dominio",
+              "visitCount": 1,
+              "firstVisit": "2024-11-23",
+              "lastVisit": "2024-12-14",
+              "pageExamples": [
+                {
+                  "title": "MARCA - Diario online líder en información deportiva",
+                  "url": "https://www.marca.es/"
+                }
+              ]
+            }
+          },
+          {
+            "id": "summary-google-history-mediumcom",
+            "title": "Resumen de actividad en medium.com",
+            "artists": "medium.com",
+            "awareness": 3,
+            "platformId": 6,
+            "rank": 60,
+            "date": "2025-03-12",
+            "timeBucket": "6m",
+            "tags": [
+                           "Historial", "Propio", "Inconsciente", "@email", "Ordenador"
+,                         "Educativo", "Revista", "Noticias", "Inspiración"
+            ],
+            "details": {
+              "sourceFile": "google_history_transformed.json",
+              "dataType": "Resumen de Historial por Dominio",
+              "visitCount": 1,
+              "firstVisit": "2025-01-20",
+              "lastVisit": "2025-03-12",
+              "pageExamples": [
+                {
+                  "title": "Medium – Where good ideas find you.",
+                  "url": "https://medium.com/"
+                }
+              ]
+            }
+          },
+          {
+            "id": "summary-google-history-translategooglecom",
+            "title": "Resumen de actividad en translate.google.com",
+            "artists": "translate.google.com",
+            "awareness": 3,
+            "platformId": 6,
+            "rank": 61,
+            "date": "2025-05-19",
+            "timeBucket": "6m",
+            "tags": [
+                           "Historial", "Propio", "Inconsciente", "@email", "Ordenador"
+,                        "Educativo", "Lenguaje", "Traducción"
+            ],
+            "details": {
+              "sourceFile": "google_history_transformed.json",
+              "dataType": "Resumen de Historial por Dominio",
+              "visitCount": 1,
+              "firstVisit": "2025-03-16",
+              "lastVisit": "2025-05-19",
+              "pageExamples": [
+                {
+                  "title": "Google Translate",
+                  "url": "https://translate.google.com/"
+                }
+              ]
+            }
+          },
+          {
+            "id": "summary-google-history-lavanguardiacom",
+            "title": "Resumen de actividad en lavanguardia.com",
+            "artists": "lavanguardia.com",
+            "awareness": 3,
+            "platformId": 6,
+            "rank": 62,
+            "date": "2024-12-25",
+            "timeBucket": "1y",
+            "tags": [
+                           "Historial", "Propio", "Inconsciente", "@email", "Ordenador"
+,                        "Noticias", "Cultura",   "Revista"
+            ],
+            "details": {
+              "sourceFile": "google_history_transformed.json",
+              "dataType": "Resumen de Historial por Dominio",
+              "visitCount": 1,
+              "firstVisit": "2024-11-09",
+              "lastVisit": "2024-12-25",
+              "pageExamples": [
+                {
+                  "title": "La Vanguardia - Noticias, actualidad y última hora en Catalunya, España y el mundo",
+                  "url": "https://www.lavanguardia.com/"
+                }
+              ]
+            }
+          },
+          {
+            "id": "summary-google-history-elmundoes",
+            "title": "Resumen de actividad en elmundo.es",
+            "artists": "elmundo.es",
+            "awareness": 3,
+            "platformId": 6,
+            "rank": 63,
+            "date": "2025-07-29",
+            "timeBucket": "4w",
+            "tags": [
+                           "Historial", "Propio", "Inconsciente", "@email", "Ordenador"
+,                        "Noticias", "Revista", "Cultura"
+            ],
+            "details": {
+              "sourceFile": "google_history_transformed.json",
+              "dataType": "Resumen de Historial por Dominio",
+              "visitCount": 1,
+              "firstVisit": "2025-03-22",
+              "lastVisit": "2025-07-29",
+              "pageExamples": [
+                {
+                  "title": "EL MUNDO - Diario online líder de información en español",
+                  "url": "https://www.elmundo.es/"
+                }
+              ]
+            }
+          },
+          {
+            "id": "summary-google-history-elpaiscom",
+            "title": "Resumen de actividad en elpais.com",
+            "artists": "elpais.com",
+            "awareness": 3,
+            "platformId": 6,
+            "rank": 64,
+            "date": "2025-02-18",
+            "timeBucket": "6m",
+            "tags": [
+                           "Historial", "Propio", "Inconsciente", "@email", "Ordenador"
+,                        "Noticias", "Revista", "Cultura"
+            ],
+            "details": {
+              "sourceFile": "google_history_transformed.json",
+              "dataType": "Resumen de Historial por Dominio",
+              "visitCount": 1,
+              "firstVisit": "2025-01-26",
+              "lastVisit": "2025-02-18",
+              "pageExamples": [
+                {
+                  "title": "EL PAÍS: el periódico global",
+                  "url": "https://elpais.com/"
+                }
+              ]
+            }
+          },
+   
+       
+          {
+            "id": "summary-google-history-supportgooglecom",
+            "title": "Resumen de actividad en support.google.com",
+            "artists": "support.google.com",
+            "awareness": 3,
+            "platformId": 6,
+            "rank": 67,
+            "date": "2025-08-04",
+            "timeBucket": "4w",
+            "tags": [
+                           "Historial", "Propio", "Inconsciente", "@email", "Ordenador"
+,                        "Soporte", "Ayuda"
+            ],
+            "details": {
+              "sourceFile": "google_history_transformed.json",
+              "dataType": "Resumen de Historial por Dominio",
+              "visitCount": 1,
+              "firstVisit": "2025-04-18",
+              "lastVisit": "2025-08-04",
+              "pageExamples": [
+                {
+                  "title": "Cómo descargar tus datos de Google - Ayuda de Cuenta de Google",
+                  "url": "https://support.google.com/accounts/answer/3024190?hl=es"
+                }
+              ]
+            }
+          },
+     
+          {
+            "id": "summary-google-history-policiesgooglecom",
+            "title": "Resumen de actividad en policies.google.com",
+            "artists": "policies.google.com",
+            "awareness": 3,
+            "platformId": 6,
+            "rank": 69,
+            "date": "2025-04-20",
+            "timeBucket": "6m",
+            "tags": [
+                           "Historial", "Propio", "Inconsciente", "@email", "Ordenador"
+,                        "Privacidad"
+            ],
+            "details": {
+              "sourceFile": "google_history_transformed.json",
+              "dataType": "Resumen de Historial por Dominio",
+              "visitCount": 1,
+              "firstVisit": "2025-01-17",
+              "lastVisit": "2025-04-20",
+              "pageExamples": [
+                {
+                  "title": "Privacy Policy – Privacy & Terms – Google",
+                  "url": "https://policies.google.com/privacy?hl=en-US"
+                }
+              ]
+            }
+          },
+          {
+            "id": "summary-google-history-enwikipediaorg",
+            "title": "Resumen de actividad en en.wikipedia.org",
+            "artists": "en.wikipedia.org",
+            "awareness": 3,
+            "platformId": 6,
+            "rank": 70,
+            "date": "2025-02-15",
+            "timeBucket": "6m",
+            "tags": [
+                           "Historial", "Propio", "Inconsciente", "@email", "Ordenador"
+,                        "Educativo", "Cultura"
+            ],
+            "details": {
+              "sourceFile": "google_history_transformed.json",
+              "dataType": "Resumen de Historial por Dominio",
+              "visitCount": 1,
+              "firstVisit": "2024-11-20",
+              "lastVisit": "2025-02-15",
+              "pageExamples": [
+                {
+                  "title": "Netscape-bookmark-file-1 - Wikipedia",
+                  "url": "https://en.wikipedia.org/wiki/Netscape-bookmark-file-1"
+                }
+              ]
+            }
+          },
+    
+          {
+            "id": "summary-google-history-cloudgooglecom",
+            "title": "Resumen de actividad en cloud.google.com",
+            "artists": "cloud.google.com",
+            "awareness": 3,
+            "platformId": 6,
+            "rank": 73,
+            "date": "2025-06-25",
+            "timeBucket": "4w",
+            "tags": [
+                           "Historial", "Propio", "Inconsciente", "@email", "Ordenador"
+
+            ],
+            "details": {
+              "sourceFile": "google_history_transformed.json",
+              "dataType": "Resumen de Historial por Dominio",
+              "visitCount": 1,
+              "firstVisit": "2025-03-12",
+              "lastVisit": "2025-06-25",
+              "pageExamples": [
+                {
+                  "title": "Cloud Computing Services | Google Cloud",
+                  "url": "https://cloud.google.com/"
+                }
+              ]
+            }
+          },
+          {
+            "id": "summary-google-history-geminigooglecom",
+            "title": "Resumen de actividad en gemini.google.com",
+            "artists": "gemini.google.com",
+            "awareness": 3,
+            "platformId": 6,
+            "rank": 74,
+            "date": "2025-04-10",
+            "timeBucket": "6m",
+            "tags": [
+                           "Historial", "Propio", "Inconsciente", "@email", "Ordenador"
+,                        "Inteligencia Artificial"
+            ],
+            "details": {
+              "sourceFile": "google_history_transformed.json",
+              "dataType": "Resumen de Historial por Dominio",
+              "visitCount": 1,
+              "firstVisit": "2025-02-14",
+              "lastVisit": "2025-04-10",
+              "pageExamples": [
+                {
+                  "title": "Gemini",
+                  "url": "https://gemini.google.com/"
+                }
+              ]
+            }
+          },
+     
+          {
+            "id": "summary-google-history-playgooglecom",
+            "title": "Resumen de actividad en play.google.com",
+            "artists": "play.google.com",
+            "awareness": 3,
+            "platformId": 6,
+            "rank": 77,
+            "date": "2024-09-24",
+            "timeBucket": "1y",
+            "tags": [
+                           "Historial", "Propio", "Inconsciente", "@email", "Ordenador"
+,                        "Aplicaciones", "Entretenimiento"
+            ],
+            "details": {
+              "sourceFile": "google_history_transformed.json",
+              "dataType": "Resumen de Historial por Dominio",
+              "visitCount": 1,
+              "firstVisit": "2024-09-17",
+              "lastVisit": "2024-09-24",
+              "pageExamples": [
+                {
+                  "title": "Google Play",
+                  "url": "https://play.google.com/store/apps"
+                }
+              ]
+            }
+          },
+          {
+            "id": "summary-google-history-tvgoogle",
+            "title": "Resumen de actividad en tv.google",
+            "artists": "tv.google",
+            "awareness": 3,
+            "platformId": 6,
+            "rank": 78,
+            "date": "2025-02-09",
+            "timeBucket": "1y",
+            "tags": [
+                           "Historial", "Propio", "Inconsciente", "@email", "Ordenador"
+,                       "Televisión", "Entretenimiento"
+            ],
+            "details": {
+              "sourceFile": "google_history_transformed.json",
+              "dataType": "Resumen de Historial por Dominio",
+              "visitCount": 1,
+              "firstVisit": "2024-10-18",
+              "lastVisit": "2025-02-09",
+              "pageExamples": [
+                {
+                  "title": "Google TV",
+                  "url": "https://tv.google/"
+                }
+              ]
+            }
+          },
+  
+          {
+            "id": "summary-google-history-artsandculturegooglecom",
+            "title": "Resumen de actividad en artsandculture.google.com",
+            "artists": "artsandculture.google.com",
+            "awareness": 3,
+            "platformId": 6,
+            "rank": 80,
+            "date": "2024-11-23",
+            "timeBucket": "1y",
+            "tags": [
+                           "Historial", "Propio", "Inconsciente", "@email", "Ordenador"
+,                        "Cultura", "Arte", "Educativo"
+            ],
+            "details": {
+              "sourceFile": "google_history_transformed.json",
+              "dataType": "Resumen de Historial por Dominio",
+              "visitCount": 1,
+              "firstVisit": "2024-09-28",
+              "lastVisit": "2024-11-23",
+              "pageExamples": [
+                {
+                  "title": "Google Arts & Culture",
+                  "url": "https://artsandculture.google.com/"
+                }
+              ]
+            }
+          },
+          {
+            "id": "summary-google-history-careersgooglecom",
+            "title": "Resumen de actividad en careers.google.com",
+            "artists": "careers.google.com",
+            "awareness": 3,
+            "platformId": 6,
+            "rank": 81,
+            "date": "2025-05-18",
+            "timeBucket": "6m",
+            "tags": [
+                           "Historial", "Propio", "Inconsciente", "@email", "Ordenador"
+,                        "Empleo", "Carreras", "Profesional"
+            ],
+            "details": {
+              "sourceFile": "google_history_transformed.json",
+              "dataType": "Resumen de Historial por Dominio",
+              "visitCount": 1,
+              "firstVisit": "2025-05-02",
+              "lastVisit": "2025-05-18",
+              "pageExamples": [
+                {
+                  "title": "Careers at Google - find a job at Google",
+                  "url": "https://careers.google.com/"
+                }
+              ]
+            }
+          },
+          {
+            "id": "summary-google-history-esdmadridcom",
+            "title": "Resumen de actividad en esdmadrid.com",
+            "artists": "esdmadrid.com",
+            "awareness": 3,
+            "platformId": 6,
+            "rank": 82,
+            "date": "2025-01-20",
+            "timeBucket": "1y",
+            "tags": [
+                           "Historial", "Propio", "Inconsciente", "@email", "Ordenador"
+, "Educativo", "Diseño", "Arte"
+            ],
+            "details": {
+              "sourceFile": "google_history_transformed.json",
+              "dataType": "Resumen de Historial por Dominio",
+              "visitCount": 1,
+              "firstVisit": "2024-09-22",
+              "lastVisit": "2025-01-20",
+              "pageExamples": [
+                {
+                  "title": "esdmadrid.com is for sale | HugeDomains",
+                  "url": "https://esdmadrid.com/"
+                }
+              ]
+            }
+          },
+
+          {
+            "id": "summary-google-history-educacmadridorg",
+            "title": "Resumen de actividad en educacmadrid.org",
+            "artists": "educacmadrid.org",
+            "awareness": 3,
+            "platformId": 6,
+            "rank": 84,
+            "date": "2024-09-22",
+            "timeBucket": "1y",
+            "tags": [
+                           "Historial", "Propio", "Inconsciente", "@email", "Ordenador"
+, "Educativo"
+            ],
+            "details": {
+              "sourceFile": "google_history_transformed.json",
+              "dataType": "Resumen de Historial por Dominio",
+              "visitCount": 1,
+              "firstVisit": "2024-08-13",
+              "lastVisit": "2024-09-22",
+              "pageExamples": [
+                {
+                  "title": "Página de inicio | EducaMadrid",
+                  "url": "https://www.educacmadrid.org/"
+                }
+              ]
+            }
+          },
+   
+     
+          {
+            "id": "summary-google-history-es",
+            "title": "Resumen de actividad en es",
+            "artists": "es",
+            "awareness": 3,
+            "platformId": 6,
+            "rank": 88,
+            "date": "2025-06-12",
+            "timeBucket": "6m",
+            "tags": [
+                           "Historial", "Propio", "Inconsciente", "@email", "Ordenador"
+,                        "Gobierno", "Cultura", "Información"
+            ],
+            "details": {
+              "sourceFile": "google_history_transformed.json",
+              "dataType": "Resumen de Historial por Dominio",
+              "visitCount": 1,
+              "firstVisit": "2024-10-23",
+              "lastVisit": "2025-06-12",
+              "pageExamples": [
+                {
+                  "title": "Gobierno de España",
+                  "url": "https://www.es/"
+                }
+              ]
+            }
+          },
+          {
+            "id": "summary-google-history-applecom",
+            "title": "Resumen de actividad en apple.com",
+            "artists": "apple.com",
+            "awareness": 3,
+            "platformId": 6,
+            "rank": 89,
+            "date": "2024-08-11",
+            "timeBucket": "1y",
+            "tags": [
+                           "Historial", "Propio", "Inconsciente", "@email", "Ordenador"
+,                       "Tecnología", "Compras", "Electrónica"
+            ],
+            "details": {
+              "sourceFile": "google_history_transformed.json",
+              "dataType": "Resumen de Historial por Dominio",
+              "visitCount": 1,
+              "firstVisit": "2024-08-08",
+              "lastVisit": "2024-08-11",
+              "pageExamples": [
+                {
+                  "title": "Apple",
+                  "url": "https://www.apple.com/"
+                }
+              ]
+            }
+          },
+          {
+            "id": "summary-google-history-microsoftcom",
+            "title": "Resumen de actividad en microsoft.com",
+            "artists": "microsoft.com",
+            "awareness": 3,
+            "platformId": 6,
+            "rank": 90,
+            "date": "2025-04-10",
+            "timeBucket": "6m",
+            "tags": [
+                           "Historial", "Propio", "Inconsciente", "@email", "Ordenador"
+,                       "Tecnología", "Software"
+            ],
+            "details": {
+              "sourceFile": "google_history_transformed.json",
+              "dataType": "Resumen de Historial por Dominio",
+              "visitCount": 1,
+              "firstVisit": "2025-03-08",
+              "lastVisit": "2025-04-10",
+              "pageExamples": [
+                {
+                  "title": "Microsoft Corporation | Official Home Page",
+                  "url": "https://www.microsoft.com/es-es/"
+                }
+              ]
+            }
+          },
+          {
+            "id": "summary-google-history-wikihowcom",
+            "title": "Resumen de actividad en wikihow.com",
+            "artists": "wikihow.com",
+            "awareness": 3,
+            "platformId": 6,
+            "rank": 91,
+            "date": "2024-12-14",
+            "timeBucket": "1y",
+            "tags": [
+                           "Historial", "Propio", "Inconsciente", "@email", "Ordenador"
+,                        "Educativo", "Cultura", "Cómo hacer"
+            ],
+            "details": {
+              "sourceFile": "google_history_transformed.json",
+              "dataType": "Resumen de Historial por Dominio",
+              "visitCount": 1,
+              "firstVisit": "2024-09-09",
+              "lastVisit": "2024-12-14",
+              "pageExamples": [
+                {
+                  "title": "wikiHow: how-to instructions you can trust.",
+                  "url": "https://www.wikihow.com/Main-Page"
+                }
+              ]
+            }
+          },
+          {
+            "id": "summary-google-history-yahoocom",
+            "title": "Resumen de actividad en yahoo.com",
+            "artists": "yahoo.com",
+            "awareness": 3,
+            "platformId": 6,
+            "rank": 92,
+            "date": "2025-01-26",
+            "timeBucket": "1y",
+            "tags": [
+                           "Historial", "Propio", "Inconsciente", "@email", "Ordenador"
+,                       "Noticias", "Correo Electrónico"
+            ],
+            "details": {
+              "sourceFile": "google_history_transformed.json",
+              "dataType": "Resumen de Historial por Dominio",
+              "visitCount": 1,
+              "firstVisit": "2024-09-06",
+              "lastVisit": "2025-01-26",
+              "pageExamples": [
+                {
+                  "title": "Yahoo | Mail, Weather, Search, Politics, News, Finance, Sports & Videos",
+                  "url": "https://www.yahoo.com/"
+                }
+              ]
+            }
+          },
+          {
+            "id": "summary-google-history-wordreferencecom",
+            "title": "Resumen de actividad en wordreference.com",
+            "artists": "wordreference.com",
+            "awareness": 3,
+            "platformId": 6,
+            "rank": 93,
+            "date": "2025-07-28",
+            "timeBucket": "4w",
+            "tags": [
+                           "Historial", "Propio", "Inconsciente", "@email", "Ordenador"
+,                       "Educativo", "Lenguaje", "Traducción"
+            ],
+            "details": {
+              "sourceFile": "google_history_transformed.json",
+              "dataType": "Resumen de Historial por Dominio",
+              "visitCount": 1,
+              "firstVisit": "2024-12-07",
+              "lastVisit": "2025-07-28",
+              "pageExamples": [
+                {
+                  "title": "WordReference.com: English to French, Italian, German & Spanish Dictionaries",
+                  "url": "https://www.wordreference.com/"
+                }
+              ]
+            }
+          },
+          {
+            "id": "summary-google-history-weathercom",
+            "title": "Resumen de actividad en weather.com",
+            "artists": "weather.com",
+            "awareness": 3,
+            "platformId": 6,
+            "rank": 94,
+            "date": "2025-06-13",
+            "timeBucket": "6m",
+            "tags": [
+                           "Historial", "Propio", "Inconsciente", "@email", "Ordenador"
+,                       "Clima", "Meteorología"
+            ],
+            "details": {
+              "sourceFile": "google_history_transformed.json",
+              "dataType": "Resumen de Historial por Dominio",
+              "visitCount": 1,
+              "firstVisit": "2025-03-24",
+              "lastVisit": "2025-06-13",
+              "pageExamples": [
+                {
+                  "title": "National and Local Weather Radar, Daily Forecast, Hurricane and information from The Weather Channel and weather.com",
+                  "url": "https://weather.com/"
+                }
+              ]
+            }
+          },
+          {
+            "id": "summary-google-history-nytimescom",
+            "title": "Resumen de actividad en nytimes.com",
+            "artists": "nytimes.com",
+            "awareness": 3,
+            "platformId": 6,
+            "rank": 95,
+            "date": "2025-03-01",
+            "timeBucket": "6m",
+            "tags": [
+                           "Historial", "Propio", "Inconsciente", "@email", "Ordenador"
+,                       "Noticias", "Revista", "Cultura"
+            ],
+            "details": {
+              "sourceFile": "google_history_transformed.json",
+              "dataType": "Resumen de Historial por Dominio",
+              "visitCount": 1,
+              "firstVisit": "2025-02-09",
+              "lastVisit": "2025-03-01",
+              "pageExamples": [
+                {
+                  "title": "The New York Times - Breaking News, US News, World News and Videos",
+                  "url": "https://www.nytimes.com/"
+                }
+              ]
+            }
+          },
+          {
+            "id": "summary-google-history-theguardiancom",
+            "title": "Resumen de actividad en theguardian.com",
+            "artists": "theguardian.com",
+            "awareness": 3,
+            "platformId": 6,
+            "rank": 96,
+            "date": "2025-02-07",
+            "timeBucket": "1y",
+            "tags": [
+                           "Historial", "Propio", "Inconsciente", "@email", "Ordenador"
+,                      "Noticias", "Revista", "Cultura"
+            ],
+            "details": {
+              "sourceFile": "google_history_transformed.json",
+              "dataType": "Resumen de Historial por Dominio",
+              "visitCount": 1,
+              "firstVisit": "2024-11-09",
+              "lastVisit": "2025-02-07",
+              "pageExamples": [
+                {
+                  "title": "The Guardian",
+                  "url": "https://www.theguardian.com/international"
+                }
+              ]
+            }
+          },
+          {
+            "id": "summary-google-history-bbcnewscouk",
+            "title": "Resumen de actividad en bbc.co.uk",
+            "artists": "bbc.co.uk",
+            "awareness": 3,
+            "platformId": 6,
+            "rank": 97,
+            "date": "2025-02-18",
+            "timeBucket": "6m",
+            "tags": [
+                           "Historial", "Propio", "Inconsciente", "@email", "Ordenador"
+,                       "Noticias", "Revista", "Cultura"
+            ],
+            "details": {
+              "sourceFile": "google_history_transformed.json",
+              "dataType": "Resumen de Historial por Dominio",
+              "visitCount": 1,
+              "firstVisit": "2024-10-18",
+              "lastVisit": "2025-02-18",
+              "pageExamples": [
+                {
+                  "title": "BBC News - Home",
+                  "url": "https://www.bbc.co.uk/news"
+                }
+              ]
+            }
+          },
+          {
+            "id": "summary-google-history-ebaycom",
+            "title": "Resumen de actividad en ebay.com",
+            "artists": "ebay.com",
+            "awareness": 3,
+            "platformId": 6,
+            "rank": 98,
+            "date": "2024-12-25",
+            "timeBucket": "1y",
+            "tags": [
+                           "Historial", "Propio", "Inconsciente", "@email", "Ordenador"
+,                       "Compras", "Electrónica", "Tecnología"
+            ],
+            "details": {
+              "sourceFile": "google_history_transformed.json",
+              "dataType": "Resumen de Historial por Dominio",
+              "visitCount": 1,
+              "firstVisit": "2024-11-02",
+              "lastVisit": "2024-12-25",
+              "pageExamples": [
+                {
+                  "title": "Electronics, Cars, Fashion, Collectibles & More | eBay",
+                  "url": "https://www.ebay.com/"
+                }
+              ]
+            }
+          },
+          {
+            "id": "summary-google-history-aliexpresscom",
+            "title": "Resumen de actividad en aliexpress.com",
+            "artists": "aliexpress.com",
+            "awareness": 3,
+            "platformId": 6,
+            "rank": 99,
+            "date": "2024-10-02",
+            "timeBucket": "1y",
+            "tags": [
+                           "Historial", "Propio", "Inconsciente", "@email", "Ordenador"
+,                       "Compras", "Electrónica", "Tecnología"
+            ],
+            "details": {
+              "sourceFile": "google_history_transformed.json",
+              "dataType": "Resumen de Historial por Dominio",
+              "visitCount": 1,
+              "firstVisit": "2024-09-02",
+              "lastVisit": "2024-10-02",
+              "pageExamples": [
+                {
+                  "title": "AliExpress | Compra online en Electrónica, Moda, Hogar y Jardín, Juguetes y Deportes, y mucho más",
+                  "url": "https://es.aliexpress.com/"
+                }
+              ]
+            }
+          },
+          {
+            "id": "summary-google-history-tripadvisorcom",
+            "title": "Resumen de actividad en tripadvisor.com",
+            "artists": "tripadvisor.com",
+            "awareness": 3,
+            "platformId": 6,
+            "rank": 100,
+            "date": "2025-06-25",
+            "timeBucket": "4w",
+            "tags": [
+                           "Historial", "Propio", "Inconsciente", "@email", "Ordenador"
+,                       "Viajes", "Turismo", "Reservas"
+            ],
+            "details": {
+              "sourceFile": "google_history_transformed.json",
+              "dataType": "Resumen de Historial por Dominio",
+              "visitCount": 1,
+              "firstVisit": "2025-03-22",
+              "lastVisit": "2025-06-25",
+              "pageExamples": [
+                {
+                  "title": "Tripadvisor: Over a billion reviews & contributions for Hotels, Attractions, Restaurants, and more",
+                  "url": "https://www.tripadvisor.com/"
+                }
+              ]
+            }
+          },
+          {
+            "id": "summary-google-history-bookingcom",
+            "title": "Resumen de actividad en booking.com",
+            "artists": "booking.com",
+            "awareness": 3,
+            "platformId": 6,
+            "rank": 101,
+            "date": "2025-05-18",
+            "timeBucket": "6m",
+            "tags": [
+                           "Historial", "Propio", "Inconsciente", "@email", "Ordenador"
+,                      "Viajes", "Turismo", "Reservas"
+            ],
+            "details": {
+              "sourceFile": "google_history_transformed.json",
+              "dataType": "Resumen de Historial por Dominio",
+              "visitCount": 1,
+              "firstVisit": "2025-01-29",
+              "lastVisit": "2025-05-18",
+              "pageExamples": [
+                {
+                  "title": "Booking.com | Official site | The best hotels, flights, car rentals & accommodations",
+                  "url": "https://www.booking.com/"
+                }
+              ]
+            }
+          },
+          {
+            "id": "summary-google-history-airbnbcom",
+            "title": "Resumen de actividad en airbnb.com",
+            "artists": "airbnb.com",
+            "awareness": 3,
+            "platformId": 6,
+            "rank": 102,
+            "date": "2025-06-03",
+            "timeBucket": "6m",
+            "tags": [
+                           "Historial", "Propio", "Inconsciente", "@email", "Ordenador"
+,                      "Viajes", "Turismo", "Reservas"
+            ],
+            "details": {
+              "sourceFile": "google_history_transformed.json",
+              "dataType": "Resumen de Historial por Dominio",
+              "visitCount": 1,
+              "firstVisit": "2025-05-09",
+              "lastVisit": "2025-06-03",
+              "pageExamples": [
+                {
+                  "title": "Vacation Homes & Condo Rentals - Airbnb - Airbnb",
+                  "url": "https://www.airbnb.com/"
+                }
+              ]
+            }
+          },
+          {
+            "id": "summary-google-history-skyscannercom",
+            "title": "Resumen de actividad en skyscanner.com",
+            "artists": "skyscanner.com",
+            "awareness": 3,
+            "platformId": 6,
+            "rank": 103,
+            "date": "2024-09-02",
+            "timeBucket": "1y",
+            "tags": [
+                           "Historial", "Propio", "Inconsciente", "@email", "Ordenador"
+,                      "Viajes", "Turismo", "Reservas"
+            ],
+            "details": {
+              "sourceFile": "google_history_transformed.json",
+              "dataType": "Resumen de Historial por Dominio",
+              "visitCount": 1,
+              "firstVisit": "2024-08-16",
+              "lastVisit": "2024-09-02",
+              "pageExamples": [
+                {
+                  "title": "Skyscanner | Find the cheapest flights, hotels & car rental",
+                  "url": "https://www.skyscanner.com/"
+                }
+              ]
+            }
+          },
+          {
+            "id": "summary-google-history-forbescom",
+            "title": "Resumen de actividad en forbes.com",
+            "artists": "forbes.com",
+            "awareness": 3,
+            "platformId": 6,
+            "rank": 104,
+            "date": "2025-03-27",
+            "timeBucket": "6m",
+            "tags": [
+                           "Historial", "Propio", "Inconsciente", "@email", "Ordenador"
+,                      "Negocios", "Finanzas", "Economía", "Revista"
+            ],
+            "details": {
+              "sourceFile": "google_history_transformed.json",
+              "dataType": "Resumen de Historial por Dominio",
+              "visitCount": 1,
+              "firstVisit": "2025-01-22",
+              "lastVisit": "2025-03-27",
+              "pageExamples": [
+                {
+                  "title": "Forbes",
+                  "url": "https://www.forbes.com/"
+                }
+              ]
+            }
+          },
+   
+          {
+            "id": "summary-google-history-reuterscom",
+            "title": "Resumen de actividad en reuters.com",
+            "artists": "reuters.com",
+            "awareness": 3,
+            "platformId": 6,
+            "rank": 106,
+            "date": "2024-11-20",
+            "timeBucket": "1y",
+            "tags": [
+                           "Historial", "Propio", "Inconsciente", "@email", "Ordenador"
+,                      "Noticias", "Revista", "Cultura"
+            ],
+            "details": {
+              "sourceFile": "google_history_transformed.json",
+              "dataType": "Resumen de Historial por Dominio",
+              "visitCount": 1,
+              "firstVisit": "2024-09-17",
+              "lastVisit": "2024-11-20",
+              "pageExamples": [
+                {
+                  "title": "Reuters | Breaking International News & Views",
+                  "url": "https://www.reuters.com/"
+                }
+              ]
+            }
+          },
+          {
+            "id": "summary-google-history-wsjcom",
+            "title": "Resumen de actividad en wsj.com",
+            "artists": "wsj.com",
+            "awareness": 3,
+            "platformId": 6,
+            "rank": 107,
+            "date": "2025-01-22",
+            "timeBucket": "1y",
+            "tags": [
+                           "Historial", "Propio", "Inconsciente", "@email", "Ordenador"
+,                      "Negocios", "Finanzas", "Economía", "Revista"
+            ],
+            "details": {
+              "sourceFile": "google_history_transformed.json",
+              "dataType": "Resumen de Historial por Dominio",
+              "visitCount": 1,
+              "firstVisit": "2024-10-14",
+              "lastVisit": "2025-01-22",
+              "pageExamples": [
+                {
+                  "title": "The Wall Street Journal - Breaking News, Business, Financial & Economic News, World News and Video",
+                  "url": "https://www.wsj.com/"
+                }
+              ]
+            }
+          },
+          {
+            "id": "summary-google-history-economistcom",
+            "title": "Resumen de actividad en economist.com",
+            "artists": "economist.com",
+            "awareness": 3,
+            "platformId": 6,
+            "rank": 108,
+            "date": "2024-09-24",
+            "timeBucket": "1y",
+            "tags": [
+                           "Historial", "Propio", "Inconsciente", "@email", "Ordenador"
+,                      "Negocios", "Finanzas", "Economía", "Revista"
+            ],
+            "details": {
+              "sourceFile": "google_history_transformed.json",
+              "dataType": "Resumen de Historial por Dominio",
+              "visitCount": 1,
+              "firstVisit": "2024-08-16",
+              "lastVisit": "2024-09-24",
+              "pageExamples": [
+                {
+                  "title": "The Economist | World News, Economics, Politics, Business & Finance",
+                  "url": "https://www.economist.com/"
+                }
+              ]
+            }
+          },
+          {
+            "id": "summary-google-history-nationalgeographiccom",
+            "title": "Resumen de actividad en nationalgeographic.com",
+            "artists": "nationalgeographic.com",
+            "awareness": 3,
+            "platformId": 6,
+            "rank": 109,
+            "date": "2025-02-09",
+            "timeBucket": "1y",
+            "tags": [
+                           "Historial", "Propio", "Inconsciente", "@email", "Ordenador"
+,                      "Cultura", "Naturaleza", "Educativo"
+            ],
+            "details": {
+              "sourceFile": "google_history_transformed.json",
+              "dataType": "Resumen de Historial por Dominio",
+              "visitCount": 1,
+              "firstVisit": "2024-09-17",
+              "lastVisit": "2025-02-09",
+              "pageExamples": [
+                {
+                  "title": "National Geographic",
+                  "url": "https://www.nationalgeographic.com/"
+                }
+              ]
+            }
+          },
+          {
+            "id": "summary-google-history-scientificamericancom",
+            "title": "Resumen de actividad en scientificamerican.com",
+            "artists": "scientificamerican.com",
+            "awareness": 3,
+            "platformId": 6,
+            "rank": 110,
+            "date": "2025-04-12",
+            "timeBucket": "6m",
+            "tags": [
+                           "Historial", "Propio", "Inconsciente", "@email", "Ordenador"
+,                      "Ciencia", "Educativo", "Revista"
+            ],
+            "details": {
+              "sourceFile": "google_history_transformed.json",
+              "dataType": "Resumen de Historial por Dominio",
+              "visitCount": 1,
+              "firstVisit": "2024-08-27",
+              "lastVisit": "2025-04-12",
+              "pageExamples": [
+                {
+                  "title": "Scientific American - Science News, Expert Analysis, Health Research",
+                  "url": "https://www.scientificamerican.com/"
+                }
+              ]
+            }
+          },
+          {
+            "id": "summary-google-history-popscicom",
+            "title": "Resumen de actividad en popsci.com",
+            "artists": "popsci.com",
+            "awareness": 3,
+            "platformId": 6,
+            "rank": 111,
+            "date": "2024-10-18",
+            "timeBucket": "1y",
+            "tags": [
+                           "Historial", "Propio", "Inconsciente", "@email", "Ordenador"
+,                      "Ciencia", "Tecnología", "Educativo", "Noticias"
+            ],
+            "details": {
+              "sourceFile": "google_history_transformed.json",
+              "dataType": "Resumen de Historial por Dominio",
+              "visitCount": 1,
+              "firstVisit": "2024-09-24",
+              "lastVisit": "2024-10-18",
+              "pageExamples": [
+                {
+                  "title": "Popular Science - Science news, rumors, and reviews",
+                  "url": "https://www.popsci.com/"
+                }
+              ]
+            }
+          },
+          {
+            "id": "summary-google-history-wiredcom",
+            "title": "Resumen de actividad en wired.com",
+            "artists": "wired.com",
+            "awareness": 3,
+            "platformId": 6,
+            "rank": 112,
+            "date": "2025-07-28",
+            "timeBucket": "4w",
+            "tags": [
+                           "Historial", "Propio", "Inconsciente", "@email", "Ordenador"
+,                      "Ciencia", "Tecnología", "Educativo", "Noticias"
+            ],
+            "details": {
+              "sourceFile": "google_history_transformed.json",
+              "dataType": "Resumen de Historial por Dominio",
+              "visitCount": 1,
+              "firstVisit": "2025-06-25",
+              "lastVisit": "2025-07-28",
+              "pageExamples": [
+                {
+                  "title": "WIRED",
+                  "url": "https://www.wired.com/"
+                }
+              ]
+            }
+          },
+          {
+            "id": "summary-google-history-techcrunchcom",
+            "title": "Resumen de actividad en techcrunch.com",
+            "artists": "techcrunch.com",
+            "awareness": 3,
+            "platformId": 6,
+            "rank": 113,
+            "date": "2024-12-19",
+            "timeBucket": "1y",
+            "tags": [
+                           "Historial", "Propio", "Inconsciente", "@email", "Ordenador"
+,                      "Ciencia", "Tecnología", "Educativo", "Noticias"
+            ],
+            "details": {
+              "sourceFile": "google_history_transformed.json",
+              "dataType": "Resumen de Historial por Dominio",
+              "visitCount": 1,
+              "firstVisit": "2024-11-04",
+              "lastVisit": "2024-12-19",
+              "pageExamples": [
+                {
+                  "title": "TechCrunch | Startup and Technology News",
+                  "url": "https://techcrunch.com/"
+                }
+              ]
+            }
+          },
+          {
+            "id": "summary-google-history-arstechnicacom",
+            "title": "Resumen de actividad en arstechnica.com",
+            "artists": "arstechnica.com",
+            "awareness": 3,
+            "platformId": 6,
+            "rank": 114,
+            "date": "2025-07-29",
+            "timeBucket": "4w",
+            "tags": [
+                           "Historial", "Propio", "Inconsciente", "@email", "Ordenador"
+,                      "Ciencia", "Tecnología", "Educativo", "Noticias"
+            ],
+            "details": {
+              "sourceFile": "google_history_transformed.json",
+              "dataType": "Resumen de Historial por Dominio",
+              "visitCount": 1,
+              "firstVisit": "2025-07-20",
+              "lastVisit": "2025-07-29",
+              "pageExamples": [
+                {
+                  "title": "Ars Technica",
+                  "url": "https://arstechnica.com/"
+                }
+              ]
+            }
+          },
+          {
+            "id": "summary-google-history-vicecom",
+            "title": "Resumen de actividad en vice.com",
+            "artists": "vice.com",
+            "awareness": 3,
+            "platformId": 6,
+            "rank": 115,
+            "date": "2025-02-15",
+            "timeBucket": "6m",
+            "tags": [
+                           "Historial", "Propio", "Inconsciente", "@email", "Ordenador"
+,                      "Cultura", "Noticias", "Revista"
+            ],
+            "details": {
+              "sourceFile": "google_history_transformed.json",
+              "dataType": "Resumen de Historial por Dominio",
+              "visitCount": 1,
+              "firstVisit": "2024-12-14",
+              "lastVisit": "2025-02-15",
+              "pageExamples": [
+                {
+                  "title": "Vice - VICE is the definitive guide to enlightening information.",
+                  "url": "https://www.vice.com/en"
+                }
+              ]
+            }
+          },
+          {
+            "id": "summary-google-history-buzzfeedcom",
+            "title": "Resumen de actividad en buzzfeed.com",
+            "artists": "buzzfeed.com",
+            "awareness": 3,
+            "platformId": 6,
+            "rank": 116,
+            "date": "2025-07-28",
+            "timeBucket": "4w",
+            "tags": [
+                           "Historial", "Propio", "Inconsciente", "@email", "Ordenador"
+,                      "Cultura", "Noticias", "Revista"
+            ],
+            "details": {
+              "sourceFile": "google_history_transformed.json",
+              "dataType": "Resumen de Historial por Dominio",
+              "visitCount": 1,
+              "firstVisit": "2025-05-24",
+              "lastVisit": "2025-07-28",
+              "pageExamples": [
+                {
+                  "title": "BuzzFeed",
+                  "url": "https://www.buzzfeed.com/"
+                }
+              ]
+            }
+          },
+          {
+            "id": "summary-google-history-huffpostcom",
+            "title": "Resumen de actividad en huffpost.com",
+            "artists": "huffpost.com",
+            "awareness": 3,
+            "platformId": 6,
+            "rank": 117,
+            "date": "2025-03-22",
+            "timeBucket": "6m",
+            "tags": [
+                           "Historial", "Propio", "Inconsciente", "@email", "Ordenador"
+,                      "Cultura", "Noticias", "Revista"
+            ],
+            "details": {
+              "sourceFile": "google_history_transformed.json",
+              "dataType": "Resumen de Historial por Dominio",
+              "visitCount": 1,
+              "firstVisit": "2024-09-02",
+              "lastVisit": "2025-03-22",
+              "pageExamples": [
+                {
+                  "title": "HuffPost - Breaking News, U.S. and World News",
+                  "url": "https://www.huffpost.com/"
+                }
+              ]
+            }
+          },
+          {
+            "id": "summary-google-history-theatlanticcom",
+            "title": "Resumen de actividad en theatlantic.com",
+            "artists": "theatlantic.com",
+            "awareness": 3,
+            "platformId": 6,
+            "rank": 118,
+            "date": "2025-07-29",
+            "timeBucket": "4w",
+            "tags": [
+                           "Historial", "Propio", "Inconsciente", "@email", "Ordenador"
+,                   "Cultura", "Noticias", "Revista"
+            ],
+            "details": {
+              "sourceFile": "google_history_transformed.json",
+              "dataType": "Resumen de Historial por Dominio",
+              "visitCount": 1,
+              "firstVisit": "2025-05-09",
+              "lastVisit": "2025-07-29",
+              "pageExamples": [
+                {
+                  "title": "The Atlantic",
+                  "url": "https://www.theatlantic.com/"
+                }
+              ]
+            }
+          },
+          {
+            "id": "summary-google-history-newyorkercom",
+            "title": "Resumen de actividad en newyorker.com",
+            "artists": "newyorker.com",
+            "awareness": 3,
+            "platformId": 6,
+            "rank": 119,
+            "date": "2025-07-28",
+            "timeBucket": "4w",
+            "tags": [
+                           "Historial", "Propio", "Inconsciente", "@email", "Ordenador"
+,                      "Cultura", "Noticias", "Revista"
+            ],
+            "details": {
+              "sourceFile": "google_history_transformed.json",
+              "dataType": "Resumen de Historial por Dominio",
+              "visitCount": 1,
+              "firstVisit": "2025-03-22",
+              "lastVisit": "2025-07-28",
+              "pageExamples": [
+                {
+                  "title": "The New Yorker",
+                  "url": "https://www.newyorker.com/"
+                }
+              ]
+            }
+          },
+
+          {
+            "id": "summary-google-history-timecom",
+            "title": "Resumen de actividad en time.com",
+            "artists": "time.com",
+            "awareness": 3,
+            "platformId": 6,
+            "rank": 121,
+            "date": "2025-03-12",
+            "timeBucket": "6m",
+            "tags": [
+                           "Historial", "Propio", "Inconsciente", "@email", "Ordenador"
+,                      "Cultura", "Noticias", "Revista"
+            ],
+            "details": {
+              "sourceFile": "google_history_transformed.json",
+              "dataType": "Resumen de Historial por Dominio",
+              "visitCount": 1,
+              "firstVisit": "2024-09-02",
+              "lastVisit": "2025-03-12",
+              "pageExamples": [
+                {
+                  "title": "TIME | Current & Breaking News | National & World Updates",
+                  "url": "https://time.com/"
+                }
+              ]
+            }
+          },
+          {
+            "id": "summary-google-history-nprorg",
+            "title": "Resumen de actividad en npr.org",
+            "artists": "npr.org",
+            "awareness": 3,
+            "platformId": 6,
+            "rank": 122,
+            "date": "2025-01-14",
+            "timeBucket": "1y",
+            "tags": [
+                           "Historial", "Propio", "Inconsciente", "@email", "Ordenador"
+,                      "Cultura", "Noticias", "Radio"
+            ],
+            "details": {
+              "sourceFile": "google_history_transformed.json",
+              "dataType": "Resumen de Historial por Dominio",
+              "visitCount": 1,
+              "firstVisit": "2024-11-20",
+              "lastVisit": "2025-01-14",
+              "pageExamples": [
+                {
+                  "title": "NPR : National Public Radio : News & Analysis, World, US, Music & Arts : NPR",
+                  "url": "https://www.npr.org/"
+                }
+              ]
+            }
+          },
+  
+          {
+            "id": "summary-google-history-smithsonianmagcom",
+            "title": "Resumen de actividad en smithsonianmag.com",
+            "artists": "smithsonianmag.com",
+            "awareness": 3,
+            "platformId": 6,
+            "rank": 124,
+            "date": "2025-02-23",
+            "timeBucket": "6m",
+            "tags": [
+                           "Historial", "Propio", "Inconsciente", "@email", "Ordenador"
+,                      "Cultura", "Noticias", "Museo"
+            ],
+            "details": {
+              "sourceFile": "google_history_transformed.json",
+              "dataType": "Resumen de Historial por Dominio",
+              "visitCount": 1,
+              "firstVisit": "2024-10-18",
+              "lastVisit": "2025-02-23",
+              "pageExamples": [
+                {
+                  "title": "Smithsonian Magazine",
+                  "url": "https://www.smithsonianmag.com/"
+                }
+              ]
+            }
+          },
+    
+          {
+            "id": "summary-google-history-howstuffworkscom",
+            "title": "Resumen de actividad en howstuffworks.com",
+            "artists": "howstuffworks.com",
+            "awareness": 3,
+            "platformId": 6,
+            "rank": 126,
+            "date": "2025-01-29",
+            "timeBucket": "1y",
+            "tags": [
+                           "Historial", "Propio", "Inconsciente", "@email", "Ordenador"
+,                      "Ciencia", "Tecnología", "Educativo", "Noticias"
+            ],
+            "details": {
+              "sourceFile": "google_history_transformed.json",
+              "dataType": "Resumen de Historial por Dominio",
+              "visitCount": 1,
+              "firstVisit": "2024-11-20",
+              "lastVisit": "2025-01-29",
+              "pageExamples": [
+                {
+                  "title": "HowStuffWorks - Learn How Everything Works!",
+                  "url": "https://www.howstuffworks.com/"
+                }
+              ]
+            }
+          },
+          {
+            "id": "summary-google-history-lifehackercom",
+            "title": "Resumen de actividad en lifehacker.com",
+            "artists": "lifehacker.com",
+            "awareness": 3,
+            "platformId": 6,
+            "rank": 127,
+            "date": "2025-02-12",
+            "timeBucket": "6m",
+            "tags": [
+                           "Historial", "Propio", "Inconsciente", "@email", "Ordenador"
+,                      "Ciencia", "Tecnología", "Educativo", "Noticias"
+            ],
+            "details": {
+              "sourceFile": "google_history_transformed.json",
+              "dataType": "Resumen de Historial por Dominio",
+              "visitCount": 1,
+              "firstVisit": "2025-01-20",
+              "lastVisit": "2025-02-12",
+              "pageExamples": [
+                {
+                  "title": "Lifehacker | Do everything better",
+                  "url": "https://lifehacker.com/"
+                }
+              ]
+            }
+          },
+          {
+            "id": "summary-google-history-gizmodocom",
+            "title": "Resumen de actividad en gizmodo.com",
+            "artists": "gizmodo.com",
+            "awareness": 3,
+            "platformId": 6,
+            "rank": 128,
+            "date": "2024-09-17",
+            "timeBucket": "1y",
+            "tags": [
+                           "Historial", "Propio", "Inconsciente", "@email", "Ordenador"
+,                      "Ciencia", "Tecnología", "Educativo", "Noticias"
+            ],
+            "details": {
+              "sourceFile": "google_history_transformed.json",
+              "dataType": "Resumen de Historial por Dominio",
+              "visitCount": 1,
+              "firstVisit": "2024-08-16",
+              "lastVisit": "2024-09-17",
+              "pageExamples": [
+                {
+                  "title": "Gizmodo | Tech. Science. Culture.",
+                  "url": "https://gizmodo.com/"
+                }
+              ]
+            }
+          },
+          {
+            "id": "summary-google-history-kotakucom",
+            "title": "Resumen de actividad en kotaku.com",
+            "artists": "kotaku.com",
+            "awareness": 3,
+            "platformId": 6,
+            "rank": 129,
+            "date": "2025-03-22",
+            "timeBucket": "6m",
+            "tags": [
+                           "Historial", "Propio", "Inconsciente", "@email", "Ordenador"
+,                     "Videojuegos", "Tecnología", "Noticias"
+            ],
+            "details": {
+              "sourceFile": "google_history_transformed.json",
+              "dataType": "Resumen de Historial por Dominio",
+              "visitCount": 1,
+              "firstVisit": "2025-02-17",
+              "lastVisit": "2025-03-22",
+              "pageExamples": [
+                {
+                  "title": "Kotaku | The Gamer's Guide",
+                  "url": "https://kotaku.com/"
+                }
+              ]
+            }
+          },
+  
+          {
+            "id": "summary-google-history-eurogamernet",
+            "title": "Resumen de actividad en eurogamer.net",
+            "artists": "eurogamer.net",
+            "awareness": 3,
+            "platformId": 6,
+            "rank": 131,
+            "date": "2025-03-24",
+            "timeBucket": "6m",
+            "tags": [
+                           "Historial", "Propio", "Inconsciente", "@email", "Ordenador"
+,                     "Videojuegos", "Tecnología", "Noticias"
+            ],
+            "details": {
+              "sourceFile": "google_history_transformed.json",
+              "dataType": "Resumen de Historial por Dominio",
+              "visitCount": 1,
+              "firstVisit": "2025-02-14",
+              "lastVisit": "2025-03-24",
+              "pageExamples": [
+                {
+                  "title": "Eurogamer.net",
+                  "url": "https://www.eurogamer.net/"
+                }
+              ]
+            }
+          },
+          {
+            "id": "summary-google-history-gamespotcom",
+            "title": "Resumen de actividad en gamespot.com",
+            "artists": "gamespot.com",
+            "awareness": 3,
+            "platformId": 6,
+            "rank": 132,
+            "date": "2025-01-20",
+            "timeBucket": "1y",
+            "tags": [
+                           "Historial", "Propio", "Inconsciente", "@email", "Ordenador"
+,                     "Videojuegos", "Tecnología", "Noticias"
+            ],
+            "details": {
+              "sourceFile": "google_history_transformed.json",
+              "dataType": "Resumen de Historial por Dominio",
+              "visitCount": 1,
+              "firstVisit": "2024-09-02",
+              "lastVisit": "2025-01-20",
+              "pageExamples": [
+                {
+                  "title": "GameSpot - Video Game Reviews, News, and More",
+                  "url": "https://www.gamespot.com/"
+                }
+              ]
+            }
+          },
+          {
+            "id": "summary-google-history-igncom",
+            "title": "Resumen de actividad en ign.com",
+            "artists": "ign.com",
+            "awareness": 3,
+            "platformId": 6,
+            "rank": 133,
+            "date": "2024-11-20",
+            "timeBucket": "1y",
+            "tags": [
+                           "Historial", "Propio", "Inconsciente", "@email", "Ordenador"
+,                    "Videojuegos", "Tecnología", "Noticias"
+            ],
+            "details": {
+              "sourceFile": "google_history_transformed.json",
+              "dataType": "Resumen de Historial por Dominio",
+              "visitCount": 1,
+              "firstVisit": "2024-11-09",
+              "lastVisit": "2024-11-20",
+              "pageExamples": [
+                {
+                  "title": "IGN: The latest game reviews, trailers, and walkthroughs",
+                  "url": "https://www.ign.com/"
+                }
+              ]
+            }
+          },
+          {
+            "id": "summary-google-history-gamesradarcom",
+            "title": "Resumen de actividad en gamesradar.com",
+            "artists": "gamesradar.com",
+            "awareness": 3,
+            "platformId": 6,
+            "rank": 134,
+            "date": "2024-10-18",
+            "timeBucket": "1y",
+            "tags": [
+                           "Historial", "Propio", "Inconsciente", "@email", "Ordenador"
+,                     "Videojuegos", "Tecnología", "Noticias"
+            ],
+            "details": {
+              "sourceFile": "google_history_transformed.json",
+              "dataType": "Resumen de Historial por Dominio",
+              "visitCount": 1,
+              "firstVisit": "2024-09-24",
+              "lastVisit": "2024-10-18",
+              "pageExamples": [
+                {
+                  "title": "GamesRadar+",
+                  "url": "https://www.gamesradar.com/"
+                }
+              ]
+            }
+          },
+          {
+            "id": "summary-google-history-pcgamercom",
+            "title": "Resumen de actividad en pcgamer.com",
+            "artists": "pcgamer.com",
+            "awareness": 3,
+            "platformId": 6,
+            "rank": 135,
+            "date": "2025-06-25",
+            "timeBucket": "4w",
+            "tags": [
+                           "Historial", "Propio", "Inconsciente", "@email", "Ordenador"
+,                    "Videojuegos", "Tecnología", "Noticias"
+            ],
+            "details": {
+              "sourceFile": "google_history_transformed.json",
+              "dataType": "Resumen de Historial por Dominio",
+              "visitCount": 1,
+              "firstVisit": "2025-01-22",
+              "lastVisit": "2025-06-25",
+              "pageExamples": [
+                {
+                  "title": "PC Gamer | PC Gaming News, Reviews, Guides and hardware",
+                  "url": "https://www.pcgamer.com/"
+                }
+              ]
+            }
+          },
+          {
+            "id": "summary-google-history-rockpapershotguncom",
+            "title": "Resumen de actividad en rockpapershotgun.com",
+            "artists": "rockpapershotgun.com",
+            "awareness": 3,
+            "platformId": 6,
+            "rank": 136,
+            "date": "2025-05-18",
+            "timeBucket": "6m",
+            "tags": [
+                           "Historial", "Propio", "Inconsciente", "@email", "Ordenador"
+,                     "Videojuegos", "Tecnología", "Noticias"
+            ],
+            "details": {
+              "sourceFile": "google_history_transformed.json",
+              "dataType": "Resumen de Historial por Dominio",
+              "visitCount": 1,
+              "firstVisit": "2025-03-24",
+              "lastVisit": "2025-05-18",
+              "pageExamples": [
+                {
+                  "title": "Rock Paper Shotgun - PC gaming news, reviews, and more",
+                  "url": "https://www.rockpapershotgun.com/"
+                }
+              ]
+            }
+          },
+          {
+            "id": "summary-google-history-dsogamingcom",
+            "title": "Resumen de actividad en dsogaming.com",
+            "artists": "dsogaming.com",
+            "awareness": 3,
+            "platformId": 6,
+            "rank": 137,
+            "date": "2025-06-03",
+            "timeBucket": "6m",
+            "tags": [
+                           "Historial", "Propio", "Inconsciente", "@email", "Ordenador"
+,                    "Videojuegos", "Tecnología", "Noticias"
+            ],
+            "details": {
+              "sourceFile": "google_history_transformed.json",
+              "dataType": "Resumen de Historial por Dominio",
+              "visitCount": 1,
+              "firstVisit": "2025-05-09",
+              "lastVisit": "2025-06-03",
+              "pageExamples": [
+                {
+                  "title": "DSOGaming | PC Gaming News, Reviews, Screenshots, Patches",
+                  "url": "https://www.dsogaming.com/"
+                }
+              ]
+            }
+          },
+          {
+            "id": "summary-google-history-gematsucom",
+            "title": "Resumen de actividad en gematsu.com",
+            "artists": "gematsu.com",
+            "awareness": 3,
+            "platformId": 6,
+            "rank": 138,
+            "date": "2024-09-02",
+            "timeBucket": "1y",
+            "tags": [
+                           "Historial", "Propio", "Inconsciente", "@email", "Ordenador"
+,                   "Videojuegos", "Tecnología", "Noticias"
+            ],
+            "details": {
+              "sourceFile": "google_history_transformed.json",
+              "dataType": "Resumen de Historial por Dominio",
+              "visitCount": 1,
+              "firstVisit": "2024-08-16",
+              "lastVisit": "2024-09-02",
+              "pageExamples": [
+                {
+                  "title": "Gematsu - Japanese Video Game News",
+                  "url": "https://www.gematsu.com/"
+                }
+              ]
+            }
+          },
+          {
+            "id": "summary-google-history-siliconeracom",
+            "title": "Resumen de actividad en siliconera.com",
+            "artists": "siliconera.com",
+            "awareness": 3,
+            "platformId": 6,
+            "rank": 139,
+            "date": "2025-03-27",
+            "timeBucket": "6m",
+            "tags": [
+                           "Historial", "Propio", "Inconsciente", "@email", "Ordenador"
+,                   "Videojuegos", "Tecnología", "Noticias", "Japonés"
+            ],
+            "details": {
+              "sourceFile": "google_history_transformed.json",
+              "dataType": "Resumen de Historial por Dominio",
+              "visitCount": 1,
+              "firstVisit": "2025-01-22",
+              "lastVisit": "2025-03-27",
+              "pageExamples": [
+                {
+                  "title": "Siliconera - Your source for Japanese video game news",
+                  "url": "https://www.siliconera.com/"
+                }
+              ]
+            }
+          },
+
+          {
+            "id": "summary-google-history-shacknewscom",
+            "title": "Resumen de actividad en shacknews.com",
+            "artists": "shacknews.com",
+            "awareness": 3,
+            "platformId": 6,
+            "rank": 141,
+            "date": "2024-12-19",
+            "timeBucket": "1y",
+            "tags": [
+                           "Historial", "Propio", "Inconsciente", "@email", "Ordenador"
+,                   "Videojuegos", "Tecnología", "Noticias"
+            ],
+            "details": {
+              "sourceFile": "google_history_transformed.json",
+              "dataType": "Resumen de Historial por Dominio",
+              "visitCount": 1,
+              "firstVisit": "2024-11-04",
+              "lastVisit": "2024-12-19",
+              "pageExamples": [
+                {
+                  "title": "Shacknews - The latest video game news, reviews, and guides",
+                  "url": "https://www.shacknews.com/"
+                }
+              ]
+            }
+          },
+     
+          {
+            "id": "summary-google-history-gameinformercom",
+            "title": "Resumen de actividad en gameinformer.com",
+            "artists": "gameinformer.com",
+            "awareness": 3,
+            "platformId": 6,
+            "rank": 143,
+            "date": "2025-02-15",
+            "timeBucket": "6m",
+            "tags": [
+                           "Historial", "Propio", "Inconsciente", "@email", "Ordenador"
+,                  "Videojuegos", "Tecnología", "Noticias"
+            ],
+            "details": {
+              "sourceFile": "google_history_transformed.json",
+              "dataType": "Resumen de Historial por Dominio",
+              "visitCount": 1,
+              "firstVisit": "2024-12-14",
+              "lastVisit": "2025-02-15",
+              "pageExamples": [
+                {
+                  "title": "Game Informer",
+                  "url": "https://www.gameinformer.com/"
+                }
+              ]
+            }
+          },
+
+          {
+            "id": "summary-google-history-metacriticcom",
+            "title": "Resumen de actividad en metacritic.com",
+            "artists": "metacritic.com",
+            "awareness": 3,
+            "platformId": 6,
+            "rank": 146,
+            "date": "2025-07-29",
+            "timeBucket": "4w",
+            "tags": [
+                           "Historial", "Propio", "Inconsciente", "@email", "Ordenador"
+, "Series", "Cine", "Videojuegos", "Música", "Reseñas"
+            ],
+            "details": {
+              "sourceFile": "google_history_transformed.json",
+              "dataType": "Resumen de Historial por Dominio",
+              "visitCount": 1,
+              "firstVisit": "2025-05-09",
+              "lastVisit": "2025-07-29",
+              "pageExamples": [
+                {
+                  "title": "Metacritic - Movie Reviews, TV Show Reviews, Music Album Reviews, and Game Reviews",
+                  "url": "https://www.metacritic.com/"
+                }
+              ]
+            }
+          },
+          {
+            "id": "summary-google-history-opencriticcom",
+            "title": "Resumen de actividad en opencritic.com",
+            "artists": "opencritic.com",
+            "awareness": 3,
+            "platformId": 6,
+            "rank": 147,
+            "date": "2025-07-28",
+            "timeBucket": "4w",
+            "tags": [
+                           "Historial", "Propio", "Inconsciente", "@email", "Ordenador"
+,                      "Videojuegos", "Reseñas"
+            ],
+            "details": {
+              "sourceFile": "google_history_transformed.json",
+              "dataType": "Resumen de Historial por Dominio",
+              "visitCount": 1,
+              "firstVisit": "2025-03-22",
+              "lastVisit": "2025-07-28",
+              "pageExamples": [
+                {
+                  "title": "OpenCritic - Video Game Reviews",
+                  "url": "https://opencritic.com/"
+                }
+              ]
+            }
+          },
+
+
+          {
+            "id": "summary-google-history-gamefaqscom",
+            "title": "Resumen de actividad en gamefaqs.com",
+            "artists": "gamefaqs.com",
+            "awareness": 3,
+            "platformId": 6,
+            "rank": 150,
+            "date": "2025-01-14",
+            "timeBucket": "1y",
+            "tags": [
+                           "Historial", "Propio", "Inconsciente", "@email", "Ordenador"
+,                     "Videojuegos", "Reseñas", "Guías"
+            ],
+            "details": {
+              "sourceFile": "google_history_transformed.json",
+              "dataType": "Resumen de Historial por Dominio",
+              "visitCount": 1,
+              "firstVisit": "2024-11-20",
+              "lastVisit": "2025-01-14",
+              "pageExamples": [
+                {
+                  "title": "GameFAQs",
+                  "url": "https://gamefaqs.com/"
+                }
+              ]
+            }
+          },
+   
+          {
+            "id": "summary-google-history-cheatcccom",
+            "title": "Resumen de actividad en cheatcc.com",
+            "artists": "cheatcc.com",
+            "awareness": 3,
+            "platformId": 6,
+            "rank": 152,
+            "date": "2025-02-23",
+            "timeBucket": "6m",
+            "tags": [
+                           "Historial", "Propio", "Inconsciente", "@email", "Ordenador"
+,                     "Videojuegos", "Reseñas", "Guías", "Trucos"
+            ],
+            "details": {
+              "sourceFile": "google_history_transformed.json",
+              "dataType": "Resumen de Historial por Dominio",
+              "visitCount": 1,
+              "firstVisit": "2024-10-18",
+              "lastVisit": "2025-02-23",
+              "pageExamples": [
+                {
+                  "title": "Cheat Code Central",
+                  "url": "https://www.cheatcc.com/"
+                }
+              ]
+            }
+          },
+  
+          {
+            "id": "summary-google-history-steamcommunitycom",
+            "title": "Resumen de actividad en steamcommunity.com",
+            "artists": "steamcommunity.com",
+            "awareness": 3,
+            "platformId": 6,
+            "rank": 158,
+            "date": "2025-06-03",
+            "timeBucket": "6m",
+            "tags": [
+                           "Historial", "Propio", "Inconsciente", "@email", "Ordenador"
+,                     "Videojuegos", "Comunidad", "Foros"
+            ],
+            "details": {
+              "sourceFile": "google_history_transformed.json",
+              "dataType": "Resumen de Historial por Dominio",
+              "visitCount": 1,
+              "firstVisit": "2024-08-18",
+              "lastVisit": "2025-06-03",
+              "pageExamples": [
+                {
+                  "title": "Steam Community",
+                  "url": "https://steamcommunity.com/"
+                }
+              ]
+            }
+          },
+          {
+            "id": "summary-google-history-steamdbinfo",
+            "title": "Resumen de actividad en steamdb.info",
+            "artists": "steamdb.info",
+            "awareness": 3,
+            "platformId": 6,
+            "rank": 159,
+            "date": "2025-03-24",
+            "timeBucket": "6m",
+            "tags": [
+                           "Historial", "Propio", "Inconsciente", "@email", "Ordenador"
+,                     "Videojuegos", "Base de Datos", "Estadísticas"
+            ],
+            "details": {
+              "sourceFile": "google_history_transformed.json",
+              "dataType": "Resumen de Historial por Dominio",
+              "visitCount": 1,
+              "firstVisit": "2025-02-14",
+              "lastVisit": "2025-03-24",
+              "pageExamples": [
+                {
+                  "title": "SteamDB",
+                  "url": "https://steamdb.info/"
+                }
+              ]
+            }
+          },
+          {
+            "id": "summary-google-history-isthereanydealcom",
+            "title": "Resumen de actividad en isthereanydeal.com",
+            "artists": "isthereanydeal.com",
+            "awareness": 3,
+            "platformId": 6,
+            "rank": 160,
+            "date": "2025-01-20",
+            "timeBucket": "1y",
+            "tags": [
+                           "Historial", "Propio", "Inconsciente", "@email", "Ordenador"
+,                     "Videojuegos", "Ofertas", "Comparador de Precios"
+            ],
+            "details": {
+              "sourceFile": "google_history_transformed.json",
+              "dataType": "Resumen de Historial por Dominio",
+              "visitCount": 1,
+              "firstVisit": "2024-09-02",
+              "lastVisit": "2025-01-20",
+              "pageExamples": [
+                {
+                  "title": "IsThereAnyDeal",
+                  "url": "https://isthereanydeal.com/"
+                }
+              ]
+            }
+          },
+          {
+            "id": "summary-google-history-cheapsharkcom",
+            "title": "Resumen de actividad en cheapshark.com",
+            "artists": "cheapshark.com",
+            "awareness": 3,
+            "platformId": 6,
+            "rank": 161,
+            "date": "2024-11-20",
+            "timeBucket": "1y",
+            "tags": [
+                           "Historial", "Propio", "Inconsciente", "@email", "Ordenador"
+,                    "Videojuegos", "Ofertas", "Comparador de Precios"
+            ],
+            "details": {
+              "sourceFile": "google_history_transformed.json",
+              "dataType": "Resumen de Historial por Dominio",
+              "visitCount": 1,
+              "firstVisit": "2024-11-09",
+              "lastVisit": "2024-11-20",
+              "pageExamples": [
+                {
+                  "title": "CheapShark",
+                  "url": "https://www.cheapshark.com/"
+                }
+              ]
+            }
+          },
+          {
+            "id": "summary-google-history-nexusmodscom",
+            "title": "Resumen de actividad en nexusmods.com",
+            "artists": "nexusmods.com",
+            "awareness": 3,
+            "platformId": 6,
+            "rank": 162,
+            "date": "2024-10-18",
+            "timeBucket": "1y",
+            "tags": [
+                           "Historial", "Propio", "Inconsciente", "@email", "Ordenador"
+,                   "Videojuegos", "Mods", "Comunidad"
+            ],
+            "details": {
+              "sourceFile": "google_history_transformed.json",
+              "dataType": "Resumen de Historial por Dominio",
+              "visitCount": 1,
+              "firstVisit": "2024-09-24",
+              "lastVisit": "2024-10-18",
+              "pageExamples": [
+                {
+                  "title": "Nexus Mods",
+                  "url": "https://www.nexusmods.com/"
+                }
+              ]
+            }
+          },
+          {
+            "id": "summary-google-history-moddbcom",
+            "title": "Resumen de actividad en moddb.com",
+            "artists": "moddb.com",
+            "awareness": 3,
+            "platformId": 6,
+            "rank": 163,
+            "date": "2025-06-25",
+            "timeBucket": "4w",
+            "tags": [
+                           "Historial", "Propio", "Inconsciente", "@email", "Ordenador"
+,                  "Videojuegos", "Mods", "Comunidad"
+            ],
+            "details": {
+              "sourceFile": "google_history_transformed.json",
+              "dataType": "Resumen de Historial por Dominio",
+              "visitCount": 1,
+              "firstVisit": "2025-01-22",
+              "lastVisit": "2025-06-25",
+              "pageExamples": [
+                {
+                  "title": "Mod DB",
+                  "url": "https://www.moddb.com/"
+                }
+              ]
+            }
+          },
+          
+            {
+              "id": "battery-usage-4w-instagram-1",
+              "title": "Uso de batería — Instagram",
+              "artists": "Instagram",
+              "awareness": 3,
+              "timeBucket": "4w",
+              "platformId": 5,
+              "rank": 1,
+              "date": "2025-08-15",
+              "tags": [
+                "Propio",
+                "Inconsciente",
+                "Teléfono",
+                "Uso de batería"
+              ],
+              "details": {
+                "sourceFile": "battery_usage_periods_varied.json",
+                "dataType": "Uso de Batería",
+                "name": "Instagram",
+                "percentage": "29%",
+                "subjective_notes": "Añadir anotación aquí..."
+              }
+            },
+            {
+              "id": "battery-usage-4w-whatsapp-2",
+              "title": "Uso de batería — WhatsApp",
+              "artists": "WhatsApp",
+              "awareness": 3,
+              "timeBucket": "4w",
+              "platformId": 5,
+              "rank": 2,
+              "date": "2025-08-11",
+              "tags": [
+                "Propio",
+                "Inconsciente",
+                "Teléfono",
+                "Uso de batería"
+              ],
+              "details": {
+                "sourceFile": "battery_usage_periods_varied.json",
+                "dataType": "Uso de Batería",
+                "name": "WhatsApp",
+                "percentage": "24%",
+                "subjective_notes": "Añadir anotación aquí..."
+              }
+            },
+            {
+              "id": "battery-usage-4w-tiktok-3",
+              "title": "Uso de batería — TikTok",
+              "artists": "TikTok",
+              "awareness": 3,
+              "timeBucket": "4w",
+              "platformId": 5,
+              "rank": 3,
+              "date": "2025-08-05",
+              "tags": [
+                "Propio",
+                "Inconsciente",
+                "Teléfono",
+                "Uso de batería"
+              ],
+              "details": {
+                "sourceFile": "battery_usage_periods_varied.json",
+                "dataType": "Uso de Batería",
+                "name": "TikTok",
+                "percentage": "18%",
+                "subjective_notes": "Añadir anotación aquí..."
+              }
+            },
+            {
+              "id": "battery-usage-4w-spotify-4",
+              "title": "Uso de batería — Spotify",
+              "artists": "Spotify",
+              "awareness": 3,
+              "timeBucket": "4w",
+              "platformId": 5,
+              "rank": 4,
+              "date": "2025-07-30",
+              "tags": [
+                "Propio",
+                "Inconsciente",
+                "Teléfono",
+                "Uso de batería"
+              ],
+              "details": {
+                "sourceFile": "battery_usage_periods_varied.json",
+                "dataType": "Uso de Batería",
+                "name": "Spotify",
+                "percentage": "11%",
+                "subjective_notes": "Añadir anotación aquí..."
+              }
+            },
+            {
+              "id": "battery-usage-6m-youtube-5",
+              "title": "Uso de batería — YouTube",
+              "artists": "YouTube",
+              "awareness": 3,
+              "timeBucket": "6m",
+              "platformId": 5,
+              "rank": 5,
+              "date": "2025-06-15",
+              "tags": [
+                "Propio",
+                "Inconsciente",
+                "Teléfono",
+                "Uso de batería"
+              ],
+              "details": {
+                "sourceFile": "battery_usage_periods_varied.json",
+                "dataType": "Uso de Batería",
+                "name": "YouTube",
+                "percentage": "9%",
+                "subjective_notes": "Añadir anotación aquí..."
+              }
+            },
+            {
+              "id": "battery-usage-6m-telegram-6",
+              "title": "Uso de batería — Telegram",
+              "artists": "Telegram",
+              "awareness": 3,
+              "timeBucket": "6m",
+              "platformId": 5,
+              "rank": 6,
+              "date": "2025-05-22",
+              "tags": [
+                "Propio",
+                "Inconsciente",
+                "Teléfono",
+                "Uso de batería"
+              ],
+              "details": {
+                "sourceFile": "battery_usage_periods_varied.json",
+                "dataType": "Uso de Batería",
+                "name": "Telegram",
+                "percentage": "6%",
+                "subjective_notes": "Añadir anotación aquí..."
+              }
+            },
+            {
+              "id": "battery-usage-6m-chrome-7",
+              "title": "Uso de batería — Chrome",
+              "artists": "Chrome",
+              "awareness": 3,
+              "timeBucket": "6m",
+              "platformId": 5,
+              "rank": 7,
+              "date": "2025-04-18",
+              "tags": [
+                "Propio",
+                "Inconsciente",
+                "Teléfono",
+                "Uso de batería"
+              ],
+              "details": {
+                "sourceFile": "battery_usage_periods_varied.json",
+                "dataType": "Uso de Batería",
+                "name": "Chrome",
+                "percentage": "4%",
+                "subjective_notes": "Añadir anotación aquí..."
+              }
+            },
+            {
+              "id": "battery-usage-6m-otros-8",
+              "title": "Uso de batería — Otros",
+              "artists": "Otros",
+              "awareness": 3,
+              "timeBucket": "6m",
+              "platformId": 5,
+              "rank": 8,
+              "date": "2025-03-05",
+              "tags": [
+                "Propio",
+                "Inconsciente",
+                "Teléfono",
+                "Uso de batería"
+              ],
+              "details": {
+                "sourceFile": "battery_usage_periods_varied.json",
+                "dataType": "Uso de Batería",
+                "name": "Otros",
+                "percentage": "7%",
+                "subjective_notes": "Añadir anotación aquí..."
+              }
+            },
+            {
+              "id": "battery-usage-1y-instagram-9",
+              "title": "Uso de batería — Instagram",
+              "artists": "Instagram",
+              "awareness": 3,
+              "timeBucket": "1y",
+              "platformId": 5,
+              "rank": 9,
+              "date": "2025-01-20",
+              "tags": [
+                "Propio",
+                "Inconsciente",
+                "Teléfono",
+                "Uso de batería"
+              ],
+              "details": {
+                "sourceFile": "battery_usage_periods_varied.json",
+                "dataType": "Uso de Batería",
+                "name": "Instagram",
+                "percentage": "33%",
+                "subjective_notes": "Añadir anotación aquí..."
+              }
+            },
+            {
+              "id": "battery-usage-1y-whatsapp-10",
+              "title": "Uso de batería — WhatsApp",
+              "artists": "WhatsApp",
+              "awareness": 3,
+              "timeBucket": "1y",
+              "platformId": 5,
+              "rank": 10,
+              "date": "2024-12-10",
+              "tags": [
+                "Propio",
+                "Inconsciente",
+                "Teléfono",
+                "Uso de batería"
+              ],
+              "details": {
+                "sourceFile": "battery_usage_periods_varied.json",
+                "dataType": "Uso de Batería",
+                "name": "WhatsApp",
+                "percentage": "26%",
+                "subjective_notes": "Añadir anotación aquí..."
+              }
+            },
+            {
+              "id": "battery-usage-1y-tiktok-11",
+              "title": "Uso de batería — TikTok",
+              "artists": "TikTok",
+              "awareness": 3,
+              "timeBucket": "1y",
+              "platformId": 5,
+              "rank": 11,
+              "date": "2024-11-01",
+              "tags": [
+                "Propio",
+                "Inconsciente",
+                "Teléfono",
+                "Uso de batería"
+              ],
+              "details": {
+                "sourceFile": "battery_usage_periods_varied.json",
+                "dataType": "Uso de Batería",
+                "name": "TikTok",
+                "percentage": "16%",
+                "subjective_notes": "Añadir anotación aquí..."
+              }
+            },
+            {
+              "id": "battery-usage-1y-spotify-12",
+              "title": "Uso de batería — Spotify",
+              "artists": "Spotify",
+              "awareness": 3,
+              "timeBucket": "1y",
+              "platformId": 5,
+              "rank": 12,
+              "date": "2024-09-15",
+              "tags": [
+                "Propio",
+                "Inconsciente",
+                "Teléfono",
+                "Uso de batería"
+              ],
+              "details": {
+                "sourceFile": "battery_usage_periods_varied.json",
+                "dataType": "Uso de Batería",
+                "name": "Spotify",
+                "percentage": "14%",
+                "subjective_notes": "Añadir anotación aquí..."
+              }
+            }
+          
+
+         
       ]
-  ]
+  

@@ -415,7 +415,7 @@
       "rank": 20,
       "tags": [
         "Hip Hop",
-        "Rap",
+        "Rap", "Series",
         "Inglés",
         "Teléfono", "@email", "Consciente", "Propio", "Música"
       ],
@@ -456,7 +456,7 @@
       "rank": 22,
       "tags": [
         "Alternative R&B",
-        "Pop",
+        "Pop", "Series",
         "Inglés",
         "Teléfono", "@email", "Consciente", "Propio", "Música"
       ],
@@ -9205,7 +9205,7 @@
           }
         }
       },
-      [
+      
         {
           "id": "netflix-4w-grace-and-frankie-season-7-the-circumcision",
           "title": "Grace and Frankie: Season 7: 'The Circumcision'",
@@ -11701,6 +11701,2559 @@
             "name": "Celebrity Bake Off España - Temporada 1",
             "value": "15:54"
           }
-        }
+        },
+        [
+          {
+            "id": "google-bookmark-6m-google-arts--culture",
+            "title": "Google Arts & Culture",
+            "artists": "artsandculture.google.com",
+            "awareness": 1,
+            "timeBucket": "6m",
+            "platformId": 8,
+            "rank": 1,
+            "date": "2025-02-24",
+            "tags": [
+              "Saved", "Arte", "Cultura", "Propio", "Consciente", "@email", "Ordenador", "Bookmark"
+            ],
+            "details": {
+              "sourceFile": "GOOGLE_Bookmarks.html",
+              "dataType": "Marcador de Google",
+              "name": "Google Arts & Culture",
+              "url": "https://artsandculture.google.com/",
+              "lastModified": "2025-04-25"
+            }
+          },
+          {
+            "id": "google-bookmark-6m-ishkurs-guide-to-electronic-music",
+            "title": "Ishkur's Guide to Electronic Music",
+            "artists": "music.ishkur.com",
+            "awareness": 1,
+            "timeBucket": "6m",
+            "platformId": 8,
+            "rank": 2,
+            "date": "2025-02-24",
+            "tags": [
+              "Saved", "Música", "Electronic", "Propio", "Consciente", "@email", "Ordenador", "Bookmark"
+
+            ],
+            "details": {
+              "sourceFile": "GOOGLE_Bookmarks.html",
+              "dataType": "Marcador de Google",
+              "name": "Ishkur's Guide to Electronic Music",
+              "url": "https://music.ishkur.com/",
+              "lastModified": "2025-04-25"
+            }
+          },
+          {
+            "id": "google-bookmark-6m-sintetizador",
+            "title": "Sintetizador",
+            "artists": "learningsynths.ableton.com",
+            "awareness": 1,
+            "timeBucket": "6m",
+            "platformId": 8,
+            "rank": 3,
+            "date": "2025-02-24",
+            "tags": [
+              "Saved", "Música", "Electronic", "Propio", "Consciente", "@email", "Ordenador", "Bookmark"
+
+            ],
+            "details": {
+              "sourceFile": "GOOGLE_Bookmarks.html",
+              "dataType": "Marcador de Google",
+              "name": "Sintetizador",
+              "url": "https://learningsynths.ableton.com/es/playground",
+              "lastModified": "2025-04-25"
+            }
+          },
+          {
+            "id": "google-bookmark-6m-electric-sheep--crowdsourced-evolving-art",
+            "title": "Electric Sheep : Crowdsourced Evolving Art",
+            "artists": "electricsheep.org",
+            "awareness": 1,
+            "timeBucket": "6m",
+            "platformId": 8,
+            "rank": 4,
+            "date": "2025-02-25",
+            "tags": [
+              "Saved", "Música", "Electronic", "Propio", "Consciente", "@email", "Ordenador", "Bookmark"
+
+            ],
+            "details": {
+              "sourceFile": "GOOGLE_Bookmarks.html",
+              "dataType": "Marcador de Google",
+              "name": "Electric Sheep : Crowdsourced Evolving Art",
+              "url": "https://electricsheep.org/",
+              "lastModified": "2025-04-25"
+            }
+          },
+          {
+            "id": "google-bookmark-6m-soot-world",
+            "title": "SOOT WORLD",
+            "artists": "play.soot.com",
+            "awareness": 1,
+            "timeBucket": "6m",
+            "platformId": 8,
+            "rank": 5,
+            "date": "2025-03-08",
+            "tags": [
+              "Saved", "Música", "Electronic", "Propio", "Consciente", "@email", "Ordenador", "Bookmark"
+
+            ],
+            "details": {
+              "sourceFile": "GOOGLE_Bookmarks.html",
+              "dataType": "Marcador de Google",
+              "name": "SOOT WORLD",
+              "url": "https://play.soot.com/sootworld",
+              "lastModified": "2025-04-25"
+            }
+          },
+          {
+            "id": "google-bookmark-6m-auto-retrato-o-doble-digital----clara-boj--diego-daz",
+            "title": "Auto-retrato o doble digital - > CLARA BOJ + DIEGO DÍAZ",
+            "artists": "lalalab.org",
+            "awareness": 1,
+            "timeBucket": "6m",
+            "platformId": 8,
+            "rank": 6,
+            "date": "2025-03-12",
+            "tags": [
+              "Saved", "Arte","Tecnología", "Electronic", "Propio", "Consciente", "@email", "Ordenador", "Bookmark", "Inspiración"
+, "Diseño"
+            ],
+            "details": {
+              "sourceFile": "GOOGLE_Bookmarks.html",
+              "dataType": "Marcador de Google",
+              "name": "Auto-retrato o doble digital - > CLARA BOJ + DIEGO DÍAZ",
+              "url": "http://www.lalalab.org/auto-retrato-o-doble-digital/",
+              "lastModified": "2025-03-12"
+            }
+          },
+          {
+            "id": "google-bookmark-6m-net-art-el-arte-que-surgi-en-internet-para-rebelars",
+            "title": "Net art, el arte que surgió en internet para rebelarse contra un mundo cada vez más controlado",
+            "artists": "elconfidencial.com",
+            "awareness": 1,
+            "timeBucket": "6m",
+            "platformId": 8,
+            "rank": 7,
+            "date": "2025-03-12",
+            "tags": [
+              "Saved", "Arte","Tecnología", "Educativo", "Propio", "Consciente", "@email", "Ordenador", "Bookmark", "Inspiración"
+
+            ],
+            "details": {
+              "sourceFile": "GOOGLE_Bookmarks.html",
+              "dataType": "Marcador de Google",
+              "name": "Net art, el arte que surgió en internet para rebelarse contra un mundo cada vez más controlado",
+              "url": "https://www.elconfidencial.com/el-grito/2022-08-25/net-art-arte-en-internet_3479485/",
+              "lastModified": "2025-03-12"
+            }
+          },
+          {
+            "id": "google-bookmark-6m-proyectos---zemos98",
+            "title": "Proyectos - ZEMOS98",
+            "artists": "zemos98.org",
+            "awareness": 1,
+            "timeBucket": "6m",
+            "platformId": 8,
+            "rank": 8,
+            "date": "2025-03-12",
+            "tags": [
+              "Saved", "Arte","Tecnología",  "Propio", "Consciente", "@email", "Ordenador", "Bookmark", "Inspiración"
+
+            ],
+            "details": {
+              "sourceFile": "GOOGLE_Bookmarks.html",
+              "dataType": "Marcador de Google",
+              "name": "Proyectos - ZEMOS98",
+              "url": "https://zemos98.org/proyectos/",
+              "lastModified": "2025-03-12"
+            }
+          },
+          {
+            "id": "google-bookmark-6m-visualizar18-datos-personales--medialab-matadero-ma",
+            "title": "Visualizar'18: Datos Personales | Medialab-Matadero Madrid",
+            "artists": "medialab-matadero.es",
+            "awareness": 1,
+            "timeBucket": "6m",
+            "platformId": 8,
+            "rank": 9,
+            "date": "2025-03-25",
+            "tags": [
+              "Saved", "Arte","Tecnología",  "Propio", "Consciente", "@email", "Ordenador", "Bookmark", "Inspiración"
+, "Diseño"
+            ],
+            "details": {
+              "sourceFile": "GOOGLE_Bookmarks.html",
+              "dataType": "Marcador de Google",
+              "name": "Visualizar'18: Datos Personales | Medialab-Matadero Madrid",
+              "url": "https://www.medialab-matadero.es/programas/visualizar18-datos-personales",
+              "lastModified": "2025-03-25"
+            }
+          },
+          {
+            "id": "google-bookmark-4w-identidata---urbanbat",
+            "title": "Identidata - Urbanbat",
+            "artists": "urbanbat.org",
+            "awareness": 1,
+            "timeBucket": "4w",
+            "platformId": 8,
+            "rank": 10,
+            "date": "2025-03-26",
+            "tags": [
+              "Saved", "Arte","Tecnología", "Propio", "Consciente", "@email", "Ordenador", "Bookmark", "Inspiración"
+, "Diseño"
+            ],
+            "details": {
+              "sourceFile": "GOOGLE_Bookmarks.html",
+              "dataType": "Marcador de Google",
+              "name": "Identidata - Urbanbat",
+              "url": "https://urbanbat.org/portfolio_page/identidata/",
+              "lastModified": "2025-05-29"
+            }
+          },
+          {
+            "id": "google-bookmark-4w-trackula",
+            "title": "Trackula",
+            "artists": "trackula.org",
+            "awareness": 1,
+            "timeBucket": "4w",
+            "platformId": 8,
+            "rank": 11,
+            "date": "2025-05-08",
+            "tags": [
+              "Saved", "Arte","Tecnología","Propio", "Consciente", "@email", "Ordenador", "Bookmark", "Inspiración"
+, "Diseño"
+            ],
+            "details": {
+              "sourceFile": "GOOGLE_Bookmarks.html",
+              "dataType": "Marcador de Google",
+              "name": "Trackula",
+              "url": "https://trackula.org/en/page/landing-plugin/",
+              "lastModified": "2025-05-08"
+            }
+          },
+          {
+            "id": "google-bookmark-4w-6-short-film-find-my-phone---subtitled---youtube",
+            "title": "(6) Short Film: Find my Phone - Subtitled - YouTube",
+            "artists": "youtube.com",
+            "awareness": 1,
+            "timeBucket": "4w",
+            "platformId": 2,
+            "rank": 12,
+            "date": "2025-05-08",
+            "tags": [
+              "Saved", "Arte","Tecnología", "Video", "Propio", "Consciente", "@email", "Ordenador", "Bookmark", "Inspiración", "Privacidad"
+
+            ],
+            "details": {
+              "sourceFile": "GOOGLE_Bookmarks.html",
+              "dataType": "Marcador de Google",
+              "name": "(6) Short Film: Find my Phone - Subtitled - YouTube",
+              "url": "https://www.youtube.com/watch?v=NpN9NzO4Mo8",
+              "lastModified": "2025-05-08"
+            }
+          },
+          {
+            "id": "google-bookmark-4w-6-the-power-of-privacy--documentary-film---youtube",
+            "title": "(6) The Power of Privacy – documentary film - YouTube",
+            "artists": "youtube.com",
+            "awareness": 1,
+            "timeBucket": "4w",
+            "platformId": 8,
+            "rank": 13,
+            "date": "2025-05-08",
+            "tags": [
+              "Saved", "Arte","Tecnología", "Privacidad", "Propio", "Consciente", "@email", "Ordenador", "Bookmark", "Inspiración"
+
+            ],
+            "details": {
+              "sourceFile": "GOOGLE_Bookmarks.html",
+              "dataType": "Marcador de Google",
+              "name": "(6) The Power of Privacy – documentary film - YouTube",
+              "url": "https://www.youtube.com/watch?v=KGX-c5BJNFk",
+              "lastModified": "2025-05-08"
+            }
+          },
+          {
+            "id": "google-bookmark-4w-6-do-not-track---doc---youtube",
+            "title": "(6) Do Not Track - Doc - YouTube",
+            "artists": "youtube.com",
+            "awareness": 1,
+            "timeBucket": "4w",
+            "platformId": 8,
+            "rank": 14,
+            "date": "2025-05-08",
+            "tags": [
+              "Saved", "Arte","Tecnología", "Documental", "Propio", "Consciente", "@email", "Ordenador", "Bookmark", "Inspiración"
+, "Privacidad"
+            ],
+            "details": {
+              "sourceFile": "GOOGLE_Bookmarks.html",
+              "dataType": "Marcador de Google",
+              "name": "(6) Do Not Track - Doc - YouTube",
+              "url": "https://www.youtube.com/watch?v=65VrjlD_UNM",
+              "lastModified": "2025-05-08"
+            }
+          },
+          {
+            "id": "google-bookmark-4w-about---do-not-track",
+            "title": "About - Do Not Track",
+            "artists": "donottrack-doc.com",
+            "awareness": 1,
+            "timeBucket": "4w",
+            "platformId": 8,
+            "rank": 15,
+            "date": "2025-05-08",
+            "tags": [
+              "Saved", "Arte","Tecnología", "Activismo", "Propio", "Consciente", "@email", "Ordenador", "Bookmark", "Inspiración"
+, "Privacidad"
+            ],
+            "details": {
+              "sourceFile": "GOOGLE_Bookmarks.html",
+              "dataType": "Marcador de Google",
+              "name": "About - Do Not Track",
+              "url": "https://donottrack-doc.com/en/intro/",
+              "lastModified": "2025-05-08"
+            }
+          },
+          {
+            "id": "google-bookmark-4w-the-artist-making-his-entire-digital-footprint-publi",
+            "title": "The artist making his entire digital footprint public for us… | Huck",
+            "artists": "huckmag.com",
+            "awareness": 1,
+            "timeBucket": "4w",
+            "platformId": 8,
+            "rank": 16,
+            "date": "2025-05-08",
+            "tags": [
+              "Saved", "Arte","Tecnología", "Propio", "Consciente", "@email", "Ordenador", "Bookmark", "Inspiración"
+
+            ],
+            "details": {
+              "sourceFile": "GOOGLE_Bookmarks.html",
+              "dataType": "Marcador de Google",
+              "name": "The artist making his entire digital footprint public for us… | Huck",
+              "url": "https://www.huckmag.com/article/artists-putting-making-entire-digital-footprint-public-see",
+              "lastModified": "2025-05-08"
+            }
+          },
+          {
+            "id": "google-bookmark-4w-host-our-educational-experiences-exhibitions-and-in",
+            "title": "Host our educational experiences, exhibitions, and interventions at your next event",
+            "artists": "tacticaltech.org",
+            "awareness": 1,
+            "timeBucket": "4w",
+            "platformId": 8,
+            "rank": 17,
+            "date": "2025-05-08",
+            "tags": [
+              "Saved", "Arte","Tecnología", "Educativo", "Propio", "Consciente", "@email", "Ordenador", "Bookmark", "Inspiración"
+, "Activismo", "Privacidad"
+            ],
+            "details": {
+              "sourceFile": "GOOGLE_Bookmarks.html",
+              "dataType": "Marcador de Google",
+              "name": "Host our educational experiences, exhibitions, and interventions at your next event",
+              "url": "https://tacticaltech.org/",
+              "lastModified": "2025-05-08"
+            }
+          },
+          {
+            "id": "google-bookmark-4w-our-projects",
+            "title": "Our projects",
+            "artists": "tacticaltech.org",
+            "awareness": 1,
+            "timeBucket": "4w",
+            "platformId": 8,
+            "rank": 18,
+            "date": "2025-05-08",
+            "tags": [
+              "Saved", "Arte","Tecnología", "Propio", "Consciente", "@email", "Ordenador", "Bookmark", "Inspiración"
+, "Diseño"
+            ],
+            "details": {
+              "sourceFile": "GOOGLE_Bookmarks.html",
+              "dataType": "Marcador de Google",
+              "name": "Our projects",
+              "url": "https://tacticaltech.org/projects/",
+              "lastModified": "2025-05-08"
+            }
+          },
+          {
+            "id": "google-bookmark-4w-the-glass-room--looking-into-your-online-life",
+            "title": "The Glass Room – Looking into your online life.",
+            "artists": "theglassroom.org",
+            "awareness": 1,
+            "timeBucket": "4w",
+            "platformId": 8,
+            "rank": 19,
+            "date": "2025-05-08",
+            "tags": [
+              "Saved", "Arte","Tecnología",  "Propio", "Consciente", "@email", "Ordenador", "Bookmark", "Inspiración"
+, "Diseño"
+            ],
+            "details": {
+              "sourceFile": "GOOGLE_Bookmarks.html",
+              "dataType": "Marcador de Google",
+              "name": "The Glass Room – Looking into your online life.",
+              "url": "https://theglassroom.org/",
+              "lastModified": "2025-05-08"
+            }
+          },
+          {
+            "id": "google-bookmark-4w-data-detox-kit",
+            "title": "Data Detox Kit",
+            "artists": "datadetoxkit.org",
+            "awareness": 1,
+            "timeBucket": "4w",
+            "platformId": 8,
+            "rank": 20,
+            "date": "2025-05-08",
+            "tags": [
+              "Saved", "Arte","Tecnología",  "Propio", "Consciente", "@email", "Ordenador", "Bookmark", "Inspiración"
+, "Diseño"
+            ],
+            "details": {
+              "sourceFile": "GOOGLE_Bookmarks.html",
+              "dataType": "Marcador de Google",
+              "name": "Data Detox Kit",
+              "url": "https://datadetoxkit.org/ee/home/",
+              "lastModified": "2025-05-08"
+            }
+          },
+          {
+            "id": "google-bookmark-4w-botpress--the-complete-ai-agent-platform",
+            "title": "Botpress | The Complete AI Agent Platform",
+            "artists": "botpress.com",
+            "awareness": 1,
+            "timeBucket": "4w",
+            "platformId": 8,
+            "rank": 21,
+            "date": "2025-05-28",
+            "tags": [
+              "Saved", "Arte","Tecnología",  "Propio", "Consciente", "@email", "Ordenador", "Bookmark", "Inspiración"
+
+            ],
+            "details": {
+              "sourceFile": "GOOGLE_Bookmarks.html",
+              "dataType": "Marcador de Google",
+              "name": "Botpress | The Complete AI Agent Platform",
+              "url": "https://botpress.com/",
+              "lastModified": "2025-05-28"
+            }
+          },
+          {
+            "id": "google-bookmark-4w-clients-and-servers-common-accounts--hyper-house",
+            "title": "Clients and Servers, Common Accounts – HYPER HOUSE",
+            "artists": "hyperhouse.art",
+            "awareness": 1,
+            "timeBucket": "4w",
+            "platformId": 8,
+            "rank": 22,
+            "date": "2025-05-28",
+            "tags": [
+              "Saved", "Arte","Tecnología", "Propio", "Consciente", "@email", "Ordenador", "Bookmark", "Inspiración"
+
+            ],
+            "details": {
+              "sourceFile": "GOOGLE_Bookmarks.html",
+              "dataType": "Marcador de Google",
+              "name": "Clients and Servers, Common Accounts – HYPER HOUSE",
+              "url": "https://hyperhouse.art/es/archive/clients-and-servers-common-accounts",
+              "lastModified": "2025-05-28"
+            }
+          },
+  
+          {
+            "id": "google-bookmark-4w-cytoscapejs",
+            "title": "Cytoscape.js",
+            "artists": "js.cytoscape.org",
+            "awareness": 1,
+            "timeBucket": "4w",
+            "platformId": 8,
+            "rank": 24,
+            "date": "2025-06-05",
+            "tags": [
+              "Saved", "Arte","Tecnología",  "Propio", "Consciente", "@email", "Ordenador", "Bookmark", "Inspiración"
+ ,"Web", "Diseño"
+            ],
+            "details": {
+              "sourceFile": "GOOGLE_Bookmarks.html",
+              "dataType": "Marcador de Google",
+              "name": "Cytoscape.js",
+              "url": "https://js.cytoscape.org/",
+              "lastModified": "2025-06-05"
+            }
+          },
+          {
+            "id": "google-bookmark-4w-animejs-circular-draggable-container",
+            "title": "Anime.js Circular draggable container",
+            "artists": "codepen.io",
+            "awareness": 1,
+            "timeBucket": "4w",
+            "platformId": 8,
+            "rank": 25,
+            "date": "2025-06-12",
+            "tags": [
+              "Saved", "Arte","Tecnología", "Electronic", "Propio", "Consciente", "@email", "Ordenador", "Bookmark", "Inspiración"
+, "Programación" ,"Web", "Diseño"
+            ],
+            "details": {
+              "sourceFile": "GOOGLE_Bookmarks.html",
+              "dataType": "Marcador de Google",
+              "name": "Anime.js Circular draggable container",
+              "url": "https://codepen.io/juliangarnier/pen/ogXLddR",
+              "lastModified": "2025-06-12"
+            }
+          },
+          {
+            "id": "google-bookmark-4w-charili",
+            "title": "ChariLi",
+            "artists": "localhost",
+            "awareness": 1,
+            "timeBucket": "4w",
+            "platformId": 8,
+            "rank": 26,
+            "date": "2025-07-28",
+            "tags": [
+              "Saved", "Arte","Tecnología", "Propio", "Consciente", "@email", "Ordenador", "Bookmark", "Inspiración"
+              ,"Amigos", "Programación", "Web", "Portfolio", "Diseño"
+            ],
+            "details": {
+              "sourceFile": "GOOGLE_Bookmarks.html",
+              "dataType": "Marcador de Google",
+              "name": "ChariLi",
+              "url": "http://localhost:3000/#about",
+              "lastModified": "2025-08-01"
+            }
+          },
+          {
+            "id": "google-bookmark-4w-data-driven-midsoles-with-new-balance---nervous-syst",
+            "title": "data-driven midsoles with New Balance - Nervous System",
+            "artists": "n-e-r-v-o-u-s.com",
+            "awareness": 1,
+            "timeBucket": "4w",
+            "platformId": 8,
+            "rank": 27,
+            "date": "2025-08-05",
+            "tags": [
+              "Saved", "Arte","Tecnología", "Moda", "Propio", "Consciente", "@email", "Ordenador", "Bookmark", "Inspiración"
+, "Diseño"
+            ],
+            "details": {
+              "sourceFile": "GOOGLE_Bookmarks.html",
+              "dataType": "Marcador de Google",
+              "name": "data-driven midsoles with New Balance - Nervous System",
+              "url": "https://n-e-r-v-o-u-s.com/projects/albums/new-balance-midsoles/",
+              "lastModified": "2025-08-05"
+            }
+          },
+    
+          {
+            "id": "google-bookmark-6m-tarot-card-meanings-cheat-sheet--free-printable-taro",
+            "title": "Tarot Card Meanings Cheat Sheet | Free Printable Tarot Guide! – Calmoura",
+            "artists": "calmoura.com",
+            "awareness": 1,
+            "timeBucket": "6m",
+            "platformId": 8,
+            "rank": 29,
+            "date": "2025-03-17",
+            "tags": [
+              "Saved", "Tarot", "Propio", "Consciente", "@email", "Ordenador", "Bookmark", "Inspiración"
+
+            ],
+            "details": {
+              "sourceFile": "GOOGLE_Bookmarks.html",
+              "dataType": "Marcador de Google",
+              "name": "Tarot Card Meanings Cheat Sheet | Free Printable Tarot Guide! – Calmoura",
+              "url": "https://calmoura.com/es/pages/tarot-card-meanings-cheat-sheet?srsltid=AfmBOoreI_NQvUBfDw2mYbPciKbfdqFjIWE3dCf8bIsmYWkP4fuQ7y06#920643c8-637b-41c1-8640-b99d82b95dbe",
+              "lastModified": "2025-04-25"
+            }
+          },
+          {
+            "id": "google-bookmark-6m-nuwe--for-developers",
+            "title": "NUWE | For developers",
+            "artists": "nuwe.io",
+            "awareness": 1,
+            "timeBucket": "6m",
+            "platformId": 8,
+            "rank": 30,
+            "date": "2025-03-18",
+            "tags": [
+              "Saved", "Arte","Tecnología", "Programación", "Propio", "Consciente", "@email", "Ordenador", "Bookmark", "Inspiración"
+ ,"Web", "Diseño"
+            ],
+            "details": {
+              "sourceFile": "GOOGLE_Bookmarks.html",
+              "dataType": "Marcador de Google",
+              "name": "NUWE | For developers",
+              "url": "https://nuwe.io/es/hackathons/caixabank-tech-challenges-round-3",
+              "lastModified": "2025-04-25"
+            }
+          },
+     
+          {
+            "id": "google-bookmark-6m-the-doors--zach-blas",
+            "title": "The Doors | Zach Blas",
+            "artists": "zachblas.info",
+            "awareness": 1,
+            "timeBucket": "6m",
+            "platformId": 8,
+            "rank": 32,
+            "date": "2025-03-19",
+            "tags": [
+              "Saved", "Arte","Tecnología", "Propio", "Consciente", "@email", "Ordenador", "Bookmark", "Inspiración"
+, "Diseño"
+            ],
+            "details": {
+              "sourceFile": "GOOGLE_Bookmarks.html",
+              "dataType": "Marcador de Google",
+              "name": "The Doors | Zach Blas",
+              "url": "https://zachblas.info/works/the-doors/",
+              "lastModified": "2025-04-25"
+            }
+          },
+          {
+            "id": "google-bookmark-6m-querida",
+            "title": "Querida",
+            "artists": "querida.si",
+            "awareness": 1,
+            "timeBucket": "6m",
+            "platformId": 8,
+            "rank": 33,
+            "date": "2025-04-02",
+            "tags": [
+              "Saved", "Arte","Tecnología", "Propio", "Consciente", "@email", "Ordenador", "Bookmark", "Inspiración"
+, "Diseño"
+            ],
+            "details": {
+              "sourceFile": "GOOGLE_Bookmarks.html",
+              "dataType": "Marcador de Google",
+              "name": "Querida",
+              "url": "https://querida.si/",
+              "lastModified": "2025-04-02"
+            }
+          },
+          {
+            "id": "google-bookmark-6m-javier-riera---land-art---proyecciones-geomtricas-de-",
+            "title": "Javier Riera - Land Art - Proyecciones geométricas de luz sobre naturaleza",
+            "artists": "javierriera.com",
+            "awareness": 1,
+            "timeBucket": "6m",
+            "platformId": 8,
+            "rank": 34,
+            "date": "2025-04-04",
+            "tags": [
+              "Saved", "Arte","Tecnología", "Propio", "Consciente", "@email", "Ordenador", "Bookmark", "Inspiración"
+, "Diseño", "Portfolio"
+            ],
+            "details": {
+              "sourceFile": "GOOGLE_Bookmarks.html",
+              "dataType": "Marcador de Google",
+              "name": "Javier Riera - Land Art - Proyecciones geométricas de luz sobre naturaleza",
+              "url": "https://javierriera.com/",
+              "lastModified": "2025-04-04"
+            }
+          },
+          {
+            "id": "google-bookmark-6m-ryoji-ikeda--exhibitions",
+            "title": "ryoji ikeda  |  exhibitions",
+            "artists": "ryojiikeda.com",
+            "awareness": 1,
+            "timeBucket": "6m",
+            "platformId": 8,
+            "rank": 35,
+            "date": "2025-04-05",
+            "tags": [
+              "Saved", "Arte","Tecnología", "Portfolio", "Propio", "Consciente", "@email", "Ordenador", "Bookmark", "Inspiración"
+, "Diseño"
+            ],
+            "details": {
+              "sourceFile": "GOOGLE_Bookmarks.html",
+              "dataType": "Marcador de Google",
+              "name": "ryoji ikeda  |  exhibitions",
+              "url": "https://www.ryojiikeda.com/archive/exhibitions/",
+              "lastModified": "2025-04-05"
+            }
+          },
+          {
+            "id": "google-bookmark-6m-social-soul---lauren-lee",
+            "title": "Social Soul - Lauren Lee",
+            "artists": "lauren-mccarthy.com",
+            "awareness": 1,
+            "timeBucket": "6m",
+            "platformId": 8,
+            "rank": 36,
+            "date": "2025-04-05",
+            "tags": [
+              "Saved", "Arte","Tecnología", "Propio", "Consciente", "@email", "Ordenador", "Bookmark", "Inspiración"
+, "Diseño"
+            ],
+            "details": {
+              "sourceFile": "GOOGLE_Bookmarks.html",
+              "dataType": "Marcador de Google",
+              "name": "Social Soul - Lauren Lee",
+              "url": "https://lauren-mccarthy.com/Social-Soul",
+              "lastModified": "2025-04-05"
+            }
+          },
+      
+          {
+            "id": "google-bookmark-6m-work---mnica-riki--experimental-games--new-media-art",
+            "title": "Work - Mónica Rikić | Experimental Games | New Media Art | Code | Alternative Tech : Mónica Rikić | Experimental Games | New Media Art | Code | Alternative Tech",
+            "artists": "monicarikic.com",
+            "awareness": 1,
+            "timeBucket": "6m",
+            "platformId": 8,
+            "rank": 38,
+            "date": "2025-04-05",
+            "tags": [
+              "Saved", "Arte","Tecnología", "Experimental", "Propio", "Consciente", "@email", "Ordenador", "Bookmark", "Inspiración"
+, "Diseño", "Portfolio", "Web"
+            ],
+            "details": {
+              "sourceFile": "GOOGLE_Bookmarks.html",
+              "dataType": "Marcador de Google",
+              "name": "Work - Mónica Rikić | Experimental Games | New Media Art | Code | Alternative Tech : Mónica Rikić | Experimental Games | New Media Art | Code | Alternative Tech",
+              "url": "https://monicarikic.com/work/",
+              "lastModified": "2025-04-05"
+            }
+          },
+          {
+            "id": "google-bookmark-6m-insidious-rising",
+            "title": "Insidious Rising",
+            "artists": "artsexperiments.withgoogle.com",
+            "awareness": 1,
+            "timeBucket": "6m",
+            "platformId": 8,
+            "rank": 39,
+            "date": "2025-04-05",
+            "tags": [
+              "Saved", "Arte","Tecnología", "Experimental", "Propio", "Consciente", "@email", "Ordenador", "Bookmark", "Inspiración"
+, "Diseño"
+            ],
+            "details": {
+              "sourceFile": "GOOGLE_Bookmarks.html",
+              "dataType": "Marcador de Google",
+              "name": "Insidious Rising",
+              "url": "https://artsexperiments.withgoogle.com/insidious-rising/",
+              "lastModified": "2025-04-05"
+            }
+          },
+          {
+            "id": "google-bookmark-6m-digital-art-gallery-and-collection--zardozclub",
+            "title": "Digital art gallery and collection | zardoz.club",
+            "artists": "zardoz.club",
+            "awareness": 1,
+            "timeBucket": "6m",
+            "platformId": 8,
+            "rank": 40,
+            "date": "2025-04-05",
+            "tags": [
+              "Saved", "Arte","Tecnología", "Experimental", "Propio", "Consciente", "@email", "Ordenador", "Bookmark", "Inspiración", "Portfolio"
+ ,"Web", "Diseño"
+            ],
+            "details": {
+              "sourceFile": "GOOGLE_Bookmarks.html",
+              "dataType": "Marcador de Google",
+              "name": "Digital art gallery and collection | zardoz.club",
+              "url": "https://www.zardoz.club/",
+              "lastModified": "2025-04-05"
+            }
+          },
+          {
+            "id": "google-bookmark-6m-welcome-to-decentraland",
+            "title": "Welcome to Decentraland",
+            "artists": "decentraland.org",
+            "awareness": 1,
+            "timeBucket": "6m",
+            "platformId": 8,
+            "rank": 41,
+            "date": "2025-04-05",
+            "tags": [
+              "Saved", "Arte","Tecnología", "Experimental", "Propio", "Consciente", "@email", "Ordenador", "Bookmark", "Inspiración"
+ ,"Web"
+            ],
+            "details": {
+              "sourceFile": "GOOGLE_Bookmarks.html",
+              "dataType": "Marcador de Google",
+              "name": "Welcome to Decentraland",
+              "url": "https://decentraland.org/",
+              "lastModified": "2025-04-05"
+            }
+          },
+          {
+            "id": "google-bookmark-6m-oncyber---build-your-own-world-experience-with-other",
+            "title": "oncyber - build your own world, experience with others.",
+            "artists": "oncyber.io",
+            "awareness": 1,
+            "timeBucket": "6m",
+            "platformId": 8,
+            "rank": 42,
+            "date": "2025-04-05",
+            "tags": [
+              "Saved", "Arte","Tecnología", "Experimental", "Propio", "Consciente", "@email", "Ordenador", "Bookmark", "Inspiración"
+ ,"Web", "Diseño"
+            ],
+            "details": {
+              "sourceFile": "GOOGLE_Bookmarks.html",
+              "dataType": "Marcador de Google",
+              "name": "oncyber - build your own world, experience with others.",
+              "url": "https://oncyber.io/",
+              "lastModified": "2025-04-05"
+            }
+          },
+          {
+            "id": "google-bookmark-6m-getting-started--animejs--javascript-animation-engin",
+            "title": "Getting started | Anime.js | JavaScript Animation Engine",
+            "artists": "animejs.com",
+            "awareness": 1,
+            "timeBucket": "6m",
+            "platformId": 8,
+            "rank": 43,
+            "date": "2025-04-10",
+            "tags": [
+              "Saved", "Arte","Tecnología", "Programación", "Propio", "Consciente", "@email", "Ordenador", "Bookmark", "Inspiración"
+ ,"Web", "Diseño"
+            ],
+            "details": {
+              "sourceFile": "GOOGLE_Bookmarks.html",
+              "dataType": "Marcador de Google",
+              "name": "Getting started | Anime.js | JavaScript Animation Engine",
+              "url": "https://animejs.com/documentation/getting-started",
+              "lastModified": "2025-04-10"
+            }
+          },
+          {
+            "id": "google-bookmark-6m-barbajs",
+            "title": "barba.js",
+            "artists": "barba.js.org",
+            "awareness": 1,
+            "timeBucket": "6m",
+            "platformId": 8,
+            "rank": 44,
+            "date": "2025-04-10",
+            "tags": [
+              "Saved", "Arte","Tecnología", "Programación", "Propio", "Consciente", "@email", "Ordenador", "Bookmark", "Inspiración"
+ ,"Web", "Diseño"
+            ],
+            "details": {
+              "sourceFile": "GOOGLE_Bookmarks.html",
+              "dataType": "Marcador de Google",
+              "name": "barba.js",
+              "url": "https://barba.js.org/docs/getstarted/install/",
+              "lastModified": "2025-04-10"
+            }
+          },
+          {
+            "id": "google-bookmark-6m-lenguajes-de-programacin",
+            "title": "Lenguajes de programación",
+            "artists": "isidisi.notion.site",
+            "awareness": 1,
+            "timeBucket": "6m",
+            "platformId": 8,
+            "rank": 45,
+            "date": "2025-04-10",
+            "tags": [
+              "Saved", "Arte","Tecnología", "Programación", "Propio", "Consciente", "@email", "Ordenador", "Bookmark", "Inspiración"
+ ,"Web", "Apuntes", "Diseño"
+            ],
+            "details": {
+              "sourceFile": "GOOGLE_Bookmarks.html",
+              "dataType": "Marcador de Google",
+              "name": "Lenguajes de programación",
+              "url": "https://isidisi.notion.site/Lenguajes-de-programaci-n-14a26895bd8480eeae45fbb68685e63f",
+              "lastModified": "2025-04-10"
+            }
+          },
+          {
+            "id": "google-bookmark-6m-vue-tip-scroll-to-top-when-navigating-to-a-new-route",
+            "title": "Vue Tip: Scroll to Top When Navigating to a New Route - Michael Hoffmann | Michael Hoffmann",
+            "artists": "mokkapps.de",
+            "awareness": 1,
+            "timeBucket": "6m",
+            "platformId": 8,
+            "rank": 46,
+            "date": "2025-04-10",
+            "tags": [
+              "Saved", "Arte","Tecnología", "Programación", "Propio", "Consciente", "@email", "Ordenador", "Bookmark", "Inspiración"
+, "Diseño", "Web", "Apuntes"
+            ],
+            "details": {
+              "sourceFile": "GOOGLE_Bookmarks.html",
+              "dataType": "Marcador de Google",
+              "name": "Vue Tip: Scroll to Top When Navigating to a New Route - Michael Hoffmann | Michael Hoffmann",
+              "url": "https://mokkapps.de/vue-tips/scroll-to-top-when-navigating-to-a-new-route",
+              "lastModified": "2025-04-10"
+            }
+          },
+          {
+            "id": "google-bookmark-6m-refik-anadol",
+            "title": "Refik Anadol",
+            "artists": "refikanadol.com",
+            "awareness": 1,
+            "timeBucket": "6m",
+            "platformId": 8,
+            "rank": 47,
+            "date": "2025-04-12",
+            "tags": [
+              "Saved", "Arte","Tecnología", "Exposición", "Propio", "Consciente", "@email", "Ordenador", "Bookmark", "Inspiración"
+, "Portfolio", "Diseño"
+            ],
+            "details": {
+              "sourceFile": "GOOGLE_Bookmarks.html",
+              "dataType": "Marcador de Google",
+              "name": "Refik Anadol",
+              "url": "https://refikanadol.com/",
+              "lastModified": "2025-04-12"
+            }
+          },
+          {
+            "id": "google-bookmark-4w-apuntesreact",
+            "title": "Apuntes_react",
+            "artists": "isidisi.notion.site",
+            "awareness": 1,
+            "timeBucket": "4w",
+            "platformId": 8,
+            "rank": 48,
+            "date": "2025-04-22",
+            "tags": [
+              "Saved", "Arte","Tecnología", "Programación", "Propio", "Consciente", "@email", "Ordenador", "Bookmark", "Inspiración"
+, "Apuntes", "Diseño", "Web"
+            ],
+            "details": {
+              "sourceFile": "GOOGLE_Bookmarks.html",
+              "dataType": "Marcador de Google",
+              "name": "Apuntes_react",
+              "url": "https://isidisi.notion.site/trash-mammal/Apuntes-2a6279366da043bca3814ec6877db755",
+              "lastModified": "2025-05-28"
+            }
+          },
+          {
+            "id": "google-bookmark-4w-mooc-react",
+            "title": "MOOC React",
+            "artists": "isidisi.notion.site",
+            "awareness": 1,
+            "timeBucket": "4w",
+            "platformId": 8,
+            "rank": 49,
+            "date": "2025-04-28",
+            "tags": [
+              "Saved", "Arte","Tecnología", "Programación", "Propio", "Consciente", "@email", "Ordenador", "Bookmark", "Inspiración"
+, "Apuntes", "Diseño", "Web"
+            ],
+            "details": {
+              "sourceFile": "GOOGLE_Bookmarks.html",
+              "dataType": "Marcador de Google",
+              "name": "MOOC React",
+              "url": "https://isidisi.notion.site/trash-mammal/MOOC-React-1916eec909f240b5b983e77c324c0d84",
+              "lastModified": "2025-06-03"
+            }
+          },
+          {
+            "id": "google-bookmark-4w-cyberaula---heurio",
+            "title": "CyberAula - Heurio",
+            "artists": "heurio.app",
+            "awareness": 1,
+            "timeBucket": "4w",
+            "platformId": 8,
+            "rank": 50,
+            "date": "2025-05-06",
+            "tags": [
+              "Saved", "Arte","Tecnología", "Programación", "Propio", "Consciente", "@email", "Ordenador", "Bookmark", "Inspiración"
+, "Diseño", "Web", "Accesibilidad", "Usabilidad"
+            ],
+            "details": {
+              "sourceFile": "GOOGLE_Bookmarks.html",
+              "dataType": "Marcador de Google",
+              "name": "CyberAula - Heurio",
+              "url": "https://heurio.app/export/YzFCUEhMcGtUbDlETFZRRzdUekxDZz09",
+              "lastModified": "2025-05-06"
+            }
+          },
+          {
+            "id": "google-bookmark-6m-openprocessing---creative-coding-for-the-curious-mind",
+            "title": "OpenProcessing - Creative Coding for the Curious Mind",
+            "artists": "openprocessing.org",
+            "awareness": 1,
+            "timeBucket": "6m",
+            "platformId": 8,
+            "rank": 51,
+            "date": "2025-02-16",
+            "tags": [
+              "Saved", "Arte","Tecnología", "Programación", "Propio", "Consciente", "@email", "Ordenador", "Bookmark", "Inspiración"
+ ,"Web", "Apuntes"
+            ],
+            "details": {
+              "sourceFile": "GOOGLE_Bookmarks.html",
+              "dataType": "Marcador de Google",
+              "name": "OpenProcessing - Creative Coding for the Curious Mind",
+              "url": "https://openprocessing.org/",
+              "lastModified": "2025-04-28"
+            }
+          },
+          {
+            "id": "google-bookmark-6m-hello-world-processing-documental-sobre-cdigo-creati",
+            "title": "\"Hello World! Processing\" documental sobre código creativo",
+            "artists": "ubicuostudio.com",
+            "awareness": 1,
+            "timeBucket": "6m",
+            "platformId": 8,
+            "rank": 52,
+            "date": "2025-02-16",
+            "tags": [
+              "Saved", "Arte","Tecnología", "Programación", "Propio", "Consciente", "@email", "Ordenador", "Bookmark", "Inspiración"
+ ,"Web", "Apuntes"
+            ],
+            "details": {
+              "sourceFile": "GOOGLE_Bookmarks.html",
+              "dataType": "Marcador de Google",
+              "name": "\"Hello World! Processing\" documental sobre código creativo",
+              "url": "https://www.ubicuostudio.com/es/filosofia-del-software-es/processing-documental-codigo-creativo/",
+              "lastModified": "2025-04-28"
+            }
+          },
+          {
+            "id": "google-bookmark-6m-master-new-media-3a-edicion--la-casa-encendida",
+            "title": "Master New Media 3A Edicion | La Casa Encendida",
+            "artists": "lacasaencendida.es",
+            "awareness": 1,
+            "timeBucket": "6m",
+            "platformId": 8,
+            "rank": 53,
+            "date": "2025-02-17",
+            "tags": [
+              "Saved", "Arte","Tecnología", "Programación", "Propio", "Consciente", "@email", "Ordenador", "Bookmark", "Inspiración"
+, "Diseño"
+            ],
+            "details": {
+              "sourceFile": "GOOGLE_Bookmarks.html",
+              "dataType": "Marcador de Google",
+              "name": "Master New Media 3A Edicion | La Casa Encendida",
+              "url": "https://www.lacasaencendida.es/cultura/master-new-media-3a-edicion",
+              "lastModified": "2025-04-28"
+            }
+          },
+          {
+            "id": "google-bookmark-6m-net-art--artsy",
+            "title": "Net Art | Artsy",
+            "artists": "artsy.net",
+            "awareness": 1,
+            "timeBucket": "6m",
+            "platformId": 8,
+            "rank": 54,
+            "date": "2025-02-19",
+            "tags": [
+              "Saved", "Arte","Tecnología", "Programación", "Propio", "Consciente", "@email", "Ordenador", "Bookmark", "Inspiración"
+, "Diseño"
+            ],
+            "details": {
+              "sourceFile": "GOOGLE_Bookmarks.html",
+              "dataType": "Marcador de Google",
+              "name": "Net Art | Artsy",
+              "url": "https://www.artsy.net/gene/net-art",
+              "lastModified": "2025-04-28"
+            }
+          },
+          {
+            "id": "google-bookmark-6m-exposicin---mquinas-y-almas---arte--tecnologa---arte",
+            "title": "Exposición - Máquinas y Almas - Arte & Tecnología - Arte Digital",
+            "artists": "artfutura.org",
+            "awareness": 1,
+            "timeBucket": "6m",
+            "platformId": 8,
+            "rank": 55,
+            "date": "2025-02-19",
+            "tags": [
+              "Saved", "Arte","Tecnología", "Programación", "Propio", "Consciente", "@email", "Ordenador", "Bookmark", "Inspiración"
+
+            ],
+            "details": {
+              "sourceFile": "GOOGLE_Bookmarks.html",
+              "dataType": "Marcador de Google",
+              "name": "Exposición - Máquinas y Almas - Arte & Tecnología - Arte Digital",
+              "url": "https://www.artfutura.org/v3/maquinas-almas-exposicion/",
+              "lastModified": "2025-04-28"
+            }
+          },
+          {
+            "id": "google-bookmark-6m-open-codes-we-are-data--zkm",
+            "title": "Open Codes. We are Data | ZKM",
+            "artists": "zkm.de",
+            "awareness": 1,
+            "timeBucket": "6m",
+            "platformId": 8,
+            "rank": 56,
+            "date": "2025-02-19",
+            "tags": [
+              "Saved", "Arte","Tecnología", "Programación", "Propio", "Consciente", "@email", "Ordenador", "Bookmark", "Inspiración"
+ ,"Web", "Diseño"
+            ],
+            "details": {
+              "sourceFile": "GOOGLE_Bookmarks.html",
+              "dataType": "Marcador de Google",
+              "name": "Open Codes. We are Data | ZKM",
+              "url": "https://zkm.de/en/exhibition/2019/10/open-codes-we-are-data",
+              "lastModified": "2025-04-28"
+            }
+          },
+          {
+            "id": "google-bookmark-6m-mquinas-digitales---laboral",
+            "title": "Máquinas Digitales - LABoral",
+            "artists": "laboralcentrodearte.org",
+            "awareness": 1,
+            "timeBucket": "6m",
+            "platformId": 8,
+            "rank": 57,
+            "date": "2025-02-19",
+            "tags": [
+              "Saved", "Arte","Tecnología", "Programación", "Propio", "Consciente", "@email", "Ordenador", "Bookmark", "Inspiración"
+
+            ],
+            "details": {
+              "sourceFile": "GOOGLE_Bookmarks.html",
+              "dataType": "Marcador de Google",
+              "name": "Máquinas Digitales - LABoral",
+              "url": "https://laboralcentrodearte.org/es/exposiciones/maquinas-digitales/",
+              "lastModified": "2025-04-28"
+            }
+          },
+  
+          {
+            "id": "google-bookmark-6m-madmapper-home",
+            "title": "MadMapper Home",
+            "artists": "madmapper.com",
+            "awareness": 1,
+            "timeBucket": "6m",
+            "platformId": 8,
+            "rank": 59,
+            "date": "2025-02-19",
+            "tags": [
+              "Saved", "Arte","Tecnología", "Programación", "Propio", "Consciente", "@email", "Ordenador", "Bookmark", "Inspiración"
+
+            ],
+            "details": {
+              "sourceFile": "GOOGLE_Bookmarks.html",
+              "dataType": "Marcador de Google",
+              "name": "MadMapper Home",
+              "url": "https://madmapper.com/",
+              "lastModified": "2025-04-28"
+            }
+          },
+          {
+            "id": "google-bookmark-6m-glowing-atoms---bioluminescent-forest",
+            "title": "Glowing Atoms - bioluminescent forest",
+            "artists": "glowingatoms.com",
+            "awareness": 1,
+            "timeBucket": "6m",
+            "platformId": 8,
+            "rank": 60,
+            "date": "2025-02-19",
+            "tags": [
+              "Saved", "Arte","Tecnología", "Programación", "Propio", "Consciente", "@email", "Ordenador", "Bookmark", "Inspiración"
+              , "Naturaleza", "Experimental"
+            ],
+            "details": {
+              "sourceFile": "GOOGLE_Bookmarks.html",
+              "dataType": "Marcador de Google",
+              "name": "Glowing Atoms - bioluminescent forest",
+              "url": "https://glowingatoms.com/bioluminescent-forest",
+              "lastModified": "2025-02-19"
+            }
+          },
+          {
+            "id": "google-bookmark-6m-max-cooper--home",
+            "title": "Max Cooper – Home",
+            "artists": "maxcooper.net",
+            "awareness": 1,
+            "timeBucket": "6m",
+            "platformId": 8,
+            "rank": 61,
+            "date": "2025-02-19",
+            "tags": [
+              "Saved", "Arte","Tecnología", "Programación", "Propio", "Consciente", "@email", "Ordenador", "Bookmark", "Inspiración"
+            , "Portfolio", "Diseño"
+            ],
+            "details": {
+              "sourceFile": "GOOGLE_Bookmarks.html",
+              "dataType": "Marcador de Google",
+              "name": "Max Cooper – Home",
+              "url": "https://maxcooper.net/",
+              "lastModified": "2025-04-28"
+            }
+          },
+      
+          {
+            "id": "google-bookmark-6m-teachable-machine",
+            "title": "Teachable Machine",
+            "artists": "teachablemachine.withgoogle.com",
+            "awareness": 1,
+            "timeBucket": "6m",
+            "platformId": 8,
+            "rank": 63,
+            "date": "2025-03-12",
+            "tags": [
+              "Saved", "Arte","Tecnología", "Programación", "Propio", "Consciente", "@email", "Ordenador", "Bookmark", "Inspiración"
+
+            ],
+            "details": {
+              "sourceFile": "GOOGLE_Bookmarks.html",
+              "dataType": "Marcador de Google",
+              "name": "Teachable Machine",
+              "url": "https://teachablemachine.withgoogle.com/",
+              "lastModified": "2025-04-28"
+            }
+          },
+          {
+            "id": "google-bookmark-6m-image-model---teachable-machines",
+            "title": "Image Model - Teachable Machines",
+            "artists": "teachablemachine.withgoogle.com",
+            "awareness": 1,
+            "timeBucket": "6m",
+            "platformId": 8,
+            "rank": 64,
+            "date": "2025-03-12",
+            "tags": [
+              "Saved", "Arte", "Educativo","Tecnología", "Programación", "Propio", "Consciente", "@email", "Ordenador", "Bookmark", "Inspiración"
+
+            ],
+            "details": {
+              "sourceFile": "GOOGLE_Bookmarks.html",
+              "dataType": "Marcador de Google",
+              "name": "Image Model - Teachable Machines",
+              "url": "https://teachablemachine.withgoogle.com/train/image",
+              "lastModified": "2025-04-28"
+            }
+          },
+          {
+            "id": "google-bookmark-6m-adafruit-industries-unique--fun-diy-electronics-and-",
+            "title": "Adafruit Industries, Unique & fun DIY electronics and kits",
+            "artists": "adafruit.com",
+            "awareness": 1,
+            "timeBucket": "6m",
+            "platformId": 8,
+            "rank": 65,
+            "date": "2025-03-26",
+            "tags": [
+              "Saved", "Arte","Tecnología", "Programación", "Propio", "Consciente", "@email", "Ordenador", "Bookmark", "Inspiración"
+, "Apuntes"
+            ],
+            "details": {
+              "sourceFile": "GOOGLE_Bookmarks.html",
+              "dataType": "Marcador de Google",
+              "name": "Adafruit Industries, Unique & fun DIY electronics and kits",
+              "url": "https://www.adafruit.com/",
+              "lastModified": "2025-03-26"
+            }
+          },
+          {
+            "id": "google-bookmark-1y-interfaz-y-cultura",
+            "title": "Interfaz y Cultura.",
+            "artists": "agarciaa.notion.site",
+            "awareness": 1,
+            "timeBucket": "1y",
+            "platformId": 8,
+            "rank": 66,
+            "date": "2024-09-28",
+            "tags": [
+              "Saved", "Tecnología", "Educativo", "Propio", "Consciente", "@email", "Ordenador", "Bookmark", "Inspiración"
+, "Apuntes", "Diseño"
+            ],
+            "details": {
+              "sourceFile": "GOOGLE_Bookmarks.html",
+              "dataType": "Marcador de Google",
+              "name": "Interfaz y Cultura.",
+              "url": "https://agarciaa.notion.site/Interfaz-y-Cultura-f275883bc544495e8e69aab541791fc3",
+              "lastModified": "2025-06-03"
+            }
+          },
+          {
+            "id": "google-bookmark-1y-about-cc-licenses---creative-commons",
+            "title": "About CC Licenses - Creative Commons",
+            "artists": "creativecommons.org",
+            "awareness": 1,
+            "timeBucket": "1y",
+            "platformId": 8,
+            "rank": 67,
+            "date": "2024-10-05",
+            "tags": [
+              "Saved", "Arte","Tecnología", "Educativo", "Propio", "Consciente", "@email", "Ordenador", "Bookmark", "Inspiración"
+, "Apuntes", "Diseño"
+            ],
+            "details": {
+              "sourceFile": "GOOGLE_Bookmarks.html",
+              "dataType": "Marcador de Google",
+              "name": "About CC Licenses - Creative Commons",
+              "url": "https://creativecommons.org/share-your-work/cclicenses/",
+              "lastModified": "2025-06-03"
+            }
+          },
+          {
+            "id": "google-bookmark-1y-simple-collaborative-mind-maps--flow-charts---coggle",
+            "title": "Simple Collaborative Mind Maps & Flow Charts - Coggle",
+            "artists": "coggle.it",
+            "awareness": 1,
+            "timeBucket": "1y",
+            "platformId": 8,
+            "rank": 68,
+            "date": "2024-11-08",
+            "tags": [
+              "Saved", "Arte","Tecnología",  "Propio", "Consciente", "@email", "Ordenador", "Bookmark", "Inspiración"
+
+            ],
+            "details": {
+              "sourceFile": "GOOGLE_Bookmarks.html",
+              "dataType": "Marcador de Google",
+              "name": "Simple Collaborative Mind Maps & Flow Charts - Coggle",
+              "url": "https://coggle.it/",
+              "lastModified": "2025-06-03"
+            }
+          },
+          {
+            "id": "google-bookmark-1y-semantic-scholar--ai-powered-research-tool",
+            "title": "Semantic Scholar | AI-Powered Research Tool",
+            "artists": "semanticscholar.org",
+            "awareness": 1,
+            "timeBucket": "1y",
+            "platformId": 8,
+            "rank": 69,
+            "date": "2024-11-22",
+            "tags": [
+              "Saved", "Arte","Tecnología", "Programación", "Propio", "Consciente", "@email", "Ordenador", "Bookmark", "Inspiración"
+
+            ],
+            "details": {
+              "sourceFile": "GOOGLE_Bookmarks.html",
+              "dataType": "Marcador de Google",
+              "name": "Semantic Scholar | AI-Powered Research Tool",
+              "url": "https://www.semanticscholar.org/",
+              "lastModified": "2025-06-03"
+            }
+          },
+          {
+            "id": "google-bookmark-1y-consensus-ai-powered-academic-search-engine",
+            "title": "Consensus: AI-powered Academic Search Engine",
+            "artists": "consensus.app",
+            "awareness": 1,
+            "timeBucket": "1y",
+            "platformId": 8,
+            "rank": 70,
+            "date": "2024-11-22",
+            "tags": [
+              "Saved", "Arte","Tecnología", "Programación", "Propio", "Consciente", "@email", "Ordenador", "Bookmark", "Inspiración"
+
+            ],
+            "details": {
+              "sourceFile": "GOOGLE_Bookmarks.html",
+              "dataType": "Marcador de Google",
+              "name": "Consensus: AI-powered Academic Search Engine",
+              "url": "https://consensus.app/?gad_source=1&gclid=CjwKCAiAjeW6BhBAEiwAdKltMk8w9OR5maqchyZNb5WfbIoUQUrz-d4iejeKJNt4qY-55nhlspyoAhoC8tAQAvD_BwE",
+              "lastModified": "2025-06-03"
+            }
+          },
+          {
+            "id": "google-bookmark-1y-vol-avance-en-lnea--teknokultura-revista-de-cultura",
+            "title": "Vol. Avance en línea | Teknokultura. Revista de Cultura Digital y Movimientos Sociales",
+            "artists": "revistas.ucm.es",
+            "awareness": 1,
+            "timeBucket": "1y",
+            "platformId": 8,
+            "rank": 71,
+            "date": "2024-11-23",
+            "tags": [
+              "Saved", "Arte","Tecnología", "Educativo", "Propio", "Consciente", "@email", "Ordenador", "Bookmark", "Inspiración"
+, "Diseño"
+            ],
+            "details": {
+              "sourceFile": "GOOGLE_Bookmarks.html",
+              "dataType": "Marcador de Google",
+              "name": "Vol. Avance en línea | Teknokultura. Revista de Cultura Digital y Movimientos Sociales",
+              "url": "https://revistas.ucm.es/index.php/TEKN/issue/view/4031",
+              "lastModified": "2025-06-03"
+            }
+          },
+          {
+            "id": "google-bookmark-1y-design-toolkit",
+            "title": "Design Toolkit",
+            "artists": "design-toolkit.recursos.uoc.edu",
+            "awareness": 1,
+            "timeBucket": "1y",
+            "platformId": 8,
+            "rank": 72,
+            "date": "2024-11-23",
+            "tags": [
+              "Saved", "Arte","Tecnología", "Programación", "Propio", "Consciente", "@email", "Ordenador", "Bookmark", "Inspiración"
+ ,"Web", "Apuntes", "Diseño"
+            ],
+            "details": {
+              "sourceFile": "GOOGLE_Bookmarks.html",
+              "dataType": "Marcador de Google",
+              "name": "Design Toolkit",
+              "url": "https://design-toolkit.recursos.uoc.edu/es/",
+              "lastModified": "2025-06-03"
+            }
+          },
+          {
+            "id": "google-bookmark-1y-asignaturas--aulavirtual",
+            "title": "Asignaturas | AulaVirtual",
+            "artists": "aulavirtual38.educa.madrid.org",
+            "awareness": 1,
+            "timeBucket": "1y",
+            "platformId": 8,
+            "rank": 73,
+            "date": "2024-09-28",
+            "tags": [
+              "Saved", "Tecnología", "Educativo", "Propio", "Consciente", "@email", "Ordenador", "Bookmark", "Inspiración"
+, "Apuntes", "Diseño"
+            ],
+            "details": {
+              "sourceFile": "GOOGLE_Bookmarks.html",
+              "dataType": "Marcador de Google",
+              "name": "Asignaturas | AulaVirtual",
+              "url": "https://aulavirtual38.educa.madrid.org/esd.madrid/course/index.php?categoryid=95",
+              "lastModified": "2025-06-14"
+            }
+          },
+          {
+            "id": "google-bookmark-1y-design-kit-methods",
+            "title": "Design Kit-METHODS",
+            "artists": "designkit.org",
+            "awareness": 1,
+            "timeBucket": "1y",
+            "platformId": 8,
+            "rank": 74,
+            "date": "2024-10-03",
+            "tags": [
+              "Saved", "Tecnología", "Diseño", "Propio", "Consciente", "@email", "Ordenador", "Bookmark", "Inspiración"
+, "Apuntes", "Diseño"
+            ],
+            "details": {
+              "sourceFile": "GOOGLE_Bookmarks.html",
+              "dataType": "Marcador de Google",
+              "name": "Design Kit-METHODS",
+              "url": "https://www.designkit.org/methods.html#filter",
+              "lastModified": "2025-04-28"
+            }
+          },
+          {
+            "id": "google-bookmark-1y-interactjs---javascript-drag-and-drop-resizing-and-m",
+            "title": "interact.js - JavaScript drag and drop, resizing and multi-touch gestures for modern browsers",
+            "artists": "interactjs.io",
+            "awareness": 1,
+            "timeBucket": "1y",
+            "platformId": 8,
+            "rank": 75,
+            "date": "2024-10-10",
+            "tags": [
+              "Saved", "Tecnología", "Programación", "Propio", "Consciente", "@email", "Ordenador", "Bookmark", "Inspiración"
+ ,"Web", "Diseño"
+            ],
+            "details": {
+              "sourceFile": "GOOGLE_Bookmarks.html",
+              "dataType": "Marcador de Google",
+              "name": "interact.js - JavaScript drag and drop, resizing and multi-touch gestures for modern browsers",
+              "url": "https://interactjs.io/",
+              "lastModified": "2025-05-27"
+            }
+          },
+          {
+            "id": "google-bookmark-1y-json-mockaroo---random-data-generator-and-api-mocking",
+            "title": "JSON Mockaroo - Random Data Generator and API Mocking Tool | JSON / CSV / SQL / Excel",
+            "artists": "mockaroo.com",
+            "awareness": 1,
+            "timeBucket": "1y",
+            "platformId": 8,
+            "rank": 76,
+            "date": "2024-10-08",
+            "tags": [
+              "Saved", "Educativo","Tecnología", "Programación", "Propio", "Consciente", "@email", "Ordenador", "Bookmark", "Inspiración"
+ ,"Web", "Diseño"
+            ],
+            "details": {
+              "sourceFile": "GOOGLE_Bookmarks.html",
+              "dataType": "Marcador de Google",
+              "name": "JSON Mockaroo - Random Data Generator and API Mocking Tool | JSON / CSV / SQL / Excel",
+              "url": "https://www.mockaroo.com/",
+              "lastModified": "2025-05-27"
+            }
+          },
+          {
+            "id": "google-bookmark-1y-json",
+            "title": "JSON",
+            "artists": "isidisi.notion.site",
+            "awareness": 1,
+            "timeBucket": "1y",
+            "platformId": 8,
+            "rank": 77,
+            "date": "2024-10-04",
+            "tags": [
+              "Saved", "Educativo","Tecnología", "Programación", "Propio", "Consciente", "@email", "Ordenador", "Bookmark", "Inspiración"
+ ,"Web", "Apuntes", "Diseño"
+            ],
+            "details": {
+              "sourceFile": "GOOGLE_Bookmarks.html",
+              "dataType": "Marcador de Google",
+              "name": "JSON",
+              "url": "https://isidisi.notion.site/Gr-fica-multimedia-ab9effce2f8a4c6da1596930f13065f4",
+              "lastModified": "2025-05-27"
+            }
+          },
+          {
+            "id": "google-bookmark-1y-gm-produccinjson",
+            "title": "GM-Producción/JSON",
+            "artists": "isidisi.notion.site",
+            "awareness": 1,
+            "timeBucket": "1y",
+            "platformId": 8,
+            "rank": 78,
+            "date": "2024-10-04",
+            "tags": [
+              "Saved", "Educativo","Tecnología", "Programación", "Propio", "Consciente", "@email", "Ordenador", "Bookmark", "Inspiración"
+ ,"Web", "Apuntes", "Diseño"
+            ],
+            "details": {
+              "sourceFile": "GOOGLE_Bookmarks.html",
+              "dataType": "Marcador de Google",
+              "name": "GM-Producción/JSON",
+              "url": "https://isidisi.notion.site/GM-Producci-n-74fec26e5b0141cd98d13062421671eb",
+              "lastModified": "2025-05-27"
+            }
+          },
+          {
+            "id": "google-bookmark-1y-programacin-para-diseadores-y-artistas-visuales",
+            "title": "Programación para Diseñadores y Artistas Visuales",
+            "artists": "isidisi.notion.site",
+            "awareness": 1,
+            "timeBucket": "1y",
+            "platformId": 8,
+            "rank": 79,
+            "date": "2024-09-28",
+            "tags": [
+              "Saved", "Educativo","Tecnología", "Programación", "Propio", "Consciente", "@email", "Ordenador", "Bookmark", "Inspiración"
+ ,"Web", "Apuntes", "Diseño"
+            ],
+            "details": {
+              "sourceFile": "GOOGLE_Bookmarks.html",
+              "dataType": "Marcador de Google",
+              "name": "Programación para Diseñadores y Artistas Visuales",
+              "url": "https://isidisi.notion.site/Programaci-n-para-Dise-adores-y-Artistas-Visuales-10a26895bd848054b2b2ddd7ea5e3698",
+              "lastModified": "2025-05-27"
+            }
+          },
+          {
+            "id": "google-bookmark-1y-motion-graphic-design--animation-principles-website--",
+            "title": "Motion Graphic Design & Animation Principles Website - Zajno Digital Studio",
+            "artists": "motion.zajno.com",
+            "awareness": 1,
+            "timeBucket": "1y",
+            "platformId": 8,
+            "rank": 80,
+            "date": "2024-09-27",
+            "tags": [
+              "Saved", "Arte","Tecnología", "Diseño", "Propio", "Consciente", "@email", "Ordenador", "Bookmark", "Inspiración"
+ ,"Web", "Apuntes", "Diseño"
+            ],
+            "details": {
+              "sourceFile": "GOOGLE_Bookmarks.html",
+              "dataType": "Marcador de Google",
+              "name": "Motion Graphic Design & Animation Principles Website - Zajno Digital Studio",
+              "url": "https://motion.zajno.com/",
+              "lastModified": "2025-05-27"
+            }
+          },
+          {
+            "id": "google-bookmark-1y-can-i-use",
+            "title": "Can I use... ",
+            "artists": "caniuse.com",
+            "awareness": 1,
+            "timeBucket": "1y",
+            "platformId": 8,
+            "rank": 81,
+            "date": "2024-09-27",
+            "tags": [
+              "Saved", "Educativo","Tecnología", "Programación", "Propio", "Consciente", "@email", "Ordenador", "Bookmark", "Inspiración"
+ ,"Web", "Apuntes", "Diseño", "Accesibilidad", "Usabilidad"
+            ],
+            "details": {
+              "sourceFile": "GOOGLE_Bookmarks.html",
+              "dataType": "Marcador de Google",
+              "name": "Can I use... ",
+              "url": "https://caniuse.com/",
+              "lastModified": "2025-05-27"
+            }
+          },
+          {
+            "id": "google-bookmark-1y-box-shadow-css-generator--cssmatic",
+            "title": "Box Shadow CSS Generator | CSSmatic",
+            "artists": "cssmatic.com",
+            "awareness": 1,
+            "timeBucket": "1y",
+            "platformId": 8,
+            "rank": 82,
+            "date": "2024-01-08",
+            "tags": [
+              "Saved", "Diseño","Tecnología", "Programación", "Propio", "Consciente", "@email", "Ordenador", "Bookmark", "Inspiración"
+ ,"Web", "Apuntes", "Diseño"
+            ],
+            "details": {
+              "sourceFile": "GOOGLE_Bookmarks.html",
+              "dataType": "Marcador de Google",
+              "name": "Box Shadow CSS Generator | CSSmatic",
+              "url": "https://www.cssmatic.com/box-shadow",
+              "lastModified": "2025-05-27"
+            }
+          },
+    
+          {
+            "id": "google-bookmark-1y-vanilla-javascript-parallax-library--rellax",
+            "title": "Vanilla Javascript Parallax Library — Rellax",
+            "artists": "dixonandmoe.com",
+            "awareness": 1,
+            "timeBucket": "1y",
+            "platformId": 8,
+            "rank": 84,
+            "date": "2024-10-10",
+            "tags": [
+              "Saved", "Educativo","Tecnología", "Programación", "Propio", "Consciente", "@email", "Ordenador", "Bookmark", "Inspiración"
+ ,"Web", "Apuntes", "Diseño"
+            ],
+            "details": {
+              "sourceFile": "GOOGLE_Bookmarks.html",
+              "dataType": "Marcador de Google",
+              "name": "Vanilla Javascript Parallax Library — Rellax",
+              "url": "https://dixonandmoe.com/rellax/",
+              "lastModified": "2024-10-10"
+            }
+          },
+          {
+            "id": "google-bookmark-1y-json-pintado-dinmico-de-datos-y-localstorage",
+            "title": "JSON, pintado dinámico de datos y LocalStorage",
+            "artists": "isidisi.notion.site",
+            "awareness": 1,
+            "timeBucket": "1y",
+            "platformId": 8,
+            "rank": 85,
+            "date": "2024-10-10",
+            "tags": [
+              "Saved", "Educativo","Tecnología", "Programación", "Propio", "Consciente", "@email", "Ordenador", "Bookmark", "Inspiración"
+ ,"Web", "Apuntes", "Diseño"
+            ],
+            "details": {
+              "sourceFile": "GOOGLE_Bookmarks.html",
+              "dataType": "Marcador de Google",
+              "name": "JSON, pintado dinámico de datos y LocalStorage",
+              "url": "https://isidisi.notion.site/JSON-pintado-din-mico-de-datos-y-LocalStorage-0a33ac5dffe64fb48c46da3a359e8513",
+              "lastModified": "2025-05-27"
+            }
+          },
+          {
+            "id": "google-bookmark-1y-tema-11---eventos-y-dom-traversing",
+            "title": "Tema 11 - Eventos y DOM traversing",
+            "artists": "isidisi.notion.site",
+            "awareness": 1,
+            "timeBucket": "1y",
+            "platformId": 8,
+            "rank": 86,
+            "date": "2024-10-10",
+            "tags": [
+              "Saved", "Educativo","Tecnología", "Programación", "Propio", "Consciente", "@email", "Ordenador", "Bookmark", "Inspiración"
+ ,"Web", "Apuntes"
+            ],
+            "details": {
+              "sourceFile": "GOOGLE_Bookmarks.html",
+              "dataType": "Marcador de Google",
+              "name": "Tema 11 - Eventos y DOM traversing",
+              "url": "https://isidisi.notion.site/Tema-11-Eventos-y-DOM-traversing-95de2782fab04dd5a665b52b99fbf507",
+              "lastModified": "2025-05-27"
+            }
+          },
+          {
+            "id": "google-bookmark-1y-over-covid--point",
+            "title": "Over Covid | POINT",
+            "artists": "overcovid.pointapp.org",
+            "awareness": 1,
+            "timeBucket": "1y",
+            "platformId": 8,
+            "rank": 87,
+            "date": "2024-10-16",
+            "tags": [
+              "Saved", "Educativo","Tecnología", "Activismo", "Propio", "Consciente", "@email", "Ordenador", "Bookmark", "Inspiración"
+
+            ],
+            "details": {
+              "sourceFile": "GOOGLE_Bookmarks.html",
+              "dataType": "Marcador de Google",
+              "name": "Over Covid | POINT",
+              "url": "https://overcovid.pointapp.org/",
+              "lastModified": "2025-05-27"
+            }
+          },
+          {
+            "id": "google-bookmark-1y-misplaced--new-york--misplaced-no-4",
+            "title": "Misplaced → New York — Misplaced No 4",
+            "artists": "misplaced.design",
+            "awareness": 1,
+            "timeBucket": "1y",
+            "platformId": 8,
+            "rank": 88,
+            "date": "2024-10-16",
+            "tags": [
+              "Saved", "Educativo","Tecnología", "Diseño", "Propio", "Consciente", "@email", "Ordenador", "Bookmark", "Inspiración"
+
+            ],
+            "details": {
+              "sourceFile": "GOOGLE_Bookmarks.html",
+              "dataType": "Marcador de Google",
+              "name": "Misplaced → New York — Misplaced No 4",
+              "url": "https://misplaced.design/5/",
+              "lastModified": "2025-05-27"
+            }
+          },
+          {
+            "id": "google-bookmark-1y-validadores-de-accesibilidad-y-usabilidad-web",
+            "title": "Validadores de accesibilidad y usabilidad web",
+            "artists": "usableyaccesible.com",
+            "awareness": 1,
+            "timeBucket": "1y",
+            "platformId": 8,
+            "rank": 89,
+            "date": "2024-10-24",
+            "tags": [
+              "Saved", "Educativo","Tecnología", "Programación", "Propio", "Consciente", "@email", "Ordenador", "Bookmark", "Inspiración"
+ ,"Web", "Apuntes", "Accesibilidad", "Usabilidad", "Diseño"
+            ],
+            "details": {
+              "sourceFile": "GOOGLE_Bookmarks.html",
+              "dataType": "Marcador de Google",
+              "name": "Validadores de accesibilidad y usabilidad web",
+              "url": "https://usableyaccesible.com/recurso_misvalidadores.php?v=4",
+              "lastModified": "2025-05-27"
+            }
+          },
+          {
+            "id": "google-bookmark-1y-typeit--the-most-versatile-javascript-typewriter-eff",
+            "title": "TypeIt | The most versatile JavaScript typewriter effect library on the planet.",
+            "artists": "typeitjs.com",
+            "awareness": 1,
+            "timeBucket": "1y",
+            "platformId": 8,
+            "rank": 90,
+            "date": "2024-10-26",
+            "tags": [
+              "Saved", "Educativo","Tecnología", "Programación", "Propio", "Consciente", "@email", "Ordenador", "Bookmark", "Inspiración"
+ ,"Web", "Diseño"
+            ],
+            "details": {
+              "sourceFile": "GOOGLE_Bookmarks.html",
+              "dataType": "Marcador de Google",
+              "name": "TypeIt | The most versatile JavaScript typewriter effect library on the planet.",
+              "url": "https://www.typeitjs.com/",
+              "lastModified": "2025-05-29"
+            }
+          },
+          {
+            "id": "google-bookmark-1y-documentation--framer-for-developers",
+            "title": "Documentation | Framer for Developers",
+            "artists": "framer.com",
+            "awareness": 1,
+            "timeBucket": "1y",
+            "platformId": 8,
+            "rank": 91,
+            "date": "2024-10-26",
+            "tags": [
+              "Saved", "Educativo","Tecnología", "Programación", "Propio", "Consciente", "@email", "Ordenador", "Bookmark", "Inspiración"
+ ,"Web", "Apuntes", "Diseño"
+            ],
+            "details": {
+              "sourceFile": "GOOGLE_Bookmarks.html",
+              "dataType": "Marcador de Google",
+              "name": "Documentation | Framer for Developers",
+              "url": "https://www.framer.com/motion/",
+              "lastModified": "2025-05-27"
+            }
+          },
+          {
+            "id": "google-bookmark-1y-animejs--javascript-animation-engine",
+            "title": "anime.js • JavaScript animation engine",
+            "artists": "animejs.com",
+            "awareness": 1,
+            "timeBucket": "1y",
+            "platformId": 8,
+            "rank": 92,
+            "date": "2024-10-26",
+            "tags": [
+              "Saved", "Educativo","Tecnología", "Programación", "Propio", "Consciente", "@email", "Ordenador", "Bookmark", "Inspiración"
+ ,"Web", "Diseño"
+            ],
+            "details": {
+              "sourceFile": "GOOGLE_Bookmarks.html",
+              "dataType": "Marcador de Google",
+              "name": "anime.js • JavaScript animation engine",
+              "url": "https://animejs.com/",
+              "lastModified": "2025-05-27"
+            }
+          },
+          {
+            "id": "google-bookmark-1y-ui--gsap",
+            "title": "UI | GSAP",
+            "artists": "gsap.com",
+            "awareness": 1,
+            "timeBucket": "1y",
+            "platformId": 8,
+            "rank": 93,
+            "date": "2024-10-26",
+            "tags": [
+              "Saved", "Educativo","Tecnología", "Programación", "Propio", "Consciente", "@email", "Ordenador", "Bookmark", "Inspiración"
+ ,"Web", "Diseño"
+            ],
+            "details": {
+              "sourceFile": "GOOGLE_Bookmarks.html",
+              "dataType": "Marcador de Google",
+              "name": "UI | GSAP",
+              "url": "https://gsap.com/ui/",
+              "lastModified": "2025-08-20"
+            }
+          },
+          {
+            "id": "google-bookmark-1y-container--pixijs",
+            "title": "Container | PixiJS",
+            "artists": "pixijs.com",
+            "awareness": 1,
+            "timeBucket": "1y",
+            "platformId": 8,
+            "rank": 94,
+            "date": "2024-10-26",
+            "tags": [
+              "Saved", "Educativo","Tecnología", "Programación", "Propio", "Consciente", "@email", "Ordenador", "Bookmark", "Inspiración"
+ ,"Web", "Diseño"
+            ],
+            "details": {
+              "sourceFile": "GOOGLE_Bookmarks.html",
+              "dataType": "Marcador de Google",
+              "name": "Container | PixiJS",
+              "url": "https://pixijs.com/8.x/examples/basic/container",
+              "lastModified": "2025-05-27"
+            }
+          },
+
+          {
+            "id": "google-bookmark-1y-fakin-studio---web-design--development",
+            "title": "Fakin Studio - Web Design & Development",
+            "artists": "fakinstudio.com",
+            "awareness": 1,
+            "timeBucket": "1y",
+            "platformId": 8,
+            "rank": 96,
+            "date": "2024-11-01",
+            "tags": [
+              "Saved", "Educativo","Tecnología", "Programación", "Propio", "Consciente", "@email", "Ordenador", "Bookmark", "Inspiración"
+, "Diseño", "Web"
+            ],
+            "details": {
+              "sourceFile": "GOOGLE_Bookmarks.html",
+              "dataType": "Marcador de Google",
+              "name": "Fakin Studio - Web Design & Development",
+              "url": "https://fakinstudio.com/en",
+              "lastModified": "2025-05-27"
+            }
+          },
+          {
+            "id": "google-bookmark-1y-design-challenge--new-form",
+            "title": "Design Challenge | New Form",
+            "artists": "newform.community",
+            "awareness": 1,
+            "timeBucket": "1y",
+            "platformId": 8,
+            "rank": 97,
+            "date": "2024-11-01",
+            "tags": [
+              "Saved", "Educativo","Tecnología", "Diseño", "Propio", "Consciente", "@email", "Ordenador", "Bookmark", "Inspiración"
+, "Diseño"
+            ],
+            "details": {
+              "sourceFile": "GOOGLE_Bookmarks.html",
+              "dataType": "Marcador de Google",
+              "name": "Design Challenge | New Form",
+              "url": "https://www.newform.community/challenge",
+              "lastModified": "2025-05-27"
+            }
+          },
+          {
+            "id": "google-bookmark-1y-mariano-pascual",
+            "title": "Mariano Pascual",
+            "artists": "marianopascual.me",
+            "awareness": 1,
+            "timeBucket": "1y",
+            "platformId": 8,
+            "rank": 98,
+            "date": "2024-11-03",
+            "tags": [
+              "Saved", "Educativo","Tecnología", "Diseño", "Propio", "Consciente", "@email", "Ordenador", "Bookmark", "Inspiración"
+, "Portfolio", "Diseño"
+            ],
+            "details": {
+              "sourceFile": "GOOGLE_Bookmarks.html",
+              "dataType": "Marcador de Google",
+              "name": "Mariano Pascual",
+              "url": "https://marianopascual.me/",
+              "lastModified": "2025-05-27"
+            }
+          },
+          {
+            "id": "google-bookmark-1y-poster--cosmos",
+            "title": "poster / Cosmos",
+            "artists": "cosmos.so",
+            "awareness": 1,
+            "timeBucket": "1y",
+            "platformId": 8,
+            "rank": 99,
+            "date": "2024-11-07",
+            "tags": [
+              "Saved", "Tecnología", "Diseño", "Propio", "Consciente", "@email", "Ordenador", "Bookmark", "Inspiración"
+, "Diseño"
+            ],
+            "details": {
+              "sourceFile": "GOOGLE_Bookmarks.html",
+              "dataType": "Marcador de Google",
+              "name": "poster / Cosmos",
+              "url": "https://www.cosmos.so/e/598502233",
+              "lastModified": "2025-07-28"
+            }
+          },
+          {
+            "id": "google-bookmark-1y-web--arena",
+            "title": "WEB | Are.na",
+            "artists": "are.na",
+            "awareness": 1,
+            "timeBucket": "1y",
+            "platformId": 8,
+            "rank": 100,
+            "date": "2024-11-07",
+            "tags": [
+              "Saved", "Arte","Tecnología", "Diseño", "Propio", "Consciente", "@email", "Ordenador", "Bookmark", "Inspiración"
+, "Diseño"
+            ],
+            "details": {
+              "sourceFile": "GOOGLE_Bookmarks.html",
+              "dataType": "Marcador de Google",
+              "name": "WEB | Are.na",
+              "url": "https://www.are.na/marius-roosendaal/web-1474468243",
+              "lastModified": "2025-07-28"
+            }
+          },
+          {
+            "id": "google-bookmark-1y-interactive-videos-guide-for-2023-with-15-stunning-e",
+            "title": "Interactive Videos: Guide For 2023 (With 15 Stunning Examples)",
+            "artists": "spielcreative.com",
+            "awareness": 1,
+            "timeBucket": "1y",
+            "platformId": 8,
+            "rank": 101,
+            "date": "2024-11-08",
+            "tags": [
+              "Saved", "Educativo","Tecnología", "Programación", "Propio", "Consciente", "@email", "Ordenador", "Bookmark", "Inspiración"
+, "Diseño"
+            ],
+            "details": {
+              "sourceFile": "GOOGLE_Bookmarks.html",
+              "dataType": "Marcador de Google",
+              "name": "Interactive Videos: Guide For 2023 (With 15 Stunning Examples)",
+              "url": "https://www.spielcreative.com/blog/interactive-videos/",
+              "lastModified": "2025-07-28"
+            }
+          },
+          {
+            "id": "google-bookmark-1y-summarize-and-analyze-text---claude",
+            "title": "Summarize and Analyze Text - Claude",
+            "artists": "claude.ai",
+            "awareness": 1,
+            "timeBucket": "1y",
+            "platformId": 8,
+            "rank": 102,
+            "date": "2024-11-13",
+            "tags": [
+              "Saved", "Educativo","Tecnología", "Programación", "Propio", "Consciente", "@email", "Ordenador", "Bookmark", "Inspiración"
+
+            ],
+            "details": {
+              "sourceFile": "GOOGLE_Bookmarks.html",
+              "dataType": "Marcador de Google",
+              "name": "Summarize and Analyze Text - Claude",
+              "url": "https://claude.ai/chat/ed57b162-234a-4585-8213-d31ec5e99003",
+              "lastModified": "2025-07-28"
+            }
+          },
+          {
+            "id": "google-bookmark-1y-pregoneros-de-medelln",
+            "title": "Pregoneros de Medellín",
+            "artists": "pregonerosdemedellin.com",
+            "awareness": 1,
+            "timeBucket": "1y",
+            "platformId": 8,
+            "rank": 103,
+            "date": "2024-11-15",
+            "tags": [
+              "Saved", "Educativo","Tecnología", "Programación", "Propio", "Consciente", "@email", "Ordenador", "Bookmark", "Inspiración"
+
+            ],
+            "details": {
+              "sourceFile": "GOOGLE_Bookmarks.html",
+              "dataType": "Marcador de Google",
+              "name": "Pregoneros de Medellín",
+              "url": "https://pregonerosdemedellin.com/#streetwalk/plazabotero-start-carabobo",
+              "lastModified": "2025-07-28"
+            }
+          },
+          {
+            "id": "google-bookmark-1y-refugee-republic--jumpstarting-a-new-existence-in-an",
+            "title": "Refugee Republic :: Jumpstarting a new existence in an emerging city. Everyday life in a refugee camp.",
+            "artists": "refugeerepublic.submarinechannel.com",
+            "awareness": 1,
+            "timeBucket": "1y",
+            "platformId": 8,
+            "rank": 104,
+            "date": "2024-11-15",
+            "tags": [
+              "Saved", "Educativo","Tecnología", "Programación", "Propio", "Consciente", "@email", "Ordenador", "Bookmark", "Inspiración"
+
+            ],
+            "details": {
+              "sourceFile": "GOOGLE_Bookmarks.html",
+              "dataType": "Marcador de Google",
+              "name": "Refugee Republic :: Jumpstarting a new existence in an emerging city. Everyday life in a refugee camp.",
+              "url": "https://refugeerepublic.submarinechannel.com/",
+              "lastModified": "2024-11-15"
+            }
+          },
+          {
+            "id": "google-bookmark-1y-info",
+            "title": "Info",
+            "artists": "milli.agency",
+            "awareness": 1,
+            "timeBucket": "1y",
+            "platformId": 8,
+            "rank": 105,
+            "date": "2024-12-03",
+            "tags": [
+              "Saved", "Educativo","Tecnología", "Programación", "Propio", "Consciente", "@email", "Ordenador", "Bookmark", "Inspiración"
+, "Diseño"
+            ],
+            "details": {
+              "sourceFile": "GOOGLE_Bookmarks.html",
+              "dataType": "Marcador de Google",
+              "name": "Info",
+              "url": "https://www.milli.agency/about",
+              "lastModified": "2025-07-28"
+            }
+          },
+          {
+            "id": "google-bookmark-1y-icnes",
+            "title": "Icônes",
+            "artists": "icones.js.org",
+            "awareness": 1,
+            "timeBucket": "1y",
+            "platformId": 8,
+            "rank": 106,
+            "date": "2024-11-07",
+            "tags": [
+              "Saved", "Diseño","Tecnología", "Programación", "Propio", "Consciente", "@email", "Ordenador", "Bookmark", "Inspiración"
+ ,"Web"
+            ],
+            "details": {
+              "sourceFile": "GOOGLE_Bookmarks.html",
+              "dataType": "Marcador de Google",
+              "name": "Icônes",
+              "url": "https://icones.js.org/collection/pixelarticons",
+              "lastModified": "2025-07-28"
+            }
+          },
+          {
+            "id": "google-bookmark-1y-natalia-buenda",
+            "title": "Natalia Buendía",
+            "artists": "nataliabuendia.com",
+            "awareness": 1,
+            "timeBucket": "1y",
+            "platformId": 8,
+            "rank": 107,
+            "date": "2024-11-08",
+            "tags": [
+              "Saved", "Portfolio","Tecnología", "Programación", "Propio", "Consciente", "@email", "Ordenador", "Bookmark", "Inspiración"
+, "Diseño"
+            ],
+            "details": {
+              "sourceFile": "GOOGLE_Bookmarks.html",
+              "dataType": "Marcador de Google",
+              "name": "Natalia Buendía",
+              "url": "https://nataliabuendia.com/index.html",
+              "lastModified": "2025-05-27"
+            }
+          },
+          {
+            "id": "google-bookmark-1y-gamecardvue",
+            "title": "GameCard.vue",
+            "artists": "codesandbox.io",
+            "awareness": 1,
+            "timeBucket": "1y",
+            "platformId": 8,
+            "rank": 108,
+            "date": "2024-11-13",
+            "tags": [
+              "Saved", "Educativo","Tecnología", "Programación", "Propio", "Consciente", "@email", "Ordenador", "Bookmark", "Inspiración"
+ ,"Web", "Apuntes", "Diseño"
+            ],
+            "details": {
+              "sourceFile": "GOOGLE_Bookmarks.html",
+              "dataType": "Marcador de Google",
+              "name": "GameCard.vue",
+              "url": "https://codesandbox.io/p/sandbox/w0klzql985?file=%2Fsrc%2FApp.vue%3A20%2C5",
+              "lastModified": "2025-06-12"
+            }
+          },
+          {
+            "id": "google-bookmark-1y-realtime-colors",
+            "title": "Realtime Colors_",
+            "artists": "realtimecolors.com",
+            "awareness": 1,
+            "timeBucket": "1y",
+            "platformId": 8,
+            "rank": 109,
+            "date": "2024-11-13",
+            "tags": [
+              "Saved", "Diseño","Tecnología", "Programación", "Propio", "Consciente", "@email", "Ordenador", "Bookmark", "Inspiración"
+ ,"Web", "Accesibilidad", "Usabilidad"
+            ],
+            "details": {
+              "sourceFile": "GOOGLE_Bookmarks.html",
+              "dataType": "Marcador de Google",
+              "name": "Realtime Colors_",
+              "url": "https://www.realtimecolors.com/?colors=e1f9f0-020806-26c08c-5229c4-08aabf&fonts=Inter-Inter",
+              "lastModified": "2024-11-13"
+            }
+          },
+          
+          {
+            "id": "google-bookmark-1y-home--laws-of-ux",
+            "title": "Home | Laws of UX",
+            "artists": "lawsofux.com",
+            "awareness": 1,
+            "timeBucket": "1y",
+            "platformId": 8,
+            "rank": 111,
+            "date": "2024-11-16",
+            "tags": [
+              "Saved", "Educativo","Tecnología", "Diseño", "Propio", "Consciente", "@email", "Ordenador", "Bookmark", "Inspiración"
+, "Apuntes", "Usabilidad", "Accesibilidad", "Web"
+            ],
+            "details": {
+              "sourceFile": "GOOGLE_Bookmarks.html",
+              "dataType": "Marcador de Google",
+              "name": "Home | Laws of UX",
+              "url": "https://lawsofux.com/",
+              "lastModified": "2025-05-27"
+            }
+          },
+          {
+            "id": "google-bookmark-1y-monopo-london--tokyo-born-design-driven-creative-agen",
+            "title": "monopo london | Tokyo-born design-driven creative agency.",
+            "artists": "monopo.london",
+            "awareness": 1,
+            "timeBucket": "1y",
+            "platformId": 8,
+            "rank": 112,
+            "date": "2024-11-22",
+            "tags": [
+              "Saved", "Arte","Tecnología", "Programación", "Propio", "Consciente", "@email", "Ordenador", "Bookmark", "Inspiración", "Diseño"
+, "Diseño", "Web"
+            ],
+            "details": {
+              "sourceFile": "GOOGLE_Bookmarks.html",
+              "dataType": "Marcador de Google",
+              "name": "monopo london | Tokyo-born design-driven creative agency.",
+              "url": "https://monopo.london/",
+              "lastModified": "2025-05-27"
+            }
+          },
+          {
+            "id": "google-bookmark-1y-vue-drawing-canvas---npm",
+            "title": "vue-drawing-canvas - npm",
+            "artists": "npmjs.com",
+            "awareness": 1,
+            "timeBucket": "1y",
+            "platformId": 8,
+            "rank": 113,
+            "date": "2024-11-22",
+            "tags": [
+              "Saved", "Educativo","Tecnología", "Programación", "Propio", "Consciente", "@email", "Ordenador", "Bookmark", "Inspiración"
+ ,"Web", "Apuntes", "Diseño"
+            ],
+            "details": {
+              "sourceFile": "GOOGLE_Bookmarks.html",
+              "dataType": "Marcador de Google",
+              "name": "vue-drawing-canvas - npm",
+              "url": "https://www.npmjs.com/package/vue-drawing-canvas",
+              "lastModified": "2025-05-27"
+            }
+          },
+          {
+            "id": "google-bookmark-1y-planckjs---2d-javascript-physics-engine-for-cross-pl",
+            "title": "Planck.js - 2D JavaScript physics engine for cross-platform HTML5 game development.",
+            "artists": "piqnt.com",
+            "awareness": 1,
+            "timeBucket": "1y",
+            "platformId": 8,
+            "rank": 114,
+            "date": "2024-12-21",
+            "tags": [
+              "Saved", "Educativo","Tecnología", "Programación", "Propio", "Consciente", "@email", "Ordenador", "Bookmark", "Inspiración"
+ ,"Web", "Diseño"
+            ],
+            "details": {
+              "sourceFile": "GOOGLE_Bookmarks.html",
+              "dataType": "Marcador de Google",
+              "name": "Planck.js - 2D JavaScript physics engine for cross-platform HTML5 game development.",
+              "url": "https://piqnt.com/planck.js/",
+              "lastModified": "2025-05-27"
+            }
+          },
+          
+  
+          {
+            "id": "google-bookmark-6m-p5js",
+            "title": "p5js",
+            "artists": "p5js.org",
+            "awareness": 1,
+            "timeBucket": "6m",
+            "platformId": 8,
+            "rank": 117,
+            "date": "2025-02-13",
+            "tags": [
+              "Saved", "Educativo","Tecnología", "Programación", "Propio", "Consciente", "@email", "Ordenador", "Bookmark", "Inspiración"
+ ,"Web", "Diseño"
+            ],
+            "details": {
+              "sourceFile": "GOOGLE_Bookmarks.html",
+              "dataType": "Marcador de Google",
+              "name": "p5js",
+              "url": "https://p5js.org/examples/",
+              "lastModified": "2025-05-27"
+            }
+          },
+          {
+            "id": "google-bookmark-6m-vue-p5---npm",
+            "title": "vue-p5 - npm",
+            "artists": "npmjs.com",
+            "awareness": 1,
+            "timeBucket": "6m",
+            "platformId": 8,
+            "rank": 118,
+            "date": "2025-02-22",
+            "tags": [
+              "Saved", "Educativo","Tecnología", "Programación", "Propio", "Consciente", "@email", "Ordenador", "Bookmark", "Inspiración"
+ ,"Web", "Diseño"
+            ],
+            "details": {
+              "sourceFile": "GOOGLE_Bookmarks.html",
+              "dataType": "Marcador de Google",
+              "name": "vue-p5 - npm",
+              "url": "https://www.npmjs.com/package/vue-p5",
+              "lastModified": "2025-05-27"
+            }
+          },
+          {
+            "id": "google-bookmark-6m-folium--folium-0195-documentation",
+            "title": "Folium — Folium 0.19.5 documentation",
+            "artists": "python-visualization.github.io",
+            "awareness": 1,
+            "timeBucket": "6m",
+            "platformId": 8,
+            "rank": 119,
+            "date": "2025-03-23",
+            "tags": [
+              "Saved", "Educativo","Tecnología", "Programación", "Propio", "Consciente", "@email", "Ordenador", "Bookmark", "Inspiración"
+ ,"Web", "Diseño"
+            ],
+            "details": {
+              "sourceFile": "GOOGLE_Bookmarks.html",
+              "dataType": "Marcador de Google",
+              "name": "Folium — Folium 0.19.5 documentation",
+              "url": "https://python-visualization.github.io/folium/latest/",
+              "lastModified": "2025-03-23"
+            }
+          },
+          {
+            "id": "google-bookmark-1y-correo",
+            "title": "CORREO",
+            "artists": "correoweb.educa.madrid.org",
+            "awareness": 1,
+            "timeBucket": "1y",
+            "platformId": 8,
+            "rank": 120,
+            "date": "2024-10-15",
+            "tags": [
+              "Saved", "Educativo", "Propio", "Consciente", "@email", "Ordenador", "Bookmark", "Inspiración"
+, "Diseño"
+            ],
+            "details": {
+              "sourceFile": "GOOGLE_Bookmarks.html",
+              "dataType": "Marcador de Google",
+              "name": "CORREO",
+              "url": "https://correoweb.educa.madrid.org/?_task=mail&_mbox=INBOX",
+              "lastModified": "2025-06-10"
+            }
+          },
+          {
+            "id": "google-bookmark-1y-aula-virtual",
+            "title": "AULA VIRTUAL",
+            "artists": "aulavirtual38.educa.madrid.org",
+            "awareness": 1,
+            "timeBucket": "1y",
+            "platformId": 8,
+            "rank": 121,
+            "date": "2024-10-15",
+            "tags": [
+              "Saved", "Educativo", "Propio", "Consciente", "@email", "Ordenador", "Bookmark", "Inspiración"
+, "Diseño"
+            ],
+            "details": {
+              "sourceFile": "GOOGLE_Bookmarks.html",
+              "dataType": "Marcador de Google",
+              "name": "AULA VIRTUAL",
+              "url": "https://aulavirtual38.educa.madrid.org/esd.madrid/",
+              "lastModified": "2025-06-14"
+            }
+          },
+          {
+            "id": "google-bookmark-1y-60fps",
+            "title": "60fps",
+            "artists": "60fps.design",
+            "awareness": 1,
+            "timeBucket": "1y",
+            "platformId": 8,
+            "rank": 122,
+            "date": "2024-10-16",
+            "tags": [
+              "Saved", "Educativo","Tecnología", "Diseño", "Propio", "Consciente", "@email", "Ordenador", "Bookmark", "Inspiración"
+ ,"Web", "Diseño"
+            ],
+            "details": {
+              "sourceFile": "GOOGLE_Bookmarks.html",
+              "dataType": "Marcador de Google",
+              "name": "60fps",
+              "url": "https://60fps.design/",
+              "lastModified": "2025-04-28"
+            }
+          },
+          {
+            "id": "google-bookmark-1y-htmlcodesniffer",
+            "title": "HTML_CodeSniffer",
+            "artists": "invalid",
+            "awareness": 1,
+            "timeBucket": "1y",
+            "platformId": 8,
+            "rank": 123,
+            "date": "2024-10-24",
+            "tags": [
+              "Saved", "Educativo","Tecnología", "Programación", "Propio", "Consciente", "@email", "Ordenador", "Bookmark", "Inspiración"
+ ,"Web", "Apuntes", "Diseño"
+            ],
+            "details": {
+              "sourceFile": "GOOGLE_Bookmarks.html",
+              "dataType": "Marcador de Google",
+              "name": "HTML_CodeSniffer",
+              "url": "about:invalid#zGuavaz",
+              "lastModified": "2024-10-24"
+            }
+          },
+          {
+            "id": "google-bookmark-6m-vitamin--proyectos-interactivos",
+            "title": "Vitamin – Proyectos Interactivos",
+            "artists": "vitamin-arte.com",
+            "awareness": 1,
+            "timeBucket": "6m",
+            "platformId": 8,
+            "rank": 124,
+            "date": "2025-02-15",
+            "tags": [
+              "Saved", "Educativo","Tecnología", "Programación", "Propio", "Consciente", "@email", "Ordenador", "Bookmark", "Inspiración"
+, "Diseño"
+            ],
+            "details": {
+              "sourceFile": "GOOGLE_Bookmarks.html",
+              "dataType": "Marcador de Google",
+              "name": "Vitamin – Proyectos Interactivos",
+              "url": "https://vitamin-arte.com/",
+              "lastModified": "2025-04-28"
+            }
+          },
+          {
+            "id": "google-bookmark-6m-interaccin-y-lenguaje",
+            "title": "Interacción y Lenguaje",
+            "artists": "agarciaa.notion.site",
+            "awareness": 1,
+            "timeBucket": "6m",
+            "platformId": 8,
+            "rank": 125,
+            "date": "2025-02-15",
+            "tags": [
+              "Saved", "Educativo","Tecnología", "Propio", "Consciente", "@email", "Ordenador", "Bookmark", "Inspiración"
+, "Apuntes", "Diseño"
+            ],
+            "details": {
+              "sourceFile": "GOOGLE_Bookmarks.html",
+              "dataType": "Marcador de Google",
+              "name": "Interacción y Lenguaje",
+              "url": "https://agarciaa.notion.site/Interacci-n-Modelos-y-tipos-191b00cf06a644608273abc10270f0aa",
+              "lastModified": "2025-04-28"
+            }
+          },
+          {
+            "id": "google-bookmark-6m-visualizacin-de-datos",
+            "title": "Visualización de Datos",
+            "artists": "pudding.cool",
+            "awareness": 1,
+            "timeBucket": "6m",
+            "platformId": 8,
+            "rank": 126,
+            "date": "2025-02-17",
+            "tags": [
+              "Saved", "Educativo","Tecnología", "Programación", "Propio", "Consciente", "@email", "Ordenador", "Bookmark", "Inspiración"
+ ,"Web", "Diseño"
+            ],
+            "details": {
+              "sourceFile": "GOOGLE_Bookmarks.html",
+              "dataType": "Marcador de Google",
+              "name": "Visualización de Datos",
+              "url": "https://pudding.cool/",
+              "lastModified": "2025-04-28"
+            }
+          },
+          {
+            "id": "google-bookmark-6m-catlogo-de-visualizacin-de-datos",
+            "title": "Catálogo de Visualización de Datos",
+            "artists": "datavizcatalogue.com",
+            "awareness": 1,
+            "timeBucket": "6m",
+            "platformId": 8,
+            "rank": 127,
+            "date": "2025-02-17",
+            "tags": [
+              "Saved", "Educativo","Tecnología", "Programación", "Propio", "Consciente", "@email", "Ordenador", "Bookmark", "Inspiración"
+ ,"Web", "Diseño"
+            ],
+            "details": {
+              "sourceFile": "GOOGLE_Bookmarks.html",
+              "dataType": "Marcador de Google",
+              "name": "Catálogo de Visualización de Datos",
+              "url": "https://datavizcatalogue.com/ES/",
+              "lastModified": "2025-02-17"
+            }
+          },
+          {
+            "id": "google-bookmark-6m-d3-by-observable--the-javascript-library-for-bespoke",
+            "title": "D3 by Observable | The JavaScript library for bespoke data visualization",
+            "artists": "d3js.org",
+            "awareness": 1,
+            "timeBucket": "6m",
+            "platformId": 8,
+            "rank": 128,
+            "date": "2025-02-22",
+            "tags": [
+              "Saved", "Educativo","Tecnología", "Programación", "Propio", "Consciente", "@email", "Ordenador", "Bookmark", "Inspiración"
+ ,"Web", "Diseño"
+            ],
+            "details": {
+              "sourceFile": "GOOGLE_Bookmarks.html",
+              "dataType": "Marcador de Google",
+              "name": "D3 by Observable | The JavaScript library for bespoke data visualization",
+              "url": "https://d3js.org/",
+              "lastModified": "2025-02-22"
+            }
+          },
+          {
+            "id": "google-bookmark-6m-rawgraphs",
+            "title": "RAWGraphs",
+            "artists": "rawgraphs.io",
+            "awareness": 1,
+            "timeBucket": "6m",
+            "platformId": 8,
+            "rank": 129,
+            "date": "2025-02-22",
+            "tags": [
+              "Saved", "Educativo","Tecnología", "Programación", "Propio", "Consciente", "@email", "Ordenador", "Bookmark", "Inspiración"
+ ,"Web", "Diseño"
+            ],
+            "details": {
+              "sourceFile": "GOOGLE_Bookmarks.html",
+              "dataType": "Marcador de Google",
+              "name": "RAWGraphs",
+              "url": "https://www.rawgraphs.io/",
+              "lastModified": "2025-02-22"
+            }
+          },
+          {
+            "id": "google-bookmark-6m-postgresql-the-worlds-most-advanced-open-source-data",
+            "title": "PostgreSQL: The world's most advanced open source database",
+            "artists": "postgresql.org",
+            "awareness": 1,
+            "timeBucket": "6m",
+            "platformId": 8,
+            "rank": 130,
+            "date": "2025-02-22",
+            "tags": [
+              "Saved", "Educativo","Tecnología", "Programación", "Propio", "Consciente", "@email", "Ordenador", "Bookmark", "Inspiración"
+ ,"Web", "Diseño"
+            ],
+            "details": {
+              "sourceFile": "GOOGLE_Bookmarks.html",
+              "dataType": "Marcador de Google",
+              "name": "PostgreSQL: The world's most advanced open source database",
+              "url": "https://www.postgresql.org/",
+              "lastModified": "2025-02-22"
+            }
+          },
+          {
+            "id": "google-bookmark-6m-particlesjs",
+            "title": "particles.js",
+            "artists": "codepen.io",
+            "awareness": 1,
+            "timeBucket": "6m",
+            "platformId": 8,
+            "rank": 131,
+            "date": "2025-02-22",
+            "tags": [
+              "Saved", "Educativo","Tecnología", "Programación", "Propio", "Consciente", "@email", "Ordenador", "Bookmark", "Inspiración"
+ ,"Web", "Diseño"
+            ],
+            "details": {
+              "sourceFile": "GOOGLE_Bookmarks.html",
+              "dataType": "Marcador de Google",
+              "name": "particles.js",
+              "url": "https://codepen.io/VincentGarreau/pen/bGxvQd",
+              "lastModified": "2025-02-22"
+            }
+          },
+          {
+            "id": "google-bookmark-6m-the-coding-train",
+            "title": "The Coding Train",
+            "artists": "thecodingtrain.com",
+            "awareness": 1,
+            "timeBucket": "6m",
+            "platformId": 8,
+            "rank": 132,
+            "date": "2025-02-22",
+            "tags": [
+              "Saved", "Educativo","Tecnología", "Programación", "Propio", "Consciente", "@email", "Ordenador", "Bookmark", "Inspiración"
+              ,"Web", "Diseño"
+            ],
+            "details": {
+              "sourceFile": "GOOGLE_Bookmarks.html",
+              "dataType": "Marcador de Google",
+              "name": "The Coding Train",
+              "url": "https://thecodingtrain.com/",
+              "lastModified": "2025-02-22"
+            }
+          }
+        ]
       ]
-  ]
+  
