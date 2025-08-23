@@ -9,15 +9,15 @@
       "rank": 1,
       "tags": [
         "Teléfono",
-        "Social",
-        "Inconsciente"
+        "Propio","Redes Sociales", "Comunicación", "Entretenimiento", "Fotografía",
+        "Consciente"
       ],
       "details": {
         "sourceFile": "phoneUsage.json",
         "dataType": "Uso de Aplicación",
         "name": "Instagram",
         "timeSpent": "46h 48m",
-        "subjective_notes": "Añadir anotación aquí..."
+        "subjective_notes": "Probablemente, esta sea la red social que más uso. Me gusta ver fotos y vídeos de mis amigos, seguir a creadores de contenido y descubrir nuevas tendencias. También uso Instagram para comunicarme con mis amigos."
       }
     },
     {
@@ -30,15 +30,15 @@
       "rank": 2,
       "tags": [
         "Teléfono",
-        "Utilidades",
-        "Inconsciente"
+         "Navegación", "Utilidades",
+        "Consciente", "Propio"
       ],
       "details": {
         "sourceFile": "phoneUsage.json",
         "dataType": "Uso de Aplicación",
         "name": "Safari",
         "timeSpent": "26h 09m",
-        "subjective_notes": "Añadir anotación aquí..."
+        "subjective_notes": "Para mí, este es mi navegador principal en el teléfono."
       }
     },
     {
@@ -51,15 +51,15 @@
       "rank": 3,
       "tags": [
         "Teléfono",
-        "Social",
-        "Inconsciente"
+        "#tlf", "Propio","Mensajería", "Comunicación", "Redes Sociales",
+        "Consciente"
       ],
       "details": {
         "sourceFile": "phoneUsage.json",
         "dataType": "Uso de Aplicación",
         "name": "WhatsApp",
         "timeSpent": "20h 06m",
-        "subjective_notes": "Añadir anotación aquí..."
+        "subjective_notes": "WhatsApp es mi aplicación principal de mensajería. La uso para comunicarme con mis amigos y familiares, enviar fotos y vídeos, y hacer llamadas de voz y vídeo. "
       }
     },
     {
@@ -71,16 +71,17 @@
       "platformId": 5,
       "rank": 4,
       "tags": [
+        "Propio",
+        "Consciente",
         "Teléfono",
-        "Entretenimiento",
-        "Inconsciente"
+        "Entretenimiento", "Utilidades"
       ],
       "details": {
         "sourceFile": "phoneUsage.json",
         "dataType": "Uso de Aplicación",
         "name": "Fire TV",
         "timeSpent": "7h 10m",
-        "subjective_notes": "Añadir anotación aquí..."
+        "subjective_notes": "Hace un tiempo perdimos el mando del FireTV en mi piso y nos hemos tenido que descargar cada uno en su móvil la app para poder usarlo."
       }
     },
     {
@@ -92,16 +93,16 @@
       "platformId": 8,
       "rank": 5,
       "tags": [
+        "Propio",
         "Teléfono",
-        "Viajes",
-        "Propio", "Consciente"
+      "Movilidad", "Utilidades", "@email",    "Viajes", "Consciente"
       ],
       "details": {
         "sourceFile": "phoneUsage.json",
         "dataType": "Uso de Aplicación",
         "name": "Google Maps",
         "timeSpent": "5h 45m",
-        "subjective_notes": "Añadir anotación aquí..."
+        "subjective_notes": "En Madrid siempre uso Google Maps para moverme, ya que es la mejor opción para ver el transporte público y las rutas a pie. También lo uso cuando viajo a otras ciudades."
       }
     },
     {
@@ -114,15 +115,15 @@
       "rank": 6,
       "tags": [
         "Teléfono",
-        "Social",
-        "Inconsciente"
+        "Juegos", "Social", "Propio", "Entretenimiento",
+        "Consciente"
       ],
       "details": {
         "sourceFile": "phoneUsage.json",
         "dataType": "Uso de Aplicación",
         "name": "Plato",
         "timeSpent": "4h 30m",
-        "subjective_notes": "Añadir anotación aquí..."
+        "subjective_notes": "Una amiga nos enseñó a mi novia y a mí esta app, y nos gustó mucho. Es una plataforma de juegos donde puedes jugar con tus amigos a juegos online como Hundiendo la flota, Mini-golf, etc. La usamos bastante cuando estamos lejos."
       }
     },
     {
@@ -135,15 +136,15 @@
       "rank": 7,
       "tags": [
         "Teléfono",
-        "Entretenimiento",
-        "Inconsciente"
+   
+        "Consciente", "Propio", "Cómics", "Entretenimiento", "@email"
       ],
       "details": {
         "sourceFile": "phoneUsage.json",
         "dataType": "Uso de Aplicación",
         "name": "WEBTOON",
         "timeSpent": "2h 21m",
-        "subjective_notes": "Añadir anotación aquí..."
+        "subjective_notes": "Me he aficionado a leer mangas y cómics en WEBTOON. Me gusta leer historias de fantasía y romance, y esta app tiene una gran variedad de géneros y autores."
       }
     },
     {
@@ -157,14 +158,14 @@
       "tags": [
         "Teléfono",
         "Social",
-        "Inconsciente"
+        "Consciente", "Propio"
       ],
       "details": {
         "sourceFile": "phoneUsage.json",
         "dataType": "Uso de Aplicación",
         "name": "Tinder",
         "timeSpent": "1h 54m",
-        "subjective_notes": "Añadir anotación aquí..."
+        "subjective_notes": "Mi novia y yo tenemos una relación no-monógama, y usamos Tinder para conocer a otras personas. Aunque no lo usamos mucho, cuando visitamos un sitio nuevo nos metemos a cotillear."
       }
     },
     {
@@ -176,16 +177,17 @@
       "platformId": 1,
       "rank": 9,
       "tags": [
+        "Propio",
+        "Consciente",
         "Teléfono",
-        "Entretenimiento",
-        "Inconsciente"
+        "Música", "Audio", "Entretenimiento", "@email"
       ],
       "details": {
         "sourceFile": "phoneUsage.json",
         "dataType": "Uso de Aplicación",
         "name": "Spotify",
         "timeSpent": "1h 32m",
-        "subjective_notes": "Añadir anotación aquí..."
+        "subjective_notes": "Me encanta trabajar con música y Spotify es mi plataforma principal. Escucho música mientras trabajo, estudio y hago ejercicio. También me gusta descubrir música nueva y crear listas de reproducción. Lo uso más en el teléfono que en el ordenador, ya que me gusta escuchar música mientras me muevo por la ciudad."
       }
     },
     {
@@ -199,14 +201,14 @@
       "tags": [
         "Teléfono",
         "Utilidades",
-        "Inconsciente"
+        "Consciente", "Correo Electrónico", "Utilidades", "Mensajería", "Comunicación", "@email"
       ],
       "details": {
         "sourceFile": "phoneUsage.json",
         "dataType": "Uso de Aplicación",
         "name": "Gmail",
         "timeSpent": "1h 14m",
-        "subjective_notes": "Añadir anotación aquí..."
+        "subjective_notes": "Es la plataforma determinada para manadar correos electrónicos en mi trabajo y estudios. La uso para enviar y recibir correos, etc."
       }
     },
     {
@@ -219,15 +221,15 @@
       "rank": 1,
       "tags": [
         "Teléfono",
-        "Social",
-        "Inconsciente"
+        "Propio","Redes Sociales", "Comunicación", "Entretenimiento", "Fotografía",
+        "Consciente"
       ],
       "details": {
         "sourceFile": "phoneUsage.json",
         "dataType": "Uso de Aplicación",
         "name": "Instagram",
         "timeSpent": "284h 10m",
-        "subjective_notes": "Añadir anotación aquí..."
+        "subjective_notes": "Probablemente, esta sea la red social que más uso. Me gusta ver fotos y vídeos de mis amigos, seguir a creadores de contenido y descubrir nuevas tendencias. También uso Instagram para comunicarme con mis amigos."
       }
     },
     {
@@ -241,14 +243,14 @@
       "tags": [
         "Teléfono",
         "Utilidades",
-        "Inconsciente"
+        "Consciente", "Propio", "Navegación"
       ],
       "details": {
         "sourceFile": "phoneUsage.json",
         "dataType": "Uso de Aplicación",
         "name": "Safari",
         "timeSpent": "132h 40m",
-        "subjective_notes": "Añadir anotación aquí..."
+        "subjective_notes": "Para mí, este es mi navegador principal en el teléfono."
       }
     },
     {
@@ -261,15 +263,15 @@
       "rank": 3,
       "tags": [
         "Teléfono",
-        "Social",
-        "Inconsciente"
+        "#tlf", "Propio","Mensajería", "Comunicación", "Redes Sociales",
+        "Consciente"
       ],
       "details": {
         "sourceFile": "phoneUsage.json",
         "dataType": "Uso de Aplicación",
         "name": "WhatsApp",
         "timeSpent": "112h 00m",
-        "subjective_notes": "Añadir anotación aquí..."
+        "subjective_notes": "WhatsApp es mi aplicación principal de mensajería. La uso para comunicarme con mis amigos y familiares, enviar fotos y vídeos, y hacer llamadas de voz y vídeo. "
       }
     },
     {
@@ -281,16 +283,16 @@
       "platformId": 8,
       "rank": 4,
       "tags": [
+        "Propio",
         "Teléfono",
-        "Viajes",
-        "Propio", "Consciente"
+        "Movilidad", "Utilidades", "@email",    "Viajes", "Consciente"
       ],
       "details": {
         "sourceFile": "phoneUsage.json",
         "dataType": "Uso de Aplicación",
         "name": "Google Maps",
         "timeSpent": "42h 30m",
-        "subjective_notes": "Añadir anotación aquí..."
+        "subjective_notes": "En Madrid siempre uso Google Maps para moverme, ya que es la mejor opción para ver el transporte público y las rutas a pie. También lo uso cuando viajo a otras ciudades."
       }
     },
     {
@@ -302,16 +304,17 @@
       "platformId": 3,
       "rank": 5,
       "tags": [
+        "Propio",
+        "Consciente",
         "Teléfono",
-        "Social",
-        "Inconsciente"
+        "Vídeos", "Redes Sociales", "Entretenimiento", "Vídeos", "#tlf"
       ],
       "details": {
         "sourceFile": "phoneUsage.json",
         "dataType": "Uso de Aplicación",
         "name": "TikTok",
         "timeSpent": "38h 30m",
-        "subjective_notes": "Añadir anotación aquí..."
+        "subjective_notes": "Ya no uso tanto TikTok como antes, ahora solo me meto cuando alguien me pasa algo o para buscar un meme, y a veces me quedo ahí."
       }
     },
     {
@@ -324,15 +327,15 @@
       "rank": 6,
       "tags": [
         "Teléfono",
-        "Social",
-        "Inconsciente"
+        "Juegos", "Social", "Propio", "Entretenimiento",
+        "Consciente"
       ],
       "details": {
         "sourceFile": "phoneUsage.json",
         "dataType": "Uso de Aplicación",
         "name": "Plato",
         "timeSpent": "35h 20m",
-        "subjective_notes": "Añadir anotación aquí..."
+        "subjective_notes": "Una amiga nos enseñó a mi novia y a mí esta app, y nos gustó mucho. Es una plataforma de juegos donde puedes jugar con tus amigos a juegos online como Hundiendo la flota, Mini-golf, etc. La usamos bastante cuando estamos lejos."
       }
     },
     {
@@ -344,16 +347,17 @@
       "platformId": 1,
       "rank": 7,
       "tags": [
+        "Propio",
+        "Consciente",
         "Teléfono",
-        "Entretenimiento",
-        "Inconsciente"
+        "Música", "Audio", "Entretenimiento", "@email"
       ],
       "details": {
         "sourceFile": "phoneUsage.json",
         "dataType": "Uso de Aplicación",
         "name": "Spotify",
         "timeSpent": "28h 50m",
-        "subjective_notes": "Añadir anotación aquí..."
+        "subjective_notes": "Me encanta trabajar con música y Spotify es mi plataforma principal. Escucho música mientras trabajo, estudio y hago ejercicio. También me gusta descubrir música nueva y crear listas de reproducción. Lo uso más en el teléfono que en el ordenador, ya que me gusta escuchar música mientras me muevo por la ciudad."
       }
     },
     {
@@ -367,14 +371,14 @@
       "tags": [
         "Teléfono",
         "Utilidades",
-        "Inconsciente"
+        "Consciente", "Correo Electrónico", "Utilidades", "Mensajería", "Comunicación", "@email"
       ],
       "details": {
         "sourceFile": "phoneUsage.json",
         "dataType": "Uso de Aplicación",
         "name": "Gmail",
         "timeSpent": "22h 10m",
-        "subjective_notes": "Añadir anotación aquí..."
+        "subjective_notes": "Es la plataforma determinada para manadar correos electrónicos en mi trabajo y estudios. La uso para enviar y recibir correos, etc."
       }
     },
     {
@@ -386,16 +390,17 @@
       "platformId": 5,
       "rank": 9,
       "tags": [
+        "Propio",
+        "Consciente",
         "Teléfono",
-        "Entretenimiento",
-        "Inconsciente"
+        "Entretenimiento", "Utilidades"
       ],
       "details": {
         "sourceFile": "phoneUsage.json",
         "dataType": "Uso de Aplicación",
         "name": "Fire TV",
         "timeSpent": "20h 40m",
-        "subjective_notes": "Añadir anotación aquí..."
+        "subjective_notes": "Hace un tiempo perdimos el mando del FireTV en mi piso y nos hemos tenido que descargar cada uno en su móvil la app para poder ver la tele."
       }
     },
     {
@@ -408,15 +413,15 @@
       "rank": 10,
       "tags": [
         "Teléfono",
-        "Entretenimiento",
-        "Inconsciente"
+       
+        "Consciente", "Propio", "Cómics", "Entretenimiento", "@email"
       ],
       "details": {
         "sourceFile": "phoneUsage.json",
         "dataType": "Uso de Aplicación",
         "name": "WEBTOON",
         "timeSpent": "19h 15m",
-        "subjective_notes": "Añadir anotación aquí..."
+        "subjective_notes": "Me he aficionado a leer mangas y cómics en WEBTOON. Me gusta leer historias de fantasía y romance, y esta app tiene una gran variedad de géneros y autores."
       }
     },
     {
@@ -429,15 +434,15 @@
       "rank": 1,
       "tags": [
         "Teléfono",
-        "Social",
-        "Inconsciente"
+        "Propio","Redes Sociales", "Comunicación", "Entretenimiento", "Fotografía",
+        "Consciente"
       ],
       "details": {
         "sourceFile": "phoneUsage.json",
         "dataType": "Uso de Aplicación",
         "name": "Instagram",
         "timeSpent": "524h 20m",
-        "subjective_notes": "Añadir anotación aquí..."
+        "subjective_notes": "Probablemente, esta sea la red social que más uso. Me gusta ver fotos y vídeos de mis amigos, seguir a creadores de contenido y descubrir nuevas tendencias. También uso Instagram para comunicarme con mis amigos."
       }
     },
     {
@@ -451,14 +456,14 @@
       "tags": [
         "Teléfono",
         "Utilidades",
-        "Inconsciente"
+        "Consciente", "Propio", "Navegación", "Utilidades"
       ],
       "details": {
         "sourceFile": "phoneUsage.json",
         "dataType": "Uso de Aplicación",
         "name": "Safari",
         "timeSpent": "248h 45m",
-        "subjective_notes": "Añadir anotación aquí..."
+        "subjective_notes": "Para mí, este es mi navegador principal en el teléfono."
       }
     },
     {
@@ -471,15 +476,15 @@
       "rank": 3,
       "tags": [
         "Teléfono",
-        "Social",
-        "Inconsciente"
+        "#tlf", "Propio","Mensajería", "Comunicación", "Redes Sociales",
+        "Consciente"
       ],
       "details": {
         "sourceFile": "phoneUsage.json",
         "dataType": "Uso de Aplicación",
         "name": "WhatsApp",
         "timeSpent": "197h 10m",
-        "subjective_notes": "Añadir anotación aquí..."
+        "subjective_notes": "WhatsApp es mi aplicación principal de mensajería. La uso para comunicarme con mis amigos y familiares, enviar fotos y vídeos, y hacer llamadas de voz y vídeo. "
       }
     },
     {
@@ -491,16 +496,16 @@
       "platformId": 8,
       "rank": 4,
       "tags": [
+        "Propio",
         "Teléfono",
-        "Viajes",
-        "Propio", "Consciente"
+        "Movilidad", "Utilidades", "@email",    "Viajes", "Consciente"
       ],
       "details": {
         "sourceFile": "phoneUsage.json",
         "dataType": "Uso de Aplicación",
         "name": "Google Maps",
         "timeSpent": "88h 30m",
-        "subjective_notes": "Añadir anotación aquí..."
+        "subjective_notes": "En Madrid siempre uso Google Maps para moverme, ya que es la mejor opción para ver el transporte público y las rutas a pie. También lo uso cuando viajo a otras ciudades."
       }
     },
     {
@@ -512,16 +517,17 @@
       "platformId": 3,
       "rank": 5,
       "tags": [
+        "Propio",
+        "Consciente",
         "Teléfono",
-        "Social",
-        "Inconsciente"
+        "Vídeos", "Redes Sociales", "Entretenimiento", "Vídeos", "#tlf"
       ],
       "details": {
         "sourceFile": "phoneUsage.json",
         "dataType": "Uso de Aplicación",
         "name": "TikTok",
         "timeSpent": "76h 35m",
-        "subjective_notes": "Añadir anotación aquí..."
+        "subjective_notes": "Ya no uso tanto TikTok como antes, ahora solo me meto cuando alguien me pasa algo o para buscar un meme, y a veces me quedo ahí."
       }
     },
     {
@@ -533,16 +539,17 @@
       "platformId": 1,
       "rank": 6,
       "tags": [
-        "Teléfono",
-        "Entretenimiento",
-        "Inconsciente"
+        "Propio",
+              "Consciente",
+              "Teléfono",
+              "Música", "Audio", "Entretenimiento", "@email"
       ],
       "details": {
         "sourceFile": "phoneUsage.json",
         "dataType": "Uso de Aplicación",
         "name": "Spotify",
         "timeSpent": "65h 10m",
-        "subjective_notes": "Añadir anotación aquí..."
+        "subjective_notes": "Me encanta trabajar con música y Spotify es mi plataforma principal. Escucho música mientras trabajo, estudio y hago ejercicio. También me gusta descubrir música nueva y crear listas de reproducción. Lo uso más en el teléfono que en el ordenador, ya que me gusta escuchar música mientras me muevo por la ciudad."
       }
     },
     {
@@ -555,15 +562,15 @@
       "rank": 7,
       "tags": [
         "Teléfono",
-        "Social",
-        "Inconsciente"
+        "Juegos", "Social", "Propio", "Entretenimiento",
+        "Consciente"
       ],
       "details": {
         "sourceFile": "phoneUsage.json",
         "dataType": "Uso de Aplicación",
         "name": "Plato",
         "timeSpent": "58h 20m",
-        "subjective_notes": "Añadir anotación aquí..."
+        "subjective_notes": "Una amiga nos enseñó a mi novia y a mí esta app, y nos gustó mucho. Es una plataforma de juegos donde puedes jugar con tus amigos a juegos online como Hundiendo la flota, Mini-golf, etc. La usamos bastante cuando estamos lejos."
       }
     },
     {
@@ -575,16 +582,17 @@
       "platformId": 5,
       "rank": 8,
       "tags": [
+        "Propio",
+        "Consciente",
         "Teléfono",
-        "Entretenimiento",
-        "Inconsciente"
+        "Entretenimiento", "Utilidades"
       ],
       "details": {
         "sourceFile": "phoneUsage.json",
         "dataType": "Uso de Aplicación",
         "name": "Fire TV",
         "timeSpent": "46h 55m",
-        "subjective_notes": "Añadir anotación aquí..."
+        "subjective_notes": "Hace un tiempo perdimos el mando del FireTV en mi piso y nos hemos tenido que descargar cada uno en su móvil la app para poder usarlo."
       }
     },
     {
@@ -597,15 +605,15 @@
       "rank": 9,
       "tags": [
         "Teléfono",
-        "Entretenimiento",
-        "Inconsciente"
+  
+        "Consciente", "Propio", "Cómics", "Entretenimiento", "@email"
       ],
       "details": {
         "sourceFile": "phoneUsage.json",
         "dataType": "Uso de Aplicación",
         "name": "WEBTOON",
         "timeSpent": "40h 30m",
-        "subjective_notes": "Añadir anotación aquí..."
+        "subjective_notes": "Me he aficionado a leer mangas y cómics en WEBTOON. Me gusta leer historias de fantasía y romance, y esta app tiene una gran variedad de géneros y autores."
       }
     },
     {
@@ -619,14 +627,14 @@
       "tags": [
         "Teléfono",
         "Utilidades",
-        "Inconsciente"
+        "Consciente", "Correo Electrónico", "Utilidades", "Mensajería", "Comunicación", "@email"
       ],
       "details": {
         "sourceFile": "phoneUsage.json",
         "dataType": "Uso de Aplicación",
         "name": "Gmail",
         "timeSpent": "34h 25m",
-        "subjective_notes": "Añadir anotación aquí..."
+        "subjective_notes": "Es la plataforma determinada para manadar correos electrónicos en mi trabajo y estudios. La uso para enviar y recibir correos, etc."
       }
     },
     {
@@ -640,7 +648,7 @@
       "tags": [
         "Salud",
         "Movimiento",
-        "Propio"
+        "Propio", "Inconsciente", "Teléfono"
       ],
       "details": {
         "sourceFile": "steps_data.json",
@@ -649,7 +657,7 @@
         "endDate": "2025-08-10",
         "averageDailySteps": 2327,
         "totalSteps": 65156,
-        "subjective_notes": "Añadir anotación aquí..."
+        "subjective_notes": "Al tener miastenía gravis, no puedo hacer mucho ejercicio, pero intento caminar todos los días. A veces me cuesta, pero es importante para mi salud. Me gusta usar la app de salud del iPhone para ver mis pasos diarios y motivarme a caminar más."
       }
     },
     {
@@ -663,7 +671,7 @@
       "tags": [
         "Salud",
         "Movimiento",
-        "Propio"
+        "Propio", "Inconsciente", "Teléfono"
       ],
       "details": {
         "sourceFile": "steps_data.json",
@@ -672,7 +680,7 @@
         "endDate": "2025-08-10",
         "averageDailySteps": 4917,
         "totalSteps": 894494,
-        "subjective_notes": "Añadir anotación aquí..."
+        "subjective_notes": "Al tener miastenía gravis, no puedo hacer mucho ejercicio, pero intento caminar todos los días. A veces me cuesta, pero es importante para mi salud. Me gusta usar la app de salud del iPhone para ver mis pasos diarios y motivarme a caminar más."
       }
     },
     {
@@ -686,7 +694,7 @@
       "tags": [
         "Salud",
         "Movimiento",
-        "Propio"
+        "Propio", "Inconsciente", "Teléfono"
       ],
       "details": {
         "sourceFile": "steps_data.json",
@@ -695,7 +703,7 @@
         "endDate": "2025-07-10",
         "averageDailySteps": 4762,
         "totalSteps": 1738130,
-        "subjective_notes": "Añadir anotación aquí..."
+        "subjective_notes": "Al tener miastenía gravis, no puedo hacer mucho ejercicio, pero intento caminar todos los días. A veces me cuesta, pero es importante para mi salud. Me gusta usar la app de salud del iPhone para ver mis pasos diarios y motivarme a caminar más."
       }
     },
     {
@@ -709,7 +717,7 @@
       "tags": [
         "Movilidad",
         "Ubicaciones",
-        "Propio", "Consciente"
+        "Propio", "Consciente", "@email", "Teléfono"
       ],
       "details": {
         "sourceFile": "geolocation.json",
@@ -718,7 +726,7 @@
         "to": "Calle de las Delicias 25, Madrid",
         "schedule": "Un fin de semana sí, uno no",
         "period": "Último mes",
-        "subjective_notes": "Añadir anotación aquí..."
+        "subjective_notes": "Suelo ir a la casa de mi novia los fines de semana, y a veces entre semana. Es un lugar habitual para mi, ya que pasamos mucho tiempo juntos allí."
       }
     },
     {
@@ -732,7 +740,7 @@
       "tags": [
         "Movilidad",
         "Ubicaciones",
-        "Propio", "Consciente"
+        "Propio", "Consciente", "@email", "Teléfono"
       ],
       "details": {
         "sourceFile": "geolocation.json",
@@ -741,7 +749,7 @@
         "to": "ALCAMPO Moratalaz",
         "schedule": "1 vez por semana",
         "period": "Último mes",
-        "subjective_notes": "Añadir anotación aquí..."
+        "subjective_notes": "Suelo ir a hacer la compra al ALCAMPO de Moratalaz una vez a la semana. Es un lugar habitual para mí, ya que compro allí la mayoría de productos. Si no, voy al Día, que está más cerca de mi casa."
       }
     },
     {
@@ -755,7 +763,7 @@
       "tags": [
         "Movilidad",
         "Ubicaciones",
-        "Propio", "Consciente"
+        "Propio", "Consciente", "@email", "Teléfono"
       ],
       "details": {
         "sourceFile": "geolocation.json",
@@ -764,7 +772,7 @@
         "to": "100Montadtos Moratalaz",
         "schedule": "1 vez por semana",
         "period": "Último mes",
-        "subjective_notes": "Añadir anotación aquí..."
+        "subjective_notes": "Intentamos ir a tomarnos algo (normalmente los Miércoles, que es más barato) los ed mi piso para hacer un poco de vida fuera."
       }
     },
     {
@@ -778,7 +786,7 @@
       "tags": [
         "Movilidad",
         "Ubicaciones",
-        "Propio", "Consciente"
+        "Propio", "Consciente", "@email", "Teléfono"
       ],
       "details": {
         "sourceFile": "geolocation.json",
@@ -802,15 +810,16 @@
       "tags": [
         "Movilidad",
         "Lugares",
-        "Propio", "Consciente"
+        "Propio", "Consciente" ,
+        "Teléfono",
+       "@email",    "Viajes"
       ],
       "details": {
         "sourceFile": "GMAPS_location-history.json",
         "dataType": "Historial de ubicaciones",
         "place": "geo:40.413538,-3.665820",
         "placeID": "ChIJZVSc3AEmQg0Ri3e4rRio16o",
-        "visitCount": 32,
-        "subjective_notes": "Añadir anotación aquí..."
+        "visitCount": 32
       }
     },
     {
@@ -823,8 +832,10 @@
         "rank": 4,
         "tags": [
           "Movilidad",
-          "Ubicaciones",
-          "Propio", "Consciente"
+          "Lugares",
+          "Propio", "Consciente" ,
+          "Teléfono",
+         "@email",    "Viajes"
         ],
         "details": {
           "sourceFile": "geolocation.json",
@@ -846,8 +857,10 @@
         "rank": 5,
         "tags": [
           "Movilidad",
-          "Ubicaciones",
-          "Propio", "Consciente"
+          "Lugares",
+          "Propio", "Consciente" ,
+          "Teléfono",
+         "@email",    "Viajes"
         ],
         "details": {
           "sourceFile": "geolocation.json",
@@ -869,8 +882,10 @@
         "rank": 0,
         "tags": [
           "Movilidad",
-          "Ubicaciones",
-          "Propio", "Consciente"
+          "Lugares",
+          "Propio", "Consciente" ,
+          "Teléfono",
+         "@email",    "Viajes"
         ],
         "details": {
           "sourceFile": "geolocation.json",
@@ -893,8 +908,10 @@
         "rank": 4,
         "tags": [
           "Movilidad",
-          "Ubicaciones",
-          "Propio", "Consciente"
+        "Lugares",
+        "Propio", "Consciente" ,
+        "Teléfono",
+       "@email",    "Viajes"
         ],
         "details": {
           "sourceFile": "geolocation.json",
@@ -916,8 +933,10 @@
         "rank": 0,
         "tags": [
           "Movilidad",
-          "Ubicaciones",
-          "Propio", "Consciente"
+        "Lugares",
+        "Propio", "Consciente" ,
+        "Teléfono",
+       "@email",    "Viajes"
         ],
         "details": {
           "sourceFile": "geolocation.json",
@@ -939,9 +958,11 @@
       "platformId": 8,
       "rank": 2,
       "tags": [
-        "Movilidad",
+      "Movilidad",
         "Lugares",
-        "Propio", "Consciente"
+        "Propio", "Consciente" ,
+        "Teléfono",
+       "@email",    "Viajes"
       ],
       "details": {
         "sourceFile": "GMAPS_location-history.json",
@@ -949,7 +970,7 @@
         "place": "geo:40.404150,-3.692399",
         "placeID": "ChIJPWYtXCUmQg0RVe-a0Fd7IT4",
         "visitCount": 10,
-        "subjective_notes": "Añadir anotación aquí..."
+        "subjective_notes": "Suelo ir a la casa de mi novia los fines de semana, y a veces entre semana. Es un lugar habitual para mi, ya que pasamos mucho tiempo juntos allí."
       }
     },
     {
@@ -961,9 +982,11 @@
       "platformId": 8,
       "rank": 3,
       "tags": [
-        "Movilidad",
+      "Movilidad",
         "Lugares",
-        "Propio", "Consciente"
+        "Propio", "Consciente" ,
+        "Teléfono",
+       "@email",    "Viajes"
       ],
       "details": {
         "sourceFile": "GMAPS_location-history.json",
@@ -984,9 +1007,11 @@
       "platformId": 8,
       "rank": 4,
       "tags": [
-        "Movilidad",
+      "Movilidad",
         "Lugares",
-        "Propio", "Consciente"
+        "Propio", "Consciente" ,
+        "Teléfono",
+       "@email",    "Viajes"
       ],
       "details": {
         "sourceFile": "GMAPS_location-history.json",
@@ -1006,17 +1031,18 @@
         "platformId": 8,
         "rank": 1,
         "tags": [
-            "Movilidad",
-            "Lugares",
-            "Propio", "Consciente"
+          "Movilidad",
+          "Lugares",
+          "Propio", "Consciente" ,
+          "Teléfono",
+         "@email",    "Viajes"
         ],
         "details": {
             "sourceFile": "GMAPS_location-history.json",
             "dataType": "Historial de ubicaciones",
             "place": "geo:40.413538,-3.665820",
             "placeID": "ChIJZVSc3AEmQg0Ri3e4rRio16o",
-            "visitCount": 11,
-            "subjective_notes": "Añadir anotación aquí..."
+            "visitCount": 11
 
         }
     },
@@ -1029,9 +1055,11 @@
         "platformId": 8,
         "rank": 2,
         "tags": [
-            "Movilidad",
-            "Lugares",
-            "Propio", "Consciente"
+          "Movilidad",
+          "Lugares",
+          "Propio", "Consciente" ,
+          "Teléfono",
+         "@email",    "Viajes"
         ],
         "details": {
             "sourceFile": "GMAPS_location-history.json",
@@ -1039,7 +1067,7 @@
             "place": "geo:40.404150,-3.692399",
             "placeID": "ChIJPWYtXCUmQg0RVe-a0Fd7IT4",
             "visitCount": 3,
-            "subjective_notes": "Añadir anotación aquí..."
+            "subjective_notes": "Suelo ir a la casa de mi novia los fines de semana, y a veces entre semana. Es un lugar habitual para mi, ya que pasamos mucho tiempo juntos allí."
 
         }
     },
@@ -1052,17 +1080,18 @@
         "platformId": 8,
         "rank": 1,
         "tags": [
-            "Movilidad",
-            "Lugares",
-            "Propio", "Consciente"
+          "Movilidad",
+          "Lugares",
+          "Propio", "Consciente" ,
+          "Teléfono",
+         "@email",    "Viajes"
         ],
         "details": {
             "sourceFile": "GMAPS_location-history.json",
             "dataType": "Historial de ubicaciones",
             "place": "geo:40.413538,-3.665820",
             "placeID": "ChIJZVSc3AEmQg0Ri3e4rRio16o",
-            "visitCount": 112,
-            "subjective_notes": "Añadir anotación aquí..."
+            "visitCount": 112
 
         }
     },
@@ -1075,9 +1104,11 @@
         "platformId": 8,
         "rank": 2,
         "tags": [
-            "Movilidad",
-            "Lugares",
-            "Propio", "Consciente"
+          "Movilidad",
+          "Lugares",
+          "Propio", "Consciente" ,
+          "Teléfono",
+         "@email",    "Viajes"
         ],
         "details": {
             "sourceFile": "GMAPS_location-history.json",
@@ -1085,7 +1116,7 @@
             "place": "geo:40.404150,-3.692399",
             "placeID": "ChIJPWYtXCUmQg0RVe-a0Fd7IT4",
             "visitCount": 45,
-            "subjective_notes": "Añadir anotación aquí..."
+            "subjective_notes": "Suelo ir a la casa de mi novia los fines de semana, y a veces entre semana. Es un lugar habitual para mi, ya que pasamos mucho tiempo juntos allí."
 
         }
     },
@@ -1104,7 +1135,7 @@
         "sourceFile": "INSTA_recommended_topics.json",
         "dataType": "Temas recomendados",
         "name": "Crafts",
-        "subjective_notes": "Añadir anotación aquí..."
+        "subjective_notes": "Me interesan los proyectos artísticos y de manualidades."
       }
     },
     {
@@ -1122,7 +1153,7 @@
         "sourceFile": "INSTA_recommended_topics.json",
         "dataType": "Temas recomendados",
         "name": "Fish",
-        "subjective_notes": "Añadir anotación aquí..."
+        "subjective_notes": "Me han gustado siempre los peces, pero son complicados de mantener."
       }
     },
     {
@@ -1140,27 +1171,10 @@
         "sourceFile": "INSTA_recommended_topics.json",
         "dataType": "Temas recomendados",
         "name": "Woodworking",
-        "subjective_notes": "Añadir anotación aquí..."
+        "subjective_notes": "Me relaja ver a la gente trabajar con madera."
       }
     },
-    {
-      "id": "insta-topic-meat-seafood",
-      "title": "Tema recomendado — Meat & Seafood",
-      "artists": "",
-      "awareness": 2,
-      "timeBucket": "4w",
-      "platformId": 4,
-      "rank": 4,
-      "tags": [
-      "Redes Sociales", "Propio", "Sugerencias","Inconsciente", "Teléfono", "#tlf", "@email"
-      ],
-      "details": {
-        "sourceFile": "INSTA_recommended_topics.json",
-        "dataType": "Temas recomendados",
-        "name": "Meat & Seafood",
-        "subjective_notes": "Añadir anotación aquí..."
-      }
-    },
+  
     {
       "id": "insta-topic-video-games",
       "title": "Tema recomendado — Video Games",
@@ -1176,7 +1190,7 @@
         "sourceFile": "INSTA_recommended_topics.json",
         "dataType": "Temas recomendados",
         "name": "Video Games",
-        "subjective_notes": "Añadir anotación aquí..."
+        "subjective_notes": "Me gustan los videojuegos, pero no tengo tiempo para jugar tanto como antes. Me gusta ver gameplays y noticias sobre videojuegos."
       }
     },
     {
@@ -1194,7 +1208,7 @@
         "sourceFile": "INSTA_recommended_topics.json",
         "dataType": "Temas recomendados",
         "name": "Fashion Products",
-        "subjective_notes": "Añadir anotación aquí..."
+        "subjective_notes": "No estoy a la última en moda, pero me gusta ver productos de moda y tendencias. Me gusta ver ropa y accesorios que me puedan gustar."
       }
     },
     {
@@ -1206,33 +1220,16 @@
       "platformId": 4,
       "rank": 7,
       "tags": [
-      "Redes Sociales", "Propio", "Sugerencias","Inconsciente", "Teléfono", "#tlf", "@email"
+      "Redes Sociales", "Propio", "Sugerencias","Inconsciente", "Teléfono", "#tlf", "@email", "Contaminado"
       ],
       "details": {
         "sourceFile": "INSTA_recommended_topics.json",
         "dataType": "Temas recomendados",
         "name": "Lip Makeup",
-        "subjective_notes": "Añadir anotación aquí..."
+        "subjective_notes": "Esto es por mi novia, ya que yo no uso pintalabios nunca."
       }
     },
-    {
-      "id": "insta-topic-tabletop-sports",
-      "title": "Tema recomendado — Tabletop Sports",
-      "artists": "",
-      "awareness": 2,
-      "timeBucket": "4w",
-      "platformId": 4,
-      "rank": 8,
-      "tags": [
-      "Redes Sociales", "Propio", "Sugerencias","Inconsciente", "Teléfono", "#tlf", "@email"
-      ],
-      "details": {
-        "sourceFile": "INSTA_recommended_topics.json",
-        "dataType": "Temas recomendados",
-        "name": "Tabletop Sports",
-        "subjective_notes": "Añadir anotación aquí..."
-      }
-    },
+
     {
       "id": "insta-topic-board-games",
       "title": "Tema recomendado — Board Games",
@@ -1248,7 +1245,7 @@
         "sourceFile": "INSTA_recommended_topics.json",
         "dataType": "Temas recomendados",
         "name": "Board Games",
-        "subjective_notes": "Añadir anotación aquí..."
+        "subjective_notes": "Me gustan los juegos de mesa, pero no tengo mucho tiempo para jugar. Me gusta ver reseñas y gameplays de juegos de mesa."
       }
     },
     {
@@ -1260,13 +1257,13 @@
       "platformId": 4,
       "rank": 10,
       "tags": [
-      "Redes Sociales", "Propio", "Sugerencias","Inconsciente", "Teléfono", "#tlf", "@email"
+      "Redes Sociales", "Propio", "Sugerencias","Inconsciente", "Teléfono", "#tlf", "@email", "Contaminado"
       ],
       "details": {
         "sourceFile": "INSTA_recommended_topics.json",
         "dataType": "Temas recomendados",
         "name": "Nail Care Product Types",
-        "subjective_notes": "Añadir anotación aquí..."
+        "subjective_notes": "Esto es por mi novia, ya que ha trabajado de manicurista."
       }
     },
     {
@@ -1284,7 +1281,7 @@
         "sourceFile": "INSTA_recommended_topics.json",
         "dataType": "Temas recomendados",
         "name": "Gym Workouts",
-        "subjective_notes": "Añadir anotación aquí..."
+        "subjective_notes": "Intento motivarme a hacer ejercicio, pero no tengo tiempo para ir al gimnasio y con la miastenía me cuesta mucho. Me gusta ver rutinas de ejercicios y consejos de entrenamiento."
       }
     },
     {
@@ -1302,7 +1299,7 @@
         "sourceFile": "INSTA_recommended_topics.json",
         "dataType": "Temas recomendados",
         "name": "Trading Card Games",
-        "subjective_notes": "Añadir anotación aquí..."
+        "subjective_notes": "Me obsesioné una época con las cartas de Pokémon y me gustaba ver cómo abrían sobres de cartas y hacían colecciones. "
       }
     },
     {
@@ -1320,7 +1317,7 @@
         "sourceFile": "INSTA_recommended_topics.json",
         "dataType": "Temas recomendados",
         "name": "Body Modification",
-        "subjective_notes": "Añadir anotación aquí..."
+        "subjective_notes": "Me parece interesante ver cambios estéticos de gente."
       }
     },
     {
@@ -1338,7 +1335,7 @@
         "sourceFile": "INSTA_recommended_topics.json",
         "dataType": "Temas recomendados",
         "name": "Birds",
-        "subjective_notes": "Añadir anotación aquí..."
+        "subjective_notes": "Hay muchos tipos de pájaros y me gusta ver fotos y vídeos de ellos. Me gustan especialmente los loros y las aves exóticas."
       }
     },
     {
@@ -1355,8 +1352,7 @@
       "details": {
         "sourceFile": "INSTA_recommended_topics.json",
         "dataType": "Temas recomendados",
-        "name": "Video Game Consoles & Hardware",
-        "subjective_notes": "Añadir anotación aquí..."
+        "name": "Video Game Consoles & Hardware"
       }
     },
     {
@@ -1374,7 +1370,7 @@
         "sourceFile": "INSTA_recommended_topics.json",
         "dataType": "Temas recomendados",
         "name": "AR/VR Games",
-        "subjective_notes": "Añadir anotación aquí..."
+        "subjective_notes": "El estilo de juego de realidad aumentada y realidad virtual me parece muy loco, aunque no tengo dispositivos para jugar a estos juegos."
       }
     },
     {
@@ -1392,7 +1388,7 @@
         "sourceFile": "INSTA_recommended_topics.json",
         "dataType": "Temas recomendados",
         "name": "Turtles",
-        "subjective_notes": "Añadir anotación aquí..."
+        "subjective_notes": "A mi abuela le encantaban las tortugas, y supongo que por eso me llaman tanto la atención. Me gusta ver fotos y vídeos de tortugas marinas."
       }
     },
     {
@@ -1410,7 +1406,7 @@
         "sourceFile": "INSTA_recommended_topics.json",
         "dataType": "Temas recomendados",
         "name": "Frogs & Toads",
-        "subjective_notes": "Añadir anotación aquí..."
+        "subjective_notes": "Me gusta ver los terrarios y acarios de ranas y sapos, y ver cómo los cuidan. Me parecen animales muy interesantes."
       }
     },
     {
@@ -1428,7 +1424,7 @@
         "sourceFile": "INSTA_recommended_topics.json",
         "dataType": "Temas recomendados",
         "name": "Snakes",
-        "subjective_notes": "Añadir anotación aquí..."
+        "subjective_notes": "Me gustan las serpientes y me gusta ver fotos y vídeos de ellas. Me parece interesante ver cómo las cuidan y cómo las alimentan."
       }
     },
     {
@@ -1446,7 +1442,7 @@
         "sourceFile": "INSTA_recommended_topics.json",
         "dataType": "Temas recomendados",
         "name": "Southeast Asia Travel & Tourism",
-        "subjective_notes": "Añadir anotación aquí..."
+        "subjective_notes": "Me encantaría poder viajar a Asia, especialmente al sudeste asiático. Me gusta ver fotos y vídeos de los paisajes, la cultura y la comida de allí."
       }
     },
     {
@@ -1458,7 +1454,7 @@
         "platformId": 4,
         "rank": 1,
         "tags": [
-          "Instagram","Video",
+          "Propio","Redes Sociales", "Comunicación", "Entretenimiento", "Fotografía","Video",
           "Inconsciente"
         ],
         "details": {
@@ -1466,7 +1462,7 @@
           "dataType": "Videos de Instagram Vistos",
           "author": "tso.vj",
           "viewCount": 10,
-          "subjective_notes": "Añadir anotación aquí..."
+          "subjective_notes": "Esta cuenta es de un chico que se dedica a hacer visuales para DJs y festivales. Me gusta ver sus trabajos porque me inspiran para mis proyectos de visuales."
         }
       },
       {
@@ -1478,15 +1474,15 @@
         "platformId": 4,
         "rank": 2,
         "tags": [
-          "Instagram","Video",
-          "Inconsciente"
+          "Propio","Redes Sociales", "Comunicación", "Entretenimiento", "Fotografía","Video",
+          "Inconsciente", "LGTBQ+"
         ],
         "details": {
           "sourceFile": "INSTA_videos_watched.json",
           "dataType": "Videos de Instagram Vistos",
           "author": "catherine_mccaff",
           "viewCount": 10,
-          "subjective_notes": "Añadir anotación aquí..."
+          "subjective_notes": "Esta chica es una host de un programa de YouTube que me gusta mucho, y suelo ver sus vídeos en Instagram. Me gusta su estilo y su forma de presentar las cosas."
         }
       },
       {
@@ -1498,15 +1494,15 @@
         "platformId": 4,
         "rank": 3,
         "tags": [
-          "Instagram","Video",
-          "Inconsciente"
+          "Propio","Redes Sociales", "Comunicación", "Entretenimiento", "Fotografía","Video",
+          "Inconsciente", "Política"
         ],
         "details": {
           "sourceFile": "INSTA_videos_watched.json",
           "dataType": "Videos de Instagram Vistos",
           "author": "rita_maestre_",
           "viewCount": 8,
-          "subjective_notes": "Añadir anotación aquí..."
+          "subjective_notes": "Últimamente, estoy intentando informarme más sobre política y esta cuenta es de una política que me interesa. Me gusta ver sus vídeos porque me parecen interesantes y me ayudan a entender mejor la situación política actual."
         }
       },
       {
@@ -1518,15 +1514,15 @@
         "platformId": 4,
         "rank": 4,
         "tags": [
-          "Instagram","Video",
-          "Inconsciente"
+          "Propio","Redes Sociales", "Comunicación", "Entretenimiento", "Fotografía","Video",
+          "Inconsciente", "Política"
         ],
         "details": {
           "sourceFile": "INSTA_videos_watched.json",
           "dataType": "Videos de Instagram Vistos",
           "author": "monicagarciag_",
           "viewCount": 8,
-          "subjective_notes": "Añadir anotación aquí..."
+          "subjective_notes": "Últimamente, estoy intentando informarme más sobre política y esta cuenta es de una política que me interesa. Me gusta ver sus vídeos porque me parecen interesantes y me ayudan a entender mejor la situación política actual."
         }
       },
       {
@@ -1538,15 +1534,15 @@
         "platformId": 4,
         "rank": 5,
         "tags": [
-          "Instagram","Video",
-          "Inconsciente"
+          "Propio","Redes Sociales", "Comunicación", "Entretenimiento", "Fotografía","Video",
+          "Inconsciente", "Educativo"
         ],
         "details": {
           "sourceFile": "INSTA_videos_watched.json",
           "dataType": "Videos de Instagram Vistos",
           "author": "udit.es",
           "viewCount": 8,
-          "subjective_notes": "Añadir anotación aquí..."
+          "subjective_notes": "Es de mi antigua universidad, y me gusta ver los vídeos que suben porque suelen ser de eventos interesantes o de proyectos de estudiantes. Me gusta ver cómo se desarrollan los proyectos y las actividades que hacen."
         }
       },
       {
@@ -1558,37 +1554,18 @@
         "platformId": 4,
         "rank": 6,
         "tags": [
-          "Instagram","Video",
-          "Inconsciente"
+          "Propio","Redes Sociales", "Comunicación", "Entretenimiento", "Fotografía","Video",
+          "Inconsciente", "Activismo", "Ropa"
         ],
         "details": {
           "sourceFile": "INSTA_videos_watched.json",
           "dataType": "Videos de Instagram Vistos",
           "author": "chnge",
           "viewCount": 8,
-          "subjective_notes": "Añadir anotación aquí..."
+          "subjective_notes": "Es una cuenta que habla sobre temas de actualidad y de activismo, y me gusta ver sus vídeos porque me parecen interesantes y me ayudan a entender mejor la situación actual. Además, suelen tener una estética muy cuidada y me gusta su estilo, a veces sacan merch."
         }
       },
-      {
-        "id": "insta-watched-6m-u_tad",
-        "title": "Videos vistos de: u_tad",
-        "artists": "Visto 6 veces",
-        "awareness": 2,
-        "timeBucket": "6m",
-        "platformId": 4,
-        "rank": 7,
-        "tags": [
-          "Instagram","Video",
-          "Inconsciente"
-        ],
-        "details": {
-          "sourceFile": "INSTA_videos_watched.json",
-          "dataType": "Videos de Instagram Vistos",
-          "author": "u_tad",
-          "viewCount": 6,
-          "subjective_notes": "Añadir anotación aquí..."
-        }
-      },
+
       {
         "id": "insta-watched-6m-shityoushouldcareabout",
         "title": "Videos vistos de: shityoushouldcareabout",
@@ -1598,15 +1575,15 @@
         "platformId": 4,
         "rank": 8,
         "tags": [
-          "Instagram","Video",
-          "Inconsciente"
+          "Propio","Redes Sociales", "Comunicación", "Entretenimiento", "Fotografía","Video",
+          "Inconsciente", "Activismo"
         ],
         "details": {
           "sourceFile": "INSTA_videos_watched.json",
           "dataType": "Videos de Instagram Vistos",
           "author": "shityoushouldcareabout",
           "viewCount": 6,
-          "subjective_notes": "Añadir anotación aquí..."
+          "subjective_notes": "Es una cuenta que habla sobre temas de actualidad y de activismo, y me gusta ver sus vídeos porque me parecen interesantes y me ayudan a entender mejor la situación actual. "
         }
       },
       {
@@ -1618,15 +1595,15 @@
         "platformId": 4,
         "rank": 9,
         "tags": [
-          "Instagram","Video",
-          "Inconsciente"
+          "Propio","Redes Sociales", "Comunicación", "Entretenimiento", "Fotografía","Video",
+          "Inconsciente", "Humor"
         ],
         "details": {
           "sourceFile": "INSTA_videos_watched.json",
           "dataType": "Videos de Instagram Vistos",
           "author": "mujerdebuenapastaa",
           "viewCount": 6,
-          "subjective_notes": "Añadir anotación aquí..."
+          "subjective_notes": "Es una cuenta de humor que me hace reír mucho, sobretodo cuando sale su padre. Me gusta ver sus vídeos porque son muy graciosos y me hacen desconectar un poco de la rutina diaria."
         }
       },
       {
@@ -1638,15 +1615,15 @@
         "platformId": 4,
         "rank": 10,
         "tags": [
-          "Instagram","Video",
-          "Inconsciente"
+          "Propio","Redes Sociales", "Comunicación", "Entretenimiento", "Fotografía","Video",
+          "Inconsciente", "Viajes"
         ],
         "details": {
           "sourceFile": "INSTA_videos_watched.json",
           "dataType": "Videos de Instagram Vistos",
           "author": "sara_ardi5",
           "viewCount": 6,
-          "subjective_notes": "Añadir anotación aquí..."
+          "subjective_notes": "Es una chica que viaja mucho y me gusta ver sus vídeos porque me inspiran a viajar y conocer nuevos lugares. Me gusta ver sus aventuras y cómo vive la vida al máximo."
         }
       },
       {
@@ -1658,15 +1635,15 @@
         "platformId": 4,
         "rank": 11,
         "tags": [
-          "Instagram","Video",
-          "Inconsciente"
+          "Propio","Redes Sociales", "Comunicación", "Entretenimiento", "Fotografía","Video",
+          "Inconsciente", "Tattoo"
         ],
         "details": {
           "sourceFile": "INSTA_videos_watched.json",
           "dataType": "Videos de Instagram Vistos",
           "author": "popi.pupas",
           "viewCount": 5,
-          "subjective_notes": "Añadir anotación aquí..."
+          "subjective_notes": "Es una cuenta de un tatuador que me gusta mucho, y suelo ver sus vídeos porque me inspiran para mis propios tatuajes. Me gusta su estilo y cómo trabaja. Me lo enseñó mi compañero de piso."
         }
       },
       {
@@ -1678,7 +1655,7 @@
         "platformId": 4,
         "rank": 12,
         "tags": [
-          "Instagram","Video",
+          "Propio","Redes Sociales", "Comunicación", "Entretenimiento", "Fotografía","Video",
           "Inconsciente"
         ],
         "details": {
@@ -1686,49 +1663,11 @@
           "dataType": "Videos de Instagram Vistos",
           "author": "netflixes",
           "viewCount": 4,
-          "subjective_notes": "Añadir anotación aquí..."
+          "subjective_notes": "Es interesante ver nuevas series y películas que están por salir en Netflix. Me gusta ver sus vídeos porque me ayudan a descubrir nuevas series y películas que pueden interesarme."
         }
       },
-      {
-        "id": "insta-watched-6m-yatekomo",
-        "title": "Videos vistos de: yatekomo",
-        "artists": "Visto 4 veces",
-        "awareness": 2,
-        "timeBucket": "6m",
-        "platformId": 4,
-        "rank": 13,
-        "tags": [
-          "Instagram","Video",
-          "Inconsciente"
-        ],
-        "details": {
-          "sourceFile": "INSTA_videos_watched.json",
-          "dataType": "Videos de Instagram Vistos",
-          "author": "yatekomo",
-          "viewCount": 4,
-          "subjective_notes": "Añadir anotación aquí..."
-        }
-      },
-      {
-        "id": "insta-watched-6m-manuela_bergerot",
-        "title": "Videos vistos de: manuela_bergerot",
-        "artists": "Visto 4 veces",
-        "awareness": 2,
-        "timeBucket": "6m",
-        "platformId": 4,
-        "rank": 14,
-        "tags": [
-         "Instagram", "Video",
-          "Inconsciente"
-        ],
-        "details": {
-          "sourceFile": "INSTA_videos_watched.json",
-          "dataType": "Videos de Instagram Vistos",
-          "author": "manuela_bergerot",
-          "viewCount": 4,
-          "subjective_notes": "Añadir anotación aquí..."
-        }
-      },
+   
+     
       {
         "id": "insta-watched-6m-dev_lemons",
         "title": "Videos vistos de: dev_lemons",
@@ -1738,7 +1677,7 @@
         "platformId": 4,
         "rank": 15,
         "tags": [
-          "Instagram","Video",
+          "Propio","Redes Sociales", "Comunicación", "Entretenimiento", "Fotografía","Video",
           "Inconsciente"
         ],
         "details": {
@@ -1746,7 +1685,7 @@
           "dataType": "Videos de Instagram Vistos",
           "author": "dev_lemons",
           "viewCount": 4,
-          "subjective_notes": "Añadir anotación aquí..."
+          "subjective_notes": "Es una chica que hace vídeos muy random con una estética muy cuidada. Me gusta ver sus vídeos porque son divertidos y me hacen reír. Me gusta su estilo y cómo edita sus vídeos."
         }
       },
       {
@@ -1758,7 +1697,7 @@
         "platformId": 4,
         "rank": 16,
         "tags": [
-          "Instagram","Video",
+          "Propio","Redes Sociales", "Comunicación", "Entretenimiento", "Fotografía","Video",
           "Inconsciente"
         ],
         "details": {
@@ -1766,7 +1705,7 @@
           "dataType": "Videos de Instagram Vistos",
           "author": "gamechangershow",
           "viewCount": 4,
-          "subjective_notes": "Añadir anotación aquí..."
+          "subjective_notes": "Es una cuenta que habla sobre videojuegos y cultura geek, y me gusta ver sus vídeos porque me parecen interesantes y me ayudan a entender mejor la cultura de los videojuegos. Me gusta ver sus reseñas de videojuegos y sus análisis."
         }
       },
       {
@@ -1778,15 +1717,15 @@
         "platformId": 4,
         "rank": 17,
         "tags": [
-          "Instagram","Video",
-          "Inconsciente"
+          "Propio","Redes Sociales", "Comunicación", "Entretenimiento", "Fotografía","Video",
+          "Inconsciente", "Ciencia", "Tecnología", "Educativo"
         ],
         "details": {
           "sourceFile": "INSTA_videos_watched.json",
           "dataType": "Videos de Instagram Vistos",
           "author": "cleoabram",
           "viewCount": 4,
-          "subjective_notes": "Añadir anotación aquí..."
+          "subjective_notes": "Es una chica que habla sobre ciencia y tecnología, y me gusta ver sus vídeos porque me parecen interesantes y me ayudan a entender mejor el mundo del desarrollo tecnológico. Me gusta su estilo y cómo explica las cosas de forma sencilla."
         }
       },
       {
@@ -1798,7 +1737,7 @@
         "platformId": 4,
         "rank": 18,
         "tags": [
-          "Instagram","Video",
+          "Propio","Redes Sociales", "Comunicación", "Entretenimiento", "Fotografía","Video",
           "Inconsciente"
         ],
         "details": {
@@ -1806,7 +1745,7 @@
           "dataType": "Videos de Instagram Vistos",
           "author": "ellmari.e",
           "viewCount": 4,
-          "subjective_notes": "Añadir anotación aquí..."
+          "subjective_notes": "Es una chica que tiene unos tatuajes y un rollo muy guay."
         }
       },
       {
@@ -1818,15 +1757,15 @@
         "platformId": 4,
         "rank": 19,
         "tags": [
-          "Instagram","Video",
-          "Inconsciente"
+          "Propio","Redes Sociales", "Comunicación", "Entretenimiento", "Fotografía","Video",
+          "Inconsciente", "Educativo", "Diseño"
         ],
         "details": {
           "sourceFile": "INSTA_videos_watched.json",
           "dataType": "Videos de Instagram Vistos",
           "author": "labasad_design",
           "viewCount": 4,
-          "subjective_notes": "Añadir anotación aquí..."
+          "subjective_notes": "Es una cuenta de una escuela de diseño que me gusta mucho, y suelo ver sus vídeos porque me inspiran para mis propios proyectos de diseño. Me gusta su estilo y cómo trabajan. Me lo enseñó mi compañero de piso."
         }
       },
       {
@@ -1838,15 +1777,15 @@
         "platformId": 4,
         "rank": 20,
         "tags": [
-          "Instagram","Video",
-          "Inconsciente"
+          "Propio","Redes Sociales", "Comunicación", "Entretenimiento", "Fotografía","Video",
+          "Inconsciente", "Música"
         ],
         "details": {
           "sourceFile": "INSTA_videos_watched.json",
           "dataType": "Videos de Instagram Vistos",
           "author": "bethmaymccarthy",
           "viewCount": 4,
-          "subjective_notes": "Añadir anotación aquí..."
+          "subjective_notes": "Es una chica que canta y toca la guitarra, y me gusta ver sus vídeos porque me inspiran a tocar más la guitarra y a cantar. Me gusta su estilo y cómo interpreta las canciones."
         }
       },
       
@@ -1858,7 +1797,7 @@
             "timeBucket": "4w",
             "platformId": 4,
             "rank": 1,
-            "tags": ["Instagram","Video", "Inconsciente"],
+            "tags": ["Propio","Redes Sociales", "Comunicación", "Entretenimiento", "Fotografía","Video", "Inconsciente"],
             "details": { "sourceFile": "INSTA_videos_watched.json", "dataType": "Videos de Instagram Vistos", "author": "popi.pupas", "viewCount": 4 }
         },
         {
@@ -1869,7 +1808,7 @@
             "timeBucket": "4w",
             "platformId": 4,
             "rank": 2,
-            "tags": ["Instagram","Video", "Inconsciente"],
+            "tags": ["Propio","Redes Sociales", "Comunicación", "Entretenimiento", "Fotografía","Video", "Inconsciente"],
             "details": { "sourceFile": "INSTA_videos_watched.json", "dataType": "Videos de Instagram Vistos", "author": "manuela_bergerot", "viewCount": 3 }
         },
         {
@@ -1880,7 +1819,7 @@
             "timeBucket": "4w",
             "platformId": 4,
             "rank": 3,
-            "tags": ["Instagram","Video", "Inconsciente"],
+            "tags": ["Propio","Redes Sociales", "Comunicación", "Entretenimiento", "Fotografía","Video", "Inconsciente"],
             "details": { "sourceFile": "INSTA_videos_watched.json", "dataType": "Videos de Instagram Vistos", "author": "dev_lemons", "viewCount": 3 }
         },
         {
@@ -1891,7 +1830,7 @@
             "timeBucket": "4w",
             "platformId": 4,
             "rank": 4,
-            "tags": ["Instagram","Video", "Inconsciente"],
+            "tags": ["Propio","Redes Sociales", "Comunicación", "Entretenimiento", "Fotografía","Video", "Inconsciente"],
             "details": { "sourceFile": "INSTA_videos_watched.json", "dataType": "Videos de Instagram Vistos", "author": "gamechangershow", "viewCount": 3 }
         },
         {
@@ -1902,7 +1841,7 @@
             "timeBucket": "4w",
             "platformId": 4,
             "rank": 5,
-            "tags": ["Instagram","Video", "Inconsciente"],
+            "tags": ["Propio","Redes Sociales", "Comunicación", "Entretenimiento", "Fotografía","Video", "Inconsciente"],
             "details": { "sourceFile": "INSTA_videos_watched.json", "dataType": "Videos de Instagram Vistos", "author": "cleoabram", "viewCount": 3 }
         },
         {
@@ -1913,7 +1852,7 @@
             "timeBucket": "4w",
             "platformId": 4,
             "rank": 6,
-            "tags": ["Instagram","Video", "Inconsciente"],
+            "tags": ["Propio","Redes Sociales", "Comunicación", "Entretenimiento", "Fotografía","Video", "Inconsciente"],
             "details": { "sourceFile": "INSTA_videos_watched.json", "dataType": "Videos de Instagram Vistos", "author": "netflixes", "viewCount": 3 }
         },
         {
@@ -1924,7 +1863,7 @@
             "timeBucket": "4w",
             "platformId": 4,
             "rank": 7,
-            "tags": ["Instagram","Video", "Inconsciente"],
+            "tags": ["Propio","Redes Sociales", "Comunicación", "Entretenimiento", "Fotografía","Video", "Inconsciente"],
             "details": { "sourceFile": "INSTA_videos_watched.json", "dataType": "Videos de Instagram Vistos", "author": "yatekomo", "viewCount": 3 }
         },
         {
@@ -1935,7 +1874,7 @@
             "timeBucket": "4w",
             "platformId": 4,
             "rank": 8,
-            "tags": ["Instagram","Video", "Inconsciente"],
+            "tags": ["Propio","Redes Sociales", "Comunicación", "Entretenimiento", "Fotografía","Video", "Inconsciente"],
             "details": { "sourceFile": "INSTA_videos_watched.json", "dataType": "Videos de Instagram Vistos", "author": "ellmari.e", "viewCount": 3 }
         },
         {
@@ -1946,7 +1885,7 @@
             "timeBucket": "4w",
             "platformId": 4,
             "rank": 9,
-            "tags": ["Instagram","Video", "Inconsciente"],
+            "tags": ["Propio","Redes Sociales", "Comunicación", "Entretenimiento", "Fotografía","Video", "Inconsciente"],
             "details": { "sourceFile": "INSTA_videos_watched.json", "dataType": "Videos de Instagram Vistos", "author": "labasad_design", "viewCount": 3 }
         },
         {
@@ -1957,7 +1896,7 @@
             "timeBucket": "4w",
             "platformId": 4,
             "rank": 10,
-            "tags": ["Instagram","Video", "Inconsciente"],
+            "tags": ["Propio","Redes Sociales", "Comunicación", "Entretenimiento", "Fotografía","Video", "Inconsciente"],
             "details": { "sourceFile": "INSTA_videos_watched.json", "dataType": "Videos de Instagram Vistos", "author": "bethmaymccarthy", "viewCount": 3 }
         },
         {
@@ -1968,7 +1907,7 @@
             "timeBucket": "1y",
             "platformId": 4,
             "rank": 1,
-            "tags": ["Instagram","Video", "Inconsciente"],
+            "tags": ["Propio","Redes Sociales", "Comunicación", "Entretenimiento", "Fotografía","Video", "Inconsciente"],
             "details": { "sourceFile": "INSTA_videos_watched.json", "dataType": "Videos de Instagram Vistos", "author": "popi.pupas", "viewCount": 5 }
         },
         {
@@ -1979,7 +1918,7 @@
             "timeBucket": "1y",
             "platformId": 4,
             "rank": 2,
-            "tags": ["Instagram","Video", "Inconsciente"],
+            "tags": ["Propio","Redes Sociales", "Comunicación", "Entretenimiento", "Fotografía","Video", "Inconsciente"],
             "details": { "sourceFile": "INSTA_videos_watched.json", "dataType": "Videos de Instagram Vistos", "author": "netflixes", "viewCount": 4 }
         },
         {
@@ -1990,7 +1929,7 @@
             "timeBucket": "1y",
             "platformId": 4,
             "rank": 3,
-            "tags": ["Instagram","Video", "Inconsciente"],
+            "tags": ["Propio","Redes Sociales", "Comunicación", "Entretenimiento", "Fotografía","Video", "Inconsciente"],
             "details": { "sourceFile": "INSTA_videos_watched.json", "dataType": "Videos de Instagram Vistos", "author": "yatekomo", "viewCount": 4 }
         },
         {
@@ -2001,7 +1940,7 @@
             "timeBucket": "1y",
             "platformId": 4,
             "rank": 4,
-            "tags": ["Instagram","Video", "Inconsciente"],
+            "tags": ["Propio","Redes Sociales", "Comunicación", "Entretenimiento", "Fotografía","Video", "Inconsciente"],
             "details": { "sourceFile": "INSTA_videos_watched.json", "dataType": "Videos de Instagram Vistos", "author": "manuela_bergerot", "viewCount": 4 }
         },
         {
@@ -2012,7 +1951,7 @@
             "timeBucket": "1y",
             "platformId": 4,
             "rank": 5,
-            "tags": ["Instagram","Video", "Inconsciente"],
+            "tags": ["Propio","Redes Sociales", "Comunicación", "Entretenimiento", "Fotografía","Video", "Inconsciente"],
             "details": { "sourceFile": "INSTA_videos_watched.json", "dataType": "Videos de Instagram Vistos", "author": "dev_lemons", "viewCount": 4 }
         },
         {
@@ -2023,7 +1962,7 @@
             "timeBucket": "1y",
             "platformId": 4,
             "rank": 6,
-            "tags": ["Instagram","Video", "Inconsciente"],
+            "tags": ["Propio","Redes Sociales", "Comunicación", "Entretenimiento", "Fotografía","Video", "Inconsciente"],
             "details": { "sourceFile": "INSTA_videos_watched.json", "dataType": "Videos de Instagram Vistos", "author": "gamechangershow", "viewCount": 4 }
         },
         {
@@ -2034,7 +1973,7 @@
             "timeBucket": "1y",
             "platformId": 4,
             "rank": 7,
-            "tags": ["Instagram","Video", "Inconsciente"],
+            "tags": ["Propio","Redes Sociales", "Comunicación", "Entretenimiento", "Fotografía","Video", "Inconsciente"],
             "details": { "sourceFile": "INSTA_videos_watched.json", "dataType": "Videos de Instagram Vistos", "author": "cleoabram", "viewCount": 4 }
         },
         {
@@ -2045,7 +1984,7 @@
             "timeBucket": "1y",
             "platformId": 4,
             "rank": 8,
-            "tags": ["Instagram","Video", "Inconsciente"],
+            "tags": ["Propio","Redes Sociales", "Comunicación", "Entretenimiento", "Fotografía","Video", "Inconsciente"],
             "details": { "sourceFile": "INSTA_videos_watched.json", "dataType": "Videos de Instagram Vistos", "author": "ellmari.e", "viewCount": 4 }
         },
         {
@@ -2056,7 +1995,7 @@
             "timeBucket": "1y",
             "platformId": 4,
             "rank": 9,
-            "tags": ["Instagram","Video", "Inconsciente"],
+            "tags": ["Propio","Redes Sociales", "Comunicación", "Entretenimiento", "Fotografía","Video", "Inconsciente"],
             "details": { "sourceFile": "INSTA_videos_watched.json", "dataType": "Videos de Instagram Vistos", "author": "labasad_design", "viewCount": 4 }
         },
         {
@@ -2067,7 +2006,7 @@
             "timeBucket": "1y",
             "platformId": 4,
             "rank": 10,
-            "tags": ["Instagram","Video", "Inconsciente"],
+            "tags": ["Propio","Redes Sociales", "Comunicación", "Entretenimiento", "Fotografía","Video", "Inconsciente"],
             "details": { "sourceFile": "INSTA_videos_watched.json", "dataType": "Videos de Instagram Vistos", "author": "bethmaymccarthy", "viewCount": 4 }
         },
     
@@ -2079,7 +2018,7 @@
                 "timeBucket": "4w",
                 "platformId": 5,
                 "rank": 1,
-                "tags": ["Calendario", "Frecuencia", "Propio", "Consciente"],
+                "tags": ["Calendario", "Frecuencia", "Propio", "Consciente", "Utilidades", "Teléfono"],
                 "details": {
                     "sourceFile": "Calendar.sqlitedb",
                     "dataType": "Análisis de Frecuencia",
@@ -2095,7 +2034,7 @@
                 "timeBucket": "4w",
                 "platformId": 5,
                 "rank": 2,
-                "tags": ["Calendario", "Eventos", "Propio", "Consciente"],
+                "tags": ["Calendario", "Eventos", "Propio", "Consciente", "Utilidades", "Teléfono"],
                 "details": { "name": "Entrega Final TFM", "date": "2025-09-08" }
             },
             {
@@ -2106,7 +2045,7 @@
                 "timeBucket": "4w",
                 "platformId": 5,
                 "rank": 3,
-                "tags": ["Calendario", "Eventos", "Propio", "Consciente"],
+                "tags": ["Calendario", "Eventos", "Propio", "Consciente", "Utilidades", "Teléfono"],
                 "details": { "name": "Tutoría TFM", "date": "2025-08-11" }
             },
             {
@@ -2117,7 +2056,7 @@
                 "timeBucket": "4w",
                 "platformId": 5,
                 "rank": 4,
-                "tags": ["Calendario", "Eventos", "Propio", "Consciente", "Consciente"],
+                "tags": ["Calendario", "Eventos", "Propio", "Consciente", "Utilidades", "Teléfono"],
                 "details": { "name": "ENTREGA FASE 02", "date": "2025-07-21",
                 "subjective_notes": "Me he ido poniendo tiempos para completar el TFM."
             }
@@ -2130,7 +2069,7 @@
                 "timeBucket": "4w",
                 "platformId": 5,
                 "rank": 6,
-                "tags": ["Calendario", "Eventos", "Propio", "Consciente"],
+                "tags": ["Calendario", "Eventos", "Propio", "Consciente", "Utilidades", "Teléfono"],
                 "details": { "name": "Viaje a Granada", "date": "2025-08-13",
                 "subjective_notes": "Hice un viaje corto para ir a la playa y descansar un poco de Madrid con mi novia. Nos quedamos en la casa de su familia en la playa de Granada (La herradura) y estuvimos alli 7 dias."
             }
@@ -2143,7 +2082,7 @@
                 "timeBucket": "6m",
                 "platformId": 5,
                 "rank": 1,
-                "tags": ["Calendario", "Frecuencia", "Propio", "Consciente"],
+                "tags": ["Calendario", "Frecuencia", "Propio", "Consciente", "Utilidades", "Teléfono"],
                 "details": {
                     "sourceFile": "Calendar.sqlitedb",
                     "dataType": "Análisis de Frecuencia",
@@ -2159,7 +2098,7 @@
                 "timeBucket": "6m",
                 "platformId": 5,
                 "rank": 2,
-                "tags": ["Calendario", "Eventos", "Propio", "Consciente"],
+                "tags": ["Calendario", "Eventos", "Propio", "Consciente", "Utilidades", "Teléfono"],
                 "details": { "name": "Quinta de los Molinos", "date": "2025-08-18",
                 "subjective_notes": "Para un proyecto del Master, fuimos a ver el centro cultural de la Quinta de los Molinos en Madrid. Nunca habia ido y fue precioso ver los arboles en flor."
             }
@@ -2172,9 +2111,9 @@
                 "timeBucket": "6m",
                 "platformId": 5,
                 "rank": 3,
-                "tags": ["Calendario", "Eventos", "Propio", "Consciente"],
+                "tags": ["Calendario", "Eventos", "Propio", "Consciente", "Utilidades", "Teléfono"],
                 "details": { "name": "Tattoo", "date": "2025-05-23",
-                "subjective_notes": "Me tatue el hombro con un amigo, hacia mucho que queria ir a tatuarme con el pero nunca encontrabamos hueco."
+                "subjective_notes": "Me tatué el hombro con un amigo, hacía mucho que quería ir a tatuarme con el pero nunca encontrabamos hueco."
             }
             },
             {
@@ -2185,9 +2124,9 @@
                 "timeBucket": "6m",
                 "platformId": 5,
                 "rank": 4,
-                "tags": ["Calendario", "Eventos", "Propio", "Consciente"],
+                "tags": ["Calendario", "Eventos", "Propio", "Consciente", "Utilidades", "Teléfono"],
                 "details": { "name": "Empiezan las practicas", "date": "2025-04-22",
-                "subjective_notes": "Justo despues de Semana Santa empece las practicas en la facultad de Telecomunicaciones de la UPM."
+                "subjective_notes": "Justo despues de Semana Santa empecé las prácticas en la facultad de Telecomunicaciones de la UPM."
             }
             },
             {
@@ -2198,9 +2137,9 @@
                 "timeBucket": "6m",
                 "platformId": 5,
                 "rank": 5,
-                "tags": ["Calendario", "Eventos", "Propio", "Consciente"],
+                "tags": ["Calendario", "Eventos", "Propio", "Consciente", "Utilidades", "Teléfono"],
                 "details": { "name": "Viaje a Granada", "date": "2025-07-16",
-                "subjective_notes": "Fuimos a la boda del padre de mi novia en Granada. Nos quedamos a pasar la semana con su familia y luego volvimos a Madrid."
+                "subjective_notes": "Fuímos a la boda del padre de mi novia en Granada. Nos quedamos a pasar la semana con su familia y luego volvimos a Madrid."
             }
             },
             {
@@ -2211,9 +2150,9 @@
                 "timeBucket": "6m",
                 "platformId": 5,
                 "rank": 6,
-                "tags": ["Calendario", "Eventos", "Propio", "Consciente"],
+                "tags": ["Calendario", "Eventos", "Propio", "Consciente", "Utilidades", "Teléfono"],
                 "details": { "name": "Grabacion de un corto", "date": "2025-03-23",
-                "subjective_notes": "Ayude a hacer los creditos de un corto que grabo mi amiga."
+                "subjective_notes": "Ayudé a hacer los créditos de un corto que grabó mi amiga."
             }
             },
             {
@@ -2224,7 +2163,7 @@
                 "timeBucket": "1y",
                 "platformId": 5,
                 "rank": 1,
-                "tags": ["Calendario", "Frecuencia", "Propio", "Consciente"],
+                "tags": ["Calendario", "Frecuencia", "Propio", "Consciente", "Utilidades", "Teléfono"],
                 "details": {
                     "sourceFile": "Calendar.sqlitedb",
                     "dataType": "Análisis de Frecuencia",
@@ -2234,15 +2173,15 @@
             },
             {
                 "id": "calendar-event-1y-1",
-                "title": "Evento: Revision Neurologo",
+                "title": "Evento: Revision Neurólogo",
                 "artists": "16 de Octubre, 2024",
                 "awareness": 2,
                 "timeBucket": "1y",
                 "platformId": 5,
                 "rank": 2,
-                "tags": ["Calendario", "Eventos", "Propio", "Consciente"],
+                "tags": ["Calendario", "Eventos", "Propio", "Consciente", "Utilidades", "Teléfono"],
                 "details": { "name": "Revision Neurologo", "date": "2024-10-16",
-                "subjective_notes": "Tengo una enfermedad rara que me afecta al rendimiento muscular y tengo que ir al neurologo cada 6 meses para ver como va. En esta revision me dijo que estaba mejorando."
+                "subjective_notes": "Tengo una enfermedad rara que me afecta al rendimiento muscular y tengo que ir al neurólogo cada 6 meses para ver como va. En esta revisión me dijo que estaba mejorando."
             }
             },
             {
@@ -2253,9 +2192,9 @@
                 "timeBucket": "1y",
                 "platformId": 5,
                 "rank": 3,
-                "tags": ["Calendario", "Eventos", "Propio", "Consciente"],
+                "tags": ["Calendario", "Eventos", "Propio", "Consciente", "Utilidades", "Teléfono"],
                 "details": { "name": "Cena Pronombres", "date": "2024-11-29",
-                "subjective_notes": "Una cena antes de irnos por Navidad con algunos amigos de Madrid. Lo llamaron asi porque la mayoria somos del colectivo y era gracioso."
+                "subjective_notes": "Una cena antes de irnos por Navidad con algunos amigos de Madrid. Lo llamaron así porque la mayoría somos del colectivo y era gracioso."
             }
             },
             {
@@ -2266,9 +2205,9 @@
                 "timeBucket": "1y",
                 "platformId": 5,
                 "rank": 4,
-                "tags": ["Calendario", "Eventos", "Propio", "Consciente"],
+                "tags": ["Calendario", "Eventos", "Propio", "Consciente", "Utilidades", "Teléfono"],
                 "details": { "name": "Excursion Parque Warner", "date": "2024-12-07",
-                "subjective_notes": "Mi madre nos invito a mi y a algunos amigos a pasar el dia en el parque de atracciones de la Warner Bros. por mi cumpleaños."
+                "subjective_notes": "Mi madre nos invitó a mi y a algunos amigos a pasar el día en el parque de atracciones de la Warner Bros por mi cumpleaños."
             }
             },
             {
@@ -2279,9 +2218,9 @@
                 "timeBucket": "6m",
                 "platformId": 5,
                 "rank": 5,
-                "tags": ["Calendario", "Eventos", "Propio", "Consciente"],
+                "tags": ["Calendario", "Eventos", "Propio", "Consciente", "Utilidades", "Teléfono"],
                 "details": { "name": "Viaje a Granada", "date": "2024-12-28",
-                "subjective_notes": "Fui a pasar Nochevieja con la familia de mi novia"
+                "subjective_notes": "Fuí a pasar Nochevieja con la familia de mi novia"
             }
             },
             {
@@ -2292,9 +2231,9 @@
                 "timeBucket": "1y",
                 "platformId": 5,
                 "rank": 6,
-                "tags": ["Calendario", "Eventos", "Propio", "Consciente"],
+                "tags": ["Calendario", "Eventos", "Propio", "Consciente", "Utilidades", "Teléfono"],
                 "details": { "name": "Sesión Psicologa", "date": "2024-12-09",
-                "subjective_notes": "Suelo tener una sesion psicologica por mes o dos cada mes desde hace 6 años."
+                "subjective_notes": "Suelo tener una sesion psicológica por mes o dos cada mes desde hace 6 años."
             }
             },
             
@@ -2909,7 +2848,8 @@
                   "name": "londii.vondue",
                   "date": "2025-08-26"
                 }
-              }
+              },
+              
             
         
     
