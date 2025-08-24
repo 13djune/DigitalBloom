@@ -1,7 +1,7 @@
 [
     {
       "id": "phone-usage-4w-instagram",
-      "title": "Uso de Instagram",
+      "title": "Instagram",
       "artists": "46h 48m",
       "awareness": 2,
       "timeBucket": "4w",
@@ -22,7 +22,7 @@
     },
     {
       "id": "phone-usage-4w-safari",
-      "title": "Uso de Safari",
+      "title": "Safari",
       "artists": "26h 09m",
       "awareness": 2,
       "timeBucket": "4w",
@@ -43,7 +43,7 @@
     },
     {
       "id": "phone-usage-4w-whatsapp",
-      "title": "Uso de WhatsApp",
+      "title": "WhatsApp",
       "artists": "20h 06m",
       "awareness": 2,
       "timeBucket": "4w",
@@ -64,7 +64,7 @@
     },
     {
       "id": "phone-usage-4w-fire-tv",
-      "title": "Uso de Fire TV",
+      "title": "Fire TV",
       "artists": "7h 10m",
       "awareness": 2,
       "timeBucket": "4w",
@@ -86,7 +86,7 @@
     },
     {
       "id": "phone-usage-4w-google-maps",
-      "title": "Uso de Google Maps",
+      "title": "Google Maps",
       "artists": "5h 45m",
       "awareness": 2,
       "timeBucket": "4w",
@@ -107,7 +107,7 @@
     },
     {
       "id": "phone-usage-4w-plato",
-      "title": "Uso de Plato",
+      "title": "Plato",
       "artists": "4h 30m",
       "awareness": 2,
       "timeBucket": "4w",
@@ -128,7 +128,7 @@
     },
     {
       "id": "phone-usage-4w-webtoon",
-      "title": "Uso de WEBTOON",
+      "title": "WEBTOON",
       "artists": "2h 21m",
       "awareness": 2,
       "timeBucket": "4w",
@@ -149,7 +149,7 @@
     },
     {
       "id": "phone-usage-4w-tinder",
-      "title": "Uso de Tinder",
+      "title": "Tinder",
       "artists": "1h 54m",
       "awareness": 2,
       "timeBucket": "4w",
@@ -170,7 +170,7 @@
     },
     {
       "id": "phone-usage-4w-spotify",
-      "title": "Uso de Spotify",
+      "title": "Spotify",
       "artists": "1h 32m",
       "awareness": 2,
       "timeBucket": "4w",
@@ -192,7 +192,7 @@
     },
     {
       "id": "phone-usage-4w-gmail",
-      "title": "Uso de Gmail",
+      "title": "Gmail",
       "artists": "1h 14m",
       "awareness": 2,
       "timeBucket": "4w",
@@ -213,7 +213,7 @@
     },
     {
       "id": "phone-usage-6m-instagram",
-      "title": "Uso de Instagram",
+      "title": "Instagram",
       "artists": "284h 10m",
       "awareness": 2,
       "timeBucket": "6m",
@@ -234,7 +234,7 @@
     },
     {
       "id": "phone-usage-6m-safari",
-      "title": "Uso de Safari",
+      "title": "Safari",
       "artists": "132h 40m",
       "awareness": 2,
       "timeBucket": "6m",
@@ -255,7 +255,7 @@
     },
     {
       "id": "phone-usage-6m-whatsapp",
-      "title": "Uso de WhatsApp",
+      "title": "WhatsApp",
       "artists": "112h 00m",
       "awareness": 2,
       "timeBucket": "6m",
@@ -276,7 +276,7 @@
     },
     {
       "id": "phone-usage-6m-google-maps",
-      "title": "Uso de Google Maps",
+      "title": "Google Maps",
       "artists": "42h 30m",
       "awareness": 2,
       "timeBucket": "6m",
@@ -297,7 +297,7 @@
     },
     {
       "id": "phone-usage-6m-tiktok",
-      "title": "Uso de TikTok",
+      "title": "TikTok",
       "artists": "38h 30m",
       "awareness": 2,
       "timeBucket": "6m",
@@ -319,7 +319,7 @@
     },
     {
       "id": "phone-usage-6m-plato",
-      "title": "Uso de Plato",
+      "title": "Plato",
       "artists": "35h 20m",
       "awareness": 2,
       "timeBucket": "6m",
@@ -340,7 +340,7 @@
     },
     {
       "id": "phone-usage-6m-spotify",
-      "title": "Uso de Spotify",
+      "title": "Spotify",
       "artists": "28h 50m",
       "awareness": 2,
       "timeBucket": "6m",
@@ -362,7 +362,7 @@
     },
     {
       "id": "phone-usage-6m-gmail",
-      "title": "Uso de Gmail",
+      "title": "Gmail",
       "artists": "22h 10m",
       "awareness": 2,
       "timeBucket": "6m",
@@ -383,7 +383,7 @@
     },
     {
       "id": "phone-usage-6m-fire-tv",
-      "title": "Uso de Fire TV",
+      "title": "Fire TV",
       "artists": "20h 40m",
       "awareness": 2,
       "timeBucket": "6m",
@@ -405,7 +405,7 @@
     },
     {
       "id": "phone-usage-6m-webtoon",
-      "title": "Uso de WEBTOON",
+      "title": "WEBTOON",
       "artists": "19h 15m",
       "awareness": 2,
       "timeBucket": "6m",
@@ -426,7 +426,7 @@
     },
     {
       "id": "phone-usage-1y-instagram",
-      "title": "Uso de Instagram",
+      "title": "Instagram",
       "artists": "524h 20m",
       "awareness": 2,
       "timeBucket": "1y",
@@ -447,7 +447,7 @@
     },
     {
       "id": "phone-usage-1y-safari",
-      "title": "Uso de Safari",
+      "title": "Safari",
       "artists": "248h 45m",
       "awareness": 2,
       "timeBucket": "1y",
@@ -468,7 +468,7 @@
     },
     {
       "id": "phone-usage-1y-whatsapp",
-      "title": "Uso de WhatsApp",
+      "title": "WhatsApp",
       "artists": "197h 10m",
       "awareness": 2,
       "timeBucket": "1y",
@@ -489,7 +489,7 @@
     },
     {
       "id": "phone-usage-1y-google-maps",
-      "title": "Uso de Google Maps",
+      "title": "Google Maps",
       "artists": "88h 30m",
       "awareness": 2,
       "timeBucket": "1y",
@@ -510,7 +510,7 @@
     },
     {
       "id": "phone-usage-1y-tiktok",
-      "title": "Uso de TikTok",
+      "title": "TikTok",
       "artists": "76h 35m",
       "awareness": 2,
       "timeBucket": "1y",
@@ -532,7 +532,7 @@
     },
     {
       "id": "phone-usage-1y-spotify",
-      "title": "Uso de Spotify",
+      "title": "Spotify",
       "artists": "65h 10m",
       "awareness": 2,
       "timeBucket": "1y",
@@ -554,7 +554,7 @@
     },
     {
       "id": "phone-usage-1y-plato",
-      "title": "Uso de Plato",
+      "title": "Plato",
       "artists": "58h 20m",
       "awareness": 2,
       "timeBucket": "1y",
@@ -575,7 +575,7 @@
     },
     {
       "id": "phone-usage-1y-fire-tv",
-      "title": "Uso de Fire TV",
+      "title": "Fire TV",
       "artists": "46h 55m",
       "awareness": 2,
       "timeBucket": "1y",
@@ -597,7 +597,7 @@
     },
     {
       "id": "phone-usage-1y-webtoon",
-      "title": "Uso de WEBTOON",
+      "title": "WEBTOON",
       "artists": "40h 30m",
       "awareness": 2,
       "timeBucket": "1y",
@@ -618,7 +618,7 @@
     },
     {
       "id": "phone-usage-1y-gmail",
-      "title": "Uso de Gmail",
+      "title": "Gmail",
       "artists": "34h 25m",
       "awareness": 2,
       "timeBucket": "1y",
@@ -1122,7 +1122,7 @@
     },
     {
       "id": "insta-topic-crafts",
-      "title": "Tema recomendado — Crafts",
+      "title": "Crafts",
       "artists": "",
       "awareness": 2,
       "timeBucket": "4w",
@@ -1140,7 +1140,7 @@
     },
     {
       "id": "insta-topic-fish",
-      "title": "Tema recomendado — Fish",
+      "title": "Fish",
       "artists": "",
       "awareness": 2,
       "timeBucket": "4w",
@@ -1158,7 +1158,7 @@
     },
     {
       "id": "insta-topic-woodworking",
-      "title": "Tema recomendado — Woodworking",
+      "title": "Woodworking",
       "artists": "",
       "awareness": 2,
       "timeBucket": "4w",
@@ -1177,7 +1177,7 @@
   
     {
       "id": "insta-topic-video-games",
-      "title": "Tema recomendado — Video Games",
+      "title": "Video Games",
       "artists": "",
       "awareness": 2,
       "timeBucket": "4w",
@@ -1195,7 +1195,7 @@
     },
     {
       "id": "insta-topic-fashion-products",
-      "title": "Tema recomendado — Fashion Products",
+      "title": "Fashion Products",
       "artists": "",
       "awareness": 2,
       "timeBucket": "4w",
@@ -1213,7 +1213,7 @@
     },
     {
       "id": "insta-topic-lip-makeup",
-      "title": "Tema recomendado — Lip Makeup",
+      "title": "Lip Makeup",
       "artists": "",
       "awareness": 2,
       "timeBucket": "4w",
@@ -1232,7 +1232,7 @@
 
     {
       "id": "insta-topic-board-games",
-      "title": "Tema recomendado — Board Games",
+      "title": "Board Games",
       "artists": "",
       "awareness": 2,
       "timeBucket": "4w",
@@ -1250,7 +1250,7 @@
     },
     {
       "id": "insta-topic-nail-care-product-types",
-      "title": "Tema recomendado — Nail Care Product Types",
+      "title": "Nail Care Product Types",
       "artists": "",
       "awareness": 2,
       "timeBucket": "6m",
@@ -1268,7 +1268,7 @@
     },
     {
       "id": "insta-topic-gym-workouts",
-      "title": "Tema recomendado — Gym Workouts",
+      "title": "Gym Workouts",
       "artists": "",
       "awareness": 2,
       "timeBucket": "6m",
@@ -1286,7 +1286,7 @@
     },
     {
       "id": "insta-topic-trading-card-games",
-      "title": "Tema recomendado — Trading Card Games",
+      "title": "Trading Card Games",
       "artists": "",
       "awareness": 2,
       "timeBucket": "6m",
@@ -1304,7 +1304,7 @@
     },
     {
       "id": "insta-topic-body-modification",
-      "title": "Tema recomendado — Body Modification",
+      "title": "Body Modification",
       "artists": "",
       "awareness": 2,
       "timeBucket": "6m",
@@ -1322,7 +1322,7 @@
     },
     {
       "id": "insta-topic-birds",
-      "title": "Tema recomendado — Birds",
+      "title": "Birds",
       "artists": "",
       "awareness": 2,
       "timeBucket": "1y",
@@ -1340,7 +1340,7 @@
     },
     {
       "id": "insta-topic-video-game-consoles-hardware",
-      "title": "Tema recomendado — Video Game Consoles & Hardware",
+      "title": "Video Game Consoles & Hardware",
       "artists": "",
       "awareness": 2,
       "timeBucket": "1y",
@@ -1357,7 +1357,7 @@
     },
     {
       "id": "insta-topic-ar-vr-games",
-      "title": "Tema recomendado — AR/VR Games",
+      "title": "AR/VR Games",
       "artists": "",
       "awareness": 2,
       "timeBucket": "1y",
@@ -1375,7 +1375,7 @@
     },
     {
       "id": "insta-topic-turtles",
-      "title": "Tema recomendado — Turtles",
+      "title": "Turtles",
       "artists": "",
       "awareness": 2,
       "timeBucket": "1y",
@@ -1393,7 +1393,7 @@
     },
     {
       "id": "insta-topic-frogs-toads",
-      "title": "Tema recomendado — Frogs & Toads",
+      "title": "Frogs & Toads",
       "artists": "",
       "awareness": 2,
       "timeBucket": "1y",
@@ -1411,7 +1411,7 @@
     },
     {
       "id": "insta-topic-snakes",
-      "title": "Tema recomendado — Snakes",
+      "title": "Snakes",
       "artists": "",
       "awareness": 2,
       "timeBucket": "1y",
@@ -1429,7 +1429,7 @@
     },
     {
       "id": "insta-topic-southeast-asia-travel-tourism",
-      "title": "Tema recomendado — Southeast Asia Travel & Tourism",
+      "title": "Southeast Asia Travel & Tourism",
       "artists": "",
       "awareness": 2,
       "timeBucket": "1y",
@@ -2239,7 +2239,7 @@
             
               {
                 "id": "insta-follow-request-lilyyoffside",
-                "title": "Solicitud de seguimiento enviada — lilyyoffside",
+                "title": "Solicitud de seguimiento enviada — @lilyyoffside",
                 "artists": "lilyyoffside",
                 "awareness": 2,
                 "timeBucket": "1y",
@@ -2257,7 +2257,7 @@
               },
               {
                 "id": "insta-follow-request-airamrque",
-                "title": "Solicitud de seguimiento enviada — airamrque",
+                "title": "Solicitud de seguimiento enviada — @airamrque",
                 "artists": "airamrque",
                 "awareness": 2,
                 "timeBucket": "6m",
@@ -2275,7 +2275,7 @@
               },
               {
                 "id": "insta-follow-request-aandreamms",
-                "title": "Solicitud de seguimiento enviada — aandreamms",
+                "title": "Solicitud de seguimiento enviada — @aandreamms",
                 "artists": "aandreamms",
                 "awareness": 2,
                 "timeBucket": "6m",
@@ -2293,7 +2293,7 @@
               },
               {
                 "id": "insta-follow-request-londii.vondue",
-                "title": "Solicitud de seguimiento enviada — londii.vondue",
+                "title": "Solicitud de seguimiento enviada — @londii.vondue",
                 "artists": "londii.vondue",
                 "awareness": 2,
                 "timeBucket": "6m",
@@ -2311,7 +2311,7 @@
               },
               {
                 "id": "insta-follow-request-04_sergiio",
-                "title": "Solicitud de seguimiento enviada — 04_sergiio",
+                "title": "Solicitud de seguimiento enviada — @04_sergiio",
                 "artists": "04_sergiio",
                 "awareness": 2,
                 "timeBucket": "4w",
@@ -2329,7 +2329,7 @@
               },
               {
                 "id": "insta-follow-request-j999.02",
-                "title": "Solicitud de seguimiento enviada — j999.02",
+                "title": "Solicitud de seguimiento enviada — @j999.02",
                 "artists": "j999.02",
                 "awareness": 2,
                 "timeBucket": "4w",
@@ -2347,7 +2347,7 @@
               },
               {
                 "id": "insta-follow-request-onthepotato75",
-                "title": "Solicitud de seguimiento enviada — onthepotato75",
+                "title": "Solicitud de seguimiento enviada — @onthepotato75",
                 "artists": "onthepotato75",
                 "awareness": 2,
                 "timeBucket": "4w",
@@ -2365,7 +2365,7 @@
               },
               {
                 "id": "insta-unfollowed-eko_carabanchel",
-                "title": "Dejado de seguir — eko_carabanchel",
+                "title": "Dejado de seguir — @eko_carabanchel",
                 "artists": "eko_carabanchel",
                 "awareness": 2,
                 "timeBucket": "4w",
@@ -2383,7 +2383,7 @@
               },
               {
                 "id": "insta-follow-request-annamuraa",
-                "title": "Solicitud de seguimiento enviada — annamuraa",
+                "title": "Solicitud de seguimiento enviada — @annamuraa",
                 "artists": "annamuraa",
                 "awareness": 2,
                 "timeBucket": "4w",
@@ -2401,7 +2401,7 @@
               },
               {
                 "id": "insta-unfollowed-luciamecaa",
-                "title": "Dejado de seguir — luciamecaa",
+                "title": "Dejado de seguir — @luciamecaa",
                 "artists": "luciamecaa",
                 "awareness": 2,
                 "timeBucket": "4w",
@@ -2419,7 +2419,7 @@
               },
               {
                 "id": "insta-unfollowed-lolalolita",
-                "title": "Dejado de seguir — lolalolita",
+                "title": "Dejado de seguir — @lolalolita",
                 "artists": "lolalolita",
                 "awareness": 2,
                 "timeBucket": "4w",
@@ -2437,7 +2437,7 @@
               },
               {
                 "id": "insta-follow-request-sofia_montoya01",
-                "title": "Solicitud de seguimiento enviada — sofia_montoya01",
+                "title": "Solicitud de seguimiento enviada — @sofia_montoya01",
                 "artists": "sofia_montoya01",
                 "awareness": 2,
                 "timeBucket": "4w",
@@ -2455,7 +2455,7 @@
               },
               {
                 "id": "insta-follow-request-blancacarrilloo",
-                "title": "Solicitud de seguimiento enviada — blancacarrilloo",
+                "title": "Solicitud de seguimiento enviada — @blancacarrilloo",
                 "artists": "blancacarrilloo",
                 "awareness": 2,
                 "timeBucket": "4w",
@@ -2473,7 +2473,7 @@
               },
               {
                 "id": "insta-follow-request-mariapzrza_",
-                "title": "Solicitud de seguimiento enviada — mariapzrza_",
+                "title": "Solicitud de seguimiento enviada — @mariapzrza_",
                 "artists": "mariapzrza_",
                 "awareness": 2,
                 "timeBucket": "4w",
@@ -2491,7 +2491,7 @@
               },
               {
                 "id": "insta-unfollowed-ibaillanos",
-                "title": "Dejado de seguir — ibaillanos",
+                "title": "Dejado de seguir — @ibaillanos",
                 "artists": "ibaillanos",
                 "awareness": 2,
                 "timeBucket": "4w",
@@ -2509,7 +2509,7 @@
               },
               {
                 "id": "insta-unfollowed-__estels",
-                "title": "Dejado de seguir — __estels",
+                "title": "Dejado de seguir — @__estels",
                 "artists": "__estels",
                 "awareness": 2,
                 "timeBucket": "4w",
@@ -2527,7 +2527,7 @@
               },
               {
                 "id": "insta-unfollowed-claudiabielsaa",
-                "title": "Dejado de seguir — claudiabielsaa",
+                "title": "Dejado de seguir — @claudiabielsaa",
                 "artists": "claudiabielsaa",
                 "awareness": 2,
                 "timeBucket": "4w",
@@ -2545,7 +2545,7 @@
               },
               {
                 "id": "insta-follow-request-indahoods",
-                "title": "Solicitud de seguimiento enviada — indahoods",
+                "title": "Solicitud de seguimiento enviada — @indahoods",
                 "artists": "indahoods",
                 "awareness": 2,
                 "timeBucket": "4w",
@@ -2563,7 +2563,7 @@
               },
               {
                 "id": "insta-unfollowed-adely.n",
-                "title": "Dejado de seguir — adely.n",
+                "title": "Dejado de seguir — @adely.n",
                 "artists": "adely.n",
                 "awareness": 2,
                 "timeBucket": "4w",
@@ -2581,7 +2581,7 @@
               },
               {
                 "id": "insta-unfollowed-claudia_lachispa",
-                "title": "Dejado de seguir — claudia_lachispa",
+                "title": "Dejado de seguir — @claudia_lachispa",
                 "artists": "claudia_lachispa",
                 "awareness": 2,
                 "timeBucket": "4w",
@@ -2599,7 +2599,7 @@
               },
               {
                 "id": "insta-unfollowed-zuzusilk",
-                "title": "Dejado de seguir — zuzusilk",
+                "title": "Dejado de seguir — @zuzusilk",
                 "artists": "zuzusilk",
                 "awareness": 2,
                 "timeBucket": "4w",
@@ -2617,7 +2617,7 @@
               },
               {
                 "id": "insta-unfollowed-iamnuriia",
-                "title": "Dejado de seguir — iamnuriia",
+                "title": "Dejado de seguir — @iamnuriia",
                 "artists": "iamnuriia",
                 "awareness": 2,
                 "timeBucket": "4w",
@@ -2635,7 +2635,7 @@
               },
               {
                 "id": "insta-follow-request-luciamecaa",
-                "title": "Solicitud de seguimiento enviada — luciamecaa",
+                "title": "Solicitud de seguimiento enviada — @luciamecaa",
                 "artists": "luciamecaa",
                 "awareness": 2,
                 "timeBucket": "4w",
@@ -2653,7 +2653,7 @@
               },
               {
                 "id": "insta-follow-request-milagros_alvarezz_",
-                "title": "Solicitud de seguimiento enviada — milagros_alvarezz_",
+                "title": "Solicitud de seguimiento enviada — @milagros_alvarezz_",
                 "artists": "milagros_alvarezz_",
                 "awareness": 2,
                 "timeBucket": "4w",
@@ -2671,7 +2671,7 @@
               },
               {
                 "id": "insta-follow-request-mariaasotos_",
-                "title": "Solicitud de seguimiento enviada — mariaasotos_",
+                "title": "Solicitud de seguimiento enviada — @mariaasotos_",
                 "artists": "mariaasotos_",
                 "awareness": 2,
                 "timeBucket": "4w",
@@ -2689,7 +2689,7 @@
               },
               {
                 "id": "insta-follow-request-andreafloress__",
-                "title": "Solicitud de seguimiento enviada — andreafloress__",
+                "title": "Solicitud de seguimiento enviada — @andreafloress__",
                 "artists": "andreafloress__",
                 "awareness": 2,
                 "timeBucket": "4w",
@@ -2707,7 +2707,7 @@
               },
               {
                 "id": "insta-follow-request-ireneesolano",
-                "title": "Solicitud de seguimiento enviada — ireneesolano",
+                "title": "Solicitud de seguimiento enviada — @ireneesolano",
                 "artists": "ireneesolano",
                 "awareness": 2,
                 "timeBucket": "4w",
@@ -2725,7 +2725,7 @@
               },
               {
                 "id": "insta-follow-request-jorgemartinez_4",
-                "title": "Solicitud de seguimiento enviada — jorgemartinez_4",
+                "title": "Solicitud de seguimiento enviada — @jorgemartinez_4",
                 "artists": "jorgemartinez_4",
                 "awareness": 2,
                 "timeBucket": "4w",
@@ -2743,7 +2743,7 @@
               },
               {
                 "id": "insta-unfollowed-juliahdz_",
-                "title": "Dejado de seguir — juliahdz_",
+                "title": "Dejado de seguir — @juliahdz_",
                 "artists": "juliahdz_",
                 "awareness": 2,
                 "timeBucket": "4w",
@@ -2761,7 +2761,7 @@
               },
               {
                 "id": "insta-follow-request-marinaaleoon",
-                "title": "Solicitud de seguimiento enviada — marinaaleoon",
+                "title": "Solicitud de seguimiento enviada — @marinaaleoon",
                 "artists": "marinaaleoon",
                 "awareness": 2,
                 "timeBucket": "4w",
@@ -2779,7 +2779,7 @@
               },
               {
                 "id": "insta-follow-request-saramcgreevy",
-                "title": "Solicitud de seguimiento enviada — saramcgreevy",
+                "title": "Solicitud de seguimiento enviada — @saramcgreevy",
                 "artists": "saramcgreevy",
                 "awareness": 2,
                 "timeBucket": "4w",
@@ -2797,7 +2797,7 @@
               },
               {
                 "id": "insta-unfollowed-sixtinerouyre",
-                "title": "Dejado de seguir — sixtinerouyre",
+                "title": "Dejado de seguir — @sixtinerouyre",
                 "artists": "sixtinerouyre",
                 "awareness": 2,
                 "timeBucket": "4w",
@@ -2815,7 +2815,7 @@
               },
               {
                 "id": "insta-follow-request-deivid_oj",
-                "title": "Solicitud de seguimiento enviada — deivid_oj",
+                "title": "Solicitud de seguimiento enviada — @deivid_oj",
                 "artists": "deivid_oj",
                 "awareness": 2,
                 "timeBucket": "4w",
@@ -2833,7 +2833,7 @@
               },
               {
                 "id": "insta-unfollowed-londii.vondue",
-                "title": "Dejado de seguir — londii.vondue",
+                "title": "Dejado de seguir — @londii.vondue",
                 "artists": "londii.vondue",
                 "awareness": 2,
                 "timeBucket": "4w",
@@ -2848,8 +2848,8 @@
                   "name": "londii.vondue",
                   "date": "2025-08-26"
                 }
-              },
-              
+              }
+
             
         
     

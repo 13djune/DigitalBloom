@@ -2,7 +2,7 @@
     {
       "id": "whatsapp-1y-account-registration",
       "title": "Registro de la cuenta de WhatsApp",
-      "artists": "WhatsApp",
+      "artists": "",
       "awareness": 3,
       "timeBucket": "1y",
       "platformId": 6,
@@ -19,7 +19,7 @@
     {
       "id": "whatsapp-1y-tos-2016",
       "title": "Aceptación de Términos de Servicio 2016",
-      "artists": "WhatsApp",
+      "artists": "",
       "awareness": 3,
       "timeBucket": "1y",
       "platformId": 6,
@@ -36,7 +36,7 @@
     {
       "id": "whatsapp-1y-tos-2018",
       "title": "Aceptación de Términos de Servicio 2018",
-      "artists": "WhatsApp",
+      "artists": "",
       "awareness": 3,
       "timeBucket": "1y",
       "platformId": 6,
@@ -53,7 +53,7 @@
     {
       "id": "whatsapp-1y-tos-2021",
       "title": "Aceptación de Términos de Servicio 2021",
-      "artists": "WhatsApp",
+      "artists": "",
       "awareness": 3,
       "timeBucket": "1y",
       "platformId": 6,
@@ -202,7 +202,7 @@
     
         {
           "id": "whatsapp-1y-data-usage-summary",
-          "title": "Resumen de Uso de Datos de WhatsApp",
+          "title": "Uso de Datos de WhatsApp",
           "artists": "Estadísticas de la Cuenta",
           "awareness": 3,
           "timeBucket": "1y",
@@ -250,8 +250,7 @@
             "title": "Resumen de actividad en takeout.google.com",
             "artists": "takeout.google.com",
             "awareness": 3,
-            "platformId": 6,
-            "rank": 1,
+            "platformId": 8,            "rank": 1,
             "date": "2025-07-28",
             "timeBucket": "4w",
             "tags": [
@@ -276,8 +275,7 @@
             "title": "Resumen de actividad en google.com",
             "artists": "google.com",
             "awareness": 3,
-            "platformId": 6,
-            "rank": 2,
+            "platformId": 8,            "rank": 2,
             "date": "2025-08-15",
             "timeBucket": "4w",
             "tags": [
@@ -305,8 +303,7 @@
             "title": "Resumen de actividad en nngroup.com",
             "artists": "nngroup.com",
             "awareness": 3,
-            "platformId": 6,
-            "rank": 3,
+            "platformId": 8,            "rank": 3,
             "date": "2025-02-14",
             "timeBucket": "6m",
             "tags": [
@@ -332,8 +329,7 @@
             "title": "Resumen de actividad en drive.google.com",
             "artists": "drive.google.com",
             "awareness": 3,
-            "platformId": 6,
-            "rank": 4,
+            "platformId": 8,            "rank": 4,
             "date": "2025-04-01",
             "timeBucket": "6m",
             "tags": [
@@ -363,8 +359,7 @@
             "title": "Resumen de actividad en tacticaltech.org",
             "artists": "tacticaltech.org",
             "awareness": 3,
-            "platformId": 6,
-            "rank": 5,
+            "platformId": 8,            "rank": 5,
             "date": "2024-12-10",
             "timeBucket": "1y",
             "tags": [
@@ -390,8 +385,7 @@
             "title": "Resumen de actividad en lozano-hemmer.com",
             "artists": "lozano-hemmer.com",
             "awareness": 3,
-            "platformId": 6,
-            "rank": 6,
+            "platformId": 8,            "rank": 6,
             "date": "2025-06-25",
             "timeBucket": "4w",
             "tags": [
@@ -434,8 +428,7 @@
             "title": "Resumen de actividad en refikanadol.com",
             "artists": "refikanadol.com",
             "awareness": 3,
-            "platformId": 6,
-            "rank": 7,
+            "platformId": 8,            "rank": 7,
             "date": "2025-01-20",
             "timeBucket": "1y",
             "tags": [
@@ -466,8 +459,7 @@
             "title": "Resumen de actividad en mashable.com",
             "artists": "mashable.com",
             "awareness": 3,
-            "platformId": 6,
-            "rank": 8,
+            "platformId": 8,            "rank": 8,
             "date": "2024-10-09",
             "timeBucket": "1y",
             "tags": [
@@ -494,8 +486,7 @@
             "title": "Resumen de actividad en dataselfie.it",
             "artists": "dataselfie.it",
             "awareness": 3,
-            "platformId": 6,
-            "rank": 9,
+            "platformId": 8,            "rank": 9,
             "date": "2025-06-03",
             "timeBucket": "6m",
             "tags": [
@@ -521,8 +512,7 @@
             "title": "Resumen de actividad en sueddeutsche.de",
             "artists": "sueddeutsche.de",
             "awareness": 3,
-            "platformId": 6,
-            "rank": 10,
+            "platformId": 8,            "rank": 10,
             "date": "2025-08-01",
             "timeBucket": "4w",
             "tags": [
@@ -548,8 +538,7 @@
             "title": "Resumen de actividad en producthunt.com",
             "artists": "producthunt.com",
             "awareness": 3,
-            "platformId": 6,
-            "rank": 11,
+            "platformId": 8,            "rank": 11,
             "date": "2024-09-24",
             "timeBucket": "1y",
             "tags": [
@@ -575,8 +564,7 @@
             "title": "Resumen de actividad en fastcompany.com",
             "artists": "fastcompany.com",
             "awareness": 3,
-            "platformId": 6,
-            "rank": 12,
+            "platformId": 8,            "rank": 12,
             "date": "2025-05-11",
             "timeBucket": "6m",
             "tags": [
@@ -602,8 +590,7 @@
             "title": "Resumen de actividad en myaccount.google.com",
             "artists": "myaccount.google.com",
             "awareness": 3,
-            "platformId": 6,
-            "rank": 13,
+            "platformId": 8,            "rank": 13,
             "date": "2025-03-22",
             "timeBucket": "6m",
             "tags": [
@@ -629,8 +616,7 @@
             "title": "Resumen de actividad en chat.openai.com",
             "artists": "chat.openai.com",
             "awareness": 3,
-            "platformId": 6,
-            "rank": 14,
+            "platformId": 8,            "rank": 14,
             "date": "2024-12-07",
             "timeBucket": "1y",
             "tags": [
@@ -656,8 +642,7 @@
             "title": "Resumen de actividad en medialab-matadero.es",
             "artists": "medialab-matadero.es",
             "awareness": 3,
-            "platformId": 6,
-            "rank": 15,
+            "platformId": 8,            "rank": 15,
             "date": "2025-02-23",
             "timeBucket": "6m",
             "tags": [
@@ -683,8 +668,7 @@
             "title": "Resumen de actividad en github.com",
             "artists": "github.com",
             "awareness": 3,
-            "platformId": 6,
-            "rank": 16,
+            "platformId": 8,            "rank": 16,
             "date": "2024-10-09",
             "timeBucket": "1y",
             "tags": [
@@ -714,8 +698,7 @@
             "title": "Resumen de actividad en openprocessing.org",
             "artists": "openprocessing.org",
             "awareness": 3,
-            "platformId": 6,
-            "rank": 17,
+            "platformId": 8,            "rank": 17,
             "date": "2025-08-01",
             "timeBucket": "4w",
             "tags": [
@@ -741,8 +724,7 @@
             "title": "Resumen de actividad en youtube.com",
             "artists": "youtube.com",
             "awareness": 3,
-            "platformId": 6,
-            "rank": 18,
+            "platformId": 8,            "rank": 18,
             "date": "2025-08-05",
             "timeBucket": "4w",
             "tags": [
@@ -785,8 +767,7 @@
             "title": "Resumen de actividad en isidisi-notion.site",
             "artists": "isidisi-notion.site",
             "awareness": 3,
-            "platformId": 6,
-            "rank": 19,
+            "platformId": 8,            "rank": 19,
             "date": "2025-04-12",
             "timeBucket": "6m",
             "tags": [
@@ -812,8 +793,7 @@
             "title": "Resumen de actividad en esne.es",
             "artists": "esne.es",
             "awareness": 3,
-            "platformId": 6,
-            "rank": 20,
+            "platformId": 8,            "rank": 20,
             "date": "2025-01-26",
             "timeBucket": "1y",
             "tags": [
@@ -839,8 +819,7 @@
             "title": "Resumen de actividad en u-tad.com",
             "artists": "u-tad.com",
             "awareness": 3,
-            "platformId": 6,
-            "rank": 21,
+            "platformId": 8,            "rank": 21,
             "date": "2025-03-12",
             "timeBucket": "6m",
             "tags": [
@@ -866,8 +845,7 @@
             "title": "Resumen de actividad en aulavirtual38.educa.madrid.org",
             "artists": "aulavirtual38.educa.madrid.org",
             "awareness": 3,
-            "platformId": 6,
-            "rank": 22,
+            "platformId": 8,            "rank": 22,
             "date": "2025-03-14",
             "timeBucket": "6m",
             "tags": [
@@ -893,8 +871,7 @@
             "title": "Resumen de actividad en barbapapax.github.io",
             "artists": "barbapapax.github.io",
             "awareness": 3,
-            "platformId": 6,
-            "rank": 23,
+            "platformId": 8,            "rank": 23,
             "date": "2025-04-18",
             "timeBucket": "6m",
             "tags": [
@@ -920,8 +897,7 @@
             "title": "Resumen de actividad en mozilla.org",
             "artists": "mozilla.org",
             "awareness": 3,
-            "platformId": 6,
-            "rank": 24,
+            "platformId": 8,            "rank": 24,
             "date": "2024-09-11",
             "timeBucket": "1y",
             "tags": [
@@ -947,8 +923,7 @@
             "title": "Resumen de actividad en p5js.org",
             "artists": "p5js.org",
             "awareness": 3,
-            "platformId": 6,
-            "rank": 25,
+            "platformId": 8,            "rank": 25,
             "date": "2025-01-09",
             "timeBucket": "1y",
             "tags": [
@@ -974,8 +949,7 @@
             "title": "Resumen de actividad en thecodingtrain.com",
             "artists": "thecodingtrain.com",
             "awareness": 3,
-            "platformId": 6,
-            "rank": 26,
+            "platformId": 8,            "rank": 26,
             "date": "2025-03-05",
             "timeBucket": "6m",
             "tags": [
@@ -1005,8 +979,7 @@
             "title": "Resumen de actividad en codepen.io",
             "artists": "codepen.io",
             "awareness": 3,
-            "platformId": 6,
-            "rank": 27,
+            "platformId": 8,            "rank": 27,
             "date": "2025-04-10",
             "timeBucket": "6m",
             "tags": [
@@ -1032,8 +1005,7 @@
             "title": "Resumen de actividad en notion.site",
             "artists": "notion.site",
             "awareness": 3,
-            "platformId": 6,
-            "rank": 28,
+            "platformId": 8,            "rank": 28,
             "date": "2025-05-18",
             "timeBucket": "6m",
             "tags": [
@@ -1059,8 +1031,7 @@
             "title": "Resumen de actividad en notion.so",
             "artists": "notion.so",
             "awareness": 3,
-            "platformId": 6,
-            "rank": 29,
+            "platformId": 8,            "rank": 29,
             "date": "2025-07-20",
             "timeBucket": "4w",
             "tags": [
@@ -1086,8 +1057,7 @@
             "title": "Resumen de actividad en webflow.com",
             "artists": "webflow.com",
             "awareness": 3,
-            "platformId": 6,
-            "rank": 30,
+            "platformId": 8,            "rank": 30,
             "date": "2025-03-20",
             "timeBucket": "6m",
             "tags": [
@@ -1113,8 +1083,7 @@
             "title": "Resumen de actividad en figma.com",
             "artists": "figma.com",
             "awareness": 3,
-            "platformId": 6,
-            "rank": 31,
+            "platformId": 8,            "rank": 31,
             "date": "2025-07-02",
             "timeBucket": "4w",
             "tags": [
@@ -1140,8 +1109,7 @@
             "title": "Resumen de actividad en canva.com",
             "artists": "canva.com",
             "awareness": 3,
-            "platformId": 6,
-            "rank": 32,
+            "platformId": 8,            "rank": 32,
             "date": "2025-01-14",
             "timeBucket": "1y",
             "tags": [
@@ -1168,8 +1136,7 @@
             "title": "Resumen de actividad en es.wikipedia.org",
             "artists": "es.wikipedia.org",
             "awareness": 3,
-            "platformId": 6,
-            "rank": 35,
+            "platformId": 8,            "rank": 35,
             "date": "2024-10-18",
             "timeBucket": "1y",
             "tags": [
@@ -1195,8 +1162,7 @@
             "title": "Resumen de actividad en pinterest.es",
             "artists": "pinterest.es",
             "awareness": 3,
-            "platformId": 6,
-            "rank": 36,
+            "platformId": 8,            "rank": 36,
             "date": "2025-08-01",
             "timeBucket": "4w",
             "tags": [
@@ -1223,8 +1189,7 @@
             "title": "Resumen de actividad en campusfp.com",
             "artists": "campusfp.com",
             "awareness": 3,
-            "platformId": 6,
-            "rank": 39,
+            "platformId": 8,            "rank": 39,
             "date": "2025-03-01",
             "timeBucket": "6m",
             "tags": [
@@ -1250,8 +1215,7 @@
             "title": "Resumen de actividad en tiktok.com",
             "artists": "tiktok.com",
             "awareness": 3,
-            "platformId": 6,
-            "rank": 40,
+            "platformId": 8,            "rank": 40,
             "date": "2024-11-23",
             "timeBucket": "1y",
             "tags": [
@@ -1277,8 +1241,7 @@
             "title": "Resumen de actividad en twitch.tv",
             "artists": "twitch.tv",
             "awareness": 3,
-            "platformId": 6,
-            "rank": 41,
+            "platformId": 8,            "rank": 41,
             "date": "2024-11-09",
             "timeBucket": "1y",
             "tags": [
@@ -1304,8 +1267,7 @@
             "title": "Resumen de actividad en filmaffinity.com",
             "artists": "filmaffinity.com",
             "awareness": 3,
-            "platformId": 6,
-            "rank": 42,
+            "platformId": 8,            "rank": 42,
             "date": "2025-06-25",
             "timeBucket": "4w",
             "tags": [
@@ -1331,8 +1293,7 @@
             "title": "Resumen de actividad en rae.es",
             "artists": "rae.es",
             "awareness": 3,
-            "platformId": 6,
-            "rank": 43,
+            "platformId": 8,            "rank": 43,
             "date": "2025-05-19",
             "timeBucket": "6m",
             "tags": [
@@ -1358,8 +1319,7 @@
             "title": "Resumen de actividad en linkedin.com",
             "artists": "linkedin.com",
             "awareness": 3,
-            "platformId": 6,
-            "rank": 44,
+            "platformId": 8,            "rank": 44,
             "date": "2025-04-12",
             "timeBucket": "6m",
             "tags": [
@@ -1385,8 +1345,7 @@
             "title": "Resumen de actividad en imdb.com",
             "artists": "imdb.com",
             "awareness": 3,
-            "platformId": 6,
-            "rank": 45,
+            "platformId": 8,            "rank": 45,
             "date": "2025-01-09",
             "timeBucket": "1y",
             "tags": [
@@ -1412,8 +1371,7 @@
             "title": "Resumen de actividad en justwatch.com",
             "artists": "justwatch.com",
             "awareness": 3,
-            "platformId": 6,
-            "rank": 46,
+            "platformId": 8,            "rank": 46,
             "date": "2025-01-20",
             "timeBucket": "1y",
             "tags": [
@@ -1439,8 +1397,7 @@
             "title": "Resumen de actividad en idealista.es",
             "artists": "idealista.es",
             "awareness": 3,
-            "platformId": 6,
-            "rank": 47,
+            "platformId": 8,            "rank": 47,
             "date": "2025-07-28",
             "timeBucket": "4w",
             "tags": [
@@ -1466,8 +1423,7 @@
             "title": "Resumen de actividad en amazon.com",
             "artists": "amazon.com",
             "awareness": 3,
-            "platformId": 6,
-            "rank": 48,
+            "platformId": 8,            "rank": 48,
             "date": "2025-01-11",
             "timeBucket": "1y",
             "tags": [
@@ -1493,8 +1449,7 @@
             "title": "Resumen de actividad en reddit.com",
             "artists": "reddit.com",
             "awareness": 3,
-            "platformId": 6,
-            "rank": 49,
+            "platformId": 8,            "rank": 49,
             "date": "2025-02-27",
             "timeBucket": "6m",
             "tags": [
@@ -1520,8 +1475,7 @@
             "title": "Resumen de actividad en netflix.com",
             "artists": "netflix.com",
             "awareness": 3,
-            "platformId": 6,
-            "rank": 50,
+            "platformId": 8,            "rank": 50,
             "date": "2025-04-19",
             "timeBucket": "6m",
             "tags": [
@@ -1547,8 +1501,7 @@
             "title": "Resumen de actividad en twitter.com",
             "artists": "twitter.com",
             "awareness": 3,
-            "platformId": 6,
-            "rank": 51,
+            "platformId": 8,            "rank": 51,
             "date": "2024-08-30",
             "timeBucket": "1y",
             "tags": [
@@ -1574,8 +1527,7 @@
             "title": "Resumen de actividad en wikipedia.org",
             "artists": "wikipedia.org",
             "awareness": 3,
-            "platformId": 6,
-            "rank": 52,
+            "platformId": 8,            "rank": 52,
             "date": "2025-06-25",
             "timeBucket": "4w",
             "tags": [
@@ -1601,8 +1553,7 @@
             "title": "Resumen de actividad en w3schools.com",
             "artists": "w3schools.com",
             "awareness": 3,
-            "platformId": 6,
-            "rank": 53,
+            "platformId": 8,            "rank": 53,
             "date": "2024-11-20",
             "timeBucket": "1y",
             "tags": [
@@ -1628,8 +1579,7 @@
             "title": "Resumen de actividad en educacionyfp.gob.es",
             "artists": "educacionyfp.gob.es",
             "awareness": 3,
-            "platformId": 6,
-            "rank": 54,
+            "platformId": 8,            "rank": 54,
             "date": "2025-07-27",
             "timeBucket": "4w",
             "tags": [
@@ -1655,8 +1605,7 @@
             "title": "Resumen de actividad en discord.com",
             "artists": "discord.com",
             "awareness": 3,
-            "platformId": 6,
-            "rank": 55,
+            "platformId": 8,            "rank": 55,
             "date": "2025-06-29",
             "timeBucket": "4w",
             "tags": [
@@ -1682,8 +1631,7 @@
             "title": "Resumen de actividad en vimeo.com",
             "artists": "vimeo.com",
             "awareness": 3,
-            "platformId": 6,
-            "rank": 56,
+            "platformId": 8,            "rank": 56,
             "date": "2024-12-09",
             "timeBucket": "1y",
             "tags": [
@@ -1709,8 +1657,7 @@
             "title": "Resumen de actividad en developer.chrome.com",
             "artists": "developer.chrome.com",
             "awareness": 3,
-            "platformId": 6,
-            "rank": 57,
+            "platformId": 8,            "rank": 57,
             "date": "2025-07-16",
             "timeBucket": "6m",
             "tags": [
@@ -1737,8 +1684,7 @@
             "title": "Resumen de actividad en marca.es",
             "artists": "marca.es",
             "awareness": 3,
-            "platformId": 6,
-            "rank": 59,
+            "platformId": 8,            "rank": 59,
             "date": "2024-12-14",
             "timeBucket": "1y",
             "tags": [
@@ -1764,8 +1710,7 @@
             "title": "Resumen de actividad en medium.com",
             "artists": "medium.com",
             "awareness": 3,
-            "platformId": 6,
-            "rank": 60,
+            "platformId": 8,            "rank": 60,
             "date": "2025-03-12",
             "timeBucket": "6m",
             "tags": [
@@ -1791,8 +1736,7 @@
             "title": "Resumen de actividad en translate.google.com",
             "artists": "translate.google.com",
             "awareness": 3,
-            "platformId": 6,
-            "rank": 61,
+            "platformId": 8,            "rank": 61,
             "date": "2025-05-19",
             "timeBucket": "6m",
             "tags": [
@@ -1818,8 +1762,7 @@
             "title": "Resumen de actividad en lavanguardia.com",
             "artists": "lavanguardia.com",
             "awareness": 3,
-            "platformId": 6,
-            "rank": 62,
+            "platformId": 8,            "rank": 62,
             "date": "2024-12-25",
             "timeBucket": "1y",
             "tags": [
@@ -1845,8 +1788,7 @@
             "title": "Resumen de actividad en elmundo.es",
             "artists": "elmundo.es",
             "awareness": 3,
-            "platformId": 6,
-            "rank": 63,
+            "platformId": 8,            "rank": 63,
             "date": "2025-07-29",
             "timeBucket": "4w",
             "tags": [
@@ -1872,8 +1814,7 @@
             "title": "Resumen de actividad en elpais.com",
             "artists": "elpais.com",
             "awareness": 3,
-            "platformId": 6,
-            "rank": 64,
+            "platformId": 8,            "rank": 64,
             "date": "2025-02-18",
             "timeBucket": "6m",
             "tags": [
@@ -1901,8 +1842,7 @@
             "title": "Resumen de actividad en support.google.com",
             "artists": "support.google.com",
             "awareness": 3,
-            "platformId": 6,
-            "rank": 67,
+            "platformId": 8,            "rank": 67,
             "date": "2025-08-04",
             "timeBucket": "4w",
             "tags": [
@@ -1929,8 +1869,7 @@
             "title": "Resumen de actividad en policies.google.com",
             "artists": "policies.google.com",
             "awareness": 3,
-            "platformId": 6,
-            "rank": 69,
+            "platformId": 8,            "rank": 69,
             "date": "2025-04-20",
             "timeBucket": "6m",
             "tags": [
@@ -1956,8 +1895,7 @@
             "title": "Resumen de actividad en en.wikipedia.org",
             "artists": "en.wikipedia.org",
             "awareness": 3,
-            "platformId": 6,
-            "rank": 70,
+            "platformId": 8,            "rank": 70,
             "date": "2025-02-15",
             "timeBucket": "6m",
             "tags": [
@@ -1984,8 +1922,7 @@
             "title": "Resumen de actividad en cloud.google.com",
             "artists": "cloud.google.com",
             "awareness": 3,
-            "platformId": 6,
-            "rank": 73,
+            "platformId": 8,            "rank": 73,
             "date": "2025-06-25",
             "timeBucket": "4w",
             "tags": [
@@ -2011,8 +1948,7 @@
             "title": "Resumen de actividad en gemini.google.com",
             "artists": "gemini.google.com",
             "awareness": 3,
-            "platformId": 6,
-            "rank": 74,
+            "platformId": 8,            "rank": 74,
             "date": "2025-04-10",
             "timeBucket": "6m",
             "tags": [
@@ -2039,8 +1975,7 @@
             "title": "Resumen de actividad en play.google.com",
             "artists": "play.google.com",
             "awareness": 3,
-            "platformId": 6,
-            "rank": 77,
+            "platformId": 8,            "rank": 77,
             "date": "2024-09-24",
             "timeBucket": "1y",
             "tags": [
@@ -2066,8 +2001,7 @@
             "title": "Resumen de actividad en tv.google",
             "artists": "tv.google",
             "awareness": 3,
-            "platformId": 6,
-            "rank": 78,
+            "platformId": 8,            "rank": 78,
             "date": "2025-02-09",
             "timeBucket": "1y",
             "tags": [
@@ -2094,8 +2028,7 @@
             "title": "Resumen de actividad en artsandculture.google.com",
             "artists": "artsandculture.google.com",
             "awareness": 3,
-            "platformId": 6,
-            "rank": 80,
+            "platformId": 8,            "rank": 80,
             "date": "2024-11-23",
             "timeBucket": "1y",
             "tags": [
@@ -2121,8 +2054,7 @@
             "title": "Resumen de actividad en careers.google.com",
             "artists": "careers.google.com",
             "awareness": 3,
-            "platformId": 6,
-            "rank": 81,
+            "platformId": 8,            "rank": 81,
             "date": "2025-05-18",
             "timeBucket": "6m",
             "tags": [
@@ -2148,8 +2080,7 @@
             "title": "Resumen de actividad en esdmadrid.com",
             "artists": "esdmadrid.com",
             "awareness": 3,
-            "platformId": 6,
-            "rank": 82,
+            "platformId": 8,            "rank": 82,
             "date": "2025-01-20",
             "timeBucket": "1y",
             "tags": [
@@ -2176,8 +2107,7 @@
             "title": "Resumen de actividad en educacmadrid.org",
             "artists": "educacmadrid.org",
             "awareness": 3,
-            "platformId": 6,
-            "rank": 84,
+            "platformId": 8,            "rank": 84,
             "date": "2024-09-22",
             "timeBucket": "1y",
             "tags": [
@@ -2205,8 +2135,7 @@
             "title": "Resumen de actividad en es",
             "artists": "es",
             "awareness": 3,
-            "platformId": 6,
-            "rank": 88,
+            "platformId": 8,            "rank": 88,
             "date": "2025-06-12",
             "timeBucket": "6m",
             "tags": [
@@ -2232,8 +2161,7 @@
             "title": "Resumen de actividad en apple.com",
             "artists": "apple.com",
             "awareness": 3,
-            "platformId": 6,
-            "rank": 89,
+            "platformId": 8,            "rank": 89,
             "date": "2024-08-11",
             "timeBucket": "1y",
             "tags": [
@@ -2259,8 +2187,7 @@
             "title": "Resumen de actividad en microsoft.com",
             "artists": "microsoft.com",
             "awareness": 3,
-            "platformId": 6,
-            "rank": 90,
+            "platformId": 8,            "rank": 90,
             "date": "2025-04-10",
             "timeBucket": "6m",
             "tags": [
@@ -2286,8 +2213,7 @@
             "title": "Resumen de actividad en wikihow.com",
             "artists": "wikihow.com",
             "awareness": 3,
-            "platformId": 6,
-            "rank": 91,
+            "platformId": 8,            "rank": 91,
             "date": "2024-12-14",
             "timeBucket": "1y",
             "tags": [
@@ -2313,8 +2239,7 @@
             "title": "Resumen de actividad en yahoo.com",
             "artists": "yahoo.com",
             "awareness": 3,
-            "platformId": 6,
-            "rank": 92,
+            "platformId": 8,            "rank": 92,
             "date": "2025-01-26",
             "timeBucket": "1y",
             "tags": [
@@ -2340,8 +2265,7 @@
             "title": "Resumen de actividad en wordreference.com",
             "artists": "wordreference.com",
             "awareness": 3,
-            "platformId": 6,
-            "rank": 93,
+            "platformId": 8,            "rank": 93,
             "date": "2025-07-28",
             "timeBucket": "4w",
             "tags": [
@@ -2367,8 +2291,7 @@
             "title": "Resumen de actividad en weather.com",
             "artists": "weather.com",
             "awareness": 3,
-            "platformId": 6,
-            "rank": 94,
+            "platformId": 8,            "rank": 94,
             "date": "2025-06-13",
             "timeBucket": "6m",
             "tags": [
@@ -2394,8 +2317,7 @@
             "title": "Resumen de actividad en nytimes.com",
             "artists": "nytimes.com",
             "awareness": 3,
-            "platformId": 6,
-            "rank": 95,
+            "platformId": 8,            "rank": 95,
             "date": "2025-03-01",
             "timeBucket": "6m",
             "tags": [
@@ -2421,8 +2343,7 @@
             "title": "Resumen de actividad en theguardian.com",
             "artists": "theguardian.com",
             "awareness": 3,
-            "platformId": 6,
-            "rank": 96,
+            "platformId": 8,            "rank": 96,
             "date": "2025-02-07",
             "timeBucket": "1y",
             "tags": [
@@ -2448,8 +2369,7 @@
             "title": "Resumen de actividad en bbc.co.uk",
             "artists": "bbc.co.uk",
             "awareness": 3,
-            "platformId": 6,
-            "rank": 97,
+            "platformId": 8,            "rank": 97,
             "date": "2025-02-18",
             "timeBucket": "6m",
             "tags": [
@@ -2475,8 +2395,7 @@
             "title": "Resumen de actividad en ebay.com",
             "artists": "ebay.com",
             "awareness": 3,
-            "platformId": 6,
-            "rank": 98,
+            "platformId": 8,            "rank": 98,
             "date": "2024-12-25",
             "timeBucket": "1y",
             "tags": [
@@ -2502,8 +2421,7 @@
             "title": "Resumen de actividad en aliexpress.com",
             "artists": "aliexpress.com",
             "awareness": 3,
-            "platformId": 6,
-            "rank": 99,
+            "platformId": 8,            "rank": 99,
             "date": "2024-10-02",
             "timeBucket": "1y",
             "tags": [
@@ -2529,8 +2447,7 @@
             "title": "Resumen de actividad en tripadvisor.com",
             "artists": "tripadvisor.com",
             "awareness": 3,
-            "platformId": 6,
-            "rank": 100,
+            "platformId": 8,            "rank": 100,
             "date": "2025-06-25",
             "timeBucket": "4w",
             "tags": [
@@ -2556,8 +2473,7 @@
             "title": "Resumen de actividad en booking.com",
             "artists": "booking.com",
             "awareness": 3,
-            "platformId": 6,
-            "rank": 101,
+            "platformId": 8,            "rank": 101,
             "date": "2025-05-18",
             "timeBucket": "6m",
             "tags": [
@@ -2583,8 +2499,7 @@
             "title": "Resumen de actividad en airbnb.com",
             "artists": "airbnb.com",
             "awareness": 3,
-            "platformId": 6,
-            "rank": 102,
+            "platformId": 8,            "rank": 102,
             "date": "2025-06-03",
             "timeBucket": "6m",
             "tags": [
@@ -2610,8 +2525,7 @@
             "title": "Resumen de actividad en skyscanner.com",
             "artists": "skyscanner.com",
             "awareness": 3,
-            "platformId": 6,
-            "rank": 103,
+            "platformId": 8,            "rank": 103,
             "date": "2024-09-02",
             "timeBucket": "1y",
             "tags": [
@@ -2637,8 +2551,7 @@
             "title": "Resumen de actividad en forbes.com",
             "artists": "forbes.com",
             "awareness": 3,
-            "platformId": 6,
-            "rank": 104,
+            "platformId": 8,            "rank": 104,
             "date": "2025-03-27",
             "timeBucket": "6m",
             "tags": [
@@ -2665,8 +2578,7 @@
             "title": "Resumen de actividad en reuters.com",
             "artists": "reuters.com",
             "awareness": 3,
-            "platformId": 6,
-            "rank": 106,
+            "platformId": 8,            "rank": 106,
             "date": "2024-11-20",
             "timeBucket": "1y",
             "tags": [
@@ -2692,8 +2604,7 @@
             "title": "Resumen de actividad en wsj.com",
             "artists": "wsj.com",
             "awareness": 3,
-            "platformId": 6,
-            "rank": 107,
+            "platformId": 8,            "rank": 107,
             "date": "2025-01-22",
             "timeBucket": "1y",
             "tags": [
@@ -2719,8 +2630,7 @@
             "title": "Resumen de actividad en economist.com",
             "artists": "economist.com",
             "awareness": 3,
-            "platformId": 6,
-            "rank": 108,
+            "platformId": 8,            "rank": 108,
             "date": "2024-09-24",
             "timeBucket": "1y",
             "tags": [
@@ -2746,8 +2656,7 @@
             "title": "Resumen de actividad en nationalgeographic.com",
             "artists": "nationalgeographic.com",
             "awareness": 3,
-            "platformId": 6,
-            "rank": 109,
+            "platformId": 8,            "rank": 109,
             "date": "2025-02-09",
             "timeBucket": "1y",
             "tags": [
@@ -2773,8 +2682,7 @@
             "title": "Resumen de actividad en scientificamerican.com",
             "artists": "scientificamerican.com",
             "awareness": 3,
-            "platformId": 6,
-            "rank": 110,
+            "platformId": 8,            "rank": 110,
             "date": "2025-04-12",
             "timeBucket": "6m",
             "tags": [
@@ -2800,8 +2708,7 @@
             "title": "Resumen de actividad en popsci.com",
             "artists": "popsci.com",
             "awareness": 3,
-            "platformId": 6,
-            "rank": 111,
+            "platformId": 8,            "rank": 111,
             "date": "2024-10-18",
             "timeBucket": "1y",
             "tags": [
@@ -2827,8 +2734,7 @@
             "title": "Resumen de actividad en wired.com",
             "artists": "wired.com",
             "awareness": 3,
-            "platformId": 6,
-            "rank": 112,
+            "platformId": 8,            "rank": 112,
             "date": "2025-07-28",
             "timeBucket": "4w",
             "tags": [
@@ -2854,8 +2760,7 @@
             "title": "Resumen de actividad en techcrunch.com",
             "artists": "techcrunch.com",
             "awareness": 3,
-            "platformId": 6,
-            "rank": 113,
+            "platformId": 8,            "rank": 113,
             "date": "2024-12-19",
             "timeBucket": "1y",
             "tags": [
@@ -2881,8 +2786,7 @@
             "title": "Resumen de actividad en arstechnica.com",
             "artists": "arstechnica.com",
             "awareness": 3,
-            "platformId": 6,
-            "rank": 114,
+            "platformId": 8,            "rank": 114,
             "date": "2025-07-29",
             "timeBucket": "4w",
             "tags": [
@@ -2908,8 +2812,7 @@
             "title": "Resumen de actividad en vice.com",
             "artists": "vice.com",
             "awareness": 3,
-            "platformId": 6,
-            "rank": 115,
+            "platformId": 8,            "rank": 115,
             "date": "2025-02-15",
             "timeBucket": "6m",
             "tags": [
@@ -2935,8 +2838,7 @@
             "title": "Resumen de actividad en buzzfeed.com",
             "artists": "buzzfeed.com",
             "awareness": 3,
-            "platformId": 6,
-            "rank": 116,
+            "platformId": 8,            "rank": 116,
             "date": "2025-07-28",
             "timeBucket": "4w",
             "tags": [
@@ -2962,8 +2864,7 @@
             "title": "Resumen de actividad en huffpost.com",
             "artists": "huffpost.com",
             "awareness": 3,
-            "platformId": 6,
-            "rank": 117,
+            "platformId": 8,            "rank": 117,
             "date": "2025-03-22",
             "timeBucket": "6m",
             "tags": [
@@ -2989,8 +2890,7 @@
             "title": "Resumen de actividad en theatlantic.com",
             "artists": "theatlantic.com",
             "awareness": 3,
-            "platformId": 6,
-            "rank": 118,
+            "platformId": 8,            "rank": 118,
             "date": "2025-07-29",
             "timeBucket": "4w",
             "tags": [
@@ -3016,8 +2916,7 @@
             "title": "Resumen de actividad en newyorker.com",
             "artists": "newyorker.com",
             "awareness": 3,
-            "platformId": 6,
-            "rank": 119,
+            "platformId": 8,            "rank": 119,
             "date": "2025-07-28",
             "timeBucket": "4w",
             "tags": [
@@ -3044,8 +2943,7 @@
             "title": "Resumen de actividad en time.com",
             "artists": "time.com",
             "awareness": 3,
-            "platformId": 6,
-            "rank": 121,
+            "platformId": 8,            "rank": 121,
             "date": "2025-03-12",
             "timeBucket": "6m",
             "tags": [
@@ -3071,8 +2969,7 @@
             "title": "Resumen de actividad en npr.org",
             "artists": "npr.org",
             "awareness": 3,
-            "platformId": 6,
-            "rank": 122,
+            "platformId": 8,            "rank": 122,
             "date": "2025-01-14",
             "timeBucket": "1y",
             "tags": [
@@ -3099,8 +2996,7 @@
             "title": "Resumen de actividad en smithsonianmag.com",
             "artists": "smithsonianmag.com",
             "awareness": 3,
-            "platformId": 6,
-            "rank": 124,
+            "platformId": 8,            "rank": 124,
             "date": "2025-02-23",
             "timeBucket": "6m",
             "tags": [
@@ -3127,8 +3023,7 @@
             "title": "Resumen de actividad en howstuffworks.com",
             "artists": "howstuffworks.com",
             "awareness": 3,
-            "platformId": 6,
-            "rank": 126,
+            "platformId": 8,            "rank": 126,
             "date": "2025-01-29",
             "timeBucket": "1y",
             "tags": [
@@ -3154,8 +3049,7 @@
             "title": "Resumen de actividad en lifehacker.com",
             "artists": "lifehacker.com",
             "awareness": 3,
-            "platformId": 6,
-            "rank": 127,
+            "platformId": 8,            "rank": 127,
             "date": "2025-02-12",
             "timeBucket": "6m",
             "tags": [
@@ -3181,8 +3075,7 @@
             "title": "Resumen de actividad en gizmodo.com",
             "artists": "gizmodo.com",
             "awareness": 3,
-            "platformId": 6,
-            "rank": 128,
+            "platformId": 8,            "rank": 128,
             "date": "2024-09-17",
             "timeBucket": "1y",
             "tags": [
@@ -3208,8 +3101,7 @@
             "title": "Resumen de actividad en kotaku.com",
             "artists": "kotaku.com",
             "awareness": 3,
-            "platformId": 6,
-            "rank": 129,
+            "platformId": 8,            "rank": 129,
             "date": "2025-03-22",
             "timeBucket": "6m",
             "tags": [
@@ -3236,8 +3128,7 @@
             "title": "Resumen de actividad en eurogamer.net",
             "artists": "eurogamer.net",
             "awareness": 3,
-            "platformId": 6,
-            "rank": 131,
+            "platformId": 8,            "rank": 131,
             "date": "2025-03-24",
             "timeBucket": "6m",
             "tags": [
@@ -3263,8 +3154,7 @@
             "title": "Resumen de actividad en gamespot.com",
             "artists": "gamespot.com",
             "awareness": 3,
-            "platformId": 6,
-            "rank": 132,
+            "platformId": 8,            "rank": 132,
             "date": "2025-01-20",
             "timeBucket": "1y",
             "tags": [
@@ -3290,8 +3180,7 @@
             "title": "Resumen de actividad en ign.com",
             "artists": "ign.com",
             "awareness": 3,
-            "platformId": 6,
-            "rank": 133,
+            "platformId": 8,            "rank": 133,
             "date": "2024-11-20",
             "timeBucket": "1y",
             "tags": [
@@ -3317,8 +3206,7 @@
             "title": "Resumen de actividad en gamesradar.com",
             "artists": "gamesradar.com",
             "awareness": 3,
-            "platformId": 6,
-            "rank": 134,
+            "platformId": 8,            "rank": 134,
             "date": "2024-10-18",
             "timeBucket": "1y",
             "tags": [
@@ -3344,8 +3232,7 @@
             "title": "Resumen de actividad en pcgamer.com",
             "artists": "pcgamer.com",
             "awareness": 3,
-            "platformId": 6,
-            "rank": 135,
+            "platformId": 8,            "rank": 135,
             "date": "2025-06-25",
             "timeBucket": "4w",
             "tags": [
@@ -3371,8 +3258,7 @@
             "title": "Resumen de actividad en rockpapershotgun.com",
             "artists": "rockpapershotgun.com",
             "awareness": 3,
-            "platformId": 6,
-            "rank": 136,
+            "platformId": 8,            "rank": 136,
             "date": "2025-05-18",
             "timeBucket": "6m",
             "tags": [
@@ -3398,8 +3284,7 @@
             "title": "Resumen de actividad en dsogaming.com",
             "artists": "dsogaming.com",
             "awareness": 3,
-            "platformId": 6,
-            "rank": 137,
+            "platformId": 8,            "rank": 137,
             "date": "2025-06-03",
             "timeBucket": "6m",
             "tags": [
@@ -3425,8 +3310,7 @@
             "title": "Resumen de actividad en gematsu.com",
             "artists": "gematsu.com",
             "awareness": 3,
-            "platformId": 6,
-            "rank": 138,
+            "platformId": 8,            "rank": 138,
             "date": "2024-09-02",
             "timeBucket": "1y",
             "tags": [
@@ -3452,8 +3336,7 @@
             "title": "Resumen de actividad en siliconera.com",
             "artists": "siliconera.com",
             "awareness": 3,
-            "platformId": 6,
-            "rank": 139,
+            "platformId": 8,            "rank": 139,
             "date": "2025-03-27",
             "timeBucket": "6m",
             "tags": [
@@ -3480,8 +3363,7 @@
             "title": "Resumen de actividad en shacknews.com",
             "artists": "shacknews.com",
             "awareness": 3,
-            "platformId": 6,
-            "rank": 141,
+            "platformId": 8,            "rank": 141,
             "date": "2024-12-19",
             "timeBucket": "1y",
             "tags": [
@@ -3508,8 +3390,7 @@
             "title": "Resumen de actividad en gameinformer.com",
             "artists": "gameinformer.com",
             "awareness": 3,
-            "platformId": 6,
-            "rank": 143,
+            "platformId": 8,            "rank": 143,
             "date": "2025-02-15",
             "timeBucket": "6m",
             "tags": [
@@ -3536,8 +3417,7 @@
             "title": "Resumen de actividad en metacritic.com",
             "artists": "metacritic.com",
             "awareness": 3,
-            "platformId": 6,
-            "rank": 146,
+            "platformId": 8,            "rank": 146,
             "date": "2025-07-29",
             "timeBucket": "4w",
             "tags": [
@@ -3563,8 +3443,7 @@
             "title": "Resumen de actividad en opencritic.com",
             "artists": "opencritic.com",
             "awareness": 3,
-            "platformId": 6,
-            "rank": 147,
+            "platformId": 8,            "rank": 147,
             "date": "2025-07-28",
             "timeBucket": "4w",
             "tags": [
@@ -3592,8 +3471,7 @@
             "title": "Resumen de actividad en gamefaqs.com",
             "artists": "gamefaqs.com",
             "awareness": 3,
-            "platformId": 6,
-            "rank": 150,
+            "platformId": 8,            "rank": 150,
             "date": "2025-01-14",
             "timeBucket": "1y",
             "tags": [
@@ -3620,8 +3498,7 @@
             "title": "Resumen de actividad en cheatcc.com",
             "artists": "cheatcc.com",
             "awareness": 3,
-            "platformId": 6,
-            "rank": 152,
+            "platformId": 8,            "rank": 152,
             "date": "2025-02-23",
             "timeBucket": "6m",
             "tags": [
@@ -3648,8 +3525,7 @@
             "title": "Resumen de actividad en steamcommunity.com",
             "artists": "steamcommunity.com",
             "awareness": 3,
-            "platformId": 6,
-            "rank": 158,
+            "platformId": 8,            "rank": 158,
             "date": "2025-06-03",
             "timeBucket": "6m",
             "tags": [
@@ -3675,8 +3551,7 @@
             "title": "Resumen de actividad en steamdb.info",
             "artists": "steamdb.info",
             "awareness": 3,
-            "platformId": 6,
-            "rank": 159,
+            "platformId": 8,            "rank": 159,
             "date": "2025-03-24",
             "timeBucket": "6m",
             "tags": [
@@ -3702,8 +3577,7 @@
             "title": "Resumen de actividad en isthereanydeal.com",
             "artists": "isthereanydeal.com",
             "awareness": 3,
-            "platformId": 6,
-            "rank": 160,
+            "platformId": 8,            "rank": 160,
             "date": "2025-01-20",
             "timeBucket": "1y",
             "tags": [
@@ -3729,8 +3603,7 @@
             "title": "Resumen de actividad en cheapshark.com",
             "artists": "cheapshark.com",
             "awareness": 3,
-            "platformId": 6,
-            "rank": 161,
+            "platformId": 8,            "rank": 161,
             "date": "2024-11-20",
             "timeBucket": "1y",
             "tags": [
@@ -3756,8 +3629,7 @@
             "title": "Resumen de actividad en nexusmods.com",
             "artists": "nexusmods.com",
             "awareness": 3,
-            "platformId": 6,
-            "rank": 162,
+            "platformId": 8,            "rank": 162,
             "date": "2024-10-18",
             "timeBucket": "1y",
             "tags": [
@@ -3783,8 +3655,7 @@
             "title": "Resumen de actividad en moddb.com",
             "artists": "moddb.com",
             "awareness": 3,
-            "platformId": 6,
-            "rank": 163,
+            "platformId": 8,            "rank": 163,
             "date": "2025-06-25",
             "timeBucket": "4w",
             "tags": [
@@ -3807,8 +3678,8 @@
           },
           {
             "id": "battery-usage-4w-instagram-1",
-            "title": "Uso de batería — Instagram",
-            "artists": "Instagram",
+            "title": "Instagram",
+            "artists": "",
             "awareness": 3,
             "timeBucket": "4w",
             "platformId": 5,
@@ -3822,16 +3693,16 @@
             ],
             "details": {
               "sourceFile": "battery_usage_periods_varied.json",
-              "dataType": "Usо de Batería",
+              "dataType": "Uso de Batería",
               "name": "Instagram",
-              "percentage": "59%",
+              "porcentaje": "59%",
               "subjective_notes": "Probablemente, esta sea la red social que más uso. Me gusta ver fotos y vídeos de mis amigos, seguir a creadores de contenido y descubrir nuevas tendencias. También uso Instagram para comunicarme con mis amigos."
             }
           },
           {
             "id": "battery-usage-4w-whatsapp-2",
-            "title": "Uso de batería — WhatsApp",
-            "artists": "WhatsApp",
+            "title": "WhatsApp",
+            "artists": "",
             "awareness": 3,
             "timeBucket": "4w",
             "platformId": 5,
@@ -3845,16 +3716,16 @@
             ],
             "details": {
               "sourceFile": "battery_usage_periods_varied.json",
-              "dataType": "Usо de Batería",
+              "dataType": "Uso de Batería",
               "name": "WhatsApp",
-              "percentage": "11%",
+              "porcentaje": "11%",
               "subjective_notes": "WhatsApp es mi aplicación principal de mensajería. La uso para comunicarme con mis amigos y familiares, enviar fotos y vídeos, y hacer llamadas de voz y vídeo. "
             }
           },
           {
             "id": "battery-usage-4w-safari-3",
-            "title": "Uso de batería — Safari",
-            "artists": "Safari",
+            "title": "Safari",
+             "artists": "",
             "awareness": 3,
             "timeBucket": "4w",
             "platformId": 5,
@@ -3868,16 +3739,16 @@
             ],
             "details": {
               "sourceFile": "battery_usage_periods_varied.json",
-              "dataType": "Usо de Batería",
+              "dataType": "Uso de Batería",
               "name": "Safari",
-              "percentage": "9%",
+              "porcentaje": "9%",
               "subjective_notes": "Para mí, este es mi navegador principal en el teléfono."
             }
           },
           {
             "id": "battery-usage-4w-chess-4",
-            "title": "Uso de batería — Chess",
-            "artists": "Chess",
+            "title": "Chess",
+            "artists": "",
             "awareness": 3,
             "timeBucket": "4w",
             "platformId": 5,
@@ -3891,16 +3762,16 @@
             ],
             "details": {
               "sourceFile": "battery_usage_periods_varied.json",
-              "dataType": "Usо de Batería",
+              "dataType": "Uso de Batería",
               "name": "Chess",
-              "percentage": "4%",
+              "porcentaje": "4%",
               "subjective_notes": "Siempre me ha gustado jugar al ajedrez, y desde hace poco lo juego en Chess. Me gusta jugar partidas rápidas y también resolver problemas de ajedrez."
             }
           },
           {
             "id": "battery-usage-4w-webtoon-5",
-            "title": "Uso de batería — WEBTOON",
-            "artists": "WEBTOON",
+            "title": "WEBTOON",
+            "artists": "",
             "awareness": 3,
             "timeBucket": "4w",
             "platformId": 5,
@@ -3914,16 +3785,16 @@
             ],
             "details": {
               "sourceFile": "battery_usage_periods_varied.json",
-              "dataType": "Usо de Batería",
+              "dataType": "Uso de Batería",
               "name": "WEBTOON",
-              "percentage": "3%",
+              "porcentaje": "3%",
               "subjective_notes": "Me he aficionado a leer mangas y cómics en WEBTOON. Me gusta leer historias de fantasía y romance, y esta app tiene una gran variedad de géneros y autores."
             }
           },
           {
             "id": "battery-usage-4w-google-maps-6",
-            "title": "Uso de batería — Google Maps",
-            "artists": "Google Maps",
+            "title": "Google Maps",
+              "artists": "",
             "awareness": 3,
             "timeBucket": "4w",
             "platformId": 5,
@@ -3937,16 +3808,16 @@
             ],
             "details": {
               "sourceFile": "battery_usage_periods_varied.json",
-              "dataType": "Usо de Batería",
+              "dataType": "Uso de Batería",
               "name": "Google Maps",
-              "percentage": "2%",
+              "porcentaje": "2%",
               "subjective_notes": "En Madrid siempre uso Google Maps para moverme, ya que es la mejor opción para ver el transporte público y las rutas a pie. También lo uso cuando viajo a otras ciudades."
             }
           },
           {
             "id": "battery-usage-4w-uber-eats-7",
-            "title": "Uso de batería — Uber Eats",
-            "artists": "Uber Eats",
+            "title": "Uber Eats",
+             "artists": "",
             "awareness": 3,
             "timeBucket": "4w",
             "platformId": 5,
@@ -3960,16 +3831,16 @@
             ],
             "details": {
               "sourceFile": "battery_usage_periods_varied.json",
-              "dataType": "Usо de Batería",
+              "dataType": "Uso de Batería",
               "name": "Uber Eats",
-              "percentage": "2%",
+              "porcentaje": "2%",
               "subjective_notes": "Suelo pedir comida cuando no tengo ganas de cocinar, cuando estoy cansadx o hay gente en casa. Uber Eats es mi plataforma principal para pedir comida a domicilio, ya que tiene una gran variedad de restaurantes y opciones."
             }
           },
           {
             "id": "battery-usage-4w-tinder-8",
-            "title": "Uso de batería — Tinder",
-            "artists": "Tinder",
+            "title": "Tinder",
+             "artists": "",
             "awareness": 3,
             "timeBucket": "4w",
             "platformId": 5,
@@ -3983,16 +3854,16 @@
             ],
             "details": {
               "sourceFile": "battery_usage_periods_varied.json",
-              "dataType": "Usо de Batería",
+              "dataType": "Uso de Batería",
               "name": "Tinder",
-              "percentage": "2%",
+              "porcentaje": "2%",
               "subjective_notes": "Mi novia y yo tenemos una relación no-monógama, y usamos Tinder para conocer a otras personas. Aunque no lo usamos mucho, cuando visitamos un sitio nuevo nos metemos a cotillear."
             }
           },
           {
             "id": "battery-usage-4w-fire-tv-9",
-            "title": "Uso de batería — Fire TV",
-            "artists": "Fire TV",
+            "title": "Fire TV",
+          "artists": "",
             "awareness": 3,
             "timeBucket": "4w",
             "platformId": 5,
@@ -4006,16 +3877,16 @@
             ],
             "details": {
               "sourceFile": "battery_usage_periods_varied.json",
-              "dataType": "Usо de Batería",
+              "dataType": "Uso de Batería",
               "name": "Fire TV",
-              "percentage": "1%",
+              "porcentaje": "1%",
               "subjective_notes": "Hace un tiempo perdimos el mando del FireTV en mi piso y nos hemos tenido que descargar cada uno en su móvil la app para poder usarlo."
             }
           },
           {
             "id": "battery-usage-4w-pantalla-inicio/bloqueo-10",
-            "title": "Uso de batería — Pantalla inicio/bloqueo",
-            "artists": "Pantalla inicio/bloqueo",
+            "title": "Pantalla inicio/bloqueo",
+            "artists": "",
             "awareness": 3,
             "timeBucket": "4w",
             "platformId": 5,
@@ -4029,15 +3900,15 @@
             ],
             "details": {
               "sourceFile": "battery_usage_periods_varied.json",
-              "dataType": "Usо de Batería",
+              "dataType": "Uso de Batería",
               "name": "Pantalla inicio/bloqueo",
-              "percentage": "1%"
+              "porcentaje": "1%"
             }
           },
           {
             "id": "battery-usage-4w-spotify-11",
-            "title": "Uso de batería — Spotify",
-            "artists": "Spotify",
+            "title": "Spotify",
+        "artists": "",
             "awareness": 3,
             "timeBucket": "4w",
             "platformId": 5,
@@ -4051,16 +3922,16 @@
             ],
             "details": {
               "sourceFile": "battery_usage_periods_varied.json",
-              "dataType": "Usо de Batería",
+              "dataType": "Uso de Batería",
               "name": "Spotify",
-              "percentage": "1%",
+              "porcentaje": "1%",
               "subjective_notes": "Me encanta trabajar con música y Spotify es mi plataforma principal. Escucho música mientras trabajo, estudio y hago ejercicio. También me gusta descubrir música nueva y crear listas de reproducción. Lo uso más en el teléfono que en el ordenador, ya que me gusta escuchar música mientras me muevo por la ciudad."
             }
           },
           {
             "id": "battery-usage-4w-buscar-12",
-            "title": "Uso de batería — Buscar",
-            "artists": "Buscar",
+            "title": "Buscar",
+          "artists": "",
             "awareness": 3,
             "timeBucket": "4w",
             "platformId": 5,
@@ -4075,16 +3946,16 @@
             ],
             "details": {
               "sourceFile": "battery_usage_periods_varied.json",
-              "dataType": "Usо de Batería",
+              "dataType": "Uso de Batería",
               "name": "Buscar",
-              "percentage": "1%",
+              "porcentaje": "1%",
               "subjective_notes": "A veces, me meto en esta app para ver por donde va alguien si está de viaje o para ver dónde están mis amigos. Me gusta saber dónde están mis amigos y familiares, especialmente cuando estamos de fiesta o en una ciudad nueva."
             }
           },
           {
             "id": "battery-usage-4w-teléfono-13",
-            "title": "Uso de batería — Teléfono",
-            "artists": "Teléfono",
+            "title": "Teléfono",
+         "artists": "",
             "awareness": 3,
             "timeBucket": "4w",
             "platformId": 5,
@@ -4098,15 +3969,15 @@
             ],
             "details": {
               "sourceFile": "battery_usage_periods_varied.json",
-              "dataType": "Usо de Batería",
+              "dataType": "Uso de Batería",
               "name": "Teléfono",
-              "percentage": "1%"
+              "porcentaje": "1%"
             }
           },
           {
             "id": "battery-usage-4w-tiempo-14",
-            "title": "Uso de batería — Tiempo",
-            "artists": "Tiempo",
+            "title": "Tiempo",
+            "artists": "",
             "awareness": 3,
             "timeBucket": "4w",
             "platformId": 5,
@@ -4120,16 +3991,16 @@
             ],
             "details": {
               "sourceFile": "battery_usage_periods_varied.json",
-              "dataType": "Usо de Batería",
+              "dataType": "Uso de Batería",
               "name": "Tiempo",
-              "percentage": "1%",
+              "porcentaje": "1%",
               "subjective_notes": "Sobre todo en invierno, me gusta mirar el tiempo en esta app. Me gusta saber si va a llover o hacer frío, y planificar mis actividades y ropa en consecuencia. También me gusta ver el tiempo en otras ciudades cuando viajo."
             }
           },
           {
             "id": "battery-usage-4w-shein-15",
-            "title": "Uso de batería — SHEIN",
-            "artists": "SHEIN",
+            "title": "SHEIN",
+           "artists": "",
             "awareness": 3,
             "timeBucket": "4w",
             "platformId": 5,
@@ -4143,16 +4014,16 @@
             ],
             "details": {
               "sourceFile": "battery_usage_periods_varied.json",
-              "dataType": "Usо de Batería",
+              "dataType": "Uso de Batería",
               "name": "SHEIN",
-              "percentage": "1%",
+              "porcentaje": "1%",
               "subjective_notes": "No uso mucho esta app, pero de vez en cuando me gusta mirar ropa y complementos. Me gusta ver las novedades y las ofertas, y a veces hago pedidos para mí o para regalar."
             }
           },
           {
             "id": "battery-usage-4w-caixabanknow-16",
-            "title": "Uso de batería — CaixaBankNow",
-            "artists": "CaixaBankNow",
+            "title": "CaixaBankNow",
+             "artists": "",
             "awareness": 3,
             "timeBucket": "4w",
             "platformId": 5,
@@ -4166,16 +4037,16 @@
             ],
             "details": {
               "sourceFile": "battery_usage_periods_varied.json",
-              "dataType": "Usо de Batería",
+              "dataType": "Uso de Batería",
               "name": "CaixaBankNow",
-              "percentage": "1%",
+              "porcentaje": "1%",
               "subjective_notes": "Este lleva siendo mi banco desde que tengo uso de razón, y es el que uso para gestionar mis finanzas. Lo uso para ver mi saldo, hacer transferencias y pagar recibos."
             }
           },
           {
             "id": "battery-usage-4w-fotos-17",
-            "title": "Uso de batería — Fotos",
-            "artists": "Fotos",
+            "title": "Fotos",
+          "artists": "",
             "awareness": 3,
             "timeBucket": "4w",
             "platformId": 5,
@@ -4189,16 +4060,16 @@
             ],
             "details": {
               "sourceFile": "battery_usage_periods_varied.json",
-              "dataType": "Usо de Batería",
+              "dataType": "Uso de Batería",
               "name": "Fotos",
-              "percentage": "2%",
+              "porcentaje": "2%",
               "subjective_notes": "De vez en cuando me gusta hacer fotos con el móvil, pero no es algo que haga a menudo. Suelo usar la app de Fotos para ver y organizar mis fotos."
             }
           },
           {
             "id": "battery-usage-4w-tiktok-18",
-            "title": "Uso de batería — TikTok",
-            "artists": "TikTok",
+            "title": "TikTok",
+           "artists": "",
             "awareness": 3,
             "timeBucket": "4w",
             "platformId": 5,
@@ -4212,16 +4083,16 @@
             ],
             "details": {
               "sourceFile": "battery_usage_periods_varied.json",
-              "dataType": "Usо de Batería",
+              "dataType": "Uso de Batería",
               "name": "TikTok",
-              "percentage": "2%",
+              "porcentaje": "2%",
               "subjective_notes": "Ya no uso tanto TikTok como antes, ahora solo me meto cuando alguien me pasa algo o para buscar un meme."
             }
           },
           {
             "id": "battery-usage-4w-gmail-19",
-            "title": "Uso de batería — Gmail",
-            "artists": "Gmail",
+            "title": "Gmail",
+             "artists": "",
             "awareness": 3,
             "timeBucket": "4w",
             "platformId": 5,
@@ -4235,16 +4106,16 @@
             ],
             "details": {
               "sourceFile": "battery_usage_periods_varied.json",
-              "dataType": "Usо de Batería",
+              "dataType": "Uso de Batería",
               "name": "Gmail",
-              "percentage": "2%",
+              "porcentaje": "2%",
               "subjective_notes": "A veces, me meto en esta app para ver por donde va alguien si está de viaje o para ver dónde están mis amigos. Me gusta saber dónde están mis amigos y familiares, especialmente cuando estamos de fiesta o en una ciudad nueva."
             }
           },
           {
             "id": "battery-usage-4w-burger-king-es-20",
-            "title": "Uso de batería — Burger King ES",
-            "artists": "Burger King ES",
+            "title": "Burger King ES",
+            "artists": "",
             "awareness": 3,
             "timeBucket": "4w",
             "platformId": 5,
@@ -4258,16 +4129,16 @@
             ],
             "details": {
               "sourceFile": "battery_usage_periods_varied.json",
-              "dataType": "Usо de Batería",
+              "dataType": "Uso de Batería",
               "name": "Burger King ES",
-              "percentage": "4%",
+              "porcentaje": "4%",
               "subjective_notes": "Me suele gustar mas esta cadena de comida rápida que McDonald's. Uso la app para ver el menú y hacer pedidos ya que sale gratis en envío."
             }
           },
           {
             "id": "battery-usage-4w-mail-21",
-            "title": "Uso de batería — Mail",
-            "artists": "Mail",
+            "title": "Mail",
+    "artists": "",
             "awareness": 3,
             "timeBucket": "4w",
             "platformId": 5,
@@ -4281,16 +4152,16 @@
             ],
             "details": {
               "sourceFile": "battery_usage_periods_varied.json",
-              "dataType": "Usо de Batería",
+              "dataType": "Uso de Batería",
               "name": "Mail",
-              "percentage": "5%",
+              "porcentaje": "5%",
               "subjective_notes": "En el móvil tengo la app de Mail para gestionar mis correos electrónicos. Aunque no la uso mucho, la tengo instalada para poder acceder a mis correos de todas las plataformas."
             }
           },
           {
             "id": "battery-usage-4w-telegram-22",
-            "title": "Uso de batería — Telegram",
-            "artists": "Telegram",
+            "title": "Telegram",
+           "artists": "",
             "awareness": 3,
             "timeBucket": "4w",
             "platformId": 5,
@@ -4304,16 +4175,16 @@
             ],
             "details": {
               "sourceFile": "battery_usage_periods_varied.json",
-              "dataType": "Usо de Batería",
+              "dataType": "Uso de Batería",
               "name": "Telegram",
-              "percentage": "2%",
+              "porcentaje": "2%",
               "subjective_notes": "No suelo usar esta plataforma mucho, pero la tengo instalada para poder acceder a mis grupos y canales de Telegram. La uso principalmente para seguir noticias y temas de interés."
             }
           },
           {
             "id": "battery-usage-4w-calendario-23",
-            "title": "Uso de batería — Calendario",
-            "artists": "Calendario",
+            "title": "Calendario",
+           "artists": "",
             "awareness": 3,
             "timeBucket": "4w",
             "platformId": 5,
@@ -4327,16 +4198,16 @@
             ],
             "details": {
               "sourceFile": "battery_usage_periods_varied.json",
-              "dataType": "Usо de Batería",
+              "dataType": "Uso de Batería",
               "name": "Calendario",
-              "percentage": "3%",
+              "porcentaje": "3%",
               "subjective_notes": "Me acostumbré a apuntar todo en el calendario del móvil, ya que me ayuda a organizarme mejor (porque soy un desastre). Lo uso para apuntar eventos, reuniones y recordatorios importantes."
             }
           },
           {
             "id": "battery-usage-4w-youtube-24",
-            "title": "Uso de batería — YouTube",
-            "artists": "YouTube",
+            "title": "YouTube",
+        "artists": "",
             "awareness": 3,
             "timeBucket": "4w",
             "platformId": 5,
@@ -4350,16 +4221,16 @@
             ],
             "details": {
               "sourceFile": "battery_usage_periods_varied.json",
-              "dataType": "Usо de Batería",
+              "dataType": "Uso de Batería",
               "name": "YouTube",
-              "percentage": "2%",
+              "porcentaje": "2%",
               "subjective_notes": "En el móvil, no suelo ver vídeos de YouTube, pero a veces para buscar algo rápido."
             }
           },
           {
             "id": "battery-usage-4w-alsa-25",
-            "title": "Uso de batería — Alsa",
-            "artists": "Alsa",
+            "title": "Alsa",
+        "artists": "",
             "awareness": 3,
             "timeBucket": "4w",
             "platformId": 5,
@@ -4373,16 +4244,16 @@
             ],
             "details": {
               "sourceFile": "battery_usage_periods_varied.json",
-              "dataType": "Usо de Batería",
+              "dataType": "Uso de Batería",
               "name": "Alsa",
-              "percentage": "1%",
+              "porcentaje": "1%",
               "subjective_notes": "Para ir a Granada y a veces a Murcia, siempre cojo el autobús de Alsa. Uso la app para comprar los billetes y ver los horarios (Además, hay que aprovechar el verano jóven)."
             }
           },
           {
             "id": "battery-usage-6m-buscar-1",
-            "title": "Uso de batería — Buscar",
-            "artists": "Buscar",
+            "title": "Buscar",
+          "artists": "",
             "awareness": 3,
             "timeBucket": "6m",
             "platformId": 5,
@@ -4397,16 +4268,16 @@
             ],
             "details": {
               "sourceFile": "battery_usage_periods_varied.json",
-              "dataType": "Usо de Batería",
+              "dataType": "Uso de Batería",
               "name": "Buscar",
-              "percentage": "1%",
+              "porcentaje": "1%",
               "subjective_notes": "A veces, me meto en esta app para ver por donde va alguien si está de viaje o para ver dónde están mis amigos. Me gusta saber dónde están mis amigos y familiares, especialmente cuando estamos de fiesta o en una ciudad nueva."
             }
           },
           {
             "id": "battery-usage-6m-alsa-2",
-            "title": "Uso de batería — Alsa",
-            "artists": "Alsa",
+            "title": "Alsa",
+        "artists": "",
             "awareness": 3,
             "timeBucket": "6m",
             "platformId": 5,
@@ -4420,16 +4291,16 @@
             ],
             "details": {
               "sourceFile": "battery_usage_periods_varied.json",
-              "dataType": "Usо de Batería",
+              "dataType": "Uso de Batería",
               "name": "Alsa",
-              "percentage": "5%",
+              "porcentaje": "5%",
               "subjective_notes": "Para ir a Granada y a veces a Murcia, siempre cojo el autobús de Alsa. Uso la app para comprar los billetes y ver los horarios."
             }
           },
           {
             "id": "battery-usage-6m-tiempo-3",
-            "title": "Uso de batería — Tiempo",
-            "artists": "Tiempo",
+            "title": "Tiempo",
+            "artists": "",
             "awareness": 3,
             "timeBucket": "6m",
             "platformId": 5,
@@ -4443,16 +4314,16 @@
             ],
             "details": {
               "sourceFile": "battery_usage_periods_varied.json",
-              "dataType": "Usо de Batería",
+              "dataType": "Uso de Batería",
               "name": "Tiempo",
-              "percentage": "1%",
+              "porcentaje": "1%",
               "subjective_notes": "Sobre todo en invierno, me gusta mirar el tiempo en esta app. Me gusta saber si va a llover o hacer frío, y planificar mis actividades y ropa en consecuencia. También me gusta ver el tiempo en otras ciudades cuando viajo."
             }
           },
           {
             "id": "battery-usage-6m-youtube-4",
-            "title": "Uso de batería — YouTube",
-            "artists": "YouTube",
+            "title": "YouTube",
+        "artists": "",
             "awareness": 3,
             "timeBucket": "6m",
             "platformId": 5,
@@ -4466,16 +4337,16 @@
             ],
             "details": {
               "sourceFile": "battery_usage_periods_varied.json",
-              "dataType": "Usо de Batería",
+              "dataType": "Uso de Batería",
               "name": "YouTube",
-              "percentage": "1%",
+              "porcentaje": "1%",
               "subjective_notes": "En el móvil, no suelo ver vídeos de YouTube, pero a veces para buscar algo rápido."
             }
           },
           {
             "id": "battery-usage-6m-fotos-5",
-            "title": "Uso de batería — Fotos",
-            "artists": "Fotos",
+            "title": "Fotos",
+          "artists": "",
             "awareness": 3,
             "timeBucket": "6m",
             "platformId": 5,
@@ -4489,16 +4360,16 @@
             ],
             "details": {
               "sourceFile": "battery_usage_periods_varied.json",
-              "dataType": "Usо de Batería",
+              "dataType": "Uso de Batería",
               "name": "Fotos",
-              "percentage": "5%",
+              "porcentaje": "5%",
               "subjective_notes": "De vez en cuando me gusta hacer fotos con el móvil, pero no es algo que haga a menudo. Suelo usar la app de Fotos para ver y organizar mis fotos."
             }
           },
           {
             "id": "battery-usage-6m-telegram-6",
-            "title": "Uso de batería — Telegram",
-            "artists": "Telegram",
+            "title": "Telegram",
+           "artists": "",
             "awareness": 3,
             "timeBucket": "6m",
             "platformId": 5,
@@ -4512,16 +4383,16 @@
             ],
             "details": {
               "sourceFile": "battery_usage_periods_varied.json",
-              "dataType": "Usо de Batería",
+              "dataType": "Uso de Batería",
               "name": "Telegram",
-              "percentage": "1%",
+              "porcentaje": "1%",
               "subjective_notes": "No suelo usar esta plataforma mucho, pero la tengo instalada para poder acceder a mis grupos y canales de Telegram. La uso principalmente para seguir noticias y temas de interés."
             }
           },
           {
             "id": "battery-usage-6m-gmail-7",
-            "title": "Uso de batería — Gmail",
-            "artists": "Gmail",
+            "title": "Gmail",
+             "artists": "",
             "awareness": 3,
             "timeBucket": "6m",
             "platformId": 5,
@@ -4535,16 +4406,16 @@
             ],
             "details": {
               "sourceFile": "battery_usage_periods_varied.json",
-              "dataType": "Usо de Batería",
+              "dataType": "Uso de Batería",
               "name": "Gmail",
-              "percentage": "2%",
+              "porcentaje": "2%",
               "subjective_notes": "Es la plataforma determinada para manadar correos electrónicos en mi trabajo y estudios. La uso para enviar y recibir correos, etc."
             }
           },
           {
             "id": "battery-usage-6m-webtoon-8",
-            "title": "Uso de batería — WEBTOON",
-            "artists": "WEBTOON",
+            "title": "WEBTOON",
+            "artists": "",
             "awareness": 3,
             "timeBucket": "6m",
             "platformId": 5,
@@ -4558,16 +4429,16 @@
             ],
             "details": {
               "sourceFile": "battery_usage_periods_varied.json",
-              "dataType": "Usо de Batería",
+              "dataType": "Uso de Batería",
               "name": "WEBTOON",
-              "percentage": "3%",
+              "porcentaje": "3%",
               "subjective_notes": "Me he aficionado a leer mangas y cómics en WEBTOON. Me gusta leer historias de fantasía y romance, y esta app tiene una gran variedad de géneros y autores."
             }
           },
           {
             "id": "battery-usage-6m-uber-eats-9",
-            "title": "Uso de batería — Uber Eats",
-            "artists": "Uber Eats",
+            "title": "Uber Eats",
+             "artists": "",
             "awareness": 3,
             "timeBucket": "6m",
             "platformId": 5,
@@ -4581,16 +4452,16 @@
             ],
             "details": {
               "sourceFile": "battery_usage_periods_varied.json",
-              "dataType": "Usо de Batería",
+              "dataType": "Uso de Batería",
               "name": "Uber Eats",
-              "percentage": "2%",
+              "porcentaje": "2%",
               "subjective_notes": "Suelo pedir comida cuando no tengo ganas de cocinar, cuando estoy cansadx o hay gente en casa. Uber Eats es mi plataforma principal para pedir comida a domicilio, ya que tiene una gran variedad de restaurantes y opciones."
             }
           },
           {
             "id": "battery-usage-6m-whatsapp-10",
-            "title": "Uso de batería — WhatsApp",
-            "artists": "WhatsApp",
+            "title": "WhatsApp",
+            "artists": "",
             "awareness": 3,
             "timeBucket": "6m",
             "platformId": 5,
@@ -4604,16 +4475,16 @@
             ],
             "details": {
               "sourceFile": "battery_usage_periods_varied.json",
-              "dataType": "Usо de Batería",
+              "dataType": "Uso de Batería",
               "name": "WhatsApp",
-              "percentage": "11%",
+              "porcentaje": "11%",
               "subjective_notes": "WhatsApp es mi aplicación principal de mensajería. La uso para comunicarme con mis amigos y familiares, enviar fotos y vídeos, y hacer llamadas de voz y vídeo."
             }
           },
           {
             "id": "battery-usage-6m-pantalla-inicio/bloqueo-11",
-            "title": "Uso de batería — Pantalla inicio/bloqueo",
-            "artists": "Pantalla inicio/bloqueo",
+            "title": "Pantalla inicio/bloqueo",
+            "artists": "",
             "awareness": 3,
             "timeBucket": "6m",
             "platformId": 5,
@@ -4627,15 +4498,15 @@
             ],
             "details": {
               "sourceFile": "battery_usage_periods_varied.json",
-              "dataType": "Usо de Batería",
+              "dataType": "Uso de Batería",
               "name": "Pantalla inicio/bloqueo",
-              "percentage": "1%"
+              "porcentaje": "1%"
             }
           },
           {
             "id": "battery-usage-6m-chess-12",
-            "title": "Uso de batería — Chess",
-            "artists": "Chess",
+            "title": "Chess",
+            "artists": "",
             "awareness": 3,
             "timeBucket": "6m",
             "platformId": 5,
@@ -4649,16 +4520,16 @@
             ],
             "details": {
               "sourceFile": "battery_usage_periods_varied.json",
-              "dataType": "Usо de Batería",
+              "dataType": "Uso de Batería",
               "name": "Chess",
-              "percentage": "4%",
+              "porcentaje": "4%",
               "subjective_notes": "Siempre me ha gustado jugar al ajedrez, y desde hace poco lo juego en Chess. Me gusta jugar partidas rápidas y también resolver problemas de ajedrez."
             }
           },
           {
             "id": "battery-usage-6m-google-maps-13",
-            "title": "Uso de batería — Google Maps",
-            "artists": "Google Maps",
+            "title": "Google Maps",
+              "artists": "",
             "awareness": 3,
             "timeBucket": "6m",
             "platformId": 5,
@@ -4672,16 +4543,16 @@
             ],
             "details": {
               "sourceFile": "battery_usage_periods_varied.json",
-              "dataType": "Usо de Batería",
+              "dataType": "Uso de Batería",
               "name": "Google Maps",
-              "percentage": "2%",
+              "porcentaje": "2%",
               "subjective_notes": "En Madrid siempre uso Google Maps para moverme, ya que es la mejor opción para ver el transporte público y las rutas a pie. También lo uso cuando viajo a otras ciudades."
             }
           },
           {
             "id": "battery-usage-6m-shein-14",
-            "title": "Uso de batería — SHEIN",
-            "artists": "SHEIN",
+            "title": "SHEIN",
+           "artists": "",
             "awareness": 3,
             "timeBucket": "6m",
             "platformId": 5,
@@ -4695,16 +4566,16 @@
             ],
             "details": {
               "sourceFile": "battery_usage_periods_varied.json",
-              "dataType": "Usо de Batería",
+              "dataType": "Uso de Batería",
               "name": "SHEIN",
-              "percentage": "1%",
+              "porcentaje": "1%",
               "subjective_notes": "No uso mucho esta app, pero de vez en cuando me gusta mirar ropa y complementos. Me gusta ver las novedades y las ofertas, y a veces hago pedidos para mí o para regalar."
             }
           },
           {
             "id": "battery-usage-6m-safari-15",
-            "title": "Uso de batería — Safari",
-            "artists": "Safari",
+            "title": "Safari",
+             "artists": "",
             "awareness": 3,
             "timeBucket": "6m",
             "platformId": 5,
@@ -4718,16 +4589,16 @@
             ],
             "details": {
               "sourceFile": "battery_usage_periods_varied.json",
-              "dataType": "Usо de Batería",
+              "dataType": "Uso de Batería",
               "name": "Safari",
-              "percentage": "9%",
+              "porcentaje": "9%",
               "subjective_notes": "Para mí, este es mi navegador principal en el teléfono."
             }
           },
           {
             "id": "battery-usage-6m-teléfono-16",
-            "title": "Uso de batería — Teléfono",
-            "artists": "Teléfono",
+            "title": "Teléfono",
+         "artists": "",
             "awareness": 3,
             "timeBucket": "6m",
             "platformId": 5,
@@ -4741,15 +4612,15 @@
             ],
             "details": {
               "sourceFile": "battery_usage_periods_varied.json",
-              "dataType": "Usо de Batería",
+              "dataType": "Uso de Batería",
               "name": "Teléfono",
-              "percentage": "1%"
+              "porcentaje": "1%"
             }
           },
           {
             "id": "battery-usage-6m-fire-tv-17",
-            "title": "Uso de batería — Fire TV",
-            "artists": "Fire TV",
+            "title": "Fire TV",
+          "artists": "",
             "awareness": 3,
             "timeBucket": "6m",
             "platformId": 5,
@@ -4763,16 +4634,16 @@
             ],
             "details": {
               "sourceFile": "battery_usage_periods_varied.json",
-              "dataType": "Usо de Batería",
+              "dataType": "Uso de Batería",
               "name": "Fire TV",
-              "percentage": "1%",
+              "porcentaje": "1%",
               "subjective_notes": "Hace un tiempo perdimos el mando del FireTV en mi piso y nos hemos tenido que descargar cada uno en su móvil la app para poder usarlo."
             }
           },
           {
             "id": "battery-usage-6m-calendario-18",
-            "title": "Uso de batería — Calendario",
-            "artists": "Calendario",
+            "title": "Calendario",
+           "artists": "",
             "awareness": 3,
             "timeBucket": "6m",
             "platformId": 5,
@@ -4786,16 +4657,16 @@
             ],
             "details": {
               "sourceFile": "battery_usage_periods_varied.json",
-              "dataType": "Usо de Batería",
+              "dataType": "Uso de Batería",
               "name": "Calendario",
-              "percentage": "5%",
+              "porcentaje": "5%",
               "subjective_notes": "Me acostumbré a apuntar todo en el calendario del móvil, ya que me ayuda a organizarme mejor (porque soy un desastre). Lo uso para apuntar eventos, reuniones y recordatorios importantes."
             }
           },
           {
             "id": "battery-usage-6m-tiktok-19",
-            "title": "Uso de batería — TikTok",
-            "artists": "TikTok",
+            "title": "TikTok",
+           "artists": "",
             "awareness": 3,
             "timeBucket": "6m",
             "platformId": 5,
@@ -4809,16 +4680,16 @@
             ],
             "details": {
               "sourceFile": "battery_usage_periods_varied.json",
-              "dataType": "Usо de Batería",
+              "dataType": "Uso de Batería",
               "name": "TikTok",
-              "percentage": "2%",
+              "porcentaje": "2%",
               "subjective_notes": "Ya no uso tanto TikTok como antes, ahora solo me meto cuando alguien me pasa algo o para buscar un meme."
             }
           },
           {
             "id": "battery-usage-6m-caixabanknow-20",
-            "title": "Uso de batería — CaixaBankNow",
-            "artists": "CaixaBankNow",
+            "title": "CaixaBankNow",
+             "artists": "",
             "awareness": 3,
             "timeBucket": "6m",
             "platformId": 5,
@@ -4832,16 +4703,16 @@
             ],
             "details": {
               "sourceFile": "battery_usage_periods_varied.json",
-              "dataType": "Usо de Batería",
+              "dataType": "Uso de Batería",
               "name": "CaixaBankNow",
-              "percentage": "1%",
+              "porcentaje": "1%",
               "subjective_notes": "Este lleva siendo mi banco desde que tengo uso de razón, y es el que uso para gestionar mis finanzas. Lo uso para ver mi saldo, hacer transferencias y pagar recibos."
             }
           },
           {
             "id": "battery-usage-6m-burger-king-es-21",
-            "title": "Uso de batería — Burger King ES",
-            "artists": "Burger King ES",
+            "title": "Burger King ES",
+            "artists": "",
             "awareness": 3,
             "timeBucket": "6m",
             "platformId": 5,
@@ -4855,16 +4726,16 @@
             ],
             "details": {
               "sourceFile": "battery_usage_periods_varied.json",
-              "dataType": "Usо de Batería",
+              "dataType": "Uso de Batería",
               "name": "Burger King ES",
-              "percentage": "5%",
+              "porcentaje": "5%",
               "subjective_notes": "Me suele gustar mas esta cadena de comida rápida que McDonald's. Uso la app para ver el menú y hacer pedidos ya que sale gratis en envío."
             }
           },
           {
             "id": "battery-usage-6m-mail-22",
-            "title": "Uso de batería — Mail",
-            "artists": "Mail",
+            "title": "Mail",
+    "artists": "",
             "awareness": 3,
             "timeBucket": "6m",
             "platformId": 5,
@@ -4878,16 +4749,16 @@
             ],
             "details": {
               "sourceFile": "battery_usage_periods_varied.json",
-              "dataType": "Usо de Batería",
+              "dataType": "Uso de Batería",
               "name": "Mail",
-              "percentage": "1%",
+              "porcentaje": "1%",
               "subjective_notes": "En el móvil tengo la app de Mail para gestionar mis correos electrónicos. Aunque no la uso mucho, la tengo instalada para poder acceder a mis correos de todas las plataformas."
             }
           },
           {
             "id": "battery-usage-6m-instagram-23",
-            "title": "Uso de batería — Instagram",
-            "artists": "Instagram",
+            "title": "Instagram",
+            "artists": "",
             "awareness": 3,
             "timeBucket": "6m",
             "platformId": 5,
@@ -4901,16 +4772,16 @@
             ],
             "details": {
               "sourceFile": "battery_usage_periods_varied.json",
-              "dataType": "Usо de Batería",
+              "dataType": "Uso de Batería",
               "name": "Instagram",
-              "percentage": "59%",
+              "porcentaje": "59%",
               "subjective_notes": "Probablemente, esta sea la red social que más uso. Me gusta ver fotos y vídeos de mis amigos, seguir a creadores de contenido y descubrir nuevas tendencias. También uso Instagram para comunicarme con mis amigos."
             }
           },
           {
             "id": "battery-usage-6m-tinder-24",
-            "title": "Uso de batería — Tinder",
-            "artists": "Tinder",
+            "title": "Tinder",
+             "artists": "",
             "awareness": 3,
             "timeBucket": "6m",
             "platformId": 5,
@@ -4924,16 +4795,16 @@
             ],
             "details": {
               "sourceFile": "battery_usage_periods_varied.json",
-              "dataType": "Usо de Batería",
+              "dataType": "Uso de Batería",
               "name": "Tinder",
-              "percentage": "2%",
+              "porcentaje": "2%",
               "subjective_notes": "Mi novia y yo tenemos una relación no-monógama, y usamos Tinder para conocer a otras personas. Aunque no lo usamos mucho, cuando visitamos un sitio nuevo nos metemos a cotillear."
             }
           },
           {
             "id": "battery-usage-6m-spotify-25",
-            "title": "Uso de batería — Spotify",
-            "artists": "Spotify",
+            "title": "Spotify",
+        "artists": "",
             "awareness": 3,
             "timeBucket": "6m",
             "platformId": 5,
@@ -4947,16 +4818,16 @@
             ],
             "details": {
               "sourceFile": "battery_usage_periods_varied.json",
-              "dataType": "Usо de Batería",
+              "dataType": "Uso de Batería",
               "name": "Spotify",
-              "percentage": "1%",
+              "porcentaje": "1%",
               "subjective_notes": "Me encanta trabajar con música y Spotify es mi plataforma principal. Escucho música mientras trabajo, estudio y hago ejercicio. También me gusta descubrir música nueva y crear listas de reproducción. Lo uso más en el teléfono que en el ordenador, ya que me gusta escuchar música mientras me muevo por la ciudad."
             }
           },
           {
             "id": "battery-usage-1y-chess-1",
-            "title": "Uso de batería — Chess",
-            "artists": "Chess",
+            "title": "Chess",
+            "artists": "",
             "awareness": 3,
             "timeBucket": "1y",
             "platformId": 5,
@@ -4970,16 +4841,16 @@
             ],
             "details": {
               "sourceFile": "battery_usage_periods_varied.json",
-              "dataType": "Usо de Batería",
+              "dataType": "Uso de Batería",
               "name": "Chess",
-              "percentage": "4%",
+              "porcentaje": "4%",
               "subjective_notes": "Siempre me ha gustado jugar al ajedrez, y desde hace poco lo juego en Chess. Me gusta jugar partidas rápidas y también resolver problemas de ajedrez."
             }
           },
           {
             "id": "battery-usage-1y-safari-2",
-            "title": "Uso de batería — Safari",
-            "artists": "Safari",
+            "title": "Safari",
+             "artists": "",
             "awareness": 3,
             "timeBucket": "1y",
             "platformId": 5,
@@ -4993,16 +4864,16 @@
             ],
             "details": {
               "sourceFile": "battery_usage_periods_varied.json",
-              "dataType": "Usо de Batería",
+              "dataType": "Uso de Batería",
               "name": "Safari",
-              "percentage": "9%",
+              "porcentaje": "9%",
               "subjective_notes": "Para mí, este es mi navegador principal en el teléfono."
             }
           },
           {
             "id": "battery-usage-1y-spotify-3",
-            "title": "Uso de batería — Spotify",
-            "artists": "Spotify",
+            "title": "Spotify",
+        "artists": "",
             "awareness": 3,
             "timeBucket": "1y",
             "platformId": 5,
@@ -5016,16 +4887,16 @@
             ],
             "details": {
               "sourceFile": "battery_usage_periods_varied.json",
-              "dataType": "Usо de Batería",
+              "dataType": "Uso de Batería",
               "name": "Spotify",
-              "percentage": "1%",
+              "porcentaje": "1%",
               "subjective_notes": "Me encanta trabajar con música y Spotify es mi plataforma principal. Escucho música mientras trabajo, estudio y hago ejercicio. También me gusta descubrir música nueva y crear listas de reproducción. Lo uso más en el teléfono que en el ordenador, ya que me gusta escuchar música mientras me muevo por la ciudad."
             }
           },
           {
             "id": "battery-usage-1y-teléfono-4",
-            "title": "Uso de batería — Teléfono",
-            "artists": "Teléfono",
+            "title": "Teléfono",
+         "artists": "",
             "awareness": 3,
             "timeBucket": "1y",
             "platformId": 5,
@@ -5039,15 +4910,15 @@
             ],
             "details": {
               "sourceFile": "battery_usage_periods_varied.json",
-              "dataType": "Usо de Batería",
+              "dataType": "Uso de Batería",
               "name": "Teléfono",
-              "percentage": "1%"
+              "porcentaje": "1%"
             }
           },
           {
             "id": "battery-usage-1y-pantalla-inicio/bloqueo-5",
-            "title": "Uso de batería — Pantalla inicio/bloqueo",
-            "artists": "Pantalla inicio/bloqueo",
+            "title": "Pantalla inicio/bloqueo",
+            "artists": "",
             "awareness": 3,
             "timeBucket": "1y",
             "platformId": 5,
@@ -5061,15 +4932,15 @@
             ],
             "details": {
               "sourceFile": "battery_usage_periods_varied.json",
-              "dataType": "Usо de Batería",
+              "dataType": "Uso de Batería",
               "name": "Pantalla inicio/bloqueo",
-              "percentage": "1%"
+              "porcentaje": "1%"
             }
           },
           {
             "id": "battery-usage-1y-tiempo-6",
-            "title": "Uso de batería — Tiempo",
-            "artists": "Tiempo",
+            "title": "Tiempo",
+            "artists": "",
             "awareness": 3,
             "timeBucket": "1y",
             "platformId": 5,
@@ -5083,16 +4954,16 @@
             ],
             "details": {
               "sourceFile": "battery_usage_periods_varied.json",
-              "dataType": "Usо de Batería",
+              "dataType": "Uso de Batería",
               "name": "Tiempo",
-              "percentage": "1%",
+              "porcentaje": "1%",
               "subjective_notes": "A veces, me meto en esta app para ver por donde va alguien si está de viaje o para ver dónde están mis amigos. Me gusta saber dónde están mis amigos y familiares, especialmente cuando estamos de fiesta o en una ciudad nueva."
             }
           },
           {
             "id": "battery-usage-1y-buscar-7",
-            "title": "Uso de batería — Buscar",
-            "artists": "Buscar",
+            "title": "Buscar",
+          "artists": "",
             "awareness": 3,
             "timeBucket": "1y",
             "platformId": 5,
@@ -5106,16 +4977,16 @@
             ],
             "details": {
               "sourceFile": "battery_usage_periods_varied.json",
-              "dataType": "Usо de Batería",
+              "dataType": "Uso de Batería",
               "name": "Buscar",
-              "percentage": "1%",
+              "porcentaje": "1%",
               "subjective_notes": "A veces, me meto en esta app para ver por donde va alguien si está de viaje o para ver dónde están mis amigos. Me gusta saber dónde están mis amigos y familiares, especialmente cuando estamos de fiesta o en una ciudad nueva."
             }
           },
           {
             "id": "battery-usage-1y-whatsapp-8",
-            "title": "Uso de batería — WhatsApp",
-            "artists": "WhatsApp",
+            "title": "WhatsApp",
+            "artists": "",
             "awareness": 3,
             "timeBucket": "1y",
             "platformId": 5,
@@ -5129,16 +5000,16 @@
             ],
             "details": {
               "sourceFile": "battery_usage_periods_varied.json",
-              "dataType": "Usо de Batería",
+              "dataType": "Uso de Batería",
               "name": "WhatsApp",
-              "percentage": "11%",
+              "porcentaje": "11%",
               "subjective_notes": "WhatsApp es mi aplicación principal de mensajería. La uso para comunicarme con mis amigos y familiares, enviar fotos y vídeos, y hacer llamadas de voz y vídeo."
             }
           },
           {
             "id": "battery-usage-1y-fotos-9",
-            "title": "Uso de batería — Fotos",
-            "artists": "Fotos",
+            "title": "Fotos",
+          "artists": "",
             "awareness": 3,
             "timeBucket": "1y",
             "platformId": 5,
@@ -5152,16 +5023,16 @@
             ],
             "details": {
               "sourceFile": "battery_usage_periods_varied.json",
-              "dataType": "Usо de Batería",
+              "dataType": "Uso de Batería",
               "name": "Fotos",
-              "percentage": "2%",
+              "porcentaje": "2%",
               "subjective_notes": "De vez en cuando me gusta hacer fotos con el móvil, pero no es algo que haga a menudo. Suelo usar la app de Fotos para ver y organizar mis fotos."
             }
           },
           {
             "id": "battery-usage-1y-tiktok-10",
-            "title": "Uso de batería — TikTok",
-            "artists": "TikTok",
+            "title": "TikTok",
+           "artists": "",
             "awareness": 3,
             "timeBucket": "1y",
             "platformId": 5,
@@ -5175,16 +5046,16 @@
             ],
             "details": {
               "sourceFile": "battery_usage_periods_varied.json",
-              "dataType": "Usо de Batería",
+              "dataType": "Uso de Batería",
               "name": "TikTok",
-              "percentage": "5%",
+              "porcentaje": "5%",
               "subjective_notes": "Ya no uso tanto TikTok como antes, ahora solo me meto cuando alguien me pasa algo o para buscar un meme."
             }
           },
           {
             "id": "battery-usage-1y-uber-eats-11",
-            "title": "Uso de batería — Uber Eats",
-            "artists": "Uber Eats",
+            "title": "Uber Eats",
+             "artists": "",
             "awareness": 3,
             "timeBucket": "1y",
             "platformId": 5,
@@ -5198,16 +5069,16 @@
             ],
             "details": {
               "sourceFile": "battery_usage_periods_varied.json",
-              "dataType": "Usо de Batería",
+              "dataType": "Uso de Batería",
               "name": "Uber Eats",
-              "percentage": "2%",
+              "porcentaje": "2%",
               "subjective_notes": "Suelo pedir comida cuando no tengo ganas de cocinar, cuando estoy cansadx o hay gente en casa. Uber Eats es mi plataforma principal para pedir comida a domicilio, ya que tiene una gran variedad de restaurantes y opciones."
             }
           },
           {
             "id": "battery-usage-1y-youtube-12",
-            "title": "Uso de batería — YouTube",
-            "artists": "YouTube",
+            "title": "YouTube",
+        "artists": "",
             "awareness": 3,
             "timeBucket": "1y",
             "platformId": 5,
@@ -5221,16 +5092,16 @@
             ],
             "details": {
               "sourceFile": "battery_usage_periods_varied.json",
-              "dataType": "Usо de Batería",
+              "dataType": "Uso de Batería",
               "name": "YouTube",
-              "percentage": "2%",
+              "porcentaje": "2%",
               "subjective_notes": "En el móvil, no suelo ver vídeos de YouTube, pero a veces para buscar algo rápido."
             }
           },
           {
             "id": "battery-usage-1y-burger-king-es-13",
-            "title": "Uso de batería — Burger King ES",
-            "artists": "Burger King ES",
+            "title": "Burger King ES",
+            "artists": "",
             "awareness": 3,
             "timeBucket": "1y",
             "platformId": 5,
@@ -5244,16 +5115,16 @@
             ],
             "details": {
               "sourceFile": "battery_usage_periods_varied.json",
-              "dataType": "Usо de Batería",
+              "dataType": "Uso de Batería",
               "name": "Burger King ES",
-              "percentage": "1%",
+              "porcentaje": "1%",
               "subjective_notes": "Me suele gustar mas esta cadena de comida rápida que McDonald's. Uso la app para ver el menú y hacer pedidos ya que sale gratis en envío."
             }
           },
           {
             "id": "battery-usage-1y-shein-14",
-            "title": "Uso de batería — SHEIN",
-            "artists": "SHEIN",
+            "title": "SHEIN",
+           "artists": "",
             "awareness": 3,
             "timeBucket": "1y",
             "platformId": 5,
@@ -5267,16 +5138,16 @@
             ],
             "details": {
               "sourceFile": "battery_usage_periods_varied.json",
-              "dataType": "Usо de Batería",
+              "dataType": "Uso de Batería",
               "name": "SHEIN",
-              "percentage": "1%",
+              "porcentaje": "1%",
               "subjective_notes": "No uso mucho esta app, pero de vez en cuando me gusta mirar ropa y complementos. Me gusta ver las novedades y las ofertas, y a veces hago pedidos para mí o para regalar."
             }
           },
           {
             "id": "battery-usage-1y-instagram-15",
-            "title": "Uso de batería — Instagram",
-            "artists": "Instagram",
+            "title": "Instagram",
+            "artists": "",
             "awareness": 3,
             "timeBucket": "1y",
             "platformId": 5,
@@ -5290,16 +5161,16 @@
             ],
             "details": {
               "sourceFile": "battery_usage_periods_varied.json",
-              "dataType": "Usо de Batería",
+              "dataType": "Uso de Batería",
               "name": "Instagram",
-              "percentage": "59%",
+              "porcentaje": "59%",
               "subjective_notes": "Probablemente, esta sea la red social que más uso. Me gusta ver fotos y vídeos de mis amigos, seguir a creadores de contenido y descubrir nuevas tendencias. También uso Instagram para comunicarme con mis amigos."
             }
           },
           {
             "id": "battery-usage-1y-mail-16",
-            "title": "Uso de batería — Mail",
-            "artists": "Mail",
+            "title": "Mail",
+    "artists": "",
             "awareness": 3,
             "timeBucket": "1y",
             "platformId": 5,
@@ -5313,16 +5184,16 @@
             ],
             "details": {
               "sourceFile": "battery_usage_periods_varied.json",
-              "dataType": "Usо de Batería",
+              "dataType": "Uso de Batería",
               "name": "Mail",
-              "percentage": "1%",
+              "porcentaje": "1%",
               "subjective_notes": "En el móvil tengo la app de Mail para gestionar mis correos electrónicos. Aunque no la uso mucho, la tengo instalada para poder acceder a mis correos de todas las plataformas."
             }
           },
           {
             "id": "battery-usage-1y-gmail-17",
-            "title": "Uso de batería — Gmail",
-            "artists": "Gmail",
+            "title": "Gmail",
+             "artists": "",
             "awareness": 3,
             "timeBucket": "1y",
             "platformId": 5,
@@ -5336,16 +5207,16 @@
             ],
             "details": {
               "sourceFile": "battery_usage_periods_varied.json",
-              "dataType": "Usо de Batería",
+              "dataType": "Uso de Batería",
               "name": "Gmail",
-              "percentage": "3%",
+              "porcentaje": "3%",
               "subjective_notes": "Es la plataforma determinada para manadar correos electrónicos en mi trabajo y estudios. La uso para enviar y recibir correos, etc."
             }
           },
           {
             "id": "battery-usage-1y-caixabanknow-18",
-            "title": "Uso de batería — CaixaBankNow",
-            "artists": "CaixaBankNow",
+            "title": "CaixaBankNow",
+             "artists": "",
             "awareness": 3,
             "timeBucket": "1y",
             "platformId": 5,
@@ -5359,16 +5230,16 @@
             ],
             "details": {
               "sourceFile": "battery_usage_periods_varied.json",
-              "dataType": "Usо de Batería",
+              "dataType": "Uso de Batería",
               "name": "CaixaBankNow",
-              "percentage": "1%",
+              "porcentaje": "1%",
               "subjective_notes": "Este lleva siendo mi banco desde que tengo uso de razón, y es el que uso para gestionar mis finanzas. Lo uso para ver mi saldo, hacer transferencias y pagar recibos."
             }
           },
           {
             "id": "battery-usage-1y-webtoon-19",
-            "title": "Uso de batería — WEBTOON",
-            "artists": "WEBTOON",
+            "title": "WEBTOON",
+            "artists": "",
             "awareness": 3,
             "timeBucket": "1y",
             "platformId": 5,
@@ -5382,16 +5253,16 @@
             ],
             "details": {
               "sourceFile": "battery_usage_periods_varied.json",
-              "dataType": "Usо de Batería",
+              "dataType": "Uso de Batería",
               "name": "WEBTOON",
-              "percentage": "3%",
+              "porcentaje": "3%",
               "subjective_notes": "Me he aficionado a leer mangas y cómics en WEBTOON. Me gusta leer historias de fantasía y romance, y esta app tiene una gran variedad de géneros y autores."
             }
           },
           {
             "id": "battery-usage-1y-calendario-20",
-            "title": "Uso de batería — Calendario",
-            "artists": "Calendario",
+            "title": "Calendario",
+           "artists": "",
             "awareness": 3,
             "timeBucket": "1y",
             "platformId": 5,
@@ -5405,16 +5276,16 @@
             ],
             "details": {
               "sourceFile": "battery_usage_periods_varied.json",
-              "dataType": "Usо de Batería",
+              "dataType": "Uso de Batería",
               "name": "Calendario",
-              "percentage": "4%",
+              "porcentaje": "4%",
               "subjective_notes": "Me acostumbré a apuntar todo en el calendario del móvil, ya que me ayuda a organizarme mejor (porque soy un desastre). Lo uso para apuntar eventos, reuniones y recordatorios importantes."
             }
           },
           {
             "id": "battery-usage-1y-telegram-21",
-            "title": "Uso de batería — Telegram",
-            "artists": "Telegram",
+            "title": "Telegram",
+           "artists": "",
             "awareness": 3,
             "timeBucket": "1y",
             "platformId": 5,
@@ -5428,16 +5299,16 @@
             ],
             "details": {
               "sourceFile": "battery_usage_periods_varied.json",
-              "dataType": "Usо de Batería",
+              "dataType": "Uso de Batería",
               "name": "Telegram",
-              "percentage": "1%",
+              "porcentaje": "1%",
               "subjective_notes": "No suelo usar esta plataforma mucho, pero la tengo instalada para poder acceder a mis grupos y canales de Telegram. La uso principalmente para seguir noticias y temas de interés."
             }
           },
           {
             "id": "battery-usage-1y-google-maps-22",
-            "title": "Uso de batería — Google Maps",
-            "artists": "Google Maps",
+            "title": "Google Maps",
+              "artists": "",
             "awareness": 3,
             "timeBucket": "1y",
             "platformId": 5,
@@ -5451,16 +5322,16 @@
             ],
             "details": {
               "sourceFile": "battery_usage_periods_varied.json",
-              "dataType": "Usо de Batería",
+              "dataType": "Uso de Batería",
               "name": "Google Maps",
-              "percentage": "2%",
+              "porcentaje": "2%",
               "subjective_notes": "En Madrid siempre uso Google Maps para moverme, ya que es la mejor opción para ver el transporte público y las rutas a pie. También lo uso cuando viajo a otras ciudades."
             }
           },
           {
             "id": "battery-usage-1y-tinder-23",
-            "title": "Uso de batería — Tinder",
-            "artists": "Tinder",
+            "title": "Tinder",
+             "artists": "",
             "awareness": 3,
             "timeBucket": "1y",
             "platformId": 5,
@@ -5474,16 +5345,16 @@
             ],
             "details": {
               "sourceFile": "battery_usage_periods_varied.json",
-              "dataType": "Usо de Batería",
+              "dataType": "Uso de Batería",
               "name": "Tinder",
-              "percentage": "2%",
+              "porcentaje": "2%",
               "subjective_notes": "Mi novia y yo tenemos una relación no-monógama, y usamos Tinder para conocer a otras personas. Aunque no lo usamos mucho, cuando visitamos un sitio nuevo nos metemos a cotillear."
             }
           },
           {
             "id": "battery-usage-1y-fire-tv-24",
-            "title": "Uso de batería — Fire TV",
-            "artists": "Fire TV",
+            "title": "Fire TV",
+          "artists": "",
             "awareness": 3,
             "timeBucket": "1y",
             "platformId": 5,
@@ -5497,16 +5368,16 @@
             ],
             "details": {
               "sourceFile": "battery_usage_periods_varied.json",
-              "dataType": "Usо de Batería",
+              "dataType": "Uso de Batería",
               "name": "Fire TV",
-              "percentage": "1%",
+              "porcentaje": "1%",
               "subjective_notes": "Hace un tiempo perdimos el mando del FireTV en mi piso y nos hemos tenido que descargar cada uno en su móvil la app para poder usarlo."
             }
           },
           {
             "id": "battery-usage-1y-alsa-25",
-            "title": "Uso de batería — Alsa",
-            "artists": "Alsa",
+            "title": "Alsa",
+        "artists": "",
             "awareness": 3,
             "timeBucket": "1y",
             "platformId": 5,
@@ -5520,16 +5391,16 @@
             ],
             "details": {
               "sourceFile": "battery_usage_periods_varied.json",
-              "dataType": "Usо de Batería",
+              "dataType": "Uso de Batería",
               "name": "Alsa",
-              "percentage": "5%",
+              "porcentaje": "5%",
               "subjective_notes": "Para ir a Granada y a veces a Murcia, siempre cojo el autobús de Alsa. Uso la app para comprar los billetes y ver los horarios."
             }
           },
 
           {
             "id": "ad-impression-insta-apple-2",
-            "title": "Anuncio Visto — apple",
+            "title": "Anuncio Visto — @apple",
             "artists": "apple",
             "awareness": 3,
             "timeBucket": "1y",
@@ -5546,13 +5417,13 @@
             "details": {
               "sourceFile": "INSTA___ads_viewed.json",
               "dataType": "Anuncios Vistos",
-              "name": "apple"
+              "name": "@apple"
             }
           },
       
           {
             "id": "ad-impression-insta-tattoox-4",
-            "title": "Anuncio Visto — tattoox",
+            "title": "Anuncio Visto — @tattoox",
             "artists": "tattoox",
             "awareness": 3,
             "timeBucket": "1y",
@@ -5569,12 +5440,12 @@
             "details": {
               "sourceFile": "INSTA___ads_viewed.json",
               "dataType": "Anuncios Vistos",
-              "name": "tattoox"
+              "name": "@tattoox"
             }
           },
           {
             "id": "ad-impression-insta-ysl-5",
-            "title": "Anuncio Visto — ysl",
+            "title": "Anuncio Visto — @ysl",
             "artists": "ysl",
             "awareness": 3,
             "timeBucket": "1y",
@@ -5591,12 +5462,12 @@
             "details": {
               "sourceFile": "INSTA___ads_viewed.json",
               "dataType": "Anuncios Vistos",
-              "name": "ysl"
+              "name": "@ysl"
             }
           },
           {
             "id": "ad-impression-insta-netflixes-6",
-            "title": "Anuncio Visto — netflixes",
+            "title": "Anuncio Visto — @netflixes",
             "artists": "netflixes",
             "awareness": 3,
             "timeBucket": "1y",
@@ -5613,12 +5484,12 @@
             "details": {
               "sourceFile": "INSTA___ads_viewed.json",
               "dataType": "Anuncios Vistos",
-              "name": "netflixes"
+              "name": "@netflixes"
             }
           },
           {
             "id": "ad-impression-insta-pringles_sp-7",
-            "title": "Anuncio Visto — pringles_sp",
+            "title": "Anuncio Visto — @pringles_sp",
             "artists": "pringles_sp",
             "awareness": 3,
             "timeBucket": "1y",
@@ -5635,12 +5506,12 @@
             "details": {
               "sourceFile": "INSTA___ads_viewed.json",
               "dataType": "Anuncios Vistos",
-              "name": "pringles_sp"
+              "name": "@pringles_sp"
             }
           },
           {
             "id": "ad-impression-insta-polillatattoo-8",
-            "title": "Anuncio Visto — polillatattoo",
+            "title": "Anuncio Visto — @polillatattoo",
             "artists": "polillatattoo",
             "awareness": 3,
             "timeBucket": "1y",
@@ -5657,12 +5528,12 @@
             "details": {
               "sourceFile": "INSTA___ads_viewed.json",
               "dataType": "Anuncios Vistos",
-              "name": "polillatattoo"
+              "name": "@polillatattoo"
             }
           },
           {
             "id": "ad-impression-insta-ysl-9",
-            "title": "Anuncio Visto — ysl",
+            "title": "Anuncio Visto — @ysl",
             "artists": "ysl",
             "awareness": 3,
             "timeBucket": "1y",
@@ -5679,12 +5550,12 @@
             "details": {
               "sourceFile": "INSTA___ads_viewed.json",
               "dataType": "Anuncios Vistos",
-              "name": "ysl"
+              "name": "@ysl"
             }
           },
           {
             "id": "ad-impression-insta-momentosalhambra-10",
-            "title": "Anuncio Visto — momentosalhambra",
+            "title": "Anuncio Visto — @momentosalhambra",
             "artists": "momentosalhambra",
             "awareness": 3,
             "timeBucket": "1y",
@@ -5701,12 +5572,12 @@
             "details": {
               "sourceFile": "INSTA___ads_viewed.json",
               "dataType": "Anuncios Vistos",
-              "name": "momentosalhambra"
+              "name": "@momentosalhambra"
             }
           },
           {
             "id": "ad-impression-insta-ofertas_formativas-11",
-            "title": "Anuncio Visto — ofertas_formativas",
+            "title": "Anuncio Visto — @ofertas_formativas",
             "artists": "ofertas_formativas",
             "awareness": 3,
             "timeBucket": "1y",
@@ -5723,12 +5594,12 @@
             "details": {
               "sourceFile": "INSTA___ads_viewed.json",
               "dataType": "Anuncios Vistos",
-              "name": "ofertas_formativas"
+              "name": "@ofertas_formativas"
             }
           },
           {
             "id": "ad-impression-insta-tamii.tatt-12",
-            "title": "Anuncio Visto — tamii.tatt",
+            "title": "Anuncio Visto — @tamii.tatt",
             "artists": "tamii.tatt",
             "awareness": 3,
             "timeBucket": "1y",
@@ -5745,12 +5616,12 @@
             "details": {
               "sourceFile": "INSTA___ads_viewed.json",
               "dataType": "Anuncios Vistos",
-              "name": "tamii.tatt"
+              "name": "@tamii.tatt"
             }
           },
           {
             "id": "ad-impression-insta-katyaleshu-13",
-            "title": "Anuncio Visto — katyaleshu",
+            "title": "Anuncio Visto — @katyaleshu",
             "artists": "katyaleshu",
             "awareness": 3,
             "timeBucket": "1y",
@@ -5767,12 +5638,12 @@
             "details": {
               "sourceFile": "INSTA___ads_viewed.json",
               "dataType": "Anuncios Vistos",
-              "name": "katyaleshu"
+              "name": "@katyaleshu"
             }
           },
           {
             "id": "ad-impression-insta-ysl-14",
-            "title": "Anuncio Visto — ysl",
+            "title": "Anuncio Visto — @ysl",
             "artists": "ysl",
             "awareness": 3,
             "timeBucket": "1y",
@@ -5789,12 +5660,12 @@
             "details": {
               "sourceFile": "INSTA___ads_viewed.json",
               "dataType": "Anuncios Vistos",
-              "name": "ysl"
+              "name": "@ysl"
             }
           },
           {
             "id": "ad-impression-insta-yeahsure_tats-15",
-            "title": "Anuncio Visto — yeahsure_tats",
+            "title": "Anuncio Visto — @yeahsure_tats",
             "artists": "yeahsure_tats",
             "awareness": 3,
             "timeBucket": "1y",
@@ -5811,12 +5682,12 @@
             "details": {
               "sourceFile": "INSTA___ads_viewed.json",
               "dataType": "Anuncios Vistos",
-              "name": "yeahsure_tats"
+              "name": "@yeahsure_tats"
             }
           },
           {
             "id": "ad-impression-insta-tattoox-16",
-            "title": "Anuncio Visto — tattoox",
+            "title": "Anuncio Visto — @tattoox",
             "artists": "tattoox",
             "awareness": 3,
             "timeBucket": "1y",
@@ -5833,12 +5704,12 @@
             "details": {
               "sourceFile": "INSTA___ads_viewed.json",
               "dataType": "Anuncios Vistos",
-              "name": "tattoox"
+              "name": "@tattoox"
             }
           },
           {
             "id": "ad-impression-insta-funko_europe-17",
-            "title": "Anuncio Visto — funko_europe",
+            "title": "Anuncio Visto — @funko_europe",
             "artists": "funko_europe",
             "awareness": 3,
             "timeBucket": "6m",
@@ -5855,12 +5726,12 @@
             "details": {
               "sourceFile": "INSTA___ads_viewed.json",
               "dataType": "Anuncios Vistos",
-              "name": "funko_europe"
+              "name": "@funko_europe"
             }
           },
           {
             "id": "ad-impression-insta-ysl-18",
-            "title": "Anuncio Visto — ysl",
+            "title": "Anuncio Visto — @ysl",
             "artists": "ysl",
             "awareness": 3,
             "timeBucket": "6m",
@@ -5877,12 +5748,12 @@
             "details": {
               "sourceFile": "INSTA___ads_viewed.json",
               "dataType": "Anuncios Vistos",
-              "name": "ysl"
+              "name": "@ysl"
             }
           },
           {
             "id": "ad-impression-insta-rockerbookslloween-19",
-            "title": "Anuncio Visto — rockerbookslloween",
+            "title": "Anuncio Visto — @rockerbookslloween",
             "artists": "rockerbookslloween",
             "awareness": 3,
             "timeBucket": "6m",
@@ -5899,12 +5770,12 @@
             "details": {
               "sourceFile": "INSTA___ads_viewed.json",
               "dataType": "Anuncios Vistos",
-              "name": "rockerbookslloween"
+              "name": "@rockerbookslloween"
             }
           },
           {
             "id": "ad-impression-insta-teatroeureka-20",
-            "title": "Anuncio Visto — teatroeureka",
+            "title": "Anuncio Visto — @teatroeureka",
             "artists": "teatroeureka",
             "awareness": 3,
             "timeBucket": "6m",
@@ -5921,12 +5792,12 @@
             "details": {
               "sourceFile": "INSTA___ads_viewed.json",
               "dataType": "Anuncios Vistos",
-              "name": "teatroeureka"
+              "name": "@teatroeureka"
             }
           },
           {
             "id": "ad-impression-insta-okidokiasianmarket-21",
-            "title": "Anuncio Visto — okidokiasianmarket",
+            "title": "Anuncio Visto — @okidokiasianmarket",
             "artists": "okidokiasianmarket",
             "awareness": 3,
             "timeBucket": "6m",
@@ -5943,12 +5814,12 @@
             "details": {
               "sourceFile": "INSTA___ads_viewed.json",
               "dataType": "Anuncios Vistos",
-              "name": "okidokiasianmarket"
+              "name": "@okidokiasianmarket"
             }
           },
           {
             "id": "ad-impression-insta-andreamedinatattoos-22",
-            "title": "Anuncio Visto — andreamedinatattoos",
+            "title": "Anuncio Visto — @andreamedinatattoos",
             "artists": "andreamedinatattoos",
             "awareness": 3,
             "timeBucket": "6m",
@@ -5965,12 +5836,12 @@
             "details": {
               "sourceFile": "INSTA___ads_viewed.json",
               "dataType": "Anuncios Vistos",
-              "name": "andreamedinatattoos"
+              "name": "@andreamedinatattoos"
             }
           },
           {
             "id": "ad-impression-insta-essae_formacion-23",
-            "title": "Anuncio Visto — essae_formacion",
+            "title": "Anuncio Visto — @essae_formacion",
             "artists": "essae_formacion",
             "awareness": 3,
             "timeBucket": "6m",
@@ -5987,12 +5858,12 @@
             "details": {
               "sourceFile": "INSTA___ads_viewed.json",
               "dataType": "Anuncios Vistos",
-              "name": "essae_formacion"
+              "name": "@essae_formacion"
             }
           },
           {
             "id": "ad-impression-insta-apple-24",
-            "title": "Anuncio Visto — apple",
+            "title": "Anuncio Visto — @apple",
             "artists": "apple",
             "awareness": 3,
             "timeBucket": "6m",
@@ -6009,12 +5880,12 @@
             "details": {
               "sourceFile": "INSTA___ads_viewed.json",
               "dataType": "Anuncios Vistos",
-              "name": "apple"
+              "name": "@apple"
             }
           },
           {
             "id": "ad-impression-insta-tattoox-25",
-            "title": "Anuncio Visto — tattoox",
+            "title": "Anuncio Visto — @tattoox",
             "artists": "tattoox",
             "awareness": 3,
             "timeBucket": "6m",
@@ -6031,12 +5902,12 @@
             "details": {
               "sourceFile": "INSTA___ads_viewed.json",
               "dataType": "Anuncios Vistos",
-              "name": "tattoox"
+              "name": "@tattoox"
             }
           },
           {
             "id": "ad-impression-insta-campofrio-26",
-            "title": "Anuncio Visto — campofrio",
+            "title": "Anuncio Visto — @campofrio",
             "artists": "campofrio",
             "awareness": 3,
             "timeBucket": "6m",
@@ -6053,12 +5924,12 @@
             "details": {
               "sourceFile": "INSTA___ads_viewed.json",
               "dataType": "Anuncios Vistos",
-              "name": "campofrio"
+              "name": "@campofrio"
             }
           },
           {
             "id": "ad-impression-insta-ysl-27",
-            "title": "Anuncio Visto — ysl",
+            "title": "Anuncio Visto — @ysl",
             "artists": "ysl",
             "awareness": 3,
             "timeBucket": "6m",
@@ -6075,12 +5946,12 @@
             "details": {
               "sourceFile": "INSTA___ads_viewed.json",
               "dataType": "Anuncios Vistos",
-              "name": "ysl"
+              "name": "@ysl"
             }
           },
           {
             "id": "ad-impression-insta-netflixes-28",
-            "title": "Anuncio Visto — netflixes",
+            "title": "Anuncio Visto — @netflixes",
             "artists": "netflixes",
             "awareness": 3,
             "timeBucket": "6m",
@@ -6097,12 +5968,12 @@
             "details": {
               "sourceFile": "INSTA___ads_viewed.json",
               "dataType": "Anuncios Vistos",
-              "name": "netflixes"
+              "name": "@netflixes"
             }
           },
           {
             "id": "ad-impression-insta-pringles_sp-29",
-            "title": "Anuncio Visto — pringles_sp",
+            "title": "Anuncio Visto — @pringles_sp",
             "artists": "pringles_sp",
             "awareness": 3,
             "timeBucket": "6m",
@@ -6119,12 +5990,12 @@
             "details": {
               "sourceFile": "INSTA___ads_viewed.json",
               "dataType": "Anuncios Vistos",
-              "name": "pringles_sp"
+              "name": "@pringles_sp"
             }
           },
           {
             "id": "ad-impression-insta-polillatattoo-30",
-            "title": "Anuncio Visto — polillatattoo",
+            "title": "Anuncio Visto — @polillatattoo",
             "artists": "polillatattoo",
             "awareness": 3,
             "timeBucket": "6m",
@@ -6141,12 +6012,12 @@
             "details": {
               "sourceFile": "INSTA___ads_viewed.json",
               "dataType": "Anuncios Vistos",
-              "name": "polillatattoo"
+              "name": "@polillatattoo"
             }
           },
           {
             "id": "ad-impression-insta-ysl-31",
-            "title": "Anuncio Visto — ysl",
+            "title": "Anuncio Visto — @ysl",
             "artists": "ysl",
             "awareness": 3,
             "timeBucket": "6m",
@@ -6163,12 +6034,12 @@
             "details": {
               "sourceFile": "INSTA___ads_viewed.json",
               "dataType": "Anuncios Vistos",
-              "name": "ysl"
+              "name": "@ysl"
             }
           },
           {
             "id": "ad-impression-insta-momentosalhambra-32",
-            "title": "Anuncio Visto — momentosalhambra",
+            "title": "Anuncio Visto — @momentosalhambra",
             "artists": "momentosalhambra",
             "awareness": 3,
             "timeBucket": "6m",
@@ -6185,12 +6056,12 @@
             "details": {
               "sourceFile": "INSTA___ads_viewed.json",
               "dataType": "Anuncios Vistos",
-              "name": "momentosalhambra"
+              "name": "@momentosalhambra"
             }
           },
           {
             "id": "ad-impression-insta-ofertas_formativas-33",
-            "title": "Anuncio Visto — ofertas_formativas",
+            "title": "Anuncio Visto — @ofertas_formativas",
             "artists": "ofertas_formativas",
             "awareness": 3,
             "timeBucket": "4w",
@@ -6207,12 +6078,12 @@
             "details": {
               "sourceFile": "INSTA___ads_viewed.json",
               "dataType": "Anuncios Vistos",
-              "name": "ofertas_formativas"
+              "name": "@ofertas_formativas"
             }
           },
           {
             "id": "ad-impression-insta-tallerandreasuarez-34",
-            "title": "Anuncio Visto — tallerandreasuarez",
+            "title": "Anuncio Visto — @tallerandreasuarez",
             "artists": "tallerandreasuarez",
             "awareness": 3,
             "timeBucket": "4w",
@@ -6229,12 +6100,12 @@
             "details": {
               "sourceFile": "INSTA___ads_viewed.json",
               "dataType": "Anuncios Vistos",
-              "name": "tallerandreasuarez"
+              "name": "@tallerandreasuarez"
             }
           },
           {
             "id": "ad-impression-insta-apple-35",
-            "title": "Anuncio Visto — apple",
+            "title": "Anuncio Visto — @apple",
             "artists": "apple",
             "awareness": 3,
             "timeBucket": "4w",
@@ -6251,7 +6122,7 @@
             "details": {
               "sourceFile": "INSTA___ads_viewed.json",
               "dataType": "Anuncios Vistos",
-              "name": "apple"
+              "name": "@apple"
             }
           },
         
@@ -6259,7 +6130,7 @@
    
           {
             "id": "ad-impression-insta-tamii.tatt-39",
-            "title": "Anuncio Visto — tamii.tatt",
+            "title": "Anuncio Visto — @tamii.tatt",
             "artists": "tamii.tatt",
             "awareness": 3,
             "timeBucket": "4w",
@@ -6276,12 +6147,12 @@
             "details": {
               "sourceFile": "INSTA___ads_viewed.json",
               "dataType": "Anuncios Vistos",
-              "name": "tamii.tatt"
+              "name": "@tamii.tatt"
             }
           },
           {
             "id": "ad-impression-insta-blackiebooks-40",
-            "title": "Anuncio Visto — blackiebooks",
+            "title": "Anuncio Visto — @blackiebooks",
             "artists": "blackiebooks",
             "awareness": 3,
             "timeBucket": "4w",
@@ -6298,13 +6169,13 @@
             "details": {
               "sourceFile": "INSTA___ads_viewed.json",
               "dataType": "Anuncios Vistos",
-              "name": "blackiebooks"
+              "name": "@blackiebooks"
             }
           },
      
           {
             "id": "ad-impression-insta-katyaleshu-42",
-            "title": "Anuncio Visto — katyaleshu",
+            "title": "Anuncio Visto — @katyaleshu",
             "artists": "katyaleshu",
             "awareness": 3,
             "timeBucket": "4w",
@@ -6321,12 +6192,12 @@
             "details": {
               "sourceFile": "INSTA___ads_viewed.json",
               "dataType": "Anuncios Vistos",
-              "name": "katyaleshu"
+              "name": "@katyaleshu"
             }
           },
           {
             "id": "ad-impression-insta-yeahsure_tats-43",
-            "title": "Anuncio Visto — yeahsure_tats",
+            "title": "Anuncio Visto — @yeahsure_tats",
             "artists": "yeahsure_tats",
             "awareness": 3,
             "timeBucket": "4w",
@@ -6343,12 +6214,12 @@
             "details": {
               "sourceFile": "INSTA___ads_viewed.json",
               "dataType": "Anuncios Vistos",
-              "name": "yeahsure_tats"
+              "name": "@yeahsure_tats"
             }
           },
           {
             "id": "ad-impression-insta-ysl-44",
-            "title": "Anuncio Visto — ysl",
+            "title": "Anuncio Visto — @ysl",
             "artists": "ysl",
             "awareness": 3,
             "timeBucket": "4w",
@@ -6365,12 +6236,12 @@
             "details": {
               "sourceFile": "INSTA___ads_viewed.json",
               "dataType": "Anuncios Vistos",
-              "name": "ysl"
+              "name": "@ysl"
             }
           },
           {
             "id": "ad-impression-insta-kotokisu-45",
-            "title": "Anuncio Visto — kotokisu",
+            "title": "Anuncio Visto — @kotokisu",
             "artists": "kotokisu",
             "awareness": 3,
             "timeBucket": "4w",
@@ -6387,12 +6258,12 @@
             "details": {
               "sourceFile": "INSTA___ads_viewed.json",
               "dataType": "Anuncios Vistos",
-              "name": "kotokisu"
+              "name": "@kotokisu"
             }
           },
           {
             "id": "ad-impression-insta-tattoox-46",
-            "title": "Anuncio Visto — tattoox",
+            "title": "Anuncio Visto — @tattoox",
             "artists": "tattoox",
             "awareness": 3,
             "timeBucket": "4w",
@@ -6409,12 +6280,12 @@
             "details": {
               "sourceFile": "INSTA___ads_viewed.json",
               "dataType": "Anuncios Vistos",
-              "name": "tattoox"
+              "name": "@tattoox"
             }
           },
           {
             "id": "ad-impression-insta-funko_europe-47",
-            "title": "Anuncio Visto — funko_europe",
+            "title": "Anuncio Visto — @funko_europe",
             "artists": "funko_europe",
             "awareness": 3,
             "timeBucket": "4w",
@@ -6431,12 +6302,12 @@
             "details": {
               "sourceFile": "INSTA___ads_viewed.json",
               "dataType": "Anuncios Vistos",
-              "name": "funko_europe"
+              "name": "@funko_europe"
             }
           },
           {
             "id": "ad-impression-insta-ysl-48",
-            "title": "Anuncio Visto — ysl",
+            "title": "Anuncio Visto — @ysl",
             "artists": "ysl",
             "awareness": 3,
             "timeBucket": "4w",
@@ -6453,7 +6324,7 @@
             "details": {
               "sourceFile": "INSTA___ads_viewed.json",
               "dataType": "Anuncios Vistos",
-              "name": "ysl"
+              "name": "@ysl"
             }
           }
 

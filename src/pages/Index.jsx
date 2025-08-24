@@ -4,6 +4,8 @@ import { Link } from "react-router-dom";
 import PixelButton from "../components/PixelButton";
 import "../App.css";
 import TextType from '../components/TextType';
+import Logo from '../assets/img/LOGO.png';
+import Flor from '../assets/img/FLOR.GIF';
 
 export default function Index() {
   return (
@@ -31,8 +33,13 @@ export default function Index() {
   pageLoadAnimation={false}
   brightness={0.6}
 />
+   {/* <-- PASO 3.1: USA LA VARIABLE DEL LOGO IMPORTADO */}
+   <img src={Logo} alt="Logo" className="w-4/5 " />
 
-        <TextType className="max-w-xl mt-6 text-lg text-text"
+{/* <-- PASO 3.2: AÑADE EL GIF USANDO SU VARIABLE */}
+<img src={Flor} alt="Animación" className="w-32 h-auto mb-6" />
+
+        <TextType className="max-w-xl mt-6 text-xl text-text"
           text={[" Bienvenidx a una experiencia", "interactiva creada a partir", "de mi propia huella digital..."]}
           typingSpeed={75}
           pauseDuration={900}

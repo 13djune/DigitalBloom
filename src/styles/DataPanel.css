@@ -2,9 +2,9 @@
     position: absolute;
     top: 0;
     right: 0;
-    width: 360px;
+    width: 40dvw;
     height: 100%;
-    background: #0e1861af;
+    background: #0e1861;
     color: #cfe8ff;
     padding: 28px;
     z-index: 99;
@@ -24,6 +24,17 @@
     color: #D8E1FF;
     font-size: 44px;
     cursor: pointer;
+  }
+  .btn-primary-link{
+    color: #A1E6F6;
+    text-decoration: none;
+    font-size: 20px;
+    margin-top: 12px;
+    width: fit-content;
+    padding: 0.5rem;
+  }
+  .btn-primary-link:hover{
+  font-weight: bold;
   }
   
   .platform {
@@ -54,19 +65,159 @@
     gap: 6px;
     margin-top: 10px;
   }
-  
-  
-  .tag[data-type="topic"]{ --tag-bg: rgba(43,147,209,.16); --tag-fg:#cfefff; --tag-border: rgba(43,147,209,.45); --tag-bg-active:#2b93d1; --tag-fg-active:#052235; }
-  .tag[data-type="lang"]{ --tag-bg: rgba(70,200,140,.16); --tag-fg:#dfffee; --tag-border: rgba(70,200,140,.45); --tag-bg-active:#46c88c; --tag-fg-active:#05261a; }
-  .tag[data-type="meta"]{ --tag-bg: rgba(182,120,255,.18); --tag-fg:#efe3ff; --tag-border: rgba(182,120,255,.45); --tag-bg-active:#b678ff; --tag-fg-active:#2a0d49; }
-  .tag[data-type="state"]{ --tag-bg: rgba(255, 90, 90, 0.18); --tag-fg:#ffd8d8; --tag-border: rgba(255, 90, 90, 0.5); --tag-bg-active:#ff5a5a; --tag-fg-active:#3a0202; }
-  .tag[data-type="genre"]{ --tag-bg: rgba(45,184,227,.16); --tag-fg:#dff9ff; --tag-border: rgba(45,184,227,.5); --tag-bg-active:#2db8e3; --tag-fg-active:#052235; }
-  .tag[data-type="consciencia"]{ --tag-bg: rgba(255,159,90,.18); --tag-fg:#ffe9d8; --tag-border: rgba(255,159,90,.5); --tag-bg-active:#ff9f5a; --tag-fg-active:#3a1602; }
+/* Tópicos */
+.tag[data-type="topic"] {
+  --tag-bg: rgba(31, 122, 230, 0.08);
+  --tag-fg: #bfdfff;
+  --tag-border: #1f7ae6;
+  --tag-bg-active: #1f7ae6;
+  --tag-fg-active: #041a33;
+}
+
+/* Idiomas */
+.tag[data-type="lang"] {
+  --tag-bg: rgba(46, 202, 138, 0.08);
+  --tag-fg: #baf8dc;
+  --tag-border: #2eca8a;
+  --tag-bg-active: #2eca8a;
+  --tag-fg-active: #05261a;
+}
+
+/* Metadatos */
+.tag[data-type="meta"] {
+  --tag-bg: rgba(192, 106, 255, 0.08);
+  --tag-fg: #ebd4ff;
+  --tag-border: #c06aff;
+  --tag-bg-active: #c06aff;
+  --tag-fg-active: #2a0d49;
+}
+
+/* Estado */
+.tag[data-type="state"] {
+  --tag-bg: rgba(255, 90, 90, 0.08);
+  --tag-fg: #ffc9c9;
+  --tag-border: #ff5a5a;
+  --tag-bg-active: #ff5a5a;
+  --tag-fg-active: #3a0202;
+}
+
+/* Géneros */
+.tag[data-type="genre"] {
+  --tag-bg: rgba(245, 200, 60, 0.08);
+  --tag-fg: #fff0c1;
+  --tag-border: #f5c83c;
+  --tag-bg-active: #f5c83c;
+  --tag-fg-active: #3a2800;
+}
+
+/* Consciencia */
+.tag[data-type="consciencia"] {
+  --tag-bg: rgba(255, 159, 90, 0.08);
+  --tag-fg: #ffd6bd;
+  --tag-border: #ff9f5a;
+  --tag-bg-active: #ff9f5a;
+  --tag-fg-active: #3a1602;
+}
+
+/* Dispositivo */
+.tag[data-type="dispositivo"] {
+  --tag-bg: rgba(124, 157, 255, 0.08);
+  --tag-fg: #d3deff;
+  --tag-border: #7c9dff;
+  --tag-bg-active: #7c9dff;
+  --tag-fg-active: #0a1233;
+}
+
+/* Otros */
+.tag[data-type="other"] {
+  --tag-bg: rgba(255, 190, 235, 0.08);
+  --tag-fg: #ffe2f3;
+  --tag-border: #ffbeeb;
+  --tag-bg-active: #ffbeeb;
+  --tag-fg-active: #380d2b;
+}
 
   .tag {
     font-size: 18px;
     background: rgba(82,39,255,0.15);
-    border: 1px solid rgba(82,39,255,0.4);
     padding: 3px 6px;
     border-radius: 999px;
   }
+  /* === Recomendaciones === */
+.recommendations {
+  margin-top: 18px;
+}
+
+.suggestion-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 14px;
+  align-items: stretch; /* fuerza misma altura por fila */
+}
+
+.suggestion-card {
+  /* caja clickable */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly; /* header arriba, tags abajo */
+  gap: 10px;
+
+  padding: 12px 14px;
+
+  /* borde y fondo (ajústalos a tu paleta) */
+  border: 2px solid rgba(100, 170, 255, 0.4);
+  background: rgba(10, 20, 60, 0.35);
+
+  min-height: 150px; /* asegura altura mínima igual */
+  transition: transform .12s ease, filter .12s ease, border-color .12s ease, background .12s ease;
+}
+
+.suggestion-card:hover,
+.suggestion-card:focus {
+  filter: brightness(1.05);
+  transform: translateY(-1px);
+  outline: none;
+  border-color: rgba(120, 220, 255, 0.8);
+}
+
+/* contenido interno */
+.suggestion-header {
+  text-align: center;
+  display: grid;
+  gap: 6px;
+}
+
+.suggestion-title {
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.2;
+}
+
+.suggestion-sub {
+  color: rgba(216, 225, 255, 0.8);
+  font-size: 13px;
+}
+
+.suggestion-meta {
+  margin-top: 2px;
+  color: #a1c9ff;
+  font-size: 12px;
+  letter-spacing: 0.3px;
+}
+
+/* tags de la recomendación */
+.suggestion-tags {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 6px;
+  margin-top: 6px;
+}
+
+/* versión pequeña del tag para recomendaciones */
+.tag.tag--sm {
+  transform: scale(0.9);
+  transform-origin: center;
+  font-size: 0.9em; /* por si tu .tag usa font-size base */
+}

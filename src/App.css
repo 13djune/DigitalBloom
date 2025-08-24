@@ -539,3 +539,14 @@ margin: 0 0 0 8px;
   display: none;
   position: absolute;
 }
+
+/* Añadir al final de App.css o index.css */
+.timeline-segment .time-item .time-card {
+  transition: all 0.3s ease;
+}
+
+.timeline-segment .time-item:not(.is-active) .time-card {
+  background-color: transparent;
+  color: var(--color-text-subtle); /* O el color que prefieras para el texto inactivo */
+  border-color: var(--color-text-subtle);
+}
