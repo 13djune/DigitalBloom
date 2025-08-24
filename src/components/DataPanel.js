@@ -5,7 +5,7 @@ import "../styles/DataPanel.css";
 import "../index.css";
 import tagList from "../utils/tagConfig";
 
-// Nombre legible por plataforma
+/* ---------- Mapeos de plataforma ---------- */
 const PLATFORM_ID_TO_NAME = {
   1: "Spotify",
   2: "YouTube",
@@ -17,7 +17,6 @@ const PLATFORM_ID_TO_NAME = {
   8: "Google",
 };
 
-// Clave MAYÚSCULA para mapear colores
 const PLATFORM_ID_TO_KEY = {
   1: "SPOTIFY",
   2: "YOUTUBE",
@@ -29,7 +28,7 @@ const PLATFORM_ID_TO_KEY = {
   8: "GOOGLE",
 };
 
-// Colores por plataforma (idénticos a DataDotGrid para consistencia)
+/* ---------- Colores por plataforma (coherente con DataDotGrid) ---------- */
 const colorMapping = {
   SPOTIFY: "#39D353",
   YOUTUBE: "#FF5353",
@@ -40,15 +39,293 @@ const colorMapping = {
   STREAMING: "#b457f7",
   GOOGLE: "#4285F4",
 };
-function lightenColor(hex, percent) {
-  let num = parseInt(hex.replace("#", ""), 16);
-  let r = (num >> 16) + Math.round((255 - (num >> 16)) * (percent / 100));
-  let g = ((num >> 8) & 0x00ff) + Math.round((255 - ((num >> 8) & 0x00ff)) * (percent / 100));
-  let b = (num & 0x0000ff) + Math.round((255 - (num & 0x0000ff)) * (percent / 100));
 
-  return `rgb(${r},${g},${b})`;
+/* ---------- Utilidades de color ---------- */
+function lightenColor(hex, percent) {
+  try {
+    const num = parseInt(hex.replace("#", ""), 16);
+    const r = (num >> 16) & 0xff;
+    const g = (num >> 8) & 0xff;
+    const b = num & 0xff;
+    const lr = Math.min(255, Math.round(r + (255 - r) * (percent / 100)));
+    const lg = Math.min(255, Math.round(g + (255 - g) * (percent / 100)));
+    const lb = Math.min(255, Math.round(b + (255 - b) * (percent / 100)));
+    return `rgb(${lr},${lg},${lb})`;
+  } catch {
+    return hex;
+  }
 }
 
+/* ---------- Utilidades de fecha/período ---------- */
+const TIMEBUCKET_TO_TEXT = {
+  "4w": "Últimas 4 semanas",
+  "6m": "Últimos 6 meses",
+  "1y": "Último año",
+};
+const TIME_ID_TO_BUCKET = { 1: "4w", 2: "6m", 3: "1y" };
+
+function safeFormatDate(value) {
+  try {
+    const d = new Date(value);
+    if (isNaN(d.getTime())) return null;
+    return d.toLocaleDateString("es-ES", {
+      year: "numeric",
+      month: "long",
+      day: "numeric",
+    });
+  } catch {
+    return null;
+  }
+}
+
+function getDisplayDateLike(item = {}) {
+  const details = item.details || {};
+  // 1) date (raíz o en details)
+  const rawDate = item.date ?? details.date;
+  const fmt = safeFormatDate(rawDate);
+  if (fmt) return fmt;
+
+  // 2) period (raíz o en details)
+  const period = item.period ?? details.period;
+  if (period) return String(period);
+
+  // 3) timeBucket o time numérico
+  let tb = item.timeBucket ?? details.timeBucket;
+  if (!tb && (item.time ?? details.time) != null) {
+    tb = TIME_ID_TO_BUCKET[Number(item.time ?? details.time)];
+  }
+  if (tb) return TIMEBUCKET_TO_TEXT[tb] || String(tb);
+
+  return null;
+}
+
+/* ---------- Componente principal ---------- */
+export default function DataPanel({ item, allData = [], onClose, onSelect }) {
+  // No condicionar hooks: usa valores “seguros”
+  const safeItem = useMemo(() => item ?? {}, [item]);
+  const {
+    id: itemId,
+    title = "",
+    artists = "",
+    platformId,
+    rank,
+    tags = [],
+    details = {},
+    url,
+  } = safeItem;
+
+  const platformName = PLATFORM_ID_TO_NAME[platformId] || "Desconocido";
+  const platformKey = PLATFORM_ID_TO_KEY[platformId] || "UNKNOWN";
+  const platformColor = colorMapping[platformKey] || "#cfe8ff";
+  const finalUrl = url || details.url;
+  const { dataType, subjective_notes } = details;
+
+  // Fecha/período a mostrar (siempre que haya algo)
+  const displayDate = useMemo(() => getDisplayDateLike(safeItem), [safeItem]);
+
+  // Recomendaciones (por plataforma y/o tags), 2 máx, sin duplicados, sin recomendarse a sí mismo
+  const recommendations = useMemo(() => {
+    const list = Array.isArray(allData) ? allData : [];
+    const base = list.filter(
+      (d) => d && typeof d.platformId === "number" && d.id !== itemId
+    );
+
+    const scored = [];
+    for (const d of base) {
+      let score = 0;
+      if (platformId && d.platformId === platformId) score += 1;
+      if (tags?.length && d.tags?.length) {
+        const shared = tags.filter((t) => d.tags.includes(t)).length;
+        score += shared;
+      }
+      if (score > 0 && !scored.some((x) => x.item?.id === d.id)) {
+        scored.push({ item: d, score });
+      }
+    }
+    return scored
+      .sort((a, b) => b.score - a.score)
+      .slice(0, 2)
+      .map((x) => x.item);
+  }, [allData, itemId, platformId, tags]);
+
+  if (!item) return null;
+
+  return (
+    <div className="data-panel-overlay" onClick={onClose}>
+      <div className="data-panel" onClick={(e) => e.stopPropagation()}>
+        {/* Header */}
+        <header className="panel-header">
+          <h4 className="platform-name">{platformName}</h4>
+          <button className="btn-close cursor-target" onClick={onClose} aria-label="Cerrar panel">
+            <Icon icon="pixelarticons:close" width="24" height="24" />
+          </button>
+        </header>
+
+        {/* Body */}
+        <div className="panel-body">
+          {/* Título / artista / rank */}
+          <div className="main-info flex flex-col">
+            <div className="flex flex-row items-baseline">
+              {typeof rank === "number" && <div className="rank">#{rank}</div>}
+              {artists && <p className="artists px-2">{artists}</p>}
+            </div>
+            <h2 className="title">"{title}"</h2>
+          </div>
+
+          {/* Meta info (tipo y fecha/periodo) */}
+          {(displayDate || dataType) && (
+            <div className="meta-info">
+              {dataType && <span>{dataType}</span>}
+              {displayDate && dataType && <span> • </span>}
+              {displayDate && <span>{displayDate}</span>}
+            </div>
+          )}
+
+          {/* Detalles dinámicos */}
+          <DynamicDetails details={details} />
+
+          {/* Notas subjetivas con color aclarado por plataforma (sin fondo extra) */}
+          {subjective_notes && (
+            <div
+              className="notes-section subjetivo-font"
+              style={{
+                color: lightenColor(platformColor, 40),
+                fontWeight: 500,
+                fontSize: "1.4rem",
+              }}
+            >
+              <p>{subjective_notes}</p>
+            </div>
+          )}
+
+          {/* Tags del ítem */}
+          {tags.length > 0 && (
+            <div className="tags">
+              {tags.map((tag, i) => {
+                const tagType = tagList.find((t) => t.name === tag)?.type || "topic";
+                return (
+                  <span key={i} className="tag" data-type={tagType}>
+                    {tag}
+                  </span>
+                );
+              })}
+            </div>
+          )}
+
+          {/* Enlace */}
+          {finalUrl && (
+            <a
+              href={finalUrl}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="btn-primary-link cursor-target flex flex-row items-center"
+            >
+              Ver Enlace <Icon icon="pixelarticons:external-link" />
+            </a>
+          )}
+
+          {/* Recomendaciones */}
+          {recommendations.length > 0 && (
+            <div className="recommendations">
+              <h4 className="text-2xl mb-2">También puede interesarte:</h4>
+
+              {/* 2 columnas iguales y toda la tarjeta es clickeable */}
+              <div
+                className="suggestion-list"
+                style={{
+                  display: "grid",
+                  gridTemplateColumns: "repeat(2, minmax(0, 1fr))",
+                  gap: 12,
+                }}
+              >
+                {recommendations.map((rec, idx) => {
+                  const recTags = rec.tags || [];
+                  const recPlatformName =
+                    PLATFORM_ID_TO_NAME[rec.platformId] || "—";
+                  const recPlatformKey =
+                    PLATFORM_ID_TO_KEY[rec.platformId] || "UNKNOWN";
+                  const recColor = colorMapping[recPlatformKey] || "#9BA3B4";
+
+                  return (
+                    <button
+                      key={idx}
+                      type="button"
+                      className="suggestion-with-tags cursor-target"
+                      onClick={() => {
+                        onClose();
+                        setTimeout(() => onSelect?.(rec), 100);
+                      }}
+                      style={{
+                        // que todas ocupen el mismo ancho/alto visual
+                        display: "flex",
+                        flexDirection: "column",
+                        justifyContent: "space-between",
+                        textAlign: "left",
+                        padding: "12px",
+                        background: "rgba(255,255,255,0.04)",
+                        border: `2px solid ${recColor}55`,
+                        minHeight: 116,
+                      }}
+                    >
+                      <div>
+                        <div
+                          className="suggestion-title"
+                          style={{ fontWeight: 700 }}
+                        >
+                          “{rec.title}”
+                        </div>
+                        {rec.artists && (
+                          <div className="suggestion-sub" style={{ opacity: 0.85 }}>
+                            {rec.artists}
+                          </div>
+                        )}
+                        <div
+                          className="suggestion-meta"
+                          style={{ color: recColor, marginTop: 2, fontSize: 13 }}
+                        >
+                          {recPlatformName}
+                        </div>
+                      </div>
+
+                      {recTags.length > 0 && (
+                        <div
+                          className="tags"
+                          style={{
+                            marginTop: 8,
+                            display: "flex",
+                            flexWrap: "wrap",
+                            gap: 6,
+                          }}
+                        >
+                          {recTags.slice(0, 4).map((tg, i2) => {
+                            const ttype =
+                              tagList.find((t) => t.name === tg)?.type || "topic";
+                            return (
+                              <span
+                                key={i2}
+                                className="tag"
+                                data-type={ttype}
+                                style={{ transform: "scale(0.9)" }}
+                              >
+                                {tg}
+                              </span>
+                            );
+                          })}
+                        </div>
+                      )}
+                    </button>
+                  );
+                })}
+              </div>
+            </div>
+          )}
+        </div>
+      </div>
+    </div>
+  );
+}
+
+/* ---------- Subcomponentes ---------- */
 const DetailItem = ({ label, value }) => {
   if (value === null || value === undefined || value === "") return null;
   const displayValue =
@@ -65,20 +342,24 @@ const DetailItem = ({ label, value }) => {
   );
 };
 
-const DynamicDetails = ({ details }) => {
+const DynamicDetails = ({ details = {} }) => {
   const excludedKeys = new Set([
     "subjective_notes",
     "sourceFile",
     "name",
     "coordinates",
     "dataType",
+    "date",
+    "period",
+    "timeBucket",
+    "time",
   ]);
-  const detailKeys = Object.keys(details || {}).filter((key) => !excludedKeys.has(key));
-  if (detailKeys.length === 0) return null;
+  const keys = Object.keys(details).filter((k) => !excludedKeys.has(k));
+  if (keys.length === 0) return null;
 
   return (
     <div className="details-grid">
-      {detailKeys.map((key) => {
+      {keys.map((key) => {
         const label = key
           .replace(/([A-Z])/g, " $1")
           .replace(/_/g, " ")
@@ -97,6 +378,7 @@ const DynamicDetails = ({ details }) => {
         ) {
           value = value.toLocaleString("es-ES");
         }
+
         if (key === "statistics" && typeof value === "object") {
           return (
             <React.Fragment key={key}>
@@ -127,192 +409,3 @@ const DynamicDetails = ({ details }) => {
     </div>
   );
 };
-
-
-export default function DataPanel({ item, allData = [], onClose, onSelect }) {
-  // ✅ NUNCA condicionar hooks: usa valores “seguros”
-  const safeItem = item ?? {};
-  const {
-    id: itemId,
-    title = "",
-    artists = "",
-    platformId,
-    rank,
-    tags = [],
-    details = {},
-    url,
-    date,
-  } = safeItem;
-
-  const platformName = PLATFORM_ID_TO_NAME[platformId] || "Desconocido";
-  const platformKey = PLATFORM_ID_TO_KEY[platformId] || "UNKNOWN";
-  const platformColor = colorMapping[platformKey] || "#cfe8ff";
-  const finalUrl = url || details.url;
-  const { dataType, subjective_notes } = details;
-
-  // ✅ Hook SIEMPRE llamado
-  const recommendations = useMemo(() => {
-    const list = Array.isArray(allData) ? allData : [];
-    const base = list.filter(
-      (d) => d && typeof d.platformId === "number" && d.id !== itemId
-    );
-
-    const scored = [];
-    for (const d of base) {
-      let score = 0;
-      if (platformId && d.platformId === platformId) score += 1;
-      if (tags?.length && d.tags?.length) {
-        const shared = tags.filter((t) => d.tags.includes(t)).length;
-        score += shared;
-      }
-      if (score > 0 && !scored.some((x) => x.item?.id === d.id)) {
-        scored.push({ item: d, score });
-      }
-    }
-    return scored
-      .sort((a, b) => b.score - a.score)
-      .slice(0, 2)
-      .map((x) => x.item);
-  }, [allData, itemId, platformId, tags]);
-
-  // 👉 Ahora SÍ podemos salir si no hay item, pero DESPUÉS de los hooks
-  if (!item) return null;
-
-  return (
-    <div className="data-panel-overlay" onClick={onClose}>
-      <div className="data-panel" onClick={(e) => e.stopPropagation()}>
-        <header className="panel-header">
-          <h4 className="platform-name">{platformName}</h4>
-          <button className="btn-close cursor-target" onClick={onClose} aria-label="Cerrar panel">
-            <Icon icon="pixelarticons:close" width="24" height="24" />
-          </button>
-        </header>
-
-        <div className="panel-body">
-          <div className="main-info flex flex-col">
-            <div className="flex flex-row items-baseline">
-              {typeof rank === "number" && <div className="rank">#{rank}</div>}
-              {artists && <p className="artists px-2">{artists}</p>}
-            </div>
-            <h2 className="title">"{title}"</h2>
-          </div>
-
-          {(date || dataType) && (
-            <div className="meta-info">
-              {dataType && <span>{dataType}</span>}
-              {date && dataType && <span>•</span>}
-              {date && (
-                <span>
-                  {new Date(date).toLocaleDateString("es-ES", {
-                    year: "numeric",
-                    month: "long",
-                    day: "numeric",
-                  })}
-                </span>
-              )}
-            </div>
-          )}
-
-          <DynamicDetails details={details} />
-
-          {subjective_notes && (
-            <div
-              className="notes-section subjetivo-font"
-              style={{
-                fontSize: "1.4rem",
-                color: lightenColor(platformColor, 40),
-         
-                fontWeight: 500,
-              }}
-            >
-              <p>{subjective_notes}</p>
-            </div>
-          )}
-
-          {tags.length > 0 && (
-            <div className="tags">
-              {tags.map((tag, i) => {
-                const tagType = tagList.find((t) => t.name === tag)?.type || "topic";
-                return (
-                  <span key={i} className="tag" data-type={tagType}>
-                    {tag}
-                  </span>
-                );
-              })}
-            </div>
-          )}
-
-          {finalUrl && (
-            <a
-              href={finalUrl}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="btn-primary-link cursor-target flex flex-row items-center"
-            >
-              Ver Enlace <Icon icon="pixelarticons:external-link" />
-            </a>
-          )}
-{recommendations.length > 0 && (
-  <div className="recommendations">
-    <h3 className="text-2xl mb-4">También puede interesarte:</h3>
-
-    {/* usamos grid a 2 columnas con alturas iguales */}
-    <div className="suggestion-grid">
-      {recommendations.map((rec, idx) => {
-        const recTags = rec.tags || [];
-        const handleSelect = () => {
-          onClose();
-          setTimeout(() => onSelect(rec), 100);
-        };
-        const handleKeyDown = (e) => {
-          if (e.key === "Enter" || e.key === " ") {
-            e.preventDefault();
-            handleSelect();
-          }
-        };
-
-        return (
-          <div
-            key={idx}
-            className="suggestion-card cursor-target"
-            role="button"
-            tabIndex={0}
-            onClick={handleSelect}
-            onKeyDown={handleKeyDown}
-          >
-            {/* Cabecera: título / subtítulo / plataforma */}
-            <div className="suggestion-header">
-              <div className="suggestion-title">"{rec.title}"</div>
-              {rec.artists && <div className="suggestion-sub">{rec.artists}</div>}
-              <div className="suggestion-meta">
-                {PLATFORM_ID_TO_NAME[rec.platformId] ?? "—"}
-              </div>
-            </div>
-
-            {/* Tags de la recomendación */}
-            {recTags.length > 0 && (
-              <div className="suggestion-tags">
-                {recTags.slice(0, 4).map((tag, i) => {
-                  const tagType =
-                    tagList.find((t) => t.name === tag)?.type || "topic";
-                  return (
-                    <span key={i} className="tag tag--sm" data-type={tagType}>
-                      {tag}
-                    </span>
-                  );
-                })}
-              </div>
-            )}
-          </div>
-        );
-      })}
-    </div>
-  </div>
-)}
-
-
-        </div>
-      </div>
-    </div>
-  );
-}

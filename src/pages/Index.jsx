@@ -40,7 +40,7 @@ export default function Index() {
 <img src={Flor} alt="Animación" className="w-32 h-auto mb-6" />
 
         <TextType className="max-w-xl mt-6 text-xl text-text"
-          text={[" Bienvenidx a una experiencia", "interactiva creada a partir", "de mi propia huella digital..."]}
+          text={[" Bienvenidx a una experiencia interactiva creada a partir", "de mi propia huella digital..."]}
           typingSpeed={75}
           pauseDuration={900}
           showCursor={false}

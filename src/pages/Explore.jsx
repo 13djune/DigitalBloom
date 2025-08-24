@@ -245,10 +245,13 @@ const allData = useMemo(() => {
       <Walkthrough open={isWalkthroughOpen} step={walkthroughStep} steps={steps} onNext={handleNextTutorialStep} onSkip={handleSkipTutorial} />
 
       <DataDotGrid
-        data={allData}
-        filters={filters}
-        onSelect={(item) => setSelectedItem(item)}
-      />
+  data={allData}
+  filters={filters}
+  safePadding={{ top: 96, right: 260, bottom: 140, left: 140 }}
+  clusterTightness={0.7}
+  onSelect={(item) => setSelectedItem(item)}
+/>
+
 
       {/** 👇 Esto es opcional: mensaje si no hay resultados visibles */}
       {allData.length > 0 && (
