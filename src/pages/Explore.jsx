@@ -1,4 +1,3 @@
-// src/pages/Explore.jsx
 import React, { useEffect, useMemo, useState, useCallback } from "react";
 import TargetCursor from "../components/TargetCursor";
 import { Icon } from "@iconify/react";
@@ -12,6 +11,22 @@ import deseoData from "../data/deseo-data(1).json";
 import cuerpoData from "../data/cuerpo-data(2).json";
 import rastroData from "../data/rastro-data(3).json";
 
+/* ---------- util local para normalizar ids y platformId ---------- */
+const normalizeDatasets = (list) =>
+  list
+    .filter(Boolean)
+    .map((d, idx) => {
+      const pid = Number(d.platformId);
+      return {
+        ...d,
+        id: d.id ?? `${isNaN(pid) ? 'X' : pid}-${d.title ?? d.url ?? idx}`,
+        platformId: isNaN(pid) ? undefined : pid,
+        tags: Array.isArray(d.tags) ? d.tags : [],
+      };
+    })
+    .filter(d => typeof d.platformId === 'number'); // <- evita undefined.platformId
+
+/* ---------- first-visit flag ---------- */
 const useFirstVisitFlag = (key = "explore_tutorial_seen") => {
   const [shouldShow, setShouldShow] = useState(() => {
     try { return !JSON.parse(localStorage.getItem(key) || "false"); }
@@ -24,6 +39,7 @@ const useFirstVisitFlag = (key = "explore_tutorial_seen") => {
   return { shouldShow, markSeen };
 };
 
+/* ---------- walkthrough (igual que antes, abreviado) ---------- */
 function Walkthrough({ open, step, steps, onNext, onSkip }) {
   const bubbleRef = React.useRef(null);
   const [bubblePos, setBubblePos] = useState({ top: 0, left: 0, arrow: "top" });
@@ -100,12 +116,14 @@ function Walkthrough({ open, step, steps, onNext, onSkip }) {
   );
 }
 
+/* ---------- Página ---------- */
 export default function Explore() {
   const { shouldShow, markSeen } = useFirstVisitFlag();
   const [isWalkthroughOpen, setWalkthroughOpen] = useState(shouldShow);
   const [walkthroughStep, setWalkthroughStep] = useState(0);
   const [, setSearchParams] = useSearchParams();
 
+  /* Filtros (nivel y tiempo cuentan siempre como activos = 1) */
   const [filters, setFilters] = useState(() => {
     const sp = new URLSearchParams(window.location.search);
     const platforms = sp.getAll('platforms').map(Number).filter(Boolean);
@@ -140,35 +158,31 @@ export default function Explore() {
       platforms: (newFiltersFromModal.platforms || []).map(Number),
       tags: (newFiltersFromModal.tags || []),
     });
-    
     setShowFiltersModal(false);
   };
-  
-
   const handleResetFilters = () => {
     setFilters({ level: 1, time: 1, platforms: [], tags: [] });
     setShowFiltersModal(false);
   };
 
+  /* 🔥 Cuenta de filtros: nivel + tiempo siempre suman (1+1) */
   const appliedCount = useMemo(() => {
-    const { level, time, platforms, tags } = filters;
-  
-    const levelCount = level ? 1 : 0;    // ✅ cuenta aunque sea 1
-    const timeCount = time ? 1 : 0;      // ✅ cuenta aunque sea 1
-  
-    return levelCount + timeCount + platforms.length + tags.length;
+    return 1 + 1 + filters.platforms.length + filters.tags.length;
   }, [filters]);
-  
 
-// en Explore.jsx, al obtener allData (dentro de useMemo)
-const allData = useMemo(() => {
-  return [...deseoData, ...cuerpoData, ...rastroData]
-    .filter(d => d && typeof d.platformId === 'number' && !isNaN(d.platformId));
-}, []);
+  /* ---------- DATA: única creación de allData ---------- */
+  const allData = useMemo(() => {
+    const merged = [...deseoData, ...cuerpoData, ...rastroData];
+    return normalizeDatasets(merged);
+  }, []);
 
-
-    const levels = useMemo(() => [{ id: 1, label: "DESEO" }, { id: 2, label: "CUERPO" }, { id: 3, label: "RASTRO" }], []);
-  const times = useMemo(() => [{ id: 1, label: "ÚLTIMAS 4 SEMANAS" }, { id: 2, label: "ÚLTIMOS 6 MESES" }, { id: 3, label: "ÚLTIMO AÑO" }], []);
+  /* UI estática */
+  const levels = useMemo(() => [
+    { id: 1, label: "DESEO" }, { id: 2, label: "CUERPO" }, { id: 3, label: "RASTRO" }
+  ], []);
+  const times = useMemo(() => [
+    { id: 1, label: "ÚLTIMAS 4 SEMANAS" }, { id: 2, label: "ÚLTIMOS 6 MESES" }, { id: 3, label: "ÚLTIMO AÑO" }
+  ], []);
   const steps = useMemo(() => ([
     { selector: '#level-1', text: 'Puedes explorar los datos por niveles de conciencia.', placement: 'left' },
     { selector: '#timeline', text: 'Y ver como cambian a lo largo del tiempo.', placement: 'top' },
@@ -211,7 +225,13 @@ const allData = useMemo(() => {
       <div className="levels-vertical z-40">
         {levels.map((lv, i, arr) => (
           <React.Fragment key={lv.id}>
-            <button id={`level-${lv.id}`} className={`time node cursor-target level-item ${filters.level === lv.id ? "is-active" : ""}`} onClick={() => handleLevelChange(lv.id)} aria-pressed={filters.level === lv.id} aria-label={lv.label}>
+            <button
+              id={`level-${lv.id}`}
+              className={`time node cursor-target level-item ${filters.level === lv.id ? "is-active" : ""}`}
+              onClick={() => handleLevelChange(lv.id)}
+              aria-pressed={filters.level === lv.id}
+              aria-label={lv.label}
+            >
               <div className={`box ${filters.level === lv.id ? "box--active" : "box--inactive"}`}>
                 <span className="box-num">{lv.id}</span>
               </div>
@@ -223,53 +243,61 @@ const allData = useMemo(() => {
       </div>
 
       <div id="timeline" className="timeline z-40">
-  {times.map((t, i) => (
-    <div key={t.id} className="timeline-segment">
+        {times.map((t, i) => (
+          <div key={t.id} className="timeline-segment">
+            <button
+              className={`time-item cursor-target ${filters.time === t.id ? "is-active" : ""}`}
+              onClick={() => handleTimeChange(t.id)}
+              aria-pressed={filters.time === t.id}
+            >
+              <div className="time-card">{t.label}</div>
+              <div className="time-label">{t.label}</div>
+            </button>
+            {i < times.length - 1 && <div className="track" aria-hidden />}
+          </div>
+        ))}
+      </div>
+
       <button
-        className={`time-item cursor-target ${filters.time === t.id ? "is-active" : ""}`}
-        onClick={() => handleTimeChange(t.id)}
-        aria-pressed={filters.time === t.id}
+        className="help-fab cursor-target z-40"
+        onClick={() => { setWalkthroughStep(0); setWalkthroughOpen(true); }}
+        aria-label="Ver tutorial"
+        title="Ver tutorial"
       >
-        <div className="time-card">{t.label}</div>
-        <div className="time-label">{t.label}</div>
+        ?
       </button>
-      {i < times.length - 1 && <div className="track" aria-hidden />}
-    </div>
-  ))}
-</div>
 
+      <Walkthrough
+        open={isWalkthroughOpen}
+        step={walkthroughStep}
+        steps={steps}
+        onNext={handleNextTutorialStep}
+        onSkip={handleSkipTutorial}
+      />
 
-
-      <button className="help-fab cursor-target z-40" onClick={() => { setWalkthroughStep(0); setWalkthroughOpen(true); }} aria-label="Ver tutorial" title="Ver tutorial">?</button>
-
-      <Walkthrough open={isWalkthroughOpen} step={walkthroughStep} steps={steps} onNext={handleNextTutorialStep} onSkip={handleSkipTutorial} />
-
+      {/* 👇 Pásale SIEMPRE el allData ya normalizado */}
       <DataDotGrid
-  data={allData}
-  filters={filters}
-  safePadding={{ top: 96, right: 260, bottom: 140, left: 140 }}
-  clusterTightness={0.7}
-  onSelect={(item) => setSelectedItem(item)}
-/>
+        data={allData}
+        filters={filters}
+        onSelect={(item) => setSelectedItem(item)}
+      />
 
-
-      {/** 👇 Esto es opcional: mensaje si no hay resultados visibles */}
+      {/* Mensaje opcional si no hay resultados (lo puedes personalizar) */}
       {allData.length > 0 && (
         <div style={{ textAlign: "center", color: "#ccc", marginTop: "1rem" }}>
-          {/* Mostrar algo si no hay resultados */}
+          {/* ... */}
         </div>
       )}
-<DataPanel
-  item={selectedItem}
-  allData={allData}
-  onSelect={(item) => setSelectedItem(item)}
-  onClose={() => {
-    setSelectedItem(null);
-    window.dispatchEvent(new CustomEvent('datadotgrid', { detail: 'DATADOTGRID_CLEAR_ACTIVE' }));
-  }}
-/>
 
-
+      <DataPanel
+        item={selectedItem}
+        allData={allData}
+        onClose={() => {
+          setSelectedItem(null);
+          window.dispatchEvent(new CustomEvent('datadotgrid', { detail: 'DATADOTGRID_CLEAR_ACTIVE' }));
+        }}
+        onSelect={(itm) => setSelectedItem(itm)}
+      />
     </div>
   );
 }

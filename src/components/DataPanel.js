@@ -30,14 +30,14 @@ const PLATFORM_ID_TO_KEY = {
 
 /* ---------- Colores por plataforma (coherente con DataDotGrid) ---------- */
 const colorMapping = {
-  SPOTIFY: "#39D353",
-  YOUTUBE: "#FF5353",
-  TIKTOK: "#A78BFA",
-  INSTAGRAM: "#f87ad8",
-  IPHONE: "#f2fb73",
-  WHATSAPP: "#25d3bc",
-  STREAMING: "#b457f7",
-  GOOGLE: "#4285F4",
+  SPOTIFY: '#5ffd79', 
+  YOUTUBE: '#FF5353', 
+  TIKTOK: '#8170ff', 
+  INSTAGRAM: '#fb96e2', 
+  IPHONE: '#f2fb73',
+  WHATSAPP: '#44be56',
+  STREAMING: '#ffa536',
+  GOOGLE: '#4285F4'
 };
 
 /* ---------- Utilidades de color ---------- */
@@ -169,7 +169,7 @@ export default function DataPanel({ item, allData = [], onClose, onSelect }) {
               {typeof rank === "number" && <div className="rank">#{rank}</div>}
               {artists && <p className="artists px-2">{artists}</p>}
             </div>
-            <h2 className="title">"{title}"</h2>
+            <h2 className="title">{title}</h2>
           </div>
 
           {/* Meta info (tipo y fecha/periodo) */}
@@ -272,7 +272,7 @@ export default function DataPanel({ item, allData = [], onClose, onSelect }) {
                           className="suggestion-title"
                           style={{ fontWeight: 700 }}
                         >
-                          “{rec.title}”
+                          {rec.title}
                         </div>
                         {rec.artists && (
                           <div className="suggestion-sub" style={{ opacity: 0.85 }}>

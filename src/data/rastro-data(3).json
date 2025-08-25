@@ -5400,8 +5400,8 @@
 
           {
             "id": "ad-impression-insta-apple-2",
-            "title": "Anuncio Visto — @apple",
-            "artists": "apple",
+            "title": "Anuncio Instagram",
+            "artists": "@apple",
             "awareness": 3,
             "timeBucket": "1y",
             "platformId": 4,
@@ -5423,8 +5423,8 @@
       
           {
             "id": "ad-impression-insta-tattoox-4",
-            "title": "Anuncio Visto — @tattoox",
-            "artists": "tattoox",
+            "title": "Anuncio Instagram",
+            "artists": "@tattoox",
             "awareness": 3,
             "timeBucket": "1y",
             "platformId": 4,
@@ -5445,8 +5445,8 @@
           },
           {
             "id": "ad-impression-insta-ysl-5",
-            "title": "Anuncio Visto — @ysl",
-            "artists": "ysl",
+            "title": "Anuncio Instagram",
+            "artists": "@ysl",
             "awareness": 3,
             "timeBucket": "1y",
             "platformId": 4,
@@ -5467,8 +5467,8 @@
           },
           {
             "id": "ad-impression-insta-netflixes-6",
-            "title": "Anuncio Visto — @netflixes",
-            "artists": "netflixes",
+            "title": "Anuncio Instagram",
+            "artists": "@netflixes",
             "awareness": 3,
             "timeBucket": "1y",
             "platformId": 4,
@@ -5489,8 +5489,8 @@
           },
           {
             "id": "ad-impression-insta-pringles_sp-7",
-            "title": "Anuncio Visto — @pringles_sp",
-            "artists": "pringles_sp",
+            "title": "Anuncio Instagram",
+            "artists": "@pringles_sp",
             "awareness": 3,
             "timeBucket": "1y",
             "platformId": 4,
@@ -5511,8 +5511,8 @@
           },
           {
             "id": "ad-impression-insta-polillatattoo-8",
-            "title": "Anuncio Visto — @polillatattoo",
-            "artists": "polillatattoo",
+            "title": "Anuncio Instagram ",
+            "artists": "@polillatattoo",
             "awareness": 3,
             "timeBucket": "1y",
             "platformId": 4,
@@ -5533,8 +5533,8 @@
           },
           {
             "id": "ad-impression-insta-ysl-9",
-            "title": "Anuncio Visto — @ysl",
-            "artists": "ysl",
+            "title": "Anuncio Instagram",
+            "artists": "@ysl",
             "awareness": 3,
             "timeBucket": "1y",
             "platformId": 4,
@@ -5555,8 +5555,8 @@
           },
           {
             "id": "ad-impression-insta-momentosalhambra-10",
-            "title": "Anuncio Visto — @momentosalhambra",
-            "artists": "momentosalhambra",
+            "title": "Anuncio Instagram",
+            "artists": "@momentosalhambra",
             "awareness": 3,
             "timeBucket": "1y",
             "platformId": 4,
@@ -5577,8 +5577,8 @@
           },
           {
             "id": "ad-impression-insta-ofertas_formativas-11",
-            "title": "Anuncio Visto — @ofertas_formativas",
-            "artists": "ofertas_formativas",
+            "title": "Anuncio Instagram",
+            "artists": "@ofertas_formativas",
             "awareness": 3,
             "timeBucket": "1y",
             "platformId": 4,
@@ -5599,8 +5599,8 @@
           },
           {
             "id": "ad-impression-insta-tamii.tatt-12",
-            "title": "Anuncio Visto — @tamii.tatt",
-            "artists": "tamii.tatt",
+            "title": "Anuncio Instagram ",
+            "artists": "@tamii.tatt",
             "awareness": 3,
             "timeBucket": "1y",
             "platformId": 4,
@@ -5621,8 +5621,8 @@
           },
           {
             "id": "ad-impression-insta-katyaleshu-13",
-            "title": "Anuncio Visto — @katyaleshu",
-            "artists": "katyaleshu",
+            "title": "Anuncio Instagram",
+            "artists": "@katyaleshu",
             "awareness": 3,
             "timeBucket": "1y",
             "platformId": 4,
@@ -5643,8 +5643,8 @@
           },
           {
             "id": "ad-impression-insta-ysl-14",
-            "title": "Anuncio Visto — @ysl",
-            "artists": "ysl",
+            "title": "Anuncio Instagram",
+            "artists": "@ysl",
             "awareness": 3,
             "timeBucket": "1y",
             "platformId": 4,
@@ -5665,8 +5665,8 @@
           },
           {
             "id": "ad-impression-insta-yeahsure_tats-15",
-            "title": "Anuncio Visto — @yeahsure_tats",
-            "artists": "yeahsure_tats",
+            "title": "Anuncio Instagram",
+            "artists": "@yeahsure_tats",
             "awareness": 3,
             "timeBucket": "1y",
             "platformId": 4,
@@ -5687,8 +5687,8 @@
           },
           {
             "id": "ad-impression-insta-tattoox-16",
-            "title": "Anuncio Visto — @tattoox",
-            "artists": "tattoox",
+            "title": "Anuncio Instagram",
+            "artists": "@tattoox",
             "awareness": 3,
             "timeBucket": "1y",
             "platformId": 4,
@@ -5709,8 +5709,8 @@
           },
           {
             "id": "ad-impression-insta-funko_europe-17",
-            "title": "Anuncio Visto — @funko_europe",
-            "artists": "funko_europe",
+            "title": "Anuncio Instagram",
+            "artists": "@funko_europe",
             "awareness": 3,
             "timeBucket": "6m",
             "platformId": 4,
@@ -5731,8 +5731,8 @@
           },
           {
             "id": "ad-impression-insta-ysl-18",
-            "title": "Anuncio Visto — @ysl",
-            "artists": "ysl",
+            "title": "Anuncio Instagram",
+            "artists": "@ysl",
             "awareness": 3,
             "timeBucket": "6m",
             "platformId": 4,
@@ -5753,8 +5753,8 @@
           },
           {
             "id": "ad-impression-insta-rockerbookslloween-19",
-            "title": "Anuncio Visto — @rockerbookslloween",
-            "artists": "rockerbookslloween",
+            "title": "Anuncio Instagram",
+            "artists": "@rockerbookslloween",
             "awareness": 3,
             "timeBucket": "6m",
             "platformId": 4,
@@ -5775,8 +5775,8 @@
           },
           {
             "id": "ad-impression-insta-teatroeureka-20",
-            "title": "Anuncio Visto — @teatroeureka",
-            "artists": "teatroeureka",
+            "title": "Anuncio Instagram",
+            "artists": "@teatroeureka",
             "awareness": 3,
             "timeBucket": "6m",
             "platformId": 4,
@@ -5797,8 +5797,8 @@
           },
           {
             "id": "ad-impression-insta-okidokiasianmarket-21",
-            "title": "Anuncio Visto — @okidokiasianmarket",
-            "artists": "okidokiasianmarket",
+            "title": "Anuncio Instagram",
+            "artists": "@okidokiasianmarket",
             "awareness": 3,
             "timeBucket": "6m",
             "platformId": 4,
@@ -5819,8 +5819,8 @@
           },
           {
             "id": "ad-impression-insta-andreamedinatattoos-22",
-            "title": "Anuncio Visto — @andreamedinatattoos",
-            "artists": "andreamedinatattoos",
+            "title": "Anuncio Instagram",
+            "artists": "@andreamedinatattoos",
             "awareness": 3,
             "timeBucket": "6m",
             "platformId": 4,
@@ -5841,8 +5841,8 @@
           },
           {
             "id": "ad-impression-insta-essae_formacion-23",
-            "title": "Anuncio Visto — @essae_formacion",
-            "artists": "essae_formacion",
+            "title": "Anuncio Instagram",
+            "artists": "@essae_formacion",
             "awareness": 3,
             "timeBucket": "6m",
             "platformId": 4,
@@ -5863,8 +5863,8 @@
           },
           {
             "id": "ad-impression-insta-apple-24",
-            "title": "Anuncio Visto — @apple",
-            "artists": "apple",
+            "title": "Anuncio Instagram",
+            "artists": "@apple",
             "awareness": 3,
             "timeBucket": "6m",
             "platformId": 4,
@@ -5885,8 +5885,8 @@
           },
           {
             "id": "ad-impression-insta-tattoox-25",
-            "title": "Anuncio Visto — @tattoox",
-            "artists": "tattoox",
+            "title": "Anuncio Instagram",
+            "artists": "@tattoox",
             "awareness": 3,
             "timeBucket": "6m",
             "platformId": 4,
@@ -5907,8 +5907,8 @@
           },
           {
             "id": "ad-impression-insta-campofrio-26",
-            "title": "Anuncio Visto — @campofrio",
-            "artists": "campofrio",
+            "title": "Anuncio Instagram",
+            "artists": "@campofrio",
             "awareness": 3,
             "timeBucket": "6m",
             "platformId": 4,
@@ -5929,8 +5929,8 @@
           },
           {
             "id": "ad-impression-insta-ysl-27",
-            "title": "Anuncio Visto — @ysl",
-            "artists": "ysl",
+            "title": "Anuncio Instagram",
+            "artists": "@ysl",
             "awareness": 3,
             "timeBucket": "6m",
             "platformId": 4,
@@ -5951,8 +5951,8 @@
           },
           {
             "id": "ad-impression-insta-netflixes-28",
-            "title": "Anuncio Visto — @netflixes",
-            "artists": "netflixes",
+            "title": "Anuncio Instagram",
+            "artists": "@netflixes",
             "awareness": 3,
             "timeBucket": "6m",
             "platformId": 4,
@@ -5973,8 +5973,8 @@
           },
           {
             "id": "ad-impression-insta-pringles_sp-29",
-            "title": "Anuncio Visto — @pringles_sp",
-            "artists": "pringles_sp",
+            "title": "Anuncio Instagram",
+            "artists": "@pringles_sp",
             "awareness": 3,
             "timeBucket": "6m",
             "platformId": 4,
@@ -5995,8 +5995,8 @@
           },
           {
             "id": "ad-impression-insta-polillatattoo-30",
-            "title": "Anuncio Visto — @polillatattoo",
-            "artists": "polillatattoo",
+            "title": "Anuncio Instagram",
+            "artists": "@polillatattoo",
             "awareness": 3,
             "timeBucket": "6m",
             "platformId": 4,
@@ -6017,8 +6017,8 @@
           },
           {
             "id": "ad-impression-insta-ysl-31",
-            "title": "Anuncio Visto — @ysl",
-            "artists": "ysl",
+            "title": "Anuncio Instagram ",
+            "artists": "@ysl",
             "awareness": 3,
             "timeBucket": "6m",
             "platformId": 4,
@@ -6039,8 +6039,8 @@
           },
           {
             "id": "ad-impression-insta-momentosalhambra-32",
-            "title": "Anuncio Visto — @momentosalhambra",
-            "artists": "momentosalhambra",
+            "title": "Anuncio Instagram ",
+            "artists": "@momentosalhambra",
             "awareness": 3,
             "timeBucket": "6m",
             "platformId": 4,
@@ -6061,8 +6061,8 @@
           },
           {
             "id": "ad-impression-insta-ofertas_formativas-33",
-            "title": "Anuncio Visto — @ofertas_formativas",
-            "artists": "ofertas_formativas",
+            "title": "Anuncio Instagram",
+            "artists": "@ofertas_formativas",
             "awareness": 3,
             "timeBucket": "4w",
             "platformId": 4,
@@ -6083,8 +6083,8 @@
           },
           {
             "id": "ad-impression-insta-tallerandreasuarez-34",
-            "title": "Anuncio Visto — @tallerandreasuarez",
-            "artists": "tallerandreasuarez",
+            "title": "Anuncio Instagram ",
+            "artists": "@tallerandreasuarez",
             "awareness": 3,
             "timeBucket": "4w",
             "platformId": 4,
@@ -6105,8 +6105,8 @@
           },
           {
             "id": "ad-impression-insta-apple-35",
-            "title": "Anuncio Visto — @apple",
-            "artists": "apple",
+            "title": "Anuncio Instagram",
+            "artists": "@apple",
             "awareness": 3,
             "timeBucket": "4w",
             "platformId": 4,
@@ -6130,8 +6130,8 @@
    
           {
             "id": "ad-impression-insta-tamii.tatt-39",
-            "title": "Anuncio Visto — @tamii.tatt",
-            "artists": "tamii.tatt",
+            "title": "Anuncio Instagram",
+            "artists": "@tamii.tatt",
             "awareness": 3,
             "timeBucket": "4w",
             "platformId": 4,
@@ -6152,8 +6152,8 @@
           },
           {
             "id": "ad-impression-insta-blackiebooks-40",
-            "title": "Anuncio Visto — @blackiebooks",
-            "artists": "blackiebooks",
+            "title": "Anuncio Instagram",
+            "artists": "@blackiebooks",
             "awareness": 3,
             "timeBucket": "4w",
             "platformId": 4,
@@ -6175,8 +6175,8 @@
      
           {
             "id": "ad-impression-insta-katyaleshu-42",
-            "title": "Anuncio Visto — @katyaleshu",
-            "artists": "katyaleshu",
+            "title": "Anuncio Instagram",
+            "artists": "@katyaleshu",
             "awareness": 3,
             "timeBucket": "4w",
             "platformId": 4,
@@ -6197,8 +6197,8 @@
           },
           {
             "id": "ad-impression-insta-yeahsure_tats-43",
-            "title": "Anuncio Visto — @yeahsure_tats",
-            "artists": "yeahsure_tats",
+            "title": "Anuncio Instagram",
+            "artists": "@yeahsure_tats",
             "awareness": 3,
             "timeBucket": "4w",
             "platformId": 4,
@@ -6219,8 +6219,8 @@
           },
           {
             "id": "ad-impression-insta-ysl-44",
-            "title": "Anuncio Visto — @ysl",
-            "artists": "ysl",
+            "title": "Anuncio Instagram",
+            "artists": "@ysl",
             "awareness": 3,
             "timeBucket": "4w",
             "platformId": 4,
@@ -6241,8 +6241,8 @@
           },
           {
             "id": "ad-impression-insta-kotokisu-45",
-            "title": "Anuncio Visto — @kotokisu",
-            "artists": "kotokisu",
+            "title": "Anuncio Instagram",
+            "artists": "@kotokisu",
             "awareness": 3,
             "timeBucket": "4w",
             "platformId": 4,
@@ -6263,8 +6263,8 @@
           },
           {
             "id": "ad-impression-insta-tattoox-46",
-            "title": "Anuncio Visto — @tattoox",
-            "artists": "tattoox",
+            "title": "Anuncio Instagram",
+            "artists": "@tattoox",
             "awareness": 3,
             "timeBucket": "4w",
             "platformId": 4,
@@ -6285,8 +6285,8 @@
           },
           {
             "id": "ad-impression-insta-funko_europe-47",
-            "title": "Anuncio Visto — @funko_europe",
-            "artists": "funko_europe",
+            "title": "Anuncio Instagram",
+            "artists": "@funko_europe",
             "awareness": 3,
             "timeBucket": "4w",
             "platformId": 4,
@@ -6307,8 +6307,8 @@
           },
           {
             "id": "ad-impression-insta-ysl-48",
-            "title": "Anuncio Visto — @ysl",
-            "artists": "ysl",
+            "title": "Anuncio Instagram",
+            "artists": "@ysl",
             "awareness": 3,
             "timeBucket": "4w",
             "platformId": 4,
@@ -6326,7 +6326,2082 @@
               "dataType": "Anuncios Vistos",
               "name": "@ysl"
             }
-          }
+          },
+          
+            {
+              "id": "youtube-4PAzcjrPhoM",
+              "title": "Character Reveal Suki ESP",
+              "artists": "Authentic Beauty Concept",
+              "awareness": 3,
+              "timeBucket": "1y",
+              "platformId": 2,
+              "rank": 0,
+              "date": "",
+              "url": "https://www.youtube.com/watch?v=4PAzcjrPhoM",
+              "tags": [
+                "Propio",
+                "Inconsciente",
+                "Anuncios",
+                "@email",
+                "Televisión",
+                "Videojuegos",
+                "Español"
+              ],
+              "details": {
+                "sourceFile": "search-history.html",
+                "dataType": "Historial de YouTube",
+                "name": "Character Reveal Suki ESP"
+              }
+            },
+            {
+              "id": "youtube-w9V16hoCeGU",
+              "title": "Un paseo entre tradición y leyenda",
+              "artists": "Civitatis",
+              "awareness": 3,
+              "timeBucket": "1y",
+              "platformId": 2,
+              "rank": 0,
+              "date": "",
+              "url": "https://www.youtube.com/watch?v=w9V16hoCeGU",
+              "tags": [
+                "Propio",
+                "Inconsciente",
+                "Anuncios",
+                "@email",
+                "Televisión",
+                "Viajes",
+                "Cultura",
+                "Español"
+              ],
+              "details": {
+                "sourceFile": "search-history.html",
+                "dataType": "Historial de YouTube",
+                "name": "Un paseo entre tradición y leyenda"
+              }
+            },
+            {
+              "id": "youtube-iaFdKRs3Voc",
+              "title": "Recorre Sudamérica con LATAM",
+              "artists": "LATAM",
+              "awareness": 3,
+              "timeBucket": "1y",
+              "platformId": 2,
+              "rank": 0,
+              "date": "",
+              "url": "https://www.youtube.com/watch?v=iaFdKRs3Voc",
+              "tags": [
+                "Propio",
+                "Inconsciente",
+                "Anuncios",
+                "@email",
+                "Televisión",
+                "Viajes",
+                "Español"
+              ],
+              "details": {
+                "sourceFile": "search-history.html",
+                "dataType": "Historial de YouTube",
+                "name": "Recorre Sudamérica con LATAM"
+              }
+            },
+            {
+              "id": "youtube-sa4RcPq1TpM",
+              "title": "Nuevos PAPA ROLLS FINI | en Papa Johns.",
+              "artists": "Papa Johns",
+              "awareness": 3,
+              "timeBucket": "1y",
+              "platformId": 2,
+              "rank": 0,
+              "date": "",
+              "url": "https://www.youtube.com/watch?v=sa4RcPq1TpM",
+              "tags": [
+                "Propio",
+                "Inconsciente",
+                "Anuncios",
+                "@email",
+                "Televisión",
+                "Comida",
+                "Restaurantes",
+                "Español"
+              ],
+              "details": {
+                "sourceFile": "search-history.html",
+                "dataType": "Historial de YouTube",
+                "name": "Nuevos PAPA ROLLS FINI | en Papa Johns."
+              }
+            },
+            {
+              "id": "youtube-AcHPJlNr8xs",
+              "title": "Encuentra las marcas que te encantan en Amazon",
+              "artists": "Amazon",
+              "awareness": 3,
+              "timeBucket": "1y",
+              "platformId": 2,
+              "rank": 0,
+              "date": "",
+              "url": "https://www.youtube.com/watch?v=AcHPJlNr8xs",
+              "tags": [
+                "Propio",
+                "Inconsciente",
+                "Anuncios",
+                "@email",
+                "Televisión",
+                "Compras",
+                "Tecnología",
+                "Español"
+              ],
+              "details": {
+                "sourceFile": "search-history.html",
+                "dataType": "Historial de YouTube",
+                "name": "Encuentra las marcas que te encantan en Amazon"
+              }
+            },
+            {
+              "id": "youtube-9d5JnvD1HwI",
+              "title": "Double Date ya está en Tinder, ¡2 pa' 2 modo on! 🔥",
+              "artists": "Tinder",
+              "awareness": 3,
+              "timeBucket": "1y",
+              "platformId": 2,
+              "rank": 0,
+              "date": "",
+              "url": "https://www.youtube.com/watch?v=9d5JnvD1HwI",
+              "tags": [
+                "Propio",
+                "Inconsciente",
+                "Anuncios",
+                "@email",
+                "Televisión",
+                "Social",
+                "Apps",
+                "Español"
+              ],
+              "details": {
+                "sourceFile": "search-history.html",
+                "dataType": "Historial de YouTube",
+                "name": "Double Date ya está en Tinder, ¡2 pa' 2 modo on! 🔥"
+              }
+            },
+            {
+              "id": "youtube-5qiOOKJGP68",
+              "title": "En todos los lados - Pulgas y garrapatas: Yo estoy protegido, ¿y tus perros?",
+              "artists": "MSD Animal Health España",
+              "awareness": 3,
+              "timeBucket": "1y",
+              "platformId": 2,
+              "rank": 0,
+              "date": "",
+              "url": "https://www.youtube.com/watch?v=5qiOOKJGP68",
+              "tags": [
+                "Propio",
+                "Inconsciente",
+                "Anuncios",
+                "@email",
+                "Televisión",
+                "Mascotas",
+                "Salud",
+                "Español"
+              ],
+              "details": {
+                "sourceFile": "search-history.html",
+                "dataType": "Historial de YouTube",
+                "name": "En todos los lados - Pulgas y garrapatas: Yo estoy protegido, ¿y tus perros?"
+              }
+            },
+            {
+              "id": "youtube-LPmtBCO7Los",
+              "title": "McKinsey: Diverse perspectives drive better solutions",
+              "artists": "McKinsey",
+              "awareness": 3,
+              "timeBucket": "1y",
+              "platformId": 2,
+              "rank": 0,
+              "date": "",
+              "url": "https://www.youtube.com/watch?v=LPmtBCO7Los",
+              "tags": [
+                "Propio",
+                "Inconsciente",
+                "Anuncios",
+                "@email",
+                "Televisión",
+                "Negocios",
+                "Consultoría",
+                "Inglés"
+              ],
+              "details": {
+                "sourceFile": "search-history.html",
+                "dataType": "Historial de YouTube",
+                "name": "McKinsey: Diverse perspectives drive better solutions"
+              }
+            },
+            {
+              "id": "youtube-szGJcVaT0Es",
+              "title": "Nutella. Los buenos días que nos unen.",
+              "artists": "Nutella",
+              "awareness": 3,
+              "timeBucket": "1y",
+              "platformId": 2,
+              "rank": 0,
+              "date": "",
+              "url": "https://www.youtube.com/watch?v=szGJcVaT0Es",
+              "tags": [
+                "Propio",
+                "Inconsciente",
+                "Anuncios",
+                "@email",
+                "Televisión",
+                "Comida",
+                "Español"
+              ],
+              "details": {
+                "sourceFile": "search-history.html",
+                "dataType": "Historial de YouTube",
+                "name": "Nutella. Los buenos días que nos unen."
+              }
+            },
+            {
+              "id": "youtube-nnrv0dRbGxE",
+              "title": "Encuentra las marcas que te encantan en Amazon",
+              "artists": "Amazon",
+              "awareness": 3,
+              "timeBucket": "1y",
+              "platformId": 2,
+              "rank": 0,
+              "date": "",
+              "url": "https://www.youtube.com/watch?v=nnrv0dRbGxE",
+              "tags": [
+                "Propio",
+                "Inconsciente",
+                "Anuncios",
+                "@email",
+                "Televisión",
+                "Compras",
+                "Tecnología",
+                "Español"
+              ],
+              "details": {
+                "sourceFile": "search-history.html",
+                "dataType": "Historial de YouTube",
+                "name": "Encuentra las marcas que te encantan en Amazon"
+              }
+            },
+            {
+              "id": "youtube-y7m7lvidl5Y",
+              "title": "SPX|S01_A01_16x9|APRENDE A OPERAR",
+              "artists": "FTMO",
+              "awareness": 3,
+              "timeBucket": "1y",
+              "platformId": 2,
+              "rank": 0,
+              "date": "",
+              "url": "https://www.youtube.com/watch?v=y7m7lvidl5Y",
+              "tags": [
+                "Propio",
+                "Inconsciente",
+                "Anuncios",
+                "@email",
+                "Televisión",
+                "Finanzas",
+                "Trading",
+                "Español"
+              ],
+              "details": {
+                "sourceFile": "search-history.html",
+                "dataType": "Historial de YouTube",
+                "name": "SPX|S01_A01_16x9|APRENDE A OPERAR"
+              }
+            },
+            {
+              "id": "youtube-gU-8U4Cg2sk",
+              "title": "TREMENDO TRIPLETE BOX | en Papa Johns.",
+              "artists": "Papa Johns",
+              "awareness": 3,
+              "timeBucket": "1y",
+              "platformId": 2,
+              "rank": 0,
+              "date": "",
+              "url": "https://www.youtube.com/watch?v=gU-8U4Cg2sk",
+              "tags": [
+                "Propio",
+                "Inconsciente",
+                "Anuncios",
+                "@email",
+                "Televisión",
+                "Comida",
+                "Restaurantes",
+                "Español"
+              ],
+              "details": {
+                "sourceFile": "search-history.html",
+                "dataType": "Historial de YouTube",
+                "name": "TREMENDO TRIPLETE BOX | en Papa Johns."
+              }
+            },
+            {
+              "id": "youtube-uxNlzbWiuRI",
+              "title": "Grandes marcas. Precios que te encantarán.",
+              "artists": "Amazon",
+              "awareness": 3,
+              "timeBucket": "1y",
+              "platformId": 2,
+              "rank": 0,
+              "date": "",
+              "url": "https://www.youtube.com/watch?v=uxNlzbWiuRI",
+              "tags": [
+                "Propio",
+                "Inconsciente",
+                "Anuncios",
+                "@email",
+                "Televisión",
+                "Compras",
+                "Español"
+              ],
+              "details": {
+                "sourceFile": "search-history.html",
+                "dataType": "Historial de YouTube",
+                "name": "Grandes marcas. Precios que te encantarán."
+              }
+            },
+            {
+              "id": "youtube-Y3EesEIptLw",
+              "title": "It's a double match!",
+              "artists": "Tinder",
+              "awareness": 3,
+              "timeBucket": "1y",
+              "platformId": 2,
+              "rank": 0,
+              "date": "",
+              "url": "https://www.youtube.com/watch?v=Y3EesEIptLw",
+              "tags": [
+                "Propio",
+                "Inconsciente",
+                "Anuncios",
+                "@email",
+                "Televisión",
+                "Social",
+                "Apps",
+                "Inglés"
+              ],
+              "details": {
+                "sourceFile": "search-history.html",
+                "dataType": "Historial de YouTube",
+                "name": "It's a double match!"
+              }
+            },
+            {
+              "id": "youtube-xhsuvixSREU",
+              "title": "Cura heridas de forma rápida y eficaz con Salvelox",
+              "artists": "Salvelox",
+              "awareness": 3,
+              "timeBucket": "1y",
+              "platformId": 2,
+              "rank": 0,
+              "date": "",
+              "url": "https://www.youtube.com/watch?v=xhsuvixSREU",
+              "tags": [
+                "Propio",
+                "Inconsciente",
+                "Anuncios",
+                "@email",
+                "Televisión",
+                "Salud",
+                "Farmacia",
+                "Español"
+              ],
+              "details": {
+                "sourceFile": "search-history.html",
+                "dataType": "Historial de YouTube",
+                "name": "Cura heridas de forma rápida y eficaz con Salvelox"
+              }
+            },
+            
+              {
+                "id": "platform-tiktok-effect-2373322",
+                "title": "Favorite Effect",
+                "artists": "",
+                "awareness": 3,
+                "timeBucket": "1y",
+                "platformId": 3,
+                "rank": 0,
+                "date": "2023-01-17",
+                "url": "https://m.tiktok.com/share/stickers/detail/2373322.html",
+                "tags": [
+                  "Propio",
+                  "#tlf",
+                  "Teléfono",
+                  "Entretenimiento",
+                  "Social",
+                  "Inconsciente",
+                  "Saved",
+                  "Efectos",
+                  "Creatividad",
+                  "AR"
+                ],
+                "details": {
+                  "sourceFile": "user_data_tiktok.json",
+                  "dataType": "TikTok Export",
+                  "name": "Favorite Effects"
+                }
+              },
+              {
+                "id": "platform-tiktok-effect-5257356",
+                "title": "Favorite Effect",
+                "artists": "",
+                "awareness": 3,
+                "timeBucket": "1y",
+                "platformId": 3,
+                "rank": 0,
+                "date": "2022-12-11",
+                "url": "https://m.tiktok.com/share/stickers/detail/5257356.html",
+                "tags": [
+                  "Propio",
+                  "#tlf",
+                  "Teléfono",
+                  "Entretenimiento",
+                  "Social",
+                  "Inconsciente",
+                  "Saved",
+                  "Efectos",
+                  "Creatividad",
+                  "AR"
+                ],
+                "details": {
+                  "sourceFile": "user_data_tiktok.json",
+                  "dataType": "TikTok Export",
+                  "name": "Favorite Effects"
+                }
+              },
+              {
+                "id": "platform-tiktok-effect-5780827",
+                "title": "Favorite Effect",
+                "artists": "",
+                "awareness": 3,
+                "timeBucket": "1y",
+                "platformId": 3,
+                "rank": 0,
+                "date": "2022-12-11",
+                "url": "https://m.tiktok.com/share/stickers/detail/5780827.html",
+                "tags": [
+                  "Propio",
+                  "#tlf",
+                  "Teléfono",
+                  "Entretenimiento",
+                  "Social",
+                  "Inconsciente",
+                  "Saved",
+                  "Efectos",
+                  "Creatividad",
+                  "AR"
+                ],
+                "details": {
+                  "sourceFile": "user_data_tiktok.json",
+                  "dataType": "TikTok Export",
+                  "name": "Favorite Effects"
+                }
+              },
+              {
+                "id": "platform-tiktok-effect-5169944",
+                "title": "Favorite Effect",
+                "artists": "",
+                "awareness": 3,
+                "timeBucket": "1y",
+                "platformId": 3,
+                "rank": 0,
+                "date": "2022-12-11",
+                "url": "https://m.tiktok.com/share/stickers/detail/5169944.html",
+                "tags": [
+                  "Propio",
+                  "#tlf",
+                  "Teléfono",
+                  "Entretenimiento",
+                  "Social",
+                  "Inconsciente",
+                  "Saved",
+                  "Efectos",
+                  "Creatividad",
+                  "AR"
+                ],
+                "details": {
+                  "sourceFile": "user_data_tiktok.json",
+                  "dataType": "TikTok Export",
+                  "name": "Favorite Effects"
+                }
+              },
+              {
+                "id": "platform-tiktok-effect-1177756",
+                "title": "Favorite Effect",
+                "artists": "",
+                "awareness": 3,
+                "timeBucket": "1y",
+                "platformId": 3,
+                "rank": 0,
+                "date": "2021-12-05",
+                "url": "https://m.tiktok.com/share/stickers/detail/1177756.html",
+                "tags": [
+                  "Propio",
+                  "#tlf",
+                  "Teléfono",
+                  "Entretenimiento",
+                  "Social",
+                  "Inconsciente",
+                  "Saved",
+                  "Efectos",
+                  "Creatividad",
+                  "AR"
+                ],
+                "details": {
+                  "sourceFile": "user_data_tiktok.json",
+                  "dataType": "TikTok Export",
+                  "name": "Favorite Effects"
+                }
+              },
+              {
+                "id": "platform-tiktok-effect-1119940",
+                "title": "Favorite Effect",
+                "artists": "",
+                "awareness": 3,
+                "timeBucket": "1y",
+                "platformId": 3,
+                "rank": 0,
+                "date": "2021-09-26",
+                "url": "https://m.tiktok.com/share/stickers/detail/1119940.html",
+                "tags": [
+                  "Propio",
+                  "#tlf",
+                  "Teléfono",
+                  "Entretenimiento",
+                  "Social",
+                  "Inconsciente",
+                  "Saved",
+                  "Efectos",
+                  "Creatividad",
+                  "AR"
+                ],
+                "details": {
+                  "sourceFile": "user_data_tiktok.json",
+                  "dataType": "TikTok Export",
+                  "name": "Favorite Effects"
+                }
+              },
+              {
+                "id": "platform-tiktok-effect-992922",
+                "title": "Favorite Effect",
+                "artists": "",
+                "awareness": 3,
+                "timeBucket": "1y",
+                "platformId": 3,
+                "rank": 0,
+                "date": "2021-06-09",
+                "url": "https://m.tiktok.com/share/stickers/detail/992922.html",
+                "tags": [
+                  "Propio",
+                  "#tlf",
+                  "Teléfono",
+                  "Entretenimiento",
+                  "Social",
+                  "Inconsciente",
+                  "Saved",
+                  "Efectos",
+                  "Creatividad",
+                  "AR"
+                ],
+                "details": {
+                  "sourceFile": "user_data_tiktok.json",
+                  "dataType": "TikTok Export",
+                  "name": "Favorite Effects"
+                }
+              },
+              {
+                "id": "platform-tiktok-hashtag-198457",
+                "title": "Favorite Hashtag",
+                "artists": "",
+                "awareness": 3,
+                "timeBucket": "1y",
+                "platformId": 3,
+                "rank": 0,
+                "date": "2020-10-09",
+                "url": "https://m.tiktok.com/h5/share/tag/198457.html",
+                "tags": [
+                  "Propio",
+                  "#tlf",
+                  "Teléfono",
+                  "Entretenimiento",
+                  "Social",
+                  "Inconsciente",
+                  "Saved",
+                  "Hashtags",
+                  "Tendencias",
+                  "Descubrimiento"
+                ],
+                "details": {
+                  "sourceFile": "user_data_tiktok.json",
+                  "dataType": "TikTok Export",
+                  "name": "Favorite Hashtags"
+                }
+              },
+              {
+                "id": "platform-tiktok-sound-7437496312947657505",
+                "title": "Favorite Sound",
+                "artists": "",
+                "awareness": 3,
+                "timeBucket": "1y",
+                "platformId": 3,
+                "rank": 0,
+                "date": "2024-12-02",
+                "url": "https://m.tiktok.com/h5/share/music/7437496312947657505.html",
+                "tags": [
+                  "Propio",
+                  "#tlf",
+                  "Teléfono",
+                  "Entretenimiento",
+                  "Social",
+                  "Inconsciente",
+                  "Saved",
+                  "Sonidos",
+                  "Música",
+                  "Audio"
+                ],
+                "details": {
+                  "sourceFile": "user_data_tiktok.json",
+                  "dataType": "TikTok Export",
+                  "name": "Favorite Sounds"
+                }
+              },
+              {
+                "id": "platform-tiktok-sound-7235795600159017733",
+                "title": "Favorite Sound",
+                "artists": "",
+                "awareness": 3,
+                "timeBucket": "1y",
+                "platformId": 3,
+                "rank": 0,
+                "date": "2023-06-26",
+                "url": "https://m.tiktok.com/h5/share/music/7235795600159017733.html",
+                "tags": [
+                  "Propio",
+                  "#tlf",
+                  "Teléfono",
+                  "Entretenimiento",
+                  "Social",
+                  "Inconsciente",
+                  "Saved",
+                  "Sonidos",
+                  "Música",
+                  "Audio"
+                ],
+                "details": {
+                  "sourceFile": "user_data_tiktok.json",
+                  "dataType": "TikTok Export",
+                  "name": "Favorite Sounds"
+                }
+              },
+              {
+                "id": "platform-tiktok-sound-6940814823756221190",
+                "title": "Favorite Sound",
+                "artists": "",
+                "awareness": 3,
+                "timeBucket": "1y",
+                "platformId": 3,
+                "rank": 0,
+                "date": "2021-08-12",
+                "url": "https://m.tiktok.com/h5/share/music/6940814823756221190.html",
+                "tags": [
+                  "Propio",
+                  "#tlf",
+                  "Teléfono",
+                  "Entretenimiento",
+                  "Social",
+                  "Inconsciente",
+                  "Saved",
+                  "Sonidos",
+                  "Música",
+                  "Audio"
+                ],
+                "details": {
+                  "sourceFile": "user_data_tiktok.json",
+                  "dataType": "TikTok Export",
+                  "name": "Favorite Sounds"
+                }
+              },
+              {
+                "id": "platform-tiktok-sound-6820512032878545669",
+                "title": "Favorite Sound",
+                "artists": "",
+                "awareness": 3,
+                "timeBucket": "1y",
+                "platformId": 3,
+                "rank": 0,
+                "date": "2021-01-03",
+                "url": "https://m.tiktok.com/h5/share/music/6820512032878545669.html",
+                "tags": [
+                  "Propio",
+                  "#tlf",
+                  "Teléfono",
+                  "Entretenimiento",
+                  "Social",
+                  "Inconsciente",
+                  "Saved",
+                  "Sonidos",
+                  "Música",
+                  "Audio"
+                ],
+                "details": {
+                  "sourceFile": "user_data_tiktok.json",
+                  "dataType": "TikTok Export",
+                  "name": "Favorite Sounds"
+                }
+              },
+              {
+                "id": "platform-tiktok-sound-6586947002464996102",
+                "title": "Favorite Sound",
+                "artists": "",
+                "awareness": 3,
+                "timeBucket": "1y",
+                "platformId": 3,
+                "rank": 0,
+                "date": "2020-12-01",
+"url": "",                "tags": [
+                  "Propio",
+                  "#tlf",
+                  "Teléfono",
+                  "Entretenimiento",
+                  "Social",
+                  "Inconsciente",
+                  "Saved",
+                  "Sonidos",
+                  "Música",
+                  "Audio"
+                ],
+                "details": {
+                  "sourceFile": "user_data_tiktok.json",
+                  "dataType": "TikTok Export",
+                  "name": "Favorite Sounds"
+                }
+              },
+              {
+                "id": "1",
+                "title": "Login Activity",
+                "artists": "",
+                "awareness": 3,
+                "timeBucket": "6m",
+                "platformId": 3,
+                "rank": 0,
+                "date": "2025-02-28",
+"url": "",                "tags": [
+                  "Propio",
+                  "#tlf",
+                  "Teléfono",
+                  "Entretenimiento",
+                  "Social",
+                  "Inconsciente"
+                ],
+                "details": {
+                  "sourceFile": "user_data_tiktok.json",
+                  "dataType": "TikTok Export",
+                  "name": "Login TikTok",
+                  "Date": "2025-02-28 15:21:05",
+                  "IP": "77.208.161.139",
+                  "DeviceModel": "iPhone13,1",
+                  "DeviceSystem": "iOS 18.1.1",
+                  "NetworkType": "4G"
+                }
+              },
+              {
+                "id": "2",
+                "title": "Login Activity",
+                "artists": "",
+                "awareness": 3,
+                "timeBucket": "6m",
+                "platformId": 3,
+                "rank": 0,
+                "date": "2025-02-28",
+"url": "",                "tags": [
+                  "Propio",
+                  "#tlf",
+                  "Teléfono",
+                  "Entretenimiento",
+                  "Social",
+                  "Inconsciente"
+                ],
+                "details": {
+                  "sourceFile": "user_data_tiktok.json",
+                  "dataType": "TikTok Export",
+                  "name": "Login TikTok",
+                  "Date": "2025-02-28 22:06:02",
+                  "IP": "77.208.161.139",
+                  "DeviceModel": "iPhone13,1",
+                  "DeviceSystem": "iOS 18.1.1",
+                  "NetworkType": "5g"
+                }
+              },
+              {
+                "id": "3",
+                "title": "Login Activity",
+                "artists": "",
+                "awareness": 3,
+                "timeBucket": "6m",
+                "platformId": 3,
+                "rank": 0,
+                "date": "2025-02-28",
+"url": "",                "tags": [
+                  "Propio",
+                  "#tlf",
+                  "Teléfono",
+                  "Entretenimiento",
+                  "Social",
+                  "Inconsciente"
+                ],
+                "details": {
+                  "sourceFile": "user_data_tiktok.json",
+                  "dataType": "TikTok Export",
+                  "name": "Login TikTok",
+                  "Date": "2025-02-28 22:12:27",
+                  "IP": "77.208.161.139",
+                  "DeviceModel": "iPhone13,1",
+                  "DeviceSystem": "iOS 18.1.1",
+                  "NetworkType": "5g"
+                }
+              },
+              {
+                "id": "4",
+                "title": "Login Activity",
+                "artists": "",
+                "awareness": 3,
+                "timeBucket": "6m",
+                "platformId": 3,
+                "rank": 0,
+                "date": "2025-02-28",
+"url": "",                "tags": [
+                  "Propio",
+                  "#tlf",
+                  "Teléfono",
+                  "Entretenimiento",
+                  "Social",
+                  "Inconsciente"
+                ],
+                "details": {
+                  "sourceFile": "user_data_tiktok.json",
+                  "dataType": "TikTok Export",
+                  "name": "Login TikTok",
+                  "Date": "2025-02-28 22:20:42",
+                  "IP": "77.208.161.139",
+                  "DeviceModel": "iPhone13,1",
+                  "DeviceSystem": "iOS 18.1.1",
+                  "NetworkType": "5g"
+                }
+              },
+              {
+                "id": "5",
+                "title": "Login Activity",
+                "artists": "",
+                "awareness": 3,
+                "timeBucket": "6m",
+                "platformId": 3,
+                "rank": 0,
+                "date": "2025-03-01",
+"url": "",                "tags": [
+                  "Propio",
+                  "#tlf",
+                  "Teléfono",
+                  "Entretenimiento",
+                  "Social",
+                  "Inconsciente"
+                ],
+                "details": {
+                  "sourceFile": "user_data_tiktok.json",
+                  "dataType": "TikTok Export",
+                  "name": "Login TikTok",
+                  "Date": "2025-03-01 19:10:38",
+                  "IP": "77.208.161.139",
+                  "DeviceModel": "iPhone13,1",
+                  "DeviceSystem": "iOS 18.1.1",
+                  "NetworkType": "4G"
+                }
+              },
+              {
+                "id": "6",
+                "title": "Login Activity",
+                "artists": "",
+                "awareness": 3,
+                "timeBucket": "6m",
+                "platformId": 3,
+                "rank": 0,
+                "date": "2025-03-02",
+"url": "",                "tags": [
+                  "Propio",
+                  "#tlf",
+                  "Teléfono",
+                  "Entretenimiento",
+                  "Social",
+                  "Inconsciente"
+                ],
+                "details": {
+                  "sourceFile": "user_data_tiktok.json",
+                  "dataType": "TikTok Export",
+                  "name": "Login TikTok",
+                  "Date": "2025-03-02 15:09:25",
+                  "IP": "31.4.178.68",
+                  "DeviceModel": "iPhone13,1",
+                  "DeviceSystem": "iOS 18.1.1",
+                  "NetworkType": "5g"
+                }
+              },
+              {
+                "id": "7",
+                "title": "Login Activity",
+                "artists": "",
+                "awareness": 3,
+                "timeBucket": "6m",
+                "platformId": 3,
+                "rank": 0,
+                "date": "2025-03-02",
+"url": "",                "tags": [
+                  "Propio",
+                  "#tlf",
+                  "Teléfono",
+                  "Entretenimiento",
+                  "Social",
+                  "Inconsciente"
+                ],
+                "details": {
+                  "sourceFile": "user_data_tiktok.json",
+                  "dataType": "TikTok Export",
+                  "name": "Login TikTok",
+                  "Date": "2025-03-02 15:10:27",
+                  "IP": "31.4.178.68",
+                  "DeviceModel": "iPhone13,1",
+                  "DeviceSystem": "iOS 18.1.1",
+                  "NetworkType": "5g"
+                }
+              },
+              {
+                "id": "8",
+                "title": "Login Activity",
+                "artists": "",
+                "awareness": 3,
+                "timeBucket": "6m",
+                "platformId": 3,
+                "rank": 0,
+                "date": "2025-03-02",
+"url": "",                "tags": [
+                  "Propio",
+                  "#tlf",
+                  "Teléfono",
+                  "Entretenimiento",
+                  "Social",
+                  "Inconsciente"
+                ],
+                "details": {
+                  "sourceFile": "user_data_tiktok.json",
+                  "dataType": "TikTok Export",
+                  "name": "Login TikTok",
+                  "Date": "2025-03-02 17:29:46",
+                  "IP": "31.4.178.68",
+                  "DeviceModel": "iPhone13,1",
+                  "DeviceSystem": "iOS 18.1.1",
+                  "NetworkType": "5g"
+                }
+              },
+              {
+                "id": "9",
+                "title": "Login Activity",
+                "artists": "",
+                "awareness": 3,
+                "timeBucket": "6m",
+                "platformId": 3,
+                "rank": 0,
+                "date": "2025-03-02",
+"url": "",                "tags": [
+                  "Propio",
+                  "#tlf",
+                  "Teléfono",
+                  "Entretenimiento",
+                  "Social",
+                  "Inconsciente"
+                ],
+                "details": {
+                  "sourceFile": "user_data_tiktok.json",
+                  "dataType": "TikTok Export",
+                  "name": "Login TikTok",
+                  "Date": "2025-03-02 17:41:02",
+                  "IP": "31.4.178.68",
+                  "DeviceModel": "iPhone13,1",
+                  "DeviceSystem": "iOS 18.1.1",
+                  "NetworkType": "5g"
+                }
+              },
+              {
+                "id": "10",
+                "title": "Login Activity",
+                "artists": "",
+                "awareness": 3,
+                "timeBucket": "6m",
+                "platformId": 3,
+                "rank": 0,
+                "date": "2025-03-02",
+"url": "",                "tags": [
+                  "Propio",
+                  "#tlf",
+                  "Teléfono",
+                  "Entretenimiento",
+                  "Social",
+                  "Inconsciente"
+                ],
+                "details": {
+                  "sourceFile": "user_data_tiktok.json",
+                  "dataType": "TikTok Export",
+                  "name": "Login TikTok",
+                  "Date": "2025-03-02 17:41:03",
+                  "IP": "31.4.178.68",
+                  "DeviceModel": "iPhone13,1",
+                  "DeviceSystem": "iOS 18.1.1",
+                  "NetworkType": "5g"
+                }
+              },
+              {
+                "id": "11",
+                "title": "Login Activity",
+                "artists": "",
+                "awareness": 3,
+                "timeBucket": "6m",
+                "platformId": 3,
+                "rank": 0,
+                "date": "2025-03-02",
+"url": "",                "tags": [
+                  "Propio",
+                  "#tlf",
+                  "Teléfono",
+                  "Entretenimiento",
+                  "Social",
+                  "Inconsciente"
+                ],
+                "details": {
+                  "sourceFile": "user_data_tiktok.json",
+                  "dataType": "TikTok Export",
+                  "name": "Login TikTok",
+                  "Date": "2025-03-02 17:57:23",
+                  "IP": "31.4.178.68",
+                  "DeviceModel": "iPhone13,1",
+                  "DeviceSystem": "iOS 18.1.1",
+                  "NetworkType": "5g"
+                }
+              },
+              {
+                "id": "12",
+                "title": "Login Activity",
+                "artists": "",
+                "awareness": 3,
+                "timeBucket": "6m",
+                "platformId": 3,
+                "rank": 0,
+                "date": "2025-03-03",
+"url": "",                "tags": [
+                  "Propio",
+                  "#tlf",
+                  "Teléfono",
+                  "Entretenimiento",
+                  "Social",
+                  "Inconsciente"
+                ],
+                "details": {
+                  "sourceFile": "user_data_tiktok.json",
+                  "dataType": "TikTok Export",
+                  "name": "Login TikTok",
+                  "Date": "2025-03-03 17:31:08",
+                  "IP": "213.37.230.63",
+                  "DeviceModel": "iPhone13,1",
+                  "DeviceSystem": "iOS 18.1.1",
+                  "NetworkType": "Wi-Fi"
+                }
+              },
+              {
+                "id": "13",
+                "title": "Login Activity",
+                "artists": "",
+                "awareness": 3,
+                "timeBucket": "6m",
+                "platformId": 3,
+                "rank": 0,
+                "date": "2025-03-03",
+"url": "",                "tags": [
+                  "Propio",
+                  "#tlf",
+                  "Teléfono",
+                  "Entretenimiento",
+                  "Social",
+                  "Inconsciente"
+                ],
+                "details": {
+                  "sourceFile": "user_data_tiktok.json",
+                  "dataType": "TikTok Export",
+                  "name": "Login TikTok",
+                  "Date": "2025-03-03 17:40:30",
+                  "IP": "213.37.230.63",
+                  "DeviceModel": "iPhone13,1",
+                  "DeviceSystem": "iOS 18.1.1",
+                  "NetworkType": "Wi-Fi"
+                }
+              },
+              {
+                "id": "14",
+                "title": "Login Activity",
+                "artists": "",
+                "awareness": 3,
+                "timeBucket": "6m",
+                "platformId": 3,
+                "rank": 0,
+                "date": "2025-03-07",
+"url": "",                "tags": [
+                  "Propio",
+                  "#tlf",
+                  "Teléfono",
+                  "Entretenimiento",
+                  "Social",
+                  "Inconsciente"
+                ],
+                "details": {
+                  "sourceFile": "user_data_tiktok.json",
+                  "dataType": "TikTok Export",
+                  "name": "Login TikTok",
+                  "Date": "2025-03-07 20:04:22",
+                  "IP": "31.4.178.192",
+                  "DeviceModel": "iPhone13,1",
+                  "DeviceSystem": "iOS 18.1.1",
+                  "NetworkType": "5g"
+                }
+              },
+              {
+                "id": "15",
+                "title": "Login Activity",
+                "artists": "",
+                "awareness": 3,
+                "timeBucket": "6m",
+                "platformId": 3,
+                "rank": 0,
+                "date": "2025-03-14",
+"url": "",                "tags": [
+                  "Propio",
+                  "#tlf",
+                  "Teléfono",
+                  "Entretenimiento",
+                  "Social",
+                  "Inconsciente"
+                ],
+                "details": {
+                  "sourceFile": "user_data_tiktok.json",
+                  "dataType": "TikTok Export",
+                  "name": "Login TikTok",
+                  "Date": "2025-03-14 16:44:09",
+                  "IP": "79.116.251.4",
+                  "DeviceModel": "iPhone13,1",
+                  "DeviceSystem": "iOS 18.1.1",
+                  "NetworkType": "Wi-Fi"
+                }
+              },
+              {
+                "id": "16",
+                "title": "Login Activity",
+                "artists": "",
+                "awareness": 3,
+                "timeBucket": "6m",
+                "platformId": 3,
+                "rank": 0,
+                "date": "2025-03-16",
+"url": "",                "tags": [
+                  "Propio",
+                  "#tlf",
+                  "Teléfono",
+                  "Entretenimiento",
+                  "Social",
+                  "Inconsciente"
+                ],
+                "details": {
+                  "sourceFile": "user_data_tiktok.json",
+                  "dataType": "TikTok Export",
+                  "name": "Login TikTok",
+                  "Date": "2025-03-16 00:32:07",
+                  "IP": "79.116.251.4",
+                  "DeviceModel": "iPhone13,1",
+                  "DeviceSystem": "iOS 18.1.1",
+                  "NetworkType": "Wi-Fi"
+                }
+              },
+              {
+                "id": "17",
+                "title": "Login Activity",
+                "artists": "",
+                "awareness": 3,
+                "timeBucket": "6m",
+                "platformId": 3,
+                "rank": 0,
+                "date": "2025-03-16",
+"url": "",                "tags": [
+                  "Propio",
+                  "#tlf",
+                  "Teléfono",
+                  "Entretenimiento",
+                  "Social",
+                  "Inconsciente"
+                ],
+                "details": {
+                  "sourceFile": "user_data_tiktok.json",
+                  "dataType": "TikTok Export",
+                  "name": "Login TikTok",
+                  "Date": "2025-03-16 00:36:39",
+                  "IP": "79.116.251.4",
+                  "DeviceModel": "iPhone13,1",
+                  "DeviceSystem": "iOS 18.1.1",
+                  "NetworkType": "Wi-Fi"
+                }
+              },
+              {
+                "id": "18",
+                "title": "Login Activity",
+                "artists": "",
+                "awareness": 3,
+                "timeBucket": "6m",
+                "platformId": 3,
+                "rank": 0,
+                "date": "2025-03-16",
+"url": "",                "tags": [
+                  "Propio",
+                  "#tlf",
+                  "Teléfono",
+                  "Entretenimiento",
+                  "Social",
+                  "Inconsciente"
+                ],
+                "details": {
+                  "sourceFile": "user_data_tiktok.json",
+                  "dataType": "TikTok Export",
+                  "name": "Login TikTok",
+                  "Date": "2025-03-16 00:57:00",
+                  "IP": "79.116.251.4",
+                  "DeviceModel": "iPhone13,1",
+                  "DeviceSystem": "iOS 18.1.1",
+                  "NetworkType": "Wi-Fi"
+                }
+              },
+              {
+                "id": "19",
+                "title": "Login Activity",
+                "artists": "",
+                "awareness": 3,
+                "timeBucket": "6m",
+                "platformId": 3,
+                "rank": 0,
+                "date": "2025-03-16",
+"url": "",                "tags": [
+                  "Propio",
+                  "#tlf",
+                  "Teléfono",
+                  "Entretenimiento",
+                  "Social",
+                  "Inconsciente"
+                ],
+                "details": {
+                  "sourceFile": "user_data_tiktok.json",
+                  "dataType": "TikTok Export",
+                  "name": "Login TikTok",
+                  "Date": "2025-03-16 11:24:03",
+                  "IP": "79.116.251.4",
+                  "DeviceModel": "iPhone13,1",
+                  "DeviceSystem": "iOS 18.1.1",
+                  "NetworkType": "Wi-Fi"
+                }
+              },
+              {
+                "id": "20",
+                "title": "Login Activity",
+                "artists": "",
+                "awareness": 3,
+                "timeBucket": "6m",
+                "platformId": 3,
+                "rank": 0,
+                "date": "2025-03-17",
+"url": "",                "tags": [
+                  "Propio",
+                  "#tlf",
+                  "Teléfono",
+                  "Entretenimiento",
+                  "Social",
+                  "Inconsciente"
+                ],
+                "details": {
+                  "sourceFile": "user_data_tiktok.json",
+                  "dataType": "TikTok Export",
+                  "name": "Login TikTok",
+                  "Date": "2025-03-17 22:45:26",
+                  "IP": "213.37.230.63",
+                  "DeviceModel": "iPhone13,1",
+                  "DeviceSystem": "iOS 18.1.1",
+                  "NetworkType": "Wi-Fi"
+                }
+              },
+              {
+                "id": "21",
+                "title": "Login Activity",
+                "artists": "",
+                "awareness": 3,
+                "timeBucket": "6m",
+                "platformId": 3,
+                "rank": 0,
+                "date": "2025-03-17",
+"url": "",                "tags": [
+                  "Propio",
+                  "#tlf",
+                  "Teléfono",
+                  "Entretenimiento",
+                  "Social",
+                  "Inconsciente"
+                ],
+                "details": {
+                  "sourceFile": "user_data_tiktok.json",
+                  "dataType": "TikTok Export",
+                  "name": "Login TikTok",
+                  "Date": "2025-03-17 23:03:15",
+                  "IP": "213.37.230.63",
+                  "DeviceModel": "iPhone13,1",
+                  "DeviceSystem": "iOS 18.1.1",
+                  "NetworkType": "Wi-Fi"
+                }
+              },
+              {
+                "id": "22",
+                "title": "Login Activity",
+                "artists": "",
+                "awareness": 3,
+                "timeBucket": "6m",
+                "platformId": 3,
+                "rank": 0,
+                "date": "2025-03-17",
+"url": "",                "tags": [
+                  "Propio",
+                  "#tlf",
+                  "Teléfono",
+                  "Entretenimiento",
+                  "Social",
+                  "Inconsciente"
+                ],
+                "details": {
+                  "sourceFile": "user_data_tiktok.json",
+                  "dataType": "TikTok Export",
+                  "name": "Login TikTok",
+                  "Date": "2025-03-17 23:14:02",
+                  "IP": "213.37.230.63",
+                  "DeviceModel": "iPhone13,1",
+                  "DeviceSystem": "iOS 18.1.1",
+                  "NetworkType": "Wi-Fi"
+                }
+              },
+              {
+                "id": "23",
+                "title": "Login Activity",
+                "artists": "",
+                "awareness": 3,
+                "timeBucket": "6m",
+                "platformId": 3,
+                "rank": 0,
+                "date": "2025-03-18",
+"url": "",                "tags": [
+                  "Propio",
+                  "#tlf",
+                  "Teléfono",
+                  "Entretenimiento",
+                  "Social",
+                  "Inconsciente"
+                ],
+                "details": {
+                  "sourceFile": "user_data_tiktok.json",
+                  "dataType": "TikTok Export",
+                  "name": "Login TikTok",
+                  "Date": "2025-03-18 10:04:44",
+                  "IP": "213.37.230.63",
+                  "DeviceModel": "iPhone13,1",
+                  "DeviceSystem": "iOS 18.1.1",
+                  "NetworkType": "Wi-Fi"
+                }
+              },
+              {
+                "id": "24",
+                "title": "Login Activity",
+                "artists": "",
+                "awareness": 3,
+                "timeBucket": "6m",
+                "platformId": 3,
+                "rank": 0,
+                "date": "2025-03-18",
+"url": "",                "tags": [
+                  "Propio",
+                  "#tlf",
+                  "Teléfono",
+                  "Entretenimiento",
+                  "Social",
+                  "Inconsciente"
+                ],
+                "details": {
+                  "sourceFile": "user_data_tiktok.json",
+                  "dataType": "TikTok Export",
+                  "name": "Login TikTok",
+                  "Date": "2025-03-18 11:02:08",
+                  "IP": "213.37.230.63",
+                  "DeviceModel": "iPhone13,1",
+                  "DeviceSystem": "iOS 18.1.1",
+                  "NetworkType": "Wi-Fi"
+                }
+              },
+              {
+                "id": "25",
+                "title": "Login Activity",
+                "artists": "",
+                "awareness": 3,
+                "timeBucket": "6m",
+                "platformId": 3,
+                "rank": 0,
+                "date": "2025-03-20",
+"url": "",                "tags": [
+                  "Propio",
+                  "#tlf",
+                  "Teléfono",
+                  "Entretenimiento",
+                  "Social",
+                  "Inconsciente"
+                ],
+                "details": {
+                  "sourceFile": "user_data_tiktok.json",
+                  "dataType": "TikTok Export",
+                  "name": "Login TikTok",
+                  "Date": "2025-03-20 19:08:00",
+                  "IP": "88.12.234.211",
+                  "DeviceModel": "iPhone13,1",
+                  "DeviceSystem": "iOS 18.1.1",
+                  "NetworkType": "Wi-Fi"
+                }
+              },
+              {
+                "id": "26",
+                "title": "Login Activity",
+                "artists": "",
+                "awareness": 3,
+                "timeBucket": "6m",
+                "platformId": 3,
+                "rank": 0,
+                "date": "2025-03-20",
+"url": "",                "tags": [
+                  "Propio",
+                  "#tlf",
+                  "Teléfono",
+                  "Entretenimiento",
+                  "Social",
+                  "Inconsciente"
+                ],
+                "details": {
+                  "sourceFile": "user_data_tiktok.json",
+                  "dataType": "TikTok Export",
+                  "name": "Login TikTok",
+                  "Date": "2025-03-20 19:08:00",
+                  "IP": "88.12.234.211",
+                  "DeviceModel": "iPhone13,1",
+                  "DeviceSystem": "iOS 18.1.1",
+                  "NetworkType": "Wi-Fi"
+                }
+              },
+              {
+                "id": "27",
+                "title": "Login Activity",
+                "artists": "",
+                "awareness": 3,
+                "timeBucket": "6m",
+                "platformId": 3,
+                "rank": 0,
+                "date": "2025-03-20",
+"url": "",                "tags": [
+                  "Propio",
+                  "#tlf",
+                  "Teléfono",
+                  "Entretenimiento",
+                  "Social",
+                  "Inconsciente"
+                ],
+                "details": {
+                  "sourceFile": "user_data_tiktok.json",
+                  "dataType": "TikTok Export",
+                  "name": "Login TikTok",
+                  "Date": "2025-03-20 20:51:55",
+                  "IP": "213.37.230.63",
+                  "DeviceModel": "iPhone13,1",
+                  "DeviceSystem": "iOS 18.1.1",
+                  "NetworkType": "Wi-Fi"
+                }
+              },
+              {
+                "id": "28",
+                "title": "Login Activity",
+                "artists": "",
+                "awareness": 3,
+                "timeBucket": "6m",
+                "platformId": 3,
+                "rank": 0,
+                "date": "2025-03-22",
+"url": "",                "tags": [
+                  "Propio",
+                  "#tlf",
+                  "Teléfono",
+                  "Entretenimiento",
+                  "Social",
+                  "Inconsciente"
+                ],
+                "details": {
+                  "sourceFile": "user_data_tiktok.json",
+                  "dataType": "TikTok Export",
+                  "name": "Login TikTok",
+                  "Date": "2025-03-22 14:30:24",
+                  "IP": "213.37.230.63",
+                  "DeviceModel": "iPhone13,1",
+                  "DeviceSystem": "iOS 18.1.1",
+                  "NetworkType": "Wi-Fi"
+                }
+              },
+              {
+                "id": "29",
+                "title": "Login Activity",
+                "artists": "",
+                "awareness": 3,
+                "timeBucket": "6m",
+                "platformId": 3,
+                "rank": 0,
+                "date": "2025-03-22",
+"url": "",                "tags": [
+                  "Propio",
+                  "#tlf",
+                  "Teléfono",
+                  "Entretenimiento",
+                  "Social",
+                  "Inconsciente"
+                ],
+                "details": {
+                  "sourceFile": "user_data_tiktok.json",
+                  "dataType": "TikTok Export",
+                  "name": "Login TikTok",
+                  "Date": "2025-03-22 21:03:05",
+                  "IP": "47.60.34.0",
+                  "DeviceModel": "iPhone13,1",
+                  "DeviceSystem": "iOS 18.1.1",
+                  "NetworkType": "4G"
+                }
+              },
+              {
+                "id": "30",
+                "title": "Login Activity",
+                "artists": "",
+                "awareness": 3,
+                "timeBucket": "6m",
+                "platformId": 3,
+                "rank": 0,
+                "date": "2025-03-23",
+"url": "",                "tags": [
+                  "Propio",
+                  "#tlf",
+                  "Teléfono",
+                  "Entretenimiento",
+                  "Social",
+                  "Inconsciente"
+                ],
+                "details": {
+                  "sourceFile": "user_data_tiktok.json",
+                  "dataType": "TikTok Export",
+                  "name": "Login TikTok",
+                  "Date": "2025-03-23 00:31:06",
+                  "IP": "213.37.230.63",
+                  "DeviceModel": "iPhone13,1",
+                  "DeviceSystem": "iOS 18.1.1",
+                  "NetworkType": "Wi-Fi"
+                }
+              },
+              {
+                "id": "31",
+                "title": "Login Activity",
+                "artists": "",
+                "awareness": 3,
+                "timeBucket": "6m",
+                "platformId": 3,
+                "rank": 0,
+                "date": "2025-03-24",
+"url": "",                "tags": [
+                  "Propio",
+                  "#tlf",
+                  "Teléfono",
+                  "Entretenimiento",
+                  "Social",
+                  "Inconsciente"
+                ],
+                "details": {
+                  "sourceFile": "user_data_tiktok.json",
+                  "dataType": "TikTok Export",
+                  "name": "Login TikTok",
+                  "Date": "2025-03-24 10:56:35",
+                  "IP": "213.37.230.63",
+                  "DeviceModel": "iPhone13,1",
+                  "DeviceSystem": "iOS 18.1.1",
+                  "NetworkType": "Wi-Fi"
+                }
+              },
+              {
+                "id": "32",
+                "title": "Login Activity",
+                "artists": "",
+                "awareness": 3,
+                "timeBucket": "6m",
+                "platformId": 3,
+                "rank": 0,
+                "date": "2025-03-24",
+"url": "",                "tags": [
+                  "Propio",
+                  "#tlf",
+                  "Teléfono",
+                  "Entretenimiento",
+                  "Social",
+                  "Inconsciente"
+                ],
+                "details": {
+                  "sourceFile": "user_data_tiktok.json",
+                  "dataType": "TikTok Export",
+                  "name": "Login TikTok",
+                  "Date": "2025-03-24 18:57:12",
+                  "IP": "47.60.34.81",
+                  "DeviceModel": "iPhone13,1",
+                  "DeviceSystem": "iOS 18.1.1",
+                  "NetworkType": "5g"
+                }
+              },
+              {
+                "id": "33",
+                "title": "Login Activity",
+                "artists": "",
+                "awareness": 3,
+                "timeBucket": "6m",
+                "platformId": 3,
+                "rank": 0,
+                "date": "2025-03-24",
+"url": "",                "tags": [
+                  "Propio",
+                  "#tlf",
+                  "Teléfono",
+                  "Entretenimiento",
+                  "Social",
+                  "Inconsciente"
+                ],
+                "details": {
+                  "sourceFile": "user_data_tiktok.json",
+                  "dataType": "TikTok Export",
+                  "name": "Login TikTok",
+                  "Date": "2025-03-24 18:59:30",
+                  "IP": "47.60.34.81",
+                  "DeviceModel": "iPhone13,1",
+                  "DeviceSystem": "iOS 18.1.1",
+                  "NetworkType": "5g"
+                }
+              },
+              {
+                "id": "34",
+                "title": "Login Activity",
+                "artists": "",
+                "awareness": 3,
+                "timeBucket": "6m",
+                "platformId": 3,
+                "rank": 0,
+                "date": "2025-03-24",
+"url": "",                "tags": [
+                  "Propio",
+                  "#tlf",
+                  "Teléfono",
+                  "Entretenimiento",
+                  "Social",
+                  "Inconsciente"
+                ],
+                "details": {
+                  "sourceFile": "user_data_tiktok.json",
+                  "dataType": "TikTok Export",
+                  "name": "Login TikTok",
+                  "Date": "2025-03-24 19:00:44",
+                  "IP": "47.60.34.81",
+                  "DeviceModel": "iPhone13,1",
+                  "DeviceSystem": "iOS 18.1.1",
+                  "NetworkType": "5g"
+                }
+              },
+              {
+                "id": "35",
+                "title": "Login Activity",
+                "artists": "",
+                "awareness": 3,
+                "timeBucket": "6m",
+                "platformId": 3,
+                "rank": 0,
+                "date": "2025-03-24",
+"url": "",                "tags": [
+                  "Propio",
+                  "#tlf",
+                  "Teléfono",
+                  "Entretenimiento",
+                  "Social",
+                  "Inconsciente"
+                ],
+                "details": {
+                  "sourceFile": "user_data_tiktok.json",
+                  "dataType": "TikTok Export",
+                  "name": "Login TikTok",
+                  "Date": "2025-03-24 21:46:25",
+                  "IP": "213.37.230.63",
+                  "DeviceModel": "iPhone13,1",
+                  "DeviceSystem": "iOS 18.1.1",
+                  "NetworkType": "Wi-Fi"
+                }
+              },
+              {
+                "id": "36",
+                "title": "Login Activity",
+                "artists": "",
+                "awareness": 3,
+                "timeBucket": "6m",
+                "platformId": 3,
+                "rank": 0,
+                "date": "2025-03-24",
+"url": "",                "tags": [
+                  "Propio",
+                  "#tlf",
+                  "Teléfono",
+                  "Entretenimiento",
+                  "Social",
+                  "Inconsciente"
+                ],
+                "details": {
+                  "sourceFile": "user_data_tiktok.json",
+                  "dataType": "TikTok Export",
+                  "name": "Login TikTok",
+                  "Date": "2025-03-24 21:50:29",
+                  "IP": "213.37.230.63",
+                  "DeviceModel": "iPhone13,1",
+                  "DeviceSystem": "iOS 18.1.1",
+                  "NetworkType": "Wi-Fi"
+                }
+              },
+              {
+                "id": "37",
+                "title": "Login Activity",
+                "artists": "",
+                "awareness": 3,
+                "timeBucket": "6m",
+                "platformId": 3,
+                "rank": 0,
+                "date": "2025-03-26",
+"url": "",                "tags": [
+                  "Propio",
+                  "#tlf",
+                  "Teléfono",
+                  "Entretenimiento",
+                  "Social",
+                  "Inconsciente"
+                ],
+                "details": {
+                  "sourceFile": "user_data_tiktok.json",
+                  "dataType": "TikTok Export",
+                  "name": "Login TikTok",
+                  "Date": "2025-03-26 20:47:51",
+                  "IP": "47.60.34.81",
+                  "DeviceModel": "iPhone13,1",
+                  "DeviceSystem": "iOS 18.1.1",
+                  "NetworkType": "5g"
+                }
+              },
+              {
+                "id": "38",
+                "title": "Login Activity",
+                "artists": "",
+                "awareness": 3,
+                "timeBucket": "6m",
+                "platformId": 3,
+                "rank": 0,
+                "date": "2025-03-26",
+"url": "",               
+ "tags": [
+                  "Propio",
+                  "#tlf",
+                  "Teléfono",
+                  "Entretenimiento",
+                  "Social",
+                  "Inconsciente"
+                ],
+                "details": {
+                  "sourceFile": "user_data_tiktok.json",
+                  "dataType": "TikTok Export",
+                  "name": "Login TikTok",
+                  "Date": "2025-03-26 21:11:38",
+                  "IP": "213.37.230.63",
+                  "DeviceModel": "iPhone13,1",
+                  "DeviceSystem": "iOS 18.1.1",
+                  "NetworkType": "Wi-Fi"
+                }
+              },
+              {
+                "id": "39",
+                "title": "Login Activity",
+                "artists": "",
+                "awareness": 3,
+                "timeBucket": "6m",
+                "platformId": 3,
+                "rank": 0,
+                "date": "2025-03-27",
+"url": "",                "tags": [
+                  "Propio",
+                  "#tlf",
+                  "Teléfono",
+                  "Entretenimiento",
+                  "Social",
+                  "Inconsciente"
+                ],
+                "details": {
+                  "sourceFile": "user_data_tiktok.json",
+                  "dataType": "TikTok Export",
+                  "name": "Login TikTok",
+                  "Date": "2025-03-27 22:49:12",
+                  "IP": "213.37.230.63",
+                  "DeviceModel": "iPhone13,1",
+                  "DeviceSystem": "iOS 18.1.1",
+                  "NetworkType": "Wi-Fi"
+                }
+              },
+              {
+                "id": "40",
+                "title": "Login Activity",
+                "artists": "",
+                "awareness": 3,
+                "timeBucket": "6m",
+                "platformId": 3,
+                "rank": 0,
+                "date": "2025-03-27",
+"url": "",                "tags": [
+                  "Propio",
+                  "#tlf",
+                  "Teléfono",
+                  "Entretenimiento",
+                  "Social",
+                  "Inconsciente"
+                ],
+                "details": {
+                  "sourceFile": "user_data_tiktok.json",
+                  "dataType": "TikTok Export",
+                  "name": "Login TikTok",
+                  "Date": "2025-03-27 22:51:57",
+                  "IP": "213.37.230.63",
+                  "DeviceModel": "iPhone13,1",
+                  "DeviceSystem": "iOS 18.1.1",
+                  "NetworkType": "Wi-Fi"
+                }
+              },
+              {
+                "id": "41",
+                "title": "Login Activity",
+                "artists": "",
+                "awareness": 3,
+                "timeBucket": "6m",
+                "platformId": 3,
+                "rank": 0,
+                "date": "2025-03-28",
+"url": "",                "tags": [
+                  "Propio",
+                  "#tlf",
+                  "Teléfono",
+                  "Entretenimiento",
+                  "Social",
+                  "Inconsciente"
+                ],
+                "details": {
+                  "sourceFile": "user_data_tiktok.json",
+                  "dataType": "TikTok Export",
+                  "name": "Login TikTok",
+                  "Date": "2025-03-28 12:02:39",
+                  "IP": "213.37.230.63",
+                  "DeviceModel": "iPhone13,1",
+                  "DeviceSystem": "iOS 18.1.1",
+                  "NetworkType": "Wi-Fi"
+                }
+              },
+              {
+                "id": "42",
+                "title": "Login Activity",
+                "artists": "",
+                "awareness": 3,
+                "timeBucket": "6m",
+                "platformId": 3,
+                "rank": 0,
+                "date": "2025-03-28",
+"url": "",                "tags": [
+                  "Propio",
+                  "#tlf",
+                  "Teléfono",
+                  "Entretenimiento",
+                  "Social",
+                  "Inconsciente"
+                ],
+                "details": {
+                  "sourceFile": "user_data_tiktok.json",
+                  "dataType": "TikTok Export",
+                  "name": "Login TikTok",
+                  "Date": "2025-03-28 12:08:16",
+                  "IP": "213.37.230.63",
+                  "DeviceModel": "iPhone13,1",
+                  "DeviceSystem": "iOS 18.1.1",
+                  "NetworkType": "Wi-Fi"
+                }
+              },
+              {
+                "id": "43",
+                "title": "Login Activity",
+                "artists": "",
+                "awareness": 3,
+                "timeBucket": "6m",
+                "platformId": 3,
+                "rank": 0,
+                "date": "2025-03-28",
+"url": "",                "tags": [
+                  "Propio",
+                  "#tlf",
+                  "Teléfono",
+                  "Entretenimiento",
+                  "Social",
+                  "Inconsciente"
+                ],
+                "details": {
+                  "sourceFile": "user_data_tiktok.json",
+                  "dataType": "TikTok Export",
+                  "name": "Login TikTok",
+                  "Date": "2025-03-28 12:08:59",
+                  "IP": "213.37.230.63",
+                  "DeviceModel": "iPhone13,1",
+                  "DeviceSystem": "iOS 18.1.1",
+                  "NetworkType": "Wi-Fi"
+                }
+              },
+              {
+                "id": "44",
+                "title": "Login Activity",
+                "artists": "",
+                "awareness": 3,
+                "timeBucket": "6m",
+                "platformId": 3,
+                "rank": 0,
+                "date": "2025-03-28",
+"url": "",                "tags": [
+                  "Propio",
+                  "#tlf",
+                  "Teléfono",
+                  "Entretenimiento",
+                  "Social",
+                  "Inconsciente"
+                ],
+                "details": {
+                  "sourceFile": "user_data_tiktok.json",
+                  "dataType": "TikTok Export",
+                  "name": "Login TikTok",
+                  "Date": "2025-03-28 12:10:30",
+                  "IP": "213.37.230.63",
+                  "DeviceModel": "iPhone13,1",
+                  "DeviceSystem": "iOS 18.1.1",
+                  "NetworkType": "Wi-Fi"
+                }
+              },
+              {
+                "id": "45",
+                "title": "Login Activity",
+                "artists": "",
+                "awareness": 3,
+                "timeBucket": "6m",
+                "platformId": 3,
+                "rank": 0,
+                "date": "2025-03-31",
+"url": "",                "tags": [
+                  "Propio",
+                  "#tlf",
+                  "Teléfono",
+                  "Entretenimiento",
+                  "Social",
+                  "Inconsciente"
+                ],
+                "details": {
+                  "sourceFile": "user_data_tiktok.json",
+                  "dataType": "TikTok Export",
+                  "name": "Login TikTok",
+                  "Date": "2025-03-31 23:11:18",
+                  "IP": "213.37.230.63",
+                  "DeviceModel": "iPhone13,1",
+                  "DeviceSystem": "iOS 18.1.1",
+                  "NetworkType": "Wi-Fi"
+                }
+              },
+              {
+                "id": "46",
+                "title": "Login Activity",
+                "artists": "",
+                "awareness": 3,
+                "timeBucket": "6m",
+                "platformId": 3,
+                "rank": 0,
+                "date": "2025-03-31",
+"url": "",                "tags": [
+                  "Propio",
+                  "#tlf",
+                  "Teléfono",
+                  "Entretenimiento",
+                  "Social",
+                  "Inconsciente"
+                ],
+                "details": {
+                  "sourceFile": "user_data_tiktok.json",
+                  "dataType": "TikTok Export",
+                  "name": "Login TikTok",
+                  "Date": "2025-03-31 23:11:50",
+                  "IP": "213.37.230.63",
+                  "DeviceModel": "iPhone13,1",
+                  "DeviceSystem": "iOS 18.1.1",
+                  "NetworkType": "Wi-Fi"
+                }
+              },
+              {
+                "id": "47",
+                "title": "Login Activity",
+                "artists": "",
+                "awareness": 3,
+                "timeBucket": "6m",
+                "platformId": 3,
+                "rank": 0,
+                "date": "2025-04-01",
+"url": "",                "tags": [
+                  "Propio",
+                  "#tlf",
+                  "Teléfono",
+                  "Entretenimiento",
+                  "Social",
+                  "Inconsciente"
+                ],
+                "details": {
+                  "sourceFile": "user_data_tiktok.json",
+                  "dataType": "TikTok Export",
+                  "name": "Login TikTok",
+                  "Date": "2025-04-01 20:38:49",
+                  "IP": "213.37.230.63",
+                  "DeviceModel": "iPhone13,1",
+                  "DeviceSystem": "iOS 18.1.1",
+                  "NetworkType": "Wi-Fi"
+                }
+              }
+
+              
+              
+              
+            
+
+          
 
          
       ]
