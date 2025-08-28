@@ -1,41 +1,47 @@
-// src/pages/Navigate.jsx
 'use client';
 import React, { useMemo, useState, useRef } from 'react';
 import { Icon } from '@iconify/react';
 import { Link } from 'react-router-dom';
 import '../App.css'; 
 
-import DataDotGrid from '../components/DataDotGrid'; // Volvemos a usar DataDotGrid
+import TimelineDotGrid from '../components/TimelineDotGrid'; 
 import DataPanel from '../components/DataPanel';
 
 import deseoData from '../data/deseo-data(1).json';
 import cuerpoData from '../data/cuerpo-data(2).json';
 import rastroData from '../data/rastro-data(3).json';
 
-const normalizeDatasets = (list) =>
-  list.filter(Boolean).map((d, idx) => {
-      const pid = Number(d.platformId);
-      return { ...d, id: d.id ?? `${isNaN(pid) ? 'X' : pid}-${d.title ?? d.url ?? idx}`, platformId: isNaN(pid) ? undefined : pid, tags: Array.isArray(d.tags) ? d.tags : [] };
-    }).filter(d => typeof d.platformId === 'number');
+const normalizeAndLevelDatasets = (list, level) =>
+  list.filter(Boolean).map((d, idx) => ({
+      ...d,
+      id: d.id ?? `${Number(d.platformId)}-${d.title ?? idx}`,
+      level,
+      tags: Array.isArray(d.tags) ? d.tags : [],
+  }));
 
 export default function Navigate() {
   const [selectedItem, setSelectedItem] = useState(null);
   const zoomHandler = useRef(() => {});
 
   const allData = useMemo(() => {
-    const merged = [...deseoData, ...cuerpoData, ...rastroData];
-    return normalizeDatasets(merged);
+    const deseo = normalizeAndLevelDatasets(deseoData, 1);
+    const cuerpo = normalizeAndLevelDatasets(cuerpoData, 2);
+    const rastro = normalizeAndLevelDatasets(rastroData, 3);
+    return [...deseo, ...cuerpo, ...rastro];
   }, []);
 
   return (
     <div className="navigate-page bg-background">
-      <DataDotGrid 
+      <div className="timeline-labels z-30">
+        <div style={{ top: '25%' }}>DESEO</div>
+        <div style={{ top: '50%' }}>CUERPO</div>
+        <div style={{ top: '75%' }}>RASTRO</div>
+      </div>
+
+      <TimelineDotGrid 
         data={allData} 
         onSelect={setSelectedItem}
-        timelineMode={true} // <-- ACTIVAMOS EL MODO TIMELINE
         onZoomChange={zoomHandler}
-        dotSize={6}
-        proximity={80}
       />
 
       <div className="navigate-ui z-40">
