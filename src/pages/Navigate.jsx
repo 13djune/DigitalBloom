@@ -1,11 +1,11 @@
 // src/pages/Navigate.jsx
 'use client';
-import React, { useMemo, useState, useRef } from 'react'; // <-- Añade useRef
+import React, { useMemo, useState, useRef } from 'react';
 import { Icon } from '@iconify/react';
 import { Link } from 'react-router-dom';
 import '../App.css'; 
 
-import TimelineView from '../components/TimeLineView';
+import DataDotGrid from '../components/DataDotGrid'; // Volvemos a usar DataDotGrid
 import DataPanel from '../components/DataPanel';
 
 import deseoData from '../data/deseo-data(1).json';
@@ -20,7 +20,7 @@ const normalizeDatasets = (list) =>
 
 export default function Navigate() {
   const [selectedItem, setSelectedItem] = useState(null);
-  const zoomHandler = useRef(() => {}); // Ref para la función de zoom
+  const zoomHandler = useRef(() => {});
 
   const allData = useMemo(() => {
     const merged = [...deseoData, ...cuerpoData, ...rastroData];
@@ -29,10 +29,13 @@ export default function Navigate() {
 
   return (
     <div className="navigate-page bg-background">
-      <TimelineView 
+      <DataDotGrid 
         data={allData} 
         onSelect={setSelectedItem}
-        onZoomChange={zoomHandler} // Pasamos la ref al componente hijo
+        timelineMode={true} // <-- ACTIVAMOS EL MODO TIMELINE
+        onZoomChange={zoomHandler}
+        dotSize={6}
+        proximity={80}
       />
 
       <div className="navigate-ui z-40">
@@ -40,7 +43,6 @@ export default function Navigate() {
           <Icon icon="pixelarticons:arrow-left" width="28" height="28" />
         </Link>
         
-        {/* --- BOTONES DE ZOOM RESTAURADOS --- */}
         <div className="zoom-controls">
           <button onClick={() => zoomHandler.current(1.2)} className="round-cta cursor-target" aria-label="Acercar">
             <Icon icon="pixelarticons:zoom-in" width="28" height="28" />
@@ -52,7 +54,7 @@ export default function Navigate() {
 
         <div className="timeline-info">
           <p>Línea de tiempo con <strong>{allData.length}</strong> puntos de datos.</p>
-          <p>Arrastra para moverte y usa la rueda del ratón para hacer zoom.</p>
+          <p>Arrastra para moverte y usa la rueda del ratón o los botones para hacer zoom.</p>
         </div>
       </div>
 

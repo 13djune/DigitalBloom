@@ -9,7 +9,7 @@ import PixelImg from "../components/PixelImg";
 import Avatar from "../assets/img/avatar.png";
 import "../styles/about.css";
 import "../index.css";
-
+import MiniDotGrid from "../components/MiniDotGrid";
 
 export default function About() {
     const navigate = useNavigate();
@@ -55,36 +55,45 @@ export default function About() {
       </div>
 
           {/* Hero: título + texto / imagen */}
-          <section className="grid md:grid-cols-2 gap-10 md:gap-14 items-center">
-            <div>
+          <section className="flex flex-row gap-10 md:gap-14 items-center">
+            <div className=" w-[60dvw]">
               <h1 className="text-3xl md:text-4xl font-extrabold tracking-wide mb-6">
                 Digital Bloom
               </h1>
 
               <div className="space-y-6 leading-relaxed opacity-90">
-                <p>
-                  LOREM IPSUM DOLOR SIT AMET, CONSECTETUR ADIPISCING ELIT, SED DO
-                  EIUSMOD TEMPOR INCIDIDUNT UT LABORE ET DOLORE MAGNA ALIQUA. UT
-                  ENIM AD MINIM VENIAM, QUIS NOSTRUD EXERCITATION ULLAMCO LABORIS NISI
-                  UT ALIQUIP EX EA COMMODO CONSEQUAT.
+              <p className="text-xl">
+                Este proyecto es <span className=" text-accent">un autorretrato hecho con mi propia vida online. </span>
+                Todo empezó por pura curiosidad: me puse a mirar la cantidad de datos que hay sobre mí en internet y aluciné. 
+                Canciones que he escuchado, sitios donde he estado, horas de móvil… un montón de información a la que nunca había prestado atención. 
+                Lo más chocante fue darme cuenta de que ahí estaba <span className=" text-accent">mi propia identidad.  </span>
+                Pude ver perfectamente cómo han cambiado mis gustos, mis manías y mi forma de vivir con el paso del tiempo.
                 </p>
-                <p>
-                  LOREM IPSUM DOLOR SIT AMET, CONSECTETUR ADIPISCING ELIT, SED DO
-                  EIUSMOD TEMPOR INCIDIDUNT UT LABORE ET DOLORE MAGNA ALIQUA. UT
-                  ENIM AD MINIM VENIAM, QUIS NOSTRUD EXERCITATION ULLAMCO LABORIS NISI
-                  UT ALIQUIP EX EA COMMODO CONSEQUAT.
+                <p className="text-xl">
+                Así que me pasé meses recopilando todo ese material, ordenándolo y buscando la forma de convertirlo en algo visual y creativo. 
+                He cambiado algunas cosas paraproteger mi privacidad, pero casi todo lo que se ve en la obra es el <span className=" text-accent"> rastro real</span> que he ido dejando.
                 </p>
-                <p>
-                  LOREM IPSUM DOLOR SIT AMET, CONSECTETUR ADIPISCING ELIT, SED DO
-                  EIUSMOD TEMPOR INCIDIDUNT UT LABORE ET DOLORE MAGNA ALIQUA.
+                <p className="text-xl">
+                El resultado es algo muy personal y abstracto. Es una especie de retrato vivo, hecho con toda esa información invisible que soltamos por ahí. 
                 </p>
+                <p className="text-xl">
+                  Los datos se han dividido en <span className=" text-accent">tres niveles de conciencia</span>, que van desde lo más consciente (deseo) a lo más involuntario (rastro); y por <span className=" text-accent">periódos de tiempo </span>(últimas 4 semanas, últimos 6 meses, y último año o más).
+                  Además, podrás encontrar en algunos datos con <span className=" text-accent">notas personales</span> que he añadido para explicar su significado o contexto.
+                </p>
+                <p className="text-xl">
+                La idea es <span className=" text-accent">invitarte a que explores y pienses en la historia que se esconde detrás de nuestros datos</span>, y en cómo las cosas más normales del día a día pueden acabar siendo algo muy propio.
+
+                </p>
+                <p className="text-2xl text-accent font-semibold">
+                  ¿Te animas a explorar mi huella digital?
+
+                   </p>
               </div>
             </div>
 
             {/* Placeholder imagen con estilo “marco cian” */}
-            <div className="relative">
-              
-            <div className="aspect-[4/5] w-full border-[6px] border-[#9ed6e2] bg-transparent" />
+            <div className="relative w-[40dvw] h-[90dvh]">
+              <MiniDotGrid className="absolute" />
 
             </div>
           </section>
@@ -153,23 +162,36 @@ export default function About() {
                 Gen Z
                 </span>
                 <span className="af-chip">
-                <Icon icon="pixelarticons:device-vibrate" width="24" height="24" className="pr-2"/>
-
+                <Icon icon="pixelarticons:volume-3" width="24" height="24" className="pr-2"/>
+                Español | Inglés
                 </span>
-                <span className="af-chip"></span>
+                <span className="af-chip">
+                <Icon icon="pixelarticons:moon-stars" width="24" height="24" className="pr-2"/>
+
+                Noctámbula
+                </span>
+                <span className="af-chip">
+                <Icon icon="pixelarticons:drop" width="24" height="24" className="pr-2"/>
+
+                Emocional
+                </span>
+                <span className="af-chip">
+                <Icon icon="pixelarticons:lightbulb-on" width="24" height="24" className="pr-2"/>
+
+                Curiosa
+                </span>
               </div>
 
               <div className="space-y-6 leading-relaxed opacity-90">
-                <p>
-                  LOREM IPSUM DOLOR SIT AMET, CONSECTETUR ADIPISCING ELIT, SED DO
-                  EIUSMOD TEMPOR INCIDIDUNT UT LABORE ET DOLORE MAGNA ALIQUA. UT
-                  ENIM AD MINIM VENIAM, QUIS NOSTRUD EXERCITATION ULLAMCO LABORIS
-                  NISI UT ALIQUIP EX EA COMMODO CONSEQUAT.
+                <p className="text-xl">
+                ¡Hola! Soy Belén (o June para mis amigos), una diseñadora UX/UI de 23 años. Soy de Cartagena, pero ahora estoy en Madrid, siempre metida en algún proyecto y aprendiendo algo nuevo.
+                 </p>
+                <p className="text-xl">
+                Me flipa entender qué pasa entre las personas y las pantallas. Sobre todo, me obsesiona cómo nuestros datos o nuestra vida online pueden usarse para crear experiencias que de verdad te lleguen y signifiquen algo.
                 </p>
-                <p>
-                  DUIS AUTE IRURE DOLOR IN REPREHENDERIT IN VOLUPTATE VELIT ESSE
-                  CILLUM DOLORE EU FUGIAT NULLA PARIATUR. EXCEPTEUR SINT OCCAECAT
-                  CUPIDATAT NON PROIDENT.
+                <p className="text-xl">
+                Me muevo un poco entre el diseño, el arte digital y la investigación, porque me encanta mezclar la parte técnica con un toque más humano y poético. 
+                Siendo de la generación Z, mi relación con internet es... intensa. Es un caos a veces, pero también es mi mayor fuente de inspiración y el sitio donde encuentro nuevas formas de contar historias.
                 </p>
               </div>
             </div>
@@ -177,7 +199,7 @@ export default function About() {
 
           {/* Plataformas (cuadrícula de cuadrados) */}
           <section className="mt-14 md:mt-20">
-            <h3 className="text-lg font-bold tracking-wide mb-4">PLATAFORMAS</h3>
+            <h3 className="text-lg font-bold tracking-wide mb-4">MIS PLATAFORMAS</h3>
 
             <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 gap-6 mb-8">
               {Array.from({ length: 5 }).map((_, i) => (

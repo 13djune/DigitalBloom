@@ -54,7 +54,7 @@
   /* fila SUP: 50/50 exacto */
   .filters-row--top{ grid-template-columns: 1fr 1fr; }
   /* fila INF: Etiquetas más ancha y separador vertical */
-  .filters-row--bottom{ grid-template-columns: minmax(300px,.72fr) minmax(520px,1.28fr); }
+  .filters-row--bottom{ grid-template-columns: minmax(300px,0.42fr) minmax(520px,1.28fr); }
   .filters-col .filters-subtitle{ margin:0 0 12px; font-size:20px; letter-spacing:1px; color:#a3d6df; }
   
   /* separador vertical y corrección de paddings para “empujar” etiquetas a la izq */
@@ -120,7 +120,7 @@
   .time-dot.is-active + .step-caption::after{ left:100%; margin-left:12px; }
   
   /* ======================= PLATAFORMAS ======================= */
-  .platform-grid{ display:grid; grid-template-columns: repeat(4, 1fr); gap:18px; }
+  .platform-grid{ display:grid; grid-template-columns: repeat(2, 1fr); gap:18px; }
   .plat-tile{
     width:100%; aspect-ratio:1/1; border-radius:8px;
     background:rgba(0,0,0,.12); border:3px solid #9ed6e2;

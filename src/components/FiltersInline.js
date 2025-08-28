@@ -3,6 +3,7 @@ import { useMemo, useState } from "react";
 import { Icon } from "@iconify/react";
 import "../styles/filters.css";
 import PixelButton from "./PixelButton";
+import tagList from "../utils/tagConfig";
 
 export default function FiltersInline({ onApply, onReset }) {
   // Estado
@@ -31,49 +32,16 @@ export default function FiltersInline({ onApply, onReset }) {
   );
 
   const platformItems = useMemo(() => Array.from({ length: 8 }, (_, i) => ({ id: i + 1 })), []);
-
-  const allTags = useMemo(
-    () => [
-     // topic
-     { name: "Humor", type: "topic" }, { name: "Horror", type: "topic" },
-     { name: "Drama", type: "topic" }, { name: "Acción", type: "topic" },
-     { name: "Tranquilo", type: "topic" },   { name: "Educativo", type: "topic" },
-     { name: "Ficción", type: "topic" }, { name: "Animación", type: "topic" },
-     { name: "Videojuegos", type: "topic" }, { name: "Juegos", type: "topic" },
-     { name: "Romance", type: "topic" }, { name: "Entretenimiento", type: "topic" },
-     { name: "Música", type: "topic" },   { name: "Arte", type: "topic" },   { name: "Tecnología", type: "topic" },
-     // lang
-     { name: "Español", type: "lang" }, { name: "Inglés", type: "lang" },
-     { name: "Japonés", type: "lang" }, { name: "Coreano", type: "lang" }, { name: "Otro", type: "lang" },
-     // meta
-     { name: "@email", type: "meta" }, { name: "#tlf", type: "meta" },
-     // dispositivo
-     { name: "Teléfono", type: "dispositivo" }, { name: "Ordenador", type: "dispositivo" }, { name: "Televisión", type: "dispositivo" }, { name: "iPad", type: "dispositivo" },
-     // state
-     { name: "Liked", type: "state" }, { name: "Saved", type: "state" },
-     { name: "Commented", type: "state" },
-     // Consciencia
-     { name: "Inconsciente", type: "consciencia" },
-     { name: "Propio", type: "consciencia" }, 
-     { name: "Contaminado", type: "consciencia" },
-     { name: "Consciente", type: "consciencia" }, 
-     { name: "Compartido", type: "consciencia" },
-     // genre
-     { name: "Hip Hop", type: "genre" },
-     { name: "R&B", type: "genre" }, { name: "Latin Trap", type: "genre" },
-     { name: "Rock", type: "genre" }, { name: "Neo-Soul", type: "genre" },
-     { name: "Rap", type: "genre" }, { name: "Hyperpop", type: "genre" },
-     { name: "Pop", type: "genre" }, { name: "Funk", type: "genre" },
-     { name: "Electronic", type: "genre" }, { name: "Techno", type: "genre" },
-     { name: "Synth-pop", type: "genre" }, { name: "Alternative", type: "genre" },
-     { name: "K-Pop", type: "genre" }, { name: "Indie Pop", type: "genre" },
-     { name: "Trap", type: "genre" }, { name: "Soul", type: "genre" },
-     { name: "Flamenco Urbano", type: "genre" }, { name: "Synth-rock", type: "genre" },
-     { name: "Tech House", type: "genre" }, { name: "French House", type: "genre" },
-     { name: "Electroclash", type: "genre" },
-   ],
-    []
-  );
+  const allTags = useMemo(() => {
+    const typeOrder = ['consciencia', 'dispositivo', 'state', 'meta', 'topic', 'genre', 'lang', 'other'];
+    return tagList
+      .filter((tag, index, self) => self.findIndex(t => t.name === tag.name) === index)
+      .sort((a, b) => {
+        const aIdx = typeOrder.indexOf(a.type);
+        const bIdx = typeOrder.indexOf(b.type);
+        return aIdx !== bIdx ? aIdx - bIdx : a.name.localeCompare(b.name);
+      });
+  }, []);
 
   const activeCount = 2 + platforms.size + tags.size;
 

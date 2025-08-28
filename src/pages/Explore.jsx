@@ -39,7 +39,7 @@ const useFirstVisitFlag = (key = "explore_tutorial_seen") => {
   return { shouldShow, markSeen };
 };
 
-/* ---------- walkthrough (igual que antes, abreviado) ---------- */
+/* ---------- walkthrough ---------- */
 function Walkthrough({ open, step, steps, onNext, onSkip }) {
   const bubbleRef = React.useRef(null);
   const [bubblePos, setBubblePos] = useState({ top: 0, left: 0, arrow: "top" });
@@ -205,14 +205,18 @@ export default function Explore() {
       <TargetCursor targetSelector=".cursor-target" />
 
       <div className="left-rail z-40">
-        <button id="btn-filter" className="round-cta cursor-target has-badge" onClick={() => setShowFiltersModal(true)} aria-label="Filtros">
-          <Icon icon="pixelarticons:sliders" width="28" height="28" />
-          {appliedCount > 0 && <span className="cta-badge">{appliedCount}</span>}
-        </button>
-        <Link to="/about" id="btn-about" className="round-cta cursor-target" aria-label="Acerca de">
-          <Icon icon="pixelarticons:lightbulb-2" width="28" height="28" />
-        </Link>
-      </div>
+  <button id="btn-filter" className="round-cta cursor-target has-badge" onClick={() => setShowFiltersModal(true)} aria-label="Filtros">
+    <Icon icon="pixelarticons:sliders" width="28" height="28" />
+    {appliedCount > 0 && <span className="cta-badge">{appliedCount}</span>}
+  </button>
+  {/* 👇 NUEVO BOTÓN AÑADIDO AQUÍ 👇 */}
+  <Link to="/navigate" id="btn-navigate" className="round-cta cursor-target" aria-label="Navegar Timeline Completo">
+    <Icon icon="pixelarticons:map" width="28" height="28" />
+  </Link>
+  <Link to="/about" id="btn-about" className="round-cta cursor-target" aria-label="Acerca de">
+    <Icon icon="pixelarticons:lightbulb-2" width="28" height="28" />
+  </Link>
+</div>
 
       <Filters
         open={showFiltersModal}

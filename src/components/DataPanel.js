@@ -29,15 +29,10 @@ const PLATFORM_ID_TO_KEY = {
 };
 
 /* ---------- Colores por plataforma (coherente con DataDotGrid) ---------- */
-const colorMapping = {
-  SPOTIFY: '#5ffd79', 
-  YOUTUBE: '#FF5353', 
-  TIKTOK: '#8170ff', 
-  INSTAGRAM: '#fb96e2', 
-  IPHONE: '#f2fb73',
-  WHATSAPP: '#44be56',
-  STREAMING: '#ffa536',
-  GOOGLE: '#4285F4'
+const   colorMapping = {
+  SPOTIFY: '#5ffd79', YOUTUBE: '#FF5353', TIKTOK: '#8170ff',
+  INSTAGRAM: '#fb96e2', IPHONE: '#f2fb73', WHATSAPP: '#44be56',
+  STREAMING: '#ffa536', GOOGLE: '#4285F4'
 };
 
 /* ---------- Utilidades de color ---------- */
@@ -263,7 +258,7 @@ export default function DataPanel({ item, allData = [], onClose, onSelect }) {
                         textAlign: "left",
                         padding: "12px",
                         background: "rgba(255,255,255,0.04)",
-                        border: `2px solid ${recColor}55`,
+                        border: `2px solid ${recColor}75`,
                         minHeight: 116,
                       }}
                     >

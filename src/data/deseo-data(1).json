@@ -8855,7 +8855,10 @@
             "sourceFile": "netflix_history_completed (1).json",
             "dataType": "Historial de visualización",
             "name": "Grace and Frankie: Season 7: 'The Circumcision'",
-            "value": "02:33"
+            "value": "02:33",
+            "subjective_notes": "Esta serie me la empecé a ver con mi mejor amigo porque nos la recomendaron, tiene un montón de temporadas y tardamos en vernosla un montón ya que nuestros horarios no coincidían. Es súer graciosa, sobre dos mujeres mayores que tienen que rehacer sus vidas después de que sus maridos admiten que llevan años enamiorados entre ellos."
+
+
           }
         },
         {
@@ -8877,7 +8880,9 @@
             "sourceFile": "netflix_history_completed (1).json",
             "dataType": "Historial de visualización",
             "name": "Grace and Frankie: Season 7: 'The Bunny'",
-            "value": "22:21"
+            "value": "22:21",
+            "subjective_notes": "Esta serie me la empecé a ver con mi mejor amigo porque nos la recomendaron, tiene un montón de temporadas y tardamos en vernosla un montón ya que nuestros horarios no coincidían. Es súer graciosa, sobre dos mujeres mayores que tienen que rehacer sus vidas después de que sus maridos admiten que llevan años enamiorados entre ellos."
+
           }
         },
         {
@@ -8913,7 +8918,7 @@
           "date": "2025-07-29",
           "tags": [
             "Animación",
-            "Humor",
+            "Humor", "2D",
             "Español", 
             "Televisión",
             "@email", "Series", "Compartido", "Consciente"
@@ -8922,7 +8927,9 @@
             "sourceFile": "netflix_history_completed (1).json",
             "dataType": "Historial de visualización",
             "name": "Human Resources: Season 1: 'Bad Mummies'",
-            "value": "09:16"
+            "value": "09:16",
+            "subjective_notes": "Esta serie me la empecé a ver con mis compañeros de piso, es una serie de animación para adultos, tipo big mouth, que nos gusta mucho a todos. Es súper divertida y tiene unos personajes geniales."
+
           }
         },
         {
@@ -8937,7 +8944,7 @@
           "tags": [
            "Animación",
             "Humor",
-            "Español", 
+            "Español", "2D",
             "Televisión",
             "@email", "Series", "Compartido", "Consciente"
           ],
@@ -8945,7 +8952,8 @@
             "sourceFile": "netflix_history_completed (1).json",
             "dataType": "Historial de visualización",
             "name": "Human Resources: Season 1: 'Training Day'",
-            "value": "14:20"
+            "value": "14:20",
+            "subjective_notes": "Esta serie me la empecé a ver con mis compañeros de piso, es una serie de animación para adultos, tipo big mouth, que nos gusta mucho a todos. Es súper divertida y tiene unos personajes geniales."
           }
         },
         {
@@ -8958,7 +8966,7 @@
           "rank": 6,
           "date": "2025-07-30",
           "tags": [
-          "Animación",
+          "Animación", "2D",
             "Humor",
             "Español", 
             "Televisión",
@@ -8968,7 +8976,8 @@
             "sourceFile": "netflix_history_completed (1).json",
             "dataType": "Historial de visualización",
             "name": "Human Resources: Season 1: 'Birth'",
-            "value": "05:04"
+            "value": "05:04",
+            "subjective_notes": "Esta serie me la empecé a ver con mis compañeros de piso, es una serie de animación para adultos, tipo big mouth, que nos gusta mucho a todos. Es súper divertida y tiene unos personajes geniales."
           }
         },
         {
@@ -8990,7 +8999,9 @@
             "sourceFile": "netflix_history_completed (1).json",
             "dataType": "Historial de visualización",
             "name": "Grace and Frankie: Season 7: 'The Roomies'",
-            "value": "00:30"
+            "value": "00:30",
+            "subjective_notes": "Esta serie me la empecé a ver con mi mejor amigo porque nos la recomendaron, tiene un montón de temporadas y tardamos en vernosla un montón ya que nuestros horarios no coincidían. Es súer graciosa, sobre dos mujeres mayores que tienen que rehacer sus vidas después de que sus maridos admiten que llevan años enamiorados entre ellos."
+
           }
         },
         {
@@ -9012,7 +9023,9 @@
             "sourceFile": "netflix_history_completed (1).json",
             "dataType": "Historial de visualización",
             "name": "Grace and Frankie: Season 6: 'The Change'",
-            "value": "11:34"
+            "value": "11:34",
+            "subjective_notes": "Esta serie me la empecé a ver con mi mejor amigo porque nos la recomendaron, tiene un montón de temporadas y tardamos en vernosla un montón ya que nuestros horarios no coincidían. Es súer graciosa, sobre dos mujeres mayores que tienen que rehacer sus vidas después de que sus maridos admiten que llevan años enamiorados entre ellos."
+
           }
         },
         {
@@ -9034,7 +9047,9 @@
             "sourceFile": "netflix_history_completed (1).json",
             "dataType": "Historial de visualización",
             "name": "Grace and Frankie: Season 6: 'The Tank'",
-            "value": "10:14"
+            "value": "10:14",
+            "subjective_notes": "Esta serie me la empecé a ver con mi mejor amigo porque nos la recomendaron, tiene un montón de temporadas y tardamos en vernosla un montón ya que nuestros horarios no coincidían. Es súer graciosa, sobre dos mujeres mayores que tienen que rehacer sus vidas después de que sus maridos admiten que llevan años enamiorados entre ellos."
+
           }
         },
         {
@@ -9056,7 +9071,9 @@
             "sourceFile": "netflix_history_completed (1).json",
             "dataType": "Historial de visualización",
             "name": "Grace and Frankie: Season 6: 'The Laughing Stock'",
-            "value": "12:23"
+            "value": "12:23",
+            "subjective_notes": "Esta serie me la empecé a ver con mi mejor amigo porque nos la recomendaron, tiene un montón de temporadas y tardamos en vernosla un montón ya que nuestros horarios no coincidían. Es súer graciosa, sobre dos mujeres mayores que tienen que rehacer sus vidas después de que sus maridos admiten que llevan años enamiorados entre ellos."
+
           }
         },
         {
@@ -9078,7 +9095,9 @@
             "sourceFile": "netflix_history_completed (1).json",
             "dataType": "Historial de visualización",
             "name": "Grace and Frankie: Season 6: 'The Scent'",
-            "value": "17:25"
+            "value": "17:25",
+            "subjective_notes": "Esta serie me la empecé a ver con mi mejor amigo porque nos la recomendaron, tiene un montón de temporadas y tardamos en vernosla un montón ya que nuestros horarios no coincidían. Es súer graciosa, sobre dos mujeres mayores que tienen que rehacer sus vidas después de que sus maridos admiten que llevan años enamiorados entre ellos."
+
           }
         },
         {
@@ -9100,7 +9119,9 @@
             "sourceFile": "netflix_history_completed (1).json",
             "dataType": "Historial de visualización",
             "name": "Grace and Frankie: Season 6: 'The One-At-A-Timing'",
-            "value": "11:41"
+            "value": "11:41",
+            "subjective_notes": "Esta serie me la empecé a ver con mi mejor amigo porque nos la recomendaron, tiene un montón de temporadas y tardamos en vernosla un montón ya que nuestros horarios no coincidían. Es súer graciosa, sobre dos mujeres mayores que tienen que rehacer sus vidas después de que sus maridos admiten que llevan años enamiorados entre ellos."
+
           }
         },
         {
@@ -9122,7 +9143,9 @@
             "sourceFile": "netflix_history_completed (1).json",
             "dataType": "Historial de visualización",
             "name": "Grace and Frankie: Season 6: 'The Short Rib'",
-            "value": "20:46"
+            "value": "20:46",
+            "subjective_notes": "Esta serie me la empecé a ver con mi mejor amigo porque nos la recomendaron, tiene un montón de temporadas y tardamos en vernosla un montón ya que nuestros horarios no coincidían. Es súer graciosa, sobre dos mujeres mayores que tienen que rehacer sus vidas después de que sus maridos admiten que llevan años enamiorados entre ellos."
+
           }
         },
         {
@@ -9144,7 +9167,9 @@
             "sourceFile": "netflix_history_completed (1).json",
             "dataType": "Historial de visualización",
             "name": "ONE PIECE: 'THE MAN IN THE STRAW HAT'",
-            "value": "09:49"
+            "value": "09:49",
+            "subjective_notes": "Nos recomendaron esto a mi compañero de piso y a mí, y empezamos a verla juntos. Nunca nos habíamos visto el anime y, siendo tan largo y con tantos episodios, nos daba un poco de pereza. Por eso n os empezamos este live-action ya que empezaba desde el principio y resumiendo todo un poco."
+
           }
         },
         {
@@ -9166,7 +9191,8 @@
             "sourceFile": "netflix_history_completed (1).json",
             "dataType": "Historial de visualización",
             "name": "ONE PIECE: ONE PIECE: 'ROMANCE DAWN'",
-            "value": "16:33"
+            "value": "16:33",
+            "subjective_notes": "Nos recomendaron esto a mi compañero de piso y a mí, y empezamos a verla juntos. Nunca nos habíamos visto el anime y, siendo tan largo y con tantos episodios, nos daba un poco de pereza. Por eso n os empezamos este live-action ya que empezaba desde el principio y resumiendo todo un poco."
           }
         },
         {
@@ -9179,7 +9205,7 @@
           "rank": 17,
           "date": "2025-08-06",
           "tags": [
-            "Animación",
+            "Animación", "2D",
             "Ficción",
             "Acción",
             "Español", 
@@ -9190,7 +9216,8 @@
             "sourceFile": "netflix_history_completed (1).json",
             "dataType": "Historial de visualización",
             "name": "Castlevania: Season 1: 'Witchbottle'",
-            "value": "05:57"
+            "value": "05:57",
+            "subjective_notes": "Esta serie no me la he visto yo, habrán sido mis compañeros de piso."
           }
         },
         {
@@ -9204,7 +9231,7 @@
           "date": "2025-07-25",
           "tags": [
            "Humor", "Animación",
-            "Inglés", 
+            "Inglés", "2D",
             "Televisión",
             "@email", "Series", "Propio", "Consciente"
           ],
@@ -9212,7 +9239,8 @@
             "sourceFile": "netflix_history_completed (1).json",
             "dataType": "Historial de visualización",
             "name": "Disenchantment: Part 1: 'The Limits of Immortality'",
-            "value": "13:08"
+            "value": "13:08",
+            "subjective_notes": "Esta serie me la empecé a ver yo sola, me la recomendaron y me pareció entretenida. Es una serie de animación para adultos, con un humor un poco absurdo y surrealista, pero que a mí me gusta mucho. La protagonista es una princesa que no quiere ser princesa y se mete en todo tipo de líos con su amigo el elfo y su demonio personal."
           }
         },
         {
@@ -9226,7 +9254,7 @@
           "date": "2025-07-24",
           "tags": [
            "Humor", "Animación",
-            "Inglés", 
+            "Inglés", "2D",
             "Televisión",
             "@email", "Series", "Propio", "Consciente"
           ],
@@ -9234,7 +9262,8 @@
             "sourceFile": "netflix_history_completed (1).json",
             "dataType": "Historial de visualización",
             "name": "Disenchantment: Part 1: 'Love's Tender Rampage'",
-            "value": "00:53"
+            "value": "00:53",
+            "subjective_notes": "Esta serie me la empecé a ver yo sola, me la recomendaron y me pareció entretenida. Es una serie de animación para adultos, con un humor un poco absurdo y surrealista, pero que a mí me gusta mucho. La protagonista es una princesa que no quiere ser princesa y se mete en todo tipo de líos con su amigo el elfo y su demonio personal."
           }
         },
         {
@@ -9248,7 +9277,7 @@
           "date": "2025-07-17",
           "tags": [
             "Humor", "Animación",
-            "Inglés", 
+            "Inglés", "2D",
             "Televisión",
             "@email", "Series", "Propio", "Consciente"
           ],
@@ -9256,7 +9285,8 @@
             "sourceFile": "netflix_history_completed (1).json",
             "dataType": "Historial de visualización",
             "name": "Disenchantment: Part 1: 'Swamp and Circumstance'",
-            "value": "08:15"
+            "value": "08:15",
+            "subjective_notes": "Esta serie me la empecé a ver yo sola, me la recomendaron y me pareció entretenida. Es una serie de animación para adultos, con un humor un poco absurdo y surrealista, pero que a mí me gusta mucho. La protagonista es una princesa que no quiere ser princesa y se mete en todo tipo de líos con su amigo el elfo y su demonio personal."
           }
         },
         {
@@ -9270,7 +9300,7 @@
           "date": "2025-07-15",
           "tags": [
           "Humor", "Animación",
-            "Inglés", 
+            "Inglés", "2D",
             "Televisión",
             "@email", "Series", "Propio", "Consciente"
           ],
@@ -9278,7 +9308,8 @@
             "sourceFile": "netflix_history_completed (1).json",
             "dataType": "Historial de visualización",
             "name": "Disenchantment: Part 1: 'Faster, Princess! Kill! Kill!'",
-            "value": "11:50"
+            "value": "11:50",
+            "subjective_notes": "Esta serie me la empecé a ver yo sola, me la recomendaron y me pareció entretenida. Es una serie de animación para adultos, con un humor un poco absurdo y surrealista, pero que a mí me gusta mucho. La protagonista es una princesa que no quiere ser princesa y se mete en todo tipo de líos con su amigo el elfo y su demonio personal."
           }
         },
         {
@@ -9292,7 +9323,7 @@
           "date": "2025-07-26",
           "tags": [
          "Humor", "Animación",
-            "Inglés", 
+            "Inglés", "2D",
             "Televisión",
             "@email", "Series", "Propio", "Consciente"
           ],
@@ -9300,7 +9331,8 @@
             "sourceFile": "netflix_history_completed (1).json",
             "dataType": "Historial de visualización",
             "name": "Disenchantment: Part 1: 'Castle Party Massacre'",
-            "value": "13:21"
+            "value": "13:21",
+            "subjective_notes": "Esta serie me la empecé a ver yo sola, me la recomendaron y me pareció entretenida. Es una serie de animación para adultos, con un humor un poco absurdo y surrealista, pero que a mí me gusta mucho. La protagonista es una princesa que no quiere ser princesa y se mete en todo tipo de líos con su amigo el elfo y su demonio personal."
           }
         },
         {
@@ -9314,7 +9346,7 @@
           "date": "2025-08-01",
           "tags": [
           "Humor", "Animación",
-            "Inglés", 
+            "Inglés", "2D",
             "Televisión",
             "@email", "Series","Propio", "Consciente"
           ],
@@ -9322,7 +9354,8 @@
             "sourceFile": "netflix_history_completed (1).json",
             "dataType": "Historial de visualización",
             "name": "Disenchantment: Part 1: 'The Princess of Darkness'",
-            "value": "05:52"
+            "value": "05:52",
+            "subjective_notes": "Esta serie me la empecé a ver yo sola, me la recomendaron y me pareció entretenida. Es una serie de animación para adultos, con un humor un poco absurdo y surrealista, pero que a mí me gusta mucho. La protagonista es una princesa que no quiere ser princesa y se mete en todo tipo de líos con su amigo el elfo y su demonio personal."
           }
         },
         {
@@ -9336,7 +9369,7 @@
           "date": "2025-08-01",
           "tags": [
           "Humor", "Animación",
-            "Inglés", 
+            "Inglés", "2D",
             "Televisión",
             "@email", "Series", "Propio", "Consciente"
           ],
@@ -9344,7 +9377,8 @@
             "sourceFile": "netflix_history_completed (1).json",
             "dataType": "Historial de visualización",
             "name": "Disenchantment: Part 1: 'For Whom the Pig Oinks'",
-            "value": "10:29"
+            "value": "10:29",
+            "subjective_notes": "Esta serie me la empecé a ver yo sola, me la recomendaron y me pareció entretenida. Es una serie de animación para adultos, con un humor un poco absurdo y surrealista, pero que a mí me gusta mucho. La protagonista es una princesa que no quiere ser princesa y se mete en todo tipo de líos con su amigo el elfo y su demonio personal."
           }
         },
         {
@@ -9358,7 +9392,7 @@
           "date": "2025-08-09",
           "tags": [
            "Humor", "Animación",
-            "Inglés", 
+            "Inglés", "2D",
             "Televisión",
             "@email", "Series", "Propio", "Consciente"
           ],
@@ -9366,7 +9400,8 @@
             "sourceFile": "netflix_history_completed (1).json",
             "dataType": "Historial de visualización",
             "name": "Disenchantment: Part 1: 'A Princess, an Elf, and a Demon Walk...'",
-            "value": "10:23"
+            "value": "10:23",
+            "subjective_notes": "Esta serie me la empecé a ver yo sola, me la recomendaron y me pareció entretenida. Es una serie de animación para adultos, con un humor un poco absurdo y surrealista, pero que a mí me gusta mucho. La protagonista es una princesa que no quiere ser princesa y se mete en todo tipo de líos con su amigo el elfo y su demonio personal."
           }
         },
         {
@@ -9380,7 +9415,7 @@
           "date": "2025-07-18",
           "tags": [
            "Humor", "Animación",
-            "Inglés", 
+            "Inglés", "2D",
             "Televisión",
             "@email", "Series", "Propio", "Consciente"
           ],
@@ -9388,7 +9423,8 @@
             "sourceFile": "netflix_history_completed (1).json",
             "dataType": "Historial de visualización",
             "name": "F is for Family: Season 1: 'Saturday Bloody Saturday'",
-            "value": "10:21"
+            "value": "10:21",
+            "subjective_notes": "Esta serie me la empecé a ver con mi mejor amigo porque nos la recomendaron, tiene un montón de temporadas y tardamos en vernosla un montón ya que nuestros horarios no coincidían. Es súper graciosa, sobre una familia en los años 70 y los problemas que tienen que afrontar."
           }
         },
         {
@@ -9402,7 +9438,7 @@
           "date": "2025-07-14",
           "tags": [
            "Humor", "Animación",
-            "Inglés", 
+            "Inglés", "2D",
             "Televisión",
             "@email", "Series", "Propio", "Consciente"
           ],
@@ -9410,7 +9446,8 @@
             "sourceFile": "netflix_history_completed (1).json",
             "dataType": "Historial de visualización",
             "name": "F is for Family: Season 1: 'The Bleedin’ in Sweden'",
-            "value": "20:48"
+            "value": "20:48",
+            "subjective_notes": "Esta serie me la empecé a ver con mi mejor amigo porque nos la recomendaron, tiene un montón de temporadas y tardamos en vernosla un montón ya que nuestros horarios no coincidían. Es súper graciosa, sobre una familia en los años 70 y los problemas que tienen que afrontar."
           }
         },
         {
@@ -9426,7 +9463,7 @@
             "Anime",
             "Fantasía",
             "Japonés", "Animación",
-            "Inglés", 
+            "Inglés", "2D",
             "Televisión",
             "@email", "Cine", "Compartido", "Consciente"
           ],
@@ -9434,7 +9471,8 @@
             "sourceFile": "netflix_history_completed (1).json",
             "dataType": "Historial de visualización",
             "name": "My Neighbor Totoro",
-            "value": "22:35"
+            "value": "22:35",
+            "subjective_notes": "Me encanta esta película, la he visto un montón de veces y siempre que puedo la vuelvo a ver. Me gusta mucho la historia y los personajes, y la animación es preciosa. Es una película muy tierna y emotiva, y me hace sentir muy bien cada vez que la veo."
           }
         },
         {
@@ -9455,7 +9493,9 @@
             "sourceFile": "netflix_history_completed (1).json",
             "dataType": "Historial de visualización",
             "name": "Paquita Salas: Season 2: 'Charitable'",
-            "value": "12:48"
+            "value": "12:48",
+            "subjective_notes": "Me encanta esta serie, la veo siempre que puedo, o vemos en casa algún episodio que nos encante. La protagonista es muy divertida y la historia es muy entretenida. Me gusta mucho el humor y la forma en que se desarrollan los personajes, y sale Yolanda Ramos asi que es un sí."
+
           }
         },
         {
@@ -9477,7 +9517,8 @@
             "sourceFile": "netflix_history_completed (1).json",
             "dataType": "Historial de visualización",
             "name": "BAKI: Season 1: Part 2: 'Clash of the alphas'",
-            "value": "14:13"
+            "value": "14:13",
+            "subjective_notes": "Esta serie no me la he visto yo, habrán sido mis compañeros de piso."
           }
         },
         {
@@ -9499,7 +9540,8 @@
             "sourceFile": "netflix_history_completed (1).json",
             "dataType": "Historial de visualización",
             "name": "BAKI: Season 1: Part 2: 'Punishment'",
-            "value": "05:52"
+            "value": "05:52",
+            "subjective_notes": "Esta serie no me la he visto yo, habrán sido mis compañeros de piso."
           }
         },
         {
@@ -9521,7 +9563,8 @@
             "sourceFile": "netflix_history_completed (1).json",
             "dataType": "Historial de visualización",
             "name": "BAKI: Season 1: Part 2: 'Saga'",
-            "value": "02:01"
+            "value": "02:01",
+            "subjective_notes": "Esta serie no me la he visto yo, habrán sido mis compañeros de piso."
           }
         },
         {
@@ -9543,7 +9586,9 @@
             "sourceFile": "netflix_history_completed (1).json",
             "dataType": "Historial de visualización",
             "name": "Grace and Frankie: Season 7: 'The Casino'",
-            "value": "18:02"
+            "value": "18:02",
+            "subjective_notes": "Esta serie me la empecé a ver con mi mejor amigo porque nos la recomendaron, tiene un montón de temporadas y tardamos en vernosla un montón ya que nuestros horarios no coincidían. Es súer graciosa, sobre dos mujeres mayores que tienen que rehacer sus vidas después de que sus maridos admiten que llevan años enamiorados entre ellos."
+
           }
         },
         {
@@ -9565,7 +9610,9 @@
             "sourceFile": "netflix_history_completed (1).json",
             "dataType": "Historial de visualización",
             "name": "Grace and Frankie: Season 7: 'The Horrible Family'",
-            "value": "05:15"
+            "value": "05:15",
+            "subjective_notes": "Esta serie me la empecé a ver con mi mejor amigo porque nos la recomendaron, tiene un montón de temporadas y tardamos en vernosla un montón ya que nuestros horarios no coincidían. Es súer graciosa, sobre dos mujeres mayores que tienen que rehacer sus vidas después de que sus maridos admiten que llevan años enamiorados entre ellos."
+
           }
         },
         {
@@ -9587,7 +9634,9 @@
             "sourceFile": "netflix_history_completed (1).json",
             "dataType": "Historial de visualización",
             "name": "Grace and Frankie: Season 7: 'The Panic Attacks'",
-            "value": "21:27"
+            "value": "21:27",
+            "subjective_notes": "Esta serie me la empecé a ver con mi mejor amigo porque nos la recomendaron, tiene un montón de temporadas y tardamos en vernosla un montón ya que nuestros horarios no coincidían. Es súer graciosa, sobre dos mujeres mayores que tienen que rehacer sus vidas después de que sus maridos admiten que llevan años enamiorados entre ellos."
+
           }
         },
         {
@@ -9609,7 +9658,9 @@
             "sourceFile": "netflix_history_completed (1).json",
             "dataType": "Historial de visualización",
             "name": "Grace and Frankie: Season 7: 'The Prediction'",
-            "value": "11:18"
+            "value": "11:18",
+            "subjective_notes": "Esta serie me la empecé a ver con mi mejor amigo porque nos la recomendaron, tiene un montón de temporadas y tardamos en vernosla un montón ya que nuestros horarios no coincidían. Es súer graciosa, sobre dos mujeres mayores que tienen que rehacer sus vidas después de que sus maridos admiten que llevan años enamiorados entre ellos."
+
           }
         },
         {
@@ -9631,7 +9682,9 @@
             "sourceFile": "netflix_history_completed (1).json",
             "dataType": "Historial de visualización",
             "name": "Grace and Frankie: Season 7: 'The Bonida Bandidas'",
-            "value": "02:13"
+            "value": "02:13",
+            "subjective_notes": "Esta serie me la empecé a ver con mi mejor amigo porque nos la recomendaron, tiene un montón de temporadas y tardamos en vernosla un montón ya que nuestros horarios no coincidían. Es súer graciosa, sobre dos mujeres mayores que tienen que rehacer sus vidas después de que sus maridos admiten que llevan años enamiorados entre ellos."
+
           }
         },
         {
@@ -9652,7 +9705,9 @@
             "sourceFile": "netflix_history_completed (1).json",
             "dataType": "Historial de visualización",
             "name": "Paquita Salas: Season 3: 'Edwin'",
-            "value": "21:51"
+            "value": "21:51",
+            "subjective_notes": "Me encanta esta serie, la veo siempre que puedo, o vemos en casa algún episodio que nos encante. La protagonista es muy divertida y la historia es muy entretenida. Me gusta mucho el humor y la forma en que se desarrollan los personajes, y sale Yolanda Ramos asi que es un sí."
+
           }
         },
         {
@@ -9673,7 +9728,9 @@
             "sourceFile": "netflix_history_completed (1).json",
             "dataType": "Historial de visualización",
             "name": "Paquita Salas: Season 3: 'Cadillac Solitario'",
-            "value": "15:32"
+            "value": "15:32",
+            "subjective_notes": "Me encanta esta serie, la veo siempre que puedo, o vemos en casa algún episodio que nos encante. La protagonista es muy divertida y la historia es muy entretenida. Me gusta mucho el humor y la forma en que se desarrollan los personajes, y sale Yolanda Ramos asi que es un sí."
+
           }
         },
         {
@@ -9694,7 +9751,9 @@
             "sourceFile": "netflix_history_completed (1).json",
             "dataType": "Historial de visualización",
             "name": "Paquita Salas: Season 2: 'Starting Point'",
-            "value": "00:34"
+            "value": "00:34",
+            "subjective_notes": "Me encanta esta serie, la veo siempre que puedo, o vemos en casa algún episodio que nos encante. La protagonista es muy divertida y la historia es muy entretenida. Me gusta mucho el humor y la forma en que se desarrollan los personajes, y sale Yolanda Ramos asi que es un sí."
+
           }
         },
         {
@@ -9715,7 +9774,9 @@
             "sourceFile": "netflix_history_completed (1).json",
             "dataType": "Historial de visualización",
             "name": "Paquita Salas: Season 2: 'The Last Torrezno in Tarazona'",
-            "value": "20:45"
+            "value": "20:45",
+            "subjective_notes": "Me encanta esta serie, la veo siempre que puedo, o vemos en casa algún episodio que nos encante. La protagonista es muy divertida y la historia es muy entretenida. Me gusta mucho el humor y la forma en que se desarrollan los personajes, y sale Yolanda Ramos asi que es un sí."
+
           }
         },
         {
@@ -9736,7 +9797,9 @@
             "sourceFile": "netflix_history_completed (1).json",
             "dataType": "Historial de visualización",
             "name": "Paquita Salas: Season 2: 'The Voice of the Cult'",
-            "value": "20:53"
+            "value": "20:53",
+            "subjective_notes": "Me encanta esta serie, la veo siempre que puedo, o vemos en casa algún episodio que nos encante. La protagonista es muy divertida y la historia es muy entretenida. Me gusta mucho el humor y la forma en que se desarrollan los personajes, y sale Yolanda Ramos asi que es un sí."
+
           }
         },
         {
@@ -9757,7 +9820,9 @@
             "sourceFile": "netflix_history_completed (1).json",
             "dataType": "Historial de visualización",
             "name": "Paquita Salas: Season 1: 'The Magic in You'",
-            "value": "14:01"
+            "value": "14:01",
+            "subjective_notes": "Me encanta esta serie, la veo siempre que puedo, o vemos en casa algún episodio que nos encante. La protagonista es muy divertida y la historia es muy entretenida. Me gusta mucho el humor y la forma en que se desarrollan los personajes, y sale Yolanda Ramos asi que es un sí."
+
           }
         },
         {
@@ -9778,7 +9843,9 @@
             "sourceFile": "netflix_history_completed (1).json",
             "dataType": "Historial de visualización",
             "name": "Everything Now: Everything Now: 'Episode 1'",
-            "value": "15:19"
+            "value": "15:19",
+            "subjective_notes": "Esta serie me la empecé a ver porque me gusta mucho el drama y las historias intensas. La verdad es que me ha sorprendido para bien, los personajes están muy bien desarrollados y la trama es muy interesante. Me gusta mucho cómo se abordan temas como la identidad y la familia."
+
           }
         },
         {
@@ -9799,7 +9866,8 @@
             "sourceFile": "netflix_history_completed (1).json",
             "dataType": "Historial de visualización",
             "name": "The Conjuring: The Devil Made Me Do It",
-            "value": "10:49"
+            "value": "10:49",
+            "subjective_notes": "A mi novia y a mí nos gusta mucho el cine de terror y esta película nos la recomendaron. Está basada en hechos reales y me gustó mucho la historia, aunque el final me pareció un poco flojo."
           }
         },
         {
@@ -9821,7 +9889,9 @@
             "sourceFile": "netflix_history_completed (1).json",
             "dataType": "Historial de visualización",
             "name": "The Fall of the House of Usher: Limited Series: 'Murder in the Rue Morgue'",
-            "value": "21:33"
+            "value": "21:33",
+            "subjective_notes": "A mi novia y a mí nos gusta mucho el cine de terror y esta serie me la recomendaron, es una adaptación de varios cuentos de Edgar Allan Poe, me gustó mucho la atmósfera y la forma en la que están adaptados los cuentos."
+
           }
         },
         {
@@ -9842,7 +9912,8 @@
             "sourceFile": "netflix_history_completed (1).json",
             "dataType": "Historial de visualización",
             "name": "Veronica",
-            "value": "04:03"
+            "value": "04:03",
+            "subjective_notes": "Esta película fue famosa cuándo salió y tenía curiosidad por ver cómo era. Estuvo bien, aunque me esperaba que diese más mido, está guay que esté inspirada en hechos reales de un caso español."
           }
         },
      
@@ -9865,7 +9936,8 @@
             "sourceFile": "netflix_history_completed (1).json",
             "dataType": "Historial de visualización",
             "name": "The Fall of the House of Usher: Limited Series: 'The Masque of the Red Death'",
-            "value": "18:58"
+            "value": "18:58",
+            "subjective_notes": "A mi novia y a mí nos gusta mucho el cine de terror y esta serie me la recomendaron, es una adaptación de varios cuentos de Edgar Allan Poe, me gustó mucho la atmósfera y la forma en la que están adaptados los cuentos."
           }
         },
         {
@@ -9887,7 +9959,8 @@
             "sourceFile": "netflix_history_completed (1).json",
             "dataType": "Historial de visualización",
             "name": "The Fall of the House of Usher: Limited Series: 'A Midnight Dreary'",
-            "value": "20:24"
+            "value": "20:24",
+            "subjective_notes": "A mi novia y a mí nos gusta mucho el cine de terror y esta serie me la recomendaron, es una adaptación de varios cuentos de Edgar Allan Poe, me gustó mucho la atmósfera y la forma en la que están adaptados los cuentos."
           }
         },
         {
@@ -9902,14 +9975,15 @@
           "tags": [
           "Horror",
             "Drama",
-           "Murder",
+           "Murder", "Cine",
             "Inglés", "@email", "Televisión", "Compartido", "Consciente"
           ],
           "details": {
             "sourceFile": "netflix_history_completed (1).json",
             "dataType": "Historial de visualización",
             "name": "Hereditary",
-            "value": "00:37"
+            "value": "00:37",
+            "subjective_notes": "Me la recomendaron mucho y la verdad es que me gustó bastante, no es una peli de sustos pero sí que tiene una atmósfera inquietante y una historia bastante original sobre una familia que empieza a descubrir oscuros secretos tras la muerte de la abuela."
           }
         },
         {
@@ -9931,7 +10005,9 @@
             "sourceFile": "netflix_history_completed (1).json",
             "dataType": "Historial de visualización",
             "name": "Grace and Frankie: Season 7: 'The Beginning'",
-            "value": "07:08"
+            "value": "07:08",
+            "subjective_notes": "Esta serie me la empecé a ver con mi mejor amigo porque nos la recomendaron, tiene un montón de temporadas y tardamos en vernosla un montón ya que nuestros horarios no coincidían. Es súer graciosa, sobre dos mujeres mayores que tienen que rehacer sus vidas después de que sus maridos admiten que llevan años enamiorados entre ellos."
+
           }
         },
         {
@@ -9953,7 +10029,9 @@
             "sourceFile": "netflix_history_completed (1).json",
             "dataType": "Historial de visualización",
             "name": "Grace and Frankie: Season 7: 'The Fake Funeral'",
-            "value": "09:56"
+            "value": "09:56",
+            "subjective_notes": "Esta serie me la empecé a ver con mi mejor amigo porque nos la recomendaron, tiene un montón de temporadas y tardamos en vernosla un montón ya que nuestros horarios no coincidían. Es súer graciosa, sobre dos mujeres mayores que tienen que rehacer sus vidas después de que sus maridos admiten que llevan años enamiorados entre ellos."
+
           }
         },
         {
@@ -9975,7 +10053,9 @@
             "sourceFile": "netflix_history_completed (1).json",
             "dataType": "Historial de visualización",
             "name": "Grace and Frankie: Season 7: 'The Paprikash'",
-            "value": "21:59"
+            "value": "21:59",
+            "subjective_notes": "Esta serie me la empecé a ver con mi mejor amigo porque nos la recomendaron, tiene un montón de temporadas y tardamos en vernosla un montón ya que nuestros horarios no coincidían. Es súer graciosa, sobre dos mujeres mayores que tienen que rehacer sus vidas después de que sus maridos admiten que llevan años enamiorados entre ellos."
+
           }
         },
         {
@@ -9997,7 +10077,9 @@
             "sourceFile": "netflix_history_completed (1).json",
             "dataType": "Historial de visualización",
             "name": "Grace and Frankie: Season 7: 'The Last Hurrah'",
-            "value": "21:47"
+            "value": "21:47",
+            "subjective_notes": "Esta serie me la empecé a ver con mi mejor amigo porque nos la recomendaron, tiene un montón de temporadas y tardamos en vernosla un montón ya que nuestros horarios no coincidían. Es súer graciosa, sobre dos mujeres mayores que tienen que rehacer sus vidas después de que sus maridos admiten que llevan años enamiorados entre ellos."
+
           }
         },
         {
@@ -10011,14 +10093,15 @@
           "date": "2025-06-10",
           "tags": [
            "Horror",
-            "Fantasía",
+            "Fantasía", "Cine",
             "Inglés", "@email", "Televisión", "Compartido", "Consciente"
           ],
           "details": {
             "sourceFile": "netflix_history_completed (1).json",
             "dataType": "Historial de visualización",
             "name": "The Witches",
-            "value": "21:45"
+            "value": "21:45",
+            "subjective_notes": "Me gusta mucho el cine de fantasía y este me llamó la atención por la historia y los efectos especiales. La verdad es que me gustó bastante, aunque algunas partes me parecieron un poco predecibles. Aun así, disfruté viéndola y me pareció entretenida."
           }
         },
         {
@@ -10041,7 +10124,8 @@
             "sourceFile": "netflix_history_completed (1).json",
             "dataType": "Historial de visualización",
             "name": "Kiki’s Delivery Service",
-            "value": "21:01"
+            "value": "21:01",
+            "subjective_notes": "Me encanta el cine de animación japonés, y este es uno de mis estudios de animación favoritos. La historia es muy tierna y la animación es preciosa. "
           }
         },
         {
@@ -10064,7 +10148,8 @@
             "sourceFile": "netflix_history_completed (1).json",
             "dataType": "Historial de visualización",
             "name": "Ponyo",
-            "value": "17:15"
+            "value": "17:15",
+            "subjective_notes": "Me encanta el cine de animación japonés, y este es uno de mis favoritos. La historia es muy tierna y la animación es preciosa. Me gusta mucho cómo se representa la relación entre los humanos y la naturaleza."
           }
         },
         {
@@ -10088,7 +10173,8 @@
             "sourceFile": "netflix_history_completed (1).json",
             "dataType": "Historial de visualización",
             "name": "Fullmetal Alchemist: Brotherhood: Part 2: 'Those Who Lurk Underground'",
-            "value": "06:01"
+            "value": "06:01",
+            "subjective_notes": "Este anime lo vi con mis compañeros de piso y nos encantó a todos. La historia es muy emocionante y los personajes son muy carismáticos. La animación es espectacular y las escenas de acción son impresionantes."
           }
         },
         {
@@ -10109,7 +10195,8 @@
             "sourceFile": "netflix_history_completed (1).json",
             "dataType": "Historial de visualización",
             "name": "Everything Now: Everything Now: 'Episode 5'",
-            "value": "18:23"
+            "value": "18:23",
+            "subjective_notes": "Esta serie me la empecé a ver porque me gusta mucho el drama y las historias intensas. La verdad es que me ha sorprendido para bien, los personajes están muy bien desarrollados y la trama es muy interesante. Me gusta mucho cómo se abordan temas como la identidad y la familia."
           }
         },
         {
@@ -10130,7 +10217,8 @@
             "sourceFile": "netflix_history_completed (1).json",
             "dataType": "Historial de visualización",
             "name": "Everything Now: Everything Now: 'Episode 4'",
-            "value": "04:45"
+            "value": "04:45",
+            "subjective_notes": "Esta serie me la empecé a ver porque me gusta mucho el drama y las historias intensas. La verdad es que me ha sorprendido para bien, los personajes están muy bien desarrollados y la trama es muy interesante. Me gusta mucho cómo se abordan temas como la identidad y la familia."
           }
         },
         {
@@ -10154,7 +10242,8 @@
             "sourceFile": "netflix_history_completed (1).json",
             "dataType": "Historial de visualización",
             "name": "Fullmetal Alchemist: Brotherhood: Part 1: 'Beasts of Dublith'",
-            "value": "14:32"
+            "value": "14:32",
+            "subjective_notes": "Este anime lo vi con mis compañeros de piso y nos encantó a todos. La historia es muy emocionante y los personajes son muy carismáticos. La animación es espectacular y las escenas de acción son impresionantes."
           }
         },
         {
@@ -10178,7 +10267,8 @@
             "sourceFile": "netflix_history_completed (1).json",
             "dataType": "Historial de visualización",
             "name": "Fullmetal Alchemist: Brotherhood: Part 1: 'One is All, All is One'",
-            "value": "20:03"
+            "value": "20:03",
+            "subjective_notes": "Este anime lo vi con mis compañeros de piso y nos encantó a todos. La historia es muy emocionante y los personajes son muy carismáticos. La animación es espectacular y las escenas de acción son impresionantes."
           }
         },
         {
@@ -10202,7 +10292,8 @@
             "sourceFile": "netflix_history_completed (1).json",
             "dataType": "Historial de visualización",
             "name": "Fullmetal Alchemist: Brotherhood: Part 1: 'Miracle at Rush Valley'",
-            "value": "05:27"
+            "value": "05:27",
+            "subjective_notes": "Este anime lo vi con mis compañeros de piso y nos encantó a todos. La historia es muy emocionante y los personajes son muy carismáticos. La animación es espectacular y las escenas de acción son impresionantes."
           }
         },
         {
@@ -10226,7 +10317,8 @@
             "sourceFile": "netflix_history_completed (1).json",
             "dataType": "Historial de visualización",
             "name": "Fullmetal Alchemist: Brotherhood: Part 1: 'Separate Destinations'",
-            "value": "11:33"
+            "value": "11:33",
+            "subjective_notes": "Este anime lo vi con mis compañeros de piso y nos encantó a todos. La historia es muy emocionante y los personajes son muy carismáticos. La animación es espectacular y las escenas de acción son impresionantes."
           }
         },
         {
@@ -10250,7 +10342,8 @@
             "sourceFile": "netflix_history_completed (1).json",
             "dataType": "Historial de visualización",
             "name": "Fullmetal Alchemist: Brotherhood: Part 1: 'Created Feelings'",
-            "value": "04:53"
+            "value": "04:53",
+            "subjective_notes": "Este anime lo vi con mis compañeros de piso y nos encantó a todos. La historia es muy emocionante y los personajes son muy carismáticos. La animación es espectacular y las escenas de acción son impresionantes."
           }
         },
         {
@@ -10274,7 +10367,8 @@
             "sourceFile": "netflix_history_completed (1).json",
             "dataType": "Historial de visualización",
             "name": "Fullmetal Alchemist: Brotherhood: Part 1: 'The Fifth Laboratory'",
-            "value": "23:44"
+            "value": "23:44",
+            "subjective_notes": "Este anime lo vi con mis compañeros de piso y nos encantó a todos. La historia es muy emocionante y los personajes son muy carismáticos. La animación es espectacular y las escenas de acción son impresionantes."
           }
         },
         {
@@ -10298,7 +10392,8 @@
             "sourceFile": "netflix_history_completed (1).json",
             "dataType": "Historial de visualización",
             "name": "Fullmetal Alchemist: Brotherhood: Part 1: 'Hidden Truths'",
-            "value": "13:40"
+            "value": "13:40",
+            "subjective_notes": "Este anime lo vi con mis compañeros de piso y nos encantó a todos. La historia es muy emocionante y los personajes son muy carismáticos. La animación es espectacular y las escenas de acción son impresionantes."
           }
         },
         {
@@ -10322,7 +10417,8 @@
             "sourceFile": "netflix_history_completed (1).json",
             "dataType": "Historial de visualización",
             "name": "Fullmetal Alchemist: Brotherhood: Part 1: 'Road of Hope'",
-            "value": "04:36"
+            "value": "04:36",
+            "subjective_notes": "Este anime lo vi con mis compañeros de piso y nos encantó a todos. La historia es muy emocionante y los personajes son muy carismáticos. La animación es espectacular y las escenas de acción son impresionantes."
           }
         },
         {
@@ -10346,7 +10442,8 @@
             "sourceFile": "netflix_history_completed (1).json",
             "dataType": "Historial de visualización",
             "name": "Fullmetal Alchemist: Brotherhood: Part 1: 'Rain of Sorrows'",
-            "value": "15:23"
+            "value": "15:23",
+            "subjective_notes": "Este anime lo vi con mis compañeros de piso y nos encantó a todos. La historia es muy emocionante y los personajes son muy carismáticos. La animación es espectacular y las escenas de acción son impresionantes."
           }
         },
         {
@@ -10370,7 +10467,8 @@
             "sourceFile": "netflix_history_completed (1).json",
             "dataType": "Historial de visualización",
             "name": "Fullmetal Alchemist: Brotherhood: Part 1: 'An Alchemist's Anguish'",
-            "value": "15:53"
+            "value": "15:53",
+            "subjective_notes": "Este anime lo vi con mis compañeros de piso y nos encantó a todos. La historia es muy emocionante y los personajes son muy carismáticos. La animación es espectacular y las escenas de acción son impresionantes."
           }
         },
         {
@@ -10394,7 +10492,8 @@
             "sourceFile": "netflix_history_completed (1).json",
             "dataType": "Historial de visualización",
             "name": "Fullmetal Alchemist: Brotherhood: Part 1: 'City of Heresy'",
-            "value": "07:30"
+            "value": "07:30",
+            "subjective_notes": "Este anime lo vi con mis compañeros de piso y nos encantó a todos. La historia es muy emocionante y los personajes son muy carismáticos. La animación es espectacular y las escenas de acción son impresionantes."
           }
         },
         {
@@ -10418,7 +10517,8 @@
             "sourceFile": "netflix_history_completed (1).json",
             "dataType": "Historial de visualización",
             "name": "Fullmetal Alchemist: Brotherhood: Part 1: 'The First Day'",
-            "value": "00:45"
+            "value": "00:45",
+            "subjective_notes": "Este anime lo vi con mis compañeros de piso y nos encantó a todos. La historia es muy emocionante y los personajes son muy carismáticos. La animación es espectacular y las escenas de acción son impresionantes."
           }
         },
         {
@@ -10442,7 +10542,9 @@
             "sourceFile": "netflix_history_completed (1).json",
             "dataType": "Historial de visualización",
             "name": "Fullmetal Alchemist: Brotherhood: Part 1: 'Fullmetal Alchemist'",
-            "value": "21:00"
+            "value": "21:00",
+            "subjective_notes": "Este anime lo vi con mis compañeros de piso y nos encantó a todos. La historia es muy emocionante y los personajes son muy carismáticos. La animación es espectacular y las escenas de acción son impresionantes."
+
           }
         },
         {
@@ -10463,7 +10565,8 @@
             "sourceFile": "netflix_history_completed (1).json",
             "dataType": "Historial de visualización",
             "name": "Paquita Salas: Season 3: 'B-Fashion'",
-            "value": "12:55"
+            "value": "12:55",
+            "subjective_notes": "Este episodio es increíblemente divertido. Paquita siempre me hace reír con sus ocurrencias y su forma de ser tan auténtica. Me encanta cómo la serie mezcla el humor con momentos emotivos. Es una de mis favoritas en Netflix."
           }
         },
         {
@@ -10484,7 +10587,8 @@
             "sourceFile": "netflix_history_completed (1).json",
             "dataType": "Historial de visualización",
             "name": "Paquita Salas: Season 2: 'The Secret'",
-            "value": "09:56"
+            "value": "09:56",
+            "subjective_notes": "Me encanta esta serie, la veo siempre que puedo, o vemos en casa algún episodio que nos encante. La protagonista es muy divertida y la historia es muy entretenida. Me gusta mucho el humor y la forma en que se desarrollan los personajes."
           }
         },
         {
@@ -10506,7 +10610,8 @@
             "sourceFile": "netflix_history_completed (1).json",
             "dataType": "Historial de visualización",
             "name": "Community: 'Home Economics'",
-            "value": "06:40"
+            "value": "06:40",
+            "subjective_notes": "Mi hermano me recomendó esta sit-com y me gustó mucho. Es muy divertida y los personajes son muy carismáticos. Me reí mucho viéndola, la veo de vez en cuando."
           }
         },
         {
@@ -10528,7 +10633,8 @@
             "sourceFile": "netflix_history_completed (1).json",
             "dataType": "Historial de visualización",
             "name": "Community: 'Introduction to Statistics'",
-            "value": "17:38"
+            "value": "17:38",
+            "subjective_notes": "Mi hermano me recomendó esta sit-com y me gustó mucho. Es muy divertida y los personajes son muy carismáticos. Me reí mucho viéndola, la veo de vez en cuando."
           }
         },
         {
@@ -10550,7 +10656,8 @@
             "sourceFile": "netflix_history_completed (1).json",
             "dataType": "Historial de visualización",
             "name": "Community: 'Football, Feminism and You'",
-            "value": "20:27"
+            "value": "20:27",
+            "subjective_notes": "Mi hermano me recomendó esta sit-com y me gustó mucho. Es muy divertida y los personajes son muy carismáticos. Me reí mucho viéndola, la veo de vez en cuando."
           }
         },
         {
@@ -10574,7 +10681,8 @@
             "sourceFile": "netflix_history_completed (1).json",
             "dataType": "Historial de visualización",
             "name": "Fullmetal Alchemist: Brotherhood: Part 2: 'Death of the Undying'",
-            "value": "14:18"
+            "value": "14:18",
+            "subjective_notes": "Me encanta este anime, lo vi hace un año y siempre que puedo me veo algún capítulo. La historia es muy interesante y los personajes están muy bien desarrollados. Me gusta mucho la animación y la música también es genial."
           }
         },
         {
@@ -10598,7 +10706,9 @@
             "sourceFile": "netflix_history_completed (1).json",
             "dataType": "Historial de visualización",
             "name": "Fullmetal Alchemist: Brotherhood: Part 2: 'The Arrogant Palm of a Small Human'",
-            "value": "05:18"
+            "value": "05:18",
+            "subjective_notes": "Este anime lo vi con mis compañeros de piso y nos encantó a todos. La historia es muy emocionante y los personajes son muy carismáticos. La animación es espectacular y las escenas de acción son impresionantes."
+
           }
         },
         {
@@ -10620,7 +10730,8 @@
             "sourceFile": "netflix_history_completed (1).json",
             "dataType": "Historial de visualización",
             "name": "Community: 'Advanced Criminal Law'",
-            "value": "08:57"
+            "value": "08:57",
+            "subjective_notes": "Mi hermano me recomendó esta sit-com y me gustó mucho. Es muy divertida y los personajes son muy carismáticos. Me reí mucho viéndola, la veo de vez en cuando."
           }
         },
         {
@@ -10642,7 +10753,8 @@
             "sourceFile": "netflix_history_completed (1).json",
             "dataType": "Historial de visualización",
             "name": "Community: 'Social Psychology'",
-            "value": "11:27"
+            "value": "11:27",
+            "subjective_notes": "Mi hermano me recomendó esta sit-com y me gustó mucho. Es muy divertida y los personajes son muy carismáticos. Me reí mucho viéndola, la veo de vez en cuando."
           }
         },
         {
@@ -10664,7 +10776,8 @@
             "sourceFile": "netflix_history_completed (1).json",
             "dataType": "Historial de visualización",
             "name": "Community: 'Introduction to Film'",
-            "value": "01:18"
+            "value": "01:18",
+            "subjective_notes": "Mi hermano me recomendó esta sit-com y me gustó mucho. Es muy divertida y los personajes son muy carismáticos. Me reí mucho viéndola, la veo de vez en cuando."
           }
         },
         {
@@ -10686,7 +10799,8 @@
             "sourceFile": "netflix_history_completed (1).json",
             "dataType": "Historial de visualización",
             "name": "Community: 'Spanish 101'",
-            "value": "05:03"
+            "value": "05:03",
+            "subjective_notes": "Mi hermano me recomendó esta sit-com y me gustó mucho. Es muy divertida y los personajes son muy carismáticos. Me reí mucho viéndola, la veo de vez en cuando."
           }
         },
         {
@@ -10707,7 +10821,8 @@
             "sourceFile": "netflix_history_completed (1).json",
             "dataType": "Historial de visualización",
             "name": "Everything Now: Everything Now: 'Episode 8'",
-            "value": "04:08"
+            "value": "04:08",
+            "subjective_notes": "Esta serie me la vi sola, y me gustó mucho. La historia es muy interesante y los personajes están muy bien desarrollados. La recomiendo mucho."
           }
         },
         {
@@ -10728,7 +10843,8 @@
             "sourceFile": "netflix_history_completed (1).json",
             "dataType": "Historial de visualización",
             "name": "Everything Now: Everything Now: 'Episode 7'",
-            "value": "09:05"
+            "value": "09:05",
+            "subjective_notes": "Esta serie me la vi sola, y me gustó mucho. La historia es muy interesante y los personajes están muy bien desarrollados. La recomiendo mucho."
           }
         },
         {
@@ -10749,7 +10865,8 @@
             "sourceFile": "netflix_history_completed (1).json",
             "dataType": "Historial de visualización",
             "name": "Everything Now: Everything Now: 'Episode 6'",
-            "value": "02:32"
+            "value": "02:32",
+            "subjective_notes": "Esta serie me la vi sola, y me gustó mucho. La historia es muy interesante y los personajes están muy bien desarrollados. La recomiendo mucho."
           }
         },
         {
@@ -10773,7 +10890,8 @@
             "sourceFile": "netflix_history_completed (1).json",
             "dataType": "Historial de visualización",
             "name": "Fullmetal Alchemist: Brotherhood: Part 2: 'Cold Flame'",
-            "value": "09:57"
+            "value": "09:57",
+            "subjective_notes": "Este anime lo vi con mis compañeros de piso y nos encantó a todos. La historia es muy emocionante y los personajes son muy carismáticos. La animación es espectacular y las escenas de acción son impresionantes."
           }
         },
         {
@@ -10797,7 +10915,8 @@
             "sourceFile": "netflix_history_completed (1).json",
             "dataType": "Historial de visualización",
             "name": "Fullmetal Alchemist: Brotherhood: Part 2: 'Footsteps of a Comrade-in-Arms'",
-            "value": "10:50"
+            "value": "10:50",
+            "subjective_notes": "Este anime lo vi con mis compañeros de piso y nos encantó a todos. La historia es muy emocionante y los personajes son muy carismáticos. La animación es espectacular y las escenas de acción son impresionantes."
           }
         },
         {
@@ -10820,7 +10939,8 @@
             "sourceFile": "netflix_history_completed (1).json",
             "dataType": "Historial de visualización",
             "name": "Arcane: Season 2: 'The Dirt Under Your Nails'",
-            "value": "15:34"
+            "value": "15:34",
+            "subjective_notes": "Me ha gustado mucho la serie, especialmente por su mezcla de acción, humor y fantasía. La animación es impresionante y los personajes están muy bien desarrollados. La vi con mi novia ya que nos encantó la primera temporada."
           }
         },
         {
@@ -10842,7 +10962,8 @@
             "sourceFile": "netflix_history_completed (1).json",
             "dataType": "Historial de visualización",
             "name": "Arcane: Season 2: 'Killing Is a Cycle'",
-            "value": "03:15"
+            "value": "03:15",
+            "subjective_notes": "Me ha gustado mucho la serie, especialmente por su mezcla de acción, humor y fantasía. La animación es impresionante y los personajes están muy bien desarrollados. La vi con mi novia ya que nos encantó la primera temporada."
           }
         },
         {
@@ -10864,7 +10985,8 @@
             "sourceFile": "netflix_history_completed (1).json",
             "dataType": "Historial de visualización",
             "name": "Arcane: Season 2: 'Pretend Like It's the First Time'",
-            "value": "21:01"
+            "value": "21:01",
+            "subjective_notes": "Me ha gustado mucho la serie, especialmente por su mezcla de acción, humor y fantasía. La animación es impresionante y los personajes están muy bien desarrollados. La vi con mi novia ya que nos encantó la primera temporada."
           }
         },
         {
@@ -10886,7 +11008,8 @@
             "sourceFile": "netflix_history_completed (1).json",
             "dataType": "Historial de visualización",
             "name": "Arcane: Season 2: 'The Message Hidden Within the Pattern'",
-            "value": "06:56"
+            "value": "06:56",
+            "subjective_notes": "Me ha gustado mucho la serie, especialmente por su mezcla de acción, humor y fantasía. La animación es impresionante y los personajes están muy bien desarrollados. La vi con mi novia ya que nos encantó la primera temporada."
           }
         },
         {
@@ -10908,7 +11031,8 @@
             "sourceFile": "netflix_history_completed (1).json",
             "dataType": "Historial de visualización",
             "name": "Arcane: Season 2: 'Blisters and Bedrock'",
-            "value": "20:27"
+            "value": "20:27",
+            "subjective_notes": "Me ha gustado mucho la serie, especialmente por su mezcla de acción, humor y fantasía. La animación es impresionante y los personajes están muy bien desarrollados. La vi con mi novia ya que nos encantó la primera temporada."
           }
         },
         {
@@ -10930,7 +11054,8 @@
             "sourceFile": "netflix_history_completed (1).json",
             "dataType": "Historial de visualización",
             "name": "Arcane: Season 2: 'Paint the Town Blue'",
-            "value": "05:26"
+            "value": "05:26",
+            "subjective_notes": "Me ha gustado mucho la serie, especialmente por su mezcla de acción, humor y fantasía. La animación es impresionante y los personajes están muy bien desarrollados. La vi con mi novia ya que nos encantó la primera temporada."
           }
         },
         {
@@ -10952,7 +11077,8 @@
             "sourceFile": "netflix_history_completed (1).json",
             "dataType": "Historial de visualización",
             "name": "Arcane: Season 2: 'Finally Got the Name Right'",
-            "value": "04:47"
+            "value": "04:47",
+            "subjective_notes": "Me ha gustado mucho la serie, especialmente por su mezcla de acción, humor y fantasía. La animación es impresionante y los personajes están muy bien desarrollados. La vi con mi novia ya que nos encantó la primera temporada."
           }
         },
         {
@@ -10974,7 +11100,8 @@
             "sourceFile": "netflix_history_completed (1).json",
             "dataType": "Historial de visualización",
             "name": "Arcane: Season 2: 'Watch It All Burn'",
-            "value": "22:19"
+            "value": "22:19",
+            "subjective_notes": "Me ha gustado mucho la serie, especialmente por su mezcla de acción, humor y fantasía. La animación es impresionante y los personajes están muy bien desarrollados. La vi con mi novia ya que nos encantó la primera temporada."
           }
         },
         {
@@ -10996,7 +11123,8 @@
             "sourceFile": "netflix_history_completed (1).json",
             "dataType": "Historial de visualización",
             "name": "Arcane: Season 2: 'Heavy Is the Crown'",
-            "value": "17:52"
+            "value": "17:52",
+            "subjective_notes": "Me ha gustado mucho la serie, especialmente por su mezcla de acción, humor y fantasía. La animación es impresionante y los personajes están muy bien desarrollados. La vi con mi novia ya que nos encantó la primera temporada."
           }
         },
         {
@@ -11017,7 +11145,9 @@
             "sourceFile": "netflix_history_completed (1).json",
             "dataType": "Historial de visualización",
             "name": "Seinfeld: Season 9: 'The Betrayal'",
-            "value": "06:19"
+            "value": "06:19",
+            "subjective_notes": "Me vi este único episodio de la serie porque nos lo recomendó un profesor del máster para una clase de Narrativa. Me pareció entretenido, pero no creo que vea más capítulos, era para ver cómo se contaba una historia desde el presenta hasta el pasado."
+
           }
         },
         {
@@ -11039,7 +11169,8 @@
             "sourceFile": "prime_video_history.json",
             "dataType": "Historial de visualización",
             "name": "La Leyenda de Vox Machina Temporada 1",
-            "value": "07:40"
+            "value": "07:40",
+            "subjective_notes": "Me ha gustado mucho la serie, especialmente por su mezcla de acción, humor y fantasía. La animación es impresionante y los personajes están muy bien desarrollados. A mis compañeros de piso no les gustó tanto y por eso la dejamos de ver."
           }
         },
         {
@@ -11061,7 +11192,8 @@
             "sourceFile": "prime_video_history.json",
             "dataType": "Historial de visualización",
             "name": "The Boys - Temporada 2",
-            "value": "05:31"
+            "value": "05:31",
+            "subjective_notes": "Me sigue gustando mucho la serie, aunque he de admitir que la trama se está volviendo un poco confusa con tantos personajes y giros argumentales. Aun así, las escenas de acción y la crítica social siguen siendo impresionantes."
           }
         },
         {
@@ -11083,7 +11215,8 @@
             "sourceFile": "prime_video_history.json",
             "dataType": "Historial de visualización",
             "name": "The Boys - 1.2 temporada",
-            "value": "00:37"
+            "value": "00:37",
+            "subjective_notes": "Empezamos a ver esta serie mi novia y yo. Me gusta mucho el género de superhéroes y esta serie en particular me parece muy interesante por su enfoque diferente y crítico hacia los superhéroes tradicionales. Aunque nos acabo aburriendo y dejamos de verla."
           }
         },
         {
@@ -11107,7 +11240,8 @@
             "sourceFile": "prime_video_history.json",
             "dataType": "Historial de visualización",
             "name": "Ataque a los titanes - Temporada 4 Parte 2",
-            "value": "22:01"
+            "value": "22:01",
+            "subjective_notes": "Me sigue gustando mucho la serie, aunque he de admitir que la trama se está volviendo un poco confusa con tantos personajes y giros argumentales. Aun así, las escenas de acción y la animación siguen siendo impresionantes."
           }
         },
         {
@@ -11131,7 +11265,8 @@
             "sourceFile": "prime_video_history.json",
             "dataType": "Historial de visualización",
             "name": "Ataque a los titanes - Temporada 4 Parte 1",
-            "value": "21:17"
+            "value": "21:17",
+            "subjective_notes": "Empezamos a ver esta serie mis dos compañeros de piso y yo. Me gusta mucho el anime y esta serie en particular me parece muy interesante por su trama y desarrollo de personajes. Además, la animación y las escenas de acción son impresionantes."
           }
         },
         {
@@ -11153,7 +11288,9 @@
             "sourceFile": "prime_video_history.json",
             "dataType": "Historial de visualización",
             "name": "Las Tres Mellizas",
-            "value": "22:27"
+            "value": "22:27",
+            "subjective_notes": "A veces a mis compañeros de piso les da por ver cosas muy random."
+
           }
         },
         {
@@ -11175,7 +11312,8 @@
             "sourceFile": "prime_video_history.json",
             "dataType": "Historial de visualización",
             "name": "El señor de los anillos: el retorno del rey",
-            "value": "21:48"
+            "value": "21:48",
+            "subjective_notes": "Esto no lo he visto yo, no soy muy fan de esta saga. Pero mis compañeros de piso son muy fans y lo han visto varias veces."
           }
         },
         {
@@ -11197,7 +11335,8 @@
             "sourceFile": "prime_video_history.json",
             "dataType": "Historial de visualización",
             "name": "Community - Primera Temporada Completa",
-            "value": "09:05"
+            "value": "09:05",
+            "subjective_notes": "Me vi esta serie porque me gusta mucho el humor absurdo y las situaciones cómicas que se presentan en la serie. Mi hermano me la recomendó, aún tengo que terminarmela."
           }
         },
 
@@ -11219,7 +11358,8 @@
             "sourceFile": "prime_video_history.json",
             "dataType": "Historial de visualización",
             "name": "La que se avecina - Temporada 13",
-            "value": "17:04"
+            "value": "17:04",
+            "subjective_notes": "Me gusta ver esta serie de vez en cuando porque es una comedia ligera y entretenida, además a todo el mundo le gusta. Además, me gusta el humor absurdo y las situaciones cómicas que se presentan en la serie. Es una forma divertida de desconectar y pasar un buen rato."
           }
         },
         {
@@ -11241,7 +11381,8 @@
             "sourceFile": "prime_video_history.json",
             "dataType": "Historial de visualización",
             "name": "LOL - Si te ríes, pierdes - Temporada 2",
-            "value": "00:35"
+            "value": "00:35",
+            "subjective_notes": "A veces vemos concursos de celebrities españoles de comedia. Además, dónde aparezca Yolanda Ramos o Silvia Abril siempre es un sí."
           }
         },
         {
@@ -11262,7 +11403,8 @@
             "sourceFile": "prime_video_history.json",
             "dataType": "Historial de visualización",
             "name": "La periferia - Temporada 1",
-            "value": "21:25"
+            "value": "21:25",
+            "subjective_notes": "Me empecé esta serie porque me gusta mucho la ciencia ficción y las historias que exploran el impacto de la tecnología en la sociedad. La serie está basada en la novela de William Gibson, uno de los pioneros del género cyberpunk, y me pareció fascinante cómo adapta sus ideas a un formato televisivo. La trama es intrigante y los personajes están bien desarrollados, lo que hace que te involucres en la historia desde el principio."
           }
         },
         {
@@ -11284,7 +11426,8 @@
             "sourceFile": "prime_video_history.json",
             "dataType": "Historial de visualización",
             "name": "Fleabag - Season 2",
-            "value": "04:37"
+            "value": "04:37",
+            "subjective_notes": "Me vi esta serie porque me la recomendó una amiga, decía que era su serie favorita. Me gustó mucho, es una serie muy original y con un humor muy particular. La protagonista rompe la cuarta pared y habla directamente con el espectador, lo que crea una conexión muy especial. Además, trata temas profundos como la soledad, la culpa y la búsqueda de la felicidad de una manera muy honesta y a veces dolorosa."
           }
         },
         {
@@ -11306,7 +11449,8 @@
             "sourceFile": "prime_video_history.json",
             "dataType": "Historial de visualización",
             "name": "Fleabag - Temporada 1",
-            "value": "04:24"
+            "value": "04:24",
+            "subjective_notes": "Me vi esta serie porque me la recomendó una amiga, decía que era su serie favorita. Me gustó mucho, es una serie muy original y con un humor muy particular. La protagonista rompe la cuarta pared y habla directamente con el espectador, lo que crea una conexión muy especial. Además, trata temas profundos como la soledad, la culpa y la búsqueda de la felicidad de una manera muy honesta y a veces dolorosa."
           }
         },
        
@@ -11329,7 +11473,8 @@
             "sourceFile": "prime_video_history.json",
             "dataType": "Historial de visualización",
             "name": "Celebrity Bake Off España - Temporada 1",
-            "value": "15:54"
+            "value": "15:54",
+            "subjective_notes": "A veces vemos concursos de celebrities españoles de comedia. Además, dónde aparezca Yolanda Ramos siempre es un sí."
           }
         },
         

@@ -344,32 +344,6 @@ margin: 0 0 0 8px;
   .timeline .track { width: 160px; }
 }
 
-
-
-/* Coachmarks */
-.coach-overlay{
-  position:fixed; inset:0; background:rgba(0,0,0,.45);
-  z-index:10000;
-}
-.coach-bubble{
-  position:fixed; z-index:10001; background:#1d4e55; color:var(--white);
-  border-radius:12px; padding:14px 16px 12px; box-shadow:0 16px 48px rgba(0,0,0,.5);
-}
-.coach-body{ font-size:18px; line-height:1.35; }
-.coach-actions{ display:flex; justify-content:flex-end; gap:10px; margin-top:10px; }
-.btn{ background:var(--accent); color:#003833; border:none; border-radius:8px; padding:8px 12px; font-weight:700; cursor:pointer; scale: 70%; }
-.btn.ghost{ background:transparent; color:#cfeeed; border:1px solid #6ddac0; scale: 70%; }
-.coach-steps{ position:absolute; bottom:-26px; right:8px; font-size:18px; opacity:.8; }
-
-/* flechitas */
-.coach-bubble::after{
-  content:""; position:absolute; width:0; height:0; border:8px solid transparent;
-}
-.coach-arrow-top::after{ bottom:100%; left:32px; border-bottom-color:#1d4e55; }
-.coach-arrow-bottom::after{ top:100%; left:32px; border-top-color:#1d4e55; }
-.coach-arrow-left::after{ right:100%; top:24px; border-right-color:#1d4e55; }
-.coach-arrow-right::after{ left:100%; top:24px; border-left-color:#1d4e55; }
-
 /* botón ayuda */
 .help-fab{
   position:fixed; right:18px; bottom:18px; width:44px; height:44px; border-radius:50%;
@@ -377,15 +351,13 @@ margin: 0 0 0 8px;
   box-shadow:0 10px 25px rgba(0,0,0,.35);
   cursor:pointer; font-weight:900; font-size:24px;
 }
-/* Overlay + spotlight (agujero) */
+
 .coach-overlay{
   position:fixed; inset:0; z-index:10000;
-  /* fondo realmente lo pone la sombra del spot; mantenlo transparente aquí */
   background: transparent;
 }
 .coach-spot{
   position:absolute; border-radius:9999px; pointer-events:none;
-  /* truco: gran box-shadow oscurece todo menos el círculo */
   box-shadow: 0 0 0 9999px rgba(0,0,0,.55);
 }
 
@@ -397,14 +369,14 @@ margin: 0 0 0 8px;
 }
 .coach-bubble::after{ content:""; position:absolute; width:0;height:0;border:8px solid transparent; }
 .coach-arrow-top::after{ bottom:100%; left:32px; border-bottom-color:#1d4e55; }
-.coach-arrow-bottom::after{ top:100%; left:32px; border-top-color:#1d4e55; }
-.coach-arrow-left::after{ right:100%; top:24px; border-right-color:#1d4e55; }
-.coach-arrow-right::after{ left:100%; top:24px; border-left-color:#1d4e55; }
+.coach-arrow-bottom::after{ top:100%; left:45%; border-top-color:#1d4e55; }
+.coach-arrow-left::after{ right:100%; top:44px; border-right-color:#1d4e55; }
+.coach-arrow-right::after{ left:100%; top:35px; border-left-color:#1d4e55; }
 
-.coach-body{ font-size:18px; line-height:1.35; }
+.coach-body{ font-size:20px; line-height:1.35; }
 .coach-actions{ display:flex; justify-content:flex-end; gap:10px; margin-top:10px; }
-.btn{ background:#2ef2c2; color:#003833; border:none; border-radius:0px; padding:8px 12px; font-weight:700; cursor:pointer; }
-.btn.ghost{ background:transparent; color:#cfeeed; border:1px solid #6ddac0; }
+.btn{ background:#2ef2c2; color:#003833; border:none; border-radius:0px; padding:8px 12px; font-weight:700; cursor:pointer; scale: 80%; }
+.btn.ghost{ background:transparent; color:#cfeeed; border:1px solid #6ddac0; scale: 80%; }
 .coach-steps{ position:absolute; bottom:-26px; right:8px; font-size:18px; opacity:.8; }
 
 /* Iconos redondos de la izquierda (sin mensajes fijos) */
@@ -549,4 +521,111 @@ margin: 0 0 0 8px;
   background-color: transparent;
   color: var(--color-text-subtle); /* O el color que prefieras para el texto inactivo */
   border-color: var(--color-text-subtle);
+}
+
+/* MINI DOT GRID */
+.dot-grid {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  overflow: hidden;
+}
+
+.dot-grid__wrap {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.dot-grid__canvas {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: block;
+}
+/* Navigate */
+.navigate-page {
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  position: relative;
+}
+
+.navigate-container {
+  width: 100%;
+  height: 100%;
+  cursor: grab;
+  position: absolute;
+  inset: 0;
+}
+
+.navigate-container:active {
+  cursor: grabbing;
+}
+
+.navigate-ui {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  align-items: flex-start;
+  pointer-events: none; /* Para que no interfiera con el drag del canvas */
+}
+
+.navigate-ui > * {
+  pointer-events: all; /* Reactiva los eventos para los elementos de la UI */
+}
+
+
+.timeline-info {
+  background: rgba(27, 31, 58, 0.8);
+  padding: 12px;
+  border-radius: 8px;
+  color: #cfe8ff;
+  font-size: 14px;
+  max-width: 250px;
+}
+.timeline-info p {
+  margin: 0;
+}
+.timeline-info p + p {
+  margin-top: 8px;
+}
+
+/* Estilos para el Tooltip (puedes reutilizar los de DataDotGrid si los tienes separados) */
+.data-tooltip {
+  position: absolute;
+  background: #0e1861cf;
+  border: 10px solid #19258D;
+  padding: 20px;
+  color: #cfe8ff;
+  pointer-events: none;
+  max-width: 280px;
+  z-index: 101;
+  box-shadow: 0 6px 20px rgba(0,0,0,0.35);
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  transition: opacity 0.2s ease-in-out;
+}
+
+.tooltip-platform {
+  color: #B5EBF8;
+  font-size: 14px;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.tooltip-title {
+  color: #FFFFFF;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.tooltip-artist {
+  color: rgba(216, 225, 255, 0.7);
+  font-size: 14px;
 }
