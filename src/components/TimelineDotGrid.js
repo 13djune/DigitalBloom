@@ -31,18 +31,14 @@ const pseudoRandom = (seed) => {
 /* ---------- COMPONENTE PRINCIPAL: TIMELINE ---------- */
 export default function TimelineDotGrid({
   data = [],
-  dotSize = 8,
-  gap = 18,
+  baseDotSize = 8,
+  baseGap = 18,
   baseColor = '#1B1F3A',
   activeColor = '#19258D',
   proximity = 100,
-  resistance = 700,
-  returnDuration = 1.25,
   hitTestPadding = 15,
   hoverScale = 1.2,
   tooltipOffset = { x: 30, y: 0 },
-  shockRadius = 250,
-  shockStrength = 5,
   colorMapping = { SPOTIFY: '#5ffd79', YOUTUBE: '#FF5353', TIKTOK: '#8170ff', INSTAGRAM: '#fb96e2', IPHONE: '#f2fb73', WHATSAPP: '#44be56', STREAMING: '#ffa536', GOOGLE: '#4285F4' },
   onSelect,
   onZoomChange,
@@ -52,6 +48,7 @@ export default function TimelineDotGrid({
   const tooltipRef = useRef(null);
   const dotsRef = useRef([]);
   const nodesRef = useRef([]);
+  
   const [hover, setHover] = useState(null);
   const [active, setActive] = useState(null);
   const [tooltip, setTooltip] = useState(null);
@@ -70,60 +67,46 @@ export default function TimelineDotGrid({
     return p;
   }, []);
 
-  const buildGrid = useCallback(() => {
-    const wrap = wrapRef.current, cvs = canvasRef.current;
-    if (!wrap || !cvs) return;
-
+  const buildAndLayout = useCallback(() => {
+    const wrap = wrapRef.current;
+    const cvs = canvasRef.current;
+    if (!wrap || !cvs || !Array.isArray(data)) return;
+    
     const { width, height } = wrap.getBoundingClientRect();
+    if (width === 0) return;
+
+    const currentDotSize = baseDotSize * view.zoom;
+    const currentGap = baseGap * view.zoom;
+    
     const dpr = window.devicePixelRatio || 1;
     cvs.width = width * dpr;
     cvs.height = height * dpr;
     cvs.style.width = `${width}px`;
     cvs.style.height = `${height}px`;
-
     const ctx = cvs.getContext('2d');
     ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
 
-    const cols = Math.floor((width + gap) / (dotSize + gap));
-    const rows = Math.floor((height + gap) / (dotSize + gap));
-    const cell = dotSize + gap;
-    const gridW = cell * cols - gap;
-    const gridH = cell * rows - gap;
-    const startX = (width - gridW) / 2 + dotSize / 2;
-    const startY = (height - gridH) / 2 + dotSize / 2;
-    const arr = [];
+    const cols = Math.floor((width + currentGap) / (currentDotSize + currentGap));
+    const rows = Math.floor((height + currentGap) / (currentDotSize + currentGap));
+    const cell = currentDotSize + currentGap;
+    const gridW = cell * cols - currentGap;
+    const gridH = cell * rows - currentGap;
+    const startX = (width - gridW) / 2 + currentDotSize / 2;
+    const startY = (height - gridH) / 2 + currentDotSize / 2;
+    
+    const newDots = [];
     for (let y = 0; y < rows; y++) {
       for (let x = 0; x < cols; x++) {
-        arr.push({ cx: startX + x * cell, cy: startY + y * cell, xOffset: 0, yOffset: 0, _inertia: false });
+        newDots.push({ cx: startX + x * cell, cy: startY + y * cell });
       }
     }
-    dotsRef.current = arr;
-  }, [dotSize, gap]);
+    dotsRef.current = newDots;
 
-  useEffect(() => {
-    buildGrid();
-    let ro;
-    if ('ResizeObserver' in window) {
-      ro = new ResizeObserver(buildGrid);
-      if (wrapRef.current) ro.observe(wrapRef.current);
-    } else {
-      window.addEventListener('resize', buildGrid);
-    }
-    return () => { ro ? ro.disconnect() : window.removeEventListener('resize', buildGrid); };
-  }, [buildGrid]);
-
-  const layoutNodes = useCallback(() => {
-    const wrap = wrapRef.current;
-    if (!wrap || !Array.isArray(data)) return;
-
-    const { width, height } = wrap.getBoundingClientRect();
     const lanes = { 1: height * 0.25, 2: height * 0.50, 3: height * 0.75 };
     const timeAnchors = { '4w': width * 0.2, '6m': width * 0.5, '1y': width * 0.8 };
     const CLUSTER_RADIUS = Math.min(width, height) * 0.1;
 
-    dotsRef.current.forEach(d => { d._taken = false; });
     const newNodes = [];
-    
     const normalizedData = data.map(d => ({
         ...d,
         id: d.id ?? `${d.platformId}-${Math.random()}`,
@@ -132,8 +115,10 @@ export default function TimelineDotGrid({
         platformKey: DEFAULT_PLATFORM_ID_TO_KEY[d.platformId] ?? 'UNKNOWN',
     }));
 
+    const availableDots = new Set(newDots.map((_, i) => i));
+
     for (const item of normalizedData) {
-      if (!item || !lanes[item.level] || !timeAnchors[item.timeBucket]) continue;
+      if (!item || !lanes[item.level] || !timeAnchors[item.timeBucket] || availableDots.size === 0) continue;
 
       const anchorY = lanes[item.level];
       const anchorX = timeAnchors[item.timeBucket];
@@ -143,55 +128,68 @@ export default function TimelineDotGrid({
       const targetX = anchorX + Math.cos(angle) * radius;
       const targetY = anchorY + Math.sin(angle) * radius;
 
-      let best = -1, bestDist = Infinity;
-      dotsRef.current.forEach((d, i) => {
-        if (d._taken) return;
+      let bestIndex = -1, bestDist = Infinity;
+      for (const i of availableDots) {
+        const d = newDots[i];
         const dist = Math.hypot(d.cx - targetX, d.cy - targetY);
-        if (dist < bestDist) { bestDist = dist; best = i; }
-      });
+        if (dist < bestDist) {
+          bestDist = dist;
+          bestIndex = i;
+        }
+      }
 
-      if (best >= 0) {
-        dotsRef.current[best]._taken = true;
+      if (bestIndex !== -1) {
+        availableDots.delete(bestIndex);
         newNodes.push({
-          id: item.id, item, gridIndex: best, baseR: dotSize,
+          id: item.id, item, gridIndex: bestIndex,
           color: colorMapping[item.platformKey] || '#9BA3B4'
         });
       }
     }
     nodesRef.current = newNodes;
-  }, [data, dotSize, colorMapping]);
 
-  useEffect(() => { if (wrapRef.current) layoutNodes(); }, [layoutNodes, data]);
+  }, [data, view.zoom, baseDotSize, baseGap, colorMapping]);
+
 
   useEffect(() => {
-    if (!circlePath) return;
-    let raf;
+    buildAndLayout();
+    window.addEventListener('resize', buildAndLayout);
+    return () => window.removeEventListener('resize', buildAndLayout);
+  }, [buildAndLayout]);
+
+  useEffect(() => {
+    let rafId;
     const draw = () => {
       const cvs = canvasRef.current;
       const ctx = cvs?.getContext('2d');
-      if (!ctx) return;
-
-      ctx.clearRect(0, 0, cvs.width, cvs.height);
-      ctx.save();
+      if (!ctx || dotsRef.current.length === 0) {
+        rafId = requestAnimationFrame(draw);
+        return;
+      }
       
-      ctx.translate(view.x, view.y);
-      ctx.scale(view.zoom, view.zoom);
+      ctx.clearRect(0, 0, cvs.width, cvs.height);
 
-      const hx = hover ? (dotsRef.current[hover.gridIndex]?.cx ?? -9999) + (dotsRef.current[hover.gridIndex]?.xOffset ?? 0) : -9999;
-      const hy = hover ? (dotsRef.current[hover.gridIndex]?.cy ?? -9999) + (dotsRef.current[hover.gridIndex]?.yOffset ?? 0) : -9999;
+      const currentDotSize = baseDotSize * view.zoom;
+      const panX = view.x;
+      const panY = view.y;
+
+      const hx = hover ? (dotsRef.current[hover.gridIndex]?.cx ?? -9999) + panX : -9999;
+      const hy = hover ? (dotsRef.current[hover.gridIndex]?.cy ?? -9999) + panY : -9999;
 
       dotsRef.current.forEach(dot => {
-        const ox = dot.cx + dot.xOffset;
-        const oy = dot.cy + dot.yOffset;
+        const finalX = dot.cx + panX;
+        const finalY = dot.cy + panY;
+
         let fill = baseColor;
-        const dsq = Math.hypot(dot.cx - hx, dot.cy - hy);
+        const dsq = Math.hypot(finalX - hx, finalY - hy);
         if (dsq <= proximity) {
           const t = 1 - dsq / proximity;
           fill = `rgb(${Math.round(baseRgb.r + (actRgb.r - baseRgb.r) * t)},${Math.round(baseRgb.g + (actRgb.g - baseRgb.g) * t)},${Math.round(baseRgb.b + (actRgb.b - baseRgb.b) * t)})`;
         }
+
         ctx.save();
-        ctx.translate(ox, oy);
-        ctx.scale(dotSize / 2, dotSize / 2);
+        ctx.translate(finalX, finalY);
+        ctx.scale(currentDotSize / 2, currentDotSize / 2);
         ctx.fillStyle = fill;
         ctx.fill(circlePath);
         ctx.restore();
@@ -202,9 +200,10 @@ export default function TimelineDotGrid({
         if (!dot) return;
         const isHover = hover?.gridIndex === n.gridIndex;
         const isActive = active?.gridIndex === n.gridIndex;
-        const x = dot.cx + dot.xOffset;
-        const y = dot.cy + dot.yOffset;
-        const R = n.baseR * (isHover ? hoverScale : 1);
+        const x = dot.cx + panX;
+        const y = dot.cy + panY;
+        const R = currentDotSize * (isHover ? hoverScale : 1);
+        
         ctx.save();
         ctx.translate(x, y);
         ctx.scale(R / 2, R / 2);
@@ -216,66 +215,43 @@ export default function TimelineDotGrid({
           ctx.beginPath();
           ctx.arc(x, y, (R / 2) * 0.85, 0, Math.PI * 2);
           ctx.strokeStyle = isActive ? 'rgba(255,255,255,0.95)' : 'rgba(255,255,255,0.85)';
-          ctx.lineWidth = 2 / view.zoom;
+          ctx.lineWidth = 2;
           ctx.stroke();
         }
       });
-      
-      ctx.restore();
-      raf = requestAnimationFrame(draw);
+      rafId = requestAnimationFrame(draw);
     };
     draw();
-    return () => cancelAnimationFrame(raf);
-  }, [circlePath, dotSize, baseColor, baseRgb, actRgb, proximity, hover, active, hoverScale, view]);
-
-  const screenToWorld = useCallback((px, py) => ({
-    x: (px - view.x) / view.zoom,
-    y: (py - view.y) / view.zoom,
-  }), [view]);
-
+    return () => cancelAnimationFrame(rafId);
+  }, [view, hover, active, baseColor, baseRgb, actRgb, circlePath, hoverScale, proximity, baseDotSize]);
+  
   useEffect(() => {
     const el = canvasRef.current;
     if (!el) return;
 
-    const hitTest = (worldX, worldY) => {
+    const hitTest = (mouseX, mouseY) => {
+      const currentDotSize = baseDotSize * view.zoom;
       for (const n of nodesRef.current) {
         const d = dotsRef.current[n.gridIndex];
         if (!d) continue;
-        const dsq = Math.hypot(worldX - (d.cx + d.xOffset), worldY - (d.cy + d.yOffset));
-        if (dsq < (n.baseR / 2) + hitTestPadding) return n;
+        const dsq = Math.hypot(mouseX - (d.cx + view.x), mouseY - (d.cy + view.y));
+        if (dsq < (currentDotSize / 2) + hitTestPadding) return n;
       }
       return null;
     };
     
     const onMove = e => {
       const rect = el.getBoundingClientRect();
-      const { x: worldX, y: worldY } = screenToWorld(e.clientX - rect.left, e.clientY - rect.top);
-      setHover(hitTest(worldX, worldY));
+      const mouseX = e.clientX - rect.left;
+      const mouseY = e.clientY - rect.top;
+      setHover(hitTest(mouseX, mouseY));
     };
     
     const onClick = e => {
       const rect = el.getBoundingClientRect();
-      const { x: worldX, y: worldY } = screenToWorld(e.clientX - rect.left, e.clientY - rect.top);
-      
-      dotsRef.current.forEach(dot => {
-        const dist = Math.hypot(dot.cx - worldX, dot.cy - worldY);
-        if (dist < shockRadius && !dot._inertia) {
-          dot._inertia = true;
-          gsap.killTweensOf(dot);
-          const falloff = Math.max(0, 1 - dist / shockRadius);
-          const pushX = (dot.cx - worldX) * shockStrength * falloff;
-          const pushY = (dot.cy - worldY) * shockStrength * falloff;
-          gsap.to(dot, {
-            inertia: { xOffset: pushX, yOffset: pushY, resistance },
-            onComplete: () => {
-              gsap.to(dot, { xOffset: 0, yOffset: 0, duration: returnDuration, ease: 'elastic.out(1,0.75)' });
-              dot._inertia = false;
-            }
-          });
-        }
-      });
-      
-      const n = hitTest(worldX, worldY);
+      const mouseX = e.clientX - rect.left;
+      const mouseY = e.clientY - rect.top;
+      const n = hitTest(mouseX, mouseY);
       setActive(n);
       if (n) onSelect?.(n.item);
     };
@@ -288,7 +264,7 @@ export default function TimelineDotGrid({
       el.removeEventListener('click', onClick);
       el.removeEventListener("mouseleave", () => setHover(null));
     };
-  }, [resistance, returnDuration, onSelect, hitTestPadding, shockRadius, shockStrength, screenToWorld]);
+  }, [view, onSelect, hitTestPadding, baseDotSize]);
 
   useEffect(() => {
     const cvs = canvasRef.current;
@@ -296,17 +272,8 @@ export default function TimelineDotGrid({
 
     const handleWheel = e => {
       e.preventDefault();
-      const rect = cvs.getBoundingClientRect();
-      const mouseX = e.clientX - rect.left;
-      const mouseY = e.clientY - rect.top;
-      const zoomFactor = e.deltaY > 0 ? 1 / 1.15 : 1.15;
-
-      setView(prev => {
-        const newZoom = Math.max(0.2, Math.min(5, prev.zoom * zoomFactor));
-        const newX = mouseX - (mouseX - prev.x) * (newZoom / prev.zoom);
-        const newY = mouseY - (mouseY - prev.y) * (newZoom / prev.zoom);
-        return { x: newX, y: newY, zoom: newZoom };
-      });
+      const zoomFactor = e.deltaY > 0 ? 1 / 1.1 : 1.1;
+      setView(prev => ({ ...prev, zoom: Math.max(0.5, Math.min(5, prev.zoom * zoomFactor)) }));
     };
 
     const handleMouseDown = e => { isDraggingRef.current = true; lastPosRef.current = { x: e.clientX, y: e.clientY }; cvs.style.cursor = 'grabbing'; };
@@ -337,14 +304,7 @@ export default function TimelineDotGrid({
   useEffect(() => {
     if (onZoomChange) {
       onZoomChange.current = (factor) => {
-        const { width, height } = canvasRef.current.getBoundingClientRect();
-        const centerX = width / 2, centerY = height / 2;
-        setView(prev => {
-          const newZoom = Math.max(0.2, Math.min(5, prev.zoom * factor));
-          const newX = centerX - (centerX - prev.x) * (newZoom / prev.zoom);
-          const newY = centerY - (centerY - prev.y) * (newZoom / prev.zoom);
-          return { x: newX, y: newY, zoom: newZoom };
-        });
+        setView(prev => ({ ...prev, zoom: Math.max(0.5, Math.min(5, prev.zoom * factor)) }));
       };
     }
   }, [onZoomChange]);
@@ -353,10 +313,8 @@ export default function TimelineDotGrid({
     if (!hover || !hover.item || active) { setTooltip(null); return; }
     const dot = dotsRef.current[hover.gridIndex];
     if (dot) {
-      const worldX = dot.cx + dot.xOffset;
-      const worldY = dot.cy + dot.yOffset;
-      const sourceX = worldX * view.zoom + view.x;
-      const sourceY = worldY * view.zoom + view.y;
+      const sourceX = dot.cx + view.x;
+      const sourceY = dot.cy + view.y;
       setTooltip(prev => (prev?.item?.id === hover.item.id) ? { ...prev, sourceX, sourceY } : { item: hover.item, sourceX, sourceY });
     }
   }, [hover, active, view]);
