@@ -59,7 +59,7 @@ export default function Navigate() {
         </div>
 
         <div className="timeline-info">
-          <p>Línea de tiempo con <strong>{allData.length}</strong> puntos de datos.</p>
+          <p>Línea de tiempo con <strong className='text-accent text-lg'>{allData.length}</strong> puntos de datos.</p>
           <p>Arrastra para moverte y usa la rueda del ratón o los botones para hacer zoom.</p>
         </div>
       </div>

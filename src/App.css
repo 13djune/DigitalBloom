@@ -584,11 +584,16 @@ margin: 0 0 0 8px;
   padding: 12px;
   border-radius: 8px;
   color: #cfe8ff;
-  font-size: 14px;
-  max-width: 250px;
+  font-size: 16px;
+  max-width: 300px;
+  position: fixed;
+  top: 1rem;
+  left: calc(50% - 125px);
 }
 .timeline-info p {
   margin: 0;
+justify-content: center;
+  text-align: center;
 }
 .timeline-info p + p {
   margin-top: 8px;
