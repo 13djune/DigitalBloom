@@ -185,10 +185,12 @@ export default function Explore() {
   ], []);
   const steps = useMemo(() => ([
     { selector: '#level-1', text: 'Puedes explorar los datos por niveles de conciencia.', placement: 'left' },
-    { selector: '#timeline', text: 'Y ver como cambian a lo largo del tiempo.', placement: 'top' },
+    { selector: '#timeline', text: 'Y ver cómo cambian a lo largo del tiempo.', placement: 'top' },
     { selector: '#btn-filter', text: 'Filtra los datos como quieras.', placement: 'right' },
-    { selector: '#btn-about', text: 'Conoce más sobre mi y el proyecto.', placement: 'right' },
+    { selector: '#btn-navigate', text: 'Haz clic aquí para navegar toda la huella completa.', placement: 'right' },
+    { selector: '#btn-about', text: 'Conoce más sobre mí y el proyecto.', placement: 'right' },
   ]), []);
+  
 
   useEffect(() => { setWalkthroughOpen(shouldShow); }, [shouldShow]);
   const handleSkipTutorial = useCallback(() => { setWalkthroughOpen(false); markSeen(); }, [markSeen]);

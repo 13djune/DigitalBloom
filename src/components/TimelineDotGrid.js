@@ -40,14 +40,14 @@ export default function TimelineDotGrid({
   hoverScale = 1.2,
   tooltipOffset = { x: 30, y: 0 },
   colorMapping = {
-    SPOTIFY: '#22FF8E',
-    YOUTUBE: '#FF5F5F',
-    TIKTOK: '#A184FF',
-    INSTAGRAM: '#FF8EDB',
-    IPHONE: '#F5F84E',
-    WHATSAPP: '#148500',
-    STREAMING: '#FFBA3B',
-    GOOGLE: '#77a9fa'
+  SPOTIFY: '#22FF8E',
+  YOUTUBE: '#FF5F5F',
+  TIKTOK: '#A184FF',
+  INSTAGRAM: '#FF8EDB',
+  IPHONE: '#F5F84E',
+  WHATSAPP: '#148500',
+  STREAMING: '#FFBA3B',
+  GOOGLE: '#77a9fa'
   },  onSelect,
   onZoomChange,
 }) {
