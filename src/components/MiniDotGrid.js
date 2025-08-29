@@ -8,14 +8,14 @@ import "../App.css";
 gsap.registerPlugin(InertiaPlugin);
 
 const colorMapping = {
-  SPOTIFY: '#5ffd79',
-  YOUTUBE: '#FF5353',
-  TIKTOK: '#8170ff',
-  INSTAGRAM: '#fb96e2',
-  IPHONE: '#f2fb73',
-  WHATSAPP: '#44be56',
-  STREAMING: '#ffa536',
-  GOOGLE: '#4285F4'
+  SPOTIFY: '#22FF8E',
+  YOUTUBE: '#FF5F5F',
+  TIKTOK: '#A184FF',
+  INSTAGRAM: '#FF8EDB',
+  IPHONE: '#F5F84E',
+  WHATSAPP: '#148500',
+  STREAMING: '#FFBA3B',
+  GOOGLE: '#77a9fa'
 };
 
 const getRandomColor = () => {

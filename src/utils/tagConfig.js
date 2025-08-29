@@ -11,7 +11,7 @@ const tagList = [
     { name: "Televisión", type: "dispositivo" }, { name: "iPad", type: "dispositivo" },
   
     // state
-    { name: "Liked", type: "state" }, { name: "Saved", type: "state" }, { name: "Bookmark", type: "state" },
+    { name: "Liked", type: "state" }, { name: "Saved", type: "state" }, { name: "Bookmark", type: "state" }, { name: "Following", type: "state" },
   
     // meta
     { name: "@email", type: "meta" }, { name: "#tlf", type: "meta" },

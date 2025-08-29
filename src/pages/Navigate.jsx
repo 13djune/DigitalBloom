@@ -32,7 +32,7 @@ export default function Navigate() {
 
   return (
     <div className="navigate-page bg-background">
-      <div className="timeline-labels z-30">
+      <div className="timeline-labels z-40">
         <div style={{ top: '25%' }}>DESEO</div>
         <div style={{ top: '50%' }}>CUERPO</div>
         <div style={{ top: '75%' }}>RASTRO</div>

@@ -45,10 +45,10 @@ const pseudoRandom = (seed) => {
 export default function DataDotGrid({
   data = [],
   filters,
-  dotSize = 10,
-  gap = 15,
+  dotSize = 8,
+  gap = 10,
   baseColor = '#1B1F3A',
-  activeColor = '#19258D',
+  activeColor = '#d9fef4',
   proximity = 120,
   speedTrigger = 120,
   resistance = 700,
@@ -59,9 +59,14 @@ export default function DataDotGrid({
   shockRadius = 250,
   shockStrength = 5,
   colorMapping = {
-    SPOTIFY: '#5ffd79', YOUTUBE: '#FF5353', TIKTOK: '#8170ff',
-    INSTAGRAM: '#fb96e2', IPHONE: '#f2fb73', WHATSAPP: '#44be56',
-    STREAMING: '#ffa536', GOOGLE: '#4285F4'
+    SPOTIFY: '#22FF8E',
+    YOUTUBE: '#FF5F5F',
+    TIKTOK: '#A184FF',
+    INSTAGRAM: '#FF8EDB',
+    IPHONE: '#F5F84E',
+    WHATSAPP: '#148500',
+    STREAMING: '#FFBA3B',
+    GOOGLE: '#77a9fa'
   },
   onSelect
 }) {
@@ -163,23 +168,23 @@ export default function DataDotGrid({
   const layoutNodes = useCallback(() => {
     const wrap = wrapRef.current;
     if (!wrap || !filters) return;
-
+  
     const { width, height } = wrap.getBoundingClientRect();
-    const SAFE_MARGINS = { top: 120, bottom: 140, left: 160, right: 160 };
+    const SAFE_MARGINS = { top: 160, bottom: 180, left: 220, right: 220 };
     const usableW = Math.max(320, width - SAFE_MARGINS.left - SAFE_MARGINS.right);
     const usableH = Math.max(240, height - SAFE_MARGINS.top - SAFE_MARGINS.bottom);
-
+  
     const rawPlatforms = (filters.platforms?.length ? filters.platforms : Object.keys(DEFAULT_PLATFORM_ID_TO_KEY))
       .map(Number)
       .filter(p => Number.isFinite(p) && DEFAULT_PLATFORM_ID_TO_KEY[p]);
-
+  
     const numClusters = Math.max(1, rawPlatforms.length);
-    const totalClusterWidth = numClusters * 180;
-    const availableWidth = Math.min(usableW * 0.60, totalClusterWidth);
+    const totalClusterWidth = numClusters * 240;
+    const availableWidth = Math.min(usableW * 0.75, totalClusterWidth);
     const startX = SAFE_MARGINS.left + (usableW - availableWidth) / 2;
     const stepX = numClusters > 1 ? availableWidth / (numClusters - 1) : 0;
     const anchorY = SAFE_MARGINS.top + usableH * 0.50;
-
+  
     const PLATFORM_ANCHORS = {};
     rawPlatforms.sort((a, b) => a - b).forEach((platformId, index) => {
       PLATFORM_ANCHORS[platformId] = {
@@ -187,39 +192,58 @@ export default function DataDotGrid({
         y: anchorY,
       };
     });
-
+  
     dotsRef.current.forEach(d => { d._taken = false; });
-    const clusterRadius = Math.min(70, Math.min(usableW, usableH) * 0.10);
-    const newNodes = [];
-
+  
+    // Agrupamos por plataforma
+    const grouped = {};
     for (const item of filtered) {
       if (!item || !Number.isFinite(item.platformId)) continue;
-      const anchor = PLATFORM_ANCHORS[item.platformId] || { x: SAFE_MARGINS.left + usableW / 2, y: anchorY };
-      const angle = (pseudoRandom('angle' + item.id) / 4294967295) * 2 * Math.PI;
-      const radius = Math.sqrt(pseudoRandom('radius' + item.id) / 4294967295) * clusterRadius;
-      const targetX = anchor.x + Math.cos(angle) * radius;
-      const targetY = anchor.y + Math.sin(angle) * radius;
-
-      let best = -1, bestDist = Infinity;
-      dotsRef.current.forEach((d, i) => {
-        if (d._taken) return;
-        const dist = Math.hypot(d.cx - targetX, d.cy - targetY);
-        if (dist < bestDist) { bestDist = dist; best = i; }
-      });
-
-      if (best >= 0) {
-        dotsRef.current[best]._taken = true;
-        newNodes.push({
-          id: item.id,
-          item,
-          gridIndex: best,
-          baseR: dotSize,
-          color: colorMapping[item.platformKey] || '#9BA3B4'
+      if (!grouped[item.platformId]) grouped[item.platformId] = [];
+      grouped[item.platformId].push(item);
+    }
+  
+    const newNodes = [];
+    const maxClusterRadius = 60;
+  
+    for (const [platformId, items] of Object.entries(grouped)) {
+      const anchor = PLATFORM_ANCHORS[platformId] || { x: SAFE_MARGINS.left + usableW / 2, y: anchorY };
+  
+      // Distribución dinámica: más puntos, más radio, hasta un límite
+      const dynamicRadius = Math.min(
+        maxClusterRadius,
+        20 + Math.sqrt(items.length) * 3
+      );
+  
+      for (const item of items) {
+        const angle = (pseudoRandom('angle' + item.id) / 4294967295) * 2 * Math.PI;
+        const radius = Math.sqrt(pseudoRandom('radius' + item.id) / 4294967295) * dynamicRadius;
+        const targetX = anchor.x + Math.cos(angle) * radius;
+        const targetY = anchor.y + Math.sin(angle) * radius;
+  
+        let best = -1, bestDist = Infinity;
+        dotsRef.current.forEach((d, i) => {
+          if (d._taken) return;
+          const dist = Math.hypot(d.cx - targetX, d.cy - targetY);
+          if (dist < bestDist) { bestDist = dist; best = i; }
         });
+  
+        if (best >= 0) {
+          dotsRef.current[best]._taken = true;
+          newNodes.push({
+            id: item.id,
+            item,
+            gridIndex: best,
+            baseR: dotSize,
+            color: colorMapping[item.platformKey] || '#9BA3B4'
+          });
+        }
       }
     }
+  
     nodesRef.current = newNodes;
   }, [filtered, filters, colorMapping, dotSize]);
+  
 
   useEffect(() => { if (wrapRef.current) layoutNodes(); }, [layoutNodes]);
 
