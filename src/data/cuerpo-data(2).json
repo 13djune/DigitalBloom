@@ -15160,7 +15160,7 @@
                 "title": "po eso que soy una marik4",
                 "artists": "@13djune",
                 "awareness": 2,
-                "timeBucket": "1y",
+                "timeBucket": "1y",   "platformId": 3,
                 "date": "2024-03-27",
                 "url": "https://video-useastred.tiktokv.eu/storage/v1/tos-useast2a-ve-0068-euttp/osI7hVGRQNAeAI4DLYfAeqUY8ELPA9DGeWzziW?a=1233&bti=dXB2cmJ2d3dodHVwcndvYndndXYxcm53ZmJya2BoXlxwcmIrb2NebV5eXGJyaHFmOg%3D%3D&ch=0&cr=0&dr=0&cd=0%7C0%7C0%7C0&cv=1&br=916&bt=458&cs=0&ds=6&ft=cvjKJGz7ThWHsYwQEGZmo0P&mime_type=video_mp4&qs=13&rc=ajM1bW85cnh5cjMzZjczM0BpajM1bW85cnh5cjMzZjczM0BebG5mMmRjMC5gLS1kMWNzYSNebG5mMmRjMC5gLS1kMWNzcw%3D%3D&l=20250825112646848496ECD73EB509C43B&btag=e000b0000&x-tos-algorithm=v2&x-tos-authkey=5bf25627da095a5cba28ace592de46cc&x-tos-expires=1756985213&x-tos-signature=A7VNvs-y_QlkdKG8X8JyE8er5qI",
                 "tags": [
@@ -15181,7 +15181,7 @@
               {
                 "id": "tiktok-post-2",
                 "title": "my friend group in different situations pero son estos desgraciaxs",
-                "artists": "@13djune",
+                "artists": "@13djune",   "platformId": 3,
                 "awareness": 2,
                 "timeBucket": "1y",
                 "date": "2024-02-09",
@@ -15204,7 +15204,7 @@
               {
                 "id": "tiktok-post-3",
                 "title": "me pilló",
-                "artists": "@13djune",
+                "artists": "@13djune",   "platformId": 3,
                 "awareness": 2,
                 "timeBucket": "1y",
                 "date": "2023-08-26",
@@ -15227,7 +15227,7 @@
               {
                 "id": "tiktok-post-4",
                 "title": "too much info for 1 tiktok💀 @Mrr",
-                "artists": "@13djune",
+                "artists": "@13djune",   "platformId": 3,
                 "awareness": 2,
                 "timeBucket": "1y",
                 "date": "2023-08-16",
@@ -15250,7 +15250,7 @@
               {
                 "id": "tiktok-post-5",
                 "title": "soy una simp y una pastelosa.. Y KHE?!?!@Mrr sorry not sorry",
-                "artists": "@13djune",
+                "artists": "@13djune",   "platformId": 3,
                 "awareness": 2,
                 "timeBucket": "1y",
                 "date": "2023-06-26",
@@ -15273,7 +15273,7 @@
               {
                 "id": "tiktok-post-6",
                 "title": "jamster #secret #dead #hamster ya lo saben😔",
-                "artists": "@13djune",
+                "artists": "@13djune",   "platformId": 3,
                 "awareness": 2,
                 "timeBucket": "1y",
                 "date": "2021-03-30",
@@ -15296,7 +15296,7 @@
               {
                 "id": "tiktok-post-7",
                 "title": "",
-                "artists": "@13djune",
+                "artists": "@13djune",   "platformId": 3,
                 "awareness": 2,
                 "timeBucket": "1y",
                 "date": "2020-12-24",
@@ -15319,7 +15319,7 @@
               {
                 "id": "tiktok-post-8",
                 "title": "#couplegoals #amigues #pareja #parejafalsa",
-                "artists": "@13djune",
+                "artists": "@13djune",   "platformId": 3,
                 "awareness": 2,
                 "timeBucket": "1y",
                 "date": "2020-12-10",
@@ -15342,7 +15342,7 @@
               {
                 "id": "tiktok-post-9",
                 "title": "eew",
-                "artists": "@13djune",
+                "artists": "@13djune",   "platformId": 3,
                 "awareness": 2,
                 "timeBucket": "1y",
                 "date": "2020-12-01",
@@ -15365,7 +15365,7 @@
               {
                 "id": "tiktok-post-10",
                 "title": "",
-                "artists": "@13djune",
+                "artists": "@13djune",   "platformId": 3,
                 "awareness": 2,
                 "timeBucket": "1y",
                 "date": "2020-10-09",
@@ -15388,7 +15388,7 @@
               {
                 "id": "tiktok-post-11",
                 "title": "",
-                "artists": "@13djune",
+                "artists": "@13djune",   "platformId": 3,
                 "awareness": 2,
                 "timeBucket": "1y",
                 "date": "2020-08-31",
