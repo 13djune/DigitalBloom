@@ -103,6 +103,8 @@ import googleImg from '../assets/img/GOOGLE.PNG';
     WHATSAPP: '#148500',
     STREAMING: '#FFBA3B',
     GOOGLE: '#77a9fa',
+    OTRO: '#FFFFFF', // Añadido para consistencia
+
   };
   
   export const platformImages = {
@@ -115,3 +117,14 @@ import googleImg from '../assets/img/GOOGLE.PNG';
     7: streamingImg,
     8: googleImg,
   };
+  export const platformConfig = [
+    { id: 1, name: 'Spotify', color: colorMapping.SPOTIFY, image: spotifyImg },
+    { id: 2, name: 'Youtube', color: colorMapping.YOUTUBE, image: youtubeImg },
+    { id: 3, name: 'TikTok', color: colorMapping.TIKTOK, image: tiktokImg },
+    { id: 4, name: 'Instagram', color: colorMapping.INSTAGRAM, image: instagramImg },
+    { id: 5, name: 'iPhone', color: colorMapping.IPHONE, image: iphoneImg },
+    { id: 6, name: 'Whatsapp', color: colorMapping.WHATSAPP, image: whatsappImg },
+    { id: 7, name: 'Streaming', color: colorMapping.STREAMING, image: streamingImg },
+    { id: 8, name: 'Google', color: colorMapping.GOOGLE, image: googleImg },
+    { id: 0, name: 'Otro', color: colorMapping.OTRO, image: null } // ID 0 para 'Otro'
+];
