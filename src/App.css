@@ -592,9 +592,9 @@ margin: 0 0 0 8px;
   pointer-events: all;
 }
 .timeline-info {
-  background: rgba(27, 31, 58, 0.8);
-  padding: 12px;
-  border-radius: 8px;
+  backdrop-filter: blur(15px);
+
+  padding: 12px 24px;
   color: #cfe8ff;
   font-size: 16px;
   max-width: 300px;
@@ -657,7 +657,7 @@ justify-content: center;
  
   padding: 12px 18px;
   color: #B5EBF8;
-  font-size: 0.85rem;
+  font-size: 1.2rem;
   pointer-events: none;
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
   transition: opacity 0.3s ease, transform 0.3s ease;
@@ -716,7 +716,7 @@ justify-content: center;
   color: #B5EBF8;
   text-transform: uppercase;
   letter-spacing: 1.5px;
-  font-size: 0.9rem;
+  font-size: 1.2rem;
   padding-bottom: 6px;
   border-bottom: 1px solid rgba(255, 255, 255, 0.15);
 }
@@ -725,6 +725,7 @@ justify-content: center;
   display: flex;
   align-items: center;
   margin-bottom: 8px;
+  font-size: 1.1rem;
 }
 .legend-item:last-child {
    margin-bottom: 0;
@@ -771,4 +772,8 @@ justify-content: center;
     color: #B5EBF8;
     letter-spacing: 1px;
     padding: 12px 18px;
+    align-items: center;
+}
+.ad{
+  color: #14172a;
 }

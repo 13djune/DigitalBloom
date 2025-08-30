@@ -46,7 +46,7 @@ export default function DataDotGrid({
   data = [],
   filters,
   dotSize = 12,
-  gap = 14,
+  gap = 12,
   baseColor = '#1B1F3A',
   activeColor = '#d9fef4',
   proximity = 120,
@@ -82,12 +82,12 @@ export default function DataDotGrid({
   const baseRgb = useMemo(() => hexToRgb(baseColor), [baseColor]);
   const actRgb = useMemo(() => hexToRgb(activeColor), [activeColor]);
 
-  const circlePath = useMemo(() => {
+  const squarePath = useMemo(() => {
     if (typeof window === 'undefined') return null;
     const p = new window.Path2D();
-    p.arc(0, 0, 1, 0, Math.PI * 2);
+    p.rect(-1, -1, 2, 2); // cuadrado centrado
     return p;
-  }, []);
+}, []);
 
   /* ---------- Construcción de la grilla de puntos ---------- */
   const buildGrid = useCallback(() => {
@@ -257,7 +257,7 @@ export default function DataDotGrid({
 
   /* ---------- Bucle de dibujado en Canvas ---------- */
   useEffect(() => {
-    if (!circlePath) return;
+    if (!squarePath) return;
     let raf;
     const draw = () => {
       const cvs = canvasRef.current;
@@ -281,7 +281,7 @@ export default function DataDotGrid({
         ctx.translate(ox, oy);
         ctx.scale(dotSize / 2, dotSize / 2);
         ctx.fillStyle = fill;
-        ctx.fill(circlePath);
+        ctx.fill(squarePath);
         ctx.restore();
       });
 
@@ -297,23 +297,25 @@ export default function DataDotGrid({
         ctx.translate(x, y);
         ctx.scale(R / 2, R / 2);
         ctx.fillStyle = n.color;
-        ctx.fill(circlePath);
+        ctx.fill(squarePath);
         ctx.restore();
 
         if (isHover || isActive) {
+          const side = (R / 2) * 1.2 * 2;
           ctx.beginPath();
-          ctx.arc(x, y, (R / 2) * 0.85, 0, Math.PI * 2);
-          ctx.strokeStyle = isActive ? 'rgba(255,255,255,0.95)' : 'rgba(255,255,255,0.85)';
+          ctx.rect(dot.cx - side / 2, dot.cy - side / 2, side, side);
+          ctx.strokeStyle = isActive ? '#3be9c9' : 'rgba(255,255,255,0.85)';
           ctx.lineWidth = 2;
           ctx.stroke();
-        }
+      }
+      
       });
 
       raf = requestAnimationFrame(draw);
     };
     draw();
     return () => cancelAnimationFrame(raf);
-  }, [circlePath, dotSize, baseColor, baseRgb, actRgb, proximity, hover, active, hoverScale]);
+  }, [squarePath, dotSize, baseColor, baseRgb, actRgb, proximity, hover, active, hoverScale]);
 
   /* ---------- Eventos de Interacción (Ratón) ---------- */
   useEffect(() => {

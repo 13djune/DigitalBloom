@@ -23,15 +23,22 @@ const pseudoRandom = (seed) => {
 /* ---------- COMPONENTE PRINCIPAL: TIMELINE ---------- */
 export default function TimelineDotGrid({
     data = [],
-    baseDotSize = 8,
-    baseGap = 12,
+    baseDotSize = 12,
+    baseGap = 10,
     baseColor = '#1B1F3A',
     hitTestPadding = 15,
     hoverScale = 1.2,
     tooltipOffset = { x: 30, y: 0 },
     colorMapping = {
-        SPOTIFY: '#22FF8E', YOUTUBE: '#FF5F5F', TIKTOK: '#A184FF', INSTAGRAM: '#FF8EDB',
-        IPHONE: '#F5F84E', WHATSAPP: '#148500', STREAMING: '#FFBA3B', GOOGLE: '#77a9fa'
+      SPOTIFY: '#30FF9A',
+      YOUTUBE: '#FF7373',
+      TIKTOK: '#C5AFFF',    // Se mantiene el morado lavanda
+      INSTAGRAM: '#FFB5F2',
+      IPHONE: '#F8FA6E',
+      WHATSAPP: '#29B31E',
+      STREAMING: '#FFC766',
+      GOOGLE: '#79F8F8',    // Cambiado a un cian brillante para máxima distinción
+      OTRO: '#FFFFFF',
     },
     onSelect,
     onZoomChange,
@@ -40,21 +47,21 @@ export default function TimelineDotGrid({
     const wrapRef = useRef(null);
     const canvasRef = useRef(null);
     const tooltipRef = useRef(null);
-    const dotsRef = useRef([]); 
+    const dotsRef = useRef([])  ; 
     const nodesRef = useRef([]);
     const gridMetricsRef = useRef({}); // Para optimizar la búsqueda de puntos
 
     const [hover, setHover] = useState(null);
     const [active, setActive] = useState(null);
     const [tooltip, setTooltip] = useState(null);
-    const [view, setView] = useState({ zoom: 1 });
-
-    const circlePath = useMemo(() => {
-        if (typeof window === 'undefined') return null;
-        const p = new window.Path2D();
-        p.arc(0, 0, 1, 0, Math.PI * 2);
-        return p;
-    }, []);
+    const [view, setView] = useState({ zoom: 0.5 });
+        const squarePath = useMemo(() => {
+      if (typeof window === 'undefined') return null;
+      const p = new window.Path2D();
+      p.rect(-1, -1, 2, 2); // cuadrado centrado
+      return p;
+  }, []);
+  
 
     const buildAndLayout = useCallback(() => {
         const wrap = wrapRef.current;
@@ -159,7 +166,7 @@ export default function TimelineDotGrid({
             const guessY = Math.round((targetY - startY) / cell);
             let bestIndex = -1;
             
-            for (let r = 0; r < 20 && bestIndex === -1; r++) { // Aumentado el radio de búsqueda
+            for (let r = 0; r < 25 && bestIndex === -1; r++) { // Aumentado el radio de búsqueda
                 for (let i = -r; i <= r; i++) {
                     for (let j = -r; j <= r; j++) {
                         if (Math.abs(i) !== r && Math.abs(j) !== r) continue;
@@ -211,8 +218,8 @@ export default function TimelineDotGrid({
             dotsRef.current.forEach(dot => {
                 ctx.save();
                 ctx.translate(dot.cx, dot.cy);
-                ctx.scale(currentDotSize / 4, currentDotSize / 4); // Puntos pequeños
-                ctx.fill(circlePath);
+                ctx.scale(baseDotSize / 4, baseDotSize / 4);
+                ctx.fill(squarePath);
                 ctx.restore();
             });
 
@@ -228,22 +235,24 @@ export default function TimelineDotGrid({
                 ctx.translate(dot.cx, dot.cy);
                 ctx.scale(R / 2, R / 2);
                 ctx.fillStyle = n.color;
-                ctx.fill(circlePath);
+                ctx.fill(squarePath);
                 ctx.restore();
 
                 if (isHover || isActive) {
-                    ctx.beginPath();
-                    ctx.arc(dot.cx, dot.cy, (R / 2) * 1.2, 0, Math.PI * 2);
-                    ctx.strokeStyle = isActive ? 'rgba(255,255,255,0.95)' : 'rgba(255,255,255,0.85)';
-                    ctx.lineWidth = 2;
-                    ctx.stroke();
-                }
+                  const side = (R / 2) * 1.2 * 2;
+                  ctx.beginPath();
+                  ctx.rect(dot.cx - side / 2, dot.cy - side / 2, side, side);
+                  ctx.strokeStyle = isActive ? '#3be9c9' : 'rgba(255,255,255,0.85)';
+                  ctx.lineWidth = 2;
+                  ctx.stroke();
+              }
+              
             });
             rafId = requestAnimationFrame(draw);
         };
         draw();
         return () => cancelAnimationFrame(rafId);
-    }, [view, hover, active, circlePath, hoverScale, baseDotSize, baseColor]);
+    }, [view, hover, active, squarePath, hoverScale, baseDotSize, baseColor]);
   
     useEffect(() => {
         const el = canvasRef.current;

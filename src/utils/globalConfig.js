@@ -95,17 +95,17 @@ import googleImg from '../assets/img/GOOGLE.PNG';
 
   
   export const colorMapping = {
-    SPOTIFY: '#22FF8E',
-    YOUTUBE: '#FF5F5F',
-    TIKTOK: '#A184FF',
-    INSTAGRAM: '#FF8EDB',
-    IPHONE: '#F5F84E',
-    WHATSAPP: '#148500',
-    STREAMING: '#FFBA3B',
-    GOOGLE: '#77a9fa',
-    OTRO: '#FFFFFF', // Añadido para consistencia
-
+    SPOTIFY: '#30FF9A',
+    YOUTUBE: '#FF7373',
+    TIKTOK: '#C5AFFF',   
+    INSTAGRAM: '#FFB5F2',
+    IPHONE: '#F8FA6E',
+    WHATSAPP: '#29B31E',
+    STREAMING: '#FFC766',
+    GOOGLE: '#79F8F8',   
+    OTRO: '#FFFFFF',
   };
+  
   
   export const platformImages = {
     1: spotifyImg,

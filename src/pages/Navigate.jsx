@@ -169,14 +169,7 @@ function LayoutLegends({ organization }) {
         </div>
       )}
 
-      {/* --- LEYENDA HORIZONTAL DE NIVELES DE CONCIENCIA (SOLO PARA VISTA "TIEMPO") --- */}
-      {organization === 'time' && (
-        <div className="screen-legend legend-top-center">
-          <div className="legend-horizontal-items">
-            {AWARENESS_LEVELS.map(level => <div key={level}>{level}</div>)}
-          </div>
-        </div>
-      )}
+
 
       {/* --- LEYENDA HORIZONTAL PARA VISTA "CONCIENCIA" --- */}
       {organization === 'awareness' && (

@@ -77,13 +77,12 @@ const MiniDotGrid = ({
   const baseRgb = useMemo(() => hexToRgb(baseColor), [baseColor]);
   const activeRgb = useMemo(() => hexToRgb(activeColor), [activeColor]);
 
-  const circlePath = useMemo(() => {
-    if (typeof window === "undefined" || !window.Path2D) return null;
-
+  const squarePath = useMemo(() => {
+    if (typeof window === 'undefined') return null;
     const p = new window.Path2D();
-    p.arc(0, 0, dotSize / 2, 0, Math.PI * 2);
+    p.rect(-1, -1, 2, 2); // cuadrado centrado
     return p;
-  }, [dotSize]);
+}, []);
 
   const buildGrid = useCallback(() => {
     const wrap = wrapperRef.current;
@@ -125,7 +124,7 @@ const MiniDotGrid = ({
   }, [dotSize, gap]);
 
   useEffect(() => {
-    if (!circlePath) return;
+    if (!squarePath) return;
 
     let rafId;
     const proxSq = proximity * proximity;
@@ -159,7 +158,7 @@ const MiniDotGrid = ({
         ctx.save();
         ctx.translate(ox, oy);
         ctx.fillStyle = style;
-        ctx.fill(circlePath);
+        ctx.fill(squarePath);
         ctx.restore();
       }
 
@@ -168,7 +167,7 @@ const MiniDotGrid = ({
 
     draw();
     return () => cancelAnimationFrame(rafId);
-  }, [proximity, baseColor, activeRgb, baseRgb, circlePath]);
+  }, [proximity, baseColor, activeRgb, baseRgb, squarePath]);
 
   useEffect(() => {
     buildGrid();
