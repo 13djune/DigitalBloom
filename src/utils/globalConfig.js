@@ -1,6 +1,15 @@
-// src/utils/tagConfig.js
+// src/utils/globalConfig.js
 import '../styles/filters.css'
-const tagList = [
+import spotifyImg from '../assets/img/SPOTIFY.PNG';
+import youtubeImg from '../assets/img/YOUTUBE.PNG';
+import tiktokImg from '../assets/img/TIKTOK.PNG';
+import instagramImg from '../assets/img/INSTAGRAM.PNG';
+import iphoneImg from '../assets/img/IPHONE.PNG';
+import whatsappImg from '../assets/img/WHATSAPP.PNG';
+import streamingImg from '../assets/img/STREAMING.PNG';
+import googleImg from '../assets/img/GOOGLE.PNG';
+
+ export const tagList = [
     // consciencia
     { name: "Inconsciente", type: "consciencia" }, { name: "Propio", type: "consciencia" },
     { name: "Contaminado", type: "consciencia" }, { name: "Consciente", type: "consciencia" },
@@ -83,5 +92,26 @@ const tagList = [
     { name: "Llamadas", type: "other" },
   ];
   
-  export default tagList;
+
   
+  export const colorMapping = {
+    SPOTIFY: '#22FF8E',
+    YOUTUBE: '#FF5F5F',
+    TIKTOK: '#A184FF',
+    INSTAGRAM: '#FF8EDB',
+    IPHONE: '#F5F84E',
+    WHATSAPP: '#148500',
+    STREAMING: '#FFBA3B',
+    GOOGLE: '#77a9fa',
+  };
+  
+  export const platformImages = {
+    1: spotifyImg,
+    2: youtubeImg,
+    3: tiktokImg,
+    4: instagramImg,
+    5: iphoneImg,
+    6: whatsappImg,
+    7: streamingImg,
+    8: googleImg,
+  };

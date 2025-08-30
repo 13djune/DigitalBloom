@@ -292,4 +292,11 @@
   },
   .accent{
     color: #3be9c99c;
-  } */
+  } *//* filters.css o donde apliques estilos */
+.plat-icon {
+  width: max-content;
+  height: max-content;
+  object-fit: contain;
+  padding: 1rem;
+  pointer-events: none;
+}

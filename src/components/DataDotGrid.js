@@ -45,8 +45,8 @@ const pseudoRandom = (seed) => {
 export default function DataDotGrid({
   data = [],
   filters,
-  dotSize = 8,
-  gap = 10,
+  dotSize = 12,
+  gap = 14,
   baseColor = '#1B1F3A',
   activeColor = '#d9fef4',
   proximity = 120,
@@ -178,22 +178,7 @@ export default function DataDotGrid({
       .map(Number)
       .filter(p => Number.isFinite(p) && DEFAULT_PLATFORM_ID_TO_KEY[p]);
   
-    const numClusters = Math.max(1, rawPlatforms.length);
-    const totalClusterWidth = numClusters * 240;
-    const availableWidth = Math.min(usableW * 0.75, totalClusterWidth);
-    const startX = SAFE_MARGINS.left + (usableW - availableWidth) / 2;
-    const stepX = numClusters > 1 ? availableWidth / (numClusters - 1) : 0;
     const anchorY = SAFE_MARGINS.top + usableH * 0.50;
-  
-    const PLATFORM_ANCHORS = {};
-    rawPlatforms.sort((a, b) => a - b).forEach((platformId, index) => {
-      PLATFORM_ANCHORS[platformId] = {
-        x: numClusters === 1 ? SAFE_MARGINS.left + usableW / 2 : startX + index * stepX,
-        y: anchorY,
-      };
-    });
-  
-    dotsRef.current.forEach(d => { d._taken = false; });
   
     // Agrupamos por plataforma
     const grouped = {};
@@ -203,13 +188,34 @@ export default function DataDotGrid({
       grouped[item.platformId].push(item);
     }
   
+    const totalItems = filtered.length;
+    const totalClusterWidth = Math.min(usableW * 0.75, totalItems * 25); // 25 px por ítem aprox
+    const spacePerItem = totalClusterWidth / totalItems;
+    const startX = SAFE_MARGINS.left + (usableW - totalClusterWidth) / 2;
+  
+    let currentX = startX;
+    const PLATFORM_ANCHORS = {};
+  
+    rawPlatforms.sort((a, b) => a - b).forEach((platformId) => {
+      const groupSize = grouped[platformId]?.length || 1;
+      const groupWidth = groupSize * spacePerItem;
+  
+      PLATFORM_ANCHORS[platformId] = {
+        x: currentX + groupWidth / 2,
+        y: anchorY,
+      };
+  
+      currentX += groupWidth;
+    });
+  
+    dotsRef.current.forEach(d => { d._taken = false; });
+  
     const newNodes = [];
     const maxClusterRadius = 60;
   
     for (const [platformId, items] of Object.entries(grouped)) {
       const anchor = PLATFORM_ANCHORS[platformId] || { x: SAFE_MARGINS.left + usableW / 2, y: anchorY };
   
-      // Distribución dinámica: más puntos, más radio, hasta un límite
       const dynamicRadius = Math.min(
         maxClusterRadius,
         20 + Math.sqrt(items.length) * 3
@@ -241,8 +247,10 @@ export default function DataDotGrid({
       }
     }
   
+    console.log(`👉 Total nodos visibles: ${newNodes.length}`);
     nodesRef.current = newNodes;
   }, [filtered, filters, colorMapping, dotSize]);
+  
   
 
   useEffect(() => { if (wrapRef.current) layoutNodes(); }, [layoutNodes]);
@@ -402,8 +410,6 @@ export default function DataDotGrid({
 
   /* ---------- Lógica del Tooltip ---------- */
   useEffect(() => {
-    // CORRECCIÓN: Si no hay 'hover', o el 'item' dentro de 'hover' no existe, 
-    // o hay un dot activo, nos aseguramos de que no haya tooltip.
     if (!hover || !hover.item || active) {
       setTooltip(null);
       return;
@@ -415,8 +421,7 @@ export default function DataDotGrid({
       const sourceY = dot.cy + dot.yOffset;
       
       setTooltip(prev => {
-        // La comparación ahora es más segura. 
-        // Usamos 'prev?.item?.id' por si 'prev.item' tampoco existiera.
+        //  'prev?.item?.id' por si 'prev.item' tampoco existiera.
         if (prev?.item?.id === hover.item.id) {
           return { ...prev, sourceX, sourceY };
         }

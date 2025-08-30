@@ -3,7 +3,7 @@ import { useMemo, useState } from "react";
 import { Icon } from "@iconify/react";
 import "../styles/filters.css";
 import PixelButton from "./PixelButton";
-import tagList from "../utils/tagConfig";
+import { tagList, platformImages } from "../utils/globalConfig";
 
 export default function FiltersInline({ onApply, onReset }) {
   // Estado
@@ -26,12 +26,22 @@ export default function FiltersInline({ onApply, onReset }) {
     () => [
       { id: 1, line1: "ULTIMAS", line2: "4 SEMANAS" },
       { id: 2, line1: "ULTIMOS", line2: "6 MESES" },
-      { id: 3, line1: "ULTIMO",  line2: "AÑO" },
+      { id: 3, line1: "ULTIMO", line2: "AÑO" },
     ],
     []
   );
 
-  const platformItems = useMemo(() => Array.from({ length: 8 }, (_, i) => ({ id: i + 1 })), []);
+  const platformItems = useMemo(() => [
+    { id: 1, name: "Spotify" },
+    { id: 2, name: "YouTube" },
+    { id: 3, name: "TikTok" },
+    { id: 4, name: "Instagram" },
+    { id: 5, name: "iPhone" },
+    { id: 6, name: "WhatsApp" },
+    { id: 7, name: "Streaming" },
+    { id: 8, name: "Google" },
+  ], []);
+
   const allTags = useMemo(() => {
     const typeOrder = ['consciencia', 'dispositivo', 'state', 'meta', 'topic', 'genre', 'lang', 'other'];
     return tagList
@@ -161,8 +171,14 @@ export default function FiltersInline({ onApply, onReset }) {
                   className={`plat-tile cursor-target ${active ? "is-active" : ""}`}
                   onClick={() => togglePlatform(p.id)}
                   aria-pressed={active}
-                  title={`Plataforma ${p.id}`}
-                />
+                  title={p.name}
+                >
+                  <img
+                    src={platformImages[p.id]}
+                    alt={p.name}
+                    className="plat-icon"
+                  />
+                </button>
               );
             })}
           </div>
@@ -202,4 +218,3 @@ export default function FiltersInline({ onApply, onReset }) {
     </section>
   );
 }
-

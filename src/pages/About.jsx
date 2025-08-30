@@ -10,10 +10,22 @@ import Avatar from "../assets/img/avatar.png";
 import "../styles/about.css";
 import "../index.css";
 import MiniDotGrid from "../components/MiniDotGrid";
+import { Link } from "react-router-dom";
+import { platformImages, colorMapping, tagList } from "../utils/globalConfig";
 
 export default function About() {
     const navigate = useNavigate();
-
+    const platformsInfo = [
+      { id: 1, name: "Spotify", description: "Esta es mi propia cuenta desde 2017. Para ir a algún sitio o concentrarme me pongo música.", color: colorMapping.SPOTIFY ,  tags: tagList.filter(tag => ["Música", "Entretenimiento", "Propio", "@email"].includes(tag.name)) },
+      { id: 2, name: "YouTube", description: "Sobretodo lo uso para distraerme o para dormir, a veces para ver tutoriales.", color: colorMapping.YOUTUBE ,   tags: tagList.filter(tag => ["Vídeo", "Educativo", "Humor", "Entretenimiento", "Propio", "@email"].includes(tag.name)) },
+      { id: 3, name: "TikTok", description: "Dejé de usarlo hace un tiempo pero aún tengo acceso a la cuenta. A veces lo uso para buscar cosas.", color: colorMapping.TIKTOK ,   tags: tagList.filter(tag => ["Inspiración", "Entretenimiento","Educativo", "Humor", "Social", "Propio", "#tlf"].includes(tag.name)) },
+      { id: 4, name: "Instagram", description: "Es mi red social más usada, la tengo desde 2015 o así.", color: colorMapping.INSTAGRAM,tags: tagList.filter(tag =>["Social", "Educativo", "Entretenimiento","Inspiración", "Propio", "@email", "#tlf"].includes(tag.name)) },
+      { id: 5, name: "iPhone", description: "Aquí se encontrarán los datos de aplicaciones como: Salud, Tiempo de uso,...", color: colorMapping.IPHONE,   tags: tagList.filter(tag => ["Salud", "Educativo", "Humor", "Utilidades", "Propio"].includes(tag.name)) },
+      { id: 6, name: "WhatsApp", description: "Esta App es la que más uso de mensajería, ni me acuerdo cuándo empecé a usarla.", color: colorMapping.WHATSAPP,  tags: tagList.filter(tag => ["Mensajería", "Social", "Humor", "Propio", "#tlf"].includes(tag.name)) },
+      { id: 7, name: "Streaming", description: "Esta sección se compone de plataformas como Netflix o Prime Video.", color: colorMapping.STREAMING, tags: tagList.filter(tag => ["Cine", "Series", "Entretenimiento", "Compartido", "@email"].includes(tag.name)) },
+      { id: 8, name: "Google", description: "Todo lo que esté enlazado con esta plataforma, como Google Maps o Gmail, estará aquí.", color: colorMapping.GOOGLE,  tags: tagList.filter(tag => ["Utilidades", "Ubicaciones", "Mensajería", "Propio", "@email"].includes(tag.name)) },
+    ];
+    
     const buildSearch = ({ level, time, platforms = [], tags = [] }) => {
       const sp = new URLSearchParams();
       if (level) sp.set("level", String(level));
@@ -57,7 +69,7 @@ export default function About() {
           {/* Hero: título + texto / imagen */}
           <section className="flex flex-row gap-10 md:gap-14 items-center">
             <div className=" w-[60dvw]">
-              <h1 className="text-3xl md:text-4xl font-extrabold tracking-wide mb-6">
+              <h1 className="text-4xl md:text-5xl font-extrabold tracking-wide mb-6 ">
                 Digital Bloom
               </h1>
 
@@ -84,10 +96,15 @@ export default function About() {
                 La idea es <span className=" text-accent">invitarte a que explores y pienses en la historia que se esconde detrás de nuestros datos</span>, y en cómo las cosas más normales del día a día pueden acabar siendo algo muy propio.
 
                 </p>
-                <p className="text-2xl text-accent font-semibold">
-                  ¿Te animas a explorar mi huella digital?
+                <p className="text-2xl text-accent ">
+                  ¿Te animas a navegar en mi huella digital?
 
                    </p>
+                   <Link to="/navigate">
+          <PixelButton className="cursor-target mt-[2rem]">
+Navegar               <Icon icon="pixelarticons:map" width="18" height="18" />
+</PixelButton>
+          </Link>
               </div>
             </div>
 
@@ -100,6 +117,9 @@ export default function About() {
 
           {/* ===== Filtros inline (NO popup) ===== */}
           <section className="mt-10 md:mt-14">
+          <p className="text-2xl text-accent">
+También puedes filtrar mi huella digital y explorar poco a poco:
+                   </p>
             <FiltersInline
               onApply={handleExplore}
               onReset={() => console.log("Reset filtros")}
@@ -195,45 +215,66 @@ export default function About() {
                 </p>
               </div>
             </div>
+            <div className="mt-12 flex justify-end">
+          </div>
           </section>
+         
 
           {/* Plataformas (cuadrícula de cuadrados) */}
-          <section className="mt-14 md:mt-20">
-            <h3 className="text-lg font-bold tracking-wide mb-4">MIS PLATAFORMAS</h3>
+          <section className="mt-14 md:mt-20 relative z-10 overflow-visible">
+          <h3 className="text-2xl font-bold tracking-wide mb-4">MIS PLATAFORMAS</h3>
 
-            <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 gap-6 mb-8">
-              {Array.from({ length: 5 }).map((_, i) => (
-                <div
-                  key={i}
-                  className="aspect-square border-[4px] border-[#9ed6e2] bg-transparent"
-                />
-              ))}
-            </div>
+  <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-12 mb-8">
+  {platformsInfo.map((platform) => (
+  <div
+    key={platform.id}
+    className="relative aspect-square border-[4px] border-[#9ed6e2] bg-[#0c111c] flex items-center justify-center overflow-visible cursor-pointer"
+    style={{ backgroundColor: `${platform.color}B3` }} // 70% opacidad
+    onMouseEnter={(e) => {
+      const tooltip = e.currentTarget.querySelector('.platform-tooltip');
+      if (tooltip) tooltip.style.opacity = '1';
+    }}
+    onMouseLeave={(e) => {
+      const tooltip = e.currentTarget.querySelector('.platform-tooltip');
+      if (tooltip) tooltip.style.opacity = '0';
+    }}
+  >
+    {/* Imagen */}
+    <img
+      src={platformImages[platform.id]}
+      alt={platform.name}
+      className="w-[50%] h-[50%] object-contain z-10 transition-transform duration-300 hover:scale-110"
+    />
 
-            {/* Dos tarjetas de ejemplo, como en el mock */}
-            <div className="grid sm:grid-cols-2 gap-6">
-              <div className="bg-[#1b2a4a]/70 border border-white/15 rounded-md p-4">
-                <div className="text-sm opacity-80">
-                  Propio/Compartido<br />@, # ¿año?
-                </div>
-              </div>
+    {/* Tooltip */}
+    <div
+      className="platform-tooltip absolute bottom-full left-1/2 -translate-x-1/2 mb-2 px-6 py-4 text-xl rounded-md bg-[#073E4A] text-white border border-white/20 z-50 shadow opacity-0 transition-opacity duration-300 pointer-events-none w-[16rem]"
+    >
+      <strong>{platform.name}</strong><br />
+      {platform.description}
+      {platform.tags?.length > 0 && (
+  <div className="flex flex-wrap gap-1 justify-center mt-2 z-10">
+  {platform.tags.map(tag => (
+  <span key={tag.name} className="text-sm bg-white/10 border border-white/20 px-2 py-0.5 rounded-full text-white">
+    {tag.name}
+  </span>
+))}
 
-              <div className="bg-[#1b2a4a]/70 border border-white/15 rounded-md p-4 flex items-center justify-between">
-                <div className="font-semibold opacity-90">Ocultado</div>
-                <div className="text-primary">
-                  <Icon icon="pixelarticons:eye-closed" width={22} height={22} />
-                </div>
-              </div>
-            </div>
-          </section>
+  
+  </div>
+)}
+
+      <div className="absolute left-1/2 -translate-x-1/2 top-full w-0 h-0 border-l-8 border-r-8 border-t-8 border-l-transparent border-r-transparent border-t-[#073E4A]" />
+    </div>
+  </div>
+))}
+
+  </div>
+</section>
+
 
           {/* CTA final opcional */}
-          <div className="mt-12 flex justify-end">
-            <PixelButton className="cursor-target">
-              Ver portfolio
-              <Icon icon="pixelarticons:external-link" width={16} height={16} />
-            </PixelButton>
-          </div>
+       
         </div>
       </main>
     </>

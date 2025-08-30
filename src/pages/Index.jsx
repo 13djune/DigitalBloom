@@ -6,6 +6,7 @@ import "../App.css";
 import TextType from '../components/TextType';
 import Logo from '../assets/img/LOGO.png';
 import Flor from '../assets/img/FLOR.GIF';
+import { Icon } from "@iconify/react";
 
 export default function Index() {
   return (
@@ -33,13 +34,14 @@ export default function Index() {
   pageLoadAnimation={false}
   brightness={0.6}
 />
-   {/* <-- PASO 3.1: USA LA VARIABLE DEL LOGO IMPORTADO */}
-   <img src={Logo} alt="Logo" className="w-4/5 " />
+<div className="fixed top-0 m-6 flex flex-col items-center">
+<img src={Logo} alt="Logo" className="w-4/5 " />
 
-{/* <-- PASO 3.2: AÑADE EL GIF USANDO SU VARIABLE */}
 <img src={Flor} alt="Animación" className="w-32 h-auto mb-6" />
 
-        <TextType className="max-w-xl mt-6 text-xl text-text"
+</div>
+
+        <TextType className="max-w-xl mt-10 text-xl text-text fixed bottom-[30%]"
           text={[" Bienvenidx a una experiencia interactiva creada a partir", "de mi propia huella digital..."]}
           typingSpeed={75}
           pauseDuration={900}
@@ -50,16 +52,19 @@ export default function Index() {
           cursorCharacter="|">
         </TextType>
 
-        <div className="mt-10 flex gap-6">
+        <div className="m-10 flex gap-24  fixed bottom-[3rem]">
           <Link to="/about">
           <PixelButton className="cursor-target">
         + Sobre el proyecto
+        <Icon icon="pixelarticons:lightbulb-2" width="18" height="18" />
+
       </PixelButton>
           </Link>
 
           <Link to="/explore">
           <PixelButton className="cursor-target">
           Explora mi huella
+          <Icon icon="pixelarticons:search" width="18" height="18" />
           </PixelButton>
           </Link>
         </div>

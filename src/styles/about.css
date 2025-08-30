@@ -119,4 +119,14 @@
     align-items: center;
 
   }
-  
+.group:hover .group-hover\:scale-110 {
+  transform: scale(1.1);
+}
+/* en index.css, about.css o filters.css */
+.border-t-background {
+  border-top-color: #0E7C95; /* o tu color de fondo exacto */
+}
+/* Temporeramente para testear */
+.about-page, .filters-inline, .max-w-6xl {
+  overflow: visible !important;
+}

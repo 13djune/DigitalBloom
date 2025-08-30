@@ -3,7 +3,7 @@ import React, { useMemo } from "react";
 import { Icon } from "@iconify/react";
 import "../styles/DataPanel.css";
 import "../index.css";
-import tagList from "../utils/tagConfig";
+import { tagList } from "../utils/globalConfig";
 
 /* ---------- Mapeos de plataforma ---------- */
 const PLATFORM_ID_TO_NAME = {
