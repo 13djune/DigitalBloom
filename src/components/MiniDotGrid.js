@@ -45,8 +45,8 @@ function hexToRgb(hex) {
 }
 
 const MiniDotGrid = ({
-  dotSize = 8,
-  gap = 12,
+  dotSize = 12,
+  gap = 10,
   baseColor = "#1B1F3A",
   proximity = 120,
   speedTrigger = 120,
@@ -80,9 +80,11 @@ const MiniDotGrid = ({
   const squarePath = useMemo(() => {
     if (typeof window === 'undefined') return null;
     const p = new window.Path2D();
-    p.rect(-1, -1, 2, 2); // cuadrado centrado
+    const half = dotSize / 2;
+    p.rect(-half, -half, dotSize, dotSize); // cuadrado centrado según dotSize
     return p;
-}, []);
+  }, [dotSize]);
+  
 
   const buildGrid = useCallback(() => {
     const wrap = wrapperRef.current;
