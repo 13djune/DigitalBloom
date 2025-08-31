@@ -2904,7 +2904,8 @@
           "mode": "andando",
           "startTime": "15:52:37",
           "endTime": "16:02:38",
-          "duration": "10:01"
+          "duration": "10:01",
+          "subjective_notes": "Este es el trayecto para ir a la escuela para las clases."
       },
         "url": "https://www.google.com/maps/dir/?api=1&origin=40.412899%2C-3.666044&destination=40.409706%2C-3.650002&travelmode=andando"
       },
@@ -2935,42 +2936,12 @@
           ],
           "startTime": "16:02:38",
           "endTime": "19:27:32",
-          "duration": "03:24:4"
+          "duration": "03:24:4",
+          "subjective_notes": "Esta es la escuela donde doy mis clases del máster."
         },
         "url": "https://www.google.com/maps/place/?q=place_id:ChIJm2TRNvElQg0RA4YF_wyoSDc"
       },
-      {
-        "id": "geo-6m-visit-chijq6nuspelqg0rkh7w-jtfdtk-80",
-        "title": "Visita — Lugar",
-        "artists": "Duración 03:23:09 • 2025-06-17",
-        "awareness": 2,
-        "timeBucket": "6m",
-        "platformId": 8,
-        "tags": [
-          "Movilidad",
-          "Lugares",
-          "Propio",
-          "Consciente",
-          "Teléfono",
-          "@email",
-          "Viajes"
-        ],
-        "details": {
-          "sourceFile": "location-history.json",
-          "dataType": "Visita",
-          "place": "40.409027,-3.648687",
-          "placeID": "ChIJq6nuSPElQg0RKh7W-jTFDTk",
-          "coordinates": [
-            40.409027,
-            -3.648687
-          ],
-          "hierarchyLevel": "1",
-          "startTime": "16:02:38",
-          "endTime": "19:25:48",
-          "duration": "03:23:9"
-        },
-        "url": "https://www.google.com/maps/place/?q=place_id:ChIJq6nuSPElQg0RKh7W-jTFDTk"
-      },
+
       {
         "id": "geo-6m-trip-andando-81",
         "title": "Trayecto — andando · 2.06 km",
@@ -2995,41 +2966,12 @@
           "mode": "andando",
           "startTime": "19:27:32",
           "endTime": "19:40:43",
-          "duration": "13:10"
+          "duration": "13:10",
+          "subjective_notes": "Este es el trayecto para volver a casa desde la escuela."
       },
         "url": "https://www.google.com/maps/dir/?api=1&origin=40.409681%2C-3.650029&destination=40.414049%2C-3.666321&travelmode=andando"
       },
-      {
-        "id": "geo-6m-visit-chijzvsc3aemqg0ri3e4rrio16o-82",
-        "title": "Visita",
-        "artists": "Duración 53:28 • 2025-06-17",
-        "awareness": 2,
-        "timeBucket": "6m",
-        "platformId": 8,
-        "tags": [
-          "Movilidad",
-          "Lugares",
-          "Propio",
-          "Consciente",
-          "Teléfono",
-          "@email",
-          "Viajes"
-        ],
-        "details": {
-          "sourceFile": "location-history.json",
-          "dataType": "Visita",
-          "place": "40.413538,-3.665820",
-          "placeID": "ChIJZVSc3AEmQg0Ri3e4rRio16o",
-          "coordinates": [
-            40.413538,
-            -3.66582
-          ],
-          "startTime": "19:40:43",
-          "endTime": "20:34:12",
-          "duration": "53:28"
-      },
-        "url": "https://www.google.com/maps/place/?q=place_id:ChIJZVSc3AEmQg0Ri3e4rRio16o"
-      },
+  
       {
         "id": "geo-6m-trip-in-bus-84",
         "title": "Trayecto — en bus · 2.42 km",
@@ -3054,72 +2996,12 @@
           "mode": "en bus",
           "startTime": "20:47:32",
           "endTime": "21:05:44",
-          "duration": "18:11"
+          "duration": "18:11",
+          "subjective_notes": "Este es el trayecto en bus desde la parada más cercana a casa hasta la parada más cercana a la casa de mi novia."
       },
         "url": "https://www.google.com/maps/dir/?api=1&origin=40.411113%2C-3.666697&destination=40.406682%2C-3.690052&travelmode=transit"
       },
-      {
-        "id": "geo-6m-visit-chijpwytxcumqg0rve-a0fd7it4-85",
-        "title": "Visita",
-        "artists": "Duración 16:21:18 • 2025-06-17",
-        "awareness": 2,
-        "timeBucket": "6m",
-        "platformId": 8,
-        "tags": [
-          "Movilidad",
-          "Lugares",
-          "Propio",
-          "Consciente",
-          "Teléfono",
-          "@email",
-          "Viajes"
-        ],
-        "details": {
-          "sourceFile": "location-history.json",
-          "dataType": "Visita",
-          "place": "40.404150,-3.692399",
-          "placeID": "ChIJPWYtXCUmQg0RVe-a0Fd7IT4",
-          "coordinates": [
-            40.40415,
-            -3.692399
-          ],
-          "startTime": "21:05:44",
-          "endTime": "13:27:02",
-          "duration": "16:21:8"
-        },
-        "url": "https://www.google.com/maps/place/?q=place_id:ChIJPWYtXCUmQg0RVe-a0Fd7IT4"
-      },
-      {
-        "id": "geo-6m-visit-chijpwytxcumqg0rve-a0fd7it4-87",
-        "title": "Visita",
-        "artists": "Duración 26:38:29 • 2025-06-18",
-        "awareness": 2,
-        "timeBucket": "6m",
-        "platformId": 8,
-        "tags": [
-          "Movilidad",
-          "Lugares",
-          "Propio",
-          "Consciente",
-          "Teléfono",
-          "@email",
-          "Viajes"
-        ],
-        "details": {
-          "sourceFile": "location-history.json",
-          "dataType": "Visita",
-          "place": "40.404150,-3.692399",
-          "placeID": "ChIJPWYtXCUmQg0RVe-a0Fd7IT4",
-          "coordinates": [
-            40.40415,
-            -3.692399
-          ],
-          "startTime": "13:46:54",
-          "endTime": "16:25:24",
-          "duration": "26:38:9"
-        },
-        "url": "https://www.google.com/maps/place/?q=place_id:ChIJPWYtXCUmQg0RVe-a0Fd7IT4"
-      },
+
       {
         "id": "geo-6m-visit-chijf9jnrsqmqg0rwwnljcl5rzk-89",
         "title": "Visita — Lugar",
@@ -3147,7 +3029,8 @@
           ],
           "startTime": "16:29:58",
           "endTime": "16:35:50",
-          "duration": "05:52"
+          "duration": "05:52",
+          "subjective_notes": "A veces cojo bus, de metro o incluso cercanías porque me viene mejor para llegar a ciertos sitios."
       },
         "url": "https://www.google.com/maps/place/?q=place_id:ChIJF9jNRSQmQg0RWwNljcL5Rzk"
       },
@@ -3175,103 +3058,14 @@
           "mode": "en bus",
           "startTime": "16:35:50",
           "endTime": "16:50:41",
-          "duration": "14:50"
+          "duration": "14:50",
+          "subjective_notes": "Este es el trayecto en bus desde la parada más cercana a la casa de mi novia hasta la parada más cercana a mi casa."
       },
         "url": "https://www.google.com/maps/dir/?api=1&origin=40.406419%2C-3.688326&destination=40.412335%2C-3.665945&travelmode=transit"
       },
-      {
-        "id": "geo-6m-visit-chijzvsc3aemqg0ri3e4rrio16o-92",
-        "title": "Visita",
-        "artists": "Duración 38:10:47 • 2025-06-19",
-        "awareness": 2,
-        "timeBucket": "6m",
-        "platformId": 8,
-        "tags": [
-          "Movilidad",
-          "Lugares",
-          "Propio",
-          "Consciente",
-          "Teléfono",
-          "@email",
-          "Viajes"
-        ],
-        "details": {
-          "sourceFile": "location-history.json",
-          "dataType": "Visita",
-          "place": "40.413538,-3.665820",
-          "placeID": "ChIJZVSc3AEmQg0Ri3e4rRio16o",
-          "coordinates": [
-            40.413538,
-            -3.66582
-          ],
-          "startTime": "21:07:47",
-          "endTime": "11:18:35",
-          "duration": "38:10:7"
-        },
-        "url": "https://www.google.com/maps/place/?q=place_id:ChIJZVSc3AEmQg0Ri3e4rRio16o"
-      },
-      {
-        "id": "geo-6m-visit-chijzvsc3aemqg0ri3e4rrio16o-94",
-        "title": "Visita",
-        "artists": "Duración 46:21:53 • 2025-06-21",
-        "awareness": 2,
-        "timeBucket": "6m",
-        "platformId": 8,
-        "tags": [
-          "Movilidad",
-          "Lugares",
-          "Propio",
-          "Consciente",
-          "Teléfono",
-          "@email",
-          "Viajes"
-        ],
-        "details": {
-          "sourceFile": "location-history.json",
-          "dataType": "Visita",
-          "place": "40.413538,-3.665820",
-          "placeID": "ChIJZVSc3AEmQg0Ri3e4rRio16o",
-          "coordinates": [
-            40.413538,
-            -3.66582
-          ],
-          "startTime": "13:10:48",
-          "endTime": "11:32:42",
-          "duration": "46:21:3"
-        },
-        "url": "https://www.google.com/maps/place/?q=place_id:ChIJZVSc3AEmQg0Ri3e4rRio16o"
-      },
-      {
-        "id": "geo-6m-visit-chijzvsc3aemqg0ri3e4rrio16o-96",
-        "title": "Visita",
-        "artists": "Duración 06:38:15 • 2025-06-23",
-        "awareness": 2,
-        "timeBucket": "6m",
-        "platformId": 8,
-        "tags": [
-          "Movilidad",
-          "Lugares",
-          "Propio",
-          "Consciente",
-          "Teléfono",
-          "@email",
-          "Viajes"
-        ],
-        "details": {
-          "sourceFile": "location-history.json",
-          "dataType": "Visita",
-          "place": "40.413538,-3.665820",
-          "placeID": "ChIJZVSc3AEmQg0Ri3e4rRio16o",
-          "coordinates": [
-            40.413538,
-            -3.66582
-          ],
-          "startTime": "13:24:13",
-          "endTime": "20:02:29",
-          "duration": "06:38:5"
-        },
-        "url": "https://www.google.com/maps/place/?q=place_id:ChIJZVSc3AEmQg0Ri3e4rRio16o"
-      },
+
+
+
       {
         "id": "geo-6m-trip-in-passenger-vehicle-98",
         "title": "Trayecto — de copiloto de coche · 1.13 km",
@@ -3296,7 +3090,8 @@
           "mode": "de copiloto de coche",
           "startTime": "20:08:08",
           "endTime": "20:17:34",
-          "duration": "09:25"
+          "duration": "09:25",
+          "subjective_notes": "A veces quedo con una amiga en esa parada de bus para ir a tomar algo por la zona."
       },
         "url": "https://www.google.com/maps/dir/?api=1&origin=40.412428%2C-3.665951&destination=40.407164%2C-3.673575&travelmode=driving"
       },
@@ -3327,41 +3122,12 @@
           ],
           "startTime": "20:29:37",
           "endTime": "00:04:12",
-          "duration": "03:34:4"
+          "duration": "03:34:4",
+          "subjective_notes": "Este es un bar al que suelo ir con una amiga a tomar algo, hay varios bares a su alrededor."
         },
         "url": "https://www.google.com/maps/place/?q=place_id:ChIJI3rVvRsmQg0R69aXlLz4j9k"
       },
-      {
-        "id": "geo-6m-visit-chijzvsc3aemqg0ri3e4rrio16o-101",
-        "title": "Visita",
-        "artists": "Duración 13:52:26 • 2025-06-24",
-        "awareness": 2,
-        "timeBucket": "6m",
-        "platformId": 8,
-        "tags": [
-          "Movilidad",
-          "Lugares",
-          "Propio",
-          "Consciente",
-          "Teléfono",
-          "@email",
-          "Viajes"
-        ],
-        "details": {
-          "sourceFile": "location-history.json",
-          "dataType": "Visita",
-          "place": "40.413538,-3.665820",
-          "placeID": "ChIJZVSc3AEmQg0Ri3e4rRio16o",
-          "coordinates": [
-            40.413538,
-            -3.66582
-          ],
-          "startTime": "00:04:12",
-          "endTime": "13:56:38",
-          "duration": "13:52:6"
-        },
-        "url": "https://www.google.com/maps/place/?q=place_id:ChIJZVSc3AEmQg0Ri3e4rRio16o"
-      },
+ 
       {
         "id": "geo-6m-trip-andando-102",
         "title": "Trayecto — andando · 2.17 km",
@@ -3386,7 +3152,8 @@
           "mode": "andando",
           "startTime": "13:56:38",
           "endTime": "14:13:46",
-          "duration": "17:07"
+          "duration": "17:07",
+          "subjective_notes": "Este es el trayecto para ir a la Estación de autobuses de Méndez Álvaro."
       },
         "url": "https://www.google.com/maps/dir/?api=1&origin=40.412312%2C-3.665905&destination=40.396087%2C-3.678412&travelmode=andando"
       },
@@ -3417,7 +3184,8 @@
           ],
           "startTime": "14:13:46",
           "endTime": "14:14:54",
-          "duration": "01:08"
+          "duration": "01:08",
+          "subjective_notes": "Esta es la estación de autobuses de Méndez Álvaro, donde cojo el autobús para ir a Granada, o recoger a mi novia."
       },
         "url": "https://www.google.com/maps/place/?q=place_id:ChIJaQ2CjxQmQg0RtI6VRGNCR-s"
       },
@@ -3445,41 +3213,12 @@
           "mode": "en metro",
           "startTime": "14:14:54",
           "endTime": "14:26:20",
-          "duration": "11:25"
+          "duration": "11:25",
+          "subjective_notes": "Este es el trayecto en metro desde la estación de Méndez Álvaro hasta la estación de Conde de Casal, que es la más cercana a casa."
       },
         "url": "https://www.google.com/maps/dir/?api=1&origin=40.395400%2C-3.678352&destination=40.414654%2C-3.669805&travelmode=transit"
       },
-      {
-        "id": "geo-6m-visit-chijzvsc3aemqg0ri3e4rrio16o-106",
-        "title": "Visita",
-        "artists": "Duración 03:32:10 • 2025-06-24",
-        "awareness": 2,
-        "timeBucket": "6m",
-        "platformId": 8,
-        "tags": [
-          "Movilidad",
-          "Lugares",
-          "Propio",
-          "Consciente",
-          "Teléfono",
-          "@email",
-          "Viajes"
-        ],
-        "details": {
-          "sourceFile": "location-history.json",
-          "dataType": "Visita",
-          "place": "40.413538,-3.665820",
-          "placeID": "ChIJZVSc3AEmQg0Ri3e4rRio16o",
-          "coordinates": [
-            40.413538,
-            -3.66582
-          ],
-          "startTime": "14:33:41",
-          "endTime": "18:05:51",
-          "duration": "03:32:0"
-        },
-        "url": "https://www.google.com/maps/place/?q=place_id:ChIJZVSc3AEmQg0Ri3e4rRio16o"
-      },
+
       {
         "id": "geo-6m-trip-in-bus-108",
         "title": "Trayecto — en bus · 4.34 km",
@@ -3501,10 +3240,11 @@
           "dataType": "Actividad",
           "from": "40.411187,-3.665492",
           "to": "40.424560,-3.700683",
-          "mode": "en bus",
+          "mode": "en bus y metro",
           "startTime": "18:16:54",
           "endTime": "18:49:34",
-          "duration": "32:39"
+          "duration": "32:39",
+          "subjective_notes": "Este es el trayecto en bus y metro desde la parada más cercana a casa hasta Tribunal, a veces quedo ahí con amigos."
       },
         "url": "https://www.google.com/maps/dir/?api=1&origin=40.411187%2C-3.665492&destination=40.424560%2C-3.700683&travelmode=transit"
       },
@@ -3535,7 +3275,8 @@
           ],
           "startTime": "18:49:34",
           "endTime": "19:32:08",
-          "duration": "42:33"
+          "duration": "42:33",
+          "subjective_notes": "Mercado de San Idelfonso."
       },
         "url": "https://www.google.com/maps/place/?q=place_id:ChIJeQ--ZogoQg0RpbSSHRBuj8U"
       },
@@ -3594,7 +3335,8 @@
           ],
           "startTime": "20:49:30",
           "endTime": "21:40:15",
-          "duration": "50:45"
+          "duration": "50:45",
+          "subjective_notes": "El 100Montaditos de Montera, cuándo estamos en el centro a veces vamos ahí."
       },
         "url": "https://www.google.com/maps/place/?q=place_id:ChIJ4ZnBxn4oQg0RTksSIVEjjUI"
       },
@@ -3625,72 +3367,12 @@
           ],
           "startTime": "21:49:50",
           "endTime": "22:30:12",
-          "duration": "40:22"
+          "duration": "40:22",
+          "subjective_notes": "Callao."
       },
         "url": "https://www.google.com/maps/place/?q=place_id:ChIJ6XJ0VHwoQg0RDLS-_d-7IfY"
       },
-      {
-        "id": "geo-6m-visit-chijzvsc3aemqg0ri3e4rrio16o-114",
-        "title": "Visita",
-        "artists": "Duración 13:09:51 • 2025-06-24",
-        "awareness": 2,
-        "timeBucket": "6m",
-        "platformId": 8,
-        "tags": [
-          "Movilidad",
-          "Lugares",
-          "Propio",
-          "Consciente",
-          "Teléfono",
-          "@email",
-          "Viajes"
-        ],
-        "details": {
-          "sourceFile": "location-history.json",
-          "dataType": "Visita",
-          "place": "40.413538,-3.665820",
-          "placeID": "ChIJZVSc3AEmQg0Ri3e4rRio16o",
-          "coordinates": [
-            40.413538,
-            -3.66582
-          ],
-          "startTime": "22:30:12",
-          "endTime": "11:40:03",
-          "duration": "13:09:1"
-        },
-        "url": "https://www.google.com/maps/place/?q=place_id:ChIJZVSc3AEmQg0Ri3e4rRio16o"
-      },
-      {
-        "id": "geo-6m-visit-chijzvsc3aemqg0ri3e4rrio16o-116",
-        "title": "Visita",
-        "artists": "Duración 01:20:52 • 2025-06-25",
-        "awareness": 2,
-        "timeBucket": "6m",
-        "platformId": 8,
-        "tags": [
-          "Movilidad",
-          "Lugares",
-          "Propio",
-          "Consciente",
-          "Teléfono",
-          "@email",
-          "Viajes"
-        ],
-        "details": {
-          "sourceFile": "location-history.json",
-          "dataType": "Visita",
-          "place": "40.413538,-3.665820",
-          "placeID": "ChIJZVSc3AEmQg0Ri3e4rRio16o",
-          "coordinates": [
-            40.413538,
-            -3.66582
-          ],
-          "startTime": "12:04:11",
-          "endTime": "13:25:03",
-          "duration": "01:20:2"
-        },
-        "url": "https://www.google.com/maps/place/?q=place_id:ChIJZVSc3AEmQg0Ri3e4rRio16o"
-      },
+
       {
         "id": "geo-6m-trip-in-subway-118",
         "title": "Trayecto — en metro · 4.74 km",
@@ -3715,41 +3397,12 @@
           "mode": "en metro",
           "startTime": "13:31:18",
           "endTime": "13:54:48",
-          "duration": "23:30"
+          "duration": "23:30",
+          "subjective_notes": "Este es el trayecto en metro desde la estación de Conde de Casal hasta la estación de Moncloa, a veces quedo con amigos ahí para tomar algo."
       },
         "url": "https://www.google.com/maps/dir/?api=1&origin=40.415316%2C-3.669479&destination=40.434703%2C-3.719306&travelmode=transit"
       },
-      {
-        "id": "geo-6m-visit-chijj3guu0ioqg0rjg-gc1a8ltg-120",
-        "title": "Visita",
-        "artists": "Duración 01:20:39 • 2025-06-25",
-        "awareness": 2,
-        "timeBucket": "6m",
-        "platformId": 8,
-        "tags": [
-          "Movilidad",
-          "Lugares",
-          "Propio",
-          "Consciente",
-          "Teléfono",
-          "@email",
-          "Viajes"
-        ],
-        "details": {
-          "sourceFile": "location-history.json",
-          "dataType": "Visita",
-          "place": "40.435298,-3.715998",
-          "placeID": "ChIJJ3gUU0IoQg0RJG-gC1a8LTg",
-          "coordinates": [
-            40.435298,
-            -3.715998
-          ],
-          "startTime": "13:59:58",
-          "endTime": "15:20:38",
-          "duration": "01:20:9"
-        },
-        "url": "https://www.google.com/maps/place/?q=place_id:ChIJJ3gUU0IoQg0RJG-gC1a8LTg"
-      },
+
       {
         "id": "geo-6m-trip-in-subway-122",
         "title": "Trayecto — en metro · 2.39 km",
@@ -3805,7 +3458,8 @@
           ],
           "startTime": "15:42:51",
           "endTime": "16:32:22",
-          "duration": "49:30"
+          "duration": "49:30",
+          "subjective_notes": "Plaza Mayor."
       },
         "url": "https://www.google.com/maps/place/?q=place_id:ChIJZX56134oQg0RHBgRAVQ8pkk"
       },
@@ -3836,7 +3490,8 @@
           ],
           "startTime": "16:32:22",
           "endTime": "16:45:38",
-          "duration": "13:16"
+          "duration": "13:16",
+          "subjective_notes": "Mercado de San Miguel."
       },
         "url": "https://www.google.com/maps/place/?q=place_id:ChIJLW4ZIXkoQg0R6JDRTdPmLxY"
       },
@@ -3864,7 +3519,8 @@
           "mode": "en metro",
           "startTime": "16:56:12",
           "endTime": "17:42:17",
-          "duration": "46:04"
+          "duration": "46:04",
+          "subjective_notes": "Fui con un amigo desde Ópera al Palacio de hielo para jugar al mini-golf y a los bolos."
       },
         "url": "https://www.google.com/maps/dir/?api=1&origin=40.418095%2C-3.709456&destination=40.462837%2C-3.635572&travelmode=transit"
       },
@@ -3895,7 +3551,8 @@
           ],
           "startTime": "17:42:17",
           "endTime": "19:40:50",
-          "duration": "01:58:3"
+          "duration": "01:58:3",
+          "subjective_notes": "Este es el Palacio de Hielo, donde fui con un amigo a jugar al mini-golf y a los bolos."
         },
         "url": "https://www.google.com/maps/place/?q=place_id:ChIJ_6tuaJkwQg0RBfDBsnrIJ18"
       },
@@ -3927,7 +3584,8 @@
           "hierarchyLevel": "1",
           "startTime": "17:42:17",
           "endTime": "19:40:50",
-          "duration": "01:58:3"
+          "duration": "01:58:3",
+          "subjective_notes": "Este es el Palacio de Hielo, donde fui con un amigo a jugar al mini-golf y a los bolos."
         },
         "url": "https://www.google.com/maps/place/?q=place_id:ChIJz7oJiWmSQQ0RX4JdPkVDATI"
       },
@@ -3987,7 +3645,8 @@
           "semanticType": "Searched Address",
           "startTime": "20:31:08",
           "endTime": "20:36:58",
-          "duration": "05:49"
+          "duration": "05:49",
+          "subjective_notes": "Intentamos ir a un evento de Paulaner pero no nos dejaron entrar porque justo había un evento cerrado."
       },
         "url": "https://www.google.com/maps/place/?q=place_id:ChIJHcQzPOooQg0RPSrBNf9cPec"
       },
@@ -4015,7 +3674,8 @@
           "mode": "en bus",
           "startTime": "20:36:58",
           "endTime": "20:58:54",
-          "duration": "21:56"
+          "duration": "21:56",
+          "subjective_notes": "Este es el trayecto en bus desde la parada más cercana al evento de Paulaner hasta la parada más cercana al Alcampo."
       },
         "url": "https://www.google.com/maps/dir/?api=1&origin=40.437126%2C-3.683064&destination=40.411199%2C-3.660269&travelmode=transit"
       },
@@ -4046,69 +3706,12 @@
           ],
           "startTime": "20:58:54",
           "endTime": "22:44:35",
-          "duration": "01:45:1"
+          "duration": "01:45:1",
+          "subjective_notes": "Este es el 100Montaditos cercano a casa, donde suelo ir con amigos a tomar algo."
         },
         "url": "https://www.google.com/maps/place/?q=place_id:ChIJNUZ33_4lQg0RXJgA2GEtSQA"
       },
-      {
-        "id": "geo-6m-trip-andando-135",
-        "title": "Trayecto — andando · 0.69 km",
-        "artists": "Duración 10:03 • 2025-06-25",
-        "awareness": 2,
-        "timeBucket": "6m",
-        "platformId": 8,
-        "tags": [
-          "Movilidad",
-          "Trayectos",
-          "Propio",
-          "Consciente",
-          "Teléfono",
-          "@email",
-          "Viajes"
-        ],
-        "details": {
-          "sourceFile": "location-history.json",
-          "dataType": "Actividad",
-          "from": "40.410843,-3.659523",
-          "to": "40.412600,-3.665964",
-          "mode": "andando",
-          "startTime": "22:44:35",
-          "endTime": "22:54:39",
-          "duration": "10:03"
-      },
-        "url": "https://www.google.com/maps/dir/?api=1&origin=40.410843%2C-3.659523&destination=40.412600%2C-3.665964&travelmode=andando"
-      },
-      {
-        "id": "geo-6m-visit-chijzvsc3aemqg0ri3e4rrio16o-136",
-        "title": "Visita",
-        "artists": "Duración 13:34:01 • 2025-06-25",
-        "awareness": 2,
-        "timeBucket": "6m",
-        "platformId": 8,
-        "tags": [
-          "Movilidad",
-          "Lugares",
-          "Propio",
-          "Consciente",
-          "Teléfono",
-          "@email",
-          "Viajes"
-        ],
-        "details": {
-          "sourceFile": "location-history.json",
-          "dataType": "Visita",
-          "place": "40.413538,-3.665820",
-          "placeID": "ChIJZVSc3AEmQg0Ri3e4rRio16o",
-          "coordinates": [
-            40.413538,
-            -3.66582
-          ],
-          "startTime": "22:54:39",
-          "endTime": "12:28:41",
-          "duration": "13:34:1"
-        },
-        "url": "https://www.google.com/maps/place/?q=place_id:ChIJZVSc3AEmQg0Ri3e4rRio16o"
-      },
+
       {
         "id": "geo-6m-trip-andando-137",
         "title": "Trayecto — andando · 4.48 km",
@@ -4133,7 +3736,8 @@
           "mode": "andando",
           "startTime": "12:28:41",
           "endTime": "13:04:03",
-          "duration": "35:22"
+          "duration": "35:22",
+          "subjective_notes": "Este es el trayecto andando desde casa hasta el centro, donde suelo quedar con amigos."
       },
         "url": "https://www.google.com/maps/dir/?api=1&origin=40.412554%2C-3.665962&destination=40.419731%2C-3.701606&travelmode=andando"
       },
@@ -4164,7 +3768,8 @@
           ],
           "startTime": "13:04:03",
           "endTime": "13:06:29",
-          "duration": "02:25"
+          "duration": "02:25",
+          "subjective_notes": "Gran vía."
       },
         "url": "https://www.google.com/maps/place/?q=place_id:ChIJofJecocoQg0RSPXAS2CmrzI"
       },
@@ -4195,7 +3800,8 @@
           ],
           "startTime": "13:06:29",
           "endTime": "13:32:07",
-          "duration": "25:38"
+          "duration": "25:38",
+          "subjective_notes": "WOW Concept Store de Gran Vía, una tienda muy chula que me gusta visitar cuando estoy por el centro."
       },
         "url": "https://www.google.com/maps/place/?q=place_id:ChIJP5YHVlApQg0RUTTomOocP0A"
       },
@@ -4231,34 +3837,7 @@
       },
         "url": "https://www.google.com/maps/place/?q=place_id:ChIJHeMaaSspQg0R8x7LcW7mjAQ"
       },
-      {
-        "id": "geo-6m-trip-andando-141",
-        "title": "Trayecto — andando · 1.18 km",
-        "artists": "Duración 01:40:26 • 2025-06-26",
-        "awareness": 2,
-        "timeBucket": "6m",
-        "platformId": 8,
-        "tags": [
-          "Movilidad",
-          "Trayectos",
-          "Propio",
-          "Consciente",
-          "Teléfono",
-          "@email",
-          "Viajes"
-        ],
-        "details": {
-          "sourceFile": "location-history.json",
-          "dataType": "Actividad",
-          "from": "40.420007,-3.701281",
-          "to": "40.419785,-3.699779",
-          "mode": "andando",
-          "startTime": "13:32:07",
-          "endTime": "15:12:34",
-          "duration": "01:40:6"
-        },
-        "url": "https://www.google.com/maps/dir/?api=1&origin=40.420007%2C-3.701281&destination=40.419785%2C-3.699779&travelmode=andando"
-      },
+
       {
         "id": "geo-6m-trip-in-bus-142",
         "title": "Trayecto — en bus · 3.47 km",
@@ -4283,7 +3862,8 @@
           "mode": "en bus",
           "startTime": "15:12:34",
           "endTime": "15:36:49",
-          "duration": "24:14"
+          "duration": "24:14",
+          "subjective_notes": "Este es el trayecto en bus desde la parada más cercana al centro hasta la parada más cercana al 100Montaditos."
       },
         "url": "https://www.google.com/maps/dir/?api=1&origin=40.418697%2C-3.696529&destination=40.411791%2C-3.665822&travelmode=transit"
       },

@@ -7,6 +7,7 @@ import { useNavigate } from "react-router-dom";
 import { Icon } from "@iconify/react";
 import PixelImg from "../components/PixelImg";
 import Avatar from "../assets/img/avatar.png";
+import BitMe from "../assets/img/BitMe.png";
 import "../styles/about.css";
 import "../index.css";
 import MiniDotGrid from "../components/MiniDotGrid";
@@ -139,21 +140,15 @@ También puedes filtrar mi huella digital y explorar poco a poco:
     />
   }
   secondContent={
-    <div
-      style={{
-        width: "100%",
-        height: "100%",
-        display: "grid",
-        placeItems: "center",
-        backgroundColor: "#111"
-      }}
-    >
-      <p style={{ fontWeight: 900, fontSize: "3rem", color: "#ffffff" }}>Meow!</p>
-    </div>
+    <img
+      src={BitMe}
+      alt="A photo of the author in bitmap style"
+      style={{ width: "100%", height: "100%", objectFit: "cover" , backgroundColor: '#00031E'}}
+    />
   }
-  gridSize={20}
+  gridSize={25}
   pixelColor='#00031E'
-  animationStepDuration={1}
+  animationStepDuration={0.8}
   className="custom-pixel-card"
 />
             </div>
@@ -224,12 +219,12 @@ También puedes filtrar mi huella digital y explorar poco a poco:
           <section className="mt-14 md:mt-20 relative z-10 overflow-visible">
           <h3 className="text-2xl font-bold tracking-wide mb-4">MIS PLATAFORMAS</h3>
 
-  <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-12 mb-8">
+  <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-16 mb-8">
   {platformsInfo.map((platform) => (
   <div
     key={platform.id}
     className="relative aspect-square border-[4px] border-[#9ed6e2] bg-[#0c111c] flex items-center justify-center overflow-visible cursor-pointer"
-    style={{ backgroundColor: `${platform.color}B3` }} // 70% opacidad
+    style={{ backgroundColor: `${platform.color}80` }} // 70% opacidad
     onMouseEnter={(e) => {
       const tooltip = e.currentTarget.querySelector('.platform-tooltip');
       if (tooltip) tooltip.style.opacity = '1';
@@ -243,7 +238,7 @@ También puedes filtrar mi huella digital y explorar poco a poco:
     <img
       src={platformImages[platform.id]}
       alt={platform.name}
-      className="w-[50%] h-[50%] object-contain z-10 transition-transform duration-300 hover:scale-110"
+      className="w-[60%] h-[60%] object-contain z-10 transition-transform duration-300 hover:scale-110 cursor-target"
     />
 
     {/* Tooltip */}
