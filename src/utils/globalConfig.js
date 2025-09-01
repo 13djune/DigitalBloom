@@ -9,122 +9,109 @@ import whatsappImg from '../assets/img/WHATSAPP.PNG';
 import streamingImg from '../assets/img/STREAMING.PNG';
 import googleImg from '../assets/img/GOOGLE.PNG';
 
- export const tagList = [
-    // consciencia
-    { name: "Inconsciente", type: "consciencia" }, { name: "Propio", type: "consciencia" },
-    { name: "Contaminado", type: "consciencia" }, { name: "Consciente", type: "consciencia" },
-    { name: "Compartido", type: "consciencia" },
-  
-    // dispositivo
-    { name: "Teléfono", type: "dispositivo" }, { name: "Ordenador", type: "dispositivo" },
-    { name: "Televisión", type: "dispositivo" }, { name: "iPad", type: "dispositivo" },
-  
-    // state
-    { name: "Liked", type: "state" }, { name: "Saved", type: "state" }, { name: "Bookmark", type: "state" }, { name: "Following", type: "state" },
-  
-    // meta
-    { name: "@email", type: "meta" }, { name: "#tlf", type: "meta" },
-  
-    // topic
-    { name: "Humor", type: "topic" }, { name: "Horror", type: "topic" },
-    { name: "Drama", type: "topic" }, { name: "Acción", type: "topic" },
-    { name: "Tranquilo", type: "topic" }, { name: "Educativo", type: "topic" },
-    { name: "Ficción", type: "topic" }, { name: "Animación", type: "topic" },
-    { name: "Videojuegos", type: "topic" }, { name: "Juegos", type: "topic" },
-    { name: "Romance", type: "topic" }, { name: "Entretenimiento", type: "topic" },
-    { name: "Música", type: "topic" }, { name: "Arte", type: "topic" }, { name: "Tecnología", type: "topic" },
-    { name: "Salud", type: "topic" }, { name: "Movilidad", type: "topic" }, { name: "Viajes", type: "topic" },
-    { name: "Comida", type: "topic" }, { name: "Cocina", type: "topic" }, { name: "Cine", type: "topic" },
-    { name: "Series", type: "topic" }, { name: "Anime", type: "topic" }, { name: "Cómics", type: "topic" },
-    { name: "Fotografía", type: "topic" }, { name: "Diseño", type: "topic" }, { name: "Moda", type: "topic" },
-    { name: "Naturaleza", type: "topic" }, { name: "Ciencia", type: "topic" }, { name: "Política", type: "topic" },
-    { name: "Noticias", type: "topic" }, { name: "Activismo", type: "topic" }, { name: "Finanzas", type: "topic" },
-    { name: "Compras", type: "topic" }, { name: "Social", type: "topic" }, { name: "LGBTQ+", type: "topic" },
-    { name: "Tattoo", type: "topic" }, { name: "Inspiración", type: "topic" }, { name: "Amigos", type: "topic" },
-    { name: "Fantasía", type: "topic" }, { name: "Sit-com", type: "topic" }, { name: "Superhéroes", type: "topic" },
-    { name: "Infantil", type: "topic" }, { name: "Competición", type: "topic" }, { name: "Celebrities", type: "topic" },
-    { name: "Experimental", type: "topic" }, { name: "Crítica", type: "topic" }, { name: "Shitpost", type: "topic" },
-    { name: "Memes", type: "topic" }, { name: "Zodiaco", type: "topic" }, { name: "Revista", type: "topic" },
-    { name: "Música en vivo", type: "topic" }, { name: "Deportes", type: "topic" }, { name: "Cultura", type: "topic" },
-    { name: "Negocios", type: "topic" }, { name: "Economía", type: "topic" }, { name: "Foros", type: "topic" },
-    { name: "Comunidad", type: "topic" }, { name: "Vivienda", type: "topic" }, { name: "Inmobiliaria", type: "topic" },
-    { name: "Clima", type: "topic" }, { name: "Meteorología", type: "topic" }, { name: "Reservas", type: "topic" },
-    { name: "Turismo", type: "topic" }, { name: "Museo", type: "topic" }, { name: "Radio", type: "topic" },
-  
-    // genre
-    { name: "Hip Hop", type: "genre" }, { name: "R&B", type: "genre" },
-    { name: "Latin Trap", type: "genre" }, { name: "Rock", type: "genre" },
-    { name: "Neo-Soul", type: "genre" }, { name: "Rap", type: "genre" },
-    { name: "Hyperpop", type: "genre" }, { name: "Pop", type: "genre" },
-    { name: "Funk", type: "genre" }, { name: "Electronic", type: "genre" },
-    { name: "Techno", type: "genre" }, { name: "Synth-pop", type: "genre" },
-    { name: "Alternative", type: "genre" }, { name: "K-Pop", type: "genre" },
-    { name: "Indie Pop", type: "genre" }, { name: "Trap", type: "genre" },
-    { name: "Soul", type: "genre" }, { name: "Flamenco Urbano", type: "genre" },
-    { name: "Synth-rock", type: "genre" }, { name: "Tech House", type: "genre" },
-    { name: "French House", type: "genre" }, { name: "Electroclash", type: "genre" },
-    { name: "Folk", type: "genre" }, { name: "Art Pop", type: "genre" },
-    { name: "Folktronica", type: "genre" }, { name: "Electropop", type: "genre" },
-    { name: "Boom Bap", type: "genre" }, { name: "Alternative R&B", type: "genre" },
-    { name: "Alt-Pop", type: "genre" }, { name: "Post-punk", type: "genre" },
-    { name: "Electro", type: "genre" }, { name: "Latin Pop", type: "genre" },
-    { name: "Salsa", type: "genre" }, { name: "Dance-Pop", type: "genre" },
-    { name: "Alternative Rap", type: "genre" }, { name: "Latin Rap", type: "genre" },
-    { name: "Reggaeton", type: "genre" }, { name: "Alternative Hip Hop", type: "genre" },
-    { name: "Electronica", type: "genre" }, { name: "Bedroom Pop", type: "genre" },
-    { name: "Indie Rock", type: "genre" }, { name: "Cumbia", type: "genre" },
-    { name: "Folclore", type: "genre" }, { name: "Experimental", type: "genre" },
-    { name: "Acústico", type: "genre" },
-  
-    // lang
-    { name: "Español", type: "lang" }, { name: "Inglés", type: "lang" },
-    { name: "Japonés", type: "lang" }, { name: "Coreano", type: "lang" },
-    { name: "Otro", type: "lang" },
-  
-    // other
-    { name: "Utilidades", type: "other" }, { name: "Comunicación", type: "other" },
-    { name: "Redes Sociales", type: "other" }, { name: "Ubicaciones", type: "other" },
-    { name: "Portfolio", type: "other" }, { name: "Programación", type: "other" },
-    { name: "Web", type: "other" }, { name: "Apuntes", type: "other" },
-    { name: "Accesibilidad", type: "other" }, { name: "Usabilidad", type: "other" },
-    { name: "Privacidad", type: "other" }, { name: "Sugerencias", type: "other" },
-    { name: "Mensajería", type: "other" }, { name: "Correo Electrónico", type: "other" },
-    { name: "Llamadas", type: "other" },
-  ];
-  
+// --- CONSTANTES DE MAPEADO (AHORA CENTRALIZADAS AQUÍ) ---
+export const DEFAULT_PLATFORM_ID_TO_KEY = { 
+  1: 'SPOTIFY', 2: 'YOUTUBE', 3: 'TIKTOK', 4: 'INSTAGRAM', 
+  5: 'IPHONE', 6: 'WHATSAPP', 7: 'STREAMING', 8: 'GOOGLE' 
+};
+export const TIME_ID_TO_BUCKET = { 1: '4w', 2: '6m', 3: '1y' };
+export const AWARENESS_LEVEL_TO_KEY = { 1: 'DESEO', 2: 'CUERPO', 3: 'RASTRO' };
 
-  
-  export const colorMapping = {
-    SPOTIFY: '#30FF9A',
-    YOUTUBE: '#FF7373',
-    TIKTOK: '#C5AFFF',   
-    INSTAGRAM: '#FFB5F2',
-    IPHONE: '#F8FA6E',
-    WHATSAPP: '#29B31E',
-    STREAMING: '#FFC766',
-    GOOGLE: '#79F8F8',   
-    OTRO: '#FFFFFF',
-  };
-  
-  
-  export const platformImages = {
-    1: spotifyImg,
-    2: youtubeImg,
-    3: tiktokImg,
-    4: instagramImg,
-    5: iphoneImg,
-    6: whatsappImg,
-    7: streamingImg,
-    8: googleImg,
-  };
-  export const platformConfig = [
-    { id: 1, name: 'Spotify', color: colorMapping.SPOTIFY, image: spotifyImg },
-    { id: 2, name: 'Youtube', color: colorMapping.YOUTUBE, image: youtubeImg },
-    { id: 3, name: 'TikTok', color: colorMapping.TIKTOK, image: tiktokImg },
-    { id: 4, name: 'Instagram', color: colorMapping.INSTAGRAM, image: instagramImg },
-    { id: 5, name: 'iPhone', color: colorMapping.IPHONE, image: iphoneImg },
-    { id: 6, name: 'Whatsapp', color: colorMapping.WHATSAPP, image: whatsappImg },
-    { id: 7, name: 'Streaming', color: colorMapping.STREAMING, image: streamingImg },
-    { id: 8, name: 'Google', color: colorMapping.GOOGLE, image: googleImg },
-    { id: 0, name: 'Otro', color: colorMapping.OTRO, image: null } // ID 0 para 'Otro'
+
+// --- CONFIGURACIÓN DE COLORES ---
+export const colorMapping = {
+  SPOTIFY: '#30FF9A',
+  YOUTUBE: '#FF7373',
+  TIKTOK: '#C5AFFF',   
+  INSTAGRAM: '#FFB5F2',
+  IPHONE: '#F8FA6E',
+  WHATSAPP: '#29B31E',
+  STREAMING: '#FFC766',
+  GOOGLE: '#79F8F8',   
+  OTRO: '#FFFFFF',
+};
+
+export const tagList = [
+  { name: "Inconsciente", type: "consciencia" }, { name: "Propio", type: "consciencia" },
+  { name: "Contaminado", type: "consciencia" }, { name: "Consciente", type: "consciencia" },
+  { name: "Compartido", type: "consciencia" },
+  { name: "Teléfono", type: "dispositivo" }, { name: "Ordenador", type: "dispositivo" },
+  { name: "Televisión", type: "dispositivo" }, { name: "iPad", type: "dispositivo" },
+  { name: "Liked", type: "state" }, { name: "Saved", type: "state" }, { name: "Bookmark", type: "state" }, { name: "Following", type: "state" },
+  { name: "@email", type: "meta" }, { name: "#tlf", type: "meta" },
+  { name: "Humor", type: "topic" }, { name: "Horror", type: "topic" },
+  { name: "Drama", type: "topic" }, { name: "Acción", type: "topic" },
+  { name: "Tranquilo", type: "topic" }, { name: "Educativo", type: "topic" },
+  { name: "Ficción", type: "topic" }, { name: "Animación", type: "topic" },
+  { name: "Videojuegos", type: "topic" }, { name: "Juegos", type: "topic" },
+  { name: "Romance", type: "topic" }, { name: "Entretenimiento", type: "topic" },
+  { name: "Música", type: "topic" }, { name: "Arte", type: "topic" }, { name: "Tecnología", type: "topic" },
+  { name: "Salud", type: "topic" }, { name: "Movilidad", type: "topic" }, { name: "Viajes", type: "topic" },
+  { name: "Comida", type: "topic" }, { name: "Cocina", type: "topic" }, { name: "Cine", type: "topic" },
+  { name: "Series", type: "topic" }, { name: "Anime", type: "topic" }, { name: "Cómics", type: "topic" },
+  { name: "Fotografía", type: "topic" }, { name: "Diseño", type: "topic" }, { name: "Moda", type: "topic" },
+  { name: "Naturaleza", type: "topic" }, { name: "Ciencia", type: "topic" }, { name: "Política", type: "topic" },
+  { name: "Noticias", type: "topic" }, { name: "Activismo", type: "topic" }, { name: "Finanzas", type: "topic" },
+  { name: "Compras", type: "topic" }, { name: "Social", type: "topic" }, { name: "LGBTQ+", type: "topic" },
+  { name: "Tattoo", type: "topic" }, { name: "Inspiración", type: "topic" }, { name: "Amigos", type: "topic" },
+  { name: "Fantasía", type: "topic" }, { name: "Sit-com", type: "topic" }, { name: "Superhéroes", type: "topic" },
+  { name: "Infantil", type: "topic" }, { name: "Competición", type: "topic" }, { name: "Celebrities", type: "topic" },
+  { name: "Experimental", type: "topic" }, { name: "Crítica", type: "topic" }, { name: "Shitpost", type: "topic" },
+  { name: "Memes", type: "topic" }, { name: "Zodiaco", type: "topic" }, { name: "Revista", type: "topic" },
+  { name: "Música en vivo", type: "topic" }, { name: "Deportes", type: "topic" }, { name: "Cultura", type: "topic" },
+  { name: "Negocios", type: "topic" }, { name: "Economía", type: "topic" }, { name: "Foros", type: "topic" },
+  { name: "Comunidad", type: "topic" }, { name: "Vivienda", type: "topic" }, { name: "Inmobiliaria", type: "topic" },
+  { name: "Clima", type: "topic" }, { name: "Meteorología", type: "topic" }, { name: "Reservas", type: "topic" },
+  { name: "Turismo", type: "topic" }, { name: "Museo", type: "topic" }, { name: "Radio", type: "topic" },
+  { name: "Hip Hop", type: "genre" }, { name: "R&B", type: "genre" },
+  { name: "Latin Trap", type: "genre" }, { name: "Rock", type: "genre" },
+  { name: "Neo-Soul", type: "genre" }, { name: "Rap", type: "genre" },
+  { name: "Hyperpop", type: "genre" }, { name: "Pop", type: "genre" },
+  { name: "Funk", type: "genre" }, { name: "Electronic", type: "genre" },
+  { name: "Techno", type: "genre" }, { name: "Synth-pop", type: "genre" },
+  { name: "Alternative", type: "genre" }, { name: "K-Pop", type: "genre" },
+  { name: "Indie Pop", type: "genre" }, { name: "Trap", type: "genre" },
+  { name: "Soul", type: "genre" }, { name: "Flamenco Urbano", type: "genre" },
+  { name: "Synth-rock", type: "genre" }, { name: "Tech House", type: "genre" },
+  { name: "French House", type: "genre" }, { name: "Electroclash", type: "genre" },
+  { name: "Folk", type: "genre" }, { name: "Art Pop", type: "genre" },
+  { name: "Folktronica", type: "genre" }, { name: "Electropop", type: "genre" },
+  { name: "Boom Bap", type: "genre" }, { name: "Alternative R&B", type: "genre" },
+  { name: "Alt-Pop", type: "genre" }, { name: "Post-punk", type: "genre" },
+  { name: "Electro", type: "genre" }, { name: "Latin Pop", type: "genre" },
+  { name: "Salsa", type: "genre" }, { name: "Dance-Pop", type: "genre" },
+  { name: "Alternative Rap", type: "genre" }, { name: "Latin Rap", type: "genre" },
+  { name: "Reggaeton", type: "genre" }, { name: "Alternative Hip Hop", type: "genre" },
+  { name: "Electronica", type: "genre" }, { name: "Bedroom Pop", type: "genre" },
+  { name: "Indie Rock", type: "genre" }, { name: "Cumbia", type: "genre" },
+  { name: "Folclore", type: "genre" }, { name: "Experimental", type: "genre" },
+  { name: "Acústico", type: "genre" },
+  { name: "Español", type: "lang" }, { name: "Inglés", type: "lang" },
+  { name: "Japonés", type: "lang" }, { name: "Coreano", type: "lang" },
+  { name: "Otro", type: "lang" },
+  { name: "Utilidades", type: "other" }, { name: "Comunicación", type: "other" },
+  { name: "Redes Sociales", type: "other" }, { name: "Ubicaciones", type: "other" },
+  { name: "Portfolio", type: "other" }, { name: "Programación", type: "other" },
+  { name: "Web", type: "other" }, { name: "Apuntes", type: "other" },
+  { name: "Accesibilidad", type: "other" }, { name: "Usabilidad", type: "other" },
+  { name: "Privacidad", type: "other" }, { name: "Sugerencias", type: "other" },
+  { name: "Mensajería", type: "other" }, { name: "Correo Electrónico", type: "other" },
+  { name: "Llamadas", type: "other" },
+];
+
+export const platformImages = {
+  1: spotifyImg, 2: youtubeImg, 3: tiktokImg, 4: instagramImg,
+  5: iphoneImg, 6: whatsappImg, 7: streamingImg, 8: googleImg,
+};
+
+export const platformConfig = [
+  { id: 1, name: 'Spotify', color: colorMapping.SPOTIFY, image: spotifyImg },
+  { id: 2, name: 'Youtube', color: colorMapping.YOUTUBE, image: youtubeImg },
+  { id: 3, name: 'TikTok', color: colorMapping.TIKTOK, image: tiktokImg },
+  { id: 4, name: 'Instagram', color: colorMapping.INSTAGRAM, image: instagramImg },
+  { id: 5, name: 'iPhone', color: colorMapping.IPHONE, image: iphoneImg },
+  { id: 6, name: 'Whatsapp', color: colorMapping.WHATSAPP, image: whatsappImg },
+  { id: 7, name: 'Streaming', color: colorMapping.STREAMING, image: streamingImg },
+  { id: 8, name: 'Google', color: colorMapping.GOOGLE, image: googleImg },
+  { id: 0, name: 'Otro', color: colorMapping.OTRO, image: null }
 ];

@@ -100,7 +100,7 @@
     border:2px solid #9db7c9; background:#2a3c66; color:#cde6ff;
     font-weight:800; display:grid; place-items:center;
   }
-  .step-dot.is-active{ background:#b6eefe; color:#0c2b37; box-shadow:0 0 0 2px rgba(0,0,0,.35); }
+  .step-dot.is-active{ background:#3be9c9; border-color:#3be9c9;color:#0c2b37;   box-shadow: 0 0 15px rgba(59, 233, 201, 0.5);  }
   .step-label{ font-size:18px; letter-spacing:1px; text-align:center; color:#a8cce2; min-width:84px; }
   
   /* Tiempo (puntos) + caption con líneas solo cuando está activo */
@@ -109,7 +109,7 @@
     width:22px; height:22px; 
     background:#3a4c77; border:2px solid #9db7c9;
   }
-  .time-dot.is-active{ background:#b6eefe; border-color:#b6eefe; }
+  .time-dot.is-active{ background:#3be9c9; border-color:#3be9c9;box-shadow: 0 0 15px rgba(59, 233, 201, 0.5); }
   .step-caption{
     position:relative;
     font-size:18px; letter-spacing:1px; text-align:center; color:#a8cce2;
@@ -128,7 +128,7 @@
   }
   .plat-tile.is-active{
     background:rgba(173,235,247,.15);
-    outline:2px solid #2ddbc3;
+    outline:4px solid #2ddbc3;
     box-shadow: 0 0 0 2px rgba(0,0,0,.25) inset, 0 0 0 2px #2ddbc3;
   }
   
@@ -142,7 +142,10 @@
     --tag-fg-active: #062430;
   
     display:inline-flex; align-items:center; gap:8px;
-    padding:6px 10px; border-radius:9999px; font-size:18px; line-height:1;
+    padding:8px 10px; 
+    border-radius:9999px; 
+    font-size:20px; 
+    line-height:1;
     background: var(--tag-bg);
     border:1px solid var(--tag-border);
     color: var(--tag-fg);
@@ -150,7 +153,7 @@
   }
   .tag:hover{ filter:brightness(1.08); }
   .tag.is-active{ background: var(--tag-bg-active); color: var(--tag-fg-active); border-color: transparent; font-weight:700; }
-  .tag .tag-label{ pointer-events:none; }
+  .tag .tag-label{ pointer-events:none;  font-size:20px; }
   
   /* paletas */
 /* Tópicos */

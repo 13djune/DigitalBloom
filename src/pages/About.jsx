@@ -63,7 +63,7 @@ export default function About() {
                 Este proyecto es <span className=" text-accent">un autorretrato hecho con mi propia vida online. </span>
                 Todo empezó por pura curiosidad: me puse a mirar la cantidad de datos que hay sobre mí en internet y aluciné. 
                 Canciones que he escuchado, sitios donde he estado, horas de móvil… un montón de información a la que nunca había prestado atención. 
-                Lo más chocante fue darme cuenta de que ahí estaba <span className=" text-accent">mi propia identidad.  </span>
+                Lo más chocante fue darme cuenta de que ahí estaba <span className=" text-accent">mi propia identidad.</span>
                 Pude ver perfectamente cómo han cambiado mis gustos, mis manías y mi forma de vivir con el paso de tiempo.
                 </p>
                 <p className="text-xl">

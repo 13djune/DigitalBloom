@@ -1,12 +1,14 @@
 'use client';
 import React, { useEffect, useMemo, useRef, useState, useCallback } from 'react';
-// import { gsap } from 'gsap'; // Descomenta esta línea si quieres añadir animaciones de transición
 import '../styles/filters.css';
+import { 
+    colorMapping as globalColorMapping, 
+    DEFAULT_PLATFORM_ID_TO_KEY,
+    TIME_ID_TO_BUCKET,
+    AWARENESS_LEVEL_TO_KEY 
+} from '../utils/globalConfig'; 
 
-/* ---------- CONSTANTES Y MAPEOS ---------- */
-const DEFAULT_PLATFORM_ID_TO_KEY = { 1: 'SPOTIFY', 2: 'YOUTUBE', 3: 'TIKTOK', 4: 'INSTAGRAM', 5: 'IPHONE', 6: 'WHATSAPP', 7: 'STREAMING', 8: 'GOOGLE' };
-const TIME_ID_TO_BUCKET = { 1: '4w', 2: '6m', 3: '1y' };
-const AWARENESS_LEVEL_TO_KEY = { 1: 'DESEO', 2: 'CUERPO', 3: 'RASTRO' };
+
 
 /* ---------- FUNCIONES UTILITARIAS ---------- */
 const pseudoRandom = (seed) => {
@@ -29,17 +31,7 @@ export default function TimelineDotGrid({
     hitTestPadding = 15,
     hoverScale = 1.2,
     tooltipOffset = { x: 30, y: 0 },
-    colorMapping = {
-      SPOTIFY: '#30FF9A',
-      YOUTUBE: '#FF7373',
-      TIKTOK: '#C5AFFF',    // Se mantiene el morado lavanda
-      INSTAGRAM: '#FFB5F2',
-      IPHONE: '#F8FA6E',
-      WHATSAPP: '#29B31E',
-      STREAMING: '#FFC766',
-      GOOGLE: '#79F8F8',    // Cambiado a un cian brillante para máxima distinción
-      OTRO: '#FFFFFF',
-    },
+    colorMapping = globalColorMapping,
     onSelect,
     onZoomChange,
     organization = 'all',
@@ -49,7 +41,7 @@ export default function TimelineDotGrid({
     const tooltipRef = useRef(null);
     const dotsRef = useRef([])  ; 
     const nodesRef = useRef([]);
-    const gridMetricsRef = useRef({}); // Para optimizar la búsqueda de puntos
+    const gridMetricsRef = useRef({});
 
     const [hover, setHover] = useState(null);
     const [active, setActive] = useState(null);
@@ -62,7 +54,6 @@ export default function TimelineDotGrid({
       return p;
   }, []);
   
-
     const buildAndLayout = useCallback(() => {
         const wrap = wrapRef.current;
         const cvs = canvasRef.current;
@@ -159,14 +150,12 @@ export default function TimelineDotGrid({
             const targetX = anchor.x + Math.cos(angle) * radius;
             const targetY = anchor.y + Math.sin(angle) * radius;
 
-            // --- ESTA ES LA OPTIMIZACIÓN CLAVE PARA EL RENDIMIENTO ---
-            // En lugar de buscar en miles de puntos, busca en un área pequeña alrededor del objetivo.
             const { cols, cell, startX, startY } = gridMetricsRef.current;
             const guessX = Math.round((targetX - startX) / cell);
             const guessY = Math.round((targetY - startY) / cell);
             let bestIndex = -1;
             
-            for (let r = 0; r < 25 && bestIndex === -1; r++) { // Aumentado el radio de búsqueda
+            for (let r = 0; r < 25 && bestIndex === -1; r++) {
                 for (let i = -r; i <= r; i++) {
                     for (let j = -r; j <= r; j++) {
                         if (Math.abs(i) !== r && Math.abs(j) !== r) continue;
@@ -183,6 +172,7 @@ export default function TimelineDotGrid({
             }
             
             if (bestIndex !== -1) {
+              
                 availableDots.delete(bestIndex);
                 newNodes.push({
                     id: item.id, item, gridIndex: bestIndex,
@@ -213,7 +203,6 @@ export default function TimelineDotGrid({
             ctx.clearRect(0, 0, cvs.width, cvs.height);
             const currentDotSize = baseDotSize * view.zoom;
 
-            // 1. DIBUJA LA GRILLA DE FONDO (RÁPIDO Y ALINEADO)
             ctx.fillStyle = baseColor;
             dotsRef.current.forEach(dot => {
                 ctx.save();
@@ -223,7 +212,6 @@ export default function TimelineDotGrid({
                 ctx.restore();
             });
 
-            // 2. DIBUJA LOS PUNTOS DE DATOS ENCIMA
             nodesRef.current.forEach(n => {
                 const dot = dotsRef.current[n.gridIndex];
                 if (!dot) return;
@@ -260,12 +248,19 @@ export default function TimelineDotGrid({
         
         const hitTest = (mouseX, mouseY) => {
             const currentDotSize = baseDotSize * view.zoom;
+            // Usamos una hitbox cuadrada para mayor precisión
+            const hitAreaHalfSide = (currentDotSize / 2) + hitTestPadding;
             for (let i = nodesRef.current.length - 1; i >= 0; i--) {
                 const n = nodesRef.current[i];
                 const d = dotsRef.current[n.gridIndex];
                 if (!d) continue;
-                const dsq = Math.hypot(mouseX - d.cx, mouseY - d.cy);
-                if (dsq < (currentDotSize / 2) + hitTestPadding) return n;
+
+                const dx = Math.abs(mouseX - d.cx);
+                const dy = Math.abs(mouseY - d.cy);
+
+                if (dx < hitAreaHalfSide && dy < hitAreaHalfSide) {
+                    return n;
+                }
             }
             return null;
         };

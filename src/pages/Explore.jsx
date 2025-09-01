@@ -184,7 +184,7 @@ export default function Explore() {
     { id: 1, label: "ÚLTIMAS 4 SEMANAS" }, { id: 2, label: "ÚLTIMOS 6 MESES" }, { id: 3, label: "ÚLTIMO AÑO" }
   ], []);
   const steps = useMemo(() => ([
-    { selector: '#level-1', text: 'Puedes explorar los datos por niveles de conciencia.', placement: 'left' },
+    { selector: '#level-1', text: 'Puedes explorar los datos por niveles de conciencia, de lo más consciente (deseo) a lo más involuntario (rastro).', placement: 'left' },
     { selector: '#timeline', text: 'Y ver cómo cambian a lo largo del tiempo.', placement: 'top' },
     { selector: '#btn-filter', text: 'Filtra los datos como quieras.', placement: 'right' },
     { selector: '#btn-navigate', text: 'Haz clic aquí para navegar toda la huella completa.', placement: 'right' },

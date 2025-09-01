@@ -4,16 +4,23 @@ import { gsap } from 'gsap';
 import { InertiaPlugin } from 'gsap/InertiaPlugin';
 import '../styles/filters.css';
 
+// --- 1. IMPORTAR LA CONFIGURACIÓN GLOBAL ---
+import { 
+    colorMapping as globalColorMapping,
+    DEFAULT_PLATFORM_ID_TO_KEY,
+    TIME_ID_TO_BUCKET
+} from '../utils/globalConfig'; // Asegúrate de que la ruta sea la correcta
+
 gsap.registerPlugin(InertiaPlugin);
 
-/* ---------- CONSTANTES Y MAPEOS ---------- */
-const DEFAULT_PLATFORM_ID_TO_KEY = {
-  1: 'SPOTIFY', 2: 'YOUTUBE', 3: 'TIKTOK', 4: 'INSTAGRAM',
-  5: 'IPHONE', 6: 'WHATSAPP', 7: 'STREAMING', 8: 'GOOGLE',
-};
-const TIME_ID_TO_BUCKET = { 1: '4w', 2: '6m', 3: '1y' };
+// --- 2. ELIMINAR CONSTANTES LOCALES ---
+// Ya no necesitamos estas definiciones aquí porque las importamos.
+/*
+const DEFAULT_PLATFORM_ID_TO_KEY = { ... };
+const TIME_ID_TO_BUCKET = { ... };
+*/
 
-/* ---------- FUNCIONES UTILITARIAS ---------- */
+/* ---------- FUNCIONES UTILITARIAS (sin cambios) ---------- */
 const hexToRgb = hex => {
   const m = hex?.match(/^#?([a-f\d]{2})([a-f\d]{2})([a-f\d]{2})$/i);
   return m ? { r: parseInt(m[1], 16), g: parseInt(m[2], 16), b: parseInt(m[3], 16) } : { r: 0, g: 0, b: 0 };
@@ -58,16 +65,8 @@ export default function DataDotGrid({
   tooltipOffset = { x: 30, y: 0 },
   shockRadius = 250,
   shockStrength = 5,
-  colorMapping = {
-    SPOTIFY: '#22FF8E',
-    YOUTUBE: '#FF5F5F',
-    TIKTOK: '#A184FF',
-    INSTAGRAM: '#FF8EDB',
-    IPHONE: '#F5F84E',
-    WHATSAPP: '#148500',
-    STREAMING: '#FFBA3B',
-    GOOGLE: '#77a9fa'
-  },
+  // --- 3. USAR EL COLOR MAPPING IMPORTADO COMO VALOR POR DEFECTO ---
+  colorMapping = globalColorMapping,
   onSelect
 }) {
   const wrapRef = useRef(null);
@@ -180,7 +179,6 @@ export default function DataDotGrid({
   
     const anchorY = SAFE_MARGINS.top + usableH * 0.50;
   
-    // Agrupamos por plataforma
     const grouped = {};
     for (const item of filtered) {
       if (!item || !Number.isFinite(item.platformId)) continue;
@@ -189,8 +187,8 @@ export default function DataDotGrid({
     }
   
     const totalItems = filtered.length;
-    const totalClusterWidth = Math.min(usableW * 0.75, totalItems * 25); // 25 px por ítem aprox
-    const spacePerItem = totalClusterWidth / totalItems;
+    const totalClusterWidth = Math.min(usableW * 0.75, totalItems * 25);
+    const spacePerItem = totalItems > 0 ? totalClusterWidth / totalItems : 0;
     const startX = SAFE_MARGINS.left + (usableW - totalClusterWidth) / 2;
   
     let currentX = startX;
@@ -247,14 +245,12 @@ export default function DataDotGrid({
       }
     }
   
-    console.log(`👉 Total nodos visibles: ${newNodes.length}`);
     nodesRef.current = newNodes;
   }, [filtered, filters, colorMapping, dotSize]);
-  
-  
 
   useEffect(() => { if (wrapRef.current) layoutNodes(); }, [layoutNodes]);
 
+  // ... (El resto del componente: Bucle de dibujado, Eventos, Tooltip, etc., se queda igual)
   /* ---------- Bucle de dibujado en Canvas ---------- */
   useEffect(() => {
     if (!squarePath) return;
@@ -302,17 +298,12 @@ export default function DataDotGrid({
 
         if (isHover || isActive) {
           const side = (R / 2) * 1.2 * 2;
-          const offsetX = dot.cx + dot.xOffset;
-          const offsetY = dot.cy + dot.yOffset;
-        
           ctx.beginPath();
-          ctx.rect(offsetX - side / 2, offsetY - side / 2, side, side);
+          ctx.rect(x - side / 2, y - side / 2, side, side);
           ctx.strokeStyle = isActive ? '#3be9c9' : 'rgba(255,255,255,0.85)';
           ctx.lineWidth = 2;
           ctx.stroke();
         }
-        
-      
       });
 
       raf = requestAnimationFrame(draw);
@@ -328,8 +319,10 @@ export default function DataDotGrid({
       for (const n of nodesRef.current) {
         const d = dotsRef.current[n.gridIndex];
         if (!d) continue;
-        const dsq = Math.hypot(px - (d.cx + d.xOffset), py - (d.cy + d.yOffset));
-        if (dsq < (n.baseR / 2) + hitTestPadding) return n;
+        const halfSide = (n.baseR / 2) + hitTestPadding;
+        const dx = Math.abs(px - (d.cx + d.xOffset));
+        const dy = Math.abs(py - (d.cy + d.yOffset));
+        if (dx < halfSide && dy < halfSide) return n;
       }
       return null;
     };
@@ -427,7 +420,6 @@ export default function DataDotGrid({
       const sourceY = dot.cy + dot.yOffset;
       
       setTooltip(prev => {
-        //  'prev?.item?.id' por si 'prev.item' tampoco existiera.
         if (prev?.item?.id === hover.item.id) {
           return { ...prev, sourceX, sourceY };
         }

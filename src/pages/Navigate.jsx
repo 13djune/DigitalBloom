@@ -162,22 +162,44 @@ function LayoutLegends({ organization }) {
 
       {/* --- LEYENDA DE PERIODOS DE TIEMPO --- */}
       {(organization === 'all' || organization === 'time') && (
+        <>
+            <div className="screen-legend legend-bottom-left">
+            <p className="legend-title">Plataformas</p>
+            {PLATFORM_CONFIG.map(p => (
+              <div key={p.id} className="legend-item">
+                <span className="color-swatch" style={{ backgroundColor: p.color }}></span>
+                {p.name}
+              </div>
+            ))}
+          </div>
         <div className="screen-legend legend-bottom-center">
           <div className="legend-horizontal-items">
             {TIME_PERIODS.map(period => <div key={period}>{period}</div>)}
           </div>
         </div>
+        </>
       )}
 
 
 
       {/* --- LEYENDA HORIZONTAL PARA VISTA "CONCIENCIA" --- */}
       {organization === 'awareness' && (
+        <>
+            <div className="screen-legend legend-bottom-left">
+            <p className="legend-title">Plataformas</p>
+            {PLATFORM_CONFIG.map(p => (
+              <div key={p.id} className="legend-item">
+                <span className="color-swatch" style={{ backgroundColor: p.color }}></span>
+                {p.name}
+              </div>
+            ))}
+          </div>
         <div className="screen-legend legend-bottom-center">
           <div className="legend-horizontal-items">
             {AWARENESS_LEVELS.map(level => <div key={level}>{level}</div>)}
           </div>
         </div>
+        </>
       )}
     </>
   );
