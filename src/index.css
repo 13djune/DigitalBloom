@@ -49,3 +49,26 @@ code {
   font-family: "PixelFont", source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  background-color: #00031E; 
+
+  color: #e8e8e8; 
+
+  font-family: "PixelFont", source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  monospace;
+}
+
+/* Es importante también asegurarse de que el div raíz de React ocupe toda la altura */
+#root {
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+}

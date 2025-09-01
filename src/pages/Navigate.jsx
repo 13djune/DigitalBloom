@@ -242,7 +242,7 @@ export default function Navigate() {
             <button
               key={opt.id}
               onClick={() => setOrganization(opt.id)}
-              className={`round-cta cursor-target ${organization === opt.id ? 'active' : ''}`}
+              className={`round-cta m-5 cursor-target ${organization === opt.id ? 'active' : ''}`}
               aria-label={opt.label}
               title={opt.label}
             >

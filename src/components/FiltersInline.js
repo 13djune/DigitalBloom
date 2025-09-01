@@ -1,18 +1,20 @@
-// src/components/FiltersInline.js
 import { useMemo, useState } from "react";
+import { useNavigate } from "react-router-dom"; // <-- IMPORTADO
 import { Icon } from "@iconify/react";
 import "../styles/filters.css";
 import PixelButton from "./PixelButton";
 import { tagList, platformImages } from "../utils/globalConfig";
 
-export default function FiltersInline({ onApply, onReset }) {
-  // Estado
+export default function FiltersInline({ onReset }) {
+  const navigate = useNavigate(); // <-- AÑADIDO
+
+  // Estado (sin cambios)
   const [level, setLevel] = useState(1);
   const [time, setTime] = useState(1);
   const [platforms, setPlatforms] = useState(() => new Set());
   const [tags, setTags] = useState(() => new Set(["Música", "Inglés", "Saved", "Electroclash"]));
 
-  // Datos
+  // Datos (sin cambios)
   const levels = useMemo(
     () => [
       { id: 1, label: "DESEO" },
@@ -32,14 +34,9 @@ export default function FiltersInline({ onApply, onReset }) {
   );
 
   const platformItems = useMemo(() => [
-    { id: 1, name: "Spotify" },
-    { id: 2, name: "YouTube" },
-    { id: 3, name: "TikTok" },
-    { id: 4, name: "Instagram" },
-    { id: 5, name: "iPhone" },
-    { id: 6, name: "WhatsApp" },
-    { id: 7, name: "Streaming" },
-    { id: 8, name: "Google" },
+    { id: 1, name: "Spotify" }, { id: 2, name: "YouTube" }, { id: 3, name: "TikTok" },
+    { id: 4, name: "Instagram" }, { id: 5, name: "iPhone" }, { id: 6, name: "WhatsApp" },
+    { id: 7, name: "Streaming" }, { id: 8, name: "Google" },
   ], []);
 
   const allTags = useMemo(() => {
@@ -55,7 +52,7 @@ export default function FiltersInline({ onApply, onReset }) {
 
   const activeCount = 2 + platforms.size + tags.size;
 
-  // Handlers
+  // Handlers (sin cambios en toggle)
   const togglePlatform = (id) =>
     setPlatforms(prev => {
       const s = new Set(prev);
@@ -78,13 +75,16 @@ export default function FiltersInline({ onApply, onReset }) {
     onReset?.();
   };
 
+  // --- FUNCIÓN DE NAVEGACIÓN MODIFICADA ---
   const handleApply = () => {
-    onApply?.({
-      level,
-      time,
-      platforms: Array.from(platforms),
-      tags: Array.from(tags),
-    });
+    const params = new URLSearchParams();
+    if (level) params.set("level", level);
+    if (time) params.set("time", time);
+    // Explore.jsx espera el parámetro 'platforms' (plural)
+    Array.from(platforms).forEach(p => params.append("platforms", p));
+    Array.from(tags).forEach(t => params.append("tags", t));
+
+    navigate(`/explore?${params.toString()}`);
   };
 
   return (

@@ -223,11 +223,9 @@ margin: 0 0 0 8px;
 
 /* activo: simulamos el anillo interior con un inset grande */
 .box--active {
-  background: #9be5ef;
-  color: #0b2832;
-  box-shadow:
-    0 0 0 8px #3c8f9b inset,        /* “anillo” interior */
-    0 0 0 2px rgba(0,0,0,.35);      /* borde externo */
+  background:#3be9c9;      
+  color: #0b2933;            /* texto oscuro */
+  box-shadow: 0 0 15px rgba(59, 233, 201, 0.5);       /* borde externo */
   transform: translateZ(0);          /* evita artefactos en algunos navegadores */
 }
 
@@ -307,11 +305,9 @@ margin: 0 0 0 8px;
 .time-card {
   display: none;
   padding: 14px 18px;
-  background:#9be5ef;       /* celeste del ejemplo */
+  background:#3be9c9;      
   color: #0b2933;            /* texto oscuro */
-    box-shadow:
-    0 0 0 8px #3c8f9b inset,        /* “anillo” interior */
-    0 0 0 2px rgba(0,0,0,.35);      /* borde externo */
+  box-shadow: 0 0 15px rgba(59, 233, 201, 0.5);    /* borde externo */
   transform: translateZ(0);    
   font-weight: 700;
   font-size: 18px;
@@ -397,6 +393,13 @@ margin: 0 0 0 8px;
   background: #A1E6F6;      /* fondo oscuro */
   color: #00031E;           /* color del icono */
  
+}
+.round-cta.active {
+  background-color: #3be9c9; /* Un color de acento sólido y brillante */
+  color: #111423; /* Color del icono oscuro para que contraste */
+  border-color: #3be9c9;
+  transform: scale(1.1); /* Lo hacemos un poco más grande */
+  box-shadow: 0 0 15px rgba(59, 233, 201, 0.5);
 }
 .round-cta.has-badge { 
   position: relative; }

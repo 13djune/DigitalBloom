@@ -827,8 +827,7 @@
         "details": {
           "sourceFile": "GMAPS_location-history.json",
           "dataType": "Historial de ubicaciones",
-          "place": "40.413538,-3.665820",
-          "placeID": "ChIJZVSc3AEmQg0Ri3e4rRio16o",
+         
           "visitCount": 32
         }
       },
@@ -1102,8 +1101,7 @@
         "details": {
           "sourceFile": "GMAPS_location-history.json",
           "dataType": "Historial de ubicaciones",
-          "place": "40.413538,-3.665820",
-          "placeID": "ChIJZVSc3AEmQg0Ri3e4rRio16o",
+          
           "visitCount": 112
         }
       },
@@ -1432,68 +1430,7 @@
       },
         "url": "https://www.google.com/maps/dir/?api=1&origin=40.443580%2C-3.726745&destination=40.414440%2C-3.669721&travelmode=transit"
       },
-      {
-        "id": "geo-6m-visit-chijzvsc3aemqg0ri3e4rrio16o-14",
-        "title": "Visita",
-        "artists": "Duración 02:51:05 • 2025-06-05",
-        "awareness": 2,
-        "timeBucket": "6m",
-        "platformId": 8,
-        "tags": [
-          "Movilidad",
-          "Lugares",
-          "Propio",
-          "Consciente",
-          "Teléfono",
-          "@email",
-          "Viajes"
-        ],
-        "details": {
-          "sourceFile": "location-history.json",
-          "dataType": "Visita",
-          "place": "40.413538,-3.665820",
-          "placeID": "ChIJZVSc3AEmQg0Ri3e4rRio16o",
-          "coordinates": [
-            40.413538,
-            -3.66582
-          ],
-          "startTime": "20:13:38",
-          "endTime": "23:04:44",
-          "duration": "02:51:5"
-        },
-        "url": "https://www.google.com/maps/place/?q=place_id:ChIJZVSc3AEmQg0Ri3e4rRio16o"
-      },
-      {
-        "id": "geo-6m-visit-chijzvsc3aemqg0ri3e4rrio16o-15",
-        "title": "Visita",
-        "artists": "Duración 19:01:37 • 2025-06-05",
-        "awareness": 2,
-        "timeBucket": "6m",
-        "platformId": 8,
-        "tags": [
-          "Movilidad",
-          "Lugares",
-          "Propio",
-          "Consciente",
-          "Teléfono",
-          "@email",
-          "Viajes"
-        ],
-        "details": {
-          "sourceFile": "location-history.json",
-          "dataType": "Visita",
-          "place": "40.413538,-3.665820",
-          "placeID": "ChIJZVSc3AEmQg0Ri3e4rRio16o",
-          "coordinates": [
-            40.413538,
-            -3.66582
-          ],
-          "startTime": "23:04:44",
-          "endTime": "18:06:21",
-          "duration": "19:01:7"
-        },
-        "url": "https://www.google.com/maps/place/?q=place_id:ChIJZVSc3AEmQg0Ri3e4rRio16o"
-      },
+
       {
         "id": "geo-6m-trip-andando-16",
         "title": "Trayecto — andando · 0.68 km",
@@ -1553,127 +1490,8 @@
       },
         "url": "https://www.google.com/maps/place/?q=place_id:ChIJ8WT8T_clQg0Rks5DE3OxFls"
       },
-      {
-        "id": "geo-6m-visit-chijzvsc3aemqg0ri3e4rrio16o-19",
-        "title": "Visita",
-        "artists": "Duración 38:10:26 • 2025-06-06",
-        "awareness": 2,
-        "timeBucket": "6m",
-        "platformId": 8,
-        "tags": [
-          "Movilidad",
-          "Lugares",
-          "Propio",
-          "Consciente",
-          "Teléfono",
-          "@email",
-          "Viajes"
-        ],
-        "details": {
-          "sourceFile": "location-history.json",
-          "dataType": "Visita",
-          "place": "40.413538,-3.665820",
-          "placeID": "ChIJZVSc3AEmQg0Ri3e4rRio16o",
-          "coordinates": [
-            40.413538,
-            -3.66582
-          ],
-          "startTime": "20:21:10",
-          "endTime": "10:31:37",
-          "duration": "38:10:6"
-        },
-        "url": "https://www.google.com/maps/place/?q=place_id:ChIJZVSc3AEmQg0Ri3e4rRio16o"
-      },
-      {
-        "id": "geo-6m-visit-chijzvsc3aemqg0ri3e4rrio16o-20",
-        "title": "Visita",
-        "artists": "Duración 06:57:49 • 2025-06-08",
-        "awareness": 2,
-        "timeBucket": "6m",
-        "platformId": 8,
-        "tags": [
-          "Movilidad",
-          "Lugares",
-          "Propio",
-          "Consciente",
-          "Teléfono",
-          "@email",
-          "Viajes"
-        ],
-        "details": {
-          "sourceFile": "location-history.json",
-          "dataType": "Visita",
-          "place": "40.413538,-3.665820",
-          "placeID": "ChIJZVSc3AEmQg0Ri3e4rRio16o",
-          "coordinates": [
-            40.413538,
-            -3.66582
-          ],
-          "startTime": "10:31:37",
-          "endTime": "17:29:26",
-          "duration": "06:57:9"
-        },
-        "url": "https://www.google.com/maps/place/?q=place_id:ChIJZVSc3AEmQg0Ri3e4rRio16o"
-      },
-      {
-        "id": "geo-6m-visit-chijzvsc3aemqg0ri3e4rrio16o-21",
-        "title": "Visita",
-        "artists": "Duración 18:40:30 • 2025-06-08",
-        "awareness": 2,
-        "timeBucket": "6m",
-        "platformId": 8,
-        "tags": [
-          "Movilidad",
-          "Lugares",
-          "Propio",
-          "Consciente",
-          "Teléfono",
-          "@email",
-          "Viajes"
-        ],
-        "details": {
-          "sourceFile": "location-history.json",
-          "dataType": "Visita",
-          "place": "40.413538,-3.665820",
-          "placeID": "ChIJZVSc3AEmQg0Ri3e4rRio16o",
-          "coordinates": [
-            40.413538,
-            -3.66582
-          ],
-          "startTime": "17:29:26",
-          "endTime": "12:09:57",
-          "duration": "18:40:0"
-        },
-        "url": "https://www.google.com/maps/place/?q=place_id:ChIJZVSc3AEmQg0Ri3e4rRio16o"
-      },
-      {
-        "id": "geo-6m-trip-andando-22",
-        "title": "Trayecto — andando · 1.57 km",
-        "artists": "Duración 11:28 • 2025-06-09",
-        "awareness": 2,
-        "timeBucket": "6m",
-        "platformId": 8,
-        "tags": [
-          "Movilidad",
-          "Trayectos",
-          "Propio",
-          "Consciente",
-          "Teléfono",
-          "@email",
-          "Viajes"
-        ],
-        "details": {
-          "sourceFile": "location-history.json",
-          "dataType": "Actividad",
-          "from": "40.413752,-3.665911",
-          "to": "40.416354,-3.677984",
-          "mode": "andando",
-          "startTime": "12:09:57",
-          "endTime": "12:21:25",
-          "duration": "11:28"
-      },
-        "url": "https://www.google.com/maps/dir/?api=1&origin=40.413752%2C-3.665911&destination=40.416354%2C-3.677984&travelmode=andando"
-      },
+    
+
       {
         "id": "geo-6m-visit-chije4ir9z8oqg0rrqmktrynbj4-23",
         "title": "Visita — Lugar",
@@ -1705,38 +1523,7 @@
       },
         "url": "https://www.google.com/maps/place/?q=place_id:ChIJe4IR9Z8oQg0RrqMktRYnbJ4"
       },
-     
-      {
-        "id": "geo-6m-visit-chijzvsc3aemqg0ri3e4rrio16o-25",
-        "title": "Visita",
-        "artists": "Duración 06:20:04 • 2025-06-09",
-        "awareness": 2,
-        "timeBucket": "6m",
-        "platformId": 8,
-        "tags": [
-          "Movilidad",
-          "Lugares",
-          "Propio",
-          "Consciente",
-          "Teléfono",
-          "@email",
-          "Viajes"
-        ],
-        "details": {
-          "sourceFile": "location-history.json",
-          "dataType": "Visita",
-          "place": "40.413538,-3.665820",
-          "placeID": "ChIJZVSc3AEmQg0Ri3e4rRio16o",
-          "coordinates": [
-            40.413538,
-            -3.66582
-          ],
-          "startTime": "13:18:49",
-          "endTime": "19:38:54",
-          "duration": "06:20:4"
-        },
-        "url": "https://www.google.com/maps/place/?q=place_id:ChIJZVSc3AEmQg0Ri3e4rRio16o"
-      },
+
       {
         "id": "geo-6m-trip-andando-26",
         "title": "Trayecto — andando · 2.32 km",
@@ -2156,37 +1943,7 @@
       },
         "url": "https://www.google.com/maps/dir/?api=1&origin=40.389900%2C-3.692657&destination=40.412565%2C-3.668045&travelmode=transit"
       },
-      {
-        "id": "geo-6m-visit-chijzvsc3aemqg0ri3e4rrio16o-44",
-        "title": "Visita",
-        "artists": "Duración 25:13:01 • 2025-06-10",
-        "awareness": 2,
-        "timeBucket": "6m",
-        "platformId": 8,
-        "tags": [
-          "Movilidad",
-          "Lugares",
-          "Propio",
-          "Consciente",
-          "Teléfono",
-          "@email",
-          "Viajes"
-        ],
-        "details": {
-          "sourceFile": "location-history.json",
-          "dataType": "Visita",
-          "place": "40.413538,-3.665820",
-          "placeID": "ChIJZVSc3AEmQg0Ri3e4rRio16o",
-          "coordinates": [
-            40.413538,
-            -3.66582
-          ],
-          "startTime": "15:21:12",
-          "endTime": "16:34:14",
-          "duration": "25:13:1"
-        },
-        "url": "https://www.google.com/maps/place/?q=place_id:ChIJZVSc3AEmQg0Ri3e4rRio16o"
-      },
+
       {
         "id": "geo-6m-visit-chijnevy47koqg0rgvgz6blbrou-46",
         "title": "Visita",
@@ -2246,37 +2003,7 @@
       },
         "url": "https://www.google.com/maps/dir/?api=1&origin=40.429796%2C-3.671378&destination=40.414662%2C-3.669784&travelmode=transit"
       },
-      {
-        "id": "geo-6m-visit-chijzvsc3aemqg0ri3e4rrio16o-49",
-        "title": "Visita",
-        "artists": "Duración 18:22:56 • 2025-06-11",
-        "awareness": 2,
-        "timeBucket": "6m",
-        "platformId": 8,
-        "tags": [
-          "Movilidad",
-          "Lugares",
-          "Propio",
-          "Consciente",
-          "Teléfono",
-          "@email",
-          "Viajes"
-        ],
-        "details": {
-          "sourceFile": "location-history.json",
-          "dataType": "Visita",
-          "place": "40.413538,-3.665820",
-          "placeID": "ChIJZVSc3AEmQg0Ri3e4rRio16o",
-          "coordinates": [
-            40.413538,
-            -3.66582
-          ],
-          "startTime": "19:10:30",
-          "endTime": "13:33:26",
-          "duration": "18:22:6"
-        },
-        "url": "https://www.google.com/maps/place/?q=place_id:ChIJZVSc3AEmQg0Ri3e4rRio16o"
-      },
+    
       {
         "id": "geo-6m-visit-chij57jeiaemqg0rbwyvzsbiqga-51",
         "title": "Visita — Lugar",
@@ -2308,37 +2035,7 @@
       },
         "url": "https://www.google.com/maps/place/?q=place_id:ChIJ57jEIAEmQg0RbWyVZSBIqGA"
       },
-      {
-        "id": "geo-6m-visit-chijzvsc3aemqg0ri3e4rrio16o-53",
-        "title": "Visita",
-        "artists": "Duración 02:48:34 • 2025-06-12",
-        "awareness": 2,
-        "timeBucket": "6m",
-        "platformId": 8,
-        "tags": [
-          "Movilidad",
-          "Lugares",
-          "Propio",
-          "Consciente",
-          "Teléfono",
-          "@email",
-          "Viajes"
-        ],
-        "details": {
-          "sourceFile": "location-history.json",
-          "dataType": "Visita",
-          "place": "40.413538,-3.665820",
-          "placeID": "ChIJZVSc3AEmQg0Ri3e4rRio16o",
-          "coordinates": [
-            40.413538,
-            -3.66582
-          ],
-          "startTime": "15:42:55",
-          "endTime": "18:31:30",
-          "duration": "02:48:4"
-        },
-        "url": "https://www.google.com/maps/place/?q=place_id:ChIJZVSc3AEmQg0Ri3e4rRio16o"
-      },
+
       {
         "id": "geo-6m-trip-in-passenger-vehicle-55",
         "title": "Trayecto — de copiloto de coche · 1.45 km",
@@ -2458,37 +2155,7 @@
       },
         "url": "https://www.google.com/maps/dir/?api=1&origin=40.409064%2C-3.648174&destination=40.411610%2C-3.665738&travelmode=andando"
       },
-      {
-        "id": "geo-6m-visit-chijzvsc3aemqg0ri3e4rrio16o-59",
-        "title": "Visita",
-        "artists": "Duración 27:03 • 2025-06-12",
-        "awareness": 2,
-        "timeBucket": "6m",
-        "platformId": 8,
-        "tags": [
-          "Movilidad",
-          "Lugares",
-          "Propio",
-          "Consciente",
-          "Teléfono",
-          "@email",
-          "Viajes"
-        ],
-        "details": {
-          "sourceFile": "location-history.json",
-          "dataType": "Visita",
-          "place": "40.413538,-3.665820",
-          "placeID": "ChIJZVSc3AEmQg0Ri3e4rRio16o",
-          "coordinates": [
-            40.413538,
-            -3.66582
-          ],
-          "startTime": "23:38:03",
-          "endTime": "00:05:07",
-          "duration": "27:03"
-      },
-        "url": "https://www.google.com/maps/place/?q=place_id:ChIJZVSc3AEmQg0Ri3e4rRio16o"
-      },
+
       {
         "id": "geo-6m-trip-in-passenger-vehicle-60",
         "title": "Trayecto — de copiloto de coche · 5.43 km",
@@ -2725,37 +2392,7 @@
       },
         "url": "https://www.google.com/maps/dir/?api=1&origin=40.396045%2C-3.680652&destination=40.414251%2C-3.667021&travelmode=transit"
       },
-      {
-        "id": "geo-6m-visit-chijzvsc3aemqg0ri3e4rrio16o-69",
-        "title": "Visita",
-        "artists": "Duración 05:00:24 • 2025-06-13",
-        "awareness": 2,
-        "timeBucket": "6m",
-        "platformId": 8,
-        "tags": [
-          "Movilidad",
-          "Lugares",
-          "Propio",
-          "Consciente",
-          "Teléfono",
-          "@email",
-          "Viajes"
-        ],
-        "details": {
-          "sourceFile": "location-history.json",
-          "dataType": "Visita",
-          "place": "40.413538,-3.665820",
-          "placeID": "ChIJZVSc3AEmQg0Ri3e4rRio16o",
-          "coordinates": [
-            40.413538,
-            -3.66582
-          ],
-          "startTime": "15:20:40",
-          "endTime": "20:21:05",
-          "duration": "05:00:4"
-        },
-        "url": "https://www.google.com/maps/place/?q=place_id:ChIJZVSc3AEmQg0Ri3e4rRio16o"
-      },
+
       {
         "id": "geo-6m-visit-chijgeojfaemqg0reti-oq-mpca-71",
         "title": "Visita — Lugar",
@@ -2787,37 +2424,7 @@
         },
         "url": "https://www.google.com/maps/place/?q=place_id:ChIJgeOjFAEmQg0Reti-oq-mPcA"
       },
-      {
-        "id": "geo-6m-visit-chijzvsc3aemqg0ri3e4rrio16o-73",
-        "title": "Visita",
-        "artists": "Duración 20:09:44 • 2025-06-13",
-        "awareness": 2,
-        "timeBucket": "6m",
-        "platformId": 8,
-        "tags": [
-          "Movilidad",
-          "Lugares",
-          "Propio",
-          "Consciente",
-          "Teléfono",
-          "@email",
-          "Viajes"
-        ],
-        "details": {
-          "sourceFile": "location-history.json",
-          "dataType": "Visita",
-          "place": "40.413538,-3.665820",
-          "placeID": "ChIJZVSc3AEmQg0Ri3e4rRio16o",
-          "coordinates": [
-            40.413538,
-            -3.66582
-          ],
-          "startTime": "23:41:56",
-          "endTime": "19:51:41",
-          "duration": "20:09:4"
-        },
-        "url": "https://www.google.com/maps/place/?q=place_id:ChIJZVSc3AEmQg0Ri3e4rRio16o"
-      },
+  
       {
         "id": "geo-6m-visit-chijltij0qmmqg0rjlbgbmkngnq-75",
         "title": "Visita — Lugar",
@@ -2849,37 +2456,7 @@
       },
         "url": "https://www.google.com/maps/place/?q=place_id:ChIJlTIj0QMmQg0RJLbGbmKnGNQ"
       },
-      {
-        "id": "geo-6m-visit-chijzvsc3aemqg0ri3e4rrio16o-77",
-        "title": "Visita",
-        "artists": "Duración 67:28:34 • 2025-06-14",
-        "awareness": 2,
-        "timeBucket": "6m",
-        "platformId": 8,
-        "tags": [
-          "Movilidad",
-          "Lugares",
-          "Propio",
-          "Consciente",
-          "Teléfono",
-          "@email",
-          "Viajes"
-        ],
-        "details": {
-          "sourceFile": "location-history.json",
-          "dataType": "Visita",
-          "place": "40.413538,-3.665820",
-          "placeID": "ChIJZVSc3AEmQg0Ri3e4rRio16o",
-          "coordinates": [
-            40.413538,
-            -3.66582
-          ],
-          "startTime": "20:24:02",
-          "endTime": "15:52:37",
-          "duration": "67:28:4"
-        },
-        "url": "https://www.google.com/maps/place/?q=place_id:ChIJZVSc3AEmQg0Ri3e4rRio16o"
-      },
+   
       {
         "id": "geo-6m-trip-andando-78",
         "title": "Trayecto — andando · 1.60 km",
@@ -3867,68 +3444,8 @@
       },
         "url": "https://www.google.com/maps/dir/?api=1&origin=40.418697%2C-3.696529&destination=40.411791%2C-3.665822&travelmode=transit"
       },
-      {
-        "id": "geo-6m-visit-chijzvsc3aemqg0ri3e4rrio16o-144",
-        "title": "Visita",
-        "artists": "Duración 48:21:35 • 2025-06-26",
-        "awareness": 2,
-        "timeBucket": "6m",
-        "platformId": 8,
-        "tags": [
-          "Movilidad",
-          "Lugares",
-          "Propio",
-          "Consciente",
-          "Teléfono",
-          "@email",
-          "Viajes"
-        ],
-        "details": {
-          "sourceFile": "location-history.json",
-          "dataType": "Visita",
-          "place": "40.413538,-3.665820",
-          "placeID": "ChIJZVSc3AEmQg0Ri3e4rRio16o",
-          "coordinates": [
-            40.413538,
-            -3.66582
-          ],
-          "startTime": "15:38:09",
-          "endTime": "15:59:44",
-          "duration": "48:21:5"
-        },
-        "url": "https://www.google.com/maps/place/?q=place_id:ChIJZVSc3AEmQg0Ri3e4rRio16o"
-      },
-      {
-        "id": "geo-6m-visit-chijzvsc3aemqg0ri3e4rrio16o-147",
-        "title": "Visita",
-        "artists": "Duración 27:39:41 • 2025-06-29",
-        "awareness": 2,
-        "timeBucket": "6m",
-        "platformId": 8,
-        "tags": [
-          "Movilidad",
-          "Lugares",
-          "Propio",
-          "Consciente",
-          "Teléfono",
-          "@email",
-          "Viajes"
-        ],
-        "details": {
-          "sourceFile": "location-history.json",
-          "dataType": "Visita",
-          "place": "40.413538,-3.665820",
-          "placeID": "ChIJZVSc3AEmQg0Ri3e4rRio16o",
-          "coordinates": [
-            40.413538,
-            -3.66582
-          ],
-          "startTime": "20:05:18",
-          "endTime": "23:44:59",
-          "duration": "27:39:1"
-        },
-        "url": "https://www.google.com/maps/place/?q=place_id:ChIJZVSc3AEmQg0Ri3e4rRio16o"
-      },
+ 
+   
       {
         "id": "geo-6m-trip-andando-148",
         "title": "Trayecto — andando · 0.62 km",
@@ -4402,37 +3919,7 @@
         "url": "https://www.google.com/maps/place/?q=place_id:ChIJ0RbRyv0pQg0RS9u2jqDIbOE"
       },
   
-      {
-        "id": "geo-6m-visit-chijzvsc3aemqg0ri3e4rrio16o-172",
-        "title": "Visita",
-        "artists": "Duración 11:48:15 • 2025-07-02",
-        "awareness": 2,
-        "timeBucket": "6m",
-        "platformId": 8,
-        "tags": [
-          "Movilidad",
-          "Lugares",
-          "Propio",
-          "Consciente",
-          "Teléfono",
-          "@email",
-          "Viajes"
-        ],
-        "details": {
-          "sourceFile": "location-history.json",
-          "dataType": "Visita",
-          "place": "40.413538,-3.665820",
-          "placeID": "ChIJZVSc3AEmQg0Ri3e4rRio16o",
-          "coordinates": [
-            40.413538,
-            -3.66582
-          ],
-          "startTime": "21:57:38",
-          "endTime": "09:45:54",
-          "duration": "11:48:5"
-        },
-        "url": "https://www.google.com/maps/place/?q=place_id:ChIJZVSc3AEmQg0Ri3e4rRio16o"
-      },
+
       {
         "id": "geo-6m-visit-chijn8eflqimqg0rv56nq4qwyhg-174",
         "title": "Visita — Lugar",
@@ -4701,37 +4188,7 @@
       },
         "url": "https://www.google.com/maps/dir/?api=1&origin=40.412423%2C-3.704551&destination=40.413382%2C-3.667661&travelmode=transit"
       },
-      {
-        "id": "geo-6m-visit-chijzvsc3aemqg0ri3e4rrio16o-185",
-        "title": "Visita",
-        "artists": "Duración 03:08:00 • 2025-07-03",
-        "awareness": 2,
-        "timeBucket": "6m",
-        "platformId": 8,
-        "tags": [
-          "Movilidad",
-          "Lugares",
-          "Propio",
-          "Consciente",
-          "Teléfono",
-          "@email",
-          "Viajes"
-        ],
-        "details": {
-          "sourceFile": "location-history.json",
-          "dataType": "Visita",
-          "place": "40.413538,-3.665820",
-          "placeID": "ChIJZVSc3AEmQg0Ri3e4rRio16o",
-          "coordinates": [
-            40.413538,
-            -3.66582
-          ],
-          "startTime": "19:47:39",
-          "endTime": "22:55:39",
-          "duration": "03:08:0"
-        },
-        "url": "https://www.google.com/maps/place/?q=place_id:ChIJZVSc3AEmQg0Ri3e4rRio16o"
-      },
+     
       {
         "id": "geo-6m-trip-in-subway-187",
         "title": "Trayecto — en metro · 6.06 km",
@@ -5175,37 +4632,7 @@
       },
         "url": "https://www.google.com/maps/dir/?api=1&origin=40.413167%2C-3.706847&destination=40.414210%2C-3.666693&travelmode=driving"
       },
-      {
-        "id": "geo-6m-visit-chijzvsc3aemqg0ri3e4rrio16o-205",
-        "title": "Visita",
-        "artists": "Duración 03:00:55 • 2025-07-05",
-        "awareness": 2,
-        "timeBucket": "6m",
-        "platformId": 8,
-        "tags": [
-          "Movilidad",
-          "Lugares",
-          "Propio",
-          "Consciente",
-          "Teléfono",
-          "@email",
-          "Viajes"
-        ],
-        "details": {
-          "sourceFile": "location-history.json",
-          "dataType": "Visita",
-          "place": "40.413538,-3.665820",
-          "placeID": "ChIJZVSc3AEmQg0Ri3e4rRio16o",
-          "coordinates": [
-            40.413538,
-            -3.66582
-          ],
-          "startTime": "18:14:46",
-          "endTime": "21:15:42",
-          "duration": "03:00:5"
-        },
-        "url": "https://www.google.com/maps/place/?q=place_id:ChIJZVSc3AEmQg0Ri3e4rRio16o"
-      },
+ 
       {
         "id": "geo-6m-trip-in-passenger-vehicle-206",
         "title": "Trayecto — de copiloto de coche · 2.93 km",
@@ -5474,37 +4901,7 @@
         },
         "url": "https://www.google.com/maps/place/?q=place_id:ChIJ1WwWZ6cnQg0RMlAB6UlrvQI"
       },
-      {
-        "id": "geo-6m-visit-chijzvsc3aemqg0ri3e4rrio16o-217",
-        "title": "Visita",
-        "artists": "Duración 36:59:37 • 2025-07-06",
-        "awareness": 2,
-        "timeBucket": "6m",
-        "platformId": 8,
-        "tags": [
-          "Movilidad",
-          "Lugares",
-          "Propio",
-          "Consciente",
-          "Teléfono",
-          "@email",
-          "Viajes"
-        ],
-        "details": {
-          "sourceFile": "location-history.json",
-          "dataType": "Visita",
-          "place": "40.413538,-3.665820",
-          "placeID": "ChIJZVSc3AEmQg0Ri3e4rRio16o",
-          "coordinates": [
-            40.413538,
-            -3.66582
-          ],
-          "startTime": "23:24:10",
-          "endTime": "12:23:47",
-          "duration": "36:59:7"
-        },
-        "url": "https://www.google.com/maps/place/?q=place_id:ChIJZVSc3AEmQg0Ri3e4rRio16o"
-      },
+
       {
         "id": "geo-6m-visit-chijltij0qmmqg0rjlbgbmkngnq-218",
         "title": "Visita — Lugar",
@@ -5536,37 +4933,7 @@
       },
         "url": "https://www.google.com/maps/place/?q=place_id:ChIJlTIj0QMmQg0RJLbGbmKnGNQ"
       },
-      {
-        "id": "geo-6m-visit-chijzvsc3aemqg0ri3e4rrio16o-220",
-        "title": "Visita",
-        "artists": "Duración 29:06:53 • 2025-07-08",
-        "awareness": 2,
-        "timeBucket": "6m",
-        "platformId": 8,
-        "tags": [
-          "Movilidad",
-          "Lugares",
-          "Propio",
-          "Consciente",
-          "Teléfono",
-          "@email",
-          "Viajes"
-        ],
-        "details": {
-          "sourceFile": "location-history.json",
-          "dataType": "Visita",
-          "place": "40.413538,-3.665820",
-          "placeID": "ChIJZVSc3AEmQg0Ri3e4rRio16o",
-          "coordinates": [
-            40.413538,
-            -3.66582
-          ],
-          "startTime": "12:49:05",
-          "endTime": "17:55:58",
-          "duration": "29:06:3"
-        },
-        "url": "https://www.google.com/maps/place/?q=place_id:ChIJZVSc3AEmQg0Ri3e4rRio16o"
-      },
+  
       {
         "id": "geo-6m-trip-in-subway-222",
         "title": "Trayecto — en metro · 4.75 km",
@@ -5713,37 +5080,7 @@
       },
         "url": "https://www.google.com/maps/dir/?api=1&origin=40.406525%2C-3.688818&destination=40.412919%2C-3.666005&travelmode=transit"
       },
-      {
-        "id": "geo-6m-visit-chijzvsc3aemqg0ri3e4rrio16o-230",
-        "title": "Visita",
-        "artists": "Duración 04:22:31 • 2025-07-10",
-        "awareness": 2,
-        "timeBucket": "6m",
-        "platformId": 8,
-        "tags": [
-          "Movilidad",
-          "Lugares",
-          "Propio",
-          "Consciente",
-          "Teléfono",
-          "@email",
-          "Viajes"
-        ],
-        "details": {
-          "sourceFile": "location-history.json",
-          "dataType": "Visita",
-          "place": "40.413538,-3.665820",
-          "placeID": "ChIJZVSc3AEmQg0Ri3e4rRio16o",
-          "coordinates": [
-            40.413538,
-            -3.66582
-          ],
-          "startTime": "14:53:45",
-          "endTime": "19:16:17",
-          "duration": "04:22:1"
-        },
-        "url": "https://www.google.com/maps/place/?q=place_id:ChIJZVSc3AEmQg0Ri3e4rRio16o"
-      },
+    
       {
         "id": "geo-6m-trip-andando-231",
         "title": "Trayecto — andando · 2.69 km",
@@ -5953,37 +5290,7 @@
         "url": "https://www.google.com/maps/place/?q=place_id:ChIJF9jNRSQmQg0RWwNljcL5Rzk"
       },
    
-      {
-        "id": "geo-6m-visit-chijzvsc3aemqg0ri3e4rrio16o-242",
-        "title": "Visita",
-        "artists": "Duración 11:18:41 • 2025-07-10",
-        "awareness": 2,
-        "timeBucket": "6m",
-        "platformId": 8,
-        "tags": [
-          "Movilidad",
-          "Lugares",
-          "Propio",
-          "Consciente",
-          "Teléfono",
-          "@email",
-          "Viajes"
-        ],
-        "details": {
-          "sourceFile": "location-history.json",
-          "dataType": "Visita",
-          "place": "40.413538,-3.665820",
-          "placeID": "ChIJZVSc3AEmQg0Ri3e4rRio16o",
-          "coordinates": [
-            40.413538,
-            -3.66582
-          ],
-          "startTime": "23:40:35",
-          "endTime": "10:59:16",
-          "duration": "11:18:1"
-        },
-        "url": "https://www.google.com/maps/place/?q=place_id:ChIJZVSc3AEmQg0Ri3e4rRio16o"
-      },
+   
       {
         "id": "geo-6m-trip-andando-243",
         "title": "Trayecto — andando · 0.64 km",
@@ -7022,37 +6329,7 @@
       },
         "url": "https://www.google.com/maps/dir/?api=1&origin=40.396015%2C-3.680666&destination=40.414653%2C-3.669811&travelmode=transit"
       },
-      {
-        "id": "geo-6m-visit-chijzvsc3aemqg0ri3e4rrio16o-285",
-        "title": "Visita",
-        "artists": "Duración 41:03:50 • 2025-07-16",
-        "awareness": 2,
-        "timeBucket": "6m",
-        "platformId": 8,
-        "tags": [
-          "Movilidad",
-          "Lugares",
-          "Propio",
-          "Consciente",
-          "Teléfono",
-          "@email",
-          "Viajes"
-        ],
-        "details": {
-          "sourceFile": "location-history.json",
-          "dataType": "Visita",
-          "place": "40.413538,-3.665820",
-          "placeID": "ChIJZVSc3AEmQg0Ri3e4rRio16o",
-          "coordinates": [
-            40.413538,
-            -3.66582
-          ],
-          "startTime": "20:53:13",
-          "endTime": "13:57:04",
-          "duration": "41:03:0"
-        },
-        "url": "https://www.google.com/maps/place/?q=place_id:ChIJZVSc3AEmQg0Ri3e4rRio16o"
-      },
+
       {
         "id": "geo-6m-visit-chijltij0qmmqg0rjlbgbmkngnq-287",
         "title": "Visita — Lugar",
@@ -7084,37 +6361,7 @@
       },
         "url": "https://www.google.com/maps/place/?q=place_id:ChIJlTIj0QMmQg0RJLbGbmKnGNQ"
       },
-      {
-        "id": "geo-6m-visit-chijzvsc3aemqg0ri3e4rrio16o-289",
-        "title": "Visita",
-        "artists": "Duración 30:55:31 • 2025-07-18",
-        "awareness": 2,
-        "timeBucket": "6m",
-        "platformId": 8,
-        "tags": [
-          "Movilidad",
-          "Lugares",
-          "Propio",
-          "Consciente",
-          "Teléfono",
-          "@email",
-          "Viajes"
-        ],
-        "details": {
-          "sourceFile": "location-history.json",
-          "dataType": "Visita",
-          "place": "40.413538,-3.665820",
-          "placeID": "ChIJZVSc3AEmQg0Ri3e4rRio16o",
-          "coordinates": [
-            40.413538,
-            -3.66582
-          ],
-          "startTime": "14:27:15",
-          "endTime": "21:22:47",
-          "duration": "30:55:1"
-        },
-        "url": "https://www.google.com/maps/place/?q=place_id:ChIJZVSc3AEmQg0Ri3e4rRio16o"
-      },
+ 
       {
         "id": "geo-6m-trip-andando-290",
         "title": "Trayecto — andando · 2.21 km",
@@ -7261,37 +6508,7 @@
       },
         "url": "https://www.google.com/maps/dir/?api=1&origin=40.404045%2C-3.691645&destination=40.414172%2C-3.666790&travelmode=driving"
       },
-      {
-        "id": "geo-6m-visit-chijzvsc3aemqg0ri3e4rrio16o-295",
-        "title": "Visita",
-        "artists": "Duración 34:06:55 • 2025-07-20",
-        "awareness": 2,
-        "timeBucket": "6m",
-        "platformId": 8,
-        "tags": [
-          "Movilidad",
-          "Lugares",
-          "Propio",
-          "Consciente",
-          "Teléfono",
-          "@email",
-          "Viajes"
-        ],
-        "details": {
-          "sourceFile": "location-history.json",
-          "dataType": "Visita",
-          "place": "40.413538,-3.665820",
-          "placeID": "ChIJZVSc3AEmQg0Ri3e4rRio16o",
-          "coordinates": [
-            40.413538,
-            -3.66582
-          ],
-          "startTime": "00:22:15",
-          "endTime": "10:29:11",
-          "duration": "34:06:5"
-        },
-        "url": "https://www.google.com/maps/place/?q=place_id:ChIJZVSc3AEmQg0Ri3e4rRio16o"
-      },
+
       {
         "id": "geo-6m-trip-in-subway-297",
         "title": "Trayecto — en metro · 4.76 km",
@@ -7469,37 +6686,7 @@
         },
         "url": "https://www.google.com/maps/dir/?api=1&origin=40.367678%2C-4.315882&destination=40.413342%2C-3.666184&travelmode=driving"
       },
-      {
-        "id": "geo-6m-visit-chijzvsc3aemqg0ri3e4rrio16o-304",
-        "title": "Visita",
-        "artists": "Duración 43:07:51 • 2025-07-21",
-        "awareness": 2,
-        "timeBucket": "6m",
-        "platformId": 8,
-        "tags": [
-          "Movilidad",
-          "Lugares",
-          "Propio",
-          "Consciente",
-          "Teléfono",
-          "@email",
-          "Viajes"
-        ],
-        "details": {
-          "sourceFile": "location-history.json",
-          "dataType": "Visita",
-          "place": "40.413538,-3.665820",
-          "placeID": "ChIJZVSc3AEmQg0Ri3e4rRio16o",
-          "coordinates": [
-            40.413538,
-            -3.66582
-          ],
-          "startTime": "23:26:38",
-          "endTime": "18:34:29",
-          "duration": "43:07:1"
-        },
-        "url": "https://www.google.com/maps/place/?q=place_id:ChIJZVSc3AEmQg0Ri3e4rRio16o"
-      },
+   
       {
         "id": "geo-6m-trip-in-subway-306",
         "title": "Trayecto — en metro · 3.50 km",
@@ -7678,68 +6865,7 @@
       },
         "url": "https://www.google.com/maps/dir/?api=1&origin=40.406587%2C-3.689459&destination=40.412146%2C-3.665987&travelmode=transit"
       },
-      {
-        "id": "geo-6m-visit-chijzvsc3aemqg0ri3e4rrio16o-316",
-        "title": "Visita",
-        "artists": "Duración 05:33:48 • 2025-07-24",
-        "awareness": 2,
-        "timeBucket": "6m",
-        "platformId": 8,
-        "tags": [
-          "Movilidad",
-          "Lugares",
-          "Propio",
-          "Consciente",
-          "Teléfono",
-          "@email",
-          "Viajes"
-        ],
-        "details": {
-          "sourceFile": "location-history.json",
-          "dataType": "Visita",
-          "place": "40.413538,-3.665820",
-          "placeID": "ChIJZVSc3AEmQg0Ri3e4rRio16o",
-          "coordinates": [
-            40.413538,
-            -3.66582
-          ],
-          "startTime": "14:30:38",
-          "endTime": "20:04:27",
-          "duration": "05:33:8"
-        },
-        "url": "https://www.google.com/maps/place/?q=place_id:ChIJZVSc3AEmQg0Ri3e4rRio16o"
-      },
-      {
-        "id": "geo-6m-visit-chijzvsc3aemqg0ri3e4rrio16o-317",
-        "title": "Visita",
-        "artists": "Duración 70:32:38 • 2025-07-24",
-        "awareness": 2,
-        "timeBucket": "6m",
-        "platformId": 8,
-        "tags": [
-          "Movilidad",
-          "Lugares",
-          "Propio",
-          "Consciente",
-          "Teléfono",
-          "@email",
-          "Viajes"
-        ],
-        "details": {
-          "sourceFile": "location-history.json",
-          "dataType": "Visita",
-          "place": "40.413538,-3.665820",
-          "placeID": "ChIJZVSc3AEmQg0Ri3e4rRio16o",
-          "coordinates": [
-            40.413538,
-            -3.66582
-          ],
-          "startTime": "20:04:27",
-          "endTime": "18:37:05",
-          "duration": "70:32:8"
-        },
-        "url": "https://www.google.com/maps/place/?q=place_id:ChIJZVSc3AEmQg0Ri3e4rRio16o"
-      },
+   
       {
         "id": "geo-6m-trip-andando-318",
         "title": "Trayecto — andando · 3.89 km",
@@ -7855,68 +6981,7 @@
       },
         "url": "https://www.google.com/maps/dir/?api=1&origin=40.419831%2C-3.692718&destination=40.411882%2C-3.668263&travelmode=transit"
       },
-      {
-        "id": "geo-6m-visit-chijzvsc3aemqg0ri3e4rrio16o-323",
-        "title": "Visita",
-        "artists": "Duración 19:45:58 • 2025-07-27",
-        "awareness": 2,
-        "timeBucket": "6m",
-        "platformId": 8,
-        "tags": [
-          "Movilidad",
-          "Lugares",
-          "Propio",
-          "Consciente",
-          "Teléfono",
-          "@email",
-          "Viajes"
-        ],
-        "details": {
-          "sourceFile": "location-history.json",
-          "dataType": "Visita",
-          "place": "40.413538,-3.665820",
-          "placeID": "ChIJZVSc3AEmQg0Ri3e4rRio16o",
-          "coordinates": [
-            40.413538,
-            -3.66582
-          ],
-          "startTime": "20:40:45",
-          "endTime": "16:26:43",
-          "duration": "19:45:8"
-        },
-        "url": "https://www.google.com/maps/place/?q=place_id:ChIJZVSc3AEmQg0Ri3e4rRio16o"
-      },
-      {
-        "id": "geo-6m-visit-chijzvsc3aemqg0ri3e4rrio16o-325",
-        "title": "Visita",
-        "artists": "Duración 50:43:40 • 2025-07-28",
-        "awareness": 2,
-        "timeBucket": "6m",
-        "platformId": 8,
-        "tags": [
-          "Movilidad",
-          "Lugares",
-          "Propio",
-          "Consciente",
-          "Teléfono",
-          "@email",
-          "Viajes"
-        ],
-        "details": {
-          "sourceFile": "location-history.json",
-          "dataType": "Visita",
-          "place": "40.413538,-3.665820",
-          "placeID": "ChIJZVSc3AEmQg0Ri3e4rRio16o",
-          "coordinates": [
-            40.413538,
-            -3.66582
-          ],
-          "startTime": "16:42:16",
-          "endTime": "19:25:56",
-          "duration": "50:43:0"
-        },
-        "url": "https://www.google.com/maps/place/?q=place_id:ChIJZVSc3AEmQg0Ri3e4rRio16o"
-      },
+
       {
         "id": "geo-6m-trip-andando-326",
         "title": "Trayecto — andando · 2.23 km",
@@ -8033,37 +7098,7 @@
       },
         "url": "https://www.google.com/maps/dir/?api=1&origin=40.426109%2C-3.707023&destination=40.414767%2C-3.669670&travelmode=transit"
       },
-      {
-        "id": "geo-6m-visit-chijzvsc3aemqg0ri3e4rrio16o-332",
-        "title": "Visita",
-        "artists": "Duración 18:11:00 • 2025-07-31",
-        "awareness": 2,
-        "timeBucket": "6m",
-        "platformId": 8,
-        "tags": [
-          "Movilidad",
-          "Lugares",
-          "Propio",
-          "Consciente",
-          "Teléfono",
-          "@email",
-          "Viajes"
-        ],
-        "details": {
-          "sourceFile": "location-history.json",
-          "dataType": "Visita",
-          "place": "40.413538,-3.665820",
-          "placeID": "ChIJZVSc3AEmQg0Ri3e4rRio16o",
-          "coordinates": [
-            40.413538,
-            -3.66582
-          ],
-          "startTime": "00:24:08",
-          "endTime": "18:35:08",
-          "duration": "18:11:0"
-        },
-        "url": "https://www.google.com/maps/place/?q=place_id:ChIJZVSc3AEmQg0Ri3e4rRio16o"
-      },
+      
       {
         "id": "geo-6m-trip-in-passenger-vehicle-333",
         "title": "Trayecto — de copiloto de coche · 4.94 km",
@@ -8214,37 +7249,7 @@
       },
         "url": "https://www.google.com/maps/dir/?api=1&origin=40.400816%2C-3.690933&destination=40.413646%2C-3.666059&travelmode=driving"
       },
-      {
-        "id": "geo-4w-visit-chijzvsc3aemqg0ri3e4rrio16o-340",
-        "title": "Visita",
-        "artists": "Duración 47:43:17 • 2025-08-01",
-        "awareness": 2,
-        "timeBucket": "4w",
-        "platformId": 8,
-        "tags": [
-          "Movilidad",
-          "Lugares",
-          "Propio",
-          "Consciente",
-          "Teléfono",
-          "@email",
-          "Viajes"
-        ],
-        "details": {
-          "sourceFile": "location-history.json",
-          "dataType": "Visita",
-          "place": "40.413538,-3.665820",
-          "placeID": "ChIJZVSc3AEmQg0Ri3e4rRio16o",
-          "coordinates": [
-            40.413538,
-            -3.66582
-          ],
-          "startTime": "21:36:04",
-          "endTime": "21:19:22",
-          "duration": "47:43:7"
-        },
-        "url": "https://www.google.com/maps/place/?q=place_id:ChIJZVSc3AEmQg0Ri3e4rRio16o"
-      },
+     
       {
         "id": "geo-4w-trip-andando-341",
         "title": "Trayecto — andando · 3.10 km",
@@ -8364,37 +7369,7 @@
       },
         "url": "https://www.google.com/maps/dir/?api=1&origin=40.402912%2C-3.634291&destination=40.414655%2C-3.669806&travelmode=transit"
       },
-      {
-        "id": "geo-4w-visit-chijzvsc3aemqg0ri3e4rrio16o-346",
-        "title": "Visita",
-        "artists": "Duración 17:41:27 • 2025-08-03",
-        "awareness": 2,
-        "timeBucket": "4w",
-        "platformId": 8,
-        "tags": [
-          "Movilidad",
-          "Lugares",
-          "Propio",
-          "Consciente",
-          "Teléfono",
-          "@email",
-          "Viajes"
-        ],
-        "details": {
-          "sourceFile": "location-history.json",
-          "dataType": "Visita",
-          "place": "40.413538,-3.665820",
-          "placeID": "ChIJZVSc3AEmQg0Ri3e4rRio16o",
-          "coordinates": [
-            40.413538,
-            -3.66582
-          ],
-          "startTime": "22:23:52",
-          "endTime": "16:05:20",
-          "duration": "17:41:7"
-        },
-        "url": "https://www.google.com/maps/place/?q=place_id:ChIJZVSc3AEmQg0Ri3e4rRio16o"
-      },
+   
       {
         "id": "geo-4w-trip-andando-349",
         "title": "Trayecto — andando · 0.90 km",
@@ -8572,99 +7547,7 @@
       },
         "url": "https://www.google.com/maps/dir/?api=1&origin=40.403147%2C-3.692212&destination=40.413558%2C-3.666129&travelmode=driving"
       },
-      {
-        "id": "geo-4w-visit-chijzvsc3aemqg0ri3e4rrio16o-356",
-        "title": "Visita",
-        "artists": "Duración 20:19:19 • 2025-08-05",
-        "awareness": 2,
-        "timeBucket": "4w",
-        "platformId": 8,
-        "tags": [
-          "Movilidad",
-          "Lugares",
-          "Propio",
-          "Consciente",
-          "Teléfono",
-          "@email",
-          "Viajes"
-        ],
-        "details": {
-          "sourceFile": "location-history.json",
-          "dataType": "Visita",
-          "place": "40.413538,-3.665820",
-          "placeID": "ChIJZVSc3AEmQg0Ri3e4rRio16o",
-          "coordinates": [
-            40.413538,
-            -3.66582
-          ],
-          "startTime": "17:18:51",
-          "endTime": "13:38:10",
-          "duration": "20:19:9"
-        },
-        "url": "https://www.google.com/maps/place/?q=place_id:ChIJZVSc3AEmQg0Ri3e4rRio16o"
-      },
-      {
-        "id": "geo-4w-visit-chijzvsc3aemqg0ri3e4rrio16o-357",
-        "title": "Visita",
-        "artists": "Duración 72:38:49 • 2025-08-06",
-        "awareness": 2,
-        "timeBucket": "4w",
-        "platformId": 8,
-        "tags": [
-          "Movilidad",
-          "Lugares",
-          "Propio",
-          "Consciente",
-          "Teléfono",
-          "@email",
-          "Viajes"
-        ],
-        "details": {
-          "sourceFile": "location-history.json",
-          "dataType": "Visita",
-          "place": "40.413538,-3.665820",
-          "placeID": "ChIJZVSc3AEmQg0Ri3e4rRio16o",
-          "coordinates": [
-            40.413538,
-            -3.66582
-          ],
-          "startTime": "13:38:10",
-          "endTime": "14:17:00",
-          "duration": "72:38:9"
-        },
-        "url": "https://www.google.com/maps/place/?q=place_id:ChIJZVSc3AEmQg0Ri3e4rRio16o"
-      },
-      {
-        "id": "geo-4w-visit-chijzvsc3aemqg0ri3e4rrio16o-359",
-        "title": "Visita",
-        "artists": "Duración 27:33:05 • 2025-08-09",
-        "awareness": 2,
-        "timeBucket": "4w",
-        "platformId": 8,
-        "tags": [
-          "Movilidad",
-          "Lugares",
-          "Propio",
-          "Consciente",
-          "Teléfono",
-          "@email",
-          "Viajes"
-        ],
-        "details": {
-          "sourceFile": "location-history.json",
-          "dataType": "Visita",
-          "place": "40.413538,-3.665820",
-          "placeID": "ChIJZVSc3AEmQg0Ri3e4rRio16o",
-          "coordinates": [
-            40.413538,
-            -3.66582
-          ],
-          "startTime": "14:59:43",
-          "endTime": "18:32:48",
-          "duration": "27:33:5"
-        },
-        "url": "https://www.google.com/maps/place/?q=place_id:ChIJZVSc3AEmQg0Ri3e4rRio16o"
-      },
+     
       {
         "id": "geo-4w-trip-in-passenger-vehicle-360",
         "title": "Trayecto — de copiloto de coche · 22.71 km",
@@ -8871,37 +7754,7 @@
       },
         "url": "https://www.google.com/maps/dir/?api=1&origin=40.413892%2C-3.658282&destination=40.414161%2C-3.665203&travelmode=andando"
       },
-      {
-        "id": "geo-4w-visit-chijzvsc3aemqg0ri3e4rrio16o-367",
-        "title": "Visita",
-        "artists": "Duración 14:47:08 • 2025-08-10",
-        "awareness": 2,
-        "timeBucket": "4w",
-        "platformId": 8,
-        "tags": [
-          "Movilidad",
-          "Lugares",
-          "Propio",
-          "Consciente",
-          "Teléfono",
-          "@email",
-          "Viajes"
-        ],
-        "details": {
-          "sourceFile": "location-history.json",
-          "dataType": "Visita",
-          "place": "40.413538,-3.665820",
-          "placeID": "ChIJZVSc3AEmQg0Ri3e4rRio16o",
-          "coordinates": [
-            40.413538,
-            -3.66582
-          ],
-          "startTime": "23:04:45",
-          "endTime": "13:51:53",
-          "duration": "14:47:8"
-        },
-        "url": "https://www.google.com/maps/place/?q=place_id:ChIJZVSc3AEmQg0Ri3e4rRio16o"
-      },
+    
       {
         "id": "geo-4w-trip-in-passenger-vehicle-368",
         "title": "Trayecto — de copiloto de coche · 18.23 km",
@@ -9021,68 +7874,7 @@
       },
         "url": "https://www.google.com/maps/dir/?api=1&origin=40.541252%2C-3.613213&destination=40.413732%2C-3.666055&travelmode=driving"
       },
-      {
-        "id": "geo-4w-visit-chijzvsc3aemqg0ri3e4rrio16o-373",
-        "title": "Visita",
-        "artists": "Duración 22:03:04 • 2025-08-11",
-        "awareness": 2,
-        "timeBucket": "4w",
-        "platformId": 8,
-        "tags": [
-          "Movilidad",
-          "Lugares",
-          "Propio",
-          "Consciente",
-          "Teléfono",
-          "@email",
-          "Viajes"
-        ],
-        "details": {
-          "sourceFile": "location-history.json",
-          "dataType": "Visita",
-          "place": "40.413538,-3.665820",
-          "placeID": "ChIJZVSc3AEmQg0Ri3e4rRio16o",
-          "coordinates": [
-            40.413538,
-            -3.66582
-          ],
-          "startTime": "18:21:34",
-          "endTime": "16:24:38",
-          "duration": "22:03:4"
-        },
-        "url": "https://www.google.com/maps/place/?q=place_id:ChIJZVSc3AEmQg0Ri3e4rRio16o"
-      },
-      {
-        "id": "geo-4w-visit-chijzvsc3aemqg0ri3e4rrio16o-374",
-        "title": "Visita",
-        "artists": "Duración 17:40:36 • 2025-08-12",
-        "awareness": 2,
-        "timeBucket": "4w",
-        "platformId": 8,
-        "tags": [
-          "Movilidad",
-          "Lugares",
-          "Propio",
-          "Consciente",
-          "Teléfono",
-          "@email",
-          "Viajes"
-        ],
-        "details": {
-          "sourceFile": "location-history.json",
-          "dataType": "Visita",
-          "place": "40.413538,-3.665820",
-          "placeID": "ChIJZVSc3AEmQg0Ri3e4rRio16o",
-          "coordinates": [
-            40.413538,
-            -3.66582
-          ],
-          "startTime": "16:24:38",
-          "endTime": "10:05:15",
-          "duration": "17:40:6"
-        },
-        "url": "https://www.google.com/maps/place/?q=place_id:ChIJZVSc3AEmQg0Ri3e4rRio16o"
-      },
+  
       {
         "id": "geo-4w-trip-in-passenger-vehicle-375",
         "title": "Trayecto — de copiloto de coche · 3.28 km",
@@ -11296,38 +10088,7 @@
         },
         "url": "https://www.google.com/maps/dir/?api=1&origin=38.278433%2C-3.600669&destination=40.395289%2C-3.678209&travelmode=driving"
       },
-      
-      {
-        "id": "geo-4w-visit-chijzvsc3aemqg0ri3e4rrio16o-471",
-        "title": "Visita",
-        "artists": "Duración 45:54:26 • 2025-08-27",
-        "awareness": 2,
-        "timeBucket": "4w",
-        "platformId": 8,
-        "tags": [
-          "Movilidad",
-          "Lugares",
-          "Propio",
-          "Consciente",
-          "Teléfono",
-          "@email",
-          "Viajes"
-        ],
-        "details": {
-          "sourceFile": "location-history.json",
-          "dataType": "Visita",
-          "place": "40.413538,-3.665820",
-          "placeID": "ChIJZVSc3AEmQg0Ri3e4rRio16o",
-          "coordinates": [
-            40.413538,
-            -3.66582
-          ],
-          "startTime": "20:54:52",
-          "endTime": "18:49:18",
-          "duration": "45:54:6"
-        },
-        "url": "https://www.google.com/maps/place/?q=place_id:ChIJZVSc3AEmQg0Ri3e4rRio16o"
-      },
+ 
     
     {
       "id": "insta-topic-crafts",

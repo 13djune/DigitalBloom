@@ -302,12 +302,16 @@ export default function DataDotGrid({
 
         if (isHover || isActive) {
           const side = (R / 2) * 1.2 * 2;
+          const offsetX = dot.cx + dot.xOffset;
+          const offsetY = dot.cy + dot.yOffset;
+        
           ctx.beginPath();
-          ctx.rect(dot.cx - side / 2, dot.cy - side / 2, side, side);
+          ctx.rect(offsetX - side / 2, offsetY - side / 2, side, side);
           ctx.strokeStyle = isActive ? '#3be9c9' : 'rgba(255,255,255,0.85)';
           ctx.lineWidth = 2;
           ctx.stroke();
-      }
+        }
+        
       
       });
 
