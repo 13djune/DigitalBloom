@@ -3,39 +3,16 @@ import React, { useMemo } from "react";
 import { Icon } from "@iconify/react";
 import "../styles/DataPanel.css";
 import "../index.css";
-import { tagList } from "../utils/globalConfig";
 
-/* ---------- Mapeos de plataforma ---------- */
-const PLATFORM_ID_TO_NAME = {
-  1: "Spotify",
-  2: "YouTube",
-  3: "TikTok",
-  4: "Instagram",
-  5: "iPhone",
-  6: "WhatsApp",
-  7: "Streaming",
-  8: "Google",
-};
+// --- IMPORTACIONES CENTRALIZADAS ---
+import {
+  tagList,
+  platformConfig,
+  TIME_ID_TO_BUCKET
+} from "../utils/globalConfig";
 
-const PLATFORM_ID_TO_KEY = {
-  1: "SPOTIFY",
-  2: "YOUTUBE",
-  3: "TIKTOK",
-  4: "INSTAGRAM",
-  5: "IPHONE",
-  6: "WHATSAPP",
-  7: "STREAMING",
-  8: "GOOGLE",
-};
 
-/* ---------- Colores por plataforma (coherente con DataDotGrid) ---------- */
-const   colorMapping = {
-  SPOTIFY: '#5ffd79', YOUTUBE: '#FF5353', TIKTOK: '#8170ff',
-  INSTAGRAM: '#fb96e2', IPHONE: '#f2fb73', WHATSAPP: '#44be56',
-  STREAMING: '#ffa536', GOOGLE: '#4285F4'
-};
-
-/* ---------- Utilidades de color ---------- */
+/* ---------- Utilidades de color (específica de este componente) ---------- */
 function lightenColor(hex, percent) {
   try {
     const num = parseInt(hex.replace("#", ""), 16);
@@ -57,7 +34,6 @@ const TIMEBUCKET_TO_TEXT = {
   "6m": "Últimos 6 meses",
   "1y": "Último año",
 };
-const TIME_ID_TO_BUCKET = { 1: "4w", 2: "6m", 3: "1y" };
 
 function safeFormatDate(value) {
   try {
@@ -94,9 +70,11 @@ function getDisplayDateLike(item = {}) {
   return null;
 }
 
+// --- VALORES POR DEFECTO ---
+const defaultPlatform = { name: "Desconocido", color: "#cfe8ff" };
+
 /* ---------- Componente principal ---------- */
 export default function DataPanel({ item, allData = [], onClose, onSelect }) {
-  // No condicionar hooks: usa valores “seguros”
   const safeItem = useMemo(() => item ?? {}, [item]);
   const {
     id: itemId,
@@ -109,16 +87,18 @@ export default function DataPanel({ item, allData = [], onClose, onSelect }) {
     url,
   } = safeItem;
 
-  const platformName = PLATFORM_ID_TO_NAME[platformId] || "Desconocido";
-  const platformKey = PLATFORM_ID_TO_KEY[platformId] || "UNKNOWN";
-  const platformColor = colorMapping[platformKey] || "#cfe8ff";
+  // --- LÓGICA DE PLATAFORMA SIMPLIFICADA ---
+  const platformInfo = useMemo(
+    () => platformConfig.find((p) => p.id === platformId) || defaultPlatform,
+    [platformId]
+  );
+
+  const { name: platformName, color: platformColor } = platformInfo;
   const finalUrl = url || details.url;
-  const { dataType, subjective_notes } = details;
+  const { dataType, subjective_notes, pageExamples } = details; // CAMBIO: Extraemos pageExamples
 
-  // Fecha/período a mostrar (siempre que haya algo)
   const displayDate = useMemo(() => getDisplayDateLike(safeItem), [safeItem]);
-
-  // Recomendaciones (por plataforma y/o tags), 2 máx, sin duplicados, sin recomendarse a sí mismo
+  
   const recommendations = useMemo(() => {
     const list = Array.isArray(allData) ? allData : [];
     const base = list.filter(
@@ -150,7 +130,9 @@ export default function DataPanel({ item, allData = [], onClose, onSelect }) {
       <div className="data-panel" onClick={(e) => e.stopPropagation()}>
         {/* Header */}
         <header className="panel-header">
-          <h4 className="platform-name">{platformName}</h4>
+          <h4 className="platform-name text-2xl" style={{ color: platformColor }}>
+            {platformName}
+          </h4>
           <button className="btn-close cursor-target" onClick={onClose} aria-label="Cerrar panel">
             <Icon icon="pixelarticons:close" width="24" height="24" />
           </button>
@@ -164,7 +146,7 @@ export default function DataPanel({ item, allData = [], onClose, onSelect }) {
               {typeof rank === "number" && <div className="rank">#{rank}</div>}
               {artists && <p className="artists px-2">{artists}</p>}
             </div>
-            <h2 className="title">{title}</h2>
+            <h2 className="title ">{title}</h2>
           </div>
 
           {/* Meta info (tipo y fecha/periodo) */}
@@ -179,7 +161,29 @@ export default function DataPanel({ item, allData = [], onClose, onSelect }) {
           {/* Detalles dinámicos */}
           <DynamicDetails details={details} />
 
-          {/* Notas subjetivas con color aclarado por plataforma (sin fondo extra) */}
+          {/* CAMBIO: Sección específica para pageExamples */}
+          {pageExamples && pageExamples.length > 0 && (
+            <div className="page-examples-section">
+              <div className="detail-label">Ejemplos</div>
+              <ul className="page-examples-list">
+                {pageExamples.map((example, index) => (
+                  <li key={index}>
+                    <a 
+                      href={example.url} 
+                      target="_blank" 
+                      rel="noopener noreferrer" 
+                      className="example-link cursor-target"
+                    >
+                      <span>{example.title}</span>
+                      <Icon icon="pixelarticons:external-link" />
+                    </a>
+                  </li>
+                ))}
+              </ul>
+            </div>
+          )}
+
+          {/* Notas subjetivas con color aclarado por plataforma */}
           {subjective_notes && (
             <div
               className="notes-section subjetivo-font"
@@ -223,8 +227,6 @@ export default function DataPanel({ item, allData = [], onClose, onSelect }) {
           {recommendations.length > 0 && (
             <div className="recommendations">
               <h4 className="text-2xl mb-2">También puede interesarte:</h4>
-
-              {/* 2 columnas iguales y toda la tarjeta es clickeable */}
               <div
                 className="suggestion-list"
                 style={{
@@ -234,13 +236,7 @@ export default function DataPanel({ item, allData = [], onClose, onSelect }) {
                 }}
               >
                 {recommendations.map((rec, idx) => {
-                  const recTags = rec.tags || [];
-                  const recPlatformName =
-                    PLATFORM_ID_TO_NAME[rec.platformId] || "—";
-                  const recPlatformKey =
-                    PLATFORM_ID_TO_KEY[rec.platformId] || "UNKNOWN";
-                  const recColor = colorMapping[recPlatformKey] || "#9BA3B4";
-
+                  const recPlatform = platformConfig.find(p => p.id === rec.platformId) || defaultPlatform;
                   return (
                     <button
                       key={idx}
@@ -251,22 +247,18 @@ export default function DataPanel({ item, allData = [], onClose, onSelect }) {
                         setTimeout(() => onSelect?.(rec), 100);
                       }}
                       style={{
-                        // que todas ocupen el mismo ancho/alto visual
                         display: "flex",
                         flexDirection: "column",
                         justifyContent: "space-between",
                         textAlign: "left",
                         padding: "12px",
                         background: "rgba(255,255,255,0.04)",
-                        border: `2px solid ${recColor}75`,
+                        border: `2px solid ${recPlatform.color}75`,
                         minHeight: 116,
                       }}
                     >
                       <div>
-                        <div
-                          className="suggestion-title"
-                          style={{ fontWeight: 700 }}
-                        >
+                        <div className="suggestion-title" style={{ fontWeight: 700 }}>
                           {rec.title}
                         </div>
                         {rec.artists && (
@@ -276,13 +268,13 @@ export default function DataPanel({ item, allData = [], onClose, onSelect }) {
                         )}
                         <div
                           className="suggestion-meta"
-                          style={{ color: recColor, marginTop: 2, fontSize: 13 }}
+                          style={{ color: recPlatform.color, marginTop: 2, fontSize: 13 }}
                         >
-                          {recPlatformName}
+                          {recPlatform.name}
                         </div>
                       </div>
 
-                      {recTags.length > 0 && (
+                      {(rec.tags?.length ?? 0) > 0 && (
                         <div
                           className="tags"
                           style={{
@@ -292,9 +284,8 @@ export default function DataPanel({ item, allData = [], onClose, onSelect }) {
                             gap: 6,
                           }}
                         >
-                          {recTags.slice(0, 4).map((tg, i2) => {
-                            const ttype =
-                              tagList.find((t) => t.name === tg)?.type || "topic";
+                          {rec.tags.slice(0, 4).map((tg, i2) => {
+                            const ttype = tagList.find((t) => t.name === tg)?.type || "topic";
                             return (
                               <span
                                 key={i2}
@@ -348,6 +339,8 @@ const DynamicDetails = ({ details = {} }) => {
     "period",
     "timeBucket",
     "time",
+    "pageExamples", 
+    "url",
   ]);
   const keys = Object.keys(details).filter((k) => !excludedKeys.has(k));
   if (keys.length === 0) return null;

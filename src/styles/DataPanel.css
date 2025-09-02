@@ -229,3 +229,43 @@
   transform-origin: center;
   font-size: 0.9em; /* por si tu .tag usa font-size base */
 }
+/* Añade esto a tu archivo src/styles/DataPanel.css */
+
+.page-examples-section {
+  margin-top: 1.25rem; /* 20px */
+  margin-bottom: 1rem; /* 16px */
+}
+
+.page-examples-list {
+  list-style: none;
+  padding: 0;
+  margin-top: 0.5rem; /* 8px */
+  display: flex;
+  flex-direction: row;
+  gap: 0.5rem; /* 8px */
+}
+
+.example-link {
+  color: #A1E6F6;
+    text-decoration: none;
+    font-size: 20px;
+    margin-top: 12px;
+    width: fit-content;
+    padding: 0.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+.example-link:hover {
+  background-color: rgba(255, 255, 255, 0.08);
+}
+
+.example-link span {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  margin-right: 1rem; /* 16px */
+  font-size: 20px;
+}

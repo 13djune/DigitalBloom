@@ -42,15 +42,10 @@ export default function About() {
         <div className="max-w-6xl mx-auto px-6 md:px-8 lg:px-10 py-10 md:py-12">
 
         <div className="mb-6">
-            <button
-            type="button"
-            onClick={goBack}
-            className="inline-flex items-center gap-2 text-primary cursor-target fixed top-10 left-8 scale-[135%]"
-            aria-label="Volver"
-            >
-            <Icon icon="pixelarticons:arrow-left" width={18} height={18} />
-            <span>Volver</span>
-            </button>
+          
+            <Link  onClick={goBack} id="btn-back-to-explore" className="round-cta cursor-target fixed top-10 left-8" aria-label="Volver a Explorar">
+          <Icon icon="pixelarticons:arrow-left" width="28" height="28" />
+        </Link>
         </div>
 
           <section className="flex flex-row gap-10 md:gap-14 items-center">

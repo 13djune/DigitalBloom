@@ -4,23 +4,14 @@ import { gsap } from 'gsap';
 import { InertiaPlugin } from 'gsap/InertiaPlugin';
 import '../styles/filters.css';
 
-// --- 1. IMPORTAR LA CONFIGURACIÓN GLOBAL ---
 import { 
     colorMapping as globalColorMapping,
     DEFAULT_PLATFORM_ID_TO_KEY,
     TIME_ID_TO_BUCKET
-} from '../utils/globalConfig'; // Asegúrate de que la ruta sea la correcta
+} from '../utils/globalConfig';
 
 gsap.registerPlugin(InertiaPlugin);
 
-// --- 2. ELIMINAR CONSTANTES LOCALES ---
-// Ya no necesitamos estas definiciones aquí porque las importamos.
-/*
-const DEFAULT_PLATFORM_ID_TO_KEY = { ... };
-const TIME_ID_TO_BUCKET = { ... };
-*/
-
-/* ---------- FUNCIONES UTILITARIAS (sin cambios) ---------- */
 const hexToRgb = hex => {
   const m = hex?.match(/^#?([a-f\d]{2})([a-f\d]{2})([a-f\d]{2})$/i);
   return m ? { r: parseInt(m[1], 16), g: parseInt(m[2], 16), b: parseInt(m[3], 16) } : { r: 0, g: 0, b: 0 };
@@ -48,14 +39,13 @@ const pseudoRandom = (seed) => {
   return ((h ^= (h >>> 16)) >>> 0);
 };
 
-/* ---------- COMPONENTE PRINCIPAL ---------- */
 export default function DataDotGrid({
   data = [],
   filters,
   dotSize = 12,
   gap = 12,
   baseColor = '#1B1F3A',
-  activeColor = '#d9fef4',
+  activeColor = '#C7F0FA', 
   proximity = 120,
   speedTrigger = 120,
   resistance = 700,
@@ -65,7 +55,6 @@ export default function DataDotGrid({
   tooltipOffset = { x: 30, y: 0 },
   shockRadius = 250,
   shockStrength = 5,
-  // --- 3. USAR EL COLOR MAPPING IMPORTADO COMO VALOR POR DEFECTO ---
   colorMapping = globalColorMapping,
   onSelect
 }) {
@@ -84,11 +73,10 @@ export default function DataDotGrid({
   const squarePath = useMemo(() => {
     if (typeof window === 'undefined') return null;
     const p = new window.Path2D();
-    p.rect(-1, -1, 2, 2); // cuadrado centrado
+    p.rect(-1, -1, 2, 2);
     return p;
-}, []);
+  }, []);
 
-  /* ---------- Construcción de la grilla de puntos ---------- */
   const buildGrid = useCallback(() => {
     const wrap = wrapRef.current, cvs = canvasRef.current;
     if (!wrap || !cvs) return;
@@ -131,7 +119,6 @@ export default function DataDotGrid({
     return () => { ro ? ro.disconnect() : window.removeEventListener('resize', buildGrid); };
   }, [buildGrid]);
 
-  /* ---------- Normalización y filtrado de datos ---------- */
   const filtered = useMemo(() => {
     if (!Array.isArray(data) || !filters) return [];
     const normalized = data
@@ -163,95 +150,116 @@ export default function DataDotGrid({
     );
   }, [data, filters]);
 
-  /* ---------- Layout de nodos (puntos de datos) ---------- */
   const layoutNodes = useCallback(() => {
     const wrap = wrapRef.current;
     if (!wrap || !filters) return;
-  
+
     const { width, height } = wrap.getBoundingClientRect();
-    const SAFE_MARGINS = { top: 160, bottom: 180, left: 220, right: 220 };
+    const SAFE_MARGINS = { top: 180, bottom: 200, left: 180, right: 180 }; 
     const usableW = Math.max(320, width - SAFE_MARGINS.left - SAFE_MARGINS.right);
     const usableH = Math.max(240, height - SAFE_MARGINS.top - SAFE_MARGINS.bottom);
-  
-    const rawPlatforms = (filters.platforms?.length ? filters.platforms : Object.keys(DEFAULT_PLATFORM_ID_TO_KEY))
-      .map(Number)
-      .filter(p => Number.isFinite(p) && DEFAULT_PLATFORM_ID_TO_KEY[p]);
-  
-    const anchorY = SAFE_MARGINS.top + usableH * 0.50;
-  
+    const centerX = usableW / 2;
+    const centerY = usableH / 2;
+    
     const grouped = {};
     for (const item of filtered) {
-      if (!item || !Number.isFinite(item.platformId)) continue;
-      if (!grouped[item.platformId]) grouped[item.platformId] = [];
-      grouped[item.platformId].push(item);
+        if (!grouped[item.platformId]) grouped[item.platformId] = [];
+        grouped[item.platformId].push(item);
     }
-  
-    const totalItems = filtered.length;
-    const totalClusterWidth = Math.min(usableW * 0.75, totalItems * 25);
-    const spacePerItem = totalItems > 0 ? totalClusterWidth / totalItems : 0;
-    const startX = SAFE_MARGINS.left + (usableW - totalClusterWidth) / 2;
-  
-    let currentX = startX;
-    const PLATFORM_ANCHORS = {};
-  
-    rawPlatforms.sort((a, b) => a - b).forEach((platformId) => {
-      const groupSize = grouped[platformId]?.length || 1;
-      const groupWidth = groupSize * spacePerItem;
-  
-      PLATFORM_ANCHORS[platformId] = {
-        x: currentX + groupWidth / 2,
-        y: anchorY,
+    
+    const clusters = Object.entries(grouped).map(([platformId, items]) => {
+      const radius = 30 + Math.sqrt(items.length) * 9; 
+      return {
+        id: platformId,
+        items,
+        radius: radius,
+        x: centerX + (pseudoRandom('initX' + platformId) / 4294967295 - 0.5) * (usableW * 0.1), 
+        y: centerY + (pseudoRandom('initY' + platformId) / 4294967295 - 0.5) * (usableH * 0.1),
       };
-  
-      currentX += groupWidth;
     });
-  
-    dotsRef.current.forEach(d => { d._taken = false; });
-  
-    const newNodes = [];
-    const maxClusterRadius = 60;
-  
-    for (const [platformId, items] of Object.entries(grouped)) {
-      const anchor = PLATFORM_ANCHORS[platformId] || { x: SAFE_MARGINS.left + usableW / 2, y: anchorY };
-  
-      const dynamicRadius = Math.min(
-        maxClusterRadius,
-        20 + Math.sqrt(items.length) * 3
-      );
-  
-      for (const item of items) {
-        const angle = (pseudoRandom('angle' + item.id) / 4294967295) * 2 * Math.PI;
-        const radius = Math.sqrt(pseudoRandom('radius' + item.id) / 4294967295) * dynamicRadius;
-        const targetX = anchor.x + Math.cos(angle) * radius;
-        const targetY = anchor.y + Math.sin(angle) * radius;
-  
-        let best = -1, bestDist = Infinity;
-        dotsRef.current.forEach((d, i) => {
-          if (d._taken) return;
-          const dist = Math.hypot(d.cx - targetX, d.cy - targetY);
-          if (dist < bestDist) { bestDist = dist; best = i; }
-        });
-  
-        if (best >= 0) {
-          dotsRef.current[best]._taken = true;
-          newNodes.push({
-            id: item.id,
-            item,
-            gridIndex: best,
-            baseR: dotSize,
-            color: colorMapping[item.platformKey] || '#9BA3B4'
-          });
+
+    const iterations = 300; 
+    const baseSeparationPadding = 80;
+    const separationForceFactor = 1.0;
+    const boundaryStrength = 0.003; 
+
+    for (let i = 0; i < iterations; i++) {
+        for (let j = 0; j < clusters.length; j++) {
+            for (let k = j + 1; k < clusters.length; k++) {
+                const c1 = clusters[j];
+                const c2 = clusters[k];
+                const dx = c2.x - c1.x;
+                const dy = c2.y - c1.y;
+                let dist = Math.hypot(dx, dy);
+                if (dist === 0) dist = 0.001; 
+                
+                const min_dist = c1.radius + c2.radius + baseSeparationPadding;
+
+                if (dist < min_dist) {
+                    const angle = Math.atan2(dy, dx);
+                    const overlap = (min_dist - dist) * separationForceFactor;
+                    const pushX = Math.cos(angle) * overlap;
+                    const pushY = Math.sin(angle) * overlap;
+                    
+                    c1.x -= pushX / 2;
+                    c1.y -= pushY / 2;
+                    c2.x += pushX / 2;
+                    c2.y += pushY / 2;
+                }
+            }
         }
-      }
+
+        clusters.forEach(c => {
+            const toCenterX = centerX - c.x;
+            const toCenterY = centerY - c.y;
+            c.x += toCenterX * boundaryStrength; 
+            c.y += toCenterY * boundaryStrength;
+
+            c.x = Math.max(c.radius, Math.min(usableW - c.radius, c.x));
+            c.y = Math.max(c.radius, Math.min(usableH - c.radius, c.y));
+        });
     }
-  
+
+    dotsRef.current.forEach(d => { d._taken = false; });
+    const newNodes = [];
+
+    for (const cluster of clusters) {
+        const anchorX = cluster.x + SAFE_MARGINS.left;
+        const anchorY = cluster.y + SAFE_MARGINS.top;
+        const placementRadius = cluster.radius * 0.85;
+
+        for (const item of cluster.items) {
+            const angle = (pseudoRandom('angle' + item.id) / 4294967295) * 2 * Math.PI;
+            const radius = Math.sqrt(pseudoRandom('radius' + item.id) / 4294967295) * placementRadius;
+            const targetX = anchorX + Math.cos(angle) * radius;
+            const targetY = anchorY + Math.sin(angle) * radius;
+
+            let best = -1, bestDist = Infinity;
+            dotsRef.current.forEach((d, i) => {
+                if (d._taken) return;
+                const dist = Math.hypot(d.cx - targetX, d.cy - targetY);
+                if (dist < bestDist) { bestDist = dist; best = i; }
+            });
+
+            if (best >= 0) {
+                dotsRef.current[best]._taken = true;
+                newNodes.push({
+                    id: item.id,
+                    item,
+                    gridIndex: best,
+                    baseR: dotSize,
+                    color: colorMapping[item.platformKey] || '#9BA3B4'
+                });
+            }
+        }
+    }
+
     nodesRef.current = newNodes;
   }, [filtered, filters, colorMapping, dotSize]);
 
+
   useEffect(() => { if (wrapRef.current) layoutNodes(); }, [layoutNodes]);
 
-  // ... (El resto del componente: Bucle de dibujado, Eventos, Tooltip, etc., se queda igual)
-  /* ---------- Bucle de dibujado en Canvas ---------- */
   useEffect(() => {
     if (!squarePath) return;
     let raf;
@@ -271,6 +279,7 @@ export default function DataDotGrid({
         const dsq = Math.hypot(dot.cx - hx, dot.cy - hy);
         if (dsq <= proximity) {
           const t = 1 - dsq / proximity;
+          // CORRECCIÓN CLAVE AQUÍ: Usar actRgb.r, actRgb.g, actRgb.b para todos los componentes de color
           fill = `rgb(${Math.round(baseRgb.r + (actRgb.r - baseRgb.r) * t)},${Math.round(baseRgb.g + (actRgb.g - baseRgb.g) * t)},${Math.round(baseRgb.b + (actRgb.b - baseRgb.b) * t)})`;
         }
         ctx.save();
@@ -312,7 +321,6 @@ export default function DataDotGrid({
     return () => cancelAnimationFrame(raf);
   }, [squarePath, dotSize, baseColor, baseRgb, actRgb, proximity, hover, active, hoverScale]);
 
-  /* ---------- Eventos de Interacción (Ratón) ---------- */
   useEffect(() => {
     const state = { lastTime: 0, lastX: 0, lastY: 0 };
     const hitTest = (px, py) => {
@@ -400,14 +408,12 @@ export default function DataDotGrid({
     };
   }, [resistance, returnDuration, speedTrigger, proximity, onSelect, hitTestPadding, shockRadius, shockStrength]);
 
-  /* ---------- Eventos Externos (para limpiar estado activo) ---------- */
   useEffect(() => {
     const off = e => { if (e.detail === 'DATADOTGRID_CLEAR_ACTIVE') setActive(null); };
     window.addEventListener('datadotgrid', off);
     return () => window.removeEventListener('datadotgrid', off);
   }, []);
 
-  /* ---------- Lógica del Tooltip ---------- */
   useEffect(() => {
     if (!hover || !hover.item || active) {
       setTooltip(null);
@@ -456,7 +462,6 @@ export default function DataDotGrid({
     }
   }, [tooltip, tooltipOffset]);
 
-  /* ---------- Renderizado JSX ---------- */
   return (
     <div style={{ position: 'absolute', inset: 0 }}>
       <div ref={wrapRef} style={{ position: 'absolute', width: '100%', height: '100%' }}>
@@ -476,9 +481,9 @@ export default function DataDotGrid({
               ref={tooltipRef}
               style={{
                 position: 'absolute',
-                background: '#0e1861cf',
+                background: '#0e1861c5',
                 border: '10px solid #19258D',
-                padding: '20px',
+                padding: '24px',
                 color: '#cfe8ff',
                 pointerEvents: 'none',
                 maxWidth: 280,
@@ -487,12 +492,13 @@ export default function DataDotGrid({
                 display: 'flex',
                 flexDirection: 'column',
                 gap: '16px',
+               
                 opacity: tooltip.style ? 1 : 0,
                 left: tooltip.style ? tooltip.style.left : '-9999px',
                 top: tooltip.style ? tooltip.style.top : '0px',
               }}
             >
-              <div style={{ color: '#B5EBF8', fontSize: '14px', fontWeight: 'bold', textTransform: 'uppercase', letterSpacing: '1px' }}>
+              <div style={{ color: '#B5EBF8', fontSize: '20px', fontWeight: 'bold', textTransform: 'uppercase', letterSpacing: '1px' }}>
                 {DEFAULT_PLATFORM_ID_TO_KEY[tooltip.item?.platformId]}
               </div>
               <div style={{ display: 'flex', alignItems: 'center', gap: '12px' }}>
@@ -502,11 +508,11 @@ export default function DataDotGrid({
                   </div>
                 )}
                 <div style={{ display: 'flex', flexDirection: 'column', gap: '4px' }}>
-                  <div style={{ color: '#FFFFFF', fontWeight: 'bold', fontSize: '16px' }}>
+                  <div style={{ color: '#FFFFFF', fontWeight: 'bold', fontSize: '20px' }}>
                     {tooltip.item?.title}
                   </div>
                   {tooltip.item?.artists && (
-                    <div style={{ color: 'rgba(216, 225, 255, 0.7)', fontSize: '14px' }}>
+                    <div style={{ color: 'rgba(216, 225, 255, 0.9)', fontSize: '16px' }}>
                       {tooltip.item.artists}
                     </div>
                   )}
@@ -515,7 +521,7 @@ export default function DataDotGrid({
               {tooltip.item?.tags?.length > 0 && (
                 <div style={{ display: 'flex', gap: 6, flexWrap: 'wrap' }}>
                   {tooltip.item.tags.slice(0, 5).map((t, i) => (
-                    <span key={i} style={{ fontSize: 11, background: 'rgba(82,39,255,0.15)', border: '1px solid rgba(82,39,255,0.4)', padding: '2px 6px', borderRadius: 999 }}>
+                    <span key={i} style={{ fontSize: 16, background: 'rgba(82,39,255,0.3)', border: '1px solid rgba(82,39,255,0.4)', padding: '2px 6px', borderRadius: 999 }}>
                       {t}
                     </span>
                   ))}

@@ -3,7 +3,7 @@ import TargetCursor from "../components/TargetCursor";
 import { Icon } from "@iconify/react";
 import Filters from "../components/Filters";
 import "../App.css";
-import { Link, useSearchParams } from "react-router-dom";
+import { Link, useSearchParams, useNavigate } from "react-router-dom";
 import DataDotGrid from "../components/DataDotGrid";
 import DataPanel from "../components/DataPanel";
 
@@ -122,6 +122,7 @@ export default function Explore() {
   const [isWalkthroughOpen, setWalkthroughOpen] = useState(shouldShow);
   const [walkthroughStep, setWalkthroughStep] = useState(0);
   const [, setSearchParams] = useSearchParams();
+  const navigate = useNavigate();
 
   /* Filtros (nivel y tiempo cuentan siempre como activos = 1) */
   const [filters, setFilters] = useState(() => {
@@ -201,17 +202,22 @@ export default function Explore() {
       return next;
     });
   }, [steps.length, markSeen]);
-
+  const goBack = () => {
+    if (window.history.length > 1) navigate(-1);
+    else navigate("/");
+  };
   return (
     <div className="explore-page bg-background">
       <TargetCursor targetSelector=".cursor-target" />
 
       <div className="left-rail z-40">
+      <Link  onClick={goBack} id="btn-back-to-explore" className="round-cta cursor-target" aria-label="Volver a Explorar">
+          <Icon icon="pixelarticons:arrow-left" width="28" height="28" />
+        </Link>
   <button id="btn-filter" className="round-cta cursor-target has-badge" onClick={() => setShowFiltersModal(true)} aria-label="Filtros">
     <Icon icon="pixelarticons:sliders" width="28" height="28" />
     {appliedCount > 0 && <span className="cta-badge">{appliedCount}</span>}
   </button>
-  {/* 👇 NUEVO BOTÓN AÑADIDO AQUÍ 👇 */}
   <Link to="/navigate" id="btn-navigate" className="round-cta cursor-target" aria-label="Navegar Timeline Completo">
     <Icon icon="pixelarticons:map" width="28" height="28" />
   </Link>

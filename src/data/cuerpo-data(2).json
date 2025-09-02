@@ -5,7 +5,7 @@
       "artists": "46h 48m",
       "awareness": 2,
       "timeBucket": "4w",
-      "platformId": 4,
+      "platformId": 5,
       "rank": 1,
       "tags": [
         "Teléfono",
@@ -47,7 +47,7 @@
       "artists": "20h 06m",
       "awareness": 2,
       "timeBucket": "4w",
-      "platformId": 6,
+      "platformId": 5,
       "rank": 3,
       "tags": [
         "Teléfono",
@@ -90,7 +90,7 @@
       "artists": "5h 45m",
       "awareness": 2,
       "timeBucket": "4w",
-      "platformId": 8,
+      "platformId": 5,
       "rank": 5,
       "tags": [
         "Propio",
@@ -174,7 +174,7 @@
       "artists": "1h 32m",
       "awareness": 2,
       "timeBucket": "4w",
-      "platformId": 1,
+      "platformId": 5,
       "rank": 9,
       "tags": [
         "Propio",
@@ -196,7 +196,7 @@
       "artists": "1h 14m",
       "awareness": 2,
       "timeBucket": "4w",
-      "platformId": 8,
+      "platformId": 5,
       "rank": 10,
       "tags": [
         "Teléfono",
@@ -217,7 +217,7 @@
       "artists": "284h 10m",
       "awareness": 2,
       "timeBucket": "6m",
-      "platformId": 4,
+      "platformId": 5,
       "rank": 1,
       "tags": [
         "Teléfono",
@@ -259,7 +259,7 @@
       "artists": "112h 00m",
       "awareness": 2,
       "timeBucket": "6m",
-      "platformId": 6,
+      "platformId": 5,
       "rank": 3,
       "tags": [
         "Teléfono",
@@ -280,7 +280,7 @@
       "artists": "42h 30m",
       "awareness": 2,
       "timeBucket": "6m",
-      "platformId": 8,
+      "platformId": 5,
       "rank": 4,
       "tags": [
         "Propio",
@@ -301,7 +301,7 @@
       "artists": "38h 30m",
       "awareness": 2,
       "timeBucket": "6m",
-      "platformId": 3,
+      "platformId": 5,
       "rank": 5,
       "tags": [
         "Propio",
@@ -344,7 +344,7 @@
       "artists": "28h 50m",
       "awareness": 2,
       "timeBucket": "6m",
-      "platformId": 1,
+      "platformId": 5,
       "rank": 7,
       "tags": [
         "Propio",
@@ -366,7 +366,7 @@
       "artists": "22h 10m",
       "awareness": 2,
       "timeBucket": "6m",
-      "platformId": 8,
+      "platformId": 5,
       "rank": 8,
       "tags": [
         "Teléfono",
@@ -430,7 +430,7 @@
       "artists": "524h 20m",
       "awareness": 2,
       "timeBucket": "1y",
-      "platformId": 4,
+      "platformId": 5,
       "rank": 1,
       "tags": [
         "Teléfono",
@@ -472,7 +472,7 @@
       "artists": "197h 10m",
       "awareness": 2,
       "timeBucket": "1y",
-      "platformId": 6,
+      "platformId": 5,
       "rank": 3,
       "tags": [
         "Teléfono",
@@ -493,7 +493,7 @@
       "artists": "88h 30m",
       "awareness": 2,
       "timeBucket": "1y",
-      "platformId": 8,
+      "platformId": 5,
       "rank": 4,
       "tags": [
         "Propio",
@@ -514,7 +514,7 @@
       "artists": "76h 35m",
       "awareness": 2,
       "timeBucket": "1y",
-      "platformId": 3,
+      "platformId": 5,
       "rank": 5,
       "tags": [
         "Propio",
@@ -536,7 +536,7 @@
       "artists": "65h 10m",
       "awareness": 2,
       "timeBucket": "1y",
-      "platformId": 1,
+      "platformId": 5,
       "rank": 6,
       "tags": [
         "Propio",
@@ -622,7 +622,7 @@
       "artists": "34h 25m",
       "awareness": 2,
       "timeBucket": "1y",
-      "platformId": 8,
+      "platformId": 5,
       "rank": 10,
       "tags": [
         "Teléfono",
