@@ -1,0 +1,27 @@
+/* src/styles/Tooltip.css */
+
+/* src/components/Tooltip.css */
+.custom-tooltip {
+    position: fixed;
+    z-index: 9999;
+    pointer-events: none;
+    background: #a1e6f6dc;    
+    color: #00031E;        
+    border: 2px solid #A1E6F6;
+    padding: 6px 10px;
+    border-radius: 4px;
+    font-size: 16px;
+    max-width: 200px;
+    text-align: center;
+    opacity: 0;
+    transition: opacity 0.2s ease-in-out;
+  }
+  
+  .custom-tooltip.visible {
+    opacity: 1;
+  }
+  @keyframes tooltip-fade-in {
+    to {
+      opacity: 1;
+    }
+  }

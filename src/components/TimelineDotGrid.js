@@ -47,13 +47,15 @@ export default function TimelineDotGrid({
     const [active, setActive] = useState(null);
     const [tooltip, setTooltip] = useState(null);
     const [view, setView] = useState({ zoom: 0.5 });
-        const squarePath = useMemo(() => {
+    const squarePath = useMemo(() => {
       if (typeof window === 'undefined') return null;
       const p = new window.Path2D();
       p.rect(-1, -1, 2, 2); // cuadrado centrado
       return p;
-  }, []);
+    }, []);
   
+    // SE HA COMBINADO LA LÓGICA DE LAYOUT DEL CÓDIGO NUEVO
+    // CON LA LÓGICA DE ZOOM DEL CÓDIGO ANTIGUO
     const buildAndLayout = useCallback(() => {
         const wrap = wrapRef.current;
         const cvs = canvasRef.current;
@@ -69,7 +71,8 @@ export default function TimelineDotGrid({
         cvs.style.height = `${height}px`;
         const ctx = cvs.getContext('2d');
         ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
-        
+
+        // La rejilla de fondo ahora SIEMPRE se calcula con el zoom actual (comportamiento original)
         const currentDotSize = baseDotSize * view.zoom;
         const currentGap = baseGap * view.zoom;
         const cell = currentDotSize + currentGap;
@@ -90,46 +93,107 @@ export default function TimelineDotGrid({
         gridMetricsRef.current = { cols, rows, cell, startX, startY };
 
         const normalizedData = data.map(d => ({
-            ...d, id: d.id ?? `${d.platformId}-${Math.random()}`, level: d.awareness ?? d.level ?? 1,
+            ...d, 
+            id: d.id ?? `${d.platformId}-${Math.random()}`, 
+            level: d.awareness ?? d.level ?? 1,
             timeBucket: d.timeBucket ?? TIME_ID_TO_BUCKET[d.time] ?? '4w',
-            platformKey: DEFAULT_PLATFORM_ID_TO_KEY[d.platformId] ?? 'UNKNOWN',
+            platformKey: DEFAULT_PLATFORM_ID_TO_KEY[d.platformId] ?? 'OTHER',
         }));
+
+        // Se mantiene la lógica de padding y alineación mejorada
+        const padding = { top: 60, right: 90, bottom: 90, left: 220 };
+        const drawableWidth = Math.max(0, width - padding.left - padding.right);
+        const drawableHeight = Math.max(0, height - padding.top - padding.bottom);
 
         const availableDots = new Set(allDots.map((_, i) => i));
         const newNodes = [];
 
         let anchors = {};
-        const CLUSTER_RADIUS = Math.min(width, height) * 0.1;
+        let CLUSTER_RADIUS;
 
         switch (organization) {
-            case 'time': {
-                const timeKeys = Object.values(TIME_ID_TO_BUCKET);
-                timeKeys.forEach((key, index) => {
-                    anchors[key] = { x: width * (index + 1) / (timeKeys.length + 1), y: height / 2 };
-                });
-                break;
-            }
+            case 'time':
             case 'awareness': {
-                const awarenessKeys = Object.values(AWARENESS_LEVEL_TO_KEY);
-                awarenessKeys.forEach((key, index) => {
-                    anchors[key] = { x: width * (index + 1) / (awarenessKeys.length + 1), y: height / 2 };
+                const keys = organization === 'time' 
+                    ? Object.values(TIME_ID_TO_BUCKET)
+                    : Object.values(AWARENESS_LEVEL_TO_KEY);
+                
+                const numClusters = keys.length > 0 ? keys.length : 1;
+                const clusterCellWidth = drawableWidth / numClusters;
+                
+                CLUSTER_RADIUS = Math.min(clusterCellWidth, drawableHeight) * 0.4;
+                
+                keys.forEach((key, index) => {
+                    anchors[key] = { 
+                        x: padding.left + clusterCellWidth * (index + 0.5), 
+                        y: padding.top + drawableHeight / 2 
+                    };
                 });
                 break;
             }
             case 'platform': {
-                const platformKeys = [...new Set(normalizedData.map(d => d.platformKey))].sort();
-                platformKeys.forEach((key, index) => {
-                    anchors[key] = { x: width * (index + 1) / (platformKeys.length + 1), y: height / 2 };
-                });
-                break;
-            }
+              const platformKeys = [...new Set(normalizedData.map(d => d.platformKey))].sort();
+              const numClusters = platformKeys.length > 0 ? platformKeys.length : 1;
+          
+              const maxPerRow = Math.max(5, Math.ceil(Math.sqrt(numClusters)));
+              const numGridRows = Math.ceil(numClusters / maxPerRow);
+              const numGridCols = Math.ceil(numClusters / numGridRows);
+          
+              const cellWidth = drawableWidth / numGridCols;
+              const cellHeight = drawableHeight / numGridRows;
+          
+              // Paso 1: contar cuántos datos hay por plataforma
+              const platformCounts = {};
+              platformKeys.forEach(key => platformCounts[key] = 0);
+              normalizedData.forEach(d => platformCounts[d.platformKey]++);
+          
+              // Paso 2: calcular radio proporcional al tamaño
+              const maxCount = Math.max(...Object.values(platformCounts));
+              const minCount = Math.min(...Object.values(platformCounts));
+              const MIN_RADIUS = Math.min(cellWidth, cellHeight) * 0.15;
+              const MAX_RADIUS = Math.min(cellWidth, cellHeight) * 0.4;
+          
+              anchors = {};
+              CLUSTER_RADIUS = {}; // ahora es un objeto por plataforma
+          
+              platformKeys.forEach((key, index) => {
+                  const rowIndex = Math.floor(index / numGridCols);
+                  const colIndex = index % numGridCols;
+          
+                  anchors[key] = {
+                      x: padding.left + cellWidth * (colIndex + 0.5),
+                      y: padding.top + cellHeight * (rowIndex + 0.5),
+                  };
+          
+                  const count = platformCounts[key];
+                  const radiusScale = (count - minCount) / Math.max(1, maxCount - minCount);
+                  CLUSTER_RADIUS[key] = MIN_RADIUS + radiusScale * (MAX_RADIUS - MIN_RADIUS);
+              });
+              break;
+          }
+          
             case 'all':
             default: {
-                anchors = {
-                '1-4w': { x: width * 0.2, y: height * 0.25 }, '1-6m': { x: width * 0.5, y: height * 0.25 }, '1-1y': { x: width * 0.8, y: height * 0.25 },
-                '2-4w': { x: width * 0.2, y: height * 0.50 }, '2-6m': { x: width * 0.5, y: height * 0.50 }, '2-1y': { x: width * 0.8, y: height * 0.50 },
-                '3-4w': { x: width * 0.2, y: height * 0.75 }, '3-6m': { x: width * 0.5, y: height * 0.75 }, '3-1y': { x: width * 0.8, y: height * 0.75 },
-                };
+                const numCols = 3;
+                const numRows = 3;
+                const cellWidth = drawableWidth / numCols;
+                const cellHeight = drawableHeight / numRows;
+
+                CLUSTER_RADIUS = Math.min(cellWidth, cellHeight) * 0.38;
+                const horizontalOffset = -85; 
+
+                const awarenessLevels = [1, 2, 3];
+                const timeBuckets = ['4w', '6m', '1y'];
+
+                awarenessLevels.forEach((level, rowIndex) => {
+                    timeBuckets.forEach((bucket, colIndex) => {
+                        const key = `${level}-${bucket}`;
+                        anchors[key] = {
+                            x: padding.left + cellWidth * (colIndex + 0.5) + horizontalOffset,
+                            y: padding.top + cellHeight * (rowIndex + 0.5)
+                        };
+                    });
+                });
                 break;
             }
         }
@@ -146,8 +210,10 @@ export default function TimelineDotGrid({
             if (!anchor) continue;
             
             const angle = (pseudoRandom('angle' + item.id) / 4294967295) * 2 * Math.PI;
-            const radius = Math.sqrt(pseudoRandom('radius' + item.id) / 4294967295) * CLUSTER_RADIUS;
-            const targetX = anchor.x + Math.cos(angle) * radius;
+            const radius = Math.sqrt(pseudoRandom('radius' + item.id) / 4294967295) * (
+              organization === 'platform' ? CLUSTER_RADIUS[item.platformKey] : CLUSTER_RADIUS
+          );
+                      const targetX = anchor.x + Math.cos(angle) * radius;
             const targetY = anchor.y + Math.sin(angle) * radius;
 
             const { cols, cell, startX, startY } = gridMetricsRef.current;
@@ -172,7 +238,6 @@ export default function TimelineDotGrid({
             }
             
             if (bestIndex !== -1) {
-              
                 availableDots.delete(bestIndex);
                 newNodes.push({
                     id: item.id, item, gridIndex: bestIndex,
@@ -182,6 +247,7 @@ export default function TimelineDotGrid({
         }
         nodesRef.current = newNodes;
 
+    // SE RESTAURA LA DEPENDENCIA DE view.zoom, como en el código original
     }, [data, view.zoom, baseDotSize, baseGap, colorMapping, organization]);
 
     useEffect(() => {
@@ -231,10 +297,9 @@ export default function TimelineDotGrid({
                   ctx.beginPath();
                   ctx.rect(dot.cx - side / 2, dot.cy - side / 2, side, side);
                   ctx.strokeStyle = isActive ? '#3be9c9' : 'rgba(255,255,255,0.85)';
-                  ctx.lineWidth = 2;
+                  ctx.lineWidth = 2; // El grosor del borde vuelve a ser fijo, como en el original
                   ctx.stroke();
               }
-              
             });
             rafId = requestAnimationFrame(draw);
         };
@@ -248,7 +313,6 @@ export default function TimelineDotGrid({
         
         const hitTest = (mouseX, mouseY) => {
             const currentDotSize = baseDotSize * view.zoom;
-            // Usamos una hitbox cuadrada para mayor precisión
             const hitAreaHalfSide = (currentDotSize / 2) + hitTestPadding;
             for (let i = nodesRef.current.length - 1; i >= 0; i--) {
                 const n = nodesRef.current[i];
@@ -374,12 +438,12 @@ export default function TimelineDotGrid({
                   ref={tooltipRef}
                   style={{
                     position: 'absolute',
-                    background: '#0e1861cf',
+                    background: '#0e1861c5',
                     border: '10px solid #19258D',
-                    padding: '20px',
+                    padding: '24px',
                     color: '#cfe8ff',
                     pointerEvents: 'none',
-                    maxWidth: 280,
+                    maxWidth: 285,
                     zIndex: 101,
                     boxShadow: '0 6px 20px rgba(0,0,0,0.35)',
                     display: 'flex',
@@ -401,11 +465,11 @@ export default function TimelineDotGrid({
                       </div>
                     )}
                     <div style={{ display: 'flex', flexDirection: 'column', gap: '4px' }}>
-                      <div style={{ color: '#FFFFFF', fontWeight: 'bold', fontSize: '16px' }}>
+                      <div style={{ color: '#FFFFFF', fontWeight: 'bold', fontSize: '20px' }}>
                         {tooltip.item?.title}
                       </div>
                       {tooltip.item?.artists && (
-                        <div style={{ color: 'rgba(216, 225, 255, 0.7)', fontSize: '14px' }}>
+                        <div style={{ color: 'rgba(216, 225, 255, 0.7)', fontSize: '16px' }}>
                           {tooltip.item.artists}
                         </div>
                       )}
@@ -414,7 +478,7 @@ export default function TimelineDotGrid({
                   {tooltip.item?.tags?.length > 0 && (
                     <div style={{ display: 'flex', gap: 6, flexWrap: 'wrap' }}>
                       {tooltip.item.tags.slice(0, 5).map((t, i) => (
-                        <span key={i} style={{ fontSize: 11, background: 'rgba(82,39,255,0.15)', border: '1px solid rgba(82,39,255,0.4)', padding: '2px 6px', borderRadius: 999 }}>
+                        <span key={i} style={{ fontSize: 16, background: 'rgba(82,39,255,0.15)', border: '1px solid rgba(82,39,255,0.4)', padding: '2px 6px', borderRadius: 999 }}>
                           {t}
                         </span>
                       ))}

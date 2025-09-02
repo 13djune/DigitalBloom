@@ -44,8 +44,8 @@ export default function DataDotGrid({
   filters,
   dotSize = 12,
   gap = 12,
-  baseColor = '#1B1F3A',
-  activeColor = '#C7F0FA', 
+  baseColor = '#0E102A',
+  activeColor = '#C7F0FA',
   proximity = 120,
   speedTrigger = 120,
   resistance = 700,
@@ -178,10 +178,10 @@ export default function DataDotGrid({
       };
     });
 
-    const iterations = 300; 
+    const iterations = 300;
     const baseSeparationPadding = 80;
     const separationForceFactor = 1.0;
-    const boundaryStrength = 0.003; 
+    const boundaryStrength = 0.003;
 
     for (let i = 0; i < iterations; i++) {
         for (let j = 0; j < clusters.length; j++) {
@@ -279,7 +279,6 @@ export default function DataDotGrid({
         const dsq = Math.hypot(dot.cx - hx, dot.cy - hy);
         if (dsq <= proximity) {
           const t = 1 - dsq / proximity;
-          // CORRECCIÓN CLAVE AQUÍ: Usar actRgb.r, actRgb.g, actRgb.b para todos los componentes de color
           fill = `rgb(${Math.round(baseRgb.r + (actRgb.r - baseRgb.r) * t)},${Math.round(baseRgb.g + (actRgb.g - baseRgb.g) * t)},${Math.round(baseRgb.b + (actRgb.b - baseRgb.b) * t)})`;
         }
         ctx.save();
@@ -486,7 +485,7 @@ export default function DataDotGrid({
                 padding: '24px',
                 color: '#cfe8ff',
                 pointerEvents: 'none',
-                maxWidth: 280,
+                maxWidth: 285,
                 zIndex: 101,
                 boxShadow: '0 6px 20px rgba(0,0,0,0.35)',
                 display: 'flex',
@@ -498,7 +497,7 @@ export default function DataDotGrid({
                 top: tooltip.style ? tooltip.style.top : '0px',
               }}
             >
-              <div style={{ color: '#B5EBF8', fontSize: '20px', fontWeight: 'bold', textTransform: 'uppercase', letterSpacing: '1px' }}>
+              <div style={{ color: '#B5EBF8', fontSize: '14px', fontWeight: 'bold', textTransform: 'uppercase', letterSpacing: '1px' }}>
                 {DEFAULT_PLATFORM_ID_TO_KEY[tooltip.item?.platformId]}
               </div>
               <div style={{ display: 'flex', alignItems: 'center', gap: '12px' }}>

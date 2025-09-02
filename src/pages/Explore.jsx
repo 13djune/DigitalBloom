@@ -1,3 +1,4 @@
+// src/pages/Explore.js
 import React, { useEffect, useMemo, useState, useCallback } from "react";
 import TargetCursor from "../components/TargetCursor";
 import { Icon } from "@iconify/react";
@@ -6,12 +7,13 @@ import "../App.css";
 import { Link, useSearchParams, useNavigate } from "react-router-dom";
 import DataDotGrid from "../components/DataDotGrid";
 import DataPanel from "../components/DataPanel";
+import CustomTooltip from "../components/CustomTooltip";
+import "../styles/Tooltip.css";
 
 import deseoData from "../data/deseo-data(1).json";
 import cuerpoData from "../data/cuerpo-data(2).json";
 import rastroData from "../data/rastro-data(3).json";
 
-/* ---------- util local para normalizar ids y platformId ---------- */
 const normalizeDatasets = (list) =>
   list
     .filter(Boolean)
@@ -24,9 +26,8 @@ const normalizeDatasets = (list) =>
         tags: Array.isArray(d.tags) ? d.tags : [],
       };
     })
-    .filter(d => typeof d.platformId === 'number'); // <- evita undefined.platformId
+    .filter(d => typeof d.platformId === 'number');
 
-/* ---------- first-visit flag ---------- */
 const useFirstVisitFlag = (key = "explore_tutorial_seen") => {
   const [shouldShow, setShouldShow] = useState(() => {
     try { return !JSON.parse(localStorage.getItem(key) || "false"); }
@@ -39,84 +40,82 @@ const useFirstVisitFlag = (key = "explore_tutorial_seen") => {
   return { shouldShow, markSeen };
 };
 
-/* ---------- walkthrough ---------- */
 function Walkthrough({ open, step, steps, onNext, onSkip }) {
-  const bubbleRef = React.useRef(null);
-  const [bubblePos, setBubblePos] = useState({ top: 0, left: 0, arrow: "top" });
-  const [spot, setSpot] = useState({ x: null, y: null, r: 200 });
-
-  const place = useCallback(() => {
-    if (!open) return;
-    const { selector, placement = "auto" } = steps[step] || {};
-    const target = selector ? document.querySelector(selector) : null;
-    const bubble = bubbleRef.current;
-    const vw = window.innerWidth, vh = window.innerHeight;
-    if (!target || !bubble) {
-      const bw = 320, bh = 96;
-      setBubblePos({ top: vh / 2 - bh / 2, left: vw / 2 - bw / 2, arrow: "top" });
-      setSpot({ x: vw / 2, y: vh / 2, r: 220 });
-      return;
-    }
-    const r = target.getBoundingClientRect();
-    const bw = 320;
-    const bh = bubble.offsetHeight || 96;
-    const gap = 12;
-    const tryTop = { top: r.top - bh - gap, left: r.left + r.width / 2 - bw / 2, arrow: "bottom" };
-    const tryRight = { top: r.top + r.height / 2 - bh / 2, left: r.right + gap, arrow: "left" };
-    const tryBottom = { top: r.bottom + gap, left: r.left + r.width / 2 - bw / 2, arrow: "top" };
-    const tryLeft = { top: r.top + r.height / 2 - bh / 2, left: r.left - bw - gap, arrow: "right" };
-    const choices = placement === "auto" ? [tryBottom, tryRight, tryTop, tryLeft] : [tryTop, tryRight, tryBottom, tryLeft];
-    const margin = 16;
-    const pick = choices.find(c => c.top >= margin && c.left >= margin && c.top + bh <= vh - margin && c.left + bw <= vw - margin) || tryBottom;
-    setBubblePos(pick);
-    const cx = r.left + r.width / 2;
-    const cy = r.top + r.height / 2;
-    const radius = Math.max(r.width, r.height) / 2 + 22;
-    setSpot({ x: cx, y: cy, r: radius });
-  }, [open, step, steps]);
-
-  useEffect(() => { place(); }, [place]);
-  useEffect(() => {
-    if (!open) return;
-    const r = () => place();
-    window.addEventListener("resize", r);
-    window.addEventListener("scroll", r, { passive: true });
-    return () => {
-      window.removeEventListener("resize", r);
-      window.removeEventListener("scroll", r);
-    };
-  }, [open, place]);
-
-  if (!open) return null;
-  const current = steps[step] || {};
-
-  return (
-    <>
-      <div className="coach-overlay" onClick={onSkip} aria-hidden>
-        {spot.x != null && (
-          <div className="coach-spot" style={{
-            width: spot.r * 2,
-            height: spot.r * 2,
-            left: spot.x - spot.r,
-            top: spot.y - spot.r,
-          }} />
-        )}
-      </div>
-      <div ref={bubbleRef} className={`coach-bubble coach-arrow-${bubblePos.arrow}`} style={{ top: bubblePos.top, left: bubblePos.left, width: 320 }} role="dialog" aria-live="polite">
-        <div className="coach-body">{current.text}</div>
-        <div className="coach-actions">
-          <button className="btn ghost cursor-target" onClick={onSkip}>Omitir</button>
-          <button className="btn cursor-target" onClick={onNext}>
-            {step + 1 === steps.length ? "Entendido" : "Siguiente"}
-          </button>
+    const bubbleRef = React.useRef(null);
+    const [bubblePos, setBubblePos] = useState({ top: 0, left: 0, arrow: "top" });
+    const [spot, setSpot] = useState({ x: null, y: null, r: 200 });
+  
+    const place = useCallback(() => {
+      if (!open) return;
+      const { selector, placement = "auto" } = steps[step] || {};
+      const target = selector ? document.querySelector(selector) : null;
+      const bubble = bubbleRef.current;
+      const vw = window.innerWidth, vh = window.innerHeight;
+      if (!target || !bubble) {
+        const bw = 320, bh = 96;
+        setBubblePos({ top: vh / 2 - bh / 2, left: vw / 2 - bw / 2, arrow: "top" });
+        setSpot({ x: vw / 2, y: vh / 2, r: 220 });
+        return;
+      }
+      const r = target.getBoundingClientRect();
+      const bw = 320;
+      const bh = bubble.offsetHeight || 96;
+      const gap = 12;
+      const tryTop = { top: r.top - bh - gap, left: r.left + r.width / 2 - bw / 2, arrow: "bottom" };
+      const tryRight = { top: r.top + r.height / 2 - bh / 2, left: r.right + gap, arrow: "left" };
+      const tryBottom = { top: r.bottom + gap, left: r.left + r.width / 2 - bw / 2, arrow: "top" };
+      const tryLeft = { top: r.top + r.height / 2 - bh / 2, left: r.left - bw - gap, arrow: "right" };
+      const choices = placement === "auto" ? [tryBottom, tryRight, tryTop, tryLeft] : [tryTop, tryRight, tryBottom, tryLeft];
+      const margin = 16;
+      const pick = choices.find(c => c.top >= margin && c.left >= margin && c.top + bh <= vh - margin && c.left + bw <= vw - margin) || tryBottom;
+      setBubblePos(pick);
+      const cx = r.left + r.width / 2;
+      const cy = r.top + r.height / 2;
+      const radius = Math.max(r.width, r.height) / 2 + 22;
+      setSpot({ x: cx, y: cy, r: radius });
+    }, [open, step, steps]);
+  
+    useEffect(() => { place(); }, [place]);
+    useEffect(() => {
+      if (!open) return;
+      const r = () => place();
+      window.addEventListener("resize", r);
+      window.addEventListener("scroll", r, { passive: true });
+      return () => {
+        window.removeEventListener("resize", r);
+        window.removeEventListener("scroll", r);
+      };
+    }, [open, place]);
+  
+    if (!open) return null;
+    const current = steps[step] || {};
+  
+    return (
+      <>
+        <div className="coach-overlay" onClick={onSkip} aria-hidden>
+          {spot.x != null && (
+            <div className="coach-spot" style={{
+              width: spot.r * 2,
+              height: spot.r * 2,
+              left: spot.x - spot.r,
+              top: spot.y - spot.r,
+            }} />
+          )}
         </div>
-        <div className="coach-steps">{step + 1} / {steps.length}</div>
-      </div>
-    </>
-  );
+        <div ref={bubbleRef} className={`coach-bubble coach-arrow-${bubblePos.arrow}`} style={{ top: bubblePos.top, left: bubblePos.left, width: 320 }} role="dialog" aria-live="polite">
+          <div className="coach-body">{current.text}</div>
+          <div className="coach-actions">
+            <button className="btn ghost cursor-target" onClick={onSkip}>Omitir</button>
+            <button className="btn cursor-target" onClick={onNext}>
+              {step + 1 === steps.length ? "Entendido" : "Siguiente"}
+            </button>
+          </div>
+          <div className="coach-steps">{step + 1} / {steps.length}</div>
+        </div>
+      </>
+    );
 }
 
-/* ---------- Página ---------- */
 export default function Explore() {
   const { shouldShow, markSeen } = useFirstVisitFlag();
   const [isWalkthroughOpen, setWalkthroughOpen] = useState(shouldShow);
@@ -124,7 +123,6 @@ export default function Explore() {
   const [, setSearchParams] = useSearchParams();
   const navigate = useNavigate();
 
-  /* Filtros (nivel y tiempo cuentan siempre como activos = 1) */
   const [filters, setFilters] = useState(() => {
     const sp = new URLSearchParams(window.location.search);
     const platforms = sp.getAll('platforms').map(Number).filter(Boolean);
@@ -139,6 +137,24 @@ export default function Explore() {
 
   const [showFiltersModal, setShowFiltersModal] = useState(false);
   const [selectedItem, setSelectedItem] = useState(null);
+
+  const [tooltip, setTooltip] = useState({ 
+    visible: false, 
+    text: "", 
+    targetRect: null 
+  });
+
+  const handleMouseEnter = (e) => {
+    const text = e.currentTarget.getAttribute('data-tooltip');
+    const rect = e.currentTarget.getBoundingClientRect();
+    if (text && rect) {
+      setTooltip({ visible: true, text, targetRect: rect });
+    }
+  };
+  
+  const handleMouseLeave = () => {
+    setTooltip(prev => ({ ...prev, visible: false, targetRect: null }));
+  };
 
   useEffect(() => {
     const newParams = new URLSearchParams();
@@ -166,18 +182,15 @@ export default function Explore() {
     setShowFiltersModal(false);
   };
 
-  /* 🔥 Cuenta de filtros: nivel + tiempo siempre suman (1+1) */
   const appliedCount = useMemo(() => {
     return 1 + 1 + filters.platforms.length + filters.tags.length;
   }, [filters]);
 
-  /* ---------- DATA: única creación de allData ---------- */
   const allData = useMemo(() => {
     const merged = [...deseoData, ...cuerpoData, ...rastroData];
     return normalizeDatasets(merged);
   }, []);
 
-  /* UI estática */
   const levels = useMemo(() => [
     { id: 1, label: "DESEO" }, { id: 2, label: "CUERPO" }, { id: 3, label: "RASTRO" }
   ], []);
@@ -209,22 +222,60 @@ export default function Explore() {
   return (
     <div className="explore-page bg-background">
       <TargetCursor targetSelector=".cursor-target" />
+      
+      <CustomTooltip 
+        text={tooltip.text} 
+        visible={tooltip.visible} 
+        targetRect={tooltip.targetRect} 
+      />
 
       <div className="left-rail z-40">
-      <Link  onClick={goBack} id="btn-back-to-explore" className="round-cta cursor-target" aria-label="Volver a Explorar">
+        <Link
+          onClick={goBack}
+          id="btn-back-to-explore"
+          className="round-cta cursor-target"
+          aria-label="Volver"
+          data-tooltip="Volver"
+          onMouseEnter={handleMouseEnter}
+          onMouseLeave={handleMouseLeave}
+        >
           <Icon icon="pixelarticons:arrow-left" width="28" height="28" />
         </Link>
-  <button id="btn-filter" className="round-cta cursor-target has-badge" onClick={() => setShowFiltersModal(true)} aria-label="Filtros">
-    <Icon icon="pixelarticons:sliders" width="28" height="28" />
-    {appliedCount > 0 && <span className="cta-badge">{appliedCount}</span>}
-  </button>
-  <Link to="/navigate" id="btn-navigate" className="round-cta cursor-target" aria-label="Navegar Timeline Completo">
-    <Icon icon="pixelarticons:map" width="28" height="28" />
-  </Link>
-  <Link to="/about" id="btn-about" className="round-cta cursor-target" aria-label="Acerca de">
-    <Icon icon="pixelarticons:lightbulb-2" width="28" height="28" />
-  </Link>
-</div>
+        <button
+          id="btn-filter"
+          className="round-cta cursor-target has-badge"
+          onClick={() => setShowFiltersModal(true)}
+          aria-label="Filtros"
+          data-tooltip="Filtros"
+          onMouseEnter={handleMouseEnter}
+          onMouseLeave={handleMouseLeave}
+        >
+          <Icon icon="pixelarticons:sliders" width="28" height="28" />
+          {appliedCount > 0 && <span className="cta-badge">{appliedCount}</span>}
+        </button>
+        <Link
+          to="/navigate"
+          id="btn-navigate"
+          className="round-cta cursor-target"
+          aria-label="Navegar Huella Completa"
+          data-tooltip="Navegar Huella Completa"
+          onMouseEnter={handleMouseEnter}
+          onMouseLeave={handleMouseLeave}
+        >
+          <Icon icon="pixelarticons:map" width="28" height="28" />
+        </Link>
+        <Link
+          to="/about"
+          id="btn-about"
+          className="round-cta cursor-target"
+          aria-label="Sobre mí y el proyecto"
+          data-tooltip="Sobre mí y el proyecto"
+          onMouseEnter={handleMouseEnter}
+          onMouseLeave={handleMouseLeave}
+        >
+          <Icon icon="pixelarticons:lightbulb-2" width="28" height="28" />
+        </Link>
+      </div>
 
       <Filters
         open={showFiltersModal}
@@ -243,6 +294,8 @@ export default function Explore() {
               onClick={() => handleLevelChange(lv.id)}
               aria-pressed={filters.level === lv.id}
               aria-label={lv.label}
+              onMouseEnter={handleMouseEnter}
+              onMouseLeave={handleMouseLeave}
             >
               <div className={`box ${filters.level === lv.id ? "box--active" : "box--inactive"}`}>
                 <span className="box-num">{lv.id}</span>
@@ -274,7 +327,9 @@ export default function Explore() {
         className="help-fab cursor-target z-40"
         onClick={() => { setWalkthroughStep(0); setWalkthroughOpen(true); }}
         aria-label="Ver tutorial"
-        title="Ver tutorial"
+        data-tooltip="Ver tutorial"
+        onMouseEnter={handleMouseEnter}
+        onMouseLeave={handleMouseLeave}
       >
         ?
       </button>
@@ -287,20 +342,12 @@ export default function Explore() {
         onSkip={handleSkipTutorial}
       />
 
-      {/* 👇 Pásale SIEMPRE el allData ya normalizado */}
       <DataDotGrid
         data={allData}
         filters={filters}
         onSelect={(item) => setSelectedItem(item)}
       />
-
-      {/* Mensaje opcional si no hay resultados (lo puedes personalizar) */}
-      {allData.length > 0 && (
-        <div style={{ textAlign: "center", color: "#ccc", marginTop: "1rem" }}>
-          {/* ... */}
-        </div>
-      )}
-
+      
       <DataPanel
         item={selectedItem}
         allData={allData}

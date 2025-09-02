@@ -383,15 +383,15 @@ margin: 0 0 0 8px;
   height: 44px;
   border: none;
   border-radius: 0px;
-  background: #2c4755;      /* fondo oscuro */
-  color: #9be5ef;           /* color del icono */
+  background: #2c4755;     
+  color: #9be5ef;           
   display: grid;
   place-items: center;
   box-shadow: 0 8px 24px rgba(0,0,0,.35);
 }
 .round-cta:hover {
-  background: #A1E6F6;      /* fondo oscuro */
-  color: #00031E;           /* color del icono */
+  background: #A1E6F6;    
+  color: #00031E;        
  
 }
 .round-cta.active {

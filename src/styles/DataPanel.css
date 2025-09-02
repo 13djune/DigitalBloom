@@ -269,3 +269,24 @@
   margin-right: 1rem; /* 16px */
   font-size: 20px;
 }
+.detail-item-list {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start; /* Alinea la etiqueta arriba */
+}
+
+.detail-item-list .detail-label {
+  flex-shrink: 0;
+  width: 150px; /* O el ancho que uses para las otras etiquetas */
+  font-weight: bold;
+  opacity: 0.7;
+}
+
+.detail-item-list .detail-value-list {
+  list-style-type: disc; /* O el tipo de viñeta que prefieras */
+  padding-left: 20px;
+  margin-left: 1rem; /* Equivalente al px-4 */
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem; /* Espacio entre los números */
+}

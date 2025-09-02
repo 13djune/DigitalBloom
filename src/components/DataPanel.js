@@ -51,16 +51,13 @@ function safeFormatDate(value) {
 
 function getDisplayDateLike(item = {}) {
   const details = item.details || {};
-  // 1) date (raíz o en details)
   const rawDate = item.date ?? details.date;
   const fmt = safeFormatDate(rawDate);
   if (fmt) return fmt;
 
-  // 2) period (raíz o en details)
   const period = item.period ?? details.period;
   if (period) return String(period);
 
-  // 3) timeBucket o time numérico
   let tb = item.timeBucket ?? details.timeBucket;
   if (!tb && (item.time ?? details.time) != null) {
     tb = TIME_ID_TO_BUCKET[Number(item.time ?? details.time)];
@@ -70,7 +67,6 @@ function getDisplayDateLike(item = {}) {
   return null;
 }
 
-// --- VALORES POR DEFECTO ---
 const defaultPlatform = { name: "Desconocido", color: "#cfe8ff" };
 
 /* ---------- Componente principal ---------- */
@@ -87,7 +83,6 @@ export default function DataPanel({ item, allData = [], onClose, onSelect }) {
     url,
   } = safeItem;
 
-  // --- LÓGICA DE PLATAFORMA SIMPLIFICADA ---
   const platformInfo = useMemo(
     () => platformConfig.find((p) => p.id === platformId) || defaultPlatform,
     [platformId]
@@ -95,7 +90,7 @@ export default function DataPanel({ item, allData = [], onClose, onSelect }) {
 
   const { name: platformName, color: platformColor } = platformInfo;
   const finalUrl = url || details.url;
-  const { dataType, subjective_notes, pageExamples } = details; // CAMBIO: Extraemos pageExamples
+  const { dataType, subjective_notes, pageExamples } = details;
 
   const displayDate = useMemo(() => getDisplayDateLike(safeItem), [safeItem]);
   
@@ -128,9 +123,8 @@ export default function DataPanel({ item, allData = [], onClose, onSelect }) {
   return (
     <div className="data-panel-overlay" onClick={onClose}>
       <div className="data-panel" onClick={(e) => e.stopPropagation()}>
-        {/* Header */}
         <header className="panel-header">
-          <h4 className="platform-name text-2xl" style={{ color: platformColor }}>
+          <h4 className="platform-name text-2xl uppercase font-bold" style={{ color: platformColor }}>
             {platformName}
           </h4>
           <button className="btn-close cursor-target" onClick={onClose} aria-label="Cerrar panel">
@@ -138,9 +132,7 @@ export default function DataPanel({ item, allData = [], onClose, onSelect }) {
           </button>
         </header>
 
-        {/* Body */}
         <div className="panel-body">
-          {/* Título / artista / rank */}
           <div className="main-info flex flex-col">
             <div className="flex flex-row items-baseline">
               {typeof rank === "number" && <div className="rank">#{rank}</div>}
@@ -149,7 +141,6 @@ export default function DataPanel({ item, allData = [], onClose, onSelect }) {
             <h2 className="title ">{title}</h2>
           </div>
 
-          {/* Meta info (tipo y fecha/periodo) */}
           {(displayDate || dataType) && (
             <div className="meta-info">
               {dataType && <span>{dataType}</span>}
@@ -158,10 +149,8 @@ export default function DataPanel({ item, allData = [], onClose, onSelect }) {
             </div>
           )}
 
-          {/* Detalles dinámicos */}
           <DynamicDetails details={details} />
 
-          {/* CAMBIO: Sección específica para pageExamples */}
           {pageExamples && pageExamples.length > 0 && (
             <div className="page-examples-section">
               <div className="detail-label">Ejemplos</div>
@@ -183,7 +172,6 @@ export default function DataPanel({ item, allData = [], onClose, onSelect }) {
             </div>
           )}
 
-          {/* Notas subjetivas con color aclarado por plataforma */}
           {subjective_notes && (
             <div
               className="notes-section subjetivo-font"
@@ -197,7 +185,6 @@ export default function DataPanel({ item, allData = [], onClose, onSelect }) {
             </div>
           )}
 
-          {/* Tags del ítem */}
           {tags.length > 0 && (
             <div className="tags">
               {tags.map((tag, i) => {
@@ -205,13 +192,12 @@ export default function DataPanel({ item, allData = [], onClose, onSelect }) {
                 return (
                   <span key={i} className="tag" data-type={tagType}>
                     {tag}
-                  </span>
+                  </span> // <-- LA ETIQUETA DE CIERRE ESTABA AUSENTE AQUÍ
                 );
               })}
             </div>
           )}
 
-          {/* Enlace */}
           {finalUrl && (
             <a
               href={finalUrl}
@@ -223,7 +209,6 @@ export default function DataPanel({ item, allData = [], onClose, onSelect }) {
             </a>
           )}
 
-          {/* Recomendaciones */}
           {recommendations.length > 0 && (
             <div className="recommendations">
               <h4 className="text-2xl mb-2">También puede interesarte:</h4>
@@ -315,11 +300,12 @@ export default function DataPanel({ item, allData = [], onClose, onSelect }) {
 const DetailItem = ({ label, value }) => {
   if (value === null || value === undefined || value === "") return null;
   const displayValue =
-    typeof value === "object" && value !== null ? (
+    typeof value === "object" && value !== null && !Array.isArray(value) && !(value instanceof Date) ? (
       <pre>{JSON.stringify(value, null, 2)}</pre>
     ) : (
       String(value)
     );
+
   return (
     <div className="detail-item flex flex-row">
       <div className="detail-label">{label}</div>
@@ -328,11 +314,11 @@ const DetailItem = ({ label, value }) => {
   );
 };
 
+
 const DynamicDetails = ({ details = {} }) => {
   const excludedKeys = new Set([
     "subjective_notes",
     "sourceFile",
-    "name",
     "coordinates",
     "dataType",
     "date",
@@ -341,9 +327,14 @@ const DynamicDetails = ({ details = {} }) => {
     "time",
     "pageExamples", 
     "url",
+    "value",
   ]);
+
   const keys = Object.keys(details).filter((k) => !excludedKeys.has(k));
-  if (keys.length === 0) return null;
+  const hasValueObject = details.value && typeof details.value === 'object' && !Array.isArray(details.value);
+  const valueObjectKeys = hasValueObject ? Object.keys(details.value) : [];
+
+  if (keys.length === 0 && valueObjectKeys.length === 0) return null;
 
   return (
     <div className="details-grid">
@@ -354,6 +345,19 @@ const DynamicDetails = ({ details = {} }) => {
           .replace(/^\w/, (c) => c.toUpperCase());
 
         let value = details[key];
+        
+        if (Array.isArray(value)) {
+          return (
+            <div key={key} className="detail-item-list">
+              <div className="detail-label">{label}</div>
+              <ul className="detail-value-list">
+                {value.map((item, index) => (
+                  <li key={index}>{String(item)}</li>
+                ))}
+              </ul>
+            </div>
+          );
+        }
 
         if (
           (key === "sent_count" ||
@@ -366,7 +370,7 @@ const DynamicDetails = ({ details = {} }) => {
         ) {
           value = value.toLocaleString("es-ES");
         }
-
+        
         if (key === "statistics" && typeof value === "object") {
           return (
             <React.Fragment key={key}>
@@ -394,6 +398,18 @@ const DynamicDetails = ({ details = {} }) => {
 
         return <DetailItem key={key} label={label} value={value} />;
       })}
+
+      {hasValueObject && (
+        <React.Fragment>
+          {valueObjectKeys.map((key) => {
+            const label = key
+              .replace(/([A-Z])/g, " $1")
+              .replace(/_/g, " ")
+              .replace(/^\w/, (c) => c.toUpperCase());
+            return <DetailItem key={`value-${key}`} label={label} value={details.value[key]} />;
+          })}
+        </React.Fragment>
+      )}
     </div>
   );
 };

@@ -8769,72 +8769,7 @@
           "value": "abr 08, 2022 10:11 am"
         }
       },
-      {
-        "id": "whatsapp-1y-device-activity-0",
-        "title": "Actividad del Dispositivo 0",
-        "artists": "Actividad de Cuenta",
-        "awareness": 1,
-        "timeBucket": "1y",
-        "platformId": 6,
-        "rank": 17,
-        "date": "2025-08-13",
-        "tags": ["Dispositivos", "Actividad", "Conexión", "#tlf", "Teléfono", 
-        "Propio", "Consciente"],
-        "details": {
-          "sourceFile": "whatsapp_account_information/user_information.html",
-          "dataType": "Actividad de Dispositivo",
-          "name": "Última actividad del Dispositivo 0",
-          "value": {
-            "Estado": "SIN CONEXIÓN",
-            "Last Active Time": "ago 13, 2025 7:47 pm",
-            "Previous connection IP": "81.38.116.212"
-          }
-        }
-      },
-      {
-        "id": "whatsapp-1y-device-activity-38",
-        "title": "Actividad del Dispositivo 38",
-        "artists": "Actividad de Cuenta",
-        "awareness": 1,
-        "timeBucket": "1y",
-        "platformId": 6,
-        "rank": 18,
-        "date": "2025-08-13",
-        "tags": ["Dispositivos", "Actividad", "Conexión", "#tlf", "Teléfono", 
-        "Propio", "Consciente"],
-        "details": {
-          "sourceFile": "whatsapp_account_information/user_information.html",
-          "dataType": "Actividad de Dispositivo",
-          "name": "Última actividad del Dispositivo 38",
-          "value": {
-            "Estado": "SIN CONEXIÓN",
-            "Last Active Time": "ago 13, 2025 7:38 pm",
-            "Previous connection IP": "81.38.116.212"
-          }
-        }
-      },
-      {
-        "id": "whatsapp-1y-device-activity-39",
-        "title": "Actividad del Dispositivo 39",
-        "artists": "Actividad de Cuenta",
-        "awareness": 1,
-        "timeBucket": "1y",
-        "platformId": 6,
-        "rank": 19,
-        "date": "2025-08-07",
-        "tags": ["Dispositivos", "Actividad", "Conexión", "#tlf", "Teléfono", 
-          "Propio", "Consciente"],
-        "details": {
-          "sourceFile": "whatsapp_account_information/user_information.html",
-          "dataType": "Actividad de Dispositivo",
-          "name": "Última actividad del Dispositivo 39",
-          "value": {
-            "Estado": "SIN CONEXIÓN",
-            "Last Active Time": "ago 07, 2025 2:45 am",
-            "Previous connection IP": "213.37.16.34"
-          }
-        }
-      },
+      
       
         {
           "id": "netflix-4w-grace-and-frankie-season-7-the-circumcision",
