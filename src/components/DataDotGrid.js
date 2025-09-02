@@ -44,7 +44,7 @@ export default function DataDotGrid({
   filters,
   dotSize = 12,
   gap = 12,
-  baseColor = '#0E102A',
+  baseColor = '#1B1F3A',
   activeColor = '#C7F0FA',
   proximity = 120,
   speedTrigger = 120,

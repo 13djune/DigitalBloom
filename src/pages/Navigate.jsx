@@ -225,7 +225,7 @@ export default function Navigate() {
     { selector: '.screen-legend', text: 'Las leyendas te dan información clave sobre los datos que estás viendo.', placement: 'right' },
     { selector: '#organization-controls', text: 'Usa estos botones para cambiar la forma en que se organizan los datos en pantalla.', placement: 'left'},
     { selector: '#zoom-controls', text: 'Acércate o aléjate para explorar en detalle.', placement: 'top'},
-    { text: 'Cada punto es un dato. ¡Haz clic en cualquiera para ver su información completa!' }
+    { text: 'Cada punto es un dato. ¡Haz clic en cualquiera para ver su información completa!', placement: 'top' }
   ]), []);
   
   const handleSkipTutorial = useCallback(() => { setWalkthroughOpen(false); markSeen(); }, [markSeen]);

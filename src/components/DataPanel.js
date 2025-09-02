@@ -94,6 +94,7 @@ export default function DataPanel({ item, allData = [], onClose, onSelect }) {
 
   const displayDate = useMemo(() => getDisplayDateLike(safeItem), [safeItem]);
   
+  // --- LÓGICA DE RECOMENDACIONES MODIFICADA ---
   const recommendations = useMemo(() => {
     const list = Array.isArray(allData) ? allData : [];
     const base = list.filter(
@@ -112,10 +113,34 @@ export default function DataPanel({ item, allData = [], onClose, onSelect }) {
         scored.push({ item: d, score });
       }
     }
-    return scored
-      .sort((a, b) => b.score - a.score)
-      .slice(0, 2)
-      .map((x) => x.item);
+
+    // ✨ INICIO DE LA MODIFICACIÓN ✨
+
+    // 1. Función para barajar un array (algoritmo Fisher-Yates)
+    const shuffleArray = (array) => {
+      const newArr = [...array]; // Copiar para no modificar el original
+      for (let i = newArr.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [newArr[i], newArr[j]] = [newArr[j], newArr[i]];
+      }
+      return newArr;
+    };
+
+    // 2. Ordenar por puntuación como antes
+    const sortedByScore = scored.sort((a, b) => b.score - a.score);
+
+    // 3. Tomar un grupo más grande de los mejores (ej. los 10 primeros)
+    //    Si hay menos de 10, tomará los que haya.
+    const topCandidates = sortedByScore.slice(0, 10);
+    
+    // 4. Barajar aleatoriamente ese grupo de candidatos
+    const shuffledCandidates = shuffleArray(topCandidates);
+
+    // 5. Devolver los primeros 2 del grupo barajado
+    return shuffledCandidates.slice(0, 2).map((x) => x.item);
+    
+    // ✨ FIN DE LA MODIFICACIÓN ✨
+
   }, [allData, itemId, platformId, tags]);
 
   if (!item) return null;
@@ -192,7 +217,7 @@ export default function DataPanel({ item, allData = [], onClose, onSelect }) {
                 return (
                   <span key={i} className="tag" data-type={tagType}>
                     {tag}
-                  </span> // <-- LA ETIQUETA DE CIERRE ESTABA AUSENTE AQUÍ
+                  </span>
                 );
               })}
             </div>

@@ -19,11 +19,11 @@ export default function About() {
       { id: 1, name: "Spotify", description: "Esta es mi propia cuenta desde 2017. Para ir a algún sitio o concentrarme me pongo música.", color: colorMapping.SPOTIFY ,  tags: tagList.filter(tag => ["Música", "Entretenimiento", "Propio", "@email"].includes(tag.name)) },
       { id: 2, name: "YouTube", description: "Sobretodo lo uso para distraerme o para dormir, a veces para ver tutoriales.", color: colorMapping.YOUTUBE ,   tags: tagList.filter(tag => ["Vídeo", "Educativo", "Humor", "Entretenimiento", "Propio", "@email"].includes(tag.name)) },
       { id: 3, name: "TikTok", description: "Dejé de usarlo hace un tiempo pero aún tengo acceso a la cuenta. A veces lo uso para buscar cosas.", color: colorMapping.TIKTOK ,   tags: tagList.filter(tag => ["Inspiración", "Entretenimiento","Educativo", "Humor", "Social", "Propio", "#tlf"].includes(tag.name)) },
-      { id: 4, name: "Instagram", description: "Es mi red social más usada, la tengo desde 2015 o así.", color: colorMapping.INSTAGRAM,tags: tagList.filter(tag =>["Social", "Educativo", "Entretenimiento","Inspiración", "Propio", "@email", "#tlf"].includes(tag.name)) },
-      { id: 5, name: "iPhone", description: "Aquí se encontrarán los datos de aplicaciones como: Salud, Tiempo de uso,...", color: colorMapping.IPHONE,   tags: tagList.filter(tag => ["Salud", "Educativo", "Humor", "Utilidades", "Propio"].includes(tag.name)) },
-      { id: 6, name: "WhatsApp", description: "Esta App es la que más uso de mensajería, ni me acuerdo cuándo empecé a usarla.", color: colorMapping.WHATSAPP,  tags: tagList.filter(tag => ["Mensajería", "Social", "Humor", "Propio", "#tlf"].includes(tag.name)) },
-      { id: 7, name: "Streaming", description: "Esta sección se compone de plataformas como Netflix o Prime Video.", color: colorMapping.STREAMING, tags: tagList.filter(tag => ["Cine", "Series", "Entretenimiento", "Compartido", "@email"].includes(tag.name)) },
-      { id: 8, name: "Google", description: "Todo lo que esté enlazado con esta plataforma, como Google Maps o Gmail, estará aquí.", color: colorMapping.GOOGLE,  tags: tagList.filter(tag => ["Utilidades", "Ubicaciones", "Mensajería", "Propio", "@email"].includes(tag.name)) },
+      { id: 4, name: "Instagram", description: "Es mi red social más usada, la tengo desde 2015. Aquí suelo pasar bastantes más horas que en otras apps", color: colorMapping.INSTAGRAM,tags: tagList.filter(tag =>["Social", "Educativo", "Entretenimiento","Inspiración", "Propio", "@email", "#tlf"].includes(tag.name)) },
+      { id: 5, name: "iPhone", description: "Aquí se encontrarán los datos de aplicaciones como: Salud, Tiempo de uso,... Todo lo que hay en mi móvil personal.", color: colorMapping.IPHONE,   tags: tagList.filter(tag => ["Salud", "Educativo", "Humor", "Utilidades", "Propio"].includes(tag.name)) },
+      { id: 6, name: "WhatsApp", description: "Esta App es la que más uso de mensajería, ni me acuerdo cuándo empecé a usarla. Todos mis conocidos usan esta app.", color: colorMapping.WHATSAPP,  tags: tagList.filter(tag => ["Mensajería", "Social", "Humor", "Propio", "#tlf"].includes(tag.name)) },
+      { id: 7, name: "Streaming", description: "Esta sección se compone de plataformas como Netflix o Prime Video. Siempre me ha gustado ver series o películas, sola o acompañada.", color: colorMapping.STREAMING, tags: tagList.filter(tag => ["Cine", "Series", "Entretenimiento", "Compartido", "@email"].includes(tag.name)) },
+      { id: 8, name: "Google", description: "Todo lo que esté enlazado con esta plataforma, como Google Maps o Gmail, estará aquí. ALgunos datos se han modificado por temas de privacidad.", color: colorMapping.GOOGLE,  tags: tagList.filter(tag => ["Utilidades", "Ubicaciones", "Mensajería", "Propio", "@email"].includes(tag.name)) },
     ];
     
     // --- LÓGICA DE NAVEGACIÓN ELIMINADA DE AQUÍ ---
@@ -55,28 +55,30 @@ export default function About() {
               </h1>
               <div className="space-y-6 leading-relaxed opacity-90">
               <p className="text-xl">
-                Este proyecto es <span className=" text-accent">un autorretrato hecho con mi propia vida online. </span>
-                Todo empezó por pura curiosidad: me puse a mirar la cantidad de datos que hay sobre mí en internet y aluciné. 
-                Canciones que he escuchado, sitios donde he estado, horas de móvil… un montón de información a la que nunca había prestado atención. 
-                Lo más chocante fue darme cuenta de que ahí estaba <span className=" text-accent">mi propia identidad.</span>
-                Pude ver perfectamente cómo han cambiado mis gustos, mis manías y mi forma de vivir con el paso de tiempo.
-                </p>
-                <p className="text-xl">
-                Así que me pasé meses recopilando todo ese material, ordenándolo y buscando la forma de convertirlo en algo visual y creativo. 
-                He cambiado algunas cosas para <span className="text-accent">proteger mi privacidad</span>, pero casi todo lo que se ve en la obra es el <span className=" text-accent"> rastro real</span> que he ido dejando.
-                </p>
-                <p className="text-xl">
-                El resultado es algo muy personal y abstracto. Es una especie de retrato vivo, hecho con toda esa información invisible que soltamos por ahí. 
-                </p>
-                <p className="text-xl">
-                  Los datos se han dividido en <span className=" text-accent">tres niveles de conciencia</span>, que van desde lo más consciente (deseo) a lo más involuntario (rastro); y por <span className=" text-accent">periódos de tiempo </span>(últimas 4 semanas, últimos 6 meses, y último año o más).
-                  Además, podrás encontrar en algunos datos con <span className=" text-accent">notas personales</span> que he añadido para explicar su significado o contexto.
-                </p>
-                <p className="text-xl">
-                La idea es <span className=" text-accent">invitarte a que explores y pienses en la historia que se esconde detrás de nuestros datos</span>, y en cómo las cosas más normales del día a día pueden acabar siendo algo muy propio.
-                </p>
+    Este proyecto es <span className=" text-accent">un autorretrato hecho con mi propia vida online. </span>
+    Todo empezó por pura curiosidad: me puse a mirar la cantidad de datos que hay sobre mí en internet y aluciné. 
+    Canciones que he escuchado, sitios donde he estado, horas de móvil… un montón de información a la que nunca había prestado atención. 
+    Lo más chocante fue darme cuenta de que ahí estaba <span className=" text-accent">mi propia identidad. </span>
+    Pude ver perfectamente cómo han cambiado mis gustos, mis manías y mi forma de vivir con el paso de tiempo.
+</p>
+<p className="text-xl">
+    Así que me pasé meses recopilando todo ese material, ordenándolo y buscando la forma de convertirlo en algo visual y creativo. 
+    He cambiado algunas cosas para <span className="text-accent">proteger mi privacidad</span>, pero casi todo lo que se ve en la obra es el <span className=" text-accent"> rastro real</span> que he ido dejando.
+</p>
+<p className="text-xl">
+    El resultado es algo muy personal y abstracto. Es una especie de retrato vivo, hecho con toda esa información invisible que soltamos por ahí. 
+</p>
+<p className="text-xl">
+    Para dar sentido a esta marabunta de información, la he organizado en <span className=" text-accent">tres niveles de conciencia</span>, que van desde lo más consciente (deseo) a lo más involuntario (rastro). Además, todo se puede explorar en distintos <span className=" text-accent">periódos de tiempo</span> (últimas 4 semanas, últimos 6 meses, y último año o más) para ver la evolución.
+</p>
+<p className="text-xl">
+    Es importante entender que cada periodo funciona como un espacio independiente, no se acumulan. Al elegir "últimos 6 meses", por ejemplo, verás únicamente los datos de ese fragmento de tiempo, permitiendo una comparación más limpia entre el "yo" de antes y el de ahora. En algunos datos también encontrarás <span className=" text-accent">notas personales</span> que he añadido para explicar su significado o contexto.
+</p>
+<p className="text-xl">
+    La idea es <span className=" text-accent">invitarte a que explores y pienses en la historia que se esconde detrás de nuestros datos</span>, y en cómo las cosas más normales del día a día pueden acabar siendo algo muy propio.
+</p>
                 <p className="text-2xl text-accent ">
-                  ¿Te animas a navegar en mi huella digital?
+                  ¿Te animas a ver todo lo que hay en mi huella digital?
                    </p>
                    <Link to="/navigate">
                     <PixelButton className="cursor-target mt-[2rem]">
@@ -86,7 +88,7 @@ export default function About() {
                   </Link>
               </div>
             </div>
-            <div className="relative w-[40dvw] h-[90dvh]">
+            <div className="relative w-[40dvw] h-[120dvh]">
               <MiniDotGrid className="absolute" />
             </div>
           </section>

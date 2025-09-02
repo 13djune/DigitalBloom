@@ -100,8 +100,7 @@ export default function TimelineDotGrid({
             platformKey: DEFAULT_PLATFORM_ID_TO_KEY[d.platformId] ?? 'OTHER',
         }));
 
-        // Se mantiene la lógica de padding y alineación mejorada
-        const padding = { top: 60, right: 90, bottom: 90, left: 220 };
+        const padding = { top: 60, right: 120, bottom: 120, left: 120 };
         const drawableWidth = Math.max(0, width - padding.left - padding.right);
         const drawableHeight = Math.max(0, height - padding.top - padding.bottom);
 
@@ -172,30 +171,42 @@ export default function TimelineDotGrid({
               break;
           }
           
-            case 'all':
+          case 'all':
             default: {
                 const numCols = 3;
                 const numRows = 3;
+            
+                const spacingFactorX = 0.45; // ya estaba bien
+                const spacingFactorY = 0.65; // 💥 más separación vertical
+            
                 const cellWidth = drawableWidth / numCols;
                 const cellHeight = drawableHeight / numRows;
-
-                CLUSTER_RADIUS = Math.min(cellWidth, cellHeight) * 0.38;
-                const horizontalOffset = -85; 
-
-                const awarenessLevels = [1, 2, 3];
-                const timeBuckets = ['4w', '6m', '1y'];
-
+            
+                const effectiveCellWidth = cellWidth * (1 - spacingFactorX);
+                const effectiveCellHeight = cellHeight * (1 - spacingFactorY);
+            
+                const offsetX = (cellWidth - effectiveCellWidth) / 2;
+                const offsetY = (cellHeight - effectiveCellHeight) / 2;
+            
+                
+                CLUSTER_RADIUS = Math.min(effectiveCellWidth, effectiveCellHeight) * 0.22;
+            
+                const awarenessLevels = [1, 2, 3]; // filas
+                const timeBuckets = ['4w', '6m', '1y']; // columnas
+            
+                anchors = {};
                 awarenessLevels.forEach((level, rowIndex) => {
                     timeBuckets.forEach((bucket, colIndex) => {
                         const key = `${level}-${bucket}`;
                         anchors[key] = {
-                            x: padding.left + cellWidth * (colIndex + 0.5) + horizontalOffset,
-                            y: padding.top + cellHeight * (rowIndex + 0.5)
+                            x: padding.left + colIndex * cellWidth + offsetX + effectiveCellWidth / 2,
+                            y: padding.top + rowIndex * cellHeight + offsetY + effectiveCellHeight / 2,
                         };
                     });
                 });
                 break;
             }
+            
         }
 
         for (const item of normalizedData) {
