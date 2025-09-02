@@ -121,7 +121,7 @@ function LayoutLegends({ organization }) {
     <>
       {organization === 'all' && (
         <>
-          <div className="screen-legend legend-bottom-left">
+         <div className="screen-legend legend-bottom-left">
             <p className="legend-title">Plataformas</p>
             {PLATFORM_CONFIG.map(p => (
               <div key={p.id} className="legend-item">
@@ -154,7 +154,7 @@ function LayoutLegends({ organization }) {
       )}
       {(organization === 'all' || organization === 'time') && (
         <>
-            <div className="screen-legend legend-bottom-left">
+           <div className="screen-legend legend-bottom-left">
             <p className="legend-title">Plataformas</p>
             {PLATFORM_CONFIG.map(p => (
               <div key={p.id} className="legend-item">

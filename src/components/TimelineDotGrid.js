@@ -393,7 +393,11 @@ export default function TimelineDotGrid({
     }, [onZoomChange]);
     
     useEffect(() => {
-      if (!hover || !hover.item || active) { setTooltip(null); return; }
+      if (!hover || !hover.item) { 
+        setTooltip(null); 
+        return; 
+      }
+    
       const dot = dotsRef.current[hover.gridIndex];
       if (dot) {
         const sourceX = dot.cx;

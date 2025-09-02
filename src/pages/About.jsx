@@ -55,7 +55,7 @@ export default function About() {
               </h1>
               <div className="space-y-6 leading-relaxed opacity-90">
               <p className="text-xl">
-    Este proyecto es <span className=" text-accent">un autorretrato hecho con mi propia vida online. </span>
+    Este proyecto es <span className=" text-accent">un autorretrato hecho con mi propia vida online, hecho con toda esa información invisible que soltamos por ahí. </span>
     Todo empezó por pura curiosidad: me puse a mirar la cantidad de datos que hay sobre mí en internet y aluciné. 
     Canciones que he escuchado, sitios donde he estado, horas de móvil… un montón de información a la que nunca había prestado atención. 
     Lo más chocante fue darme cuenta de que ahí estaba <span className=" text-accent">mi propia identidad. </span>
@@ -66,13 +66,13 @@ export default function About() {
     He cambiado algunas cosas para <span className="text-accent">proteger mi privacidad</span>, pero casi todo lo que se ve en la obra es el <span className=" text-accent"> rastro real</span> que he ido dejando.
 </p>
 <p className="text-xl">
-    El resultado es algo muy personal y abstracto. Es una especie de retrato vivo, hecho con toda esa información invisible que soltamos por ahí. 
-</p>
-<p className="text-xl">
     Para dar sentido a esta marabunta de información, la he organizado en <span className=" text-accent">tres niveles de conciencia</span>, que van desde lo más consciente (deseo) a lo más involuntario (rastro). Además, todo se puede explorar en distintos <span className=" text-accent">periódos de tiempo</span> (últimas 4 semanas, últimos 6 meses, y último año o más) para ver la evolución.
 </p>
 <p className="text-xl">
     Es importante entender que cada periodo funciona como un espacio independiente, no se acumulan. Al elegir "últimos 6 meses", por ejemplo, verás únicamente los datos de ese fragmento de tiempo, permitiendo una comparación más limpia entre el "yo" de antes y el de ahora. En algunos datos también encontrarás <span className=" text-accent">notas personales</span> que he añadido para explicar su significado o contexto.
+</p>
+<p className="text-xl">
+    Para añadir aún más contexto, verás que algunos datos incluyen <span className=" text-accent">notas personales</span> y también una serie de <span className=" text-accent">etiquetas (tags)</span> que revelan su naturaleza. Con ellas distingo si un dato fue generado de forma <strong className="text-accent">Consciente</strong> o si, por el contrario, fue <strong className="text-accent">Inconsciente</strong> y me sorprendió encontrarlo. También señalo si es algo <strong className="text-accent">Propio</strong> (hecho por mí), <strong className="text-accent">Compartido</strong> (hecho con alguien más) o incluso <strong className="text-accent">Contaminado</strong>, cuando alguien usó mi cuenta y dejó una huella que no es la mía.
 </p>
 <p className="text-xl">
     La idea es <span className=" text-accent">invitarte a que explores y pienses en la historia que se esconde detrás de nuestros datos</span>, y en cómo las cosas más normales del día a día pueden acabar siendo algo muy propio.

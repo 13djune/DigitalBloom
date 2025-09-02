@@ -414,7 +414,7 @@ export default function DataDotGrid({
   }, []);
 
   useEffect(() => {
-    if (!hover || !hover.item || active) {
+    if (!hover || !hover.item) { 
       setTooltip(null);
       return;
     }
@@ -431,7 +431,7 @@ export default function DataDotGrid({
         return { item: hover.item, sourceX, sourceY };
       });
     }
-  }, [hover, active]);
+  }, [hover, active]); 
 
   useEffect(() => {
     if (tooltip && tooltipRef.current && !tooltip.style) {
