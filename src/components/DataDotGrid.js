@@ -1,17 +1,20 @@
+// src/components/DataDotGrid.js
 'use client';
 import React, { useEffect, useMemo, useRef, useState, useCallback } from 'react';
 import { gsap } from 'gsap';
 import { InertiaPlugin } from 'gsap/InertiaPlugin';
 import '../styles/filters.css';
 
+// Importaciones de configuración y la nueva utilidad de filtrado
 import { 
     colorMapping as globalColorMapping,
     DEFAULT_PLATFORM_ID_TO_KEY,
-    TIME_ID_TO_BUCKET
 } from '../utils/globalConfig';
+import { filterData } from '../utils/filterUtils'; // <-- ¡Importante!
 
 gsap.registerPlugin(InertiaPlugin);
 
+// ... (El resto de las funciones auxiliares como hexToRgb, throttle, pseudoRandom no cambian)
 const hexToRgb = hex => {
   const m = hex?.match(/^#?([a-f\d]{2})([a-f\d]{2})([a-f\d]{2})$/i);
   return m ? { r: parseInt(m[1], 16), g: parseInt(m[2], 16), b: parseInt(m[3], 16) } : { r: 0, g: 0, b: 0 };
@@ -39,8 +42,9 @@ const pseudoRandom = (seed) => {
   return ((h ^= (h >>> 16)) >>> 0);
 };
 
+
 export default function DataDotGrid({
-  data = [],
+  data = [], // Se asume que esta 'data' ya viene normalizada desde Explore.jsx
   filters,
   dotSize = 12,
   gap = 12,
@@ -78,6 +82,7 @@ export default function DataDotGrid({
   }, []);
 
   const buildGrid = useCallback(() => {
+    // ... (Esta función no cambia)
     const wrap = wrapRef.current, cvs = canvasRef.current;
     if (!wrap || !cvs) return;
 
@@ -119,38 +124,14 @@ export default function DataDotGrid({
     return () => { ro ? ro.disconnect() : window.removeEventListener('resize', buildGrid); };
   }, [buildGrid]);
 
+  // AHORA MÁS LIMPIO: Simplemente usa la función de utilidad.
+  // Ya no necesita normalizar los datos porque los recibe listos de Explore.jsx.
   const filtered = useMemo(() => {
-    if (!Array.isArray(data) || !filters) return [];
-    const normalized = data
-      .filter(d => d && Number.isFinite(Number(d.platformId)))
-      .map(d => {
-        const pid = Number(d.platformId);
-        return {
-          ...d,
-          id: d.id ?? `${pid}-${d.title ?? d.url ?? Math.random().toString(36).slice(2)}`,
-          platformId: pid,
-          platformKey: DEFAULT_PLATFORM_ID_TO_KEY[pid] ?? 'UNKNOWN',
-          awareness: Number(d.awareness ?? d.level ?? 1),
-          timeBucket: d.timeBucket ?? TIME_ID_TO_BUCKET[Number(d.time) || 1] ?? '4w',
-          tags: Array.isArray(d.tags) ? d.tags : []
-        };
-      })
-      .filter(d => d.platformKey !== 'UNKNOWN');
-
-    const lv = Number(filters.level) || 1;
-    const tb = TIME_ID_TO_BUCKET[Number(filters.time) || 1] ?? '4w';
-    const plats = new Set((filters.platforms || []).map(Number).filter(Number.isFinite));
-    const tagSet = new Set(filters.tags || []);
-
-    return normalized.filter(it =>
-      it.awareness === lv &&
-      it.timeBucket === tb &&
-      (plats.size === 0 || plats.has(it.platformId)) &&
-      (tagSet.size === 0 || it.tags.some(t => tagSet.has(t)))
-    );
+    return filterData(data, filters);
   }, [data, filters]);
 
   const layoutNodes = useCallback(() => {
+    // ... (Esta función no cambia)
     const wrap = wrapRef.current;
     if (!wrap || !filters) return;
 
@@ -257,7 +238,8 @@ export default function DataDotGrid({
     nodesRef.current = newNodes;
   }, [filtered, filters, colorMapping, dotSize]);
 
-
+  
+  // ... (El resto de los hooks y el JSX del componente no cambian)
   useEffect(() => { if (wrapRef.current) layoutNodes(); }, [layoutNodes]);
 
   useEffect(() => {
