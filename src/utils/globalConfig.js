@@ -37,7 +37,7 @@ export const tagList = [
   { name: "Compartido", type: "consciencia" },
   { name: "Teléfono", type: "dispositivo" }, { name: "Ordenador", type: "dispositivo" },
   { name: "Televisión", type: "dispositivo" }, { name: "iPad", type: "dispositivo" },
-  { name: "Liked", type: "state" }, { name: "Saved", type: "state" }, { name: "Bookmark", type: "state" }, { name: "Following", type: "state" },
+  { name: "Liked", type: "state" }, { name: "Saved", type: "state" }, { name: "Following", type: "state" },
   { name: "@email", type: "meta" }, { name: "#tlf", type: "meta" },
   { name: "Humor", type: "topic" }, { name: "Horror", type: "topic" },
   { name: "Drama", type: "topic" }, { name: "Acción", type: "topic" },

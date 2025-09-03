@@ -7,7 +7,7 @@ function PixelTransition({
   secondContent,
   gridSize = 15,
   pixelColor = 'currentColor',
-  animationStepDuration = 1,
+  animationStepDuration = 0.8,
   className = '',
   style = {},
   aspectRatio = '100%',

@@ -346,7 +346,7 @@ export default function TimelineDotGrid({
             const mouseY = e.clientY - rect.top;
             const hitNode = hitTest(mouseX, mouseY);
             setHover(hitNode);
-            el.style.cursor = hitNode ? 'pointer' : 'default';
+            el.style.cursor = hitNode ? 'crosshair' : 'default';
         };
         
         const onClick = e => {
@@ -437,7 +437,7 @@ export default function TimelineDotGrid({
     return (
         <div style={{ position: 'absolute', inset: 0 }}>
           <div ref={wrapRef} style={{ position: 'absolute', width: '100%', height: '100%' }}>
-            <canvas ref={canvasRef} style={{ position: 'absolute', inset: 0 }} />
+            <canvas ref={canvasRef} style={{ position: 'absolute', inset: 0, cursor: 'crosshair' }} />
             {tooltip?.item && (
               <>
                 {tooltip.style && (

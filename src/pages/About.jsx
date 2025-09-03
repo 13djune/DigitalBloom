@@ -1,4 +1,4 @@
-import React from "react";
+import React, {  useState } from "react";
 import TargetCursor from "../components/TargetCursor";
 import PixelButton from "../components/PixelButton";
 import FiltersInline from "../components/FiltersInline";
@@ -12,6 +12,8 @@ import "../index.css";
 import MiniDotGrid from "../components/MiniDotGrid";
 import { Link } from "react-router-dom";
 import { platformImages, colorMapping, tagList } from "../utils/globalConfig";
+import CustomTooltip from "../components/CustomTooltip";
+import "../styles/Tooltip.css";
 
 export default function About() {
     const navigate = useNavigate();
@@ -25,10 +27,22 @@ export default function About() {
       { id: 7, name: "Streaming", description: "Esta sección se compone de plataformas como Netflix o Prime Video. Siempre me ha gustado ver series o películas, sola o acompañada.", color: colorMapping.STREAMING, tags: tagList.filter(tag => ["Cine", "Series", "Entretenimiento", "Compartido", "@email"].includes(tag.name)) },
       { id: 8, name: "Google", description: "Todo lo que esté enlazado con esta plataforma, como Google Maps o Gmail, estará aquí. ALgunos datos se han modificado por temas de privacidad.", color: colorMapping.GOOGLE,  tags: tagList.filter(tag => ["Utilidades", "Ubicaciones", "Mensajería", "Propio", "@email"].includes(tag.name)) },
     ];
+    const [tooltip, setTooltip] = useState({ 
+      visible: false, 
+      text: "", 
+      targetRect: null 
+    });
+    const handleMouseEnter = (e) => {
+      const text = e.currentTarget.getAttribute('data-tooltip');
+      const rect = e.currentTarget.getBoundingClientRect();
+      if (text && rect) {
+        setTooltip({ visible: true, text, targetRect: rect });
+      }
+    };
     
-    // --- LÓGICA DE NAVEGACIÓN ELIMINADA DE AQUÍ ---
-    // Ya no necesitamos buildSearch ni handleExplore en esta página.
-
+    const handleMouseLeave = () => {
+      setTooltip(prev => ({ ...prev, visible: false, targetRect: null }));
+    };
   const goBack = () => {
     if (window.history.length > 1) navigate(-1);
     else navigate("/");
@@ -36,14 +50,21 @@ export default function About() {
 
   return (
     <>
-      <TargetCursor />
-
+      <TargetCursor targetSelector=".cursor-target"  />
+  
+      <CustomTooltip 
+        text={tooltip.text} 
+        visible={tooltip.visible} 
+        targetRect={tooltip.targetRect} 
+      />
       <main className="about-page text-text bg-background min-h-screen">
         <div className="max-w-6xl mx-auto px-6 md:px-8 lg:px-10 py-10 md:py-12">
 
         <div className="mb-6">
           
-            <Link  onClick={goBack} id="btn-back-to-explore" className="round-cta cursor-target fixed top-10 left-8" aria-label="Volver a Explorar">
+            <Link  onClick={goBack} id="btn-back-to-explore" className="round-cta cursor-target fixed top-10 left-8"     aria-label="Volver"
+          data-tooltip="Volver"  onMouseEnter={handleMouseEnter}
+          onMouseLeave={handleMouseLeave}>
           <Icon icon="pixelarticons:arrow-left" width="28" height="28" />
         </Link>
         </div>
@@ -66,7 +87,7 @@ export default function About() {
     He cambiado algunas cosas para <span className="text-accent">proteger mi privacidad</span>, pero casi todo lo que se ve en la obra es el <span className=" text-accent"> rastro real</span> que he ido dejando.
 </p>
 <p className="text-xl">
-    Para dar sentido a esta marabunta de información, la he organizado en <span className=" text-accent">tres niveles de conciencia</span>, que van desde lo más consciente (deseo) a lo más involuntario (rastro). Además, todo se puede explorar en distintos <span className=" text-accent">periódos de tiempo</span> (últimas 4 semanas, últimos 6 meses, y último año o más) para ver la evolución.
+    Para dar sentido a esta marabunta de información, la he organizado en <span className=" text-accent">tres niveles de conciencia</span>, que van desde lo más consciente (<span className=" text-accent">deseo</span>, que reflejan gustos e intereses), pasando por lo cotidiano (<span className=" text-accent">cuerpo</span>, que reflejan la presencia y actividad física), hasta lo más involuntario (<span className=" text-accent">rastro</span>, más pasivos e inconscientes). Además, todo se puede explorar en distintos <span className=" text-accent">periódos de tiempo</span> (últimas 4 semanas, últimos 6 meses, y último año o más) para ver la evolución.
 </p>
 <p className="text-xl">
     Es importante entender que cada periodo funciona como un espacio independiente, no se acumulan. Al elegir "últimos 6 meses", por ejemplo, verás únicamente los datos de ese fragmento de tiempo, permitiendo una comparación más limpia entre el "yo" de antes y el de ahora. En algunos datos también encontrarás <span className=" text-accent">notas personales</span> que he añadido para explicar su significado o contexto.

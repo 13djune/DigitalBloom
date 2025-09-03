@@ -9,7 +9,7 @@ import Navigate from './pages/Navigate';
 export default function App() {
   return (
     <>
-      <TargetCursor />
+      <TargetCursor targetSelector=".cursor-target"/>
     <div>
 
       <Routes>
