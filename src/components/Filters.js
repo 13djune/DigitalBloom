@@ -187,7 +187,7 @@ export default function Filters({ open, onClose, onApply, onReset, initialState 
 
         <div className="filters-footer">
           <PixelButton className="cursor-target" onClick={handleApply}>
-            EXPLORAR<Icon icon="pixelarticons:search" width="18" height="18" />
+            APLICAR<Icon icon="pixelarticons:search" width="18" height="18" />
           </PixelButton>
         </div>
       </section>

@@ -41,7 +41,7 @@ export default function Index() {
 
 </div>
 
-        <TextType className="max-w-xl mt-10 text-xl text-text fixed bottom-[30%]"
+        <TextType className="max-w-xl mt-10 text-3xl text-text fixed bottom-[30%]"
           text={[" Bienvenidx a una experiencia interactiva creada a partir", "de mi propia huella digital..."]}
           typingSpeed={75}
           pauseDuration={900}

@@ -166,7 +166,7 @@ const TextType = ({
       className="text-type__content"
       style={{
         color: getCurrentTextColor(),
-        whiteSpace: "pre-wrap", // << importante para que \n se vea como salto de línea
+        whiteSpace: "pre-wrap", 
       }}
     >
       {displayedText}
