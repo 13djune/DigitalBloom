@@ -138,7 +138,9 @@ export default function About() {
             <div>
               <h2 className="text-3xl md:text-4xl font-extrabold tracking-wide mb-4 flex flex-row items-center subjetivo-font">
                 Belén (June) {" "}
-                <span className="text-sm opacity-70 align-super text-primary p-2">23 años</span>
+                <span className="text-lg opacity-70 align-super text-primary p-2">23 años</span>
+                <span className="text-lg opacity-70 align-super text-primary p-2">she/they</span>
+
               </h2>
               <div className="flex flex-wrap gap-2 mb-6">
                 <span className="af-chip"><Icon icon="pixelarticons:briefcase-check" width="24" height="24" className="pr-2"/>UX/UI Designer</span>
@@ -152,7 +154,7 @@ export default function About() {
               </div>
               <div className="space-y-6 leading-relaxed opacity-90">
                 <p className="text-xl">
-                ¡Hola! Soy Belén (o June para mis amigos), una diseñadora UX/UI de 23 años. Soy de Cartagena, pero ahora estoy en Madrid, siempre metida en algún proyecto y aprendiendo algo nuevo.
+                ¡Hola! Soy Belén (o June para mis amigos), una diseñadora UX/UI de Cartagena, pero ahora estoy en Madrid, siempre metida en algún proyecto y aprendiendo algo nuevo.
                  </p>
                 <p className="text-xl">
                 Me flipa entender qué pasa entre las personas y las pantallas. Sobre todo, me obsesiona cómo nuestros datos o nuestra vida online pueden usarse para crear experiencias que de verdad te lleguen y signifiquen algo.
