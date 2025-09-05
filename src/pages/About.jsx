@@ -138,8 +138,8 @@ export default function About() {
             <div>
               <h2 className="text-3xl md:text-4xl font-extrabold tracking-wide mb-4 flex flex-row items-center subjetivo-font">
                 Belén (June) {" "}
-                <span className="text-lg opacity-70 align-super text-primary p-2">23 años</span>
-                <span className="text-lg opacity-70 align-super text-primary p-2">she/they</span>
+                <span className="text-lg opacity-80 align-super text-primary p-2">23 años</span>
+                <span className="text-lg opacity-80 align-super text-primary p-2">she/they</span>
 
               </h2>
               <div className="flex flex-wrap gap-2 mb-6">
