@@ -2,13 +2,13 @@
 /* Overlay y modal */
 .filters-overlay{
     position: fixed; inset: 0; z-index: 11000;
-    background: rgba(9, 14, 28, 0.55);
+    background: rgba(9, 14, 28, 0.731);
     display: grid; place-items: center;
   }
   .filters-modal{
     max-width: 90dvw;
     max-height: 84dvh;
-    background: #0e1861af;
+    background: #0e1861bd;
     color: #cfe8ff;
     border: 10px solid #19258D;
     border-radius: 0;
@@ -212,11 +212,11 @@
 
 /* Dispositivo */
 .tag[data-type="dispositivo"] {
-  --tag-bg: rgba(124, 157, 255, 0.08);
-  --tag-fg: #d3deff;
-  --tag-border: #7c9dff;
-  --tag-bg-active: #7c9dff;
-  --tag-fg-active: #0a1233;
+  --tag-bg: #bbfaee2c;
+  --tag-fg: #bbfaee;
+  --tag-border: #7cffe5;
+  --tag-bg-active: #7cffe5;
+  --tag-fg-active: #093930;
 }
 
 /* Otros */
@@ -226,6 +226,13 @@
   --tag-border: #ffbeeb;
   --tag-bg-active: #ffbeeb;
   --tag-fg-active: #380d2b;
+}
+.tag[data-type="nivel"] {
+  --tag-bg: #daf5fb11;
+  --tag-fg: #DAF5FB;
+  --tag-border: #B5EBF8;
+  --tag-bg-active: #B5EBF8;
+  --tag-fg-active: #073E4A;
 }
 
 

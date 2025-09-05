@@ -8,8 +8,6 @@ import {
     AWARENESS_LEVEL_TO_KEY 
 } from '../utils/globalConfig'; 
 
-
-
 /* ---------- FUNCIONES UTILITARIAS ---------- */
 const pseudoRandom = (seed) => {
     let h = 1779033703 ^ String(seed).length;
@@ -54,8 +52,6 @@ export default function TimelineDotGrid({
       return p;
     }, []);
   
-    // SE HA COMBINADO LA LÓGICA DE LAYOUT DEL CÓDIGO NUEVO
-    // CON LA LÓGICA DE ZOOM DEL CÓDIGO ANTIGUO
     const buildAndLayout = useCallback(() => {
         const wrap = wrapRef.current;
         const cvs = canvasRef.current;
@@ -72,7 +68,6 @@ export default function TimelineDotGrid({
         const ctx = cvs.getContext('2d');
         ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
 
-        // La rejilla de fondo ahora SIEMPRE se calcula con el zoom actual (comportamiento original)
         const currentDotSize = baseDotSize * view.zoom;
         const currentGap = baseGap * view.zoom;
         const cell = currentDotSize + currentGap;
@@ -113,9 +108,10 @@ export default function TimelineDotGrid({
         switch (organization) {
             case 'time':
             case 'awareness': {
+                // 👇 CAMBIO 1: Para 'awareness', usamos las claves numéricas (1, 2, 3) en lugar de los textos.
                 const keys = organization === 'time' 
                     ? Object.values(TIME_ID_TO_BUCKET)
-                    : Object.values(AWARENESS_LEVEL_TO_KEY);
+                    : Object.keys(AWARENESS_LEVEL_TO_KEY);
                 
                 const numClusters = keys.length > 0 ? keys.length : 1;
                 const clusterCellWidth = drawableWidth / numClusters;
@@ -141,19 +137,17 @@ export default function TimelineDotGrid({
               const cellWidth = drawableWidth / numGridCols;
               const cellHeight = drawableHeight / numGridRows;
           
-              // Paso 1: contar cuántos datos hay por plataforma
               const platformCounts = {};
               platformKeys.forEach(key => platformCounts[key] = 0);
               normalizedData.forEach(d => platformCounts[d.platformKey]++);
           
-              // Paso 2: calcular radio proporcional al tamaño
               const maxCount = Math.max(...Object.values(platformCounts));
               const minCount = Math.min(...Object.values(platformCounts));
               const MIN_RADIUS = Math.min(cellWidth, cellHeight) * 0.15;
               const MAX_RADIUS = Math.min(cellWidth, cellHeight) * 0.4;
           
               anchors = {};
-              CLUSTER_RADIUS = {}; // ahora es un objeto por plataforma
+              CLUSTER_RADIUS = {};
           
               platformKeys.forEach((key, index) => {
                   const rowIndex = Math.floor(index / numGridCols);
@@ -175,24 +169,19 @@ export default function TimelineDotGrid({
             default: {
                 const numCols = 3;
                 const numRows = 3;
-            
-                const spacingFactorX = 0.45; // ya estaba bien
-                const spacingFactorY = 0.65; // 💥 más separación vertical
-            
+                const spacingFactorX = 0.45;
+                const spacingFactorY = 0.65;
                 const cellWidth = drawableWidth / numCols;
                 const cellHeight = drawableHeight / numRows;
-            
                 const effectiveCellWidth = cellWidth * (1 - spacingFactorX);
                 const effectiveCellHeight = cellHeight * (1 - spacingFactorY);
-            
                 const offsetX = (cellWidth - effectiveCellWidth) / 2;
                 const offsetY = (cellHeight - effectiveCellHeight) / 2;
-            
                 
                 CLUSTER_RADIUS = Math.min(effectiveCellWidth, effectiveCellHeight) * 0.22;
             
-                const awarenessLevels = [1, 2, 3]; // filas
-                const timeBuckets = ['4w', '6m', '1y']; // columnas
+                const awarenessLevels = [1, 2, 3];
+                const timeBuckets = ['4w', '6m', '1y'];
             
                 anchors = {};
                 awarenessLevels.forEach((level, rowIndex) => {
@@ -206,7 +195,6 @@ export default function TimelineDotGrid({
                 });
                 break;
             }
-            
         }
 
         for (const item of normalizedData) {
@@ -214,7 +202,8 @@ export default function TimelineDotGrid({
             let anchor;
             switch (organization) {
                 case 'time': anchor = anchors[item.timeBucket]; break;
-                case 'awareness': anchor = anchors[AWARENESS_LEVEL_TO_KEY[item.level]]; break;
+                // 👇 CAMBIO 2: Ahora buscamos directamente por el número del nivel (item.level).
+                case 'awareness': anchor = anchors[item.level]; break; 
                 case 'platform': anchor = anchors[item.platformKey]; break;
                 default: anchor = anchors[`${item.level}-${item.timeBucket}`]; break;
             }
@@ -224,7 +213,7 @@ export default function TimelineDotGrid({
             const radius = Math.sqrt(pseudoRandom('radius' + item.id) / 4294967295) * (
               organization === 'platform' ? CLUSTER_RADIUS[item.platformKey] : CLUSTER_RADIUS
           );
-                      const targetX = anchor.x + Math.cos(angle) * radius;
+            const targetX = anchor.x + Math.cos(angle) * radius;
             const targetY = anchor.y + Math.sin(angle) * radius;
 
             const { cols, cell, startX, startY } = gridMetricsRef.current;
@@ -258,7 +247,6 @@ export default function TimelineDotGrid({
         }
         nodesRef.current = newNodes;
 
-    // SE RESTAURA LA DEPENDENCIA DE view.zoom, como en el código original
     }, [data, view.zoom, baseDotSize, baseGap, colorMapping, organization]);
 
     useEffect(() => {
@@ -308,7 +296,7 @@ export default function TimelineDotGrid({
                   ctx.beginPath();
                   ctx.rect(dot.cx - side / 2, dot.cy - side / 2, side, side);
                   ctx.strokeStyle = isActive ? '#3be9c9' : 'rgba(255,255,255,0.85)';
-                  ctx.lineWidth = 2; // El grosor del borde vuelve a ser fijo, como en el original
+                  ctx.lineWidth = 2;
                   ctx.stroke();
               }
             });
@@ -375,6 +363,7 @@ export default function TimelineDotGrid({
       const handleWheel = e => {
         e.preventDefault();
         const zoomFactor = e.deltaY > 0 ? 1 / 1.1 : 1.1;
+        // 👇 Asegúrate de que aquí se usa 'zoomFactor', no 'factor'
         setView(prev => ({ ...prev, zoom: Math.max(0.5, Math.min(5, prev.zoom * zoomFactor)) }));
       };
   

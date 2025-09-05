@@ -93,8 +93,31 @@ export default function DataPanel({ item, allData = [], onClose, onSelect }) {
   const { dataType, subjective_notes, pageExamples } = details;
 
   const displayDate = useMemo(() => getDisplayDateLike(safeItem), [safeItem]);
-  
-  // --- LÓGICA DE RECOMENDACIONES MODIFICADA ---
+
+  // ✨ INICIO DE LA MODIFICACIÓN: LÓGICA PARA ORDENAR TAGS ✨
+  const sortedTags = useMemo(() => {
+    if (!tags || tags.length === 0) return [];
+
+    // 1. Define el orden de prioridad de los tipos de tag
+    const typeOrder = ['consciencia', 'dispositivo', 'state', 'meta', 'topic', 'genre', 'lang', 'other'];
+    
+    // 2. Crea un mapa para buscar rápidamente el tipo de cada tag (más eficiente)
+    const tagTypeMap = new Map(tagList.map(t => [t.name, t.type]));
+
+    // 3. Ordena una copia del array de tags
+    return [...tags].sort((a, b) => {
+      const typeA = tagTypeMap.get(a) || 'topic'; // Asigna 'topic' si no se encuentra
+      const typeB = tagTypeMap.get(b) || 'topic';
+      
+      const orderA = typeOrder.indexOf(typeA);
+      const orderB = typeOrder.indexOf(typeB);
+      
+      // Compara la posición en el array de prioridad
+      return orderA - orderB;
+    });
+  }, [tags]);
+  // ✨ FIN DE LA MODIFICACIÓN ✨
+
   const recommendations = useMemo(() => {
     const list = Array.isArray(allData) ? allData : [];
     const base = list.filter(
@@ -114,11 +137,8 @@ export default function DataPanel({ item, allData = [], onClose, onSelect }) {
       }
     }
 
-    // ✨ INICIO DE LA MODIFICACIÓN ✨
-
-    // 1. Función para barajar un array (algoritmo Fisher-Yates)
     const shuffleArray = (array) => {
-      const newArr = [...array]; // Copiar para no modificar el original
+      const newArr = [...array];
       for (let i = newArr.length - 1; i > 0; i--) {
         const j = Math.floor(Math.random() * (i + 1));
         [newArr[i], newArr[j]] = [newArr[j], newArr[i]];
@@ -126,20 +146,10 @@ export default function DataPanel({ item, allData = [], onClose, onSelect }) {
       return newArr;
     };
 
-    // 2. Ordenar por puntuación como antes
     const sortedByScore = scored.sort((a, b) => b.score - a.score);
-
-    // 3. Tomar un grupo más grande de los mejores (ej. los 10 primeros)
-    //    Si hay menos de 10, tomará los que haya.
     const topCandidates = sortedByScore.slice(0, 10);
-    
-    // 4. Barajar aleatoriamente ese grupo de candidatos
     const shuffledCandidates = shuffleArray(topCandidates);
-
-    // 5. Devolver los primeros 2 del grupo barajado
     return shuffledCandidates.slice(0, 2).map((x) => x.item);
-    
-    // ✨ FIN DE LA MODIFICACIÓN ✨
 
   }, [allData, itemId, platformId, tags]);
 
@@ -210,9 +220,11 @@ export default function DataPanel({ item, allData = [], onClose, onSelect }) {
             </div>
           )}
 
-          {tags.length > 0 && (
+          {/* ✨ INICIO DE LA MODIFICACIÓN: RENDERIZADO DE TAGS ✨ */}
+          {sortedTags.length > 0 && (
             <div className="tags">
-              {tags.map((tag, i) => {
+              {/* Usamos el nuevo array 'sortedTags' en lugar de 'tags' */}
+              {sortedTags.map((tag, i) => {
                 const tagType = tagList.find((t) => t.name === tag)?.type || "topic";
                 return (
                   <span key={i} className="tag" data-type={tagType}>
@@ -222,6 +234,8 @@ export default function DataPanel({ item, allData = [], onClose, onSelect }) {
               })}
             </div>
           )}
+          {/* ✨ FIN DE LA MODIFICACIÓN ✨ */}
+
 
           {finalUrl && (
             <a
@@ -342,17 +356,9 @@ const DetailItem = ({ label, value }) => {
 
 const DynamicDetails = ({ details = {} }) => {
   const excludedKeys = new Set([
-    "subjective_notes",
-    "sourceFile",
-    "coordinates",
-    "dataType",
-    "date",
-    "period",
-    "timeBucket",
-    "time",
-    "pageExamples", 
-    "url",
-    "value",
+    "subjective_notes", "sourceFile", "coordinates", "dataType",
+    "date", "period", "timeBucket", "time", "pageExamples", 
+    "url", "value",
   ]);
 
   const keys = Object.keys(details).filter((k) => !excludedKeys.has(k));
@@ -376,21 +382,22 @@ const DynamicDetails = ({ details = {} }) => {
             <div key={key} className="detail-item-list">
               <div className="detail-label">{label}</div>
               <ul className="detail-value-list">
-                {value.map((item, index) => (
-                  <li key={index}>{String(item)}</li>
-                ))}
+                {value.map((item, index) => {
+                  const itemContent =
+                    typeof item === "object" && item !== null
+                      ? Object.values(item).join(": ")
+                      : String(item); 
+                  
+                  return <li key={index}>{itemContent}</li>;
+                })}
               </ul>
             </div>
           );
         }
 
         if (
-          (key === "sent_count" ||
-            key === "received_count" ||
-            key === "totalSteps" ||
-            key === "averageDailySteps" ||
-            key === "visitCount" ||
-            key === "eventCount") &&
+          (key === "sent_count" || key === "received_count" || key === "totalSteps" ||
+           key === "averageDailySteps" || key === "visitCount" || key === "eventCount") &&
           typeof value === "number"
         ) {
           value = value.toLocaleString("es-ES");
@@ -399,22 +406,10 @@ const DynamicDetails = ({ details = {} }) => {
         if (key === "statistics" && typeof value === "object") {
           return (
             <React.Fragment key={key}>
-              <DetailItem
-                label="Mensajes enviados"
-                value={value.messages?.sent_count?.toLocaleString("es-ES")}
-              />
-              <DetailItem
-                label="Mensajes recibidos"
-                value={value.messages?.received_count?.toLocaleString("es-ES")}
-              />
-              <DetailItem
-                label="Llamadas salientes"
-                value={value.calls?.outgoing_count?.toLocaleString("es-ES")}
-              />
-              <DetailItem
-                label="Llamadas entrantes"
-                value={value.calls?.incoming_count?.toLocaleString("es-ES")}
-              />
+              <DetailItem label="Mensajes enviados" value={value.messages?.sent_count?.toLocaleString("es-ES")} />
+              <DetailItem label="Mensajes recibidos" value={value.messages?.received_count?.toLocaleString("es-ES")} />
+              <DetailItem label="Llamadas salientes" value={value.calls?.outgoing_count?.toLocaleString("es-ES")} />
+              <DetailItem label="Llamadas entrantes" value={value.calls?.incoming_count?.toLocaleString("es-ES")} />
               <DetailItem label="GB enviados" value={value.totalBytes?.sent} />
               <DetailItem label="GB recibidos" value={value.totalBytes?.received} />
             </React.Fragment>

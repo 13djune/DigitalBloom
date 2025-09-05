@@ -10,7 +10,7 @@ import {
     colorMapping as globalColorMapping,
     DEFAULT_PLATFORM_ID_TO_KEY,
 } from '../utils/globalConfig';
-import { filterData } from '../utils/filterUtils'; // <-- ¡Importante!
+import { filterData } from '../utils/filterUtils'; 
 
 gsap.registerPlugin(InertiaPlugin);
 
