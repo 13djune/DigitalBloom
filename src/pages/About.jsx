@@ -1,5 +1,4 @@
 import React, {  useState } from "react";
-import TargetCursor from "../components/TargetCursor";
 import PixelButton from "../components/PixelButton";
 import FiltersInline from "../components/FiltersInline";
 import { useNavigate } from "react-router-dom";
@@ -14,6 +13,10 @@ import { Link } from "react-router-dom";
 import { platformImages, colorMapping, tagList } from "../utils/globalConfig";
 import CustomTooltip from "../components/CustomTooltip";
 import "../styles/Tooltip.css";
+import PixelLink from '../components/PixelLink';
+
+import TextType from '../components/TextType';
+
 
 export default function About() {
     const navigate = useNavigate();
@@ -25,7 +28,7 @@ export default function About() {
       { id: 5, name: "iPhone", description: "Aquí se encontrarán los datos de aplicaciones como: Salud, Tiempo de uso,... Todo lo que hay en mi móvil personal.", color: colorMapping.IPHONE,   tags: tagList.filter(tag => ["Salud", "Educativo", "Humor", "Utilidades", "Propio"].includes(tag.name)) },
       { id: 6, name: "WhatsApp", description: "Esta App es la que más uso de mensajería, ni me acuerdo cuándo empecé a usarla. Todos mis conocidos usan esta app.", color: colorMapping.WHATSAPP,  tags: tagList.filter(tag => ["Mensajería", "Social", "Humor", "Propio", "#tlf"].includes(tag.name)) },
       { id: 7, name: "Streaming", description: "Esta sección se compone de plataformas como Netflix, Prime Video o HBO Max. Siempre me ha gustado ver series o películas, sola o acompañada.", color: colorMapping.STREAMING, tags: tagList.filter(tag => ["Cine", "Series", "Entretenimiento", "Compartido", "@email"].includes(tag.name)) },
-      { id: 8, name: "Google", description: "Todo lo que esté enlazado con esta plataforma, como Google Maps (activé el seguimiento por cronología una temporada) o Gmail, estará aquí. ALgunos datos se han modificado por temas de privacidad.", color: colorMapping.GOOGLE,  tags: tagList.filter(tag => ["Utilidades", "Ubicaciones", "Mensajería", "Propio", "@email"].includes(tag.name)) },
+      { id: 8, name: "Google", description: "Todo lo que esté enlazado con esta plataforma, como Google Maps (activé el seguimiento por cronología una temporada) o Gmail, estará aquí. Algunos datos se han modificado por temas de privacidad.", color: colorMapping.GOOGLE,  tags: tagList.filter(tag => ["Utilidades", "Ubicaciones", "Mensajería", "Propio", "@email"].includes(tag.name)) },
     ];
     const [tooltip, setTooltip] = useState({ 
       visible: false, 
@@ -43,14 +46,10 @@ export default function About() {
     const handleMouseLeave = () => {
       setTooltip(prev => ({ ...prev, visible: false, targetRect: null }));
     };
-  const goBack = () => {
-    if (window.history.length > 1) navigate(-1);
-    else navigate("/");
-  };
+ 
 
   return (
     <>
-      <TargetCursor targetSelector=".cursor-target"  />
   
       <CustomTooltip 
         text={tooltip.text} 
@@ -62,18 +61,27 @@ export default function About() {
 
         <div className="mb-6">
           
-            <Link  onClick={goBack} id="btn-back-to-explore" className="round-cta cursor-target fixed top-10 left-8"     aria-label="Volver"
+            <PixelLink    onClick={() => navigate(-1)}
+ id="btn-back-to-explore" className="round-cta cursor-target fixed top-10 left-8"     aria-label="Volver"
           data-tooltip="Volver"  onMouseEnter={handleMouseEnter}
           onMouseLeave={handleMouseLeave}>
           <Icon icon="pixelarticons:arrow-left" width="28" height="28" />
-        </Link>
+        </PixelLink>
         </div>
 
           <section className="flex flex-row gap-10 md:gap-14 items-center">
             <div className=" w-[60dvw]">
-              <h1 className="text-4xl md:text-5xl font-extrabold tracking-wide mb-6 ">
-                Digital Bloom
-              </h1>
+            <TextType className="text-4xl md:text-5xl font-extrabold tracking-wide mb-6"
+          text={"Digital Bloom"}
+          typingSpeed={75}
+          pauseDuration={900}
+          showCursor={true}
+          clearOnLoop={false} 
+          loop={false}
+
+          cursorCharacter="|">
+        </TextType>
+           
               <div className="space-y-6 leading-relaxed opacity-90">
               <p className="text-xl">
     Este proyecto es <span className=" text-accent">un autorretrato hecho con mi propia vida online, hecho con toda esa información invisible que soltamos por ahí. </span>
@@ -101,12 +109,12 @@ export default function About() {
                 <p className="text-2xl text-accent ">
                   ¿Te animas a ver todo lo que hay en mi huella digital?
                    </p>
-                   <Link to="/navigate">
+                   <PixelLink to="/navigate">
                     <PixelButton className="cursor-target mt-[2rem]">
                         Navegar
                         <Icon icon="pixelarticons:map" width="18" height="18" />
                     </PixelButton>
-                  </Link>
+                  </PixelLink>
               </div>
             </div>
             <div className="relative w-[40dvw] h-[120dvh]">
@@ -115,9 +123,17 @@ export default function About() {
           </section>
 
           <section className="mt-10 md:mt-14">
-            <p className="text-2xl text-accent">
-                También puedes filtrar mi huella digital y explorar poco a poco:
-            </p>
+            <TextType className="text-2xl text-accent"
+          text={"También puedes filtrar mi huella digital y explorar poco a poco:"}
+          typingSpeed={75}
+          pauseDuration={900}
+          showCursor={false}
+          clearOnLoop={false} 
+          loop={false}
+
+          cursorCharacter="|">
+        </TextType>
+               
             {/* --- COMPONENTE SIMPLIFICADO --- */}
             <FiltersInline
               onReset={() => console.log("Reset filtros")}
@@ -136,12 +152,21 @@ export default function About() {
                 />
             </div>
             <div>
-              <h2 className="text-3xl md:text-4xl font-extrabold tracking-wide mb-4 flex flex-row items-center subjetivo-font">
-                Belén (June) {" "}
-                <span className="text-lg opacity-80 align-super text-primary p-2">23 años</span>
-                <span className="text-lg opacity-80 align-super text-primary p-2">she/they</span>
+       
+                <TextType className="text-3xl md:text-4xl font-extrabold tracking-wide mb-4 flex flex-row items-center subjetivo-font"
+          text={" Belén (June) "}
+          typingSpeed={75}
+          pauseDuration={900}
+          showCursor={true}
+          clearOnLoop={false} 
+          loop={false}
 
-              </h2>
+          cursorCharacter="|">
+        </TextType>
+                <span className="text-lg opacity-80 align-super text-primary p-2 subjetivo-font">23 años</span>
+                <span className="text-lg opacity-80 align-super text-primary p-2 subjetivo-font">she/they</span>
+
+              
               <div className="flex flex-wrap gap-2 mb-6">
                 <span className="af-chip"><Icon icon="pixelarticons:briefcase-check" width="24" height="24" className="pr-2"/>UX/UI Designer</span>
                 <span className="af-chip"><Icon icon="pixelarticons:home" width="24" height="24" className="pr-2"/>Cartagena, Murcia</span>

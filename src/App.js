@@ -6,21 +6,25 @@ import NotFound from "./pages/NotFound";
 import TargetCursor from "./components/TargetCursor";
 import Navigate from './pages/Navigate';
 
+import AnimatedLayout from "./components/AnimatedLayout"; 
+
 export default function App() {
   return (
     <>
       <TargetCursor targetSelector=".cursor-target"/>
-    <div>
-
+      
       <Routes>
-        <Route path="/" element={<Index />} />
-        <Route path="/about" element={<About />} />
-        <Route path="/explore" element={<Explore />} />
-        <Route path="/navigate" element={<Navigate />} />
+        <Route 
+          element={<AnimatedLayout gridSize={20} animationDuration={1.2} />}
+        >
+          <Route path="/" element={<Index />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/explore" element={<Explore />} />
+          <Route path="/navigate" element={<Navigate />} />
+        </Route>
 
         <Route path="*" element={<NotFound />} />
       </Routes>
-    </div>
     </>
   );
 }

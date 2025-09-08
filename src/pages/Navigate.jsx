@@ -1,8 +1,9 @@
 'use client';
 import React, { useMemo, useState, useRef, useCallback, useEffect } from 'react';
 import { Icon } from '@iconify/react';
-import { Link } from 'react-router-dom';
 import '../App.css';
+import PixelLink from '../components/PixelLink';
+import { useNavigate } from "react-router-dom";
 
 import TimelineDotGrid from '../components/TimelineDotGrid';
 import DataPanel from '../components/DataPanel';
@@ -196,6 +197,7 @@ export default function Navigate() {
   const [selectedItem, setSelectedItem] = useState(null);
   const zoomHandler = useRef(() => {});
   const [organization, setOrganization] = useState('all');
+  const navigate = useNavigate();
 
   const { shouldShow, markSeen } = useFirstVisitFlag('navigate_tutorial_seen');
   const [isWalkthroughOpen, setWalkthroughOpen] = useState(shouldShow);
@@ -252,7 +254,7 @@ export default function Navigate() {
     { id: 'awareness', label: 'Por Conciencia', icon: 'pixelarticons:human-handsup' },
     { id: 'platform', label: 'Por Plataformas', icon: 'pixelarticons:device-phone' },
   ];
-  
+ 
   return (
     <div className="navigate-page bg-background">
       
@@ -290,9 +292,9 @@ export default function Navigate() {
       </div>
 
       <div className="navigate-ui z-40">
-        <Link 
-          to="/explore" 
-          id="btn-back-to-explore" 
+        <PixelLink 
+  onClick={() => navigate(-1)}
+  id="btn-back-to-explore" 
           className="round-cta cursor-target" 
           aria-label="Volver a Explorar"
           data-tooltip="Volver a Explorar"
@@ -300,7 +302,7 @@ export default function Navigate() {
           onMouseLeave={handleMouseLeave}
         >
           <Icon icon="pixelarticons:arrow-left" width="28" height="28" />
-        </Link>
+        </PixelLink>
         <div id="zoom-controls" className="zoom-controls">
           <button 
             onClick={() => zoomHandler.current(1.2)} 

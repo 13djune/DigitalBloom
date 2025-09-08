@@ -465,6 +465,7 @@ margin: 0 0 0 8px;
   margin-left: 0.25rem;
   display: inline-block;
   opacity: 1;
+  color: #2ef2c188;
 }
 
 .text-type__cursor--hidden {
@@ -777,4 +778,21 @@ justify-content: center;
 }
 .ad{
   color: #0e1861c5;
+}
+
+.pixel-transition-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: 9999;
+  pointer-events: none;
+}
+
+.pixel-transition-block {
+  position: absolute;
+  display: none;
+  background-color: #00031E;
+  opacity: 0;
 }

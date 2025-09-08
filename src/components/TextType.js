@@ -21,7 +21,7 @@ const TextType = ({
   textColors = [],
   variableSpeed,
   onSentenceComplete,
-  startOnVisible = false,
+  startOnVisible = true,
   reverseMode = false,
 
   /** NUEVO: hacer salto de línea entre frases */

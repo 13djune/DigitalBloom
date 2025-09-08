@@ -40,16 +40,25 @@ const TargetCursor = ({
   // POSICIÓN INICIAL → usar última posición global si existe (no centrar)
   useEffect(() => {
     if (!cursorRef.current) return;
-
+  
     const last = getLastMouse();
     const x = last?.x ?? window.innerWidth / 2;
     const y = last?.y ?? window.innerHeight / 2;
-
+  
     gsap.set(cursorRef.current, { xPercent: -50, yPercent: -50 });
-    // Colocar SIN animación para evitar “salto”
-    moveCursor(x, y, false);
+    moveCursor(x, y, false); // 👈 mover sin animación
     lastMouseRef.current = { x, y };
+  
+    // 🔥 Forzamos evento para que el cursor se re-sincronice
+    const fakeEvent = new MouseEvent("pointermove", {
+      clientX: x,
+      clientY: y,
+      bubbles: true
+    });
+    window.dispatchEvent(fakeEvent); // 🧠 fuerza re-ejecución de posicionamiento
+  
   }, [moveCursor]);
+  
 
   // Timeline de giro
   const startSpin = useCallback(() => {

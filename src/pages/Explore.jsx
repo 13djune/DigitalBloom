@@ -1,10 +1,11 @@
 // src/pages/Explore.jsx
 import React, { useEffect, useMemo, useState, useCallback } from "react";
-import TargetCursor from "../components/TargetCursor";
 import { Icon } from "@iconify/react";
 import Filters from "../components/Filters";
 import "../App.css";
-import { Link, useNavigate } from "react-router-dom"; // <-- useSearchParams ya no se importa
+import PixelLink from '../components/PixelLink';
+
+import {  useNavigate } from "react-router-dom"; // <-- useSearchParams ya no se importa
 import DataDotGrid from "../components/DataDotGrid";
 import DataPanel from "../components/DataPanel";
 import CustomTooltip from "../components/CustomTooltip";
@@ -244,30 +245,27 @@ export default function Explore() {
     });
   }, [steps.length, markSeen]);
 
-  const goBack = () => {
-    if (window.history.length > 1) navigate(-1);
-    else navigate("/");
-  };
+ 
 
   return (
     <div className="explore-page bg-background">
-      <TargetCursor targetSelector=".cursor-target" />
       <CustomTooltip text={tooltip.text} visible={tooltip.visible} targetRect={tooltip.targetRect} />
 
       <div className="left-rail z-40">
-        <button onClick={goBack} className="round-cta cursor-target" data-tooltip="Volver" onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}>
+        <PixelLink   onClick={() => navigate(-1)}
+ className="round-cta cursor-target" data-tooltip="Volver" onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}>
           <Icon icon="pixelarticons:arrow-left" width="28" height="28" />
-        </button>
+        </PixelLink>
         <button id="btn-filter" className="round-cta cursor-target has-badge" onClick={() => setShowFiltersModal(true)} data-tooltip="Filtros" onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}>
           <Icon icon="pixelarticons:sliders" width="28" height="28" />
           {appliedCount > 2 && <span className="cta-badge">{appliedCount}</span>}
         </button>
-        <Link to="/navigate" id="btn-navigate" className="round-cta cursor-target" data-tooltip="Navegar Huella Completa" onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}>
+        <PixelLink to="/navigate" id="btn-navigate" className="round-cta cursor-target" data-tooltip="Navegar Huella Completa" onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}>
           <Icon icon="pixelarticons:map" width="28" height="28" />
-        </Link>
-        <Link to="/about" id="btn-about" className="round-cta cursor-target" data-tooltip="Sobre mí y el proyecto" onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}>
+        </PixelLink>
+        <PixelLink to="/about" id="btn-about" className="round-cta cursor-target" data-tooltip="Sobre mí y el proyecto" onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}>
           <Icon icon="pixelarticons:lightbulb-2" width="28" height="28" />
-        </Link>
+        </PixelLink>
       </div>
 
       <Filters open={showFiltersModal} onClose={() => setShowFiltersModal(false)} initialState={filters} onApply={handleApplyFilters} onReset={handleResetFilters} />

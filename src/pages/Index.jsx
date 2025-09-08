@@ -1,6 +1,5 @@
 import FaultyTerminal from "../components/FaultyTerminal";
-import TargetCursor from "../components/TargetCursor";
-import { Link } from "react-router-dom";
+import PixelLink from '../components/PixelLink';
 import PixelButton from "../components/PixelButton";
 import "../App.css";
 import TextType from '../components/TextType';
@@ -11,7 +10,6 @@ import { Icon } from "@iconify/react";
 export default function Index() {
   return (
     <>
-      <TargetCursor/>
       <main className="h-screen flex flex-col justify-center items-center text-center">
 
       <FaultyTerminal
@@ -45,7 +43,7 @@ export default function Index() {
           text={[" Bienvenidx a una experiencia interactiva creada a partir", "de mi propia huella digital..."]}
           typingSpeed={75}
           pauseDuration={900}
-          showCursor={false}
+          showCursor={true}
           clearOnLoop={false} 
           loop={false}
 
@@ -53,20 +51,20 @@ export default function Index() {
         </TextType>
 
         <div className="m-10 flex gap-24  fixed bottom-[3rem]">
-          <Link to="/about">
+          <PixelLink to="/about">
           <PixelButton className="cursor-target">
         + Sobre el proyecto
         <Icon icon="pixelarticons:lightbulb-2" width="18" height="18" />
 
       </PixelButton>
-          </Link>
+          </PixelLink>
 
-          <Link to="/explore">
+          <PixelLink to="/explore">
           <PixelButton className="cursor-target">
           Explora mi huella
           <Icon icon="pixelarticons:search" width="18" height="18" />
           </PixelButton>
-          </Link>
+          </PixelLink>
         </div>
       </main>
     </>

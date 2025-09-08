@@ -1,11 +1,9 @@
 import React from "react";
-import TargetCursor from "../components/TargetCursor";
 import FuzzyText from "../components/FuzzyText";
 
 export default function NotFound() {
   return (
     <>
-      <TargetCursor/>
       <main className="p-10 text-blue-200 bg-background w-[100dvw] h-full">
         <div className="flex flex-col">
 
