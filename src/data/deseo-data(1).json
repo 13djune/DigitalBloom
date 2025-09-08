@@ -8726,7 +8726,7 @@
           "sourceFile": "whatsapp_account_information/user_information.html",
           "dataType": "Información de Perfil",
           
-          "value": "+34654******"
+          "hora": "+34654******"
         }
       },
       {
@@ -8744,7 +8744,7 @@
           "sourceFile": "whatsapp_account_information/user_information.html",
           "dataType": "Actividad de Perfil",
           
-          "value": "jul 01, 2024 8:12 am"
+          "hora": "jul 01, 2024 8:12 am"
         }
       },
       {
@@ -8762,7 +8762,7 @@
           "sourceFile": "whatsapp_account_information/user_information.html",
           "dataType": "Actividad de Perfil",
           
-          "value": "abr 08, 2022 10:11 am"
+          "hora": "abr 08, 2022 10:11 am"
         }
       },
       
@@ -8786,7 +8786,7 @@
             "sourceFile": "netflix_history_completed (1).json",
             "dataType": "Historial de visualización",
             
-            "value": "02:33",
+            "hora": "02:33",
             "subjective_notes": "Esta serie me la empecé a ver con mi mejor amigo porque nos la recomendaron, tiene un montón de temporadas y tardamos en vernosla un montón ya que nuestros horarios no coincidían. Es súer graciosa, sobre dos mujeres mayores que tienen que rehacer sus vidas después de que sus maridos admiten que llevan años enamiorados entre ellos."
 
 
@@ -8811,7 +8811,7 @@
             "sourceFile": "netflix_history_completed (1).json",
             "dataType": "Historial de visualización",
             
-            "value": "22:21",
+            "hora": "22:21",
             "subjective_notes": "Esta serie me la empecé a ver con mi mejor amigo porque nos la recomendaron, tiene un montón de temporadas y tardamos en vernosla un montón ya que nuestros horarios no coincidían. Es súer graciosa, sobre dos mujeres mayores que tienen que rehacer sus vidas después de que sus maridos admiten que llevan años enamiorados entre ellos."
 
           }
@@ -8835,7 +8835,7 @@
             "sourceFile": "netflix_history_completed (1).json",
             "dataType": "Historial de visualización",
             
-            "value": "03:04"
+            "hora": "03:04"
           }
         },
         {
@@ -8858,7 +8858,7 @@
             "sourceFile": "netflix_history_completed (1).json",
             "dataType": "Historial de visualización",
             
-            "value": "09:16",
+            "hora": "09:16",
             "subjective_notes": "Esta serie me la empecé a ver con mis compañeros de piso, es una serie de animación para adultos, tipo big mouth, que nos gusta mucho a todos. Es súper divertida y tiene unos personajes geniales."
 
           }
@@ -8883,7 +8883,7 @@
             "sourceFile": "netflix_history_completed (1).json",
             "dataType": "Historial de visualización",
             
-            "value": "14:20",
+            "hora": "14:20",
             "subjective_notes": "Esta serie me la empecé a ver con mis compañeros de piso, es una serie de animación para adultos, tipo big mouth, que nos gusta mucho a todos. Es súper divertida y tiene unos personajes geniales."
           }
         },
@@ -8907,7 +8907,7 @@
             "sourceFile": "netflix_history_completed (1).json",
             "dataType": "Historial de visualización",
             
-            "value": "05:04",
+            "hora": "05:04",
             "subjective_notes": "Esta serie me la empecé a ver con mis compañeros de piso, es una serie de animación para adultos, tipo big mouth, que nos gusta mucho a todos. Es súper divertida y tiene unos personajes geniales."
           }
         },
@@ -8930,7 +8930,7 @@
             "sourceFile": "netflix_history_completed (1).json",
             "dataType": "Historial de visualización",
             
-            "value": "00:30",
+            "hora": "00:30",
             "subjective_notes": "Esta serie me la empecé a ver con mi mejor amigo porque nos la recomendaron, tiene un montón de temporadas y tardamos en vernosla un montón ya que nuestros horarios no coincidían. Es súer graciosa, sobre dos mujeres mayores que tienen que rehacer sus vidas después de que sus maridos admiten que llevan años enamiorados entre ellos."
 
           }
@@ -8954,7 +8954,7 @@
             "sourceFile": "netflix_history_completed (1).json",
             "dataType": "Historial de visualización",
             
-            "value": "11:34",
+            "hora": "11:34",
             "subjective_notes": "Esta serie me la empecé a ver con mi mejor amigo porque nos la recomendaron, tiene un montón de temporadas y tardamos en vernosla un montón ya que nuestros horarios no coincidían. Es súer graciosa, sobre dos mujeres mayores que tienen que rehacer sus vidas después de que sus maridos admiten que llevan años enamiorados entre ellos."
 
           }
@@ -8978,7 +8978,7 @@
             "sourceFile": "netflix_history_completed (1).json",
             "dataType": "Historial de visualización",
             
-            "value": "10:14",
+            "hora": "10:14",
             "subjective_notes": "Esta serie me la empecé a ver con mi mejor amigo porque nos la recomendaron, tiene un montón de temporadas y tardamos en vernosla un montón ya que nuestros horarios no coincidían. Es súer graciosa, sobre dos mujeres mayores que tienen que rehacer sus vidas después de que sus maridos admiten que llevan años enamiorados entre ellos."
 
           }
@@ -9002,7 +9002,7 @@
             "sourceFile": "netflix_history_completed (1).json",
             "dataType": "Historial de visualización",
             
-            "value": "12:23",
+            "hora": "12:23",
             "subjective_notes": "Esta serie me la empecé a ver con mi mejor amigo porque nos la recomendaron, tiene un montón de temporadas y tardamos en vernosla un montón ya que nuestros horarios no coincidían. Es súer graciosa, sobre dos mujeres mayores que tienen que rehacer sus vidas después de que sus maridos admiten que llevan años enamiorados entre ellos."
 
           }
@@ -9026,7 +9026,7 @@
             "sourceFile": "netflix_history_completed (1).json",
             "dataType": "Historial de visualización",
             
-            "value": "17:25",
+            "hora": "17:25",
             "subjective_notes": "Esta serie me la empecé a ver con mi mejor amigo porque nos la recomendaron, tiene un montón de temporadas y tardamos en vernosla un montón ya que nuestros horarios no coincidían. Es súer graciosa, sobre dos mujeres mayores que tienen que rehacer sus vidas después de que sus maridos admiten que llevan años enamiorados entre ellos."
 
           }
@@ -9050,7 +9050,7 @@
             "sourceFile": "netflix_history_completed (1).json",
             "dataType": "Historial de visualización",
             
-            "value": "11:41",
+            "hora": "11:41",
             "subjective_notes": "Esta serie me la empecé a ver con mi mejor amigo porque nos la recomendaron, tiene un montón de temporadas y tardamos en vernosla un montón ya que nuestros horarios no coincidían. Es súer graciosa, sobre dos mujeres mayores que tienen que rehacer sus vidas después de que sus maridos admiten que llevan años enamiorados entre ellos."
 
           }
@@ -9074,7 +9074,7 @@
             "sourceFile": "netflix_history_completed (1).json",
             "dataType": "Historial de visualización",
             
-            "value": "20:46",
+            "hora": "20:46",
             "subjective_notes": "Esta serie me la empecé a ver con mi mejor amigo porque nos la recomendaron, tiene un montón de temporadas y tardamos en vernosla un montón ya que nuestros horarios no coincidían. Es súer graciosa, sobre dos mujeres mayores que tienen que rehacer sus vidas después de que sus maridos admiten que llevan años enamiorados entre ellos."
 
           }
@@ -9098,7 +9098,7 @@
             "sourceFile": "netflix_history_completed (1).json",
             "dataType": "Historial de visualización",
             
-            "value": "09:49",
+            "hora": "09:49",
             "subjective_notes": "Nos recomendaron esto a mi compañero de piso y a mí, y empezamos a verla juntos. Nunca nos habíamos visto el anime y, siendo tan largo y con tantos episodios, nos daba un poco de pereza. Por eso n os empezamos este live-action ya que empezaba desde el principio y resumiendo todo un poco."
 
           }
@@ -9122,7 +9122,7 @@
             "sourceFile": "netflix_history_completed (1).json",
             "dataType": "Historial de visualización",
             
-            "value": "16:33",
+            "hora": "16:33",
             "subjective_notes": "Nos recomendaron esto a mi compañero de piso y a mí, y empezamos a verla juntos. Nunca nos habíamos visto el anime y, siendo tan largo y con tantos episodios, nos daba un poco de pereza. Por eso n os empezamos este live-action ya que empezaba desde el principio y resumiendo todo un poco."
           }
         },
@@ -9147,7 +9147,7 @@
             "sourceFile": "netflix_history_completed (1).json",
             "dataType": "Historial de visualización",
             
-            "value": "05:57",
+            "hora": "05:57",
             "subjective_notes": "Esta serie no me la he visto yo, habrán sido mis compañeros de piso."
           }
         },
@@ -9170,7 +9170,7 @@
             "sourceFile": "netflix_history_completed (1).json",
             "dataType": "Historial de visualización",
             
-            "value": "13:08",
+            "hora": "13:08",
             "subjective_notes": "Esta serie me la empecé a ver yo sola, me la recomendaron y me pareció entretenida. Es una serie de animación para adultos, con un humor un poco absurdo y surrealista, pero que a mí me gusta mucho. La protagonista es una princesa que no quiere ser princesa y se mete en todo tipo de líos con su amigo el elfo y su demonio personal."
           }
         },
@@ -9193,7 +9193,7 @@
             "sourceFile": "netflix_history_completed (1).json",
             "dataType": "Historial de visualización",
             
-            "value": "00:53",
+            "hora": "00:53",
             "subjective_notes": "Esta serie me la empecé a ver yo sola, me la recomendaron y me pareció entretenida. Es una serie de animación para adultos, con un humor un poco absurdo y surrealista, pero que a mí me gusta mucho. La protagonista es una princesa que no quiere ser princesa y se mete en todo tipo de líos con su amigo el elfo y su demonio personal."
           }
         },
@@ -9216,7 +9216,7 @@
             "sourceFile": "netflix_history_completed (1).json",
             "dataType": "Historial de visualización",
             
-            "value": "08:15",
+            "hora": "08:15",
             "subjective_notes": "Esta serie me la empecé a ver yo sola, me la recomendaron y me pareció entretenida. Es una serie de animación para adultos, con un humor un poco absurdo y surrealista, pero que a mí me gusta mucho. La protagonista es una princesa que no quiere ser princesa y se mete en todo tipo de líos con su amigo el elfo y su demonio personal."
           }
         },
@@ -9239,7 +9239,7 @@
             "sourceFile": "netflix_history_completed (1).json",
             "dataType": "Historial de visualización",
             
-            "value": "11:50",
+            "hora": "11:50",
             "subjective_notes": "Esta serie me la empecé a ver yo sola, me la recomendaron y me pareció entretenida. Es una serie de animación para adultos, con un humor un poco absurdo y surrealista, pero que a mí me gusta mucho. La protagonista es una princesa que no quiere ser princesa y se mete en todo tipo de líos con su amigo el elfo y su demonio personal."
           }
         },
@@ -9262,7 +9262,7 @@
             "sourceFile": "netflix_history_completed (1).json",
             "dataType": "Historial de visualización",
             
-            "value": "13:21",
+            "hora": "13:21",
             "subjective_notes": "Esta serie me la empecé a ver yo sola, me la recomendaron y me pareció entretenida. Es una serie de animación para adultos, con un humor un poco absurdo y surrealista, pero que a mí me gusta mucho. La protagonista es una princesa que no quiere ser princesa y se mete en todo tipo de líos con su amigo el elfo y su demonio personal."
           }
         },
@@ -9285,7 +9285,7 @@
             "sourceFile": "netflix_history_completed (1).json",
             "dataType": "Historial de visualización",
             
-            "value": "05:52",
+            "hora": "05:52",
             "subjective_notes": "Esta serie me la empecé a ver yo sola, me la recomendaron y me pareció entretenida. Es una serie de animación para adultos, con un humor un poco absurdo y surrealista, pero que a mí me gusta mucho. La protagonista es una princesa que no quiere ser princesa y se mete en todo tipo de líos con su amigo el elfo y su demonio personal."
           }
         },
@@ -9308,7 +9308,7 @@
             "sourceFile": "netflix_history_completed (1).json",
             "dataType": "Historial de visualización",
             
-            "value": "10:29",
+            "hora": "10:29",
             "subjective_notes": "Esta serie me la empecé a ver yo sola, me la recomendaron y me pareció entretenida. Es una serie de animación para adultos, con un humor un poco absurdo y surrealista, pero que a mí me gusta mucho. La protagonista es una princesa que no quiere ser princesa y se mete en todo tipo de líos con su amigo el elfo y su demonio personal."
           }
         },
@@ -9331,7 +9331,7 @@
             "sourceFile": "netflix_history_completed (1).json",
             "dataType": "Historial de visualización",
             
-            "value": "10:23",
+            "hora": "10:23",
             "subjective_notes": "Esta serie me la empecé a ver yo sola, me la recomendaron y me pareció entretenida. Es una serie de animación para adultos, con un humor un poco absurdo y surrealista, pero que a mí me gusta mucho. La protagonista es una princesa que no quiere ser princesa y se mete en todo tipo de líos con su amigo el elfo y su demonio personal."
           }
         },
@@ -9354,7 +9354,7 @@
             "sourceFile": "netflix_history_completed (1).json",
             "dataType": "Historial de visualización",
             
-            "value": "10:21",
+            "hora": "10:21",
             "subjective_notes": "Esta serie me la empecé a ver con mi mejor amigo porque nos la recomendaron, tiene un montón de temporadas y tardamos en vernosla un montón ya que nuestros horarios no coincidían. Es súper graciosa, sobre una familia en los años 70 y los problemas que tienen que afrontar."
           }
         },
@@ -9377,7 +9377,7 @@
             "sourceFile": "netflix_history_completed (1).json",
             "dataType": "Historial de visualización",
             
-            "value": "20:48",
+            "hora": "20:48",
             "subjective_notes": "Esta serie me la empecé a ver con mi mejor amigo porque nos la recomendaron, tiene un montón de temporadas y tardamos en vernosla un montón ya que nuestros horarios no coincidían. Es súper graciosa, sobre una familia en los años 70 y los problemas que tienen que afrontar."
           }
         },
@@ -9402,7 +9402,7 @@
             "sourceFile": "netflix_history_completed (1).json",
             "dataType": "Historial de visualización",
             
-            "value": "22:35",
+            "hora": "22:35",
             "subjective_notes": "Me encanta esta película, la he visto un montón de veces y siempre que puedo la vuelvo a ver. Me gusta mucho la historia y los personajes, y la animación es preciosa. Es una película muy tierna y emotiva, y me hace sentir muy bien cada vez que la veo."
           }
         },
@@ -9424,7 +9424,7 @@
             "sourceFile": "netflix_history_completed (1).json",
             "dataType": "Historial de visualización",
             
-            "value": "12:48",
+            "hora": "12:48",
             "subjective_notes": "Me encanta esta serie, la veo siempre que puedo, o vemos en casa algún episodio que nos encante. La protagonista es muy divertida y la historia es muy entretenida. Me gusta mucho el humor y la forma en que se desarrollan los personajes, y sale Yolanda Ramos asi que es un sí."
 
           }
@@ -9448,7 +9448,7 @@
             "sourceFile": "netflix_history_completed (1).json",
             "dataType": "Historial de visualización",
             
-            "value": "14:13",
+            "hora": "14:13",
             "subjective_notes": "Esta serie no me la he visto yo, habrán sido mis compañeros de piso."
           }
         },
@@ -9471,7 +9471,7 @@
             "sourceFile": "netflix_history_completed (1).json",
             "dataType": "Historial de visualización",
             
-            "value": "05:52",
+            "hora": "05:52",
             "subjective_notes": "Esta serie no me la he visto yo, habrán sido mis compañeros de piso."
           }
         },
@@ -9494,7 +9494,7 @@
             "sourceFile": "netflix_history_completed (1).json",
             "dataType": "Historial de visualización",
             
-            "value": "02:01",
+            "hora": "02:01",
             "subjective_notes": "Esta serie no me la he visto yo, habrán sido mis compañeros de piso."
           }
         },
@@ -9517,7 +9517,7 @@
             "sourceFile": "netflix_history_completed (1).json",
             "dataType": "Historial de visualización",
             
-            "value": "18:02",
+            "hora": "18:02",
             "subjective_notes": "Esta serie me la empecé a ver con mi mejor amigo porque nos la recomendaron, tiene un montón de temporadas y tardamos en vernosla un montón ya que nuestros horarios no coincidían. Es súer graciosa, sobre dos mujeres mayores que tienen que rehacer sus vidas después de que sus maridos admiten que llevan años enamiorados entre ellos."
 
           }
@@ -9541,7 +9541,7 @@
             "sourceFile": "netflix_history_completed (1).json",
             "dataType": "Historial de visualización",
             
-            "value": "05:15",
+            "hora": "05:15",
             "subjective_notes": "Esta serie me la empecé a ver con mi mejor amigo porque nos la recomendaron, tiene un montón de temporadas y tardamos en vernosla un montón ya que nuestros horarios no coincidían. Es súer graciosa, sobre dos mujeres mayores que tienen que rehacer sus vidas después de que sus maridos admiten que llevan años enamiorados entre ellos."
 
           }
@@ -9565,7 +9565,7 @@
             "sourceFile": "netflix_history_completed (1).json",
             "dataType": "Historial de visualización",
             
-            "value": "21:27",
+            "hora": "21:27",
             "subjective_notes": "Esta serie me la empecé a ver con mi mejor amigo porque nos la recomendaron, tiene un montón de temporadas y tardamos en vernosla un montón ya que nuestros horarios no coincidían. Es súer graciosa, sobre dos mujeres mayores que tienen que rehacer sus vidas después de que sus maridos admiten que llevan años enamiorados entre ellos."
 
           }
@@ -9589,7 +9589,7 @@
             "sourceFile": "netflix_history_completed (1).json",
             "dataType": "Historial de visualización",
             
-            "value": "11:18",
+            "hora": "11:18",
             "subjective_notes": "Esta serie me la empecé a ver con mi mejor amigo porque nos la recomendaron, tiene un montón de temporadas y tardamos en vernosla un montón ya que nuestros horarios no coincidían. Es súer graciosa, sobre dos mujeres mayores que tienen que rehacer sus vidas después de que sus maridos admiten que llevan años enamiorados entre ellos."
 
           }
@@ -9613,7 +9613,7 @@
             "sourceFile": "netflix_history_completed (1).json",
             "dataType": "Historial de visualización",
             
-            "value": "02:13",
+            "hora": "02:13",
             "subjective_notes": "Esta serie me la empecé a ver con mi mejor amigo porque nos la recomendaron, tiene un montón de temporadas y tardamos en vernosla un montón ya que nuestros horarios no coincidían. Es súer graciosa, sobre dos mujeres mayores que tienen que rehacer sus vidas después de que sus maridos admiten que llevan años enamiorados entre ellos."
 
           }
@@ -9636,7 +9636,7 @@
             "sourceFile": "netflix_history_completed (1).json",
             "dataType": "Historial de visualización",
             
-            "value": "21:51",
+            "hora": "21:51",
             "subjective_notes": "Me encanta esta serie, la veo siempre que puedo, o vemos en casa algún episodio que nos encante. La protagonista es muy divertida y la historia es muy entretenida. Me gusta mucho el humor y la forma en que se desarrollan los personajes, y sale Yolanda Ramos asi que es un sí."
 
           }
@@ -9659,7 +9659,7 @@
             "sourceFile": "netflix_history_completed (1).json",
             "dataType": "Historial de visualización",
             
-            "value": "15:32",
+            "hora": "15:32",
             "subjective_notes": "Me encanta esta serie, la veo siempre que puedo, o vemos en casa algún episodio que nos encante. La protagonista es muy divertida y la historia es muy entretenida. Me gusta mucho el humor y la forma en que se desarrollan los personajes, y sale Yolanda Ramos asi que es un sí."
 
           }
@@ -9682,7 +9682,7 @@
             "sourceFile": "netflix_history_completed (1).json",
             "dataType": "Historial de visualización",
             
-            "value": "00:34",
+            "hora": "00:34",
             "subjective_notes": "Me encanta esta serie, la veo siempre que puedo, o vemos en casa algún episodio que nos encante. La protagonista es muy divertida y la historia es muy entretenida. Me gusta mucho el humor y la forma en que se desarrollan los personajes, y sale Yolanda Ramos asi que es un sí."
 
           }
@@ -9705,7 +9705,7 @@
             "sourceFile": "netflix_history_completed (1).json",
             "dataType": "Historial de visualización",
             
-            "value": "20:45",
+            "hora": "20:45",
             "subjective_notes": "Me encanta esta serie, la veo siempre que puedo, o vemos en casa algún episodio que nos encante. La protagonista es muy divertida y la historia es muy entretenida. Me gusta mucho el humor y la forma en que se desarrollan los personajes, y sale Yolanda Ramos asi que es un sí."
 
           }
@@ -9728,7 +9728,7 @@
             "sourceFile": "netflix_history_completed (1).json",
             "dataType": "Historial de visualización",
             
-            "value": "20:53",
+            "hora": "20:53",
             "subjective_notes": "Me encanta esta serie, la veo siempre que puedo, o vemos en casa algún episodio que nos encante. La protagonista es muy divertida y la historia es muy entretenida. Me gusta mucho el humor y la forma en que se desarrollan los personajes, y sale Yolanda Ramos asi que es un sí."
 
           }
@@ -9751,7 +9751,7 @@
             "sourceFile": "netflix_history_completed (1).json",
             "dataType": "Historial de visualización",
             
-            "value": "14:01",
+            "hora": "14:01",
             "subjective_notes": "Me encanta esta serie, la veo siempre que puedo, o vemos en casa algún episodio que nos encante. La protagonista es muy divertida y la historia es muy entretenida. Me gusta mucho el humor y la forma en que se desarrollan los personajes, y sale Yolanda Ramos asi que es un sí."
 
           }
@@ -9774,7 +9774,7 @@
             "sourceFile": "netflix_history_completed (1).json",
             "dataType": "Historial de visualización",
             
-            "value": "15:19",
+            "hora": "15:19",
             "subjective_notes": "Esta serie me la empecé a ver porque me gusta mucho el drama y las historias intensas. La verdad es que me ha sorprendido para bien, los personajes están muy bien desarrollados y la trama es muy interesante. Me gusta mucho cómo se abordan temas como la identidad y la familia."
 
           }
@@ -9797,7 +9797,7 @@
             "sourceFile": "netflix_history_completed (1).json",
             "dataType": "Historial de visualización",
             
-            "value": "10:49",
+            "hora": "10:49",
             "subjective_notes": "A mi novia y a mí nos gusta mucho el cine de terror y esta película nos la recomendaron. Está basada en hechos reales y me gustó mucho la historia, aunque el final me pareció un poco flojo."
           }
         },
@@ -9820,7 +9820,7 @@
             "sourceFile": "netflix_history_completed (1).json",
             "dataType": "Historial de visualización",
             
-            "value": "21:33",
+            "hora": "21:33",
             "subjective_notes": "A mi novia y a mí nos gusta mucho el cine de terror y esta serie me la recomendaron, es una adaptación de varios cuentos de Edgar Allan Poe, me gustó mucho la atmósfera y la forma en la que están adaptados los cuentos."
 
           }
@@ -9843,7 +9843,7 @@
             "sourceFile": "netflix_history_completed (1).json",
             "dataType": "Historial de visualización",
             
-            "value": "04:03",
+            "hora": "04:03",
             "subjective_notes": "Esta película fue famosa cuándo salió y tenía curiosidad por ver cómo era. Estuvo bien, aunque me esperaba que diese más mido, está guay que esté inspirada en hechos reales de un caso español."
           }
         },
@@ -9867,7 +9867,7 @@
             "sourceFile": "netflix_history_completed (1).json",
             "dataType": "Historial de visualización",
             
-            "value": "18:58",
+            "hora": "18:58",
             "subjective_notes": "A mi novia y a mí nos gusta mucho el cine de terror y esta serie me la recomendaron, es una adaptación de varios cuentos de Edgar Allan Poe, me gustó mucho la atmósfera y la forma en la que están adaptados los cuentos."
           }
         },
@@ -9890,7 +9890,7 @@
             "sourceFile": "netflix_history_completed (1).json",
             "dataType": "Historial de visualización",
             
-            "value": "20:24",
+            "hora": "20:24",
             "subjective_notes": "A mi novia y a mí nos gusta mucho el cine de terror y esta serie me la recomendaron, es una adaptación de varios cuentos de Edgar Allan Poe, me gustó mucho la atmósfera y la forma en la que están adaptados los cuentos."
           }
         },
@@ -9913,7 +9913,7 @@
             "sourceFile": "netflix_history_completed (1).json",
             "dataType": "Historial de visualización",
             
-            "value": "00:37",
+            "hora": "00:37",
             "subjective_notes": "Me la recomendaron mucho y la verdad es que me gustó bastante, no es una peli de sustos pero sí que tiene una atmósfera inquietante y una historia bastante original sobre una familia que empieza a descubrir oscuros secretos tras la muerte de la abuela."
           }
         },
@@ -9936,7 +9936,7 @@
             "sourceFile": "netflix_history_completed (1).json",
             "dataType": "Historial de visualización",
             
-            "value": "07:08",
+            "hora": "07:08",
             "subjective_notes": "Esta serie me la empecé a ver con mi mejor amigo porque nos la recomendaron, tiene un montón de temporadas y tardamos en vernosla un montón ya que nuestros horarios no coincidían. Es súer graciosa, sobre dos mujeres mayores que tienen que rehacer sus vidas después de que sus maridos admiten que llevan años enamiorados entre ellos."
 
           }
@@ -9960,7 +9960,7 @@
             "sourceFile": "netflix_history_completed (1).json",
             "dataType": "Historial de visualización",
             
-            "value": "09:56",
+            "hora": "09:56",
             "subjective_notes": "Esta serie me la empecé a ver con mi mejor amigo porque nos la recomendaron, tiene un montón de temporadas y tardamos en vernosla un montón ya que nuestros horarios no coincidían. Es súer graciosa, sobre dos mujeres mayores que tienen que rehacer sus vidas después de que sus maridos admiten que llevan años enamiorados entre ellos."
 
           }
@@ -9984,7 +9984,7 @@
             "sourceFile": "netflix_history_completed (1).json",
             "dataType": "Historial de visualización",
             
-            "value": "21:59",
+            "hora": "21:59",
             "subjective_notes": "Esta serie me la empecé a ver con mi mejor amigo porque nos la recomendaron, tiene un montón de temporadas y tardamos en vernosla un montón ya que nuestros horarios no coincidían. Es súer graciosa, sobre dos mujeres mayores que tienen que rehacer sus vidas después de que sus maridos admiten que llevan años enamiorados entre ellos."
 
           }
@@ -10008,7 +10008,7 @@
             "sourceFile": "netflix_history_completed (1).json",
             "dataType": "Historial de visualización",
             
-            "value": "21:47",
+            "hora": "21:47",
             "subjective_notes": "Esta serie me la empecé a ver con mi mejor amigo porque nos la recomendaron, tiene un montón de temporadas y tardamos en vernosla un montón ya que nuestros horarios no coincidían. Es súer graciosa, sobre dos mujeres mayores que tienen que rehacer sus vidas después de que sus maridos admiten que llevan años enamiorados entre ellos."
 
           }
@@ -10031,7 +10031,7 @@
             "sourceFile": "netflix_history_completed (1).json",
             "dataType": "Historial de visualización",
             
-            "value": "21:45",
+            "hora": "21:45",
             "subjective_notes": "Me gusta mucho el cine de fantasía y este me llamó la atención por la historia y los efectos especiales. La verdad es que me gustó bastante, aunque algunas partes me parecieron un poco predecibles. Aun así, disfruté viéndola y me pareció entretenida."
           }
         },
@@ -10055,7 +10055,7 @@
             "sourceFile": "netflix_history_completed (1).json",
             "dataType": "Historial de visualización",
             
-            "value": "21:01",
+            "hora": "21:01",
             "subjective_notes": "Me encanta el cine de animación japonés, y este es uno de mis estudios de animación favoritos. La historia es muy tierna y la animación es preciosa. "
           }
         },
@@ -10079,7 +10079,7 @@
             "sourceFile": "netflix_history_completed (1).json",
             "dataType": "Historial de visualización",
             
-            "value": "17:15",
+            "hora": "17:15",
             "subjective_notes": "Me encanta el cine de animación japonés, y este es uno de mis favoritos. La historia es muy tierna y la animación es preciosa. Me gusta mucho cómo se representa la relación entre los humanos y la naturaleza."
           }
         },
@@ -10104,7 +10104,7 @@
             "sourceFile": "netflix_history_completed (1).json",
             "dataType": "Historial de visualización",
             
-            "value": "06:01",
+            "hora": "06:01",
             "subjective_notes": "Este anime lo vi con mis compañeros de piso y nos encantó a todos. La historia es muy emocionante y los personajes son muy carismáticos. La animación es espectacular y las escenas de acción son impresionantes."
           }
         },
@@ -10126,7 +10126,7 @@
             "sourceFile": "netflix_history_completed (1).json",
             "dataType": "Historial de visualización",
             
-            "value": "18:23",
+            "hora": "18:23",
             "subjective_notes": "Esta serie me la empecé a ver porque me gusta mucho el drama y las historias intensas. La verdad es que me ha sorprendido para bien, los personajes están muy bien desarrollados y la trama es muy interesante. Me gusta mucho cómo se abordan temas como la identidad y la familia."
           }
         },
@@ -10148,7 +10148,7 @@
             "sourceFile": "netflix_history_completed (1).json",
             "dataType": "Historial de visualización",
             
-            "value": "04:45",
+            "hora": "04:45",
             "subjective_notes": "Esta serie me la empecé a ver porque me gusta mucho el drama y las historias intensas. La verdad es que me ha sorprendido para bien, los personajes están muy bien desarrollados y la trama es muy interesante. Me gusta mucho cómo se abordan temas como la identidad y la familia."
           }
         },
@@ -10173,7 +10173,7 @@
             "sourceFile": "netflix_history_completed (1).json",
             "dataType": "Historial de visualización",
             
-            "value": "14:32",
+            "hora": "14:32",
             "subjective_notes": "Este anime lo vi con mis compañeros de piso y nos encantó a todos. La historia es muy emocionante y los personajes son muy carismáticos. La animación es espectacular y las escenas de acción son impresionantes."
           }
         },
@@ -10198,7 +10198,7 @@
             "sourceFile": "netflix_history_completed (1).json",
             "dataType": "Historial de visualización",
             
-            "value": "20:03",
+            "hora": "20:03",
             "subjective_notes": "Este anime lo vi con mis compañeros de piso y nos encantó a todos. La historia es muy emocionante y los personajes son muy carismáticos. La animación es espectacular y las escenas de acción son impresionantes."
           }
         },
@@ -10223,7 +10223,7 @@
             "sourceFile": "netflix_history_completed (1).json",
             "dataType": "Historial de visualización",
             
-            "value": "05:27",
+            "hora": "05:27",
             "subjective_notes": "Este anime lo vi con mis compañeros de piso y nos encantó a todos. La historia es muy emocionante y los personajes son muy carismáticos. La animación es espectacular y las escenas de acción son impresionantes."
           }
         },
@@ -10248,7 +10248,7 @@
             "sourceFile": "netflix_history_completed (1).json",
             "dataType": "Historial de visualización",
             
-            "value": "11:33",
+            "hora": "11:33",
             "subjective_notes": "Este anime lo vi con mis compañeros de piso y nos encantó a todos. La historia es muy emocionante y los personajes son muy carismáticos. La animación es espectacular y las escenas de acción son impresionantes."
           }
         },
@@ -10273,7 +10273,7 @@
             "sourceFile": "netflix_history_completed (1).json",
             "dataType": "Historial de visualización",
             
-            "value": "04:53",
+            "hora": "04:53",
             "subjective_notes": "Este anime lo vi con mis compañeros de piso y nos encantó a todos. La historia es muy emocionante y los personajes son muy carismáticos. La animación es espectacular y las escenas de acción son impresionantes."
           }
         },
@@ -10298,7 +10298,7 @@
             "sourceFile": "netflix_history_completed (1).json",
             "dataType": "Historial de visualización",
             
-            "value": "23:44",
+            "hora": "23:44",
             "subjective_notes": "Este anime lo vi con mis compañeros de piso y nos encantó a todos. La historia es muy emocionante y los personajes son muy carismáticos. La animación es espectacular y las escenas de acción son impresionantes."
           }
         },
@@ -10323,7 +10323,7 @@
             "sourceFile": "netflix_history_completed (1).json",
             "dataType": "Historial de visualización",
             
-            "value": "13:40",
+            "hora": "13:40",
             "subjective_notes": "Este anime lo vi con mis compañeros de piso y nos encantó a todos. La historia es muy emocionante y los personajes son muy carismáticos. La animación es espectacular y las escenas de acción son impresionantes."
           }
         },
@@ -10348,7 +10348,7 @@
             "sourceFile": "netflix_history_completed (1).json",
             "dataType": "Historial de visualización",
             
-            "value": "04:36",
+            "hora": "04:36",
             "subjective_notes": "Este anime lo vi con mis compañeros de piso y nos encantó a todos. La historia es muy emocionante y los personajes son muy carismáticos. La animación es espectacular y las escenas de acción son impresionantes."
           }
         },
@@ -10373,7 +10373,7 @@
             "sourceFile": "netflix_history_completed (1).json",
             "dataType": "Historial de visualización",
             
-            "value": "15:23",
+            "hora": "15:23",
             "subjective_notes": "Este anime lo vi con mis compañeros de piso y nos encantó a todos. La historia es muy emocionante y los personajes son muy carismáticos. La animación es espectacular y las escenas de acción son impresionantes."
           }
         },
@@ -10398,7 +10398,7 @@
             "sourceFile": "netflix_history_completed (1).json",
             "dataType": "Historial de visualización",
             
-            "value": "15:53",
+            "hora": "15:53",
             "subjective_notes": "Este anime lo vi con mis compañeros de piso y nos encantó a todos. La historia es muy emocionante y los personajes son muy carismáticos. La animación es espectacular y las escenas de acción son impresionantes."
           }
         },
@@ -10423,7 +10423,7 @@
             "sourceFile": "netflix_history_completed (1).json",
             "dataType": "Historial de visualización",
             
-            "value": "07:30",
+            "hora": "07:30",
             "subjective_notes": "Este anime lo vi con mis compañeros de piso y nos encantó a todos. La historia es muy emocionante y los personajes son muy carismáticos. La animación es espectacular y las escenas de acción son impresionantes."
           }
         },
@@ -10448,7 +10448,7 @@
             "sourceFile": "netflix_history_completed (1).json",
             "dataType": "Historial de visualización",
             
-            "value": "00:45",
+            "hora": "00:45",
             "subjective_notes": "Este anime lo vi con mis compañeros de piso y nos encantó a todos. La historia es muy emocionante y los personajes son muy carismáticos. La animación es espectacular y las escenas de acción son impresionantes."
           }
         },
@@ -10473,7 +10473,7 @@
             "sourceFile": "netflix_history_completed (1).json",
             "dataType": "Historial de visualización",
             
-            "value": "21:00",
+            "hora": "21:00",
             "subjective_notes": "Este anime lo vi con mis compañeros de piso y nos encantó a todos. La historia es muy emocionante y los personajes son muy carismáticos. La animación es espectacular y las escenas de acción son impresionantes."
 
           }
@@ -10496,7 +10496,7 @@
             "sourceFile": "netflix_history_completed (1).json",
             "dataType": "Historial de visualización",
             
-            "value": "12:55",
+            "hora": "12:55",
             "subjective_notes": "Este episodio es increíblemente divertido. Paquita siempre me hace reír con sus ocurrencias y su forma de ser tan auténtica. Me encanta cómo la serie mezcla el humor con momentos emotivos. Es una de mis favoritas en Netflix."
           }
         },
@@ -10518,7 +10518,7 @@
             "sourceFile": "netflix_history_completed (1).json",
             "dataType": "Historial de visualización",
             
-            "value": "09:56",
+            "hora": "09:56",
             "subjective_notes": "Me encanta esta serie, la veo siempre que puedo, o vemos en casa algún episodio que nos encante. La protagonista es muy divertida y la historia es muy entretenida. Me gusta mucho el humor y la forma en que se desarrollan los personajes."
           }
         },
@@ -10541,7 +10541,7 @@
             "sourceFile": "netflix_history_completed (1).json",
             "dataType": "Historial de visualización",
             
-            "value": "06:40",
+            "hora": "06:40",
             "subjective_notes": "Mi hermano me recomendó esta sit-com y me gustó mucho. Es muy divertida y los personajes son muy carismáticos. Me reí mucho viéndola, la veo de vez en cuando."
           }
         },
@@ -10564,7 +10564,7 @@
             "sourceFile": "netflix_history_completed (1).json",
             "dataType": "Historial de visualización",
             
-            "value": "17:38",
+            "hora": "17:38",
             "subjective_notes": "Mi hermano me recomendó esta sit-com y me gustó mucho. Es muy divertida y los personajes son muy carismáticos. Me reí mucho viéndola, la veo de vez en cuando."
           }
         },
@@ -10587,7 +10587,7 @@
             "sourceFile": "netflix_history_completed (1).json",
             "dataType": "Historial de visualización",
             
-            "value": "20:27",
+            "hora": "20:27",
             "subjective_notes": "Mi hermano me recomendó esta sit-com y me gustó mucho. Es muy divertida y los personajes son muy carismáticos. Me reí mucho viéndola, la veo de vez en cuando."
           }
         },
@@ -10612,7 +10612,7 @@
             "sourceFile": "netflix_history_completed (1).json",
             "dataType": "Historial de visualización",
             
-            "value": "14:18",
+            "hora": "14:18",
             "subjective_notes": "Me encanta este anime, lo vi hace un año y siempre que puedo me veo algún capítulo. La historia es muy interesante y los personajes están muy bien desarrollados. Me gusta mucho la animación y la música también es genial."
           }
         },
@@ -10637,7 +10637,7 @@
             "sourceFile": "netflix_history_completed (1).json",
             "dataType": "Historial de visualización",
             
-            "value": "05:18",
+            "hora": "05:18",
             "subjective_notes": "Este anime lo vi con mis compañeros de piso y nos encantó a todos. La historia es muy emocionante y los personajes son muy carismáticos. La animación es espectacular y las escenas de acción son impresionantes."
 
           }
@@ -10661,7 +10661,7 @@
             "sourceFile": "netflix_history_completed (1).json",
             "dataType": "Historial de visualización",
             
-            "value": "08:57",
+            "hora": "08:57",
             "subjective_notes": "Mi hermano me recomendó esta sit-com y me gustó mucho. Es muy divertida y los personajes son muy carismáticos. Me reí mucho viéndola, la veo de vez en cuando."
           }
         },
@@ -10684,7 +10684,7 @@
             "sourceFile": "netflix_history_completed (1).json",
             "dataType": "Historial de visualización",
             
-            "value": "11:27",
+            "hora": "11:27",
             "subjective_notes": "Mi hermano me recomendó esta sit-com y me gustó mucho. Es muy divertida y los personajes son muy carismáticos. Me reí mucho viéndola, la veo de vez en cuando."
           }
         },
@@ -10707,7 +10707,7 @@
             "sourceFile": "netflix_history_completed (1).json",
             "dataType": "Historial de visualización",
             
-            "value": "01:18",
+            "hora": "01:18",
             "subjective_notes": "Mi hermano me recomendó esta sit-com y me gustó mucho. Es muy divertida y los personajes son muy carismáticos. Me reí mucho viéndola, la veo de vez en cuando."
           }
         },
@@ -10730,7 +10730,7 @@
             "sourceFile": "netflix_history_completed (1).json",
             "dataType": "Historial de visualización",
             
-            "value": "05:03",
+            "hora": "05:03",
             "subjective_notes": "Mi hermano me recomendó esta sit-com y me gustó mucho. Es muy divertida y los personajes son muy carismáticos. Me reí mucho viéndola, la veo de vez en cuando."
           }
         },
@@ -10752,7 +10752,7 @@
             "sourceFile": "netflix_history_completed (1).json",
             "dataType": "Historial de visualización",
             
-            "value": "04:08",
+            "hora": "04:08",
             "subjective_notes": "Esta serie me la vi sola, y me gustó mucho. La historia es muy interesante y los personajes están muy bien desarrollados. La recomiendo mucho."
           }
         },
@@ -10774,7 +10774,7 @@
             "sourceFile": "netflix_history_completed (1).json",
             "dataType": "Historial de visualización",
             
-            "value": "09:05",
+            "hora": "09:05",
             "subjective_notes": "Esta serie me la vi sola, y me gustó mucho. La historia es muy interesante y los personajes están muy bien desarrollados. La recomiendo mucho."
           }
         },
@@ -10796,7 +10796,7 @@
             "sourceFile": "netflix_history_completed (1).json",
             "dataType": "Historial de visualización",
             
-            "value": "02:32",
+            "hora": "02:32",
             "subjective_notes": "Esta serie me la vi sola, y me gustó mucho. La historia es muy interesante y los personajes están muy bien desarrollados. La recomiendo mucho."
           }
         },
@@ -10821,7 +10821,7 @@
             "sourceFile": "netflix_history_completed (1).json",
             "dataType": "Historial de visualización",
             
-            "value": "09:57",
+            "hora": "09:57",
             "subjective_notes": "Este anime lo vi con mis compañeros de piso y nos encantó a todos. La historia es muy emocionante y los personajes son muy carismáticos. La animación es espectacular y las escenas de acción son impresionantes."
           }
         },
@@ -10846,7 +10846,7 @@
             "sourceFile": "netflix_history_completed (1).json",
             "dataType": "Historial de visualización",
             
-            "value": "10:50",
+            "hora": "10:50",
             "subjective_notes": "Este anime lo vi con mis compañeros de piso y nos encantó a todos. La historia es muy emocionante y los personajes son muy carismáticos. La animación es espectacular y las escenas de acción son impresionantes."
           }
         },
@@ -10870,7 +10870,7 @@
             "sourceFile": "netflix_history_completed (1).json",
             "dataType": "Historial de visualización",
             
-            "value": "15:34",
+            "hora": "15:34",
             "subjective_notes": "Me ha gustado mucho la serie, especialmente por su mezcla de acción, humor y fantasía. La animación es impresionante y los personajes están muy bien desarrollados. La vi con mi novia ya que nos encantó la primera temporada."
           }
         },
@@ -10893,7 +10893,7 @@
             "sourceFile": "netflix_history_completed (1).json",
             "dataType": "Historial de visualización",
             
-            "value": "03:15",
+            "hora": "03:15",
             "subjective_notes": "Me ha gustado mucho la serie, especialmente por su mezcla de acción, humor y fantasía. La animación es impresionante y los personajes están muy bien desarrollados. La vi con mi novia ya que nos encantó la primera temporada."
           }
         },
@@ -10916,7 +10916,7 @@
             "sourceFile": "netflix_history_completed (1).json",
             "dataType": "Historial de visualización",
             
-            "value": "21:01",
+            "hora": "21:01",
             "subjective_notes": "Me ha gustado mucho la serie, especialmente por su mezcla de acción, humor y fantasía. La animación es impresionante y los personajes están muy bien desarrollados. La vi con mi novia ya que nos encantó la primera temporada."
           }
         },
@@ -10939,7 +10939,7 @@
             "sourceFile": "netflix_history_completed (1).json",
             "dataType": "Historial de visualización",
             
-            "value": "06:56",
+            "hora": "06:56",
             "subjective_notes": "Me ha gustado mucho la serie, especialmente por su mezcla de acción, humor y fantasía. La animación es impresionante y los personajes están muy bien desarrollados. La vi con mi novia ya que nos encantó la primera temporada."
           }
         },
@@ -10962,7 +10962,7 @@
             "sourceFile": "netflix_history_completed (1).json",
             "dataType": "Historial de visualización",
             
-            "value": "20:27",
+            "hora": "20:27",
             "subjective_notes": "Me ha gustado mucho la serie, especialmente por su mezcla de acción, humor y fantasía. La animación es impresionante y los personajes están muy bien desarrollados. La vi con mi novia ya que nos encantó la primera temporada."
           }
         },
@@ -10985,7 +10985,7 @@
             "sourceFile": "netflix_history_completed (1).json",
             "dataType": "Historial de visualización",
             
-            "value": "05:26",
+            "hora": "05:26",
             "subjective_notes": "Me ha gustado mucho la serie, especialmente por su mezcla de acción, humor y fantasía. La animación es impresionante y los personajes están muy bien desarrollados. La vi con mi novia ya que nos encantó la primera temporada."
           }
         },
@@ -11008,7 +11008,7 @@
             "sourceFile": "netflix_history_completed (1).json",
             "dataType": "Historial de visualización",
             
-            "value": "04:47",
+            "hora": "04:47",
             "subjective_notes": "Me ha gustado mucho la serie, especialmente por su mezcla de acción, humor y fantasía. La animación es impresionante y los personajes están muy bien desarrollados. La vi con mi novia ya que nos encantó la primera temporada."
           }
         },
@@ -11031,7 +11031,7 @@
             "sourceFile": "netflix_history_completed (1).json",
             "dataType": "Historial de visualización",
             
-            "value": "22:19",
+            "hora": "22:19",
             "subjective_notes": "Me ha gustado mucho la serie, especialmente por su mezcla de acción, humor y fantasía. La animación es impresionante y los personajes están muy bien desarrollados. La vi con mi novia ya que nos encantó la primera temporada."
           }
         },
@@ -11054,7 +11054,7 @@
             "sourceFile": "netflix_history_completed (1).json",
             "dataType": "Historial de visualización",
             
-            "value": "17:52",
+            "hora": "17:52",
             "subjective_notes": "Me ha gustado mucho la serie, especialmente por su mezcla de acción, humor y fantasía. La animación es impresionante y los personajes están muy bien desarrollados. La vi con mi novia ya que nos encantó la primera temporada."
           }
         },
@@ -11076,7 +11076,7 @@
             "sourceFile": "netflix_history_completed (1).json",
             "dataType": "Historial de visualización",
             
-            "value": "06:19",
+            "hora": "06:19",
             "subjective_notes": "Me vi este único episodio de la serie porque nos lo recomendó un profesor del máster para una clase de Narrativa. Me pareció entretenido, pero no creo que vea más capítulos, era para ver cómo se contaba una historia desde el presenta hasta el pasado."
 
           }
@@ -11100,7 +11100,7 @@
             "sourceFile": "prime_video_history.json",
             "dataType": "Historial de visualización",
             
-            "value": "07:40",
+            "hora": "07:40",
             "subjective_notes": "Me ha gustado mucho la serie, especialmente por su mezcla de acción, humor y fantasía. La animación es impresionante y los personajes están muy bien desarrollados. A mis compañeros de piso no les gustó tanto y por eso la dejamos de ver."
           }
         },
@@ -11123,7 +11123,7 @@
             "sourceFile": "prime_video_history.json",
             "dataType": "Historial de visualización",
             
-            "value": "05:31",
+            "hora": "05:31",
             "subjective_notes": "Me sigue gustando mucho la serie, aunque he de admitir que la trama se está volviendo un poco confusa con tantos personajes y giros argumentales. Aun así, las escenas de acción y la crítica social siguen siendo impresionantes."
           }
         },
@@ -11146,7 +11146,7 @@
             "sourceFile": "prime_video_history.json",
             "dataType": "Historial de visualización",
             
-            "value": "00:37",
+            "hora": "00:37",
             "subjective_notes": "Empezamos a ver esta serie mi novia y yo. Me gusta mucho el género de superhéroes y esta serie en particular me parece muy interesante por su enfoque diferente y crítico hacia los superhéroes tradicionales. Aunque nos acabo aburriendo y dejamos de verla."
           }
         },
@@ -11171,7 +11171,7 @@
             "sourceFile": "prime_video_history.json",
             "dataType": "Historial de visualización",
             
-            "value": "22:01",
+            "hora": "22:01",
             "subjective_notes": "Me sigue gustando mucho la serie, aunque he de admitir que la trama se está volviendo un poco confusa con tantos personajes y giros argumentales. Aun así, las escenas de acción y la animación siguen siendo impresionantes."
           }
         },
@@ -11196,7 +11196,7 @@
             "sourceFile": "prime_video_history.json",
             "dataType": "Historial de visualización",
             
-            "value": "21:17",
+            "hora": "21:17",
             "subjective_notes": "Empezamos a ver esta serie mis dos compañeros de piso y yo. Me gusta mucho el anime y esta serie en particular me parece muy interesante por su trama y desarrollo de personajes. Además, la animación y las escenas de acción son impresionantes."
           }
         },
@@ -11219,7 +11219,7 @@
             "sourceFile": "prime_video_history.json",
             "dataType": "Historial de visualización",
             
-            "value": "22:27",
+            "hora": "22:27",
             "subjective_notes": "A veces a mis compañeros de piso les da por ver cosas muy random."
 
           }
@@ -11243,7 +11243,7 @@
             "sourceFile": "prime_video_history.json",
             "dataType": "Historial de visualización",
             
-            "value": "21:48",
+            "hora": "21:48",
             "subjective_notes": "Esto no lo he visto yo, no soy muy fan de esta saga. Pero mis compañeros de piso son muy fans y lo han visto varias veces."
           }
         },
@@ -11266,7 +11266,7 @@
             "sourceFile": "prime_video_history.json",
             "dataType": "Historial de visualización",
             
-            "value": "09:05",
+            "hora": "09:05",
             "subjective_notes": "Me vi esta serie porque me gusta mucho el humor absurdo y las situaciones cómicas que se presentan en la serie. Mi hermano me la recomendó, aún tengo que terminarmela."
           }
         },
@@ -11289,7 +11289,7 @@
             "sourceFile": "prime_video_history.json",
             "dataType": "Historial de visualización",
             
-            "value": "17:04",
+            "hora": "17:04",
             "subjective_notes": "Me gusta ver esta serie de vez en cuando porque es una comedia ligera y entretenida, además a todo el mundo le gusta. Además, me gusta el humor absurdo y las situaciones cómicas que se presentan en la serie. Es una forma divertida de desconectar y pasar un buen rato."
           }
         },
@@ -11312,7 +11312,7 @@
             "sourceFile": "prime_video_history.json",
             "dataType": "Historial de visualización",
             
-            "value": "00:35",
+            "hora": "00:35",
             "subjective_notes": "A veces vemos concursos de celebrities españoles de comedia. Además, dónde aparezca Yolanda Ramos o Silvia Abril siempre es un sí."
           }
         },
@@ -11334,7 +11334,7 @@
             "sourceFile": "prime_video_history.json",
             "dataType": "Historial de visualización",
             
-            "value": "21:25",
+            "hora": "21:25",
             "subjective_notes": "Me empecé esta serie porque me gusta mucho la ciencia ficción y las historias que exploran el impacto de la tecnología en la sociedad. La serie está basada en la novela de William Gibson, uno de los pioneros del género cyberpunk, y me pareció fascinante cómo adapta sus ideas a un formato televisivo. La trama es intrigante y los personajes están bien desarrollados, lo que hace que te involucres en la historia desde el principio."
           }
         },
@@ -11357,7 +11357,7 @@
             "sourceFile": "prime_video_history.json",
             "dataType": "Historial de visualización",
             
-            "value": "04:37",
+            "hora": "04:37",
             "subjective_notes": "Me vi esta serie porque me la recomendó una amiga, decía que era su serie favorita. Me gustó mucho, es una serie muy original y con un humor muy particular. La protagonista rompe la cuarta pared y habla directamente con el espectador, lo que crea una conexión muy especial. Además, trata temas profundos como la soledad, la culpa y la búsqueda de la felicidad de una manera muy honesta y a veces dolorosa."
           }
         },
@@ -11380,7 +11380,7 @@
             "sourceFile": "prime_video_history.json",
             "dataType": "Historial de visualización",
             
-            "value": "04:24",
+            "hora": "04:24",
             "subjective_notes": "Me vi esta serie porque me la recomendó una amiga, decía que era su serie favorita. Me gustó mucho, es una serie muy original y con un humor muy particular. La protagonista rompe la cuarta pared y habla directamente con el espectador, lo que crea una conexión muy especial. Además, trata temas profundos como la soledad, la culpa y la búsqueda de la felicidad de una manera muy honesta y a veces dolorosa."
           }
         },
@@ -11404,10 +11404,571 @@
             "sourceFile": "prime_video_history.json",
             "dataType": "Historial de visualización",
             
-            "value": "15:54",
+            "hora": "15:54",
             "subjective_notes": "A veces vemos concursos de celebrities españoles de comedia. Además, dónde aparezca Yolanda Ramos siempre es un sí."
           }
         },
+          {
+            "id": "hbomax-full-1",
+            "title": "El Pacificador - T1, E1: Un giro totalmente nuevo",
+            "artists": "HBO Max",
+            "awareness": 1,
+            "timeBucket": "4w",
+            "platformId": 7,
+            "tags": [ "Series", "Español", "Televisión", "Compartido", "Consciente", "Humor", "Acción", "Superhéroes" ],
+            "details": { "sourceFile": "hbomax.com", "dataType": "Historial de visualización", "subjective_notes": "" }
+          },
+          {
+            "id": "hbomax-full-2",
+            "title": "El Pacificador - T1, E2: Los mejores amigos, nunca",
+            "artists": "HBO Max",
+            "awareness": 1,
+            "timeBucket": "4w",
+            "platformId": 7,
+            "tags": [ "Series", "Español", "Televisión", "Compartido", "Consciente", "Humor", "Acción", "Superhéroes" ],
+            "details": { "sourceFile": "hbomax.com", "dataType": "Historial de visualización", "subjective_notes": "" }
+          },
+          {
+            "id": "hbomax-full-3",
+            "title": "El Pacificador - T1, E3: La oferta de Goff",
+            "artists": "HBO Max",
+            "awareness": 1,
+            "timeBucket": "4w",
+            "platformId": 7,
+            "tags": [ "Series", "Español", "Televisión", "Compartido", "Consciente", "Humor", "Acción", "Superhéroes" ],
+            "details": { "sourceFile": "hbomax.com", "dataType": "Historial de visualización", "subjective_notes": "" }
+          },
+          {
+            "id": "hbomax-full-4",
+            "title": "El Pacificador - T1, E4: El chimpancé menos transitado",
+            "artists": "HBO Max",
+            "awareness": 1,
+            "timeBucket": "4w",
+            "platformId": 7,
+            "tags": [ "Series", "Español", "Televisión", "Compartido", "Consciente", "Humor", "Acción", "Superhéroes" ],
+            "details": { "sourceFile": "hbomax.com", "dataType": "Historial de visualización", "subjective_notes": "" }
+          },
+          {
+            "id": "hbomax-full-5",
+            "title": "El Pacificador - T1, E5: Mono Doody",
+            "artists": "HBO Max",
+            "awareness": 1,
+            "timeBucket": "4w",
+            "platformId": 7,
+            "tags": [ "Series", "Español", "Televisión", "Compartido", "Consciente", "Humor", "Acción", "Superhéroes" ],
+            "details": { "sourceFile": "hbomax.com", "dataType": "Historial de visualización", "subjective_notes": "" }
+          },
+          {
+            "id": "hbomax-full-6",
+            "title": "Furia - T1, E1: Asesinato y milagros",
+            "artists": "HBO Max",
+            "awareness": 1,
+            "timeBucket": "4w",
+            "platformId": 7,
+            "tags": [ "Series", "Español", "Televisión", "Compartido", "Consciente", "Humor", "Humor negro" ],
+            "details": { "sourceFile": "hbomax.com", "dataType": "Historial de visualización", "subjective_notes": "" }
+          },
+          {
+            "id": "hbomax-full-7",
+            "title": "Furia - T1, E2: Un nuevo orden mundial",
+            "artists": "HBO Max",
+            "awareness": 1,
+            "timeBucket": "4w",
+            "platformId": 7,
+            "tags": [ "Series", "Español", "Televisión", "Compartido", "Consciente", "Humor", "Humor negro" ],
+            "details": { "sourceFile": "hbomax.com", "dataType": "Historial de visualización", "subjective_notes": "" }
+          },
+          {
+            "id": "hbomax-full-8",
+            "title": "Furia - T1, E3: Cosecharás tu siembra",
+            "artists": "HBO Max",
+            "awareness": 1,
+            "timeBucket": "4w",
+            "platformId": 7,
+            "tags": [ "Series", "Español", "Televisión", "Compartido", "Consciente", "Humor", "Humor negro" ],
+            "details": { "sourceFile": "hbomax.com", "dataType": "Historial de visualización", "subjective_notes": "" }
+          },
+          {
+            "id": "hbomax-full-9",
+            "title": "Furia - T1, E4: El precio de la paz",
+            "artists": "HBO Max",
+            "awareness": 1,
+            "timeBucket": "4w",
+            "platformId": 7,
+            "tags": [ "Series", "Español", "Televisión", "Compartido", "Consciente", "Humor", "Humor negro" ],
+            "details": { "sourceFile": "hbomax.com", "dataType": "Historial de visualización", "subjective_notes": "" }
+          },
+          {
+            "id": "hbomax-full-10",
+            "title": "Furia - T1, E5: Riesgos calculados",
+            "artists": "HBO Max",
+            "awareness": 1,
+            "timeBucket": "4w",
+            "platformId": 7,
+            "tags": [ "Series", "Español", "Televisión", "Compartido", "Consciente", "Humor", "Humor negro" ],
+            "details": { "sourceFile": "hbomax.com", "dataType": "Historial de visualización", "subjective_notes": "" }
+          },
+          {
+            "id": "hbomax-full-11",
+            "title": "Furia - T1, E6: Un mal necesario",
+            "artists": "HBO Max",
+            "awareness": 1,
+            "timeBucket": "4w",
+            "platformId": 7,
+            "tags": [ "Series", "Español", "Televisión", "Compartido", "Consciente", "Humor", "Humor negro" ],
+            "details": { "sourceFile": "hbomax.com", "dataType": "Historial de visualización", "subjective_notes": "" }
+          },
+          {
+            "id": "hbomax-full-12",
+            "title": "Furia - T1, E7: La caja de Pandora",
+            "artists": "HBO Max",
+            "awareness": 1,
+            "timeBucket": "4w",
+            "platformId": 7,
+            "tags": [ "Series", "Español", "Televisión", "Compartido", "Consciente", "Humor", "Humor negro" ],
+            "details": { "sourceFile": "hbomax.com", "dataType": "Historial de visualización", "subjective_notes": "" }
+          },
+          {
+            "id": "hbomax-full-13",
+            "title": "Furia - T1, E8: Esperanzas",
+            "artists": "HBO Max",
+            "awareness": 1,
+            "timeBucket": "4w",
+            "platformId": 7,
+            "tags": [ "Series", "Español", "Televisión", "Compartido", "Consciente", "Humor", "Humor negro" ],
+            "details": { "sourceFile": "hbomax.com", "dataType": "Historial de visualización", "subjective_notes": "" }
+          },
+          {
+            "id": "hbomax-full-14",
+            "title": "Cuando nadie nos ve - T1, E1: Primera parte",
+            "artists": "HBO Max",
+            "awareness": 1,
+            "timeBucket": "6m",
+            "platformId": 7,
+            "tags": [ "Series", "Español", "Televisión", "Compartido", "Consciente" ],
+            "details": { "sourceFile": "hbomax.com", "dataType": "Historial de visualización", "subjective_notes": "" }
+          },
+          {
+            "id": "hbomax-full-15",
+            "title": "Cuando nadie nos ve - T1, E2: Segunda parte",
+            "artists": "HBO Max",
+            "awareness": 1,
+            "timeBucket": "6m",
+            "platformId": 7,
+            "tags": [ "Series", "Español", "Televisión", "Compartido", "Consciente" ],
+            "details": { "sourceFile": "hbomax.com", "dataType": "Historial de visualización", "subjective_notes": "" }
+          },
+          {
+            "id": "hbomax-full-16",
+            "title": "Chowder - T1, E1: El pastel de eructos / La palifruta",
+            "artists": "HBO Max",
+            "awareness": 1,
+            "timeBucket": "6m",
+            "platformId": 7,
+            "tags": [ "Series", "Animación", "2D", "Español", "Televisión", "Compartido", "Consciente", "Humor" ],
+            "details": { "sourceFile": "hbomax.com", "dataType": "Historial de visualización", "subjective_notes": "" }
+          },
+          {
+            "id": "hbomax-full-17",
+            "title": "Chowder - T1, E2: El bigotefresco / La novia de Mung",
+            "artists": "HBO Max",
+            "awareness": 1,
+            "timeBucket": "6m",
+            "platformId": 7,
+            "tags": [ "Series", "Animación", "2D", "Español", "Televisión", "Compartido", "Consciente", "Humor" ],
+            "details": { "sourceFile": "hbomax.com", "dataType": "Historial de visualización", "subjective_notes": "" }
+          },
+          {
+            "id": "hbomax-full-18",
+            "title": "Chowder - T1, E3: Mahjongg / ¡Cuidado con el Dedalón!",
+            "artists": "HBO Max",
+            "awareness": 1,
+            "timeBucket": "6m",
+            "platformId": 7,
+            "tags": [ "Series", "Animación", "2D","Español", "Televisión", "Compartido", "Consciente", "Humor" ],
+            "details": { "sourceFile": "hbomax.com", "dataType": "Historial de visualización", "subjective_notes": "" }
+          },
+          {
+            "id": "hbomax-full-19",
+            "title": "Chowder - T1, E4: A su servicio / El señor Fugu",
+            "artists": "HBO Max",
+            "awareness": 1,
+            "timeBucket": "6m",
+            "platformId": 7,
+            "tags": [ "Series", "Animación","2D", "Español", "Televisión", "Compartido", "Consciente", "Humor" ],
+            "details": { "sourceFile": "hbomax.com", "dataType": "Historial de visualización", "subjective_notes": "" }
+          },
+          {
+            "id": "hbomax-full-20",
+            "title": "Lo que hacemos en las sombras - T1, E1: Piloto",
+            "artists": "HBO Max",
+            "awareness": 1,
+            "timeBucket": "6m",
+            "platformId": 7,
+            "tags": [ "Series", "Comedia", "Inglés", "Televisión", "Compartido", "Consciente", "Sit-com" ],
+            "details": { "sourceFile": "hbomax.com", "dataType": "Historial de visualización", "subjective_notes": "" }
+          },
+          {
+            "id": "hbomax-full-21",
+            "title": "Lo que hacemos en las sombras - T1, E2: El ayuntamiento",
+            "artists": "HBO Max",
+            "awareness": 1,
+            "timeBucket": "6m",
+            "platformId": 7,
+            "tags": [ "Series", "Comedia", "Inglés", "Televisión", "Compartido", "Consciente", "Sit-com"  ],
+            "details": { "sourceFile": "hbomax.com", "dataType": "Historial de visualización", "subjective_notes": "" }
+          },
+          {
+            "id": "hbomax-full-22",
+            "title": "Lo que hacemos en las sombras - T1, E3: La pelea de hombres lobo",
+            "artists": "HBO Max",
+            "awareness": 1,
+            "timeBucket": "6m",
+            "platformId": 7,
+            "tags": [ "Series", "Comedia", "Inglés", "Televisión", "Compartido", "Consciente", "Sit-com"  ],
+            "details": { "sourceFile": "hbomax.com", "dataType": "Historial de visualización", "subjective_notes": "" }
+          },
+          {
+            "id": "hbomax-full-23",
+            "title": "Lo que hacemos en las sombras - T1, E4: La alianza",
+            "artists": "HBO Max",
+            "awareness": 1,
+            "timeBucket": "6m",
+            "platformId": 7,
+            "tags": [ "Series", "Comedia", "Inglés", "Televisión", "Compartido", "Consciente", "Sit-com"  ],
+            "details": { "sourceFile": "hbomax.com", "dataType": "Historial de visualización", "subjective_notes": "" }
+          },
+          {
+            "id": "hbomax-full-24",
+            "title": "Lo que hacemos en las sombras - T1, E5: El control del rebaño",
+            "artists": "HBO Max",
+            "awareness": 1,
+            "timeBucket": "6m",
+            "platformId": 7,
+            "tags": [ "Series", "Comedia", "Inglés", "Televisión", "Compartido", "Consciente", "Sit-com"  ],
+            "details": { "sourceFile": "hbomax.com", "dataType": "Historial de visualización", "subjective_notes": "" }
+          },
+          {
+            "id": "hbomax-full-25",
+            "title": "Lo que hacemos en las sombras - T1, E6: El Barón se va de juerga",
+            "artists": "HBO Max",
+            "awareness": 1,
+            "timeBucket": "6m",
+            "platformId": 7,
+            "tags": [ "Series", "Comedia", "Inglés", "Televisión", "Compartido", "Consciente", "Sit-com"  ],
+            "details": { "sourceFile": "hbomax.com", "dataType": "Historial de visualización", "subjective_notes": "" }
+          },
+          {
+            "id": "hbomax-full-26",
+            "title": "Lo que hacemos en las sombras - T1, E7: El juicio",
+            "artists": "HBO Max",
+            "awareness": 1,
+            "timeBucket": "6m",
+            "platformId": 7,
+            "tags": [ "Series", "Comedia", "Inglés", "Televisión", "Compartido", "Consciente", "Sit-com"  ],
+            "details": { "sourceFile": "hbomax.com", "dataType": "Historial de visualización", "subjective_notes": "" }
+          },
+          {
+            "id": "hbomax-full-27",
+            "title": "Lo que hacemos en las sombras - T1, E8: Ciudadanía",
+            "artists": "HBO Max",
+            "awareness": 1,
+            "timeBucket": "6m",
+            "platformId": 7,
+            "tags": [ "Series", "Comedia", "Inglés", "Televisión", "Compartido", "Consciente", "Sit-com"  ],
+            "details": { "sourceFile": "hbomax.com", "dataType": "Historial de visualización", "subjective_notes": "" }
+          },
+          {
+            "id": "hbomax-full-28",
+            "title": "Lo que hacemos en las sombras - T1, E9: La Orgia",
+            "artists": "HBO Max",
+            "awareness": 1,
+            "timeBucket": "6m",
+            "platformId": 7,
+            "tags": [ "Series", "Comedia", "Inglés", "Televisión", "Compartido", "Consciente", "Sit-com"  ],
+            "details": { "sourceFile": "hbomax.com", "dataType": "Historial de visualización", "subjective_notes": "" }
+          },
+          {
+            "id": "hbomax-full-29",
+            "title": "Lo que hacemos en las sombras - T1, E10: Linaje",
+            "artists": "HBO Max",
+            "awareness": 1,
+            "timeBucket": "6m",
+            "platformId": 7,
+            "tags": [ "Series", "Comedia", "Inglés", "Televisión", "Compartido", "Consciente", "Sit-com"  ],
+            "details": { "sourceFile": "hbomax.com", "dataType": "Historial de visualización", "subjective_notes": "" }
+          },
+          {
+            "id": "hbomax-full-30",
+            "title": "Lo que hacemos en las sombras - T2, E1: Resurrección",
+            "artists": "HBO Max",
+            "awareness": 1,
+            "timeBucket": "6m",
+            "platformId": 7,
+            "tags": [ "Series", "Comedia", "Inglés", "Televisión", "Compartido", "Consciente", "Sit-com"  ],
+            "details": { "sourceFile": "hbomax.com", "dataType": "Historial de visualización", "subjective_notes": "" }
+          },
+          {
+            "id": "hbomax-full-31",
+            "title": "Lo que hacemos en las sombras - T2, E2: Fantasmas",
+            "artists": "HBO Max",
+            "awareness": 1,
+            "timeBucket": "6m",
+            "platformId": 7,
+            "tags": [ "Series", "Comedia", "Inglés", "Televisión", "Compartido", "Consciente", "Sit-com"  ],
+            "details": { "sourceFile": "hbomax.com", "dataType": "Historial de visualización", "subjective_notes": "" }
+          },
+          {
+            "id": "hbomax-full-32",
+            "title": "Lo que hacemos en las sombras - T2, E3: La fiesta de la Super Bowl",
+            "artists": "HBO Max",
+            "awareness": 1,
+            "timeBucket": "6m",
+            "platformId": 7,
+            "tags": [ "Series", "Comedia", "Inglés", "Televisión", "Compartido", "Consciente", "Sit-com"  ],
+            "details": { "sourceFile": "hbomax.com", "dataType": "Historial de visualización", "subjective_notes": "" }
+          },
+          {
+            "id": "hbomax-full-33",
+            "title": "Lo que hacemos en las sombras - T2, E4: La maldición",
+            "artists": "HBO Max",
+            "awareness": 1,
+            "timeBucket": "6m",
+            "platformId": 7,
+            "tags": [ "Series", "Comedia", "Inglés", "Televisión", "Compartido", "Consciente", "Sit-com"  ],
+            "details": { "sourceFile": "hbomax.com", "dataType": "Historial de visualización", "subjective_notes": "" }
+          },
+          {
+            "id": "hbomax-full-34",
+            "title": "Lo que hacemos en las sombras - T2, E5: Colin se independiza",
+            "artists": "HBO Max",
+            "awareness": 1,
+            "timeBucket": "6m",
+            "platformId": 7,
+            "tags": [ "Series", "Comedia", "Inglés", "Televisión", "Compartido", "Consciente", "Sit-com"  ],
+            "details": { "sourceFile": "hbomax.com", "dataType": "Historial de visualización", "subjective_notes": "" }
+          },
+          {
+            "id": "hbomax-full-35",
+            "title": "Lo que hacemos en las sombras - T2, E6: Huida",
+            "artists": "HBO Max",
+            "awareness": 1,
+            "timeBucket": "6m",
+            "platformId": 7,
+            "tags": [ "Series", "Comedia", "Inglés", "Televisión", "Compartido", "Consciente", "Sit-com"  ],
+            "details": { "sourceFile": "hbomax.com", "dataType": "Historial de visualización", "subjective_notes": "" }
+          },
+          {
+            "id": "hbomax-full-36",
+            "title": "Lo que hacemos en las sombras - T2, E7: El regreso",
+            "artists": "HBO Max",
+            "awareness": 1,
+            "timeBucket": "6m",
+            "platformId": 7,
+            "tags": [ "Series", "Comedia", "Inglés", "Televisión", "Compartido", "Consciente", "Sit-com" ],
+            "details": { "sourceFile": "hbomax.com", "dataType": "Historial de visualización", "subjective_notes": "" }
+          },
+          {
+            "id": "hbomax-full-37",
+            "title": "Lo que hacemos en las sombras - T2, E8: Colaboración",
+            "artists": "HBO Max",
+            "awareness": 1,
+            "timeBucket": "6m",
+            "platformId": 7,
+            "tags": [ "Series", "Comedia", "Inglés", "Televisión", "Compartido", "Consciente", "Sit-com"  ],
+            "details": { "sourceFile": "hbomax.com", "dataType": "Historial de visualización", "subjective_notes": "" }
+          },
+          {
+            "id": "hbomax-full-38",
+            "title": "Lo que hacemos en las sombras - T2, E9: Brujas",
+            "artists": "HBO Max",
+            "awareness": 1,
+            "timeBucket": "6m",
+            "platformId": 7,
+            "tags": [ "Series", "Comedia", "Inglés", "Televisión", "Compartido", "Consciente", "Sit-com"  ],
+            "details": { "sourceFile": "hbomax.com", "dataType": "Historial de visualización", "subjective_notes": "" }
+          },
+          {
+            "id": "hbomax-full-39",
+            "title": "Lo que hacemos en las sombras - T2, E10: El teatro de los vampiros de Nouveau",
+            "artists": "HBO Max",
+            "awareness": 1,
+            "timeBucket": "6m",
+            "platformId": 7,
+            "tags": [ "Series", "Comedia", "Inglés", "Televisión", "Compartido", "Consciente", "Sit-com"  ],
+            "details": { "sourceFile": "hbomax.com", "dataType": "Historial de visualización", "subjective_notes": "" }
+          },
+          {
+            "id": "hbomax-full-40",
+            "title": "Lo que hacemos en las sombras - T3, E1: El prisionero",
+            "artists": "HBO Max",
+            "awareness": 1,
+            "timeBucket": "6m",
+            "platformId": 7,
+            "tags": [ "Series", "Comedia", "Inglés", "Televisión", "Compartido", "Consciente", "Sit-com"  ],
+            "details": { "sourceFile": "hbomax.com", "dataType": "Historial de visualización", "subjective_notes": "" }
+          },
+          {
+            "id": "hbomax-full-41",
+            "title": "Lo que hacemos en las sombras - T3, E2: La capa de la duplicidad",
+            "artists": "HBO Max",
+            "awareness": 1,
+            "timeBucket": "6m",
+            "platformId": 7,
+            "tags": [ "Series", "Comedia", "Inglés", "Televisión", "Compartido", "Consciente", "Sit-com"  ],
+            "details": { "sourceFile": "hbomax.com", "dataType": "Historial de visualización", "subjective_notes": "" }
+          },
+          {
+            "id": "hbomax-full-42",
+            "title": "Lo que hacemos en las sombras - T3, E3: Gail",
+            "artists": "HBO Max",
+            "awareness": 1,
+            "timeBucket": "6m",
+            "platformId": 7,
+            "tags": [ "Series", "Comedia", "Inglés", "Televisión", "Compartido", "Consciente", "Sit-com"  ],
+            "details": { "sourceFile": "hbomax.com", "dataType": "Historial de visualización", "subjective_notes": "" }
+          },
+          {
+            "id": "hbomax-full-43",
+            "title": "Lo que hacemos en las sombras - T3, E4: El casino",
+            "artists": "HBO Max",
+            "awareness": 1,
+            "timeBucket": "6m",
+            "platformId": 7,
+            "tags": [ "Series", "Comedia", "Inglés", "Televisión", "Compartido", "Consciente", "Sit-com"  ],
+            "details": { "sourceFile": "hbomax.com", "dataType": "Historial de visualización", "subjective_notes": "" }
+          },
+          {
+            "id": "hbomax-full-44",
+            "title": "Lo que hacemos en las sombras - T3, E5: La Cámara de los Juicios",
+            "artists": "HBO Max",
+            "awareness": 1,
+            "timeBucket": "6m",
+            "platformId": 7,
+            "tags": [ "Series", "Comedia", "Inglés", "Televisión", "Compartido", "Consciente", "Sit-com"  ],
+            "details": { "sourceFile": "hbomax.com", "dataType": "Historial de visualización", "subjective_notes": "" }
+          },
+          {
+            "id": "hbomax-full-45",
+            "title": "Lo que hacemos en las sombras - T3, E6: El escape",
+            "artists": "HBO Max",
+            "awareness": 1,
+            "timeBucket": "6m",
+            "platformId": 7,
+            "tags": [ "Series", "Comedia", "Inglés", "Televisión", "Compartido", "Consciente", "Sit-com"  ],
+            "details": { "sourceFile": "hbomax.com", "dataType": "Historial de visualización", "subjective_notes": "" }
+          },
+          {
+            "id": "hbomax-full-46",
+            "title": "Lo que hacemos en las sombras - T3, E7: La sirena",
+            "artists": "HBO Max",
+            "awareness": 1,
+            "timeBucket": "6m",
+            "platformId": 7,
+            "tags": [ "Series", "Comedia", "Inglés", "Televisión", "Compartido", "Consciente", "Sit-com"  ],
+            "details": { "sourceFile": "hbomax.com", "dataType": "Historial de visualización", "subjective_notes": "" }
+          },
+          {
+            "id": "hbomax-full-47",
+            "title": "Lo que hacemos en las sombras - T3, E8: El centro de bienestar",
+            "artists": "HBO Max",
+            "awareness": 1,
+            "timeBucket": "6m",
+            "platformId": 7,
+            "tags": [ "Series", "Comedia", "Inglés", "Televisión", "Compartido", "Consciente", "Sit-com"  ],
+            "details": { "sourceFile": "hbomax.com", "dataType": "Historial de visualización", "subjective_notes": "" }
+          },
+          {
+            "id": "hbomax-full-48",
+            "title": "Lo que hacemos en las sombras - T3, E9: Un adiós",
+            "artists": "HBO Max",
+            "awareness": 1,
+            "timeBucket": "6m",
+            "platformId": 7,
+            "tags": [ "Series", "Comedia", "Inglés", "Televisión", "Compartido", "Consciente", "Sit-com"  ],
+            "details": { "sourceFile": "hbomax.com", "dataType": "Historial de visualización", "subjective_notes": "" }
+          },
+          {
+            "id": "hbomax-full-49",
+            "title": "Lo que hacemos en las sombras - T3, E10: El retrato",
+            "artists": "HBO Max",
+            "awareness": 1,
+            "timeBucket": "6m",
+            "platformId": 7,
+            "tags": [ "Series", "Comedia", "Inglés", "Televisión", "Compartido", "Consciente", "Sit-com"  ],
+            "details": { "sourceFile": "hbomax.com", "dataType": "Historial de visualización", "subjective_notes": "" }
+          },
+          {
+            "id": "hbomax-full-50",
+            "title": "Lo que hacemos en las sombras - T4, E1: Reencuentro",
+            "artists": "HBO Max",
+            "awareness": 1,
+            "timeBucket": "6m",
+            "platformId": 7,
+            "tags": [ "Series", "Comedia", "Inglés", "Televisión", "Compartido", "Consciente", "Sit-com"  ],
+            "details": { "sourceFile": "hbomax.com", "dataType": "Historial de visualización", "subjective_notes": "" }
+          },
+          {
+            "id": "hbomax-full-51",
+            "title": "Lo que hacemos en las sombras - T4, E2: La lámpara",
+            "artists": "HBO Max",
+            "awareness": 1,
+            "timeBucket": "4w",
+            "platformId": 7,
+            "tags": [ "Series", "Comedia", "Inglés", "Televisión", "Compartido", "Consciente", "Sit-com"  ],
+            "details": { "sourceFile": "hbomax.com", "dataType": "Historial de visualización", "subjective_notes": "" }
+          },
+          {
+            "id": "hbomax-full-52",
+            "title": "Lo que hacemos en las sombras - T4, E3: La gran inauguración",
+            "artists": "HBO Max",
+            "awareness": 1,
+            "timeBucket": "4w",
+            "platformId": 7,
+            "tags": [ "Series", "Comedia", "Inglés", "Televisión", "Compartido", "Consciente", "Sit-com"  ],
+            "details": { "sourceFile": "hbomax.com", "dataType": "Historial de visualización", "subjective_notes": "" }
+          },
+          {
+            "id": "hbomax-full-53",
+            "title": "Lo que hacemos en las sombras - T4, E4: El mercado nocturno",
+            "artists": "HBO Max",
+            "awareness": 1,
+            "timeBucket": "4w",
+            "platformId": 7,
+            "tags": [ "Series", "Comedia", "Inglés", "Televisión", "Compartido", "Consciente", "Sit-com"  ],
+            "details": { "sourceFile": "hbomax.com", "dataType": "Historial de visualización", "subjective_notes": "" }
+          },
+          {
+            "id": "hbomax-full-54",
+            "title": "Lo que hacemos en las sombras - T4, E5: Escuela privada",
+            "artists": "HBO Max",
+            "awareness": 1,
+            "timeBucket": "4w",
+            "platformId": 7,
+            "tags": [ "Series", "Comedia", "Inglés", "Televisión", "Compartido", "Consciente", "Sit-com"  ],
+            "details": { "sourceFile": "hbomax.com", "dataType": "Historial de visualización", "subjective_notes": "" }
+          },
+          {
+            "id": "hbomax-full-55",
+            "title": "Lo que hacemos en las sombras - T4, E6: La boda",
+            "artists": "HBO Max",
+            "awareness": 1,
+            "timeBucket": "4w",
+            "platformId": 7,
+            "tags": [ "Series", "Comedia", "Inglés", "Televisión", "Compartido", "Consciente", "Sit-com"  ],
+            "details": { "sourceFile": "hbomax.com", "dataType": "Historial de visualización", "subjective_notes": "" }
+          },
+          {
+            "id": "hbomax-full-56",
+            "title": "Lo que hacemos en las sombras - T4, E7: Piñata",
+            "artists": "HBO Max",
+            "awareness": 1,
+            "timeBucket": "4w",
+            "platformId": 7,
+            "tags": [ "Series", "Comedia", "Inglés", "Televisión", "Compartido", "Consciente", "Sit-com"  ],
+            "details": { "sourceFile": "hbomax.com", "dataType": "Historial de visualización", "subjective_notes": "" }
+          },
+      
         
           {
             "id": "google-bookmark-6m-google-arts--culture",
@@ -11641,7 +12202,7 @@
           },
           {
             "id": "google-bookmark-4w-6-short-film-find-my-phone---subtitled---youtube",
-            "title": "(6) Short Film: Find my Phone - Subtitled - YouTube",
+            "title": "Short Film: Find my Phone - Subtitled - YouTube",
             "artists": "youtube.com",
             "awareness": 1,
             "timeBucket": "4w",
@@ -11662,7 +12223,7 @@
           },
           {
             "id": "google-bookmark-4w-6-the-power-of-privacy--documentary-film---youtube",
-            "title": "(6) The Power of Privacy – documentary film - YouTube",
+            "title": "The Power of Privacy – documentary film - YouTube",
             "artists": "youtube.com",
             "awareness": 1,
             "timeBucket": "4w",
@@ -11683,7 +12244,7 @@
           },
           {
             "id": "google-bookmark-4w-6-do-not-track---doc---youtube",
-            "title": "(6) Do Not Track - Doc - YouTube",
+            "title": "Do Not Track - Doc - YouTube",
             "artists": "youtube.com",
             "awareness": 1,
             "timeBucket": "4w",
@@ -11910,7 +12471,8 @@
               "dataType": "Marcador de Google",
               
               "url": "https://codepen.io/juliangarnier/pen/ogXLddR",
-              "ÚltimaModificación": "2025-06-12"
+              "ÚltimaModificación": "2025-06-12",
+              "subjective_notes": "A veces me meto en codepen para buscar inspiración de componentes o código para proyectos."
             }
           },
           {
@@ -11931,7 +12493,8 @@
               "dataType": "Marcador de Google",
               
               "url": "http://localhost:3000/#about",
-              "ÚltimaModificación": "2025-08-01"
+              "ÚltimaModificación": "2025-08-01",
+              "subjective_notes": "Estoy ayudando a una amiga a montar su portfolio, es un proyecto divertido y creativo."
             }
           },
           {
@@ -11952,7 +12515,8 @@
               "dataType": "Marcador de Google",
               
               "url": "https://n-e-r-v-o-u-s.com/projects/albums/new-balance-midsoles/",
-              "ÚltimaModificación": "2025-08-05"
+              "ÚltimaModificación": "2025-08-05",
+              "subjective_notes": "Me gusta mucho el trabajo de Nervous System, siempre están explorando nuevas formas de diseño y fabricación."
             }
           },
     
@@ -11974,7 +12538,8 @@
               "dataType": "Marcador de Google",
               
               "url": "https://calmoura.com/es/pages/tarot-card-meanings-cheat-sheet?srsltid=AfmBOoreI_NQvUBfDw2mYbPciKbfdqFjIWE3dCf8bIsmYWkP4fuQ7y06#920643c8-637b-41c1-8640-b99d82b95dbe",
-              "ÚltimaModificación": "2025-04-25"
+              "ÚltimaModificación": "2025-04-25",
+              "subjective_notes": "He empezado a interesarme por el tarot, me parece una herramienta interesante para la introspección y el autoconocimiento."
             }
           },
           {
@@ -11995,7 +12560,8 @@
               "dataType": "Marcador de Google",
               
               "url": "https://nuwe.io/es/hackathons/caixabank-tech-challenges-round-3",
-              "ÚltimaModificación": "2025-04-25"
+              "ÚltimaModificación": "2025-04-25",
+              "subjective_notes": "Estoy pensando en participar en un hackathon de Nuwe, me parece una buena oportunidad para aprender y conocer gente nueva."
             }
           },
      
@@ -12059,7 +12625,8 @@
               "dataType": "Marcador de Google",
               
               "url": "https://javierriera.com/",
-              "ÚltimaModificación": "2025-04-04"
+              "ÚltimaModificación": "2025-04-04",
+              "subjective_notes": "Me gusta mucho el trabajo de Javier Riera, sus proyecciones geométricas sobre la naturaleza son impresionantes."
             }
           },
           {
@@ -12186,7 +12753,8 @@
               "dataType": "Marcador de Google",
               
               "url": "https://decentraland.org/",
-              "ÚltimaModificación": "2025-04-05"
+              "ÚltimaModificación": "2025-04-05",
+              "subjective_notes": "Me interesa mucho el metaverso y las posibilidades que ofrece para el arte y la creatividad."
             }
           },
           {
@@ -12228,7 +12796,8 @@
               "dataType": "Marcador de Google",
               
               "url": "https://animejs.com/documentation/getting-started",
-              "ÚltimaModificación": "2025-04-10"
+              "ÚltimaModificación": "2025-04-10",
+              "subjective_notes": "Estoy aprendiendo a usar Anime.js para animar elementos en mis proyectos web."
             }
           },
           {
@@ -12249,7 +12818,8 @@
               "dataType": "Marcador de Google",
               
               "url": "https://barba.js.org/docs/getstarted/install/",
-              "ÚltimaModificación": "2025-04-10"
+              "ÚltimaModificación": "2025-04-10",
+              "subjective_notes": "Estoy aprendiendo a usar barba.js para crear transiciones suaves entre páginas en mis proyectos web."
             }
           },
           {
@@ -12270,7 +12840,8 @@
               "dataType": "Marcador de Google",
               
               "url": "https://isidisi.notion.site/Lenguajes-de-programaci-n-14a26895bd8480eeae45fbb68685e63f",
-              "ÚltimaModificación": "2025-04-10"
+              "ÚltimaModificación": "2025-04-10",
+              "subjective_notes": "Estos son  apuntes de información sobre diferentes lenguajes de programación para decidir cuál aprender a continuación."
             }
           },
           {
@@ -12291,7 +12862,8 @@
               "dataType": "Marcador de Google",
               
               "url": "https://mokkapps.de/vue-tips/scroll-to-top-when-navigating-to-a-new-route",
-              "ÚltimaModificación": "2025-04-10"
+              "ÚltimaModificación": "2025-04-10",
+              "subjective_notes": "Estoy aprendiendo Vue.js y este tip me ha sido muy útil para mejorar la experiencia de usuario en mis proyectos."
             }
           },
           {
@@ -12375,7 +12947,8 @@
               "dataType": "Marcador de Google",
               
               "url": "https://heurio.app/export/YzFCUEhMcGtUbDlETFZRRzdUekxDZz09",
-              "ÚltimaModificación": "2025-05-06"
+              "ÚltimaModificación": "2025-05-06",
+              "subjective_notes": "Heurio es una herramienta para evaluar la accesibilidad y usabilidad de sitios web, me parece muy útil para mejorar mis proyectos."
             }
           },
           {
@@ -12417,7 +12990,8 @@
               "dataType": "Marcador de Google",
               
               "url": "https://www.ubicuostudio.com/es/filosofia-del-software-es/processing-documental-codigo-creativo/",
-              "ÚltimaModificación": "2025-04-28"
+              "ÚltimaModificación": "2025-04-28",
+              "subjective_notes": "Me gusta mucho Processing, es una herramienta muy potente para el arte generativo y la programación creativa."
             }
           },
           {
@@ -12438,7 +13012,8 @@
               "dataType": "Marcador de Google",
               
               "url": "https://www.lacasaencendida.es/cultura/master-new-media-3a-edicion",
-              "ÚltimaModificación": "2025-04-28"
+              "ÚltimaModificación": "2025-04-28",
+              "subjective_notes": "Me gustaría hacer este máster en el futuro, me parece una oportunidad única para aprender sobre nuevas tecnologías y su aplicación en el arte."
             }
           },
           {
@@ -12650,7 +13225,8 @@
               "dataType": "Marcador de Google",
               
               "url": "https://www.adafruit.com/",
-              "ÚltimaModificación": "2025-03-26"
+              "ÚltimaModificación": "2025-03-26",
+              "subjective_notes": "Adafruit es una tienda online de electrónica y kits DIY, me gusta mucho su filosofía de hacer la tecnología accesible para todos."
             }
           },
           {
@@ -12713,7 +13289,8 @@
               "dataType": "Marcador de Google",
               
               "url": "https://coggle.it/",
-              "ÚltimaModificación": "2025-06-03"
+              "ÚltimaModificación": "2025-06-03",
+              "subjective_notes": "Coggle es una herramienta para crear mapas mentales y diagramas de flujo de forma colaborativa, me parece muy útil para organizar ideas y proyectos."
             }
           },
           {
@@ -12797,7 +13374,8 @@
               "dataType": "Marcador de Google",
               
               "url": "https://design-toolkit.recursos.uoc.edu/es/",
-              "ÚltimaModificación": "2025-06-03"
+              "ÚltimaModificación": "2025-06-03",
+              "subjective_notes": "Este recurso me ha sido muy útil para aprender sobre diseño centrado en el usuario y metodologías de diseño."
             }
           },
           {
@@ -12818,7 +13396,8 @@
               "dataType": "Marcador de Google",
               
               "url": "https://aulavirtual38.educa.madrid.org/esd.madrid/course/index.php?categoryid=95",
-              "ÚltimaModificación": "2025-06-14"
+              "ÚltimaModificación": "2025-06-14",
+              "subjective_notes": "Aquí tengo apuntes de las asignaturas que he cursado del máster, me gusta tenerlos organizados para poder consultarlos cuando los necesito."
             }
           },
           {
@@ -12860,7 +13439,8 @@
               "dataType": "Marcador de Google",
               
               "url": "https://interactjs.io/",
-              "ÚltimaModificación": "2025-05-27"
+              "ÚltimaModificación": "2025-05-27",
+              "subjective_notes": "Interact.js es una librería de JavaScript para crear interfaces de usuario interactivas, me ha sido muy útil para mis proyectos web."
             }
           },
           {
@@ -12881,7 +13461,8 @@
               "dataType": "Marcador de Google",
               
               "url": "https://www.mockaroo.com/",
-              "ÚltimaModificación": "2025-05-27"
+              "ÚltimaModificación": "2025-05-27",
+              "subjective_notes": "Mockaroo es una herramienta para generar datos de prueba de forma aleatoria, me ha sido muy útil para probar mis aplicaciones y bases de datos."
             }
           },
           {
@@ -12965,7 +13546,8 @@
               "dataType": "Marcador de Google",
               
               "url": "https://motion.zajno.com/",
-              "ÚltimaModificación": "2025-05-27"
+              "ÚltimaModificación": "2025-05-27",
+              "subjective_notes": "Este recurso me ha sido muy útil para aprender sobre los principios de la animación y el diseño de motion graphics."
             }
           },
           {
@@ -12986,7 +13568,8 @@
               "dataType": "Marcador de Google",
               
               "url": "https://caniuse.com/",
-              "ÚltimaModificación": "2025-05-27"
+              "ÚltimaModificación": "2025-05-27",
+              "subjective_notes": "Can I use es una herramienta esencial para desarrolladores web, me ayuda a verificar la compatibilidad de las características de CSS, HTML5 y JavaScript en diferentes navegadores."
             }
           },
           {
@@ -13007,7 +13590,8 @@
               "dataType": "Marcador de Google",
               
               "url": "https://www.cssmatic.com/box-shadow",
-              "ÚltimaModificación": "2025-05-27"
+              "ÚltimaModificación": "2025-05-27",
+              "subjective_notes": "CSSmatic es una herramienta muy útil para generar código CSS de forma visual, me ha facilitado mucho el trabajo de diseño web."
             }
           },
     
@@ -13134,7 +13718,8 @@
               "dataType": "Marcador de Google",
               
               "url": "https://usableyaccesible.com/recurso_misvalidadores.php?v=4",
-              "ÚltimaModificación": "2025-05-27"
+              "ÚltimaModificación": "2025-05-27",
+              "subjective_notes": "Este recurso me ha sido muy útil para aprender sobre accesibilidad y usabilidad web, me ayuda a validar mis proyectos y asegurarme de que son accesibles para todos los usuarios."
             }
           },
           {
@@ -13155,7 +13740,8 @@
               "dataType": "Marcador de Google",
               
               "url": "https://www.typeitjs.com/",
-              "ÚltimaModificación": "2025-05-29"
+              "ÚltimaModificación": "2025-05-29",
+              "subjective_notes": "TypeIt es una librería de JavaScript para crear efectos de máquina de escribir, me ha sido muy útil para añadir interactividad y dinamismo a mis proyectos web."
             }
           },
           {
@@ -13176,7 +13762,8 @@
               "dataType": "Marcador de Google",
               
               "url": "https://www.framer.com/motion/",
-              "ÚltimaModificación": "2025-05-27"
+              "ÚltimaModificación": "2025-05-27",
+              "subjective_notes": "Framer es una herramienta de diseño y prototipado que permite a los desarrolladores crear interfaces interactivas de forma rápida y sencilla. Me ha sido muy útil para mis proyectos de diseño web."
             }
           },
           {
@@ -13218,7 +13805,8 @@
               "dataType": "Marcador de Google",
               
               "url": "https://gsap.com/ui/",
-              "ÚltimaModificación": "2025-08-20"
+              "ÚltimaModificación": "2025-08-20",
+              "subjective_notes": "GSAP es una librería de animación muy potente y versátil, me ha sido muy útil para crear animaciones complejas y fluidas en mis proyectos web."
             }
           },
           {
@@ -13239,7 +13827,8 @@
               "dataType": "Marcador de Google",
               
               "url": "https://pixijs.com/8.x/examples/basic/container",
-              "ÚltimaModificación": "2025-05-27"
+              "ÚltimaModificación": "2025-05-27",
+              "subjective_notes": "PixiJS es una librería de renderizado 2D muy potente, me ha sido muy útil para crear gráficos y animaciones en mis proyectos web."
             }
           },
 
@@ -13261,7 +13850,8 @@
               "dataType": "Marcador de Google",
               
               "url": "https://fakinstudio.com/en",
-              "ÚltimaModificación": "2025-05-27"
+              "ÚltimaModificación": "2025-05-27",
+              "subjective_notes": "Fakin Studio es un estudio de diseño y desarrollo web que me inspira por su enfoque creativo y su atención al detalle."
             }
           },
           {
@@ -13303,7 +13893,8 @@
               "dataType": "Marcador de Google",
               
               "url": "https://marianopascual.me/",
-              "ÚltimaModificación": "2025-05-27"
+              "ÚltimaModificación": "2025-05-27",
+              "subjective_notes": "El portfolio de Mariano Pascual me inspira por su enfoque creativo y su atención al detalle en el diseño web."
             }
           },
           {
@@ -13471,7 +14062,8 @@
               "dataType": "Marcador de Google",
               
               "url": "https://icones.js.org/collection/pixelarticons",
-              "ÚltimaModificación": "2025-07-28"
+              "ÚltimaModificación": "2025-07-28",
+              "subjective_notes": "Pixel Art Icons es una colección de iconos en estilo pixel art, me ha sido muy útil para añadir un toque retro y divertido a mis proyectos web."
             }
           },
           {
@@ -13513,7 +14105,8 @@
               "dataType": "Marcador de Google",
               
               "url": "https://codesandbox.io/p/sandbox/w0klzql985?file=%2Fsrc%2FApp.vue%3A20%2C5",
-              "ÚltimaModificación": "2025-06-12"
+              "ÚltimaModificación": "2025-06-12",
+              "subjective_notes": "Este recurso me ha sido muy útil para aprender sobre componentes en Vue.js y cómo estructurar una aplicación web de manera eficiente."
             }
           },
           {
@@ -13534,7 +14127,8 @@
               "dataType": "Marcador de Google",
               
               "url": "https://www.realtimecolors.com/?colors=e1f9f0-020806-26c08c-5229c4-08aabf&fonts=Inter-Inter",
-              "ÚltimaModificación": "2024-11-13"
+              "ÚltimaModificación": "2024-11-13",
+              "subjective_notes": "Realtime Colors es una herramienta muy útil para diseñadores web, me ayuda a crear paletas de colores accesibles y armoniosas para mis proyectos."
             }
           },
           
@@ -13556,7 +14150,8 @@
               "dataType": "Marcador de Google",
               
               "url": "https://lawsofux.com/",
-              "ÚltimaModificación": "2025-05-27"
+              "ÚltimaModificación": "2025-05-27",
+              "subjective_notes": "Laws of UX es un recurso esencial para diseñadores y desarrolladores web, me ayuda a entender los principios fundamentales de la experiencia de usuario y aplicarlos en mis proyectos."
             }
           },
           {
@@ -13598,7 +14193,8 @@
               "dataType": "Marcador de Google",
               
               "url": "https://www.npmjs.com/package/vue-drawing-canvas",
-              "ÚltimaModificación": "2025-05-27"
+              "ÚltimaModificación": "2025-05-27",
+              "subjective_notes": "Este recurso me ha sido muy útil para aprender sobre cómo implementar un lienzo de dibujo en una aplicación Vue.js, facilitando la creación de interfaces interactivas."
             }
           },
           {
@@ -13619,7 +14215,8 @@
               "dataType": "Marcador de Google",
               
               "url": "https://piqnt.com/planck.js/",
-              "ÚltimaModificación": "2025-05-27"
+              "ÚltimaModificación": "2025-05-27",
+              "subjective_notes": "Planck.js es un motor de física 2D para JavaScript que me ha sido muy útil para crear simulaciones y juegos interactivos en mis proyectos web."
             }
           },
           
@@ -13642,7 +14239,8 @@
               "dataType": "Marcador de Google",
               
               "url": "https://p5js.org/examples/",
-              "ÚltimaModificación": "2025-05-27"
+              "ÚltimaModificación": "2025-05-27",
+              "subjective_notes": "p5.js es una biblioteca de JavaScript que facilita la creación de gráficos y animaciones interactivas, me ha sido muy útil para mis proyectos creativos."
             }
           },
           {
@@ -13747,7 +14345,8 @@
               "dataType": "Marcador de Google",
               
               "url": "https://60fps.design/",
-              "ÚltimaModificación": "2025-04-28"
+              "ÚltimaModificación": "2025-04-28",
+              "subjective_notes": "60fps es un recurso esencial para diseñadores y desarrolladores web, me ayuda a entender los principios fundamentales de la experiencia de usuario y aplicarlos en mis proyectos."
             }
           },
           {
@@ -13831,7 +14430,8 @@
               "dataType": "Marcador de Google",
               
               "url": "https://pudding.cool/",
-              "ÚltimaModificación": "2025-04-28"
+              "ÚltimaModificación": "2025-04-28",
+              "subjective_notes": "The Pudding es una plataforma que crea visualizaciones de datos interactivas y narrativas, me ha sido muy útil para entender cómo comunicar información compleja de manera efectiva."
             }
           },
           {
@@ -13873,7 +14473,8 @@
               "dataType": "Marcador de Google",
               
               "url": "https://d3js.org/",
-              "ÚltimaModificación": "2025-02-22"
+              "ÚltimaModificación": "2025-02-22",
+              "subjective_notes": "D3.js es una biblioteca de JavaScript para crear visualizaciones de datos dinámicas e interactivas en la web, me ha sido muy útil para mis proyectos de visualización."
             }
           },
           {
@@ -13894,7 +14495,8 @@
               "dataType": "Marcador de Google",
               
               "url": "https://www.rawgraphs.io/",
-              "ÚltimaModificación": "2025-02-22"
+              "ÚltimaModificación": "2025-02-22",
+              "subjective_notes": "RAWGraphs es una herramienta de código abierto para crear visualizaciones de datos personalizadas, me ha sido muy útil para transformar datos complejos en gráficos claros y atractivos."
             }
           },
           {
@@ -13915,7 +14517,8 @@
               "dataType": "Marcador de Google",
               
               "url": "https://www.postgresql.org/",
-              "ÚltimaModificación": "2025-02-22"
+              "ÚltimaModificación": "2025-02-22",
+              "subjective_notes": "PostgreSQL es una base de datos relacional de código abierto que me ha sido muy útil para gestionar y almacenar datos de manera eficiente en mis proyectos."
             }
           },
           {
@@ -13936,7 +14539,8 @@
               "dataType": "Marcador de Google",
               
               "url": "https://codepen.io/VincentGarreau/pen/bGxvQd",
-              "ÚltimaModificación": "2025-02-22"
+              "ÚltimaModificación": "2025-02-22",
+              "subjective_notes": "particles.js es una biblioteca de JavaScript que permite crear efectos visuales de partículas en la web, me ha sido muy útil para añadir interactividad y dinamismo a mis proyectos."
             }
           },
           {
@@ -13957,7 +14561,8 @@
               "dataType": "Marcador de Google",
               
               "url": "https://thecodingtrain.com/",
-              "ÚltimaModificación": "2025-02-22"
+              "ÚltimaModificación": "2025-02-22",
+              "subjective_notes": "The Coding Train es un canal de YouTube que ofrece tutoriales y recursos para aprender programación creativa, me ha sido muy útil para mejorar mis habilidades en JavaScript y p5.js."
             }
           }
         

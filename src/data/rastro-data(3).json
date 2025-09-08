@@ -20734,7 +20734,8 @@
                   "details": {
                     "sourceFile": "inboxzapper.com",
                     "dataType": "Emails sin leer y spam",
-                    "emails": 166
+                    "emails": 166,
+                    "subjective_notes": "Correos de alertas de empleo de LinkedIn, una red social profesional. Me llegan cuando hay nuevas ofertas de trabajo que coinciden con mis preferencias y búsquedas en la plataforma."
                   },
                   "rank": 1
                 },
@@ -20759,7 +20760,8 @@
                   "details": {
                     "sourceFile": "inboxzapper.com",
                     "dataType": "Emails sin leer y spam",
-                    "emails": 150
+                    "emails": 150,
+                    "subjective_notes": "Correos de notificaciones de Medium, una plataforma de blogs donde leo artículos. Me llegan cuando hay nuevos artículos o actualizaciones de los que sigo."
                   },
                   "rank": 2
                 },
@@ -20784,7 +20786,8 @@
                   "details": {
                     "sourceFile": "inboxzapper.com",
                     "dataType": "Emails sin leer y spam",
-                    "emails": 6
+                    "emails": 6,
+                    "subjective_notes": "Correos de notificaciones de Brawl Stars, un juego al que juego en el móvil. Me llegan cuando hay eventos nuevos o actualizaciones del juego, he jugado 2 veces contadas."
                   },
                   "rank": 23
                 },
@@ -20859,7 +20862,8 @@
                   "details": {
                     "sourceFile": "inboxzapper.com",
                     "dataType": "Emails sin leer y spam",
-                    "emails": 7
+                    "emails": 7,
+                    "subjective_notes": "Correos de notificaciones de Live Nation, una plataforma para comprar entradas de conciertos. Me suscribí una vez y desde entonces me llegan estos correos."
                   },
                   "rank": 22
                 },
@@ -20909,7 +20913,8 @@
                   "details": {
                     "sourceFile": "inboxzapper.com",
                     "dataType": "Emails sin leer y spam",
-                    "emails": 84
+                    "emails": 84,
+                    "subjective_notes": "Correos de notificaciones de LinkedIn. Me llegan cuando alguien me envía una invitación para conectar o me escribe un mensaje."
                   },
                   "rank": 3
                 },
@@ -20934,7 +20939,8 @@
                   "details": {
                     "sourceFile": "inboxzapper.com",
                     "dataType": "Emails sin leer y spam",
-                    "emails": 19
+                    "emails": 19,
+                    "subjective_notes": "Correos de notificaciones de Bolt, una app de movilidad. Me suscribí una vez y desde entonces me llegan estos correos."
                   },
                   "rank": 13
                 },
@@ -20984,7 +20990,8 @@
                   "details": {
                     "sourceFile": "inboxzapper.com",
                     "dataType": "Emails sin leer y spam",
-                    "emails": 2
+                    "emails": 2,
+                    "subjective_notes": "Correo de un profesor de la universidad donde hice las prácticas. Me escribió para darme feedback sobre un trabajo que hice."
                   },
                   "rank": 27
                 },
@@ -21009,7 +21016,8 @@
                   "details": {
                     "sourceFile": "inboxzapper.com",
                     "dataType": "Emails sin leer y spam",
-                    "emails": 7
+                    "emails": 7,
+                    "subjective_notes": "Correos de notificaciones de Selekted, una feria de diseño en Bilbao. Me suscribí una vez y desde entonces me llegan estos correos."
                   },
                   "rank": 22
                 },
@@ -21084,7 +21092,8 @@
                   "details": {
                     "sourceFile": "inboxzapper.com",
                     "dataType": "Emails sin leer y spam",
-                    "emails": 60
+                    "emails": 60,
+                    "subjective_notes": "Correos de notificaciones de LinkedIn, una red social profesional. Me llegan notificaciones de ofertas de empleo, mensajes y otras actualizaciones."
                   },
                   "rank": 5
                 },
@@ -21109,7 +21118,8 @@
                   "details": {
                     "sourceFile": "inboxzapper.com",
                     "dataType": "Emails sin leer y spam",
-                    "emails": 5
+                    "emails": 5,
+                    "subjective_notes": "Correos de notificaciones de CaixaForum, un museo en Madrid. Me suscribí una vez y desde entonces me llegan estos correos."
                   },
                   "rank": 24
                 },
@@ -21178,13 +21188,14 @@
                     "Teléfono",
                     "Ordenador",
                     "Correo Electrónico",
-                    "Mensajería",
+                    "Mensajería", "Inspiración",
                     "Comunicación", "Spam"
                   ],
                   "details": {
                     "sourceFile": "inboxzapper.com",
                     "dataType": "Emails sin leer y spam",
-                    "emails": 4
+                    "emails": 4,
+                    "subjective_notes": "Correos de notificaciones de Dribbble, una página para ver inspiración de prototipos de apps y webs."
                   },
                   "rank": 25
                 },
@@ -21234,7 +21245,8 @@
                   "details": {
                     "sourceFile": "inboxzapper.com",
                     "dataType": "Emails sin leer y spam",
-                    "emails": 25
+                    "emails": 25,
+                    "subjective_notes": "Correos de ofertas y descuentos de TheFork. Me suscribí una vez y desde entonces me llegan estos correos."
                   },
                   "rank": 11
                 },
@@ -21284,7 +21296,8 @@
                   "details": {
                     "sourceFile": "inboxzapper.com",
                     "dataType": "Emails sin leer y spam",
-                    "emails": 56
+                    "emails": 56,
+                    "subjective_notes": "Correos de notificaciones de LinkedIn. Me llegan notificaciones de personas que visitan mi perfil, de ofertas de trabajo, de mensajes que recibo, etc. Son muy pesados con tanto email, no leo ninguno."
                   },
                   "rank": 7
                 },
@@ -21309,7 +21322,8 @@
                   "details": {
                     "sourceFile": "inboxzapper.com",
                     "dataType": "Emails sin leer y spam",
-                    "emails": 12
+                    "emails": 12,
+                    "subjective_notes": "Correos de ofertas de viajes y descuentos de Alsa. Me suscribí una vez y desde entonces me llegan estos correos."
                   },
                   "rank": 17
                 },
@@ -21359,7 +21373,8 @@
                   "details": {
                     "sourceFile": "inboxzapper.com",
                     "dataType": "Emails sin leer y spam",
-                    "emails": 27
+                    "emails": 27,
+                    "subjective_notes": "Correos de ofertas de trabajo de Adidas. Me inscribí una vez a una oferta y desde entonces me llegan estos correos."
                   },
                   "rank": 10
                 },
@@ -21434,7 +21449,8 @@
                   "details": {
                     "sourceFile": "inboxzapper.com",
                     "dataType": "Emails sin leer y spam",
-                    "emails": 7
+                    "emails": 7,
+                    "subjective_notes": "Correos de un restaurante chino al que fui una vez. No los leo."
                   },
                   "rank": 22
                 },
@@ -21559,7 +21575,8 @@
                   "details": {
                     "sourceFile": "inboxzapper.com",
                     "dataType": "Emails sin leer y spam",
-                    "emails": 13
+                    "emails": 13,
+                    "subjective_notes": "Correos de Cargo, una plataforma para crear portfolios online. No los leo."
                   },
                   "rank": 16
                 },
@@ -21609,7 +21626,8 @@
                   "details": {
                     "sourceFile": "inboxzapper.com",
                     "dataType": "Emails sin leer y spam",
-                    "emails": 13
+                    "emails": 13,
+                    "subjective_notes": "Correos de Adobe Stock con ofertas y novedades. No los leo."
                   },
                   "rank": 16
                 },
@@ -21684,7 +21702,8 @@
                   "details": {
                     "sourceFile": "inboxzapper.com",
                     "dataType": "Emails sin leer y spam",
-                    "emails": 9
+                    "emails": 9,
+                    "subjective_notes": "Correos de Malvón, una tienda de empanadas argentinas que me gusta, pero son muy pesados."
                   },
                   "rank": 20
                 },
@@ -21759,7 +21778,8 @@
                   "details": {
                     "sourceFile": "inboxzapper.com",
                     "dataType": "Emails sin leer y spam",
-                    "emails": 4
+                    "emails": 4,
+                    "subjective_notes": "Correos de Alsa con ofertas y novedades. A veces los leo."
                   },
                   "rank": 25
                 },
@@ -21784,7 +21804,8 @@
                   "details": {
                     "sourceFile": "inboxzapper.com",
                     "dataType": "Emails sin leer y spam",
-                    "emails": 6
+                    "emails": 6,
+                    "subjective_notes": "Correos de Taquilla.com con ofertas y novedades. A veces los leo."
                   },
                   "rank": 23
                 },
@@ -21809,7 +21830,8 @@
                   "details": {
                     "sourceFile": "inboxzapper.com",
                     "dataType": "Emails sin leer y spam",
-                    "emails": 11
+                    "emails": 11,
+                    "subjective_notes": "Correos de Savee, una web de inspiración para diseño y fotografía."
                   },
                   "rank": 18
                 },
@@ -21834,7 +21856,8 @@
                   "details": {
                     "sourceFile": "inboxzapper.com",
                     "dataType": "Emails sin leer y spam",
-                    "emails": 2
+                    "emails": 2,
+                    "subjective_notes": "Correos de Federal Café, un sitio que me gusta para desayunar o trabajar."
                   },
                   "rank": 27
                 },
@@ -21884,7 +21907,8 @@
                   "details": {
                     "sourceFile": "inboxzapper.com",
                     "dataType": "Emails sin leer y spam",
-                    "emails": 6
+                    "emails": 6,
+                    "subjective_notes": "Correos de Chess.com, me he vuleto a aficionar al ajedrez."
                   },
                   "rank": 23
                 },
@@ -21934,7 +21958,8 @@
                   "details": {
                     "sourceFile": "inboxzapper.com",
                     "dataType": "Emails sin leer y spam",
-                    "emails": 5
+                    "emails": 5,
+                    "subjective_notes": "Correos de SHEIN con ofertas y novedades. A veces los leo."
                   },
                   "rank": 24
                 },
@@ -22034,7 +22059,8 @@
                   "details": {
                     "sourceFile": "inboxzapper.com",
                     "dataType": "Emails sin leer y spam",
-                    "emails": 5
+                    "emails": 5,
+                    "subjective_notes": "Correos de FlexJobs con ofertas de empleo. A veces los leo."
                   },
                   "rank": 24
                 },
@@ -22084,7 +22110,8 @@
                   "details": {
                     "sourceFile": "inboxzapper.com",
                     "dataType": "Emails sin leer y spam",
-                    "emails": 3
+                    "emails": 3,
+                    "subjective_notes": "Correos de Font Awesome con novedades y actualizaciones."
                   },
                   "rank": 26
                 },
@@ -22134,7 +22161,8 @@
                   "details": {
                     "sourceFile": "inboxzapper.com",
                     "dataType": "Emails sin leer y spam",
-                    "emails": 13
+                    "emails": 13,
+                    "subjective_notes": "Correos de Nintendo con novedades y ofertas. No suelo leerlos."
                   },
                   "rank": 16
                 },
@@ -22234,7 +22262,8 @@
                   "details": {
                     "sourceFile": "inboxzapper.com",
                     "dataType": "Emails sin leer y spam",
-                    "emails": 14
+                    "emails": 14,
+                    "subjective_notes": "Correos de LinkedIn con sugerencias de empleo. No suelo leerlos."
                   },
                   "rank": 15
                 },
@@ -22334,7 +22363,8 @@
                   "details": {
                     "sourceFile": "inboxzapper.com",
                     "dataType": "Emails sin leer y spam",
-                    "emails": 6
+                    "emails": 6,
+                    "subjective_notes": "Correos de newsletters a las que me he suscrito en algún momento. No suelo leerlos."
                   },
                   "rank": 23
                 },
@@ -22434,7 +22464,8 @@
                   "details": {
                     "sourceFile": "inboxzapper.com",
                     "dataType": "Emails sin leer y spam",
-                    "emails": 2
+                    "emails": 2,
+                    "subjective_notes": "Notificaciones de transacciones y promociones de PayPal, me hice la cuenta y no lo he vuelto a usar."
                   },
                   "rank": 27
                 },
@@ -22509,7 +22540,8 @@
                   "details": {
                     "sourceFile": "inboxzapper.com",
                     "dataType": "Emails sin leer y spam",
-                    "emails": 7
+                    "emails": 7,
+                    "subjective_notes": "Notificaciones y promociones de reservas en restaurantes."
                   },
                   "rank": 22
                 },
@@ -22559,7 +22591,8 @@
                   "details": {
                     "sourceFile": "inboxzapper.com",
                     "dataType": "Emails sin leer y spam",
-                    "emails": 7
+                    "emails": 7,
+                    "subjective_notes": "Alertas de empleo y oportunidades laborales."
                   },
                   "rank": 22
                 },
@@ -22584,7 +22617,8 @@
                   "details": {
                     "sourceFile": "inboxzapper.com",
                     "dataType": "Emails sin leer y spam",
-                    "emails": 19
+                    "emails": 19,
+                    "subjective_notes": "Alertas de empleo y oportunidades laborales."
                   },
                   "rank": 13
                 },
@@ -22659,7 +22693,8 @@
                   "details": {
                     "sourceFile": "inboxzapper.com",
                     "dataType": "Emails sin leer y spam",
-                    "emails": 2
+                    "emails": 2,
+                    "subjective_notes": "Notificaciones de actividad en mi cuenta de Antídoto Club."
                   },
                   "rank": 27
                 },
@@ -22684,7 +22719,8 @@
                   "details": {
                     "sourceFile": "inboxzapper.com",
                     "dataType": "Emails sin leer y spam",
-                    "emails": 2
+                    "emails": 2,
+                    "subjective_notes": "Notificaciones de actividad en mi cuenta de FlipHTML5."
                   },
                   "rank": 27
                 },
@@ -22709,7 +22745,8 @@
                   "details": {
                     "sourceFile": "inboxzapper.com",
                     "dataType": "Emails sin leer y spam",
-                    "emails": 2
+                    "emails": 2,
+                    "subjective_notes": "Notificaciones de reservas y ofertas de restaurantes."
                   },
                   "rank": 27
                 },
@@ -22784,7 +22821,8 @@
                   "details": {
                     "sourceFile": "inboxzapper.com",
                     "dataType": "Emails sin leer y spam",
-                    "emails": 3
+                    "emails": 3,
+                    "subjective_notes": "Notificaciones de actividad en mi cuenta de Nintendo."
                   },
                   "rank": 26
                 },
@@ -22809,7 +22847,8 @@
                   "details": {
                     "sourceFile": "inboxzapper.com",
                     "dataType": "Emails sin leer y spam",
-                    "emails": 4
+                    "emails": 4,
+                    "subjective_notes": "Información y novedades sobre el Mad Cool Festival, nunca he ido."
                   },
                   "rank": 25
                 },
@@ -22884,7 +22923,8 @@
                   "details": {
                     "sourceFile": "inboxzapper.com",
                     "dataType": "Emails sin leer y spam",
-                    "emails": 3
+                    "emails": 3,
+                    "subjective_notes": "Confirmación de pedido en Domino's Pizza."
                   },
                   "rank": 26
                 },
@@ -22909,7 +22949,8 @@
                   "details": {
                     "sourceFile": "inboxzapper.com",
                     "dataType": "Emails sin leer y spam",
-                    "emails": 1
+                    "emails": 1,
+                    "subjective_notes": "Confirmación de reserva en el restaurante Gula Pintxosbar."
                   },
                   "rank": 28
                 },
@@ -22984,7 +23025,8 @@
                   "details": {
                     "sourceFile": "inboxzapper.com",
                     "dataType": "Emails sin leer y spam",
-                    "emails": 1
+                    "emails": 1,
+                    "subjective_notes": "Información sobre eventos y actividades de Ladies that UX en Madrid."
                   },
                   "rank": 28
                 },
@@ -23009,7 +23051,8 @@
                   "details": {
                     "sourceFile": "inboxzapper.com",
                     "dataType": "Emails sin leer y spam",
-                    "emails": 1
+                    "emails": 1,
+                    "subjective_notes": "Información sobre temas de TFM que ofrecen para desarrollar para estudiantes."
                   },
                   "rank": 28
                 },
@@ -23034,7 +23077,8 @@
                   "details": {
                     "sourceFile": "inboxzapper.com",
                     "dataType": "Emails sin leer y spam",
-                    "emails": 12
+                    "emails": 12,
+                    "subjective_notes": "Promociones y descuentos de viajes en Bolt."
                   },
                   "rank": 17
                 },
@@ -23134,7 +23178,8 @@
                   "details": {
                     "sourceFile": "inboxzapper.com",
                     "dataType": "Emails sin leer y spam",
-                    "emails": 5
+                    "emails": 5,
+                    "subjective_notes": "Notificaciones de mensajes nuevos en Slack de las prácticas."
                   },
                   "rank": 24
                 },
@@ -23209,7 +23254,8 @@
                   "details": {
                     "sourceFile": "inboxzapper.com",
                     "dataType": "Emails sin leer y spam",
-                    "emails": 2
+                    "emails": 2,
+                    "subjective_notes": "Emails con información y noticias de la ESDMadrid."
                   },
                   "rank": 27
                 },
@@ -23259,7 +23305,8 @@
                   "details": {
                     "sourceFile": "inboxzapper.com",
                     "dataType": "Emails sin leer y spam",
-                    "emails": 8
+                    "emails": 8,
+                    "subjective_notes": "Emails con los tickets de compra de Burger King, es más eco-friendly."
                   },
                   "rank": 21
                 },
@@ -23284,7 +23331,8 @@
                   "details": {
                     "sourceFile": "inboxzapper.com",
                     "dataType": "Emails sin leer y spam",
-                    "emails": 2
+                    "emails": 2,
+                    "subjective_notes": "Emails con los tickets de compra de Mercadona, es más eco-friendly."
                   },
                   "rank": 27
                 },
@@ -23459,7 +23507,8 @@
                   "details": {
                     "sourceFile": "inboxzapper.com",
                     "dataType": "Emails sin leer y spam",
-                    "emails": 2
+                    "emails": 2,
+                    "subjective_notes": "Slack es una plataforma de comunicación que empecé a usar en el máster y las prácticas."
                   },
                   "rank": 27
                 },
@@ -23509,7 +23558,8 @@
                   "details": {
                     "sourceFile": "inboxzapper.com",
                     "dataType": "Emails sin leer y spam",
-                    "emails": 1
+                    "emails": 1,
+                    "subjective_notes": "Email de confirmación de compra de billete de tren."
                   },
                   "rank": 28
                 },
@@ -23534,7 +23584,8 @@
                   "details": {
                     "sourceFile": "inboxzapper.com",
                     "dataType": "Emails sin leer y spam",
-                    "emails": 2
+                    "emails": 2,
+                    "subjective_notes": "Email de confirmación de compra de billete de tren."
                   },
                   "rank": 27
                 },
@@ -23559,7 +23610,8 @@
                   "details": {
                     "sourceFile": "inboxzapper.com",
                     "dataType": "Emails sin leer y spam",
-                    "emails": 1
+                    "emails": 1,
+                    "subjective_notes": "Email de confirmación de compra de billete de avión."
                   },
                   "rank": 28
                 },
@@ -23584,7 +23636,8 @@
                   "details": {
                     "sourceFile": "inboxzapper.com",
                     "dataType": "Emails sin leer y spam",
-                    "emails": 1
+                    "emails": 1,
+                    "subjective_notes": "Email de confirmación de inscripción a curso de mi antigua universidad."
                   },
                   "rank": 28
                 },
@@ -23609,7 +23662,8 @@
                   "details": {
                     "sourceFile": "inboxzapper.com",
                     "dataType": "Emails sin leer y spam",
-                    "emails": 1
+                    "emails": 1,
+                    "subjective_notes": "Email de confirmación de inscripción a curso de mi antigua universidad."
                   },
                   "rank": 28
                 },
@@ -23634,7 +23688,8 @@
                   "details": {
                     "sourceFile": "inboxzapper.com",
                     "dataType": "Emails sin leer y spam",
-                    "emails": 1
+                    "emails": 1,
+                    "subjective_notes": "Email de confirmación de descarga de fotos libres de derechos."
                   },
                   "rank": 28
                 },
@@ -23659,7 +23714,8 @@
                   "details": {
                     "sourceFile": "inboxzapper.com",
                     "dataType": "Emails sin leer y spam",
-                    "emails": 1
+                    "emails": 1,
+                    "subjective_notes": "Email de confirmación de compra de billete de tren."
                   },
                   "rank": 28
                 },

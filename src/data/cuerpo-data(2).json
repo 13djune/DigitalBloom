@@ -1105,31 +1105,7 @@
           "visitCount": 112
         }
       },
-      {
-        "id": "gmaps-topplace-1y-2",
-        "title": "Lugar más visitado — Casa de mi novia",
-        "artists": "45 visitas",
-        "awareness": 2,
-        "timeBucket": "1y",
-        "platformId": 8,
-        "tags": [ "Cuerpo",
-          "Movilidad",
-          "Lugares",
-          "Propio",
-          "Consciente",
-          "Teléfono",
-          "@email",
-          "Viajes"
-        ],
-        "details": {
-          "sourceFile": "GMAPS_location-history.json",
-          "dataType": "Historial de ubicaciones",
-         "sitio": "40.404150,-3.692399",
-          "ID_sitio": "ChIJPWYtXCUmQg0RVe-a0Fd7IT4",
-          "visitCount": 45,
-          "subjective_notes": "Suelo ir a la casa de mi novia los fines de semana, y a veces entre semana. Es un lugar habitual para mi, ya que pasamos mucho tiempo juntos allí."
-        }
-      },
+
       {
         "id": "geo-6m-visit-chijpwytxcumqg0rve-a0fd7it4-1",
         "title": "Visita",
@@ -1670,37 +1646,7 @@
       },
         "url": "https://www.google.com/maps/dir/?api=1&origin=40.423709%2C-3.711261&destination=40.404113%2C-3.692471&travelmode=transit"
       },
-      {
-        "id": "geo-6m-visit-chijpwytxcumqg0rve-a0fd7it4-33",
-        "title": "Visita",
-        "artists": "Duración 11:43:02 • 2025-06-09",
-        "awareness": 2,
-        "timeBucket": "6m",
-        "platformId": 8,
-        "tags": [ "Cuerpo",
-          "Movilidad",
-          "Lugares",
-          "Propio",
-          "Consciente",
-          "Teléfono",
-          "@email",
-          "Viajes"
-        ],
-        "details": {
-          "sourceFile": "location-history.json",
-          "dataType": "Visita",
-         "sitio": "40.404150,-3.692399",
-          "ID_sitio": "ChIJPWYtXCUmQg0RVe-a0Fd7IT4",
-          "coordinates": [
-            40.40415,
-            -3.692399
-          ],
-          "horaDeInicio": "23:33:53",
-          "horaFinal": "11:16:55",
-          "duración": "11:43:2"
-        },
-        "url": "https://www.google.com/maps/place/?q=place_id:ChIJPWYtXCUmQg0RVe-a0Fd7IT4"
-      },
+    
       {
         "id": "geo-6m-visit-chijfviz-s8mqg0rzhvsddratpu-34",
         "title": "Visita — Lugar",
@@ -2243,37 +2189,7 @@
       },
         "url": "https://www.google.com/maps/dir/?api=1&origin=40.420742%2C-3.720346&destination=40.404055%2C-3.692300&travelmode=driving"
       },
-      {
-        "id": "geo-6m-visit-chijpwytxcumqg0rve-a0fd7it4-63",
-        "title": "Visita",
-        "artists": "Duración 10:13:13 • 2025-06-13",
-        "awareness": 2,
-        "timeBucket": "6m",
-        "platformId": 8,
-        "tags": [ "Cuerpo",
-          "Movilidad",
-          "Lugares",
-          "Propio",
-          "Consciente",
-          "Teléfono",
-          "@email",
-          "Viajes"
-        ],
-        "details": {
-          "sourceFile": "location-history.json",
-          "dataType": "Visita",
-         "sitio": "40.404150,-3.692399",
-          "ID_sitio": "ChIJPWYtXCUmQg0RVe-a0Fd7IT4",
-          "coordinates": [
-            40.40415,
-            -3.692399
-          ],
-          "horaDeInicio": "04:20:43",
-          "horaFinal": "14:33:56",
-          "duración": "10:13:3"
-        },
-        "url": "https://www.google.com/maps/place/?q=place_id:ChIJPWYtXCUmQg0RVe-a0Fd7IT4"
-      },
+
       {
         "id": "geo-6m-visit-chijhz0mgdamqg0rog1hq25nd00-65",
         "title": "Visita — Lugar",
@@ -3561,37 +3477,7 @@
       },
         "url": "https://www.google.com/maps/dir/?api=1&origin=40.395980%2C-3.678480&destination=40.406129%2C-3.691847&travelmode=transit"
       },
-      {
-        "id": "geo-6m-visit-chijpwytxcumqg0rve-a0fd7it4-153",
-        "title": "Visita",
-        "artists": "Duración 02:38:24 • 2025-07-01",
-        "awareness": 2,
-        "timeBucket": "6m",
-        "platformId": 8,
-        "tags": [ "Cuerpo",
-          "Movilidad",
-          "Lugares",
-          "Propio",
-          "Consciente",
-          "Teléfono",
-          "@email",
-          "Viajes"
-        ],
-        "details": {
-          "sourceFile": "location-history.json",
-          "dataType": "Visita",
-         "sitio": "40.404150,-3.692399",
-          "ID_sitio": "ChIJPWYtXCUmQg0RVe-a0Fd7IT4",
-          "coordinates": [
-            40.40415,
-            -3.692399
-          ],
-          "horaDeInicio": "20:52:46",
-          "horaFinal": "23:31:11",
-          "duración": "02:38:4"
-        },
-        "url": "https://www.google.com/maps/place/?q=place_id:ChIJPWYtXCUmQg0RVe-a0Fd7IT4"
-      },
+
       {
         "id": "geo-6m-trip-in-subway-155",
         "title": "Trayecto — en metro · 1.19 km",
@@ -4454,7 +4340,8 @@
           "hierarchyLevel": "1",
           "horaDeInicio": "16:48:29",
           "horaFinal": "20:34:09",
-          "duración": "03:45:9"
+          "duración": "03:45:9",
+          "subjective_notes": "Esta es la facultad de mi compañero de piso, donde solemos quedar para estudiar o trabajar juntos."
         },
         "url": "https://www.google.com/maps/place/?q=place_id:ChIJ69dvqDUoQg0RLafI3plaBYk"
       },
@@ -4482,7 +4369,8 @@
           "modoDeTransporte": "en bus",
           "horaDeInicio": "20:46:09",
           "horaFinal": "21:04:39",
-          "duración": "18:29"
+          "duración": "18:29",
+          "subjective_notes": "Regreso a casa en autobús después de estudiar en la facultad de mi compañero de piso, hasta Moncloa."
       },
         "url": "https://www.google.com/maps/dir/?api=1&origin=40.448625%2C-3.725393&destination=40.436253%2C-3.718120&travelmode=transit"
       },
@@ -4513,7 +4401,8 @@
           ],
           "horaDeInicio": "21:17:18",
           "horaFinal": "02:16:25",
-          "duración": "04:59:6"
+          "duración": "04:59:6",
+          "subjective_notes": "Aquí comimos después de la graduación de mi compañero de piso con unos amigos en un restaurante cercano a Moncloa."
         },
         "url": "https://www.google.com/maps/place/?q=place_id:ChIJN_py5VwoQg0RyG3xnfiYRMI"
       },
@@ -4569,7 +4458,8 @@
           "modoDeTransporte": "en bus",
           "horaDeInicio": "02:35:06",
           "horaFinal": "02:59:44",
-          "duración": "24:38"
+          "duración": "24:38",
+          "subjective_notes": "Viaje en autobús desde Moncloa hasta una discoteca para celebrar la graduación de mi compañero de piso."
       },
         "url": "https://www.google.com/maps/dir/?api=1&origin=40.432763%2C-3.717758&destination=40.408442%2C-3.710654&travelmode=transit"
       },
@@ -4600,7 +4490,8 @@
           ],
           "horaDeInicio": "02:59:44",
           "horaFinal": "06:58:29",
-          "duración": "03:58:4"
+          "duración": "03:58:4",
+          "subjective_notes": "Lugar donde celebramos la graduación de mi compañero de piso con varios amigos, una discoteca cerca de Puerta de Toledo."
         },
         "url": "https://www.google.com/maps/place/?q=place_id:ChIJc9qE39YnQg0RyeCi9ciRHLQ"
       },
@@ -4628,7 +4519,8 @@
           "modoDeTransporte": "de copiloto de coche",
           "horaDeInicio": "06:58:29",
           "horaFinal": "07:12:06",
-          "duración": "13:37"
+          "duración": "13:37",
+          "subjective_notes": "Regreso a casa en coche con un amigo después de la celebración de la graduación de mi compañero de piso."
       },
         "url": "https://www.google.com/maps/dir/?api=1&origin=40.413167%2C-3.706847&destination=40.414210%2C-3.666693&travelmode=driving"
       },
@@ -4685,7 +4577,8 @@
           "modoDeTransporte": "andando",
           "horaDeInicio": "21:34:49",
           "horaFinal": "21:53:46",
-          "duración": "18:57"
+          "duración": "18:57",
+          "subjective_notes": "Caminata desde donde nos dejó el bus, hasta donde habíamos quedado para el desfile del orgullo."
       },
         "url": "https://www.google.com/maps/dir/?api=1&origin=40.418224%2C-3.689076&destination=40.414095%2C-3.692944&travelmode=andando"
       },
@@ -4716,7 +4609,8 @@
           ],
           "horaDeInicio": "21:53:46",
           "horaFinal": "00:16:26",
-          "duración": "02:22:9"
+          "duración": "02:22:9",
+          "subjective_notes": "Aquí estuve con unos amigos viendo el desfile del orgullo."
         },
         "url": "https://www.google.com/maps/place/?q=place_id:ChIJ7aLYZp0oQg0RWoitk33wlBA"
       },
@@ -4744,7 +4638,9 @@
           "modoDeTransporte": "andando",
           "horaDeInicio": "00:16:26",
           "horaFinal": "00:35:20",
-          "duración": "18:54"
+          "duración": "18:54",
+          "subjective_notes": "Aquí estuve con unos amigos viendo el desfile del orgullo y luego cenando en un restaurante cercano."
+
       },
         "url": "https://www.google.com/maps/dir/?api=1&origin=40.412689%2C-3.693154&destination=40.404212%2C-3.695693&travelmode=andando"
       },
@@ -4807,41 +4703,12 @@
           "hierarchyLevel": "1",
           "horaDeInicio": "00:36:30",
           "horaFinal": "00:40:40",
-          "duración": "04:09"
+          "duración": "04:09",
+          "subjective_notes": "El mercadona que más cerca está de la casa de mi novia."
       },
         "url": "https://www.google.com/maps/place/?q=place_id:ChIJdwFZAi4mQg0R2sBuHU479H4"
       },
-      {
-        "id": "geo-6m-visit-chijpwytxcumqg0rve-a0fd7it4-213",
-        "title": "Visita",
-        "artists": "Duración 20:10:35 • 2025-07-06",
-        "awareness": 2,
-        "timeBucket": "6m",
-        "platformId": 8,
-        "tags": [ "Cuerpo",
-          "Movilidad",
-          "Lugares",
-          "Propio",
-          "Consciente",
-          "Teléfono",
-          "@email",
-          "Viajes"
-        ],
-        "details": {
-          "sourceFile": "location-history.json",
-          "dataType": "Visita",
-         "sitio": "40.404150,-3.692399",
-          "ID_sitio": "ChIJPWYtXCUmQg0RVe-a0Fd7IT4",
-          "coordinates": [
-            40.40415,
-            -3.692399
-          ],
-          "horaDeInicio": "01:10:27",
-          "horaFinal": "21:21:02",
-          "duración": "20:10:5"
-        },
-        "url": "https://www.google.com/maps/place/?q=place_id:ChIJPWYtXCUmQg0RVe-a0Fd7IT4"
-      },
+     
       {
         "id": "geo-6m-trip-in-bus-214",
         "title": "Trayecto — en bus · 3.03 km",
@@ -5021,37 +4888,7 @@
       },
         "url": "https://www.google.com/maps/dir/?api=1&origin=40.434429%2C-3.718956&destination=40.402807%2C-3.693783&travelmode=transit"
       },
-      {
-        "id": "geo-6m-visit-chijpwytxcumqg0rve-a0fd7it4-227",
-        "title": "Visita",
-        "artists": "Duración 15:06:52 • 2025-07-09",
-        "awareness": 2,
-        "timeBucket": "6m",
-        "platformId": 8,
-        "tags": [ "Cuerpo",
-          "Movilidad",
-          "Lugares",
-          "Propio",
-          "Consciente",
-          "Teléfono",
-          "@email",
-          "Viajes"
-        ],
-        "details": {
-          "sourceFile": "location-history.json",
-          "dataType": "Visita",
-         "sitio": "40.404150,-3.692399",
-          "ID_sitio": "ChIJPWYtXCUmQg0RVe-a0Fd7IT4",
-          "coordinates": [
-            40.40415,
-            -3.692399
-          ],
-          "horaDeInicio": "23:16:14",
-          "horaFinal": "14:23:07",
-          "duración": "15:06:2"
-        },
-        "url": "https://www.google.com/maps/place/?q=place_id:ChIJPWYtXCUmQg0RVe-a0Fd7IT4"
-      },
+  
       {
         "id": "geo-6m-trip-in-bus-229",
         "title": "Trayecto — en bus · 2.49 km",
@@ -5227,37 +5064,7 @@
       },
         "url": "https://www.google.com/maps/dir/?api=1&origin=40.424159%2C-3.711916&destination=40.402995%2C-3.692585&travelmode=transit"
       },
-      {
-        "id": "geo-6m-visit-chijpwytxcumqg0rve-a0fd7it4-238",
-        "title": "Visita",
-        "artists": "Duración 11:01 • 2025-07-10",
-        "awareness": 2,
-        "timeBucket": "6m",
-        "platformId": 8,
-        "tags": [ "Cuerpo",
-          "Movilidad",
-          "Lugares",
-          "Propio",
-          "Consciente",
-          "Teléfono",
-          "@email",
-          "Viajes"
-        ],
-        "details": {
-          "sourceFile": "location-history.json",
-          "dataType": "Visita",
-         "sitio": "40.404150,-3.692399",
-          "ID_sitio": "ChIJPWYtXCUmQg0RVe-a0Fd7IT4",
-          "coordinates": [
-            40.40415,
-            -3.692399
-          ],
-          "horaDeInicio": "22:56:27",
-          "horaFinal": "23:07:28",
-          "duración": "11:01"
-      },
-        "url": "https://www.google.com/maps/place/?q=place_id:ChIJPWYtXCUmQg0RVe-a0Fd7IT4"
-      },
+
       {
         "id": "geo-6m-visit-chijf9jnrsqmqg0rwwnljcl5rzk-239",
         "title": "Visita — Lugar",
@@ -5526,37 +5333,7 @@
       },
         "url": "https://www.google.com/maps/dir/?api=1&origin=37.173137%2C-3.591767&destination=37.178357%2C-3.489547&travelmode=transit"
       },
-      {
-        "id": "geo-6m-visit-chijo8nqmephcq0rk0xpndxtov4-252",
-        "title": "Visita — Lugar",
-        "artists": "Duración 02:32:47 • 2025-07-11",
-        "awareness": 2,
-        "timeBucket": "6m",
-        "platformId": 8,
-        "tags": [ "Cuerpo",
-          "Movilidad",
-          "Lugares",
-          "Propio",
-          "Consciente",
-          "Teléfono",
-          "@email",
-          "Viajes"
-        ],
-        "details": {
-          "sourceFile": "location-history.json",
-          "dataType": "Visita",
-         "sitio": "37.178342,-3.489723",
-          "ID_sitio": "ChIJo8NQMEPhcQ0RK0XPnDXtoV4",
-          "coordinates": [
-            37.178342,
-            -3.489723
-          ],
-          "horaDeInicio": "17:08:19",
-          "horaFinal": "19:41:07",
-          "duración": "02:32:7"
-        },
-        "url": "https://www.google.com/maps/place/?q=place_id:ChIJo8NQMEPhcQ0RK0XPnDXtoV4"
-      },
+     
       {
         "id": "geo-6m-trip-in-passenger-vehicle-253",
         "title": "Trayecto — de copiloto de coche · 3.74 km",
@@ -5736,37 +5513,7 @@
       },
         "url": "https://www.google.com/maps/dir/?api=1&origin=37.155543%2C-3.583899&destination=37.178338%2C-3.489828&travelmode=driving"
       },
-      {
-        "id": "geo-6m-visit-chijo8nqmephcq0rk0xpndxtov4-261",
-        "title": "Visita — Lugar",
-        "artists": "Duración 20:17:01 • 2025-07-11",
-        "awareness": 2,
-        "timeBucket": "6m",
-        "platformId": 8,
-        "tags": [ "Cuerpo",
-          "Movilidad",
-          "Lugares",
-          "Propio",
-          "Consciente",
-          "Teléfono",
-          "@email",
-          "Viajes"
-        ],
-        "details": {
-          "sourceFile": "location-history.json",
-          "dataType": "Visita",
-         "sitio": "37.178342,-3.489723",
-          "ID_sitio": "ChIJo8NQMEPhcQ0RK0XPnDXtoV4",
-          "coordinates": [
-            37.178342,
-            -3.489723
-          ],
-          "horaDeInicio": "22:03:00",
-          "horaFinal": "18:20:01",
-          "duración": "20:17:1"
-        },
-        "url": "https://www.google.com/maps/place/?q=place_id:ChIJo8NQMEPhcQ0RK0XPnDXtoV4"
-      },
+   
       {
         "id": "geo-6m-trip-in-passenger-vehicle-262",
         "title": "Trayecto — de copiloto de coche · 1.91 km",
@@ -6031,37 +5778,7 @@
       },
         "url": "https://www.google.com/maps/dir/?api=1&origin=37.155266%2C-3.585147&destination=37.180367%2C-3.489589&travelmode=driving"
       },
-      {
-        "id": "geo-6m-visit-chijo8nqmephcq0rk0xpndxtov4-271",
-        "title": "Visita — Lugar",
-        "artists": "Duración 21:15:04 • 2025-07-13",
-        "awareness": 2,
-        "timeBucket": "6m",
-        "platformId": 8,
-        "tags": [ "Cuerpo",
-          "Movilidad",
-          "Lugares",
-          "Propio",
-          "Consciente",
-          "Teléfono",
-          "@email",
-          "Viajes"
-        ],
-        "details": {
-          "sourceFile": "location-history.json",
-          "dataType": "Visita",
-         "sitio": "37.178342,-3.489723",
-          "ID_sitio": "ChIJo8NQMEPhcQ0RK0XPnDXtoV4",
-          "coordinates": [
-            37.178342,
-            -3.489723
-          ],
-          "horaDeInicio": "16:03:29",
-          "horaFinal": "13:18:34",
-          "duración": "21:15:4"
-        },
-        "url": "https://www.google.com/maps/place/?q=place_id:ChIJo8NQMEPhcQ0RK0XPnDXtoV4"
-      },
+  
       {
         "id": "geo-6m-trip-in-passenger-vehicle-272",
         "title": "Trayecto — de copiloto de coche · 62.10 km",
@@ -6449,37 +6166,7 @@
       },
         "url": "https://www.google.com/maps/dir/?api=1&origin=40.394802%2C-3.679040&destination=40.402938%2C-3.691496&travelmode=transit"
       },
-      {
-        "id": "geo-6m-visit-chijpwytxcumqg0rve-a0fd7it4-293",
-        "title": "Visita",
-        "artists": "Duración 02:03:47 • 2025-07-19",
-        "awareness": 2,
-        "timeBucket": "6m",
-        "platformId": 8,
-        "tags": [ "Cuerpo",
-          "Movilidad",
-          "Lugares",
-          "Propio",
-          "Consciente",
-          "Teléfono",
-          "@email",
-          "Viajes"
-        ],
-        "details": {
-          "sourceFile": "location-history.json",
-          "dataType": "Visita",
-         "sitio": "40.404150,-3.692399",
-          "ID_sitio": "ChIJPWYtXCUmQg0RVe-a0Fd7IT4",
-          "coordinates": [
-            40.40415,
-            -3.692399
-          ],
-          "horaDeInicio": "22:06:41",
-          "horaFinal": "00:10:29",
-          "duración": "02:03:7"
-        },
-        "url": "https://www.google.com/maps/place/?q=place_id:ChIJPWYtXCUmQg0RVe-a0Fd7IT4"
-      },
+    
       {
         "id": "geo-6m-trip-in-passenger-vehicle-294",
         "title": "Trayecto — de copiloto de coche · 3.19 km",
@@ -6806,37 +6493,7 @@
       },
         "url": "https://www.google.com/maps/place/?q=place_id:ChIJlcuUmC0mQg0RMTxunpxER8M"
       },
-      {
-        "id": "geo-6m-visit-chijpwytxcumqg0rve-a0fd7it4-312",
-        "title": "Visita",
-        "artists": "Duración 14:26:44 • 2025-07-23",
-        "awareness": 2,
-        "timeBucket": "6m",
-        "platformId": 8,
-        "tags": [ "Cuerpo",
-          "Movilidad",
-          "Lugares",
-          "Propio",
-          "Consciente",
-          "Teléfono",
-          "@email",
-          "Viajes"
-        ],
-        "details": {
-          "sourceFile": "location-history.json",
-          "dataType": "Visita",
-         "sitio": "40.404150,-3.692399",
-          "ID_sitio": "ChIJPWYtXCUmQg0RVe-a0Fd7IT4",
-          "coordinates": [
-            40.40415,
-            -3.692399
-          ],
-          "horaDeInicio": "23:40:59",
-          "horaFinal": "14:07:44",
-          "duración": "14:26:4"
-        },
-        "url": "https://www.google.com/maps/place/?q=place_id:ChIJPWYtXCUmQg0RVe-a0Fd7IT4"
-      },
+      
       {
         "id": "geo-6m-trip-in-bus-314",
         "title": "Trayecto — en bus · 2.69 km",
@@ -7190,37 +6847,7 @@
         },
         "url": "https://www.google.com/maps/place/?q=place_id:ChIJYXuoTXwpQg0RDX5lhcXbp2A"
       },
-      {
-        "id": "geo-4w-visit-chijpwytxcumqg0rve-a0fd7it4-336",
-        "title": "Visita",
-        "artists": "Duración 04:51:18 • 2025-08-01",
-        "awareness": 2,
-        "timeBucket": "4w",
-        "platformId": 8,
-        "tags": [ "Cuerpo",
-          "Movilidad",
-          "Lugares",
-          "Propio",
-          "Consciente",
-          "Teléfono",
-          "@email",
-          "Viajes"
-        ],
-        "details": {
-          "sourceFile": "location-history.json",
-          "dataType": "Visita",
-         "sitio": "40.404150,-3.692399",
-          "ID_sitio": "ChIJPWYtXCUmQg0RVe-a0Fd7IT4",
-          "coordinates": [
-            40.40415,
-            -3.692399
-          ],
-          "horaDeInicio": "13:43:36",
-          "horaFinal": "18:34:55",
-          "duración": "04:51:8"
-        },
-        "url": "https://www.google.com/maps/place/?q=place_id:ChIJPWYtXCUmQg0RVe-a0Fd7IT4"
-      },
+   
       {
         "id": "geo-4w-trip-in-passenger-vehicle-338",
         "title": "Trayecto — de copiloto de coche · 3.18 km",
@@ -7488,37 +7115,7 @@
         },
         "url": "https://www.google.com/maps/place/?q=place_id:ChIJF9jNRSQmQg0RWwNljcL5Rzk"
       },
-      {
-        "id": "geo-4w-visit-chijpwytxcumqg0rve-a0fd7it4-354",
-        "title": "Visita",
-        "artists": "Duración 05:53:33 • 2025-08-05",
-        "awareness": 2,
-        "timeBucket": "4w",
-        "platformId": 8,
-        "tags": [ "Cuerpo",
-          "Movilidad",
-          "Lugares",
-          "Propio",
-          "Consciente",
-          "Teléfono",
-          "@email",
-          "Viajes"
-        ],
-        "details": {
-          "sourceFile": "location-history.json",
-          "dataType": "Visita",
-         "sitio": "40.404150,-3.692399",
-          "ID_sitio": "ChIJPWYtXCUmQg0RVe-a0Fd7IT4",
-          "coordinates": [
-            40.40415,
-            -3.692399
-          ],
-          "horaDeInicio": "11:16:41",
-          "horaFinal": "17:10:14",
-          "duración": "05:53:3"
-        },
-        "url": "https://www.google.com/maps/place/?q=place_id:ChIJPWYtXCUmQg0RVe-a0Fd7IT4"
-      },
+
       {
         "id": "geo-4w-trip-in-passenger-vehicle-355",
         "title": "Trayecto — de copiloto de coche · 3.40 km",
@@ -7543,7 +7140,9 @@
           "modoDeTransporte": "de copiloto de coche",
           "horaDeInicio": "17:10:14",
           "horaFinal": "17:18:51",
-          "duración": "08:36"
+          "duración": "08:36",
+          "subjective_notes": "Aquí nos estuvimos tomando algo y luego nos fuimos a casa."
+
       },
         "url": "https://www.google.com/maps/dir/?api=1&origin=40.403147%2C-3.692212&destination=40.413558%2C-3.666129&travelmode=driving"
       },
@@ -7572,7 +7171,8 @@
           "modoDeTransporte": "de copiloto de coche",
           "horaDeInicio": "18:32:48",
           "horaFinal": "19:09:03",
-          "duración": "36:15"
+          "duración": "36:15",
+          "subjective_notes": "De camino a casa de unos amigos por su cumpleaños."
       },
         "url": "https://www.google.com/maps/dir/?api=1&origin=40.412767%2C-3.666049&destination=40.415955%2C-3.912843&travelmode=driving"
       },
@@ -7607,34 +7207,7 @@
         },
         "url": "https://www.google.com/maps/place/?q=place_id:ChIJh8tzuL6bQQ0Rd9KCgoGo70E"
       },
-      {
-        "id": "geo-4w-trip-in-passenger-vehicle-362",
-        "title": "Trayecto — de copiloto de coche · 0.61 km",
-        "artists": "Duración 01:56 • 2025-08-10",
-        "awareness": 2,
-        "timeBucket": "4w",
-        "platformId": 8,
-        "tags": [ "Cuerpo",
-          "Movilidad",
-          "Trayectos",
-          "Propio",
-          "Consciente",
-          "Teléfono",
-          "@email",
-          "Viajes"
-        ],
-        "details": {
-          "sourceFile": "location-history.json",
-          "dataType": "Actividad",
-          "de": "40.416325,-3.914170",
-          "a": "40.411552,-3.911602",
-          "modoDeTransporte": "de copiloto de coche",
-          "horaDeInicio": "21:28:50",
-          "horaFinal": "21:30:46",
-          "duración": "01:56"
-      },
-        "url": "https://www.google.com/maps/dir/?api=1&origin=40.416325%2C-3.914170&destination=40.411552%2C-3.911602&travelmode=driving"
-      },
+
       {
         "id": "geo-4w-visit-chijo7c2y66bqq0rfzis9hsdemk-363",
         "title": "Visita — Lugar",
@@ -7694,7 +7267,9 @@
           "hierarchyLevel": "1",
           "horaDeInicio": "21:30:46",
           "horaFinal": "21:35:07",
-          "duración": "04:20"
+          "duración": "04:20",
+
+          "subjective_notes": "Aquí nos llevó mi tío a cenar cuando fuimos a su casa."
       },
         "url": "https://www.google.com/maps/place/?q=place_id:ChIJ7dkd3PibQQ0RwV6PkU_5tTo"
       },
@@ -7722,38 +7297,12 @@
           "modoDeTransporte": "de copiloto de coche",
           "horaDeInicio": "22:29:26",
           "horaFinal": "22:53:54",
-          "duración": "24:27"
+          "duración": "24:27",
+          "subjective_notes": "De vuelta a casa después de la cena en casa de mi tío."
       },
         "url": "https://www.google.com/maps/dir/?api=1&origin=40.413291%2C-3.913784&destination=40.413892%2C-3.658282&travelmode=driving"
       },
-      {
-        "id": "geo-4w-trip-andando-366",
-        "title": "Trayecto — andando · 0.60 km",
-        "artists": "Duración 10:51 • 2025-08-10",
-        "awareness": 2,
-        "timeBucket": "4w",
-        "platformId": 8,
-        "tags": [ "Cuerpo",
-          "Movilidad",
-          "Trayectos",
-          "Propio",
-          "Consciente",
-          "Teléfono",
-          "@email",
-          "Viajes"
-        ],
-        "details": {
-          "sourceFile": "location-history.json",
-          "dataType": "Actividad",
-          "de": "40.413892,-3.658282",
-          "a": "40.414161,-3.665203",
-          "modoDeTransporte": "andando",
-          "horaDeInicio": "22:53:54",
-          "horaFinal": "23:04:45",
-          "duración": "10:51"
-      },
-        "url": "https://www.google.com/maps/dir/?api=1&origin=40.413892%2C-3.658282&destination=40.414161%2C-3.665203&travelmode=andando"
-      },
+
     
       {
         "id": "geo-4w-trip-in-passenger-vehicle-368",
@@ -7779,7 +7328,8 @@
           "modoDeTransporte": "de copiloto de coche",
           "horaDeInicio": "13:51:53",
           "horaFinal": "14:22:07",
-          "duración": "30:13"
+          "duración": "30:13",
+          "subjective_notes": "Fuí con mi madre y mi hermano al centro comercial."
       },
         "url": "https://www.google.com/maps/dir/?api=1&origin=40.414089%2C-3.663837&destination=40.540349%2C-3.612835&travelmode=driving"
       },
@@ -7810,7 +7360,8 @@
           ],
           "horaDeInicio": "14:22:07",
           "horaFinal": "17:41:28",
-          "duración": "03:19:1"
+          "duración": "03:19:1",
+          "subjective_notes": "Estuvimos en el centro comercial Plaza Norte 2 viendo tiendas y comiendo."
         },
         "url": "https://www.google.com/maps/place/?q=place_id:ChIJZ1V8C94sQg0R4FhCviwku6s"
       },
@@ -7846,34 +7397,7 @@
         },
         "url": "https://www.google.com/maps/place/?q=place_id:ChIJo4yf8QYtQg0Rv4WN1I7Sf7w"
       },
-      {
-        "id": "geo-4w-trip-in-passenger-vehicle-371",
-        "title": "Trayecto — de copiloto de coche · 16.21 km",
-        "artists": "Duración 22:20 • 2025-08-11",
-        "awareness": 2,
-        "timeBucket": "4w",
-        "platformId": 8,
-        "tags": [ "Cuerpo",
-          "Movilidad",
-          "Trayectos",
-          "Propio",
-          "Consciente",
-          "Teléfono",
-          "@email",
-          "Viajes"
-        ],
-        "details": {
-          "sourceFile": "location-history.json",
-          "dataType": "Actividad",
-          "de": "40.541252,-3.613213",
-          "a": "40.413732,-3.666055",
-          "modoDeTransporte": "de copiloto de coche",
-          "horaDeInicio": "17:41:28",
-          "horaFinal": "18:03:49",
-          "duración": "22:20"
-      },
-        "url": "https://www.google.com/maps/dir/?api=1&origin=40.541252%2C-3.613213&destination=40.413732%2C-3.666055&travelmode=driving"
-      },
+
   
       {
         "id": "geo-4w-trip-in-passenger-vehicle-375",
@@ -7899,7 +7423,8 @@
           "modoDeTransporte": "de copiloto de coche",
           "horaDeInicio": "10:05:15",
           "horaFinal": "10:13:47",
-          "duración": "08:32"
+          "duración": "08:32",
+          "subjective_notes": "De camino a la estación de autobuses para ir a Granada."
       },
         "url": "https://www.google.com/maps/dir/?api=1&origin=40.412542%2C-3.665981&destination=40.394133%2C-3.677576&travelmode=driving"
       },
@@ -7930,13 +7455,14 @@
           ],
           "horaDeInicio": "10:13:47",
           "horaFinal": "10:39:55",
-          "duración": "26:08"
+          "duración": "26:08",
+          "subjective_notes": "Estación de Autobuses de Méndez Älvaro."
       },
         "url": "https://www.google.com/maps/place/?q=place_id:ChIJN7XkcUMnQg0RC9UmCcZbC4k"
       },
       {
         "id": "geo-4w-trip-in-passenger-vehicle-377",
-        "title": "Trayecto — de copiloto de coche · 164.20 km",
+        "title": "Trayecto — de bus· 164.20 km",
         "artists": "Duración 04:18:51 • 2025-08-13",
         "awareness": 2,
         "timeBucket": "4w",
@@ -7955,10 +7481,11 @@
           "dataType": "Actividad",
           "de": "38.526963,-3.493634",
           "a": "37.199893,-3.613227",
-          "modoDeTransporte": "de copiloto de coche",
+          "modoDeTransporte": "de bus",
           "horaDeInicio": "10:39:55",
           "horaFinal": "14:58:47",
-          "duración": "04:18:1"
+          "duración": "04:18:1",
+          "subjective_notes": "Viaje en bus desde la parada, hasta la estación de autobuses de Granada."
         },
         "url": "https://www.google.com/maps/dir/?api=1&origin=38.526963%2C-3.493634&destination=37.199893%2C-3.613227&travelmode=driving"
       },
@@ -7989,42 +7516,12 @@
           ],
           "horaDeInicio": "14:58:47",
           "horaFinal": "15:07:01",
-          "duración": "08:14"
+          "duración": "08:14",
+          "subjective_notes": "Estación de Autobuses de Granada."
       },
         "url": "https://www.google.com/maps/place/?q=place_id:ChIJS8PvhQL9cQ0R7y1lEJWw1KA"
       },
-      {
-        "id": "geo-4w-visit-chijl1yfeql9cq0rhhmbjsh85nk-379",
-        "title": "Visita — Lugar",
-        "artists": "Duración 06:28 • 2025-08-13",
-        "awareness": 2,
-        "timeBucket": "4w",
-        "platformId": 8,
-        "tags": [ "Cuerpo",
-          "Movilidad",
-          "Lugares",
-          "Propio",
-          "Consciente",
-          "Teléfono",
-          "@email",
-          "Viajes"
-        ],
-        "details": {
-          "sourceFile": "location-history.json",
-          "dataType": "Visita",
-         "sitio": "37.199717,-3.613667",
-          "ID_sitio": "ChIJL1yFeQL9cQ0RhhMbJSH85Nk",
-          "coordinates": [
-            37.199717,
-            -3.613667
-          ],
-          "hierarchyLevel": "1",
-          "horaDeInicio": "14:58:47",
-          "horaFinal": "15:05:15",
-          "duración": "06:28"
-      },
-        "url": "https://www.google.com/maps/place/?q=place_id:ChIJL1yFeQL9cQ0RhhMbJSH85Nk"
-      },
+
       {
         "id": "geo-4w-trip-in-passenger-vehicle-380",
         "title": "Trayecto — de copiloto de coche · 18.76 km",
@@ -8049,7 +7546,8 @@
           "modoDeTransporte": "de copiloto de coche",
           "horaDeInicio": "15:07:01",
           "horaFinal": "15:37:05",
-          "duración": "30:03"
+          "duración": "30:03",
+          "subjective_notes": "De camino a casa desde la estación de autobuses de Granada."
       },
         "url": "https://www.google.com/maps/dir/?api=1&origin=37.200878%2C-3.614083&destination=37.178365%2C-3.489586&travelmode=driving"
       },
@@ -8141,7 +7639,7 @@
       },
       {
         "id": "geo-4w-trip-in-bus-386",
-        "title": "Trayecto — en bus · 68.35 km",
+        "title": "Trayecto — de copiloto de coche · 68.35 km",
         "artists": "Duración 01:11:26 • 2025-08-14",
         "awareness": 2,
         "timeBucket": "4w",
@@ -8160,10 +7658,11 @@
           "dataType": "Actividad",
           "de": "37.168937,-3.587792",
           "a": "36.736935,-3.746612",
-          "modoDeTransporte": "en bus",
+          "modoDeTransporte": "de copiloto de coche",
           "horaDeInicio": "20:58:37",
           "horaFinal": "22:10:03",
-          "duración": "01:11:6"
+          "duración": "01:11:6",
+          "subjective_notes": "Nos fuimos a la playa de Granada."
         },
         "url": "https://www.google.com/maps/dir/?api=1&origin=37.168937%2C-3.587792&destination=36.736935%2C-3.746612&travelmode=transit"
       },
@@ -8181,7 +7680,7 @@
           "Consciente",
           "Teléfono",
           "@email",
-          "Viajes"
+          "Viajes", "Restaurante"
         ],
         "details": {
           "sourceFile": "location-history.json",
@@ -8194,7 +7693,8 @@
           ],
           "horaDeInicio": "22:10:03",
           "horaFinal": "10:44:08",
-          "duración": "12:34:5"
+          "duración": "12:34:5",
+          "subjective_notes": "Llegada a la playa de Granada, estuvimos en la casa de la playa con unos amigos, y cenamos aquí."
         },
         "url": "https://www.google.com/maps/place/?q=place_id:ChIJk0fXFQOIcQ0RlAJuYzTs4y8"
       },
@@ -8256,7 +7756,8 @@
           ],
           "horaDeInicio": "12:06:36",
           "horaFinal": "13:25:26",
-          "duración": "01:18:0"
+          "duración": "01:18:0",
+          "subjective_notes": "Estuvimos en la playa, comiendo y bañándonos."
         },
         "url": "https://www.google.com/maps/place/?q=place_id:ChIJ8_gnkQ4ncg0RPTENy09aaqk"
       },
@@ -8284,7 +7785,8 @@
           "modoDeTransporte": "de copiloto de coche",
           "horaDeInicio": "13:25:26",
           "horaFinal": "14:22:37",
-          "duración": "57:10"
+          "duración": "57:10",
+          "subjective_notes": "Fuimos a ver mi novia y yo a una amiga de Torre del Mar."
       },
         "url": "https://www.google.com/maps/dir/?api=1&origin=36.736616%2C-3.745038&destination=36.738476%2C-4.093529&travelmode=driving"
       },
@@ -8343,7 +7845,8 @@
           "modoDeTransporte": "de copiloto de coche",
           "horaDeInicio": "17:20:48",
           "horaFinal": "18:30:25",
-          "duración": "01:09:7"
+          "duración": "01:09:7",
+          "subjective_notes": "De camino a Marbella desde Torre del Mar."
         },
         "url": "https://www.google.com/maps/dir/?api=1&origin=36.741390%2C-4.094631&destination=36.515385%2C-4.923927&travelmode=driving"
       },
@@ -8402,7 +7905,8 @@
           "modoDeTransporte": "de copiloto de coche",
           "horaDeInicio": "21:39:50",
           "horaFinal": "21:52:05",
-          "duración": "12:14"
+          "duración": "12:14",
+          "subjective_notes": "Fuimos a ver a un amigo que trabaja en Starlite en Marbella."
       },
         "url": "https://www.google.com/maps/dir/?api=1&origin=36.515383%2C-4.924010&destination=36.532817%2C-4.920973&travelmode=driving"
       },
@@ -8433,7 +7937,8 @@
           ],
           "horaDeInicio": "21:52:05",
           "horaFinal": "03:52:19",
-          "duración": "06:00:3"
+          "duración": "06:00:3",
+          "subjective_notes": "Estuvimos en Starlite con unos amigos, cenando y viendo conciertos."
         },
         "url": "https://www.google.com/maps/place/?q=place_id:ChIJEzP2G7nXcg0R-YCEQ5UiUt4"
       },
@@ -18940,7 +18445,8 @@
                 ],
                 "details": {
                   "sourceFile": "user_data_tiktok.json",
-                  "dataType": "TikTok Export"
+                  "dataType": "TikTok Export",
+                  "subjective_notes": "Canal de YouTube de RTVE orientado a un público joven, con series, documentales y programas de entretenimiento."
 
                 }
               },
@@ -18988,7 +18494,8 @@
                 ],
                 "details": {
                   "sourceFile": "user_data_tiktok.json",
-                  "dataType": "TikTok Export"
+                  "dataType": "TikTok Export",
+                  "subjective_notes": "Cuenta de TikTok de dos hombres mayores que comparten su vida diaria, anécdotas y consejos con humor y cariño."
 
                 }
               },
@@ -19108,7 +18615,8 @@
                 ],
                 "details": {
                   "sourceFile": "user_data_tiktok.json",
-                  "dataType": "TikTok Export"
+                  "dataType": "TikTok Export",
+                  "subjective_notes": "Cuenta de TikTok de una mujer que comparte sketches con humor y sinceridad."
 
                 }
               },
@@ -19132,7 +18640,8 @@
                 ],
                 "details": {
                   "sourceFile": "user_data_tiktok.json",
-                  "dataType": "TikTok Export"
+                  "dataType": "TikTok Export",
+                  "subjective_notes": "Cuenta de TikTok que comparte experimentos científicos, datos curiosos y explicaciones de fenómenos naturales de forma entretenida y educativa."
 
                 }
               },
@@ -19276,7 +18785,8 @@
                 ],
                 "details": {
                   "sourceFile": "user_data_tiktok.json",
-                  "dataType": "TikTok Export"
+                  "dataType": "TikTok Export",
+                  "subjective_notes": "Cuenta de TikTok de un joven que comparte videos de su vida diaria, retos y momentos divertidos con amigos y familiares."
 
                 }
               },
@@ -19900,7 +19410,8 @@
                 ],
                 "details": {
                   "sourceFile": "user_data_tiktok.json",
-                  "dataType": "TikTok Export"
+                  "dataType": "TikTok Export",
+                  "subjective_notes": "Cuenta de TikTok de una artista del tatuaje que comparte su trabajo, procesos creativos y consejos sobre el cuidado de los tatuajes."
 
                 }
               },
@@ -19948,7 +19459,8 @@
                 ],
                 "details": {
                   "sourceFile": "user_data_tiktok.json",
-                  "dataType": "TikTok Export"
+                  "dataType": "TikTok Export",
+                  "subjective_notes": "Cuenta de TikTok de una creadora de contenido que comparte videos humorísticos, retos y momentos de su vida diaria."
 
                 }
               },
@@ -19992,7 +19504,7 @@
                   "Entretenimiento",
                   "Social",
                   "Consciente",
-                  "Following"
+                  "Following", "Arte"
                 ],
                 "details": {
                   "sourceFile": "user_data_tiktok.json",
@@ -20044,7 +19556,8 @@
                 ],
                 "details": {
                   "sourceFile": "user_data_tiktok.json",
-                  "dataType": "TikTok Export"
+                  "dataType": "TikTok Export",
+                  "subjective_notes": "Cuenta de TikTok de una joven que comparte videos de su vida diaria, moda y momentos divertidos con amigos y familiares."
 
                 }
               },
@@ -20064,7 +19577,7 @@
                   "Entretenimiento",
                   "Social",
                   "Consciente",
-                  "Following"
+                  "Following", "Amigos"
                 ],
                 "details": {
                   "sourceFile": "user_data_tiktok.json",
@@ -20112,7 +19625,7 @@
                   "Entretenimiento",
                   "Social",
                   "Consciente",
-                  "Following"
+                  "Following", "Amigos"
                 ],
                 "details": {
                   "sourceFile": "user_data_tiktok.json",
@@ -20140,7 +19653,8 @@
                 ],
                 "details": {
                   "sourceFile": "user_data_tiktok.json",
-                  "dataType": "TikTok Export"
+                  "dataType": "TikTok Export",
+                  "subjective_notes": "Cuenta de TikTok de una creadora de contenido que comparte videos de moda, estilo de vida y momentos divertidos con amigos y familiares."
 
                 }
               },
@@ -20356,7 +19870,8 @@
                 ],
                 "details": {
                   "sourceFile": "user_data_tiktok.json",
-                  "dataType": "TikTok Export"
+                  "dataType": "TikTok Export",
+                  "subjective_notes": "Cuenta de TikTok de una joven que comparte videos de su vida diaria, moda y momentos divertidos con amigos y familiares."
 
                 }
               },
@@ -20424,11 +19939,12 @@
                   "Entretenimiento",
                   "Social",
                   "Consciente",
-                  "Following"
+                  "Following", "Humor"
                 ],
                 "details": {
                   "sourceFile": "user_data_tiktok.json",
-                  "dataType": "TikTok Export"
+                  "dataType": "TikTok Export",
+                  "subjective_notes": "Cuenta de TikTok de una señora mayor que comparte videos de su vida diaria, moda y momentos divertidos con amigos y familiares."
 
                 }
               },
@@ -20592,7 +20108,7 @@
                   "Entretenimiento",
                   "Social",
                   "Consciente",
-                  "Following"
+                  "Following", "Amigos"
                 ],
                 "details": {
                   "sourceFile": "user_data_tiktok.json",
@@ -20640,7 +20156,7 @@
                   "Entretenimiento",
                   "Social",
                   "Consciente",
-                  "Following"
+                  "Following", "Amigos"
                 ],
                 "details": {
                   "sourceFile": "user_data_tiktok.json",
@@ -20716,7 +20232,8 @@
                 ],
                 "details": {
                   "sourceFile": "user_data_tiktok.json",
-                  "dataType": "TikTok Export"
+                  "dataType": "TikTok Export",
+                  "subjective_notes": "Cuenta de TikTok de una creadora de contenido que comparte videos humorísticos, retos y momentos de su vida diaria."
 
                 }
               },
@@ -23440,7 +22957,8 @@
                 ],
                 "details": {
                   "sourceFile": "youtube_data.json",
-                  "dataType": "Guardado en ver más tarde"
+                  "dataType": "Guardado en ver más tarde",
+                  "subjective_notes": "Me gusta aprender sobre historia y cultura, y este video me pareció interesante porque habla sobre la historia de la brujería y cómo ha sido percibida a lo largo del tiempo. También me gusta el formato de preguntas y respuestas, que hace que el contenido sea más dinámico y fácil de seguir."
 
                 }
               },
@@ -23462,7 +22980,8 @@
                 ],
                 "details": {
                   "sourceFile": "youtube_data.json",
-                  "dataType": "Guardado en ver más tarde"
+                  "dataType": "Guardado en ver más tarde",
+                  "subjective_notes": "Me gusta el género de horror y los videojuegos, y Silent Hill es una franquicia que siempre me ha interesado por su atmósfera inquietante y sus historias profundas. Este video me pareció interesante porque explora los orígenes y significados detrás de algunos de los monstruos más icónicos de la serie, lo que añade una capa extra de profundidad a mi comprensión del juego."
 
                 }
               },
@@ -23484,7 +23003,8 @@
                 ],
                 "details": {
                   "sourceFile": "youtube_data.json",
-                  "dataType": "Guardado en ver más tarde"
+                  "dataType": "Guardado en ver más tarde",
+                  "subjective_notes": "Me gusta Minecraft y los videos de supervivencia, y este video me pareció interesante porque combina ambos elementos en un escenario emocionante basado en Jurassic World. Me gusta ver cómo el creador del video enfrenta los desafíos y peligros del mundo de Minecraft mientras intenta sobrevivir en un entorno inspirado en una franquicia que me gusta."
 
                 }
               },
@@ -23506,7 +23026,8 @@
                 ],
                 "details": {
                   "sourceFile": "youtube_data.json",
-                  "dataType": "Guardado en ver más tarde"
+                  "dataType": "Guardado en ver más tarde",
+                  "subjective_notes": "Me gusta coleccionar y aprender sobre los personajes de Animal Crossing, y este video me pareció interesante porque explora la historia y el trasfondo de varios aldeanos del juego. Me gusta ver cómo el creador del video presenta información detallada sobre cada personaje, incluyendo su historia, personalidad y cómo encajan en el mundo del juego, lo que añade una capa extra de profundidad a mi comprensión del juego."
 
                 }
               },
@@ -23529,7 +23050,6 @@
                 "details": {
                   "sourceFile": "youtube_data.json",
                   "dataType": "Guardado en ver más tarde"
-
                 }
               },
               {
@@ -23572,7 +23092,8 @@
                 ],
                 "details": {
                   "sourceFile": "youtube_data.json",
-                  "dataType": "Guardado en ver más tarde"
+                  "dataType": "Guardado en ver más tarde",
+                  "subjective_notes": "Me gusta coleccionar y aprender sobre los personajes de Animal Crossing, y este video me pareció interesante porque explora los aldeanos más raros y difíciles de conseguir en el juego. Me gusta ver cómo el creador del video presenta información detallada sobre cada aldeano, incluyendo su historia, personalidad y cómo obtenerlos, lo que añade una capa extra de profundidad a mi comprensión del juego."
 
                 }
               },
@@ -23594,7 +23115,8 @@
                 ],
                 "details": {
                   "sourceFile": "youtube_data.json",
-                  "dataType": "Guardado en ver más tarde"
+                  "dataType": "Guardado en ver más tarde",
+                  "subjective_notes": "Me gusta el estilo retro y la estética hippie, y este video me pareció interesante porque muestra una isla inspirada en los años 70 en Animal Crossing. Me gusta ver cómo el creador del video ha diseñado y decorado la isla con elementos y colores que evocan esa época, lo que añade una capa extra de creatividad e inspiración a mi experiencia con el juego."
 
                 }
               },
@@ -23616,7 +23138,8 @@
                 ],
                 "details": {
                   "sourceFile": "youtube_data.json",
-                  "dataType": "Guardado en ver más tarde"
+                  "dataType": "Guardado en ver más tarde",
+                  "subjective_notes": "Me gusta explorar teorías y misterios en los juegos que disfruto, y este video me pareció interesante porque presenta varias teorías de conspiración relacionadas con la serie Animal Crossing. Me gusta ver cómo el creador del video analiza diferentes aspectos del juego y propone ideas intrigantes que hacen que mi experiencia con Animal Crossing sea más emocionante y llena de curiosidad."
 
                 }
               },
@@ -23682,7 +23205,8 @@
                 ],
                 "details": {
                   "sourceFile": "youtube_data.json",
-                  "dataType": "Guardado en ver más tarde"
+                  "dataType": "Guardado en ver más tarde",
+                  "subjective_notes": "Me gusta aprender nuevas técnicas y herramientas en 3D, y este video me pareció interesante porque explica cómo usar MASH en Maya para crear efectos visuales impresionantes. Me gusta ver cómo el creador del video presenta ejemplos prácticos y consejos útiles que puedo aplicar en mis propios proyectos, lo que añade una capa extra de conocimiento e inspiración a mi experiencia con el software."
 
                 }
               },
@@ -23704,7 +23228,8 @@
                 ],
                 "details": {
                   "sourceFile": "youtube_data.json",
-                  "dataType": "Guardado en ver más tarde"
+                  "dataType": "Guardado en ver más tarde",
+                  "subjective_notes": "Me gusta aprender nuevas técnicas y herramientas en 3D, y este video me pareció interesante porque explica cómo usar el nodo Merge en Maya para trabajar con partículas. Me gusta ver cómo el creador del video presenta ejemplos prácticos y consejos útiles que puedo aplicar en mis propios proyectos, lo que añade una capa extra de conocimiento e inspiración a mi experiencia con el software."
 
                 }
               },
@@ -23726,7 +23251,8 @@
                 ],
                 "details": {
                   "sourceFile": "youtube_data.json",
-                  "dataType": "Guardado en ver más tarde"
+                  "dataType": "Guardado en ver más tarde",
+                  "subjective_notes": "Me gusta aprender nuevas técnicas y herramientas en 3D, y este video me pareció interesante porque explica cómo crear partículas de texto en Maya. Me gusta ver cómo el creador del video presenta ejemplos prácticos y consejos útiles que puedo aplicar en mis propios proyectos, lo que añade una capa extra de conocimiento e inspiración a mi experiencia con el software."
 
                 }
               },
@@ -23770,7 +23296,8 @@
                 ],
                 "details": {
                   "sourceFile": "youtube_data.json",
-                  "dataType": "Guardado en ver más tarde"
+                  "dataType": "Guardado en ver más tarde",
+                  "subjective_notes": "Me interesa aprender sobre la mente humana y las diferentes experiencias que las personas pueden tener, y este video me pareció interesante porque explora el trastorno de identidad disociativo (TID) a través de la experiencia de alguien que lo padece. Me gusta ver cómo el creador del video presenta la información de manera respetuosa y educativa, lo que añade una capa extra de comprensión y empatía a mi conocimiento sobre la salud mental."
 
                 }
               },
@@ -23836,7 +23363,8 @@
                 ],
                 "details": {
                   "sourceFile": "youtube_data.json",
-                  "dataType": "Guardado en ver más tarde"
+                  "dataType": "Guardado en ver más tarde",
+                  "subjective_notes": "Me gusta aprender nuevas técnicas y herramientas en 3D, y este video me pareció interesante porque ofrece una guía completa para principiantes en Blender. Me gusta ver cómo el creador del video presenta conceptos básicos y avanzados de manera clara y accesible, lo que añade una capa extra de conocimiento e inspiración a mi experiencia con el software."
 
                 }
               },
@@ -24007,12 +23535,13 @@
                   "Propio",
                   "Consciente",
                   "@email",
-                  "Video",
+                  "Video", "Inglés",
                   "Entretenimiento", "Following"
                 ],
                 "details": {
                   "sourceFile": "youtube_data.json",
-                  "dataType": "Subscripción"
+                  "dataType": "Subscripción",
+                  "subjective_notes": "Me gusta el contenido creativo y divertido, y este canal me pareció interesante porque presenta videos únicos y entretenidos. Me gusta ver cómo el creador del canal experimenta con diferentes ideas y conceptos, lo que añade una capa extra de diversión e inspiración a mi experiencia en YouTube."
 
                 }
               },
@@ -24034,7 +23563,8 @@
                 ],
                 "details": {
                   "sourceFile": "youtube_data.json",
-                  "dataType": "Subscripción"
+                  "dataType": "Subscripción",
+                  "subjective_notes": "Este es el canal de un corto de una amiga. Me gusta apoyar a mis amigos y ver su trabajo creativo, y este canal me pareció interesante porque presenta contenido original y personal. Me gusta ver cómo mi amiga comparte sus ideas y experiencias a través de sus videos, lo que añade una capa extra de conexión e inspiración a mi experiencia en YouTube."
 
                 }
               },
@@ -24051,12 +23581,13 @@
                   "Propio",
                   "Consciente",
                   "@email",
-                  "Video", "Amigos",
+                  "Video", "Amigos", "Música","Techno",
                   "Entretenimiento", "Following"
                 ],
                 "details": {
                   "sourceFile": "youtube_data.json",
-                  "dataType": "Subscripción"
+                  "dataType": "Subscripción",
+                  "subjective_notes": "Este es el canal de unos amigos donde hacen sesiones de Techno con colaboradores. Me gusta apoyar a mis amigos y ver su trabajo creativo, y este canal me pareció interesante porque presenta contenido original y personal. Me gusta ver cómo mis amigos comparten sus ideas y experiencias a través de sus videos, lo que añade una capa extra de conexión e inspiración a mi experiencia en YouTube."
 
                 }
               },
@@ -24078,7 +23609,8 @@
                 ],
                 "details": {
                   "sourceFile": "youtube_data.json",
-                  "dataType": "Subscripción"
+                  "dataType": "Subscripción",
+                  "subjective_notes": "Este es el canal de un grupo de la universidad donde hice las prácticas sobre tecnología e internet. Me gusta aprender sobre estos temas y este canal me pareció interesante porque presenta contenido educativo y relevante. Me gusta ver cómo los miembros del grupo comparten sus conocimientos y experiencias a través de sus videos, lo que añade una capa extra de aprendizaje e inspiración a mi experiencia en YouTube."
 
                 }
               },
@@ -24100,7 +23632,8 @@
                 ],
                 "details": {
                   "sourceFile": "youtube_data.json",
-                  "dataType": "Subscripción"
+                  "dataType": "Subscripción",
+                  "subjective_notes": "Me gusta el contenido de True Crime y este canal me pareció interesante porque presenta casos intrigantes y bien investigados. Me gusta ver cómo la creadora del canal narra las historias de manera clara y cautivadora, lo que añade una capa extra de emoción e inspiración a mi experiencia en YouTube."
 
                 }
               },
@@ -24122,7 +23655,8 @@
                 ],
                 "details": {
                   "sourceFile": "youtube_data.json",
-                  "dataType": "Subscripción"
+                  "dataType": "Subscripción",
+                  "subjective_notes": "Me gusta el contenido de videojuegos y este canal me pareció interesante porque presenta gameplays y reseñas de diferentes juegos. Me gusta ver cómo el creador del canal comparte sus opiniones y experiencias de manera entretenida y auténtica, lo que añade una capa extra de diversión en YouTube."
 
                 }
               }
