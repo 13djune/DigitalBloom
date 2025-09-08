@@ -25,7 +25,7 @@ export default function About() {
       { id: 5, name: "iPhone", description: "Aquí se encontrarán los datos de aplicaciones como: Salud, Tiempo de uso,... Todo lo que hay en mi móvil personal.", color: colorMapping.IPHONE,   tags: tagList.filter(tag => ["Salud", "Educativo", "Humor", "Utilidades", "Propio"].includes(tag.name)) },
       { id: 6, name: "WhatsApp", description: "Esta App es la que más uso de mensajería, ni me acuerdo cuándo empecé a usarla. Todos mis conocidos usan esta app.", color: colorMapping.WHATSAPP,  tags: tagList.filter(tag => ["Mensajería", "Social", "Humor", "Propio", "#tlf"].includes(tag.name)) },
       { id: 7, name: "Streaming", description: "Esta sección se compone de plataformas como Netflix, Prime Video o HBO Max. Siempre me ha gustado ver series o películas, sola o acompañada.", color: colorMapping.STREAMING, tags: tagList.filter(tag => ["Cine", "Series", "Entretenimiento", "Compartido", "@email"].includes(tag.name)) },
-      { id: 8, name: "Google", description: "Todo lo que esté enlazado con esta plataforma, como Google Maps o Gmail, estará aquí. ALgunos datos se han modificado por temas de privacidad.", color: colorMapping.GOOGLE,  tags: tagList.filter(tag => ["Utilidades", "Ubicaciones", "Mensajería", "Propio", "@email"].includes(tag.name)) },
+      { id: 8, name: "Google", description: "Todo lo que esté enlazado con esta plataforma, como Google Maps (activé el seguimiento por cronología una temporada) o Gmail, estará aquí. ALgunos datos se han modificado por temas de privacidad.", color: colorMapping.GOOGLE,  tags: tagList.filter(tag => ["Utilidades", "Ubicaciones", "Mensajería", "Propio", "@email"].includes(tag.name)) },
     ];
     const [tooltip, setTooltip] = useState({ 
       visible: false, 
