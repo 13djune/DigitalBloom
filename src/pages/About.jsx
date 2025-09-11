@@ -14,6 +14,7 @@ import { platformImages, colorMapping, tagList } from "../utils/globalConfig";
 import CustomTooltip from "../components/CustomTooltip";
 import "../styles/Tooltip.css";
 import PixelLink from '../components/PixelLink';
+import InteractiveText from '../components/InteractiveText';
 
 import TextType from '../components/TextType';
 
@@ -46,7 +47,7 @@ export default function About() {
     const handleMouseLeave = () => {
       setTooltip(prev => ({ ...prev, visible: false, targetRect: null }));
     };
- 
+  
 
   return (
     <>
@@ -71,16 +72,15 @@ export default function About() {
 
           <section className="flex flex-row gap-10 md:gap-14 items-center">
             <div className=" w-[60dvw]">
-            <TextType className="text-4xl md:text-5xl font-extrabold tracking-wide mb-6"
+            <InteractiveText className="text-4xl md:text-5xl font-extrabold tracking-wide mb-6"
           text={"Digital Bloom"}
-          typingSpeed={75}
-          pauseDuration={900}
+          typingSpeed={60}
+          pauseDuration={2000}
+          loop={true}
           showCursor={true}
-          clearOnLoop={false} 
-          loop={false}
 
           cursorCharacter="|">
-        </TextType>
+        </InteractiveText>
            
               <div className="space-y-6 leading-relaxed opacity-90">
               <p className="text-xl">
@@ -153,7 +153,7 @@ export default function About() {
             </div>
             <div>
        
-                <TextType className="text-3xl md:text-4xl font-extrabold tracking-wide mb-4 flex flex-row items-center subjetivo-font"
+                <InteractiveText className="text-3xl md:text-4xl font-extrabold tracking-wide mb-4 flex flex-row items-center subjetivo-font"
           text={" Belén (June) "}
           typingSpeed={75}
           pauseDuration={900}
@@ -162,7 +162,7 @@ export default function About() {
           loop={false}
 
           cursorCharacter="|">
-        </TextType>
+        </InteractiveText>
                 <span className="text-lg opacity-80 align-super text-primary p-2 subjetivo-font">23 años</span>
                 <span className="text-lg opacity-80 align-super text-primary p-2 subjetivo-font">she/they</span>
 

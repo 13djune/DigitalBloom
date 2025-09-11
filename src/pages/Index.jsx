@@ -2,12 +2,17 @@ import FaultyTerminal from "../components/FaultyTerminal";
 import PixelLink from '../components/PixelLink';
 import PixelButton from "../components/PixelButton";
 import "../App.css";
-import TextType from '../components/TextType';
+// import TextType from '../components/TextType';
+import InteractiveText from '../components/InteractiveText';
+
 import Logo from '../assets/img/LOGO.png';
 import Flor from '../assets/img/FLOR.GIF';
 import { Icon } from "@iconify/react";
 
 export default function Index() {
+  const sentences = [
+    "Bienvenidx a una experiencia interactiva, creada a partir de mi propia huella digital...",
+  ];
   return (
     <>
       <main className="h-screen flex flex-col justify-center items-center text-center">
@@ -39,7 +44,7 @@ export default function Index() {
 
 </div>
 
-        <TextType className="max-w-xl mt-10 text-3xl text-text fixed bottom-[30%]"
+        {/* <TextType className="max-w-xl mt-10 text-3xl text-text fixed bottom-[30%]"
           text={[" Bienvenidx a una experiencia interactiva creada a partir", "de mi propia huella digital..."]}
           typingSpeed={75}
           pauseDuration={900}
@@ -48,7 +53,15 @@ export default function Index() {
           loop={false}
 
           cursorCharacter="|">
-        </TextType>
+        </TextType> */}
+        <InteractiveText
+          className="my-interactive-text max-w-xl mt-10 text-3xl fixed bottom-[30%]"
+          text={sentences}
+          typingSpeed={60}
+          pauseDuration={2000}
+          loop={true}
+         
+        />
 
         <div className="m-10 flex gap-24  fixed bottom-[3rem]">
           <PixelLink to="/about">
