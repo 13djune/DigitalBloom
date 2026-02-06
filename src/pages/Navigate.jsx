@@ -88,7 +88,7 @@ function LayoutLegends({ organization, totalPoints }) {
     return (
     <>
         <div className="timeline-info fixed top-4 left-1/2 -translate-x-1/2 z-50">
-          <p className="text-white bg-black/40 px-4 py-1 rounded-full text-sm">
+          <p className="text-white bg-black/40 px-4 py-1 rounded-full text-lg">
             Línea de tiempo con <strong className='text-accent'>{totalPoints}</strong> puntos de datos.
           </p>
         </div>
