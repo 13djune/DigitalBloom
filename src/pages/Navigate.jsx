@@ -24,7 +24,8 @@ const normalizeAndLevelDatasets = (list, level) =>
     tags: Array.isArray(d.tags) ? d.tags : [],
   }));
 
-const useFirstVisitFlag = (key = "navigate_tutorial_seen") => {
+// Usamos una nueva versión de la key para reiniciar el tutorial
+const useFirstVisitFlag = (key = "navigate_tutorial_seen_v4") => {
   const [shouldShow, setShouldShow] = useState(() => {
     try { return !JSON.parse(localStorage.getItem(key) || "false"); }
     catch { return true; }
@@ -45,31 +46,89 @@ function Walkthrough({ open, step, steps, onNext, onSkip }) {
       if (!open) return;
       const { selector } = steps[step] || {};
       const target = selector ? document.querySelector(selector) : null;
-      const bubble = bubbleRef.current;
       const vw = window.innerWidth, vh = window.innerHeight;
-      if (!target || !bubble) {
-        setBubblePos({ top: vh / 2 - 48, left: vw / 2 - 160, arrow: "top" });
-        setSpot({ x: vw / 2, y: vh / 2, r: 220 });
+      
+      // Si no hay target, centramos
+      if (!target) {
+        setBubblePos({ top: vh / 2 - 100, left: vw / 2 - 160, arrow: "top" });
+        setSpot({ x: vw / 2, y: vh / 2, r: 0 });
         return;
       }
+      
       const r = target.getBoundingClientRect();
-      setBubblePos({ top: r.bottom + 12, left: r.left + r.width / 2 - 160, arrow: "top" });
-      setSpot({ x: r.left + r.width / 2, y: r.top + r.height / 2, r: Math.max(r.width, r.height) / 2 + 22 });
+      const bubbleWidth = 320;
+      const bubbleHeight = 150; // altura estimada
+
+      // Lógica simple de posicionamiento:
+      // Intentamos ponerlo a la IZQUIERDA del elemento si hay espacio
+      let left = r.left - bubbleWidth - 20;
+      let top = r.top + (r.height / 2) - (bubbleHeight / 2);
+      let arrow = "right"; // La flecha apunta a la derecha (hacia el elemento)
+
+      // Si no cabe a la izquierda, probamos a la DERECHA
+      if (left < 20) {
+          left = r.right + 20;
+          arrow = "left"; // La flecha apunta a la izquierda
+      }
+
+      // Si el elemento está muy arriba o abajo, ajustamos el top
+      if (top < 20) top = 20;
+      if (top + bubbleHeight > vh - 20) top = vh - bubbleHeight - 20;
+
+      // Caso especial para elementos anchos abajo (como leyendas inferiores): Poner ARRIBA
+      if (r.top > vh - 150) {
+          top = r.top - bubbleHeight - 20;
+          left = r.left + (r.width/2) - (bubbleWidth/2);
+          arrow = "bottom";
+      }
+
+      setBubblePos({ top, left, arrow });
+      
+      // Calculamos el radio del spot (círculo iluminado)
+      const radius = Math.max(r.width, r.height) / 2 + 20;
+      setSpot({ x: r.left + r.width / 2, y: r.top + r.height / 2, r: radius });
+
     }, [open, step, steps]);
   
-    useEffect(() => { place(); }, [place]);
+    useEffect(() => { 
+        place();
+        window.addEventListener('resize', place);
+        return () => window.removeEventListener('resize', place);
+    }, [place]);
 
     if (!open) return null;
     const current = steps[step] || {};
   
     return (
       <>
-        <div className="coach-overlay" onClick={onSkip} aria-hidden>
-          {spot.x != null && (
-            <div className="coach-spot" style={{ width: spot.r * 2, height: spot.r * 2, left: spot.x - spot.r, top: spot.y - spot.r }} />
+        {/* Overlay oscuro con Z-Index alto */}
+        <div className="coach-overlay" onClick={onSkip} aria-hidden style={{ zIndex: 9998, position: 'fixed' }}>
+          {spot.x != null && spot.r > 0 && (
+            <div 
+                className="coach-spot" 
+                style={{ 
+                    position: 'absolute',
+                    width: spot.r * 2, 
+                    height: spot.r * 2, 
+                    left: spot.x - spot.r, 
+                    top: spot.y - spot.r 
+                }} 
+            />
           )}
         </div>
-        <div ref={bubbleRef} className={`coach-bubble coach-arrow-${bubblePos.arrow}`} style={{ top: bubblePos.top, left: bubblePos.left, width: 320 }}>
+
+        {/* Burbuja con estilo original restaurado y posición fija */}
+        <div 
+            ref={bubbleRef} 
+            className={`coach-bubble coach-arrow-${bubblePos.arrow}`} 
+            style={{ 
+                position: 'fixed', // Importante para que no se mueva con scroll
+                top: bubblePos.top, 
+                left: bubblePos.left, 
+                width: 320,
+                zIndex: 9999 
+            }}
+        >
           <div className="coach-body">{current.text}</div>
           <div className="coach-actions">
             <button className="btn ghost cursor-target" onClick={onSkip}>Omitir</button>
@@ -136,7 +195,7 @@ export default function Navigate() {
   const [organization, setOrganization] = useState('all');
   const navigate = useNavigate();
 
-  const { shouldShow, markSeen } = useFirstVisitFlag('navigate_tutorial_seen');
+  const { shouldShow, markSeen } = useFirstVisitFlag('navigate_tutorial_seen_v4');
   const [isWalkthroughOpen, setWalkthroughOpen] = useState(shouldShow);
   const [walkthroughStep, setWalkthroughStep] = useState(0);
   
@@ -170,11 +229,8 @@ export default function Navigate() {
     return [...d, ...c, ...r];
   }, []);
 
-  // --- MODIFICACIÓN CLAVE: Simplificado para solo actualizar estado ---
   const handleSelectItem = (item) => {
     setSelectedItem(item);
-    // Ya no llamamos a zoomHandler manualmente aquí porque
-    // TimelineDotGrid escucha cambios en la prop 'selectedItem'
   };
 
   return (
@@ -183,7 +239,7 @@ export default function Navigate() {
 
       <TimelineDotGrid
         data={allData}
-        selectedItem={selectedItem} // <--- NUEVA PROP CONECTADA
+        selectedItem={selectedItem} 
         onSelect={handleSelectItem}
         onZoomChange={zoomHandler}
         organization={organization}
@@ -209,7 +265,6 @@ export default function Navigate() {
           <Icon icon="pixelarticons:arrow-left" width="28" height="28" />
         </PixelLink>
         <div id="zoom-controls" className="zoom-controls">
-          {/* Estos controles siguen usando el zoomHandler ref para zoom manual */}
           <button onClick={() => zoomHandler.current(1.1)} className="round-cta cursor-target" data-tooltip="Acercar" onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}>
             <Icon icon="pixelarticons:zoom-in" width="28" height="28" />
           </button>
@@ -224,7 +279,6 @@ export default function Navigate() {
         allData={allData} 
         onClose={() => setSelectedItem(null)} 
         onSelect={handleSelectItem} 
-        className="z-100"
       />
       
       <LayoutLegends organization={organization} totalPoints={allData.length} />
