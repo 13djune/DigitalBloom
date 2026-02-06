@@ -15,9 +15,35 @@ import CustomTooltip from "../components/CustomTooltip";
 import "../styles/Tooltip.css";
 import PixelLink from '../components/PixelLink';
 import InteractiveText from '../components/InteractiveText';
-
 import TextType from '../components/TextType';
 
+const CensorshipOverlay = () => (
+  <div 
+    className="absolute inset-0 z-[100] flex items-center justify-center p-4 overflow-hidden"
+    style={{ 
+      backdropFilter: "blur(25px)", 
+      WebkitBackdropFilter: "blur(25px)", 
+      backgroundColor: "rgba(0, 3, 30, 0.95)", 
+      border: "3px solid #A1E6F6" 
+    }}
+  >
+     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" id="Interface-Essential-Stop-Sign-2--Streamline-Pixel" height="32" width="32">
+  <desc>
+    Interface Essential Stop Sign 2 Streamline Icon: https://streamlinehq.com
+  </desc>
+  <title>interface-essential-stop-sign-2</title>
+  <g>
+    <path d="M30.48 6.09h-1.53V4.57h-1.52V3.05h-1.52V1.52h-1.53V0H7.62v1.52H6.1v1.53H4.57v1.52H3.05v1.52H1.53v1.53H0v16.76h1.53v1.52h1.52v1.53h1.52v1.52H6.1v1.53h1.52V32h16.76v-1.52h1.53v-1.53h1.52v-1.52h1.52V25.9h1.53v-1.52H32V7.62h-1.52Zm-1.53 18.29h-1.52v1.52h-1.52v1.53h-1.53v1.52H7.62v-1.52H6.1V25.9H4.57v-1.52H3.05V7.62h1.52V6.09H6.1V4.57h1.52V3.05h16.76v1.52h1.53v1.52h1.52v1.53h1.52Z" fill="#A1E6F6" stroke-width="1"></path>
+    <path d="M27.43 7.62h-1.52V6.09h-1.53V4.57H7.62v1.52H6.1v1.53H4.57v16.76H6.1v1.52h1.52v1.53h16.76V25.9h1.53v-1.52h1.52Zm-4.57 16.76h-1.52v1.52h-9.15v-1.52h-1.52v-3.05H9.15v-1.52H7.62v-1.53H6.1v-3.04h3.05v1.52h1.52v1.52h1.52V7.62h1.53v9.14h1.52V6.09h1.52v10.67h1.53V7.62h1.52v9.14h1.53v-6.09h1.52Z" fill="#A1E6F6" stroke-width="1"></path>
+    <path d="M18.29 21.33h1.52v1.53h-1.52Z" fill="#A1E6F6" stroke-width="1"></path>
+    <path d="M18.29 18.28h1.52v1.53h-1.52Z" fill="#A1E6F6" stroke-width="1"></path>
+    <path d="M15.24 22.86h3.05v1.52h-3.05Z" fill="#A1E6F6" stroke-width="1"></path>
+    <path d="M13.72 21.33h1.52v1.53h-1.52Z" fill="#A1E6F6" stroke-width="1"></path>
+    <path d="M13.72 18.28h1.52v1.53h-1.52Z" fill="#A1E6F6" stroke-width="1"></path>
+  </g>
+</svg>
+  </div>
+);
 
 export default function About() {
     const navigate = useNavigate();
@@ -31,11 +57,13 @@ export default function About() {
       { id: 7, name: "Streaming", description: "Esta sección se compone de plataformas como Netflix, Prime Video o HBO Max. Siempre me ha gustado ver series o películas, sola o acompañada.", color: colorMapping.STREAMING, tags: tagList.filter(tag => ["Cine", "Series", "Entretenimiento", "Compartido", "@email"].includes(tag.name)) },
       { id: 8, name: "Google", description: "Todo lo que esté enlazado con esta plataforma, como Google Maps (activé el seguimiento por cronología una temporada) o Gmail, estará aquí. Algunos datos se han modificado por temas de privacidad.", color: colorMapping.GOOGLE,  tags: tagList.filter(tag => ["Utilidades", "Ubicaciones", "Mensajería", "Propio", "@email"].includes(tag.name)) },
     ];
+
     const [tooltip, setTooltip] = useState({ 
       visible: false, 
       text: "", 
       targetRect: null 
     });
+
     const handleMouseEnter = (e) => {
       const text = e.currentTarget.getAttribute('data-tooltip');
       const rect = e.currentTarget.getBoundingClientRect();
@@ -51,7 +79,6 @@ export default function About() {
 
   return (
     <>
-  
       <CustomTooltip 
         text={tooltip.text} 
         visible={tooltip.visible} 
@@ -60,61 +87,59 @@ export default function About() {
       <main className="about-page text-text bg-background min-h-screen">
         <div className="max-w-6xl mx-auto px-6 md:px-8 lg:px-10 py-10 md:py-12">
 
-        <div className="mb-6">
-          
-            <PixelLink    onClick={() => navigate(-1)}
- id="btn-back-to-explore" className="round-cta cursor-target fixed top-10 left-8"     aria-label="Volver"
-          data-tooltip="Volver"  onMouseEnter={handleMouseEnter}
-          onMouseLeave={handleMouseLeave}>
-          <Icon icon="pixelarticons:arrow-left" width="28" height="28" />
-        </PixelLink>
-        </div>
+          <div className="mb-6">
+            <PixelLink onClick={() => navigate(-1)}
+              id="btn-back-to-explore" className="round-cta cursor-target fixed top-10 left-8" aria-label="Volver"
+              data-tooltip="Volver" onMouseEnter={handleMouseEnter}
+              onMouseLeave={handleMouseLeave}>
+              <Icon icon="pixelarticons:arrow-left" width="28" height="28" />
+            </PixelLink>
+          </div>
 
           <section className="flex flex-row gap-10 md:gap-14 items-center">
             <div className=" w-[60dvw]">
-            <InteractiveText className="text-4xl md:text-5xl font-extrabold tracking-wide mb-6"
-          text={"Digital Bloom"}
-          typingSpeed={60}
-          pauseDuration={2000}
-          loop={true}
-          showCursor={true}
-
-          cursorCharacter="|">
-        </InteractiveText>
+              <InteractiveText className="text-4xl md:text-5xl font-extrabold tracking-wide mb-6"
+                text={"Digital Bloom"}
+                typingSpeed={60}
+                pauseDuration={2000}
+                loop={true}
+                showCursor={true}
+                cursorCharacter="|">
+              </InteractiveText>
            
               <div className="space-y-6 leading-relaxed opacity-90">
-              <p className="text-xl">
-    Este proyecto es <span className=" text-accent">un autorretrato hecho con mi propia vida online, hecho con toda esa información invisible que soltamos por ahí. </span>
-    Todo empezó por pura curiosidad: me puse a mirar la cantidad de datos que hay sobre mí en internet y aluciné. 
-    Canciones que he escuchado, sitios donde he estado, horas de móvil… un montón de información a la que nunca había prestado atención. 
-    Lo más chocante fue darme cuenta de que ahí estaba <span className=" text-accent">mi propia identidad. </span>
-    Pude ver perfectamente cómo han cambiado mis gustos, mis manías y mi forma de vivir con el paso de tiempo.
-</p>
-<p className="text-xl">
-    Así que me pasé meses recopilando todo ese material, ordenándolo y buscando la forma de convertirlo en algo visual y creativo. 
-    He cambiado algunas cosas para <span className="text-accent">proteger mi privacidad</span>, pero casi todo lo que se ve en la obra es el <span className=" text-accent"> rastro real</span> que he ido dejando.
-</p>
-<p className="text-xl">
-    Para dar sentido a esta marabunta de información, la he organizado en <span className=" text-accent">tres niveles de conciencia</span>, que van desde lo más consciente (<span className=" text-accent">deseo</span>, que reflejan gustos e intereses), pasando por lo cotidiano (<span className=" text-accent">cuerpo</span>, que reflejan la presencia y actividad física), hasta lo más involuntario (<span className=" text-accent">rastro</span>, más pasivos e inconscientes). Además, todo se puede explorar en distintos <span className=" text-accent">periódos de tiempo</span> (últimas 4 semanas, últimos 6 meses, y último año o más) para ver la evolución.
-</p>
-<p className="text-xl">
-    Es importante entender que cada periodo funciona como un espacio independiente, no se acumulan. Al elegir "últimos 6 meses", por ejemplo, verás únicamente los datos de ese fragmento de tiempo, permitiendo una comparación más limpia entre el "yo" de antes y el de ahora. En algunos datos también encontrarás <span className=" text-accent">notas personales</span> que he añadido para explicar su significado o contexto.
-</p>
-<p className="text-xl">
-    Para añadir aún más contexto, verás que algunos datos incluyen <span className=" text-accent">notas personales</span> y también una serie de <span className=" text-accent">etiquetas (tags)</span> que revelan su naturaleza. Con ellas distingo si un dato fue generado de forma <strong className="text-accent">Consciente</strong> o si, por el contrario, fue <strong className="text-accent">Inconsciente</strong> y me sorprendió encontrarlo. También señalo si es algo <strong className="text-accent">Propio</strong> (hecho por mí), <strong className="text-accent">Compartido</strong> (hecho con alguien más) o incluso <strong className="text-accent">Contaminado</strong>, cuando alguien usó mi cuenta y dejó una huella que no es la mía.
-</p>
-<p className="text-xl">
-    La idea es <span className=" text-accent">invitarte a que explores y pienses en la historia que se esconde detrás de nuestros datos</span>, y en cómo las cosas más normales del día a día pueden acabar siendo algo muy propio.
-</p>
+                <p className="text-xl">
+                  Este proyecto es <span className=" text-accent">un autorretrato hecho con mi propia vida online, hecho con toda esa información invisible que soltamos por ahí. </span>
+                  Todo empezó por pura curiosidad: me puse a mirar la cantidad de datos que hay sobre mí en internet y aluciné. 
+                  Canciones que he escuchado, sitios donde he estado, horas de móvil… un montón de información a la que nunca había prestado atención. 
+                  Lo más chocante fue darme cuenta de que ahí estaba <span className=" text-accent">mi propia identidad. </span>
+                  Pude ver perfectamente cómo han cambiado mis gustos, mis manías y mi forma de vivir con el paso de tiempo.
+                </p>
+                <p className="text-xl">
+                  Así que me pasé meses recopilando todo ese material, ordenándolo y buscando la forma de convertirlo en algo visual y creativo. 
+                  He cambiado algunas cosas para <span className="text-accent">proteger mi privacidad</span>, pero casi todo lo que se ve en la obra es el <span className=" text-accent"> rastro real</span> que he ido dejando.
+                </p>
+                <p className="text-xl">
+                  Para dar sentido a esta marabunta de información, la he organizado en <span className=" text-accent">tres niveles de conciencia</span>, que van desde lo más consciente (<span className=" text-accent">deseo</span>, que reflejan gustos e intereses), pasando por lo cotidiano (<span className=" text-accent">cuerpo</span>, que reflejan la presencia y actividad física), hasta lo más involuntario (<span className=" text-accent">rastro</span>, más pasivos e inconscientes). Además, todo se puede explorar en distintos <span className=" text-accent">periódos de tiempo</span> (últimas 4 semanas, últimos 6 meses, y último año o más) para ver la evolución.
+                </p>
+                <p className="text-xl">
+                  Es importante entender que cada periodo funciona como un espacio independiente, no se acumulan. Al elegir "últimos 6 meses", por ejemplo, verás únicamente los datos de ese fragmento de tiempo, permitiendo una comparación más limpia entre el "yo" de antes y el de ahora. En algunos datos también encontrarás <span className=" text-accent">notas personales</span> que he añadido para explicar su significado o contexto.
+                </p>
+                <p className="text-xl">
+                  Para añadir aún más contexto, verás que algunos datos incluyen <span className=" text-accent">notas personales</span> y también una serie de <span className=" text-accent">etiquetas (tags)</span> que revelan su naturaleza. Con ellas distingo si un dato fue generado de forma <strong className="text-accent">Consciente</strong> o si, por el contrario, fue <strong className="text-accent">Inconsciente</strong> y me sorprendió encontrarlo. También señalo si es algo <strong className="text-accent">Propio</strong> (hecho por mí), <strong className="text-accent">Compartido</strong> (hecho con alguien más) o incluso <strong className="text-accent">Contaminado</strong>, cuando alguien usó mi cuenta y dejó una huella que no es la mía.
+                </p>
+                <p className="text-xl">
+                  La idea es <span className=" text-accent">invitarte a que explores y pienses en la historia que se esconde detrás de nuestros datos</span>, y en cómo las cosas más normales del día a día pueden acabar siendo algo muy propio.
+                </p>
                 <p className="text-2xl text-accent ">
                   ¿Te animas a ver todo lo que hay en mi huella digital?
-                   </p>
-                   <PixelLink to="/navigate">
-                    <PixelButton className="cursor-target mt-[2rem]">
-                        Navegar
-                        <Icon icon="pixelarticons:map" width="18" height="18" />
-                    </PixelButton>
-                  </PixelLink>
+                </p>
+                <PixelLink to="/navigate">
+                  <PixelButton className="cursor-target mt-[2rem]">
+                    Navegar
+                    <Icon icon="pixelarticons:map" width="18" height="18" />
+                  </PixelButton>
+                </PixelLink>
               </div>
             </div>
             <div className="relative w-[40dvw] h-[120dvh]">
@@ -124,24 +149,28 @@ export default function About() {
 
           <section className="mt-10 md:mt-14">
             <TextType className="text-2xl text-accent"
-          text={"También puedes filtrar mi huella digital y explorar poco a poco:"}
-          typingSpeed={75}
-          pauseDuration={900}
-          showCursor={false}
-          clearOnLoop={false} 
-          loop={false}
-
-          cursorCharacter="|">
-        </TextType>
+              text={"También puedes filtrar mi huella digital y explorar poco a poco:"}
+              typingSpeed={75}
+              pauseDuration={900}
+              showCursor={false}
+              clearOnLoop={false} 
+              loop={false}
+              cursorCharacter="|">
+            </TextType>
                
-            {/* --- COMPONENTE SIMPLIFICADO --- */}
             <FiltersInline
               onReset={() => console.log("Reset filtros")}
             />
           </section>
-
+<section>
+  <div className="flex justify-center">
+    <h3 className="text-2xl font-bold tracking-wide mb-4 mt-14 md:mt-20 text-accent">Se han censurado información sobre lx autorx para mantener el anonimato para los premios ADG Laus 2026.</h3>
+  </div>
+</section>
           <section className="grid md:grid-cols-2 gap-12 md:gap-16 items-start mt-14 md:mt-20">
+            {/* IMAGEN CENSURADA */}
             <div className="relative">
+                <CensorshipOverlay />
                 <PixelImg
                     firstContent={ <img src={Avatar} alt="An avatar of the author in pixelart style" style={{ width: "100%", height: "100%", objectFit: "cover" }} /> }
                     secondContent={ <img src={BitMe} alt="The author in bitmap style" style={{ width: "100%", height: "100%", objectFit: "cover" , backgroundColor: '#00031E'}} /> }
@@ -151,52 +180,66 @@ export default function About() {
                     className="custom-pixel-card"
                 />
             </div>
+                
             <div>
-       
-                <InteractiveText className="text-3xl md:text-4xl font-extrabold tracking-wide mb-4 flex flex-row items-center subjetivo-font"
-          text={" Belén (June) "}
-          typingSpeed={75}
-          pauseDuration={900}
-          showCursor={true}
-          clearOnLoop={false} 
-          loop={false}
-
-          cursorCharacter="|">
-        </InteractiveText>
-                <span className="text-lg opacity-80 align-super text-primary p-2 subjetivo-font">23 años</span>
-                <span className="text-lg opacity-80 align-super text-primary p-2 subjetivo-font">she/they</span>
-
-              
-              <div className="flex flex-wrap gap-2 mb-6">
-                <span className="af-chip"><Icon icon="pixelarticons:briefcase-check" width="24" height="24" className="pr-2"/>UX/UI Designer</span>
-                <span className="af-chip"><Icon icon="pixelarticons:home" width="24" height="24" className="pr-2"/>Cartagena, Murcia</span>
-                <span className="af-chip"><Icon icon="pixelarticons:pin" width="24" height="24" className="pr-2"/>Madrid</span>
-                <span className="af-chip"><Icon icon="pixelarticons:device-vibrate" width="24" height="24" className="pr-2"/>Gen Z</span>
-                <span className="af-chip"><Icon icon="pixelarticons:volume-3" width="24" height="24" className="pr-2"/>Español | Inglés</span>
-                <span className="af-chip"><Icon icon="pixelarticons:moon-stars" width="24" height="24" className="pr-2"/>Noctámbula</span>
-                <span className="af-chip"><Icon icon="pixelarticons:drop" width="24" height="24" className="pr-2"/>Emocional</span>
-                <span className="af-chip"><Icon icon="pixelarticons:lightbulb-on" width="24" height="24" className="pr-2"/>Curiosa</span>
-              </div>
-              <div className="space-y-6 leading-relaxed opacity-90">
-                <p className="text-xl">
-                ¡Hola! Soy Belén (o June para mis amigos), una diseñadora UX/UI de Cartagena, pero ahora estoy en Madrid, siempre metida en algún proyecto y aprendiendo algo nuevo.
-                 </p>
-                <p className="text-xl">
-                Me flipa entender qué pasa entre las personas y las pantallas. Sobre todo, me obsesiona cómo nuestros datos o nuestra vida online pueden usarse para crear experiencias que de verdad te lleguen y signifiquen algo.
-                </p>
-                <p className="text-xl">
-                Me muevo un poco entre el diseño, el arte digital y la investigación, porque me encanta mezclar la parte técnica con un toque más humano y poético. 
-                Siendo de la generación Z, mi relación con internet es... intensa. Es un caos a veces, pero también es mi mayor fuente de inspiración y el sitio donde encuentro nuevas formas de contar historias.
-                </p>
-                <div className="flex items-center justify-between">
-                    <p className="text-xl subjetivo-font text-accent">Si quieres conocer un poco más de mi trabajo:</p>
-                    <Link to="https://belencastillo.netlify.app/">
-                        <PixelButton className="cursor-target">
-                            Mi Portfolio <Icon icon="pixelarticons:contact" width="18" height="18" />
-                        </PixelButton>
-                    </Link>
+                {/* NOMBRE CENSURADO */}
+                <div className="relative inline-block mb-4">
+                  <CensorshipOverlay />
+                  <InteractiveText className="text-3xl md:text-4xl font-extrabold tracking-wide flex flex-row items-center subjetivo-font"
+                    text={" Belén (June) "}
+                    typingSpeed={75}
+                    pauseDuration={900}
+                    showCursor={true}
+                    clearOnLoop={false} 
+                    loop={false}
+                    cursorCharacter="|">
+                  </InteractiveText>
+                  <span className="text-lg opacity-80 align-super text-primary p-2 subjetivo-font">23 años</span>
+                  <span className="text-lg opacity-80 align-super text-primary p-2 subjetivo-font">she/they</span>
                 </div>
-              </div>
+
+                {/* LOS 8 CHIPS - VISIBLES */}
+                <div className="flex flex-wrap gap-2 mb-6">
+                  <span className="af-chip"><Icon icon="pixelarticons:briefcase-check" width="24" height="24" className="pr-2"/>UX/UI Designer</span>
+                  {/* <span className="af-chip"><Icon icon="pixelarticons:home" width="24" height="24" className="pr-2"/>Cartagena, Murcia</span> */}
+                  <span className="af-chip"><Icon icon="pixelarticons:pin" width="24" height="24" className="pr-2"/>Madrid</span>
+                  <span className="af-chip"><Icon icon="pixelarticons:device-vibrate" width="24" height="24" className="pr-2"/>Gen Z</span>
+                  <span className="af-chip"><Icon icon="pixelarticons:volume-3" width="24" height="24" className="pr-2"/>Español | Inglés</span>
+                  <span className="af-chip"><Icon icon="pixelarticons:moon-stars" width="24" height="24" className="pr-2"/>Noctámbulx</span>
+                  <span className="af-chip"><Icon icon="pixelarticons:drop" width="24" height="24" className="pr-2"/>Emocional</span>
+                  <span className="af-chip"><Icon icon="pixelarticons:lightbulb-on" width="24" height="24" className="pr-2"/>Curiosx</span>
+                </div>
+
+                <div className="space-y-6 leading-relaxed opacity-90">
+                  {/* PRIMER PÁRRAFO CENSURADO */}
+                  <div className="relative">
+                    <CensorshipOverlay />
+                    <p className="text-xl">
+                    ¡Hola! Soy Belén (o June para mis amigos), una diseñadora UX/UI de Cartagena, pero ahora estoy en Madrid, siempre metida en algún proyecto y aprendiendo algo nuevo.
+                    </p>
+                  </div>
+                  
+                  <p className="text-xl">
+                  Me flipa entender qué pasa entre las personas y las pantallas. Sobre todo, me obsesiona cómo nuestros datos o nuestra vida online pueden usarse para crear experiencias que de verdad te lleguen y signifiquen algo.
+                  </p>
+                  <p className="text-xl">
+                  Me muevo un poco entre el diseño, el arte digital y la investigación, porque me encanta mezclar la parte técnica con un toque más humano y poético. 
+                  Siendo de la generación Z, mi relación con internet es... intensa. Es un caos a veces, pero también es mi mayor fuente de inspiración y el sitio donde encuentro nuevas formas de contar historias.
+                  </p>
+                  
+                  {/* BLOQUE PORTFOLIO CENSURADO */}
+                  <div className="relative p-2 rounded-lg">
+                      <CensorshipOverlay />
+                      <div className="flex items-center justify-between">
+                          <p className="text-xl subjetivo-font text-accent">Si quieres conocer un poco más de mi trabajo:</p>
+                          <Link to="https://belencastillo.netlify.app/">
+                              <PixelButton className="cursor-target">
+                                  Mi Portfolio <Icon icon="pixelarticons:contact" width="18" height="18" />
+                              </PixelButton>
+                          </Link>
+                      </div>
+                  </div>
+                </div>
             </div>
           </section>
          
